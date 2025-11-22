@@ -150,7 +150,7 @@
     "1ac3b07c-81ff-8068-828b-fec9cdc96765": {
       "value": {
         "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
-        "version": 64,
+        "version": 69,
         "type": "collection_view",
         "view_ids": [
           "1ac3b07c-81ff-80ee-821a-000cec78a24c"
@@ -166,7 +166,7 @@
           "social_media_image_preview_url": "attachment:fb48497c-047a-4a51-8d55-ff2f2a45c136:SocialMediaPreviewImage.png"
         },
         "created_time": 1741119010204,
-        "last_edited_time": 1755881175648,
+        "last_edited_time": 1763794560935,
         "parent_id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
         "parent_table": "block",
         "alive": true,
@@ -204,7 +204,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 340,
+        "version": 341,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -282,7 +282,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763784546918,
+        "last_edited_time": 1763788327954,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -3976,7 +3976,7 @@
     "1ac3b07c-81ff-8086-a96b-000b78a078f2": {
       "value": {
         "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
-        "version": 32,
+        "version": 43,
         "name": [
           [
             "目次"
@@ -3986,6 +3986,10 @@
           "`q`e": {
             "name": "タグ",
             "type": "multi_select"
+          },
+          "t~Sf": {
+            "name": "Slug",
+            "type": "text"
           },
           "vidt": {
             "name": "作成日時",
@@ -4000,6 +4004,25 @@
           "layout_pointer": {
             "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
             "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "property_visibility": [
+            {
+              "property": "vidt",
+              "visibility": "show"
+            },
+            {
+              "property": "`q`e",
+              "visibility": "show"
+            },
+            {
+              "property": "t~Sf",
+              "visibility": "show"
+            }
+          ],
+          "metadata_copied_from": {
+            "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+            "table": "block",
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "ai_suggested_properties": [
@@ -4107,7 +4130,13 @@
           "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
         ],
         "migrated": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1741119010204,
+        "last_edited_time": 1763794560935,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
       "role": "reader"
     },
@@ -4232,7 +4261,7 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "1ad3b07c-81ff-80e4-8271-c7f781e181c3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/58b38835-b3fa-40ec-aed7-324cfb602cc4/スクリーンショット_2025-04-25_043543.png?table=block&id=1ad3b07c-81ff-80e4-8271-c7f781e181c3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=-YXOn4cGgTYG3MdRWkK_bUNhLZVatBFF86wguLN4lvA",
-    "28f3b07c-81ff-8088-86f4-f50d66e82b31": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f851a34a-942a-451e-be0f-95bf47dfc590/スクリーンショット_(413).png?table=block&id=28f3b07c-81ff-8088-86f4-f50d66e82b31&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=4XGSeFFSqfwGUGDDSggglLc9t9XIi4osTANYiYoh8yI"
+    "1ad3b07c-81ff-80e4-8271-c7f781e181c3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/58b38835-b3fa-40ec-aed7-324cfb602cc4/スクリーンショット_2025-04-25_043543.png?table=block&id=1ad3b07c-81ff-80e4-8271-c7f781e181c3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763820000000&signature=e19_1l1kvWd3zGXFRLcL5FF-N1cUhm774Mi_4l12jA4",
+    "28f3b07c-81ff-8088-86f4-f50d66e82b31": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f851a34a-942a-451e-be0f-95bf47dfc590/スクリーンショット_(413).png?table=block&id=28f3b07c-81ff-8088-86f4-f50d66e82b31&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763820000000&signature=l-ZeGDq0N3rKMbmTW8bMlmjimmVQh9kAfqKHd5qIKL8"
   }
 }

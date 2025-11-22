@@ -95,9 +95,14 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1701,
+        "version": 1711,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "characters"
+            ]
+          ],
           "title": [
             [
               "登場人物"
@@ -106,6 +111,8 @@
         },
         "content": [
           "1b93b07c-81ff-80b9-9ac2-d0727e53b718",
+          "2b33b07c-81ff-8001-ac48-d49edbba4187",
+          "2b33b07c-81ff-80e8-9803-e9a67f8c5f3f",
           "1bc3b07c-81ff-8013-a1ca-d8d691d310f4",
           "1bd3b07c-81ff-8027-9f21-e8948f739d78",
           "1b63b07c-81ff-809a-86e7-c628716ebd94",
@@ -275,7 +282,8 @@
           "2b13b07c-81ff-8028-a0de-e0eef35f3587",
           "1bf3b07c-81ff-8090-ac79-dfbca3b5853e",
           "1b63b07c-81ff-80de-a3b0-c95920f86655",
-          "2083b07c-81ff-802d-bf18-e376d867503c"
+          "2083b07c-81ff-802d-bf18-e376d867503c",
+          "2b33b07c-81ff-8055-8a11-ecf71272b1b3"
         ],
         "format": {
           "slug": "characters",
@@ -284,7 +292,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1763651030412,
+        "last_edited_time": 1763797963782,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -333,7 +341,7 @@
     "1ac3b07c-81ff-8068-828b-fec9cdc96765": {
       "value": {
         "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
-        "version": 64,
+        "version": 69,
         "type": "collection_view",
         "view_ids": [
           "1ac3b07c-81ff-80ee-821a-000cec78a24c"
@@ -349,7 +357,7 @@
           "social_media_image_preview_url": "attachment:fb48497c-047a-4a51-8d55-ff2f2a45c136:SocialMediaPreviewImage.png"
         },
         "created_time": 1741119010204,
-        "last_edited_time": 1755881175648,
+        "last_edited_time": 1763794560935,
         "parent_id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
         "parent_table": "block",
         "alive": true,
@@ -387,7 +395,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 340,
+        "version": 341,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -465,7 +473,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763784546918,
+        "last_edited_time": 1763788327954,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -5588,7 +5596,7 @@
     "1ac3b07c-81ff-8086-a96b-000b78a078f2": {
       "value": {
         "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
-        "version": 32,
+        "version": 43,
         "name": [
           [
             "目次"
@@ -5598,6 +5606,10 @@
           "`q`e": {
             "name": "タグ",
             "type": "multi_select"
+          },
+          "t~Sf": {
+            "name": "Slug",
+            "type": "text"
           },
           "vidt": {
             "name": "作成日時",
@@ -5612,6 +5624,25 @@
           "layout_pointer": {
             "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
             "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "property_visibility": [
+            {
+              "property": "vidt",
+              "visibility": "show"
+            },
+            {
+              "property": "`q`e",
+              "visibility": "show"
+            },
+            {
+              "property": "t~Sf",
+              "visibility": "show"
+            }
+          ],
+          "metadata_copied_from": {
+            "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+            "table": "block",
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "ai_suggested_properties": [
@@ -5719,7 +5750,13 @@
           "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
         ],
         "migrated": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1741119010204,
+        "last_edited_time": 1763794560935,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
       "role": "reader"
     },
@@ -5844,11 +5881,11 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "1b93b07c-81ff-8007-92ae-c6640962785d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/814472b4-0a48-4a6b-a1c8-28c3df8f43a7/760ca1e5gy1hsvb9lg4rjj20sg114hdt.jpg?table=block&id=1b93b07c-81ff-8007-92ae-c6640962785d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=0MzTMODWEd4SlwCkul6SoShuvvo95NgUzYFa3UYNCKo",
-    "1bf3b07c-81ff-8076-b98d-c469a5f007e4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/33f38733-924a-479e-85a9-40d9d388b129/2025-02-08_17-31-35.mp4_snapshot_14.43_2025.03.08_02.09.28.jpg?table=block&id=1bf3b07c-81ff-8076-b98d-c469a5f007e4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=lVr1MgpRVWjfMU_OZwrN7RxdjoP7H2URMDXFXcahrRw",
-    "1bf3b07c-81ff-8045-a9de-fc4d63faeb84": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/2a5b7a1a-a706-4b33-9665-002b4b8b3860/2025-02-28_18-19-08.mp4_snapshot_00.28.34_2025.03.08_23.23.41.jpg?table=block&id=1bf3b07c-81ff-8045-a9de-fc4d63faeb84&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=5omO3gOrIMjmB6W52sYnjW9ykMSSpso-YuKkyI4UJjQ",
-    "1bf3b07c-81ff-80f1-ac5b-dc3289ef7047": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/4fe4034f-198c-4c04-88b0-545e0c326145/2025-01-13_13-25-49.mp4_snapshot_01.13_2025.03.06_22.38.18.jpg?table=block&id=1bf3b07c-81ff-80f1-ac5b-dc3289ef7047&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=2sFTtXF3Oe5_cMdzqpnqO4Kq-Zjfl8eld95LbSS3xSY",
-    "1bf3b07c-81ff-806e-8152-ffdce9d65612": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/4c63992e-1398-408a-ad1f-3ca52d8537e1/2025-01-13_13-25-49.mp4_snapshot_02.39_2025.03.06_22.40.58.jpg?table=block&id=1bf3b07c-81ff-806e-8152-ffdce9d65612&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=B1O24ZPGc6exA16VDZWKxIKyhHvg24X6ve6fwZ-flJ4",
-    "1bf3b07c-81ff-80fe-989c-f589d2aa47a7": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/9c455fea-100d-4113-a2b7-5dcc65cc8e14/2025-01-13_13-25-49.mp4_snapshot_05.22_2025.03.06_22.43.27.jpg?table=block&id=1bf3b07c-81ff-80fe-989c-f589d2aa47a7&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=YHKwRI5oN5Hzr3XnVyHVO2rr6n3sZ9bnFryROz-sGdc"
+    "1b93b07c-81ff-8007-92ae-c6640962785d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/814472b4-0a48-4a6b-a1c8-28c3df8f43a7/760ca1e5gy1hsvb9lg4rjj20sg114hdt.jpg?table=block&id=1b93b07c-81ff-8007-92ae-c6640962785d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763820000000&signature=vocK4vh4BSk58AWK3Tcw8_Mpf8z9eFh1EOEhRQFlh9U",
+    "1bf3b07c-81ff-8076-b98d-c469a5f007e4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/33f38733-924a-479e-85a9-40d9d388b129/2025-02-08_17-31-35.mp4_snapshot_14.43_2025.03.08_02.09.28.jpg?table=block&id=1bf3b07c-81ff-8076-b98d-c469a5f007e4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763820000000&signature=nrPrjXd4dySMLTzej69_NtDwNqFsh6VspMd9JEjSDpY",
+    "1bf3b07c-81ff-8045-a9de-fc4d63faeb84": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/2a5b7a1a-a706-4b33-9665-002b4b8b3860/2025-02-28_18-19-08.mp4_snapshot_00.28.34_2025.03.08_23.23.41.jpg?table=block&id=1bf3b07c-81ff-8045-a9de-fc4d63faeb84&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763820000000&signature=80KlW5xzUp3H1vJTklv-m4M-hxOUBo4eBrPixfe31sE",
+    "1bf3b07c-81ff-80f1-ac5b-dc3289ef7047": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/4fe4034f-198c-4c04-88b0-545e0c326145/2025-01-13_13-25-49.mp4_snapshot_01.13_2025.03.06_22.38.18.jpg?table=block&id=1bf3b07c-81ff-80f1-ac5b-dc3289ef7047&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763820000000&signature=ECZy_5tB7NIoF2ke8PLr4xvSFg_rclmu8_0jClg-kGI",
+    "1bf3b07c-81ff-806e-8152-ffdce9d65612": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/4c63992e-1398-408a-ad1f-3ca52d8537e1/2025-01-13_13-25-49.mp4_snapshot_02.39_2025.03.06_22.40.58.jpg?table=block&id=1bf3b07c-81ff-806e-8152-ffdce9d65612&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763820000000&signature=uqmne96Rl318FGRYHrKLoyuGjB-xp-Do0X7tIKc-a0g",
+    "1bf3b07c-81ff-80fe-989c-f589d2aa47a7": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/9c455fea-100d-4113-a2b7-5dcc65cc8e14/2025-01-13_13-25-49.mp4_snapshot_05.22_2025.03.06_22.43.27.jpg?table=block&id=1bf3b07c-81ff-80fe-989c-f589d2aa47a7&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763820000000&signature=DSb6RE3vZH0V09tX-F0knJXe1aEnNMuPRbLKT52IYlk"
   }
 }

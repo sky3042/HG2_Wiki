@@ -3,9 +3,14 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1701,
+        "version": 1711,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "characters"
+            ]
+          ],
           "title": [
             [
               "登場人物"
@@ -14,6 +19,8 @@
         },
         "content": [
           "1b93b07c-81ff-80b9-9ac2-d0727e53b718",
+          "2b33b07c-81ff-8001-ac48-d49edbba4187",
+          "2b33b07c-81ff-80e8-9803-e9a67f8c5f3f",
           "1bc3b07c-81ff-8013-a1ca-d8d691d310f4",
           "1bd3b07c-81ff-8027-9f21-e8948f739d78",
           "1b63b07c-81ff-809a-86e7-c628716ebd94",
@@ -183,7 +190,8 @@
           "2b13b07c-81ff-8028-a0de-e0eef35f3587",
           "1bf3b07c-81ff-8090-ac79-dfbca3b5853e",
           "1b63b07c-81ff-80de-a3b0-c95920f86655",
-          "2083b07c-81ff-802d-bf18-e376d867503c"
+          "2083b07c-81ff-802d-bf18-e376d867503c",
+          "2b33b07c-81ff-8055-8a11-ecf71272b1b3"
         ],
         "format": {
           "slug": "characters",
@@ -192,7 +200,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1763651030412,
+        "last_edited_time": 1763797963782,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -241,7 +249,7 @@
     "1ac3b07c-81ff-8068-828b-fec9cdc96765": {
       "value": {
         "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
-        "version": 64,
+        "version": 69,
         "type": "collection_view",
         "view_ids": [
           "1ac3b07c-81ff-80ee-821a-000cec78a24c"
@@ -257,7 +265,7 @@
           "social_media_image_preview_url": "attachment:fb48497c-047a-4a51-8d55-ff2f2a45c136:SocialMediaPreviewImage.png"
         },
         "created_time": 1741119010204,
-        "last_edited_time": 1755881175648,
+        "last_edited_time": 1763794560935,
         "parent_id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
         "parent_table": "block",
         "alive": true,
@@ -295,7 +303,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 340,
+        "version": 341,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -373,7 +381,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763784546918,
+        "last_edited_time": 1763788327954,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -2297,57 +2305,32 @@
       },
       "role": "reader"
     },
-    "1b93b07c-81ff-8091-9664-d7a8e72ff21b": {
+    "2b33b07c-81ff-8001-ac48-d49edbba4187": {
       "value": {
-        "id": "1b93b07c-81ff-8091-9664-d7a8e72ff21b",
-        "version": 58,
-        "type": "page",
+        "id": "2b33b07c-81ff-8001-ac48-d49edbba4187",
+        "version": 25,
+        "type": "text",
         "properties": {
           "title": [
             [
-              "王"
+              "test slug"
             ]
           ]
         },
-        "content": [
-          "1b93b07c-81ff-80cc-883a-e253a7b45306",
-          "1b93b07c-81ff-80c1-acae-c07417e91c5f",
-          "1b93b07c-81ff-807b-84a9-c6be3db362fa",
-          "1b93b07c-81ff-800b-ade7-fc29e4a6957d",
-          "1b93b07c-81ff-808e-a4e5-de63a84c823a",
-          "1b93b07c-81ff-8033-83d3-dfa1cd4db2ed",
-          "2543b07c-81ff-8047-9527-cb1258b02c9e",
-          "1b93b07c-81ff-80b3-9b2f-d53b06c5b473",
-          "1b93b07c-81ff-8096-9b12-e8b6516b7426",
-          "1b93b07c-81ff-80a7-928f-e1b2744d1a1c",
-          "1b93b07c-81ff-808b-b605-fe881e1edd35",
-          "1b93b07c-81ff-8009-b578-e3d8166f092e",
-          "1b93b07c-81ff-8057-9980-eb717b0445bf",
-          "1b93b07c-81ff-800f-aec7-caf3cecb6dbe",
-          "1b93b07c-81ff-809e-bacf-f0a45aee3869"
-        ],
-        "format": {
-          "copied_from_pointer": {
-            "id": "1b83b07c-81ff-8013-9637-ecba961f4438",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1742227947800,
-        "last_edited_time": 1755636540433,
+        "created_time": 1763796055527,
+        "last_edited_time": 1763797807709,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
-        "copied_from": "1b83b07c-81ff-8013-9637-ecba961f4438",
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "6WFAOUkDQCkK1FoO-MwNFA,\"start\",\"end\"",
+            "r": "LlZTtX-2iEV2fpBpFZADKg,\"start\",\"end\"",
             "n": {
-              "6WFAOUkDQCkK1FoO-MwNFA,\"start\",\"end\"": {
+              "LlZTtX-2iEV2fpBpFZADKg,\"start\",\"end\"": {
                 "s": {
-                  "x": "6WFAOUkDQCkK1FoO-MwNFA",
+                  "x": "LlZTtX-2iEV2fpBpFZADKg",
                   "i": [
                     {
                       "t": "s"
@@ -2355,12 +2338,24 @@
                     {
                       "t": "t",
                       "i": [
-                        "wO_sfknhgbdd",
+                        "bxCH5XBPVVbq",
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "王"
+                      "l": 9,
+                      "c": "test slug"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "bxCH5XBPVVbq",
+                        10
+                      ],
+                      "o": [
+                        "bxCH5XBPVVbq",
+                        9
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -2376,65 +2371,32 @@
       },
       "role": "reader"
     },
-    "1b93b07c-81ff-80f5-ba15-fb1d5aaa7b4b": {
+    "2b33b07c-81ff-80e8-9803-e9a67f8c5f3f": {
       "value": {
-        "id": "1b93b07c-81ff-80f5-ba15-fb1d5aaa7b4b",
-        "version": 109,
-        "type": "page",
+        "id": "2b33b07c-81ff-80e8-9803-e9a67f8c5f3f",
+        "version": 27,
+        "type": "text",
         "properties": {
           "title": [
             [
-              "煌嵐"
+              "test test2"
             ]
           ]
         },
-        "content": [
-          "1b93b07c-81ff-801c-be85-dbeaebc9c793",
-          "1b93b07c-81ff-80d8-b6ce-dfe84905a7fd",
-          "1b93b07c-81ff-800a-ab4f-c916c00427a6",
-          "1b93b07c-81ff-8036-bd18-f74d593ce1dc",
-          "1b93b07c-81ff-8022-8cab-dec3c778e709",
-          "2033b07c-81ff-8050-8fa9-d29952b1b74f",
-          "2033b07c-81ff-8076-a9d7-deffc762ec1d",
-          "2033b07c-81ff-8049-8624-e90175a39404",
-          "2033b07c-81ff-8028-8d6f-cbd926c9fe04",
-          "2033b07c-81ff-8085-98dd-eb567a6b62d3",
-          "1b93b07c-81ff-80b7-99a0-c248b6c01fae",
-          "1b93b07c-81ff-8040-8fcf-ccc138b01240",
-          "1b93b07c-81ff-80b1-a0c2-fff4db73dfb1",
-          "1b93b07c-81ff-8016-ac46-d8daf63b1e84",
-          "1b93b07c-81ff-8066-9b2d-e62eaa390b90",
-          "2583b07c-81ff-80e0-a768-e306658e83af",
-          "1b93b07c-81ff-807c-97ab-e683cec9be5f",
-          "1b93b07c-81ff-8075-a2b2-f09b246f2874",
-          "1b93b07c-81ff-80ab-8d31-f53fbb8e3e40",
-          "1b93b07c-81ff-80df-b779-fa317d0db82a",
-          "25e3b07c-81ff-80d4-af98-f9bb0388c15d",
-          "1b93b07c-81ff-8042-b711-fb19d9fafca6",
-          "1b93b07c-81ff-8052-9783-db007b1c63b2"
-        ],
-        "format": {
-          "copied_from_pointer": {
-            "id": "1b83b07c-81ff-8013-9637-ecba961f4438",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1742227948730,
-        "last_edited_time": 1763646678033,
+        "created_time": 1763797809013,
+        "last_edited_time": 1763797963782,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
-        "copied_from": "1b83b07c-81ff-8013-9637-ecba961f4438",
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "GA9j6SBm6IHU2YIOvJ06Yw,\"start\",\"end\"",
+            "r": "ZRE0JEMGVVgV7WA1pxN0Rw,\"start\",\"end\"",
             "n": {
-              "GA9j6SBm6IHU2YIOvJ06Yw,\"start\",\"end\"": {
+              "ZRE0JEMGVVgV7WA1pxN0Rw,\"start\",\"end\"": {
                 "s": {
-                  "x": "GA9j6SBm6IHU2YIOvJ06Yw",
+                  "x": "ZRE0JEMGVVgV7WA1pxN0Rw",
                   "i": [
                     {
                       "t": "s"
@@ -2442,12 +2404,37 @@
                     {
                       "t": "t",
                       "i": [
-                        "pwcKo86duclV",
+                        "bxCH5XBPVVbq",
                         1
                       ],
                       "o": "start",
-                      "l": 2,
-                      "c": "煌嵐"
+                      "l": 5,
+                      "c": "test "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "bxCH5XBPVVbq",
+                        7
+                      ],
+                      "o": [
+                        "bxCH5XBPVVbq",
+                        5
+                      ],
+                      "l": 5,
+                      "c": "test2"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "bxCH5XBPVVbq",
+                        6
+                      ],
+                      "o": [
+                        "bxCH5XBPVVbq",
+                        5
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -2727,6 +2714,172 @@
                     }
                   ],
                   "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-8091-9664-d7a8e72ff21b": {
+      "value": {
+        "id": "1b93b07c-81ff-8091-9664-d7a8e72ff21b",
+        "version": 58,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "王"
+            ]
+          ]
+        },
+        "content": [
+          "1b93b07c-81ff-80cc-883a-e253a7b45306",
+          "1b93b07c-81ff-80c1-acae-c07417e91c5f",
+          "1b93b07c-81ff-807b-84a9-c6be3db362fa",
+          "1b93b07c-81ff-800b-ade7-fc29e4a6957d",
+          "1b93b07c-81ff-808e-a4e5-de63a84c823a",
+          "1b93b07c-81ff-8033-83d3-dfa1cd4db2ed",
+          "2543b07c-81ff-8047-9527-cb1258b02c9e",
+          "1b93b07c-81ff-80b3-9b2f-d53b06c5b473",
+          "1b93b07c-81ff-8096-9b12-e8b6516b7426",
+          "1b93b07c-81ff-80a7-928f-e1b2744d1a1c",
+          "1b93b07c-81ff-808b-b605-fe881e1edd35",
+          "1b93b07c-81ff-8009-b578-e3d8166f092e",
+          "1b93b07c-81ff-8057-9980-eb717b0445bf",
+          "1b93b07c-81ff-800f-aec7-caf3cecb6dbe",
+          "1b93b07c-81ff-809e-bacf-f0a45aee3869"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1b83b07c-81ff-8013-9637-ecba961f4438",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1742227947800,
+        "last_edited_time": 1755636540433,
+        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1b83b07c-81ff-8013-9637-ecba961f4438",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "6WFAOUkDQCkK1FoO-MwNFA,\"start\",\"end\"",
+            "n": {
+              "6WFAOUkDQCkK1FoO-MwNFA,\"start\",\"end\"": {
+                "s": {
+                  "x": "6WFAOUkDQCkK1FoO-MwNFA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wO_sfknhgbdd",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "王"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-80f5-ba15-fb1d5aaa7b4b": {
+      "value": {
+        "id": "1b93b07c-81ff-80f5-ba15-fb1d5aaa7b4b",
+        "version": 109,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "煌嵐"
+            ]
+          ]
+        },
+        "content": [
+          "1b93b07c-81ff-801c-be85-dbeaebc9c793",
+          "1b93b07c-81ff-80d8-b6ce-dfe84905a7fd",
+          "1b93b07c-81ff-800a-ab4f-c916c00427a6",
+          "1b93b07c-81ff-8036-bd18-f74d593ce1dc",
+          "1b93b07c-81ff-8022-8cab-dec3c778e709",
+          "2033b07c-81ff-8050-8fa9-d29952b1b74f",
+          "2033b07c-81ff-8076-a9d7-deffc762ec1d",
+          "2033b07c-81ff-8049-8624-e90175a39404",
+          "2033b07c-81ff-8028-8d6f-cbd926c9fe04",
+          "2033b07c-81ff-8085-98dd-eb567a6b62d3",
+          "1b93b07c-81ff-80b7-99a0-c248b6c01fae",
+          "1b93b07c-81ff-8040-8fcf-ccc138b01240",
+          "1b93b07c-81ff-80b1-a0c2-fff4db73dfb1",
+          "1b93b07c-81ff-8016-ac46-d8daf63b1e84",
+          "1b93b07c-81ff-8066-9b2d-e62eaa390b90",
+          "2583b07c-81ff-80e0-a768-e306658e83af",
+          "1b93b07c-81ff-807c-97ab-e683cec9be5f",
+          "1b93b07c-81ff-8075-a2b2-f09b246f2874",
+          "1b93b07c-81ff-80ab-8d31-f53fbb8e3e40",
+          "1b93b07c-81ff-80df-b779-fa317d0db82a",
+          "25e3b07c-81ff-80d4-af98-f9bb0388c15d",
+          "1b93b07c-81ff-8042-b711-fb19d9fafca6",
+          "1b93b07c-81ff-8052-9783-db007b1c63b2"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1b83b07c-81ff-8013-9637-ecba961f4438",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1742227948730,
+        "last_edited_time": 1763646678033,
+        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1b83b07c-81ff-8013-9637-ecba961f4438",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "GA9j6SBm6IHU2YIOvJ06Yw,\"start\",\"end\"",
+            "n": {
+              "GA9j6SBm6IHU2YIOvJ06Yw,\"start\",\"end\"": {
+                "s": {
+                  "x": "GA9j6SBm6IHU2YIOvJ06Yw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pwcKo86duclV",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "煌嵐"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
                 },
                 "c": []
               }
@@ -4809,6 +4962,150 @@
       },
       "role": "reader"
     },
+    "1ad3b07c-81ff-80c4-bfdf-e82a7b46b62e": {
+      "value": {
+        "id": "1ad3b07c-81ff-80c4-bfdf-e82a7b46b62e",
+        "version": 38,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "星海を探索する第一武装軍団"
+            ]
+          ]
+        },
+        "content": [
+          "1ad3b07c-81ff-807d-a8c4-f8ab0c72944d",
+          "1c03b07c-81ff-807b-89d2-efa1e5d3905d",
+          "1c03b07c-81ff-801b-8dc8-c0eacac4bbf1",
+          "1c03b07c-81ff-808d-beb3-dc370d4ac4d4",
+          "1c03b07c-81ff-807e-b7cc-f980ebc83e2b",
+          "1c03b07c-81ff-8087-aafc-e44c62553ec3",
+          "1c03b07c-81ff-80c8-8720-c70dcd3466cc",
+          "1c13b07c-81ff-80e7-9337-ecb0e0829bf4"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1413b07c-81ff-80c8-ac33-da1df0798e8f",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1741141968528,
+        "last_edited_time": 1742900535373,
+        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1413b07c-81ff-80c8-ac33-da1df0798e8f",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "qi7tO6sv7VGA5Bz8f-yAFQ,\"start\",\"end\"",
+            "n": {
+              "qi7tO6sv7VGA5Bz8f-yAFQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "qi7tO6sv7VGA5Bz8f-yAFQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "b9T1KrGvb8Th",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 13,
+                      "c": "星海を探索する第一武装軍団"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-8022-b265-c8f22fad0746": {
+      "value": {
+        "id": "1ad3b07c-81ff-8022-b265-c8f22fad0746",
+        "version": 55,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "六合衆"
+            ]
+          ]
+        },
+        "content": [
+          "28c3b07c-81ff-8052-af43-d524e6545155",
+          "1c03b07c-81ff-80ca-b254-e6384f01e5c3",
+          "1c03b07c-81ff-80ab-b24f-ffd5b88c6e4c",
+          "1c03b07c-81ff-80a0-b009-efde7724f21d",
+          "1c03b07c-81ff-804b-b6ca-e8021a078ae0",
+          "1c03b07c-81ff-80a3-adee-f40aa5cfa359",
+          "1c03b07c-81ff-8045-bfab-ff3b74740446",
+          "1c03b07c-81ff-80a3-9d1e-ef5d636339a6"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1413b07c-81ff-80fc-8b4b-e1ae1e33c2f8",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1741141968528,
+        "last_edited_time": 1760431773743,
+        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1413b07c-81ff-80fc-8b4b-e1ae1e33c2f8",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "7vQ80CDUF_WVVjn1Jj7QOA,\"start\",\"end\"",
+            "n": {
+              "7vQ80CDUF_WVVjn1Jj7QOA,\"start\",\"end\"": {
+                "s": {
+                  "x": "7vQ80CDUF_WVVjn1Jj7QOA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "F4Y18mvqmSTB",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "六合衆"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "1b93b07c-81ff-807b-9842-ec75255fa3cd": {
       "value": {
         "id": "1b93b07c-81ff-807b-9842-ec75255fa3cd",
@@ -4955,150 +5252,6 @@
                       "o": "start",
                       "l": 3,
                       "c": "弁蒼龍"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1ad3b07c-81ff-80c4-bfdf-e82a7b46b62e": {
-      "value": {
-        "id": "1ad3b07c-81ff-80c4-bfdf-e82a7b46b62e",
-        "version": 38,
-        "type": "page",
-        "properties": {
-          "title": [
-            [
-              "星海を探索する第一武装軍団"
-            ]
-          ]
-        },
-        "content": [
-          "1ad3b07c-81ff-807d-a8c4-f8ab0c72944d",
-          "1c03b07c-81ff-807b-89d2-efa1e5d3905d",
-          "1c03b07c-81ff-801b-8dc8-c0eacac4bbf1",
-          "1c03b07c-81ff-808d-beb3-dc370d4ac4d4",
-          "1c03b07c-81ff-807e-b7cc-f980ebc83e2b",
-          "1c03b07c-81ff-8087-aafc-e44c62553ec3",
-          "1c03b07c-81ff-80c8-8720-c70dcd3466cc",
-          "1c13b07c-81ff-80e7-9337-ecb0e0829bf4"
-        ],
-        "format": {
-          "copied_from_pointer": {
-            "id": "1413b07c-81ff-80c8-ac33-da1df0798e8f",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1741141968528,
-        "last_edited_time": 1742900535373,
-        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "1413b07c-81ff-80c8-ac33-da1df0798e8f",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "qi7tO6sv7VGA5Bz8f-yAFQ,\"start\",\"end\"",
-            "n": {
-              "qi7tO6sv7VGA5Bz8f-yAFQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "qi7tO6sv7VGA5Bz8f-yAFQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "b9T1KrGvb8Th",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 13,
-                      "c": "星海を探索する第一武装軍団"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1ad3b07c-81ff-8022-b265-c8f22fad0746": {
-      "value": {
-        "id": "1ad3b07c-81ff-8022-b265-c8f22fad0746",
-        "version": 55,
-        "type": "page",
-        "properties": {
-          "title": [
-            [
-              "六合衆"
-            ]
-          ]
-        },
-        "content": [
-          "28c3b07c-81ff-8052-af43-d524e6545155",
-          "1c03b07c-81ff-80ca-b254-e6384f01e5c3",
-          "1c03b07c-81ff-80ab-b24f-ffd5b88c6e4c",
-          "1c03b07c-81ff-80a0-b009-efde7724f21d",
-          "1c03b07c-81ff-804b-b6ca-e8021a078ae0",
-          "1c03b07c-81ff-80a3-adee-f40aa5cfa359",
-          "1c03b07c-81ff-8045-bfab-ff3b74740446",
-          "1c03b07c-81ff-80a3-9d1e-ef5d636339a6"
-        ],
-        "format": {
-          "copied_from_pointer": {
-            "id": "1413b07c-81ff-80fc-8b4b-e1ae1e33c2f8",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1741141968528,
-        "last_edited_time": 1760431773743,
-        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "1413b07c-81ff-80fc-8b4b-e1ae1e33c2f8",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "7vQ80CDUF_WVVjn1Jj7QOA,\"start\",\"end\"",
-            "n": {
-              "7vQ80CDUF_WVVjn1Jj7QOA,\"start\",\"end\"": {
-                "s": {
-                  "x": "7vQ80CDUF_WVVjn1Jj7QOA",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "F4Y18mvqmSTB",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 3,
-                      "c": "六合衆"
                     },
                     {
                       "t": "e"
@@ -7144,6 +7297,81 @@
       },
       "role": "reader"
     },
+    "1ad3b07c-81ff-8053-93aa-dd1cafe60284": {
+      "value": {
+        "id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
+        "version": 70,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "南方軍団"
+            ]
+          ]
+        },
+        "content": [
+          "28c3b07c-81ff-800a-864a-effefc8c3ea7",
+          "1ad3b07c-81ff-800f-9456-e8dc263ae684",
+          "1c03b07c-81ff-80a4-829a-f25fa0e3c7c4",
+          "1c03b07c-81ff-8051-933d-c0fd5ef959d0",
+          "1c03b07c-81ff-80f2-8cc0-f5b3455d8990",
+          "28c3b07c-81ff-803e-a8a2-c0d7ea03c427",
+          "28c3b07c-81ff-8069-bf05-d4b543454bae",
+          "1c03b07c-81ff-80f0-8a19-d8ec1a55a74c",
+          "1c03b07c-81ff-80d0-9b6b-f10b40a2bc9b",
+          "1c03b07c-81ff-8017-be4d-fbcf986e452f",
+          "1c03b07c-81ff-8007-82c5-e2804e0f9449"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1413b07c-81ff-80b3-a218-d9843b0090ce",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1741141968528,
+        "last_edited_time": 1760431440298,
+        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1413b07c-81ff-80b3-a218-d9843b0090ce",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "EB3u9ywCMWpXq0ExwlSa3g,\"start\",\"end\"",
+            "n": {
+              "EB3u9ywCMWpXq0ExwlSa3g,\"start\",\"end\"": {
+                "s": {
+                  "x": "EB3u9ywCMWpXq0ExwlSa3g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "KurvUicJDLze",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "南方軍団"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "27c3b07c-81ff-8040-9552-ea59ca85a6f4": {
       "value": {
         "id": "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
@@ -7337,81 +7565,6 @@
                       ],
                       "o": "start",
                       "l": -4
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1ad3b07c-81ff-8053-93aa-dd1cafe60284": {
-      "value": {
-        "id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
-        "version": 70,
-        "type": "page",
-        "properties": {
-          "title": [
-            [
-              "南方軍団"
-            ]
-          ]
-        },
-        "content": [
-          "28c3b07c-81ff-800a-864a-effefc8c3ea7",
-          "1ad3b07c-81ff-800f-9456-e8dc263ae684",
-          "1c03b07c-81ff-80a4-829a-f25fa0e3c7c4",
-          "1c03b07c-81ff-8051-933d-c0fd5ef959d0",
-          "1c03b07c-81ff-80f2-8cc0-f5b3455d8990",
-          "28c3b07c-81ff-803e-a8a2-c0d7ea03c427",
-          "28c3b07c-81ff-8069-bf05-d4b543454bae",
-          "1c03b07c-81ff-80f0-8a19-d8ec1a55a74c",
-          "1c03b07c-81ff-80d0-9b6b-f10b40a2bc9b",
-          "1c03b07c-81ff-8017-be4d-fbcf986e452f",
-          "1c03b07c-81ff-8007-82c5-e2804e0f9449"
-        ],
-        "format": {
-          "copied_from_pointer": {
-            "id": "1413b07c-81ff-80b3-a218-d9843b0090ce",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1741141968528,
-        "last_edited_time": 1760431440298,
-        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "1413b07c-81ff-80b3-a218-d9843b0090ce",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "EB3u9ywCMWpXq0ExwlSa3g,\"start\",\"end\"",
-            "n": {
-              "EB3u9ywCMWpXq0ExwlSa3g,\"start\",\"end\"": {
-                "s": {
-                  "x": "EB3u9ywCMWpXq0ExwlSa3g",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "KurvUicJDLze",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 4,
-                      "c": "南方軍団"
                     },
                     {
                       "t": "e"
@@ -9116,146 +9269,6 @@
       },
       "role": "reader"
     },
-    "1be3b07c-81ff-8013-81f5-d1dcaf33b63f": {
-      "value": {
-        "id": "1be3b07c-81ff-8013-81f5-d1dcaf33b63f",
-        "version": 18,
-        "type": "page",
-        "properties": {
-          "title": [
-            [
-              "アイスモール"
-            ]
-          ]
-        },
-        "content": [
-          "1be3b07c-81ff-80f8-a89d-c512919dfb4e",
-          "1be3b07c-81ff-8040-80eb-e5d207f9f87d",
-          "1be3b07c-81ff-80db-a4b1-fe0094fd4101",
-          "1be3b07c-81ff-8003-9424-dbe7e67c66c6",
-          "1be3b07c-81ff-80c8-8cc6-c0e6aa3a32cf",
-          "1be3b07c-81ff-8047-9b81-de0feef4f1e2"
-        ],
-        "format": {
-          "copied_from_pointer": {
-            "id": "1be3b07c-81ff-80fd-aae8-f47a98f1f1ab",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1742683074805,
-        "last_edited_time": 1742936689944,
-        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "1be3b07c-81ff-80fd-aae8-f47a98f1f1ab",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "HBjIQ3xsHRq8mnHlKkVKkA,\"start\",\"end\"",
-            "n": {
-              "HBjIQ3xsHRq8mnHlKkVKkA,\"start\",\"end\"": {
-                "s": {
-                  "x": "HBjIQ3xsHRq8mnHlKkVKkA",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "Ay2EnFewtQTh",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 6,
-                      "c": "アイスモール"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1be3b07c-81ff-8005-8c70-c51230279525": {
-      "value": {
-        "id": "1be3b07c-81ff-8005-8c70-c51230279525",
-        "version": 15,
-        "type": "page",
-        "properties": {
-          "title": [
-            [
-              "ダスティン"
-            ]
-          ]
-        },
-        "content": [
-          "1be3b07c-81ff-800b-8410-e083749a491e",
-          "1be3b07c-81ff-80f4-b298-e31cb13dce44",
-          "1be3b07c-81ff-803c-b4b2-ee71d45c20cf",
-          "1be3b07c-81ff-80c3-9d36-e70c70374f33",
-          "1be3b07c-81ff-80ab-81be-d17a4075acac",
-          "1be3b07c-81ff-80fa-a6cd-df07b328557b"
-        ],
-        "format": {
-          "copied_from_pointer": {
-            "id": "1be3b07c-81ff-8013-81f5-d1dcaf33b63f",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1742684200705,
-        "last_edited_time": 1742936693325,
-        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "1be3b07c-81ff-8013-81f5-d1dcaf33b63f",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "3zlj_MQ0Z_1JVt8HaiJYkw,\"start\",\"end\"",
-            "n": {
-              "3zlj_MQ0Z_1JVt8HaiJYkw,\"start\",\"end\"": {
-                "s": {
-                  "x": "3zlj_MQ0Z_1JVt8HaiJYkw",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "AbBiQIq4tZD5",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 5,
-                      "c": "ダスティン"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
     "1ad3b07c-81ff-80e7-9b93-f5b1b076c9c4": {
       "value": {
         "id": "1ad3b07c-81ff-80e7-9b93-f5b1b076c9c4",
@@ -9389,6 +9402,146 @@
                       "o": "start",
                       "l": 3,
                       "c": "英霊殿"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1be3b07c-81ff-8013-81f5-d1dcaf33b63f": {
+      "value": {
+        "id": "1be3b07c-81ff-8013-81f5-d1dcaf33b63f",
+        "version": 18,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "アイスモール"
+            ]
+          ]
+        },
+        "content": [
+          "1be3b07c-81ff-80f8-a89d-c512919dfb4e",
+          "1be3b07c-81ff-8040-80eb-e5d207f9f87d",
+          "1be3b07c-81ff-80db-a4b1-fe0094fd4101",
+          "1be3b07c-81ff-8003-9424-dbe7e67c66c6",
+          "1be3b07c-81ff-80c8-8cc6-c0e6aa3a32cf",
+          "1be3b07c-81ff-8047-9b81-de0feef4f1e2"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1be3b07c-81ff-80fd-aae8-f47a98f1f1ab",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1742683074805,
+        "last_edited_time": 1742936689944,
+        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1be3b07c-81ff-80fd-aae8-f47a98f1f1ab",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "HBjIQ3xsHRq8mnHlKkVKkA,\"start\",\"end\"",
+            "n": {
+              "HBjIQ3xsHRq8mnHlKkVKkA,\"start\",\"end\"": {
+                "s": {
+                  "x": "HBjIQ3xsHRq8mnHlKkVKkA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Ay2EnFewtQTh",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 6,
+                      "c": "アイスモール"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1be3b07c-81ff-8005-8c70-c51230279525": {
+      "value": {
+        "id": "1be3b07c-81ff-8005-8c70-c51230279525",
+        "version": 15,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "ダスティン"
+            ]
+          ]
+        },
+        "content": [
+          "1be3b07c-81ff-800b-8410-e083749a491e",
+          "1be3b07c-81ff-80f4-b298-e31cb13dce44",
+          "1be3b07c-81ff-803c-b4b2-ee71d45c20cf",
+          "1be3b07c-81ff-80c3-9d36-e70c70374f33",
+          "1be3b07c-81ff-80ab-81be-d17a4075acac",
+          "1be3b07c-81ff-80fa-a6cd-df07b328557b"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1be3b07c-81ff-8013-81f5-d1dcaf33b63f",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1742684200705,
+        "last_edited_time": 1742936693325,
+        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1be3b07c-81ff-8013-81f5-d1dcaf33b63f",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "3zlj_MQ0Z_1JVt8HaiJYkw,\"start\",\"end\"",
+            "n": {
+              "3zlj_MQ0Z_1JVt8HaiJYkw,\"start\",\"end\"": {
+                "s": {
+                  "x": "3zlj_MQ0Z_1JVt8HaiJYkw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "AbBiQIq4tZD5",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "ダスティン"
                     },
                     {
                       "t": "e"
@@ -14627,10 +14780,10 @@
     "2083b07c-81ff-802d-bf18-e376d867503c": {
       "value": {
         "id": "2083b07c-81ff-802d-bf18-e376d867503c",
-        "version": 11,
+        "version": 29,
         "type": "text",
         "created_time": 1749054585516,
-        "last_edited_time": 1763611358958,
+        "last_edited_time": 1763795282416,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -14687,6 +14840,182 @@
                       "a": []
                     },
                     {
+                      "t": "t",
+                      "i": [
+                        "bxCH5XBPVVbq",
+                        6
+                      ],
+                      "o": [
+                        "W6uDgwt69Q9p",
+                        4
+                      ],
+                      "l": -71,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "L_tGQuNsFyBlDHSNnWuIpg",
+                          "l": "",
+                          "i": [
+                            "bxCH5XBPVVbq",
+                            77
+                          ],
+                          "s": {
+                            "i": [
+                              "bxCH5XBPVVbq",
+                              6
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "bxCH5XBPVVbq",
+                              76
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "https://www.notion.so/1ac3b07c81ff80ad9d61ef632d261b8f?source=copy_link"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "bxCH5XBPVVbq",
+                        81
+                      ],
+                      "o": [
+                        "bxCH5XBPVVbq",
+                        76
+                      ],
+                      "l": -71,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "L_tGQuNsFyBlDHSNnWuIpg",
+                          "l": "",
+                          "i": [
+                            "bxCH5XBPVVbq",
+                            152
+                          ],
+                          "s": {
+                            "i": [
+                              "bxCH5XBPVVbq",
+                              81
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "bxCH5XBPVVbq",
+                              151
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "https://www.notion.so/1ac3b07c81ff80ad9d61ef632d261b8f?source=copy_link"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "bxCH5XBPVVbq",
+                        78
+                      ],
+                      "o": [
+                        "bxCH5XBPVVbq",
+                        76
+                      ],
+                      "l": -1,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "L_tGQuNsFyBlDHSNnWuIpg",
+                          "l": "",
+                          "i": [
+                            "bxCH5XBPVVbq",
+                            80
+                          ],
+                          "s": {
+                            "i": [
+                              "bxCH5XBPVVbq",
+                              78
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "bxCH5XBPVVbq",
+                              78
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "p",
+                            "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+                            "f25e8375-dff8-499a-b7bf-74566e1055df"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "bxCH5XBPVVbq",
+                        79
+                      ],
+                      "o": [
+                        "bxCH5XBPVVbq",
+                        78
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2b33b07c-81ff-8055-8a11-ecf71272b1b3": {
+      "value": {
+        "id": "2b33b07c-81ff-8055-8a11-ecf71272b1b3",
+        "version": 3,
+        "type": "text",
+        "created_time": 1763795276838,
+        "last_edited_time": 1763795276842,
+        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "aqpo5u-emi6RxtiiaKn9KA,\"start\",\"end\"",
+            "n": {
+              "aqpo5u-emi6RxtiiaKn9KA,\"start\",\"end\"": {
+                "s": {
+                  "x": "aqpo5u-emi6RxtiiaKn9KA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
                       "t": "e"
                     }
                   ],
@@ -14705,7 +15034,7 @@
     "1ac3b07c-81ff-8086-a96b-000b78a078f2": {
       "value": {
         "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
-        "version": 32,
+        "version": 43,
         "name": [
           [
             "目次"
@@ -14715,6 +15044,10 @@
           "`q`e": {
             "name": "タグ",
             "type": "multi_select"
+          },
+          "t~Sf": {
+            "name": "Slug",
+            "type": "text"
           },
           "vidt": {
             "name": "作成日時",
@@ -14729,6 +15062,25 @@
           "layout_pointer": {
             "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
             "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "property_visibility": [
+            {
+              "property": "vidt",
+              "visibility": "show"
+            },
+            {
+              "property": "`q`e",
+              "visibility": "show"
+            },
+            {
+              "property": "t~Sf",
+              "visibility": "show"
+            }
+          ],
+          "metadata_copied_from": {
+            "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+            "table": "block",
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "ai_suggested_properties": [
@@ -14836,7 +15188,13 @@
           "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
         ],
         "migrated": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1741119010204,
+        "last_edited_time": 1763794560935,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
       "role": "reader"
     },
@@ -14961,6 +15319,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/e2c3bdea-aa30-446b-8594-d3de8ee7f12f/8861ea526d73797ebe280d766c49e85e133934.png1052w_!web-dynamic.webp?table=block&id=1ac3b07c-81ff-80ad-9d61-ef632d261b8f&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=rJp9Jvf2YZ38ehxs8RGr5FsSqusd9y45YI3koevijug"
+    "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/e2c3bdea-aa30-446b-8594-d3de8ee7f12f/8861ea526d73797ebe280d766c49e85e133934.png1052w_!web-dynamic.webp?table=block&id=1ac3b07c-81ff-80ad-9d61-ef632d261b8f&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763820000000&signature=pBJMQeOGmBmeloT03LtUQSAz5bjEzNaiPR5XYQnWs7U"
   }
 }
