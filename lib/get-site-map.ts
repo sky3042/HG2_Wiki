@@ -1,33 +1,33 @@
-import * as fs from 'fs';
-import * as path from 'path';
+import * as fs from 'node:fs'
+import * as path from 'node:path'
 import { getPageProperty } from 'notion-utils'
-import type * as types from './types'
+
 import * as config from './config'
 import { includeNotionIdInUrls } from './config'
 import { getCanonicalPageId } from './get-canonical-page-id'
+import type * as types from './types'
 
 const uuid = !!includeNotionIdInUrls
 
 export async function getSiteMap(): Promise<types.SiteMap> {
-  const dataDir = path.join(process.cwd(), 'data');
-  const pageMap: types.PageMap = {};
+  const dataDir = path.join(process.cwd(), 'data')
+  const pageMap: types.PageMap = {}
 
   if (fs.existsSync(dataDir)) {
-    const files = fs.readdirSync(dataDir).filter((f: string) => f.endsWith('.json'));
+    const files = fs.readdirSync(dataDir).filter((f) => f.endsWith('.json'))
     
     for (const file of files) {
-      const pageId = file.replace('.json', '');
+      const pageId = file.replace('.json', '')
       try {
-        const content = fs.readFileSync(path.join(dataDir, file), 'utf-8');
-        // 【修正】 as any as types.ExtendedRecordMap を追加して型エラーを回避
-        const recordMap = JSON.parse(content) as any as types.ExtendedRecordMap;
-        pageMap[pageId] = recordMap;
-      } catch (e) {
-        console.warn(`Failed to load ${file} for sitemap`);
+        const content = fs.readFileSync(path.join(dataDir, file), 'utf8')
+        const recordMap = JSON.parse(content) as unknown as types.ExtendedRecordMap
+        pageMap[pageId] = recordMap
+      } catch (err) {
+        console.warn(`Failed to load ${file} for sitemap`, err)
       }
     }
   } else {
-    console.warn('No local data found. Run `npm run fetch-data` first.');
+    console.warn('No local data found. Run `npm run fetch-data` first.')
   }
 
   const canonicalPageMap = Object.keys(pageMap).reduce(
@@ -63,5 +63,5 @@ export async function getSiteMap(): Promise<types.SiteMap> {
     site: config.site,
     pageMap,
     canonicalPageMap
-  } as types.SiteMap
+  }
 }
