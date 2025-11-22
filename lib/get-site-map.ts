@@ -11,7 +11,6 @@ export async function getSiteMap(): Promise<types.SiteMap> {
   const dataDir = path.join(process.cwd(), 'data')
   const pageMap: types.PageMap = {}
 
-  // 1. データの読み込み
   if (fs.existsSync(dataDir)) {
     const files = fs.readdirSync(dataDir).filter((f) => f.endsWith('.json'))
     for (const file of files) {
@@ -26,22 +25,16 @@ export async function getSiteMap(): Promise<types.SiteMap> {
     }
   }
 
-  // 2. サイトマップ（URL台帳）の作成
   const canonicalPageMap = Object.keys(pageMap).reduce(
     (map: Record<string, string>, pageId: string) => {
       const recordMap = pageMap[pageId]
       if (!recordMap) return map
 
-      // 【修正】ファイル名(ID)をUUID(ハイフンあり)に変換してからブロックを探す
       const blockId = idToUuid(pageId)
       const block = recordMap.block[blockId]?.value
 
-      if (!block) {
-        // ブロックが見つからない場合はスキップ
-        return map
-      }
+      if (!block) return map
 
-      // 非公開ページはスキップ
       if (
         !(getPageProperty<boolean | null>('Public', block, recordMap) ?? true)
       ) {
@@ -54,13 +47,11 @@ export async function getSiteMap(): Promise<types.SiteMap> {
       if (includeNotionIdInUrls) {
         url = uuidToId(pageId)
       } else {
-        // 'Slug' プロパティを探す
         const slug = getPageProperty<string>('Slug', block, recordMap)
         
         if (slug) {
           url = slug
         } else {
-          // Slugがなければタイトルを使う
           const title = getBlockTitle(block, recordMap)
           if (title) {
             url = title.trim().replace(/\s+/g, '-')
@@ -69,13 +60,14 @@ export async function getSiteMap(): Promise<types.SiteMap> {
           }
         }
       }
-      // -----------------------
 
-      // URLの重複チェック
+      // ▼▼▼ 重複回避ロジック（変更箇所） ▼▼▼
+      // もしURLが既に登録されていたら、「URL + ハイフン + ID」にして強制的にユニークにする
       if (map[url] && map[url] !== pageId) {
-        console.warn(`Duplicate URL detected: ${url}. Falling back to ID.`)
-        url = uuidToId(pageId)
+        console.warn(`Duplicate URL detected: "${url}". Appending ID to uniqueify.`)
+        url = `${url}-${uuidToId(pageId)}`
       }
+      // ▲▲▲ ここまで ▲▲▲
 
       return {
         ...map,
