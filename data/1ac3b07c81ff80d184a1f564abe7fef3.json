@@ -1984,7 +1984,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1711,
+        "version": 1714,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -2000,8 +2000,6 @@
         },
         "content": [
           "1b93b07c-81ff-80b9-9ac2-d0727e53b718",
-          "2b33b07c-81ff-8001-ac48-d49edbba4187",
-          "2b33b07c-81ff-80e8-9803-e9a67f8c5f3f",
           "1bc3b07c-81ff-8013-a1ca-d8d691d310f4",
           "1bd3b07c-81ff-8027-9f21-e8948f739d78",
           "1b63b07c-81ff-809a-86e7-c628716ebd94",
@@ -2181,7 +2179,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1763797963782,
+        "last_edited_time": 1763798857633,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -3173,7 +3171,7 @@
     "1b93b07c-81ff-80b9-9ac2-d0727e53b718": {
       "value": {
         "id": "1b93b07c-81ff-80b9-9ac2-d0727e53b718",
-        "version": 58,
+        "version": 59,
         "type": "header",
         "properties": {
           "title": [
@@ -3220,47 +3218,21 @@
                   ],
                   "l": ""
                 },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2b33b07c-81ff-8001-ac48-d49edbba4187": {
-      "value": {
-        "id": "2b33b07c-81ff-8001-ac48-d49edbba4187",
-        "version": 25,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "test slug"
-            ]
-          ]
-        },
-        "created_time": 1763796055527,
-        "last_edited_time": 1763797807709,
-        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "parent_table": "block",
-        "alive": true,
-        "created_by_table": "notion_user",
-        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
-        "last_edited_by_table": "notion_user",
-        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "LlZTtX-2iEV2fpBpFZADKg,\"start\",\"end\"",
-            "n": {
-              "LlZTtX-2iEV2fpBpFZADKg,\"start\",\"end\"": {
+                "c": [
+                  "LlZTtX-2iEV2fpBpFZADKg,[\"bxCH5XBPVVbq\",31],\"end\""
+                ]
+              },
+              "LlZTtX-2iEV2fpBpFZADKg,[\"bxCH5XBPVVbq\",31],\"end\"": {
                 "s": {
                   "x": "LlZTtX-2iEV2fpBpFZADKg",
                   "i": [
                     {
-                      "t": "s"
+                      "t": "p",
+                      "i": [
+                        "bxCH5XBPVVbq",
+                        31
+                      ],
+                      "o": "start"
                     },
                     {
                       "t": "t",
@@ -3269,68 +3241,29 @@
                         1
                       ],
                       "o": "start",
-                      "l": 9,
-                      "c": "test slug"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "bxCH5XBPVVbq",
-                        10
-                      ],
-                      "o": [
-                        "bxCH5XBPVVbq",
-                        9
-                      ],
-                      "l": -1
+                      "l": -10
                     },
                     {
                       "t": "e"
                     }
                   ],
-                  "l": ""
+                  "l": "l"
                 },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2b33b07c-81ff-80e8-9803-e9a67f8c5f3f": {
-      "value": {
-        "id": "2b33b07c-81ff-80e8-9803-e9a67f8c5f3f",
-        "version": 27,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "test test2"
-            ]
-          ]
-        },
-        "created_time": 1763797809013,
-        "last_edited_time": 1763797963782,
-        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "parent_table": "block",
-        "alive": true,
-        "created_by_table": "notion_user",
-        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
-        "last_edited_by_table": "notion_user",
-        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "ZRE0JEMGVVgV7WA1pxN0Rw,\"start\",\"end\"",
-            "n": {
-              "ZRE0JEMGVVgV7WA1pxN0Rw,\"start\",\"end\"": {
+                "c": [
+                  "ZRE0JEMGVVgV7WA1pxN0Rw,[\"bxCH5XBPVVbq\",32],\"end\""
+                ]
+              },
+              "ZRE0JEMGVVgV7WA1pxN0Rw,[\"bxCH5XBPVVbq\",32],\"end\"": {
                 "s": {
                   "x": "ZRE0JEMGVVgV7WA1pxN0Rw",
                   "i": [
                     {
-                      "t": "s"
+                      "t": "p",
+                      "i": [
+                        "bxCH5XBPVVbq",
+                        32
+                      ],
+                      "o": "start"
                     },
                     {
                       "t": "t",
@@ -3339,8 +3272,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 5,
-                      "c": "test "
+                      "l": -5
                     },
                     {
                       "t": "t",
@@ -3352,8 +3284,7 @@
                         "bxCH5XBPVVbq",
                         5
                       ],
-                      "l": 5,
-                      "c": "test2"
+                      "l": -5
                     },
                     {
                       "t": "t",
@@ -3371,7 +3302,7 @@
                       "t": "e"
                     }
                   ],
-                  "l": ""
+                  "l": "l"
                 },
                 "c": []
               }
@@ -4417,6 +4348,169 @@
                     }
                   ],
                   "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b83b07c-81ff-8031-8b44-ddf61c7f3fb3": {
+      "value": {
+        "id": "1b83b07c-81ff-8031-8b44-ddf61c7f3fb3",
+        "version": 75,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "イザーリン・リーヴトゥルース"
+            ]
+          ]
+        },
+        "content": [
+          "2803b07c-81ff-80e3-93ed-f38f1522bf76",
+          "2a03b07c-81ff-80a9-a094-cdad7ecde094",
+          "2a03b07c-81ff-8099-97fb-f552e48507b0",
+          "1b83b07c-81ff-8055-bff9-f062ba1a41fe",
+          "1b83b07c-81ff-8041-afff-df4fb0bf8fa6",
+          "1b83b07c-81ff-8070-b257-d92fddf0549c",
+          "1b83b07c-81ff-8060-9575-cca1747ebb76",
+          "1bf3b07c-81ff-8034-90a9-ca0aa3cd274d",
+          "2803b07c-81ff-808c-a0ac-c17ed53f8d47",
+          "1b83b07c-81ff-803a-b3e9-fe872ec9d556"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1b73b07c-81ff-80ee-92f3-dcbad8fca36a",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "social_media_image_preview_url": "attachment:ee781022-629e-4fa0-a259-7c1a23e450b7:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1742144437791,
+        "last_edited_time": 1762141954893,
+        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1b73b07c-81ff-80ee-92f3-dcbad8fca36a",
+        "file_ids": [
+          "ee781022-629e-4fa0-a259-7c1a23e450b7"
+        ],
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Hkz7dT6hql95rr6t-NNn6A,\"start\",\"end\"",
+            "n": {
+              "Hkz7dT6hql95rr6t-NNn6A,\"start\",\"end\"": {
+                "s": {
+                  "x": "Hkz7dT6hql95rr6t-NNn6A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "8kVzU_o7bUBO",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 14,
+                      "c": "イザーリン・リーヴトゥルース"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b83b07c-81ff-8001-a6a0-c3b9f1737802": {
+      "value": {
+        "id": "1b83b07c-81ff-8001-a6a0-c3b9f1737802",
+        "version": 104,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "シーリン"
+            ]
+          ]
+        },
+        "content": [
+          "1b83b07c-81ff-80a7-b3d1-c3a8415c28bc",
+          "2a03b07c-81ff-80a6-9d9a-f51bf162ad00",
+          "1b83b07c-81ff-8050-b0fa-e971387ede7f",
+          "1b83b07c-81ff-80d0-8739-e07cb4bd073c",
+          "1b83b07c-81ff-80af-b189-f4bd07cf2186",
+          "1b83b07c-81ff-80fa-afbb-db727411ee68",
+          "1b83b07c-81ff-80d8-9162-fbbeb96e14eb",
+          "1b83b07c-81ff-80fc-b489-f32abc2b2584",
+          "2043b07c-81ff-80ed-babd-d7bf8463c143"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1b73b07c-81ff-80ee-92f3-dcbad8fca36a",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "social_media_image_preview_url": "attachment:c2ce3a14-d359-47f2-a634-cb71177d817d:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1742144440430,
+        "last_edited_time": 1762141969877,
+        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1b73b07c-81ff-80ee-92f3-dcbad8fca36a",
+        "file_ids": [
+          "c2ce3a14-d359-47f2-a634-cb71177d817d"
+        ],
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Kaz6-MyWIILbUtOekd0Gpw,\"start\",\"end\"",
+            "n": {
+              "Kaz6-MyWIILbUtOekd0Gpw,\"start\",\"end\"": {
+                "s": {
+                  "x": "Kaz6-MyWIILbUtOekd0Gpw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "9-Z4CvhdVtMm",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "シーリン"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
                 },
                 "c": []
               }
@@ -12958,7 +13052,7 @@
     }
   },
   "signed_urls": {
-    "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d4c78f4a-1872-4d8a-836f-48abb3027e69/760ca1e5gy1hi33odeetvj21z4140u03.jpg?table=block&id=1ac3b07c-81ff-80d1-84a1-f564abe7fef3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763820000000&signature=egrFdq6by1TJyGFQnunRM1W1dZL5BsIxcbnBunE88E8",
-    "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d0232478-c39e-4987-8861-2c97e4a8c8a2/Screenshot_2025.03.17_06.05.21.850.png?table=block&id=1ad3b07c-81ff-80af-8fa1-dba5dde1db0d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763820000000&signature=DR9ckVwbuG3VIppFzcn7PX4hbccPPNJokk_x9N_XBfg"
+    "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d4c78f4a-1872-4d8a-836f-48abb3027e69/760ca1e5gy1hi33odeetvj21z4140u03.jpg?table=block&id=1ac3b07c-81ff-80d1-84a1-f564abe7fef3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=ixPLmW-QGmYs0tnNwqi5q4Uw5wEn46IzuWp1jISeAAw",
+    "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d0232478-c39e-4987-8861-2c97e4a8c8a2/Screenshot_2025.03.17_06.05.21.850.png?table=block&id=1ad3b07c-81ff-80af-8fa1-dba5dde1db0d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=RvDgRX47GM0gN_oLFklkJp41MeZR7uSH47CcGywdyEY"
   }
 }

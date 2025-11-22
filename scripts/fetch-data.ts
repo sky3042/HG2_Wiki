@@ -14,7 +14,6 @@ const notion = new NotionAPI({
 });
 
 // あなたの本番ルートページID
-// ※ここが正しいIDになっているか再確認してください
 const ROOT_PAGE_ID = '1ac3b07c81ff80d184a1f564abe7fef3'; 
 
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -26,11 +25,13 @@ if (!fs.existsSync(DATA_DIR)) {
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function main() {
-  console.log('🚀 Notionデータの増分更新を開始します...');
+  console.log('🚀 Notionデータの増分更新（タイムスタンプ比較）を開始します...');
   
   const updatedPages: string[] = [];
   const newPages: string[] = [];
+  const skippedPages: string[] = [];
 
+  // 1. ローカルにあるファイルのリストを確認
   const localFiles = new Set<string>();
   if (fs.existsSync(DATA_DIR)) {
     const files = fs.readdirSync(DATA_DIR);
@@ -49,38 +50,45 @@ async function main() {
       const filePath = path.join(DATA_DIR, `${cleanId}.json`);
 
       try {
+        // Notionから最新データを取得
         const recordMap = await notion.getPage(pageId);
         
-        // ▼▼▼ 修正箇所: ブロックの存在確認を追加 ▼▼▼
+        // ブロック情報の取得
         const block = recordMap.block[pageId]?.value;
         const title = block 
           ? (getBlockTitle(block, recordMap) || 'Untitled') 
           : 'Unknown Page';
-        // ▲▲▲ 修正箇所終了 ▲▲▲
-        
-        const newContent = JSON.stringify(recordMap, null, 2);
-        
-        // A. 新規ページの場合
+
+        // A. 新規ページの場合 -> 保存
         if (!localFiles.has(cleanId)) {
-            console.log(`✨ New: "${title}" (${cleanId})`);
-            fs.writeFileSync(filePath, newContent);
+            console.log(`✨ New: "${title}"`);
+            fs.writeFileSync(filePath, JSON.stringify(recordMap, null, 2));
             newPages.push(title);
             await sleep(300);
             return recordMap;
         }
 
-        // B. 既存ページの場合（差分チェック）
+        // B. 既存ページの場合 -> タイムスタンプ比較
         if (fs.existsSync(filePath)) {
-            const oldContent = fs.readFileSync(filePath, 'utf-8');
-            if (oldContent === newContent) {
-                // 変更なし
-                return recordMap; 
+            // ローカルのデータを読み込んで最終更新日時を取得
+            const oldData = fs.readFileSync(filePath, 'utf-8');
+            const oldRecordMap = JSON.parse(oldData) as ExtendedRecordMap;
+            const oldBlock = oldRecordMap.block[pageId]?.value;
+            
+            const oldTime = oldBlock?.last_edited_time || 0;
+            const newTime = block?.last_edited_time || 0;
+
+            // タイムスタンプが同じなら保存しない（スキップ）
+            if (oldTime === newTime) {
+                // process.stdout.write('.'); // 進捗表示（省略可）
+                skippedPages.push(title);
+                return recordMap; // 保存せずにメモリ上のデータだけ返す
             }
         }
 
         // 変更あり -> 保存
-        console.log(`🔄 Updated: "${title}" (${cleanId})`);
-        fs.writeFileSync(filePath, newContent);
+        console.log(`🔄 Updated: "${title}"`);
+        fs.writeFileSync(filePath, JSON.stringify(recordMap, null, 2));
         updatedPages.push(title);
         
         await sleep(300); 
@@ -88,7 +96,6 @@ async function main() {
 
       } catch (err: any) {
         console.error(`❌ Error fetching ${cleanId}:`, err.message);
-        // エラー時はキャッシュがあればそれを使う
         if (localFiles.has(cleanId)) {
             const data = fs.readFileSync(filePath, 'utf-8');
             return JSON.parse(data) as ExtendedRecordMap;
@@ -104,14 +111,15 @@ async function main() {
 
   console.log('\n' + '='.repeat(40));
   console.log('🎉 処理完了');
-  console.log(`新規追加: ${newPages.length} ページ`);
-  if (newPages.length > 0) {
-      newPages.forEach(p => console.log(`  + ${p}`));
-  }
+  console.log(`新規: ${newPages.length} / 更新: ${updatedPages.length} / 変化なし: ${skippedPages.length}`);
   
-  console.log(`更新あり: ${updatedPages.length} ページ`);
+  if (newPages.length > 0) {
+    console.log('\n[新規ページ]');
+    newPages.forEach(p => console.log(`  + ${p}`));
+  }
   if (updatedPages.length > 0) {
-      updatedPages.forEach(p => console.log(`  * ${p}`));
+    console.log('\n[更新されたページ]');
+    updatedPages.forEach(p => console.log(`  * ${p}`));
   }
   console.log('='.repeat(40) + '\n');
 }
