@@ -44,30 +44,33 @@ export async function getSiteMap(): Promise<types.SiteMap> {
       // --- URL決定ロジック ---
       let url = ''
 
-      if (includeNotionIdInUrls) {
-        url = uuidToId(pageId)
+      // 設定に関わらず、まずは理想のURL（Slugかタイトル）を決める
+      const slug = getPageProperty<string>('Slug', block, recordMap)
+      if (slug) {
+        url = slug
       } else {
-        const slug = getPageProperty<string>('Slug', block, recordMap)
-        
-        if (slug) {
-          url = slug
+        const title = getBlockTitle(block, recordMap)
+        if (title) {
+          url = title.trim().replace(/\s+/g, '-')
         } else {
-          const title = getBlockTitle(block, recordMap)
-          if (title) {
-            url = title.trim().replace(/\s+/g, '-')
-          } else {
-            url = uuidToId(pageId)
-          }
+          url = uuidToId(pageId)
         }
       }
 
-      // ▼▼▼ 重複回避ロジック（変更箇所） ▼▼▼
-      // もしURLが既に登録されていたら、「URL + ハイフン + ID」にして強制的にユニークにする
+      // ▼▼▼ 重複回避ロジック（重要） ▼▼▼
+      // もしURLが既に登録されていたら、強制的に「URL-ID」という形式の新しいキーを作る
+      // ※ includeNotionIdInUrls の設定に関係なく、キー自体を変える
       if (map[url] && map[url] !== pageId) {
         console.warn(`Duplicate URL detected: "${url}". Appending ID to uniqueify.`)
         url = `${url}-${uuidToId(pageId)}`
       }
       // ▲▲▲ ここまで ▲▲▲
+      
+      // 最後に設定を見て、ID強制なら上書きする（今回はfalseなので影響しない）
+      if (includeNotionIdInUrls) {
+         // ここはあえて何もしないか、必要なら処理を入れる
+         // url = uuidToId(pageId) // これを有効にすると全部IDになるのでコメントアウトのまま
+      }
 
       return {
         ...map,

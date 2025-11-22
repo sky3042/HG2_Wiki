@@ -1984,7 +1984,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1714,
+        "version": 1717,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -2179,7 +2179,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1763798857633,
+        "last_edited_time": 1763799859805,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -3171,7 +3171,7 @@
     "1b93b07c-81ff-80b9-9ac2-d0727e53b718": {
       "value": {
         "id": "1b93b07c-81ff-80b9-9ac2-d0727e53b718",
-        "version": 59,
+        "version": 60,
         "type": "header",
         "properties": {
           "title": [
@@ -3297,6 +3297,37 @@
                         5
                       ],
                       "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "BT8huLElv6Hv-CefKejJdg,[\"bxCH5XBPVVbq\",26],\"end\""
+                ]
+              },
+              "BT8huLElv6Hv-CefKejJdg,[\"bxCH5XBPVVbq\",26],\"end\"": {
+                "s": {
+                  "x": "BT8huLElv6Hv-CefKejJdg",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "bxCH5XBPVVbq",
+                        26
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "bxCH5XBPVVbq",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -5
                     },
                     {
                       "t": "e"
