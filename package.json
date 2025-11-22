@@ -11,7 +11,8 @@
   },
   "type": "module",
   "scripts": {
-    "fetch-data": "tsx scripts/fetch-data.ts",
+    "fetch-data": "npx tsx scripts/fetch-data.ts",
+    "update": "npx tsx scripts/fetch-data.ts && git add . && git commit -m \"Update content\" && git push",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
