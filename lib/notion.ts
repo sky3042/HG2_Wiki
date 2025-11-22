@@ -1,5 +1,5 @@
-import * as fs from 'fs'
-import * as path from 'path'
+import * as fs from 'node:fs'
+import * as path from 'node:path'
 import {
   type ExtendedRecordMap,
   type SearchParams,
@@ -18,32 +18,24 @@ import { getTweetsMap } from './get-tweets'
 import { notion } from './notion-api'
 import { getPreviewImageMap } from './preview-images'
 
-// --- ローカルキャッシュからの読み込み関数 ---
 async function fetchPageData(pageId: string): Promise<ExtendedRecordMap> {
-  // 1. IDからハイフンを除去（保存ファイル名に合わせる）
-  const cleanId = pageId.replace(/-/g, '');
+  const cleanId = pageId.replaceAll('-', '')
   
-  // 2. ローカルの data フォルダへのパス
-  // Vercel等の環境でも process.cwd() はプロジェクトルートを指します
-  const cachePath = path.join(process.cwd(), 'data', `${cleanId}.json`);
+  const cachePath = path.join(process.cwd(), 'data', `${cleanId}.json`)
 
-  // 3. ファイルが存在すれば読み込む
   if (fs.existsSync(cachePath)) {
     try {
-      const fileContent = fs.readFileSync(cachePath, 'utf-8');
-      const recordMap = JSON.parse(fileContent) as ExtendedRecordMap;
-      // console.log(`Using local cache for: ${cleanId}`);
-      return recordMap;
-    } catch (e) {
-      console.warn(`Error reading local cache for ${cleanId}, falling back to API.`, e);
+      const fileContent = fs.readFileSync(cachePath, 'utf8')
+      const recordMap = JSON.parse(fileContent) as ExtendedRecordMap
+      return recordMap
+    } catch (err) {
+      console.warn(`Error reading local cache for ${cleanId}, falling back to API.`, err)
     }
   }
 
-  // 4. なければNotion APIから取得（開発時や新規ページなど）
-  console.warn(`Cache miss: Fetching from API for ${pageId}`);
-  return notion.getPage(pageId);
+  console.warn(`Cache miss: Fetching from API for ${pageId}`)
+  return notion.getPage(pageId)
 }
-// ---------------------------------------
 
 const getNavigationLinkPages = pMemoize(
   async (): Promise<ExtendedRecordMap[]> => {
@@ -55,7 +47,6 @@ const getNavigationLinkPages = pMemoize(
       return pMap(
         navigationLinkPageIds,
         async (navigationLinkPageId) =>
-          // ここも fetchPageData に置き換えてキャッシュを利用
           fetchPageData(navigationLinkPageId as string),
         {
           concurrency: 4
@@ -68,13 +59,9 @@ const getNavigationLinkPages = pMemoize(
 )
 
 export async function getPage(pageId: string): Promise<ExtendedRecordMap> {
-  // 変更: fetchPageData を使用してローカルデータを優先
   let recordMap = await fetchPageData(pageId)
 
   if (navigationStyle !== 'default') {
-    // ensure that any pages linked to in the custom navigation header have
-    // their block info fully resolved in the page record map so we know
-    // the page title, slug, etc.
     const navigationLinkRecordMaps = await getNavigationLinkPages()
 
     if (navigationLinkRecordMaps?.length) {

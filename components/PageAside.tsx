@@ -8,7 +8,7 @@ type Props = {
   isBlogPost: boolean
 }
 
-export function PageAside(props: Props) {
+export function PageAside(_props: Props) {
   // 何も表示しない
   return null
 }
