@@ -303,10 +303,7 @@ export function NotionPage({
       {isDarkMode && <BodyClassName className='dark-mode' />}
 
       <NotionRenderer
-        bodyClassName={cs(
-          styles.notion,
-          pageId === site.rootNotionPageId && 'index-page'
-        )}
+        bodyClassName={styles.notion}
         darkMode={isDarkMode}
         components={components}
         recordMap={recordMap}
