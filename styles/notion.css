@@ -101,9 +101,6 @@
   filter: none;
 }
 
-.notion-collection-card:hover .notion-collection-card-cover {
-  filter: brightness(120%);
-}
 
 .notion-collection-card-body {
   padding: 10px;
@@ -433,4 +430,10 @@
  */
 .notion-quote + .notion-quote {
   margin-top: 0.8em !important;
+}
+/* styles/notion.css の末尾に追記 */
+.notion-quote {
+  /* 引用ブロックの丸み設定を上書き */
+  border-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
 }
