@@ -1,0 +1,1361 @@
+{
+  "block": {
+    "2a03b07c-81ff-809f-842f-e5b1bd2b5351": {
+      "value": {
+        "id": "2a03b07c-81ff-809f-842f-e5b1bd2b5351",
+        "version": 32,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "その他"
+            ]
+          ]
+        },
+        "content": [
+          "2a03b07c-81ff-80b7-bad5-ce92fb63f854",
+          "2a03b07c-81ff-8065-9b96-dcc1f78480fe",
+          "2a03b07c-81ff-80a6-9bcd-f1aa3b45ec7d"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:d8525e73-44e3-4726-b57e-0ace33bc21f2:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1762139217735,
+        "last_edited_time": 1762139287963,
+        "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "d8525e73-44e3-4726-b57e-0ace33bc21f2"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "6Fvg_Z2BMtnY0QbqM0Cf0g,\"start\",\"end\"",
+            "n": {
+              "6Fvg_Z2BMtnY0QbqM0Cf0g,\"start\",\"end\"": {
+                "s": {
+                  "x": "6Fvg_Z2BMtnY0QbqM0Cf0g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        3
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "そ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        5
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        3
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        8
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        5
+                      ],
+                      "l": 1,
+                      "c": "他"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        7
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        6
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        4
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-8049-a679-dee2753e730d": {
+      "value": {
+        "id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
+        "version": 70,
+        "type": "collection_view",
+        "view_ids": [
+          "1ad3b07c-81ff-808c-8d68-000c1a966362"
+        ],
+        "collection_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+        "format": {
+          "collection_pointer": {
+            "id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "social_media_image_preview_url": "attachment:77ee58c3-eb3b-464f-91ec-260bc5a88966:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741139703841,
+        "last_edited_time": 1762139217746,
+        "parent_id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "77ee58c3-eb3b-464f-91ec-260bc5a88966"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Amp7WP7hz3yj5991nxj4VA,\"start\",\"end\"",
+            "n": {
+              "Amp7WP7hz3yj5991nxj4VA,\"start\",\"end\"": {
+                "s": {
+                  "x": "Amp7WP7hz3yj5991nxj4VA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-8089-98b4-ec9f8c06db35": {
+      "value": {
+        "id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
+        "version": 106,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "考察"
+            ]
+          ]
+        },
+        "content": [
+          "1ad3b07c-81ff-8049-a679-dee2753e730d",
+          "1bc3b07c-81ff-80ed-ac0b-c75e05529b43"
+        ],
+        "format": {
+          "slug": "analysis",
+          "page_cover": "attachment:2f875b07-83d3-4464-ad09-ac674afffc97:2024-11-08_14-25-53.mp4_snapshot_03.48_2025.03.05_00.16.37.jpg",
+          "page_full_width": true,
+          "page_cover_position": 0.6632,
+          "social_media_image_preview_url": "attachment:8df55a7c-dc11-421a-ad46-8e12905aa7f2:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741119050032,
+        "last_edited_time": 1763354128830,
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "57e28f94-bc75-446d-86c9-f4a207e343e7",
+          "febe8d40-aad2-4cd9-8fc5-12bf2036a59b",
+          "76480c36-5d65-4de4-bbf2-0a925e392aee",
+          "2c8a8926-f641-48fa-915d-ba2728c2c6a8",
+          "2f875b07-83d3-4464-ad09-ac674afffc97",
+          "8df55a7c-dc11-421a-ad46-8e12905aa7f2"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "IufF9C3IO5C1xSKuSwomCQ,\"start\",\"end\"",
+            "n": {
+              "IufF9C3IO5C1xSKuSwomCQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "IufF9C3IO5C1xSKuSwomCQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Rc3fyd9_UpqD",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "考察"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-8068-828b-fec9cdc96765": {
+      "value": {
+        "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "version": 64,
+        "type": "collection_view",
+        "view_ids": [
+          "1ac3b07c-81ff-80ee-821a-000cec78a24c"
+        ],
+        "collection_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "format": {
+          "collection_pointer": {
+            "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:fb48497c-047a-4a51-8d55-ff2f2a45c136:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741119010204,
+        "last_edited_time": 1755881175648,
+        "parent_id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "6e2b7188-17c5-45ba-bff7-1888e4b3f5b6",
+          "fb48497c-047a-4a51-8d55-ff2f2a45c136"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DpTROquDtyJuDphazM7EPg,\"start\",\"end\"",
+            "n": {
+              "DpTROquDtyJuDphazM7EPg,\"start\",\"end\"": {
+                "s": {
+                  "x": "DpTROquDtyJuDphazM7EPg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
+      "value": {
+        "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
+        "version": 340,
+        "type": "page",
+        "properties": {
+          "mgJK": [
+            [
+              "‣",
+              [
+                [
+                  "p",
+                  "1b9a2d41-3d52-470d-b4eb-79f20192b22b",
+                  "f25e8375-dff8-499a-b7bf-74566e1055df"
+                ]
+              ]
+            ]
+          ],
+          "title": [
+            [
+              "崩壊学園編　ストーリー　Wiki"
+            ]
+          ]
+        },
+        "content": [
+          "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+          "1bc3b07c-81ff-8027-b36b-fe45e7913081",
+          "25e3b07c-81ff-80ea-a0bb-dafec40f099c",
+          "1bc3b07c-81ff-8035-a07b-fd6768f2ea47",
+          "1c83b07c-81ff-8013-861e-e033d11cfdb9",
+          "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
+          "25e3b07c-81ff-8029-8c34-f5c8da01f230",
+          "1b83b07c-81ff-80c4-b3ef-e093616890e5",
+          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
+          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
+          "1c83b07c-81ff-80db-b21c-f216fe984cda",
+          "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
+          "25e3b07c-81ff-807e-9816-e841c1e019fe",
+          "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
+          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
+          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
+          "1c83b07c-81ff-80ba-9b0e-d88248245398",
+          "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
+        ],
+        "format": {
+          "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
+          "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
+          "block_locked": false,
+          "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+          "page_full_width": true,
+          "seo_description": "このサイトについて",
+          "copied_from_pointer": {
+            "id": "f1552fed-37eb-4430-a72c-2b7e492693fe",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_cover_position": 0.8137,
+          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+        },
+        "permissions": [
+          {
+            "role": "reader",
+            "type": "public_permission",
+            "is_site": true,
+            "added_timestamp": 1755837904470,
+            "allow_duplicate": false
+          },
+          {
+            "role": {
+              "read_content": true,
+              "insert_content": true,
+              "update_content": true
+            },
+            "type": "bot_permission",
+            "bot_id": "d24ae229-9722-4f23-b631-a4de79cc9b72",
+            "parent_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+            "parent_table": "space"
+          }
+        ],
+        "created_time": 1741118997345,
+        "last_edited_time": 1763784546918,
+        "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
+        "parent_table": "collection",
+        "alive": true,
+        "copied_from": "f1552fed-37eb-4430-a72c-2b7e492693fe",
+        "file_ids": [
+          "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
+          "d4c78f4a-1872-4d8a-836f-48abb3027e69",
+          "8478f939-1500-4129-9378-6a582186c3c5",
+          "d1263e4a-1f40-45da-8f32-ff552281384b"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "qwZCPsMTuY_DWKxq_PVehw,\"start\",\"end\"",
+            "n": {
+              "qwZCPsMTuY_DWKxq_PVehw,\"start\",\"end\"": {
+                "s": {
+                  "x": "qwZCPsMTuY_DWKxq_PVehw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 16,
+                      "c": "崩壊学園編　ストーリー　Wiki"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "43c1134f-28b4-42d1-a716-f9fa638c9e50": {
+      "role": "none"
+    },
+    "1ad3b07c-81ff-80e6-b0a3-c1e8c0daf575": {
+      "role": "none"
+    },
+    "2a03b07c-81ff-80b7-bad5-ce92fb63f854": {
+      "value": {
+        "id": "2a03b07c-81ff-80b7-bad5-ce92fb63f854",
+        "version": 44,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "カリンの正体"
+            ]
+          ]
+        },
+        "created_time": 1762139222187,
+        "last_edited_time": 1762139253981,
+        "parent_id": "2a03b07c-81ff-809f-842f-e5b1bd2b5351",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "gesdrwonJaxreaS7egp0pA,\"start\",\"end\"",
+            "n": {
+              "gesdrwonJaxreaS7egp0pA,\"start\",\"end\"": {
+                "s": {
+                  "x": "gesdrwonJaxreaS7egp0pA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        6
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "カリン"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        10
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        8
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        19
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        10
+                      ],
+                      "l": 2,
+                      "c": "正体"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        13
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        10
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        17
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        15
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        16
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        11
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        10
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        9
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        4
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        2
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        3
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2a03b07c-81ff-8065-9b96-dcc1f78480fe": {
+      "value": {
+        "id": "2a03b07c-81ff-8065-9b96-dcc1f78480fe",
+        "version": 53,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "アクリアの誕生日"
+            ]
+          ]
+        },
+        "content": [
+          "2a03b07c-81ff-80da-bbf6-cf791c79780a"
+        ],
+        "created_time": 1762139225518,
+        "last_edited_time": 1762139229694,
+        "parent_id": "2a03b07c-81ff-809f-842f-e5b1bd2b5351",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DLXXDlkL6CTlUDUud0Ncww,\"start\",\"end\"",
+            "n": {
+              "DLXXDlkL6CTlUDUud0Ncww,\"start\",\"end\"": {
+                "s": {
+                  "x": "DLXXDlkL6CTlUDUud0Ncww",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        7
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "アクリア"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        12
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        10
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        23
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        12
+                      ],
+                      "l": 3,
+                      "c": "誕生日"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        14
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        16
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        18
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        16
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        22
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        20
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        21
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        20
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        17
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        16
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        15
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        13
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        11
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        3
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        1
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        5
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        3
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        4
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        2
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        1
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2a03b07c-81ff-80a6-9bcd-f1aa3b45ec7d": {
+      "value": {
+        "id": "2a03b07c-81ff-80a6-9bcd-f1aa3b45ec7d",
+        "version": 37,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "シンボル"
+            ]
+          ]
+        },
+        "content": [
+          "2a03b07c-81ff-80a4-a1c7-c0b4f55c0fe4",
+          "2a03b07c-81ff-8021-962b-f0aabe8a991d",
+          "2a03b07c-81ff-801a-8fc6-d527c43860d7",
+          "2a03b07c-81ff-80d7-9534-ea9291449355",
+          "2a03b07c-81ff-800d-a6b7-ce9cb82d47ca",
+          "2a03b07c-81ff-80c7-8f5e-d9c43ce052a0"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:e0ea3ac8-af5a-4cff-af45-63d1f5fbb437:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1762139287962,
+        "last_edited_time": 1762140000817,
+        "parent_id": "2a03b07c-81ff-809f-842f-e5b1bd2b5351",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "e0ea3ac8-af5a-4cff-af45-63d1f5fbb437"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "OzsxVLDq7Pl8IW9G4cuZAg,\"start\",\"end\"",
+            "n": {
+              "OzsxVLDq7Pl8IW9G4cuZAg,\"start\",\"end\"": {
+                "s": {
+                  "x": "OzsxVLDq7Pl8IW9G4cuZAg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "8YzxYMu77zX9",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "シンボル"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    }
+  },
+  "collection": {
+    "1ad3b07c-81ff-80f8-93e5-000baa1c67d4": {
+      "value": {
+        "id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+        "version": 30,
+        "name": [
+          [
+            "考察"
+          ]
+        ],
+        "schema": {
+          "<=z{": {
+            "name": "タグ",
+            "type": "multi_select"
+          },
+          "Q~i|": {
+            "name": "作成日時",
+            "type": "created_time"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "layout_pointer": {
+            "id": "1c93b07c-81ff-8015-8c0c-006e662d4861",
+            "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_section_visibility": {
+            "comments": "section_hide",
+            "backlinks": "section_collapsed",
+            "margin_comments": "minimal"
+          },
+          "collection_page_properties": [
+            {
+              "visible": true,
+              "property": "Q~i|"
+            },
+            {
+              "visible": true,
+              "property": "<=z{"
+            }
+          ]
+        },
+        "parent_id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
+        "parent_table": "block",
+        "alive": true,
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-8086-a96b-000b78a078f2": {
+      "value": {
+        "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "version": 32,
+        "name": [
+          [
+            "目次"
+          ]
+        ],
+        "schema": {
+          "`q`e": {
+            "name": "タグ",
+            "type": "multi_select"
+          },
+          "vidt": {
+            "name": "作成日時",
+            "type": "created_time"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "layout_pointer": {
+            "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+            "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "更新日時",
+              "type": "date"
+            },
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "Wegk",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": ";HBU",
+                  "color": "purple",
+                  "value": "中"
+                },
+                {
+                  "id": "Zark",
+                  "color": "default",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "ステータス",
+              "type": "status"
+            },
+            {
+              "name": "関連ファイル",
+              "type": "file"
+            },
+            {
+              "name": "連絡先メール",
+              "type": "email"
+            },
+            {
+              "name": "連絡先電話番号",
+              "type": "phone_number"
+            },
+            {
+              "name": "カテゴリー",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "o>B<",
+                  "color": "orange",
+                  "value": "技術"
+                },
+                {
+                  "id": "ksAA",
+                  "color": "pink",
+                  "value": "マーケティング"
+                },
+                {
+                  "id": "}yWP",
+                  "color": "brown",
+                  "value": "デザイン"
+                },
+                {
+                  "id": "lt{K",
+                  "color": "yellow",
+                  "value": "管理"
+                }
+              ]
+            },
+            {
+              "name": "予算",
+              "type": "number"
+            }
+          ],
+          "page_section_visibility": {
+            "comments": "section_hide",
+            "backlinks": "section_collapsed",
+            "margin_comments": "minimal"
+          },
+          "collection_cover_position": 0.7987,
+          "collection_page_properties": [
+            {
+              "visible": true,
+              "property": "vidt"
+            },
+            {
+              "visible": true,
+              "property": "`q`e"
+            }
+          ]
+        },
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
+        ],
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba": {
+      "role": "none"
+    }
+  },
+  "layout": {
+    "1c93b07c-81ff-8015-8c0c-006e662d4861": {
+      "value": {
+        "id": "1c93b07c-81ff-8015-8c0c-006e662d4861",
+        "version": 3,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "parent_table": "collection",
+        "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "created_by_table": "notion_user",
+        "created_time": 1743581368985,
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_time": 1743581380331,
+        "modules": {
+          "page_layout_schema": [
+            {
+              "id": "cover",
+              "type": "cover"
+            },
+            {
+              "id": "zHoh",
+              "type": "titleWithIcon"
+            },
+            {
+              "id": "FPjc",
+              "type": "properties"
+            },
+            {
+              "id": "discussions",
+              "type": "discussions"
+            },
+            {
+              "id": "editor",
+              "type": "editor"
+            }
+          ]
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80e0-9466-006e60a7ae40": {
+      "value": {
+        "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+        "version": 5,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "parent_table": "collection",
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "created_by_table": "notion_user",
+        "created_time": 1741120301429,
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_time": 1741120316045,
+        "modules": {
+          "page_layout_schema": [
+            {
+              "id": "cover",
+              "type": "cover"
+            },
+            {
+              "id": "R=YI",
+              "type": "titleWithIcon"
+            },
+            {
+              "id": "discussions",
+              "type": "discussions"
+            },
+            {
+              "id": "editor",
+              "type": "editor"
+            }
+          ],
+          "page_info_layout_schema": [
+            {
+              "id": "vPyb",
+              "type": "properties"
+            }
+          ]
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-801e-8fb8-006ea2bd8886": {
+      "role": "none"
+    }
+  },
+  "collection_view": {
+    "1ad3b07c-81ff-808c-8d68-000c1a966362": {
+      "value": {
+        "id": "1ad3b07c-81ff-808c-8d68-000c1a966362",
+        "version": 43,
+        "type": "gallery",
+        "name": "ギャラリービュー",
+        "format": {
+          "gallery_cover": {
+            "type": "page_cover"
+          },
+          "collection_pointer": {
+            "id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "collection_peek_mode": "full_page"
+        },
+        "parent_id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
+        "parent_table": "block",
+        "alive": true,
+        "page_sort": [
+          "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d",
+          "2833b07c-81ff-802a-b26c-c5fec1d872bf",
+          "1b53b07c-81ff-8022-adb3-cef37daf21d4",
+          "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+          "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+          "1b63b07c-81ff-80a4-a47a-c01325dd88ba",
+          "2923b07c-81ff-809c-8087-d92611f42803",
+          "2a03b07c-81ff-809f-842f-e5b1bd2b5351",
+          "1ad3b07c-81ff-808d-ab51-c9790e0c87cf",
+          "1bc3b07c-81ff-80de-b779-e32ff722ecfc"
+        ],
+        "query2": {
+          "aggregations": [
+            {
+              "aggregator": "count"
+            }
+          ]
+        },
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1759648389260,
+        "last_edited_time": 1762139217746,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80ee-821a-000cec78a24c": {
+      "value": {
+        "id": "1ac3b07c-81ff-80ee-821a-000cec78a24c",
+        "version": 38,
+        "type": "gallery",
+        "name": "ギャラリービュー",
+        "format": {
+          "table_wrap": false,
+          "gallery_cover": {
+            "type": "page_cover"
+          },
+          "collection_pointer": {
+            "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "gallery_cover_size": "medium",
+          "collection_peek_mode": "full_page",
+          "gallery_cover_aspect": "cover"
+        },
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "page_sort": [
+          "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
+          "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
+          "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+          "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
+          "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+          "1ad3b07c-81ff-809c-8204-e16483640fa5",
+          "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
+          "1c83b07c-81ff-803f-99b6-f7010f54b710",
+          "2573b07c-81ff-8076-8c97-c512393c2dc8",
+          "1b63b07c-81ff-809a-8e66-e4e88abf2006"
+        ],
+        "query2": {
+          "aggregations": [
+            {
+              "aggregator": "count"
+            }
+          ]
+        },
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1748772241834,
+        "last_edited_time": 1755881175648,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+      },
+      "role": "reader"
+    },
+    "5531d29a-4e77-406f-a1fc-32cd5bbafec7": {
+      "role": "none"
+    },
+    "5dd8ee8a-3d52-42e6-b781-ac5db580f283": {
+      "role": "none"
+    },
+    "401ba18e-ee37-450f-b369-015c2957f5d4": {
+      "role": "none"
+    },
+    "5961b724-b949-48b2-aef2-d5c03eacd1d8": {
+      "role": "none"
+    },
+    "1ad3b07c-81ff-8037-9574-000c12eb1c9d": {
+      "role": "none"
+    }
+  },
+  "notion_user": {},
+  "collection_query": {},
+  "signed_urls": {}
+}

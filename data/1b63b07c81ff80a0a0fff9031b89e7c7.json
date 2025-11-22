@@ -1,0 +1,3331 @@
+{
+  "block": {
+    "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7": {
+      "value": {
+        "id": "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+        "version": 87,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "昔征きし時"
+            ]
+          ]
+        },
+        "content": [
+          "1f33b07c-81ff-8028-84b7-c8751d8c3b15",
+          "2a03b07c-81ff-804b-84e3-f1c486f5402d",
+          "2833b07c-81ff-800e-8de8-d69f64ae57c8",
+          "1f33b07c-81ff-8033-9c03-f58589a54e39",
+          "1f33b07c-81ff-8044-b3d3-f60da72d3c71",
+          "1f33b07c-81ff-8087-b902-dae3d23b4a0c",
+          "1c53b07c-81ff-80bb-8de7-c317cf4c4980",
+          "1c53b07c-81ff-80ce-8816-d6c005e97010"
+        ],
+        "format": {
+          "slug": "mukasiyukisitoki",
+          "page_cover": "attachment:c3daef42-c33c-4558-b99e-11287bd67796:760ca1e5gy1hg84nwrikrj21z4140npe.jpg",
+          "page_cover_position": 0.193,
+          "social_media_image_preview_url": "attachment:acd60213-7dd7-40b0-98d8-5713011e56f0:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741987478505,
+        "last_edited_time": 1762139734330,
+        "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "acd60213-7dd7-40b0-98d8-5713011e56f0",
+          "c3daef42-c33c-4558-b99e-11287bd67796"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "O6t6uUoFBy1EPtg8U_PpSQ,\"start\",\"end\"",
+            "n": {
+              "O6t6uUoFBy1EPtg8U_PpSQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "O6t6uUoFBy1EPtg8U_PpSQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "w-sQXcyL2CII",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "昔征きし時"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-8049-a679-dee2753e730d": {
+      "value": {
+        "id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
+        "version": 70,
+        "type": "collection_view",
+        "view_ids": [
+          "1ad3b07c-81ff-808c-8d68-000c1a966362"
+        ],
+        "collection_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+        "format": {
+          "collection_pointer": {
+            "id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "social_media_image_preview_url": "attachment:77ee58c3-eb3b-464f-91ec-260bc5a88966:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741139703841,
+        "last_edited_time": 1762139217746,
+        "parent_id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "77ee58c3-eb3b-464f-91ec-260bc5a88966"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Amp7WP7hz3yj5991nxj4VA,\"start\",\"end\"",
+            "n": {
+              "Amp7WP7hz3yj5991nxj4VA,\"start\",\"end\"": {
+                "s": {
+                  "x": "Amp7WP7hz3yj5991nxj4VA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-8089-98b4-ec9f8c06db35": {
+      "value": {
+        "id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
+        "version": 106,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "考察"
+            ]
+          ]
+        },
+        "content": [
+          "1ad3b07c-81ff-8049-a679-dee2753e730d",
+          "1bc3b07c-81ff-80ed-ac0b-c75e05529b43"
+        ],
+        "format": {
+          "slug": "analysis",
+          "page_cover": "attachment:2f875b07-83d3-4464-ad09-ac674afffc97:2024-11-08_14-25-53.mp4_snapshot_03.48_2025.03.05_00.16.37.jpg",
+          "page_full_width": true,
+          "page_cover_position": 0.6632,
+          "social_media_image_preview_url": "attachment:8df55a7c-dc11-421a-ad46-8e12905aa7f2:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741119050032,
+        "last_edited_time": 1763354128830,
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "57e28f94-bc75-446d-86c9-f4a207e343e7",
+          "febe8d40-aad2-4cd9-8fc5-12bf2036a59b",
+          "76480c36-5d65-4de4-bbf2-0a925e392aee",
+          "2c8a8926-f641-48fa-915d-ba2728c2c6a8",
+          "2f875b07-83d3-4464-ad09-ac674afffc97",
+          "8df55a7c-dc11-421a-ad46-8e12905aa7f2"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "IufF9C3IO5C1xSKuSwomCQ,\"start\",\"end\"",
+            "n": {
+              "IufF9C3IO5C1xSKuSwomCQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "IufF9C3IO5C1xSKuSwomCQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Rc3fyd9_UpqD",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "考察"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-8068-828b-fec9cdc96765": {
+      "value": {
+        "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "version": 64,
+        "type": "collection_view",
+        "view_ids": [
+          "1ac3b07c-81ff-80ee-821a-000cec78a24c"
+        ],
+        "collection_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "format": {
+          "collection_pointer": {
+            "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:fb48497c-047a-4a51-8d55-ff2f2a45c136:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741119010204,
+        "last_edited_time": 1755881175648,
+        "parent_id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "6e2b7188-17c5-45ba-bff7-1888e4b3f5b6",
+          "fb48497c-047a-4a51-8d55-ff2f2a45c136"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DpTROquDtyJuDphazM7EPg,\"start\",\"end\"",
+            "n": {
+              "DpTROquDtyJuDphazM7EPg,\"start\",\"end\"": {
+                "s": {
+                  "x": "DpTROquDtyJuDphazM7EPg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
+      "value": {
+        "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
+        "version": 340,
+        "type": "page",
+        "properties": {
+          "mgJK": [
+            [
+              "‣",
+              [
+                [
+                  "p",
+                  "1b9a2d41-3d52-470d-b4eb-79f20192b22b",
+                  "f25e8375-dff8-499a-b7bf-74566e1055df"
+                ]
+              ]
+            ]
+          ],
+          "title": [
+            [
+              "崩壊学園編　ストーリー　Wiki"
+            ]
+          ]
+        },
+        "content": [
+          "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+          "1bc3b07c-81ff-8027-b36b-fe45e7913081",
+          "25e3b07c-81ff-80ea-a0bb-dafec40f099c",
+          "1bc3b07c-81ff-8035-a07b-fd6768f2ea47",
+          "1c83b07c-81ff-8013-861e-e033d11cfdb9",
+          "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
+          "25e3b07c-81ff-8029-8c34-f5c8da01f230",
+          "1b83b07c-81ff-80c4-b3ef-e093616890e5",
+          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
+          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
+          "1c83b07c-81ff-80db-b21c-f216fe984cda",
+          "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
+          "25e3b07c-81ff-807e-9816-e841c1e019fe",
+          "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
+          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
+          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
+          "1c83b07c-81ff-80ba-9b0e-d88248245398",
+          "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
+        ],
+        "format": {
+          "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
+          "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
+          "block_locked": false,
+          "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+          "page_full_width": true,
+          "seo_description": "このサイトについて",
+          "copied_from_pointer": {
+            "id": "f1552fed-37eb-4430-a72c-2b7e492693fe",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_cover_position": 0.8137,
+          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+        },
+        "permissions": [
+          {
+            "role": "reader",
+            "type": "public_permission",
+            "is_site": true,
+            "added_timestamp": 1755837904470,
+            "allow_duplicate": false
+          },
+          {
+            "role": {
+              "read_content": true,
+              "insert_content": true,
+              "update_content": true
+            },
+            "type": "bot_permission",
+            "bot_id": "d24ae229-9722-4f23-b631-a4de79cc9b72",
+            "parent_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+            "parent_table": "space"
+          }
+        ],
+        "created_time": 1741118997345,
+        "last_edited_time": 1763784546918,
+        "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
+        "parent_table": "collection",
+        "alive": true,
+        "copied_from": "f1552fed-37eb-4430-a72c-2b7e492693fe",
+        "file_ids": [
+          "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
+          "d4c78f4a-1872-4d8a-836f-48abb3027e69",
+          "8478f939-1500-4129-9378-6a582186c3c5",
+          "d1263e4a-1f40-45da-8f32-ff552281384b"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "qwZCPsMTuY_DWKxq_PVehw,\"start\",\"end\"",
+            "n": {
+              "qwZCPsMTuY_DWKxq_PVehw,\"start\",\"end\"": {
+                "s": {
+                  "x": "qwZCPsMTuY_DWKxq_PVehw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 16,
+                      "c": "崩壊学園編　ストーリー　Wiki"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "43c1134f-28b4-42d1-a716-f9fa638c9e50": {
+      "role": "none"
+    },
+    "1ad3b07c-81ff-80e6-b0a3-c1e8c0daf575": {
+      "role": "none"
+    },
+    "1f33b07c-81ff-8028-84b7-c8751d8c3b15": {
+      "value": {
+        "id": "1f33b07c-81ff-8028-84b7-c8751d8c3b15",
+        "version": 189,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "「今思えば」と「昔征きし時」は中国語では「今我来思」「昔我往矣」であり、対比関係にあります。"
+            ]
+          ]
+        },
+        "created_time": 1747219974940,
+        "last_edited_time": 1762139741720,
+        "parent_id": "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "QEbOaylxdVoZutBSm-2M3Q,\"start\",\"end\"",
+            "n": {
+              "QEbOaylxdVoZutBSm-2M3Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "QEbOaylxdVoZutBSm-2M3Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        14
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "「"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        22
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        14
+                      ],
+                      "l": 4,
+                      "c": "今思えば"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        16
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        18
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        16
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        21
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        19
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        20
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        19
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        17
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        16
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        15
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        14
+                      ],
+                      "l": 1,
+                      "c": "」"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        27
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        15
+                      ],
+                      "l": 2,
+                      "c": "と「"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        30
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        28
+                      ],
+                      "l": 5,
+                      "c": "昔征きし時"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        29
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        28
+                      ],
+                      "l": 1,
+                      "c": "」"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        36
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        29
+                      ],
+                      "l": 1,
+                      "c": "は"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        42
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        36
+                      ],
+                      "l": 3,
+                      "c": "中国語"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        46
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        44
+                      ],
+                      "l": 1,
+                      "c": "で"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        48
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        46
+                      ],
+                      "l": 2,
+                      "c": "は「"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        53
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        49
+                      ],
+                      "l": 4,
+                      "c": "今我来思"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        50
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        49
+                      ],
+                      "l": 2,
+                      "c": "」「"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        57
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        51
+                      ],
+                      "l": 4,
+                      "c": "昔我往矣"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        51
+                      ],
+                      "l": 1,
+                      "c": "」"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        62
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": 2,
+                      "c": "であ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        65
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        63
+                      ],
+                      "l": 2,
+                      "c": "り、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        74
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        66
+                      ],
+                      "l": 4,
+                      "c": "対比関係"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        79
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        77
+                      ],
+                      "l": 2,
+                      "c": "にあ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        82
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        80
+                      ],
+                      "l": 1,
+                      "c": "り"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        88
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        82
+                      ],
+                      "l": 1,
+                      "c": "ま"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        90
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        88
+                      ],
+                      "l": 2,
+                      "c": "す。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        89
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        88
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        87
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        82
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        84
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        82
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        83
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        82
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        81
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        80
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        78
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        77
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        68
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        66
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        71
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        69
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        73
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        71
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        72
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        71
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        70
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        69
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        67
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        66
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        64
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        63
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        61
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        47
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        46
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        45
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        44
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        39
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        36
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        37
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        36
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        35
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        29
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        26
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        8
+                      ],
+                      "o": "start",
+                      "l": -4
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        13
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        11
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        12
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        11
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        3
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        1
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        5
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        7
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        6
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        4
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        2
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        1
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2a03b07c-81ff-804b-84e3-f1c486f5402d": {
+      "value": {
+        "id": "2a03b07c-81ff-804b-84e3-f1c486f5402d",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "これらは中国の「"
+            ],
+            [
+              "小雅・采薇",
+              [
+                [
+                  "a",
+                  "https://baike.baidu.com/item/%E5%B0%8F%E9%9B%85%C2%B7%E9%87%87%E8%96%87/1795897"
+                ]
+              ]
+            ],
+            [
+              "」という詩の中の一節"
+            ]
+          ]
+        },
+        "created_time": 1762139741717,
+        "last_edited_time": 1762139741720,
+        "parent_id": "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "U0IlLsz4h9OLCQ4t_pJnoA,\"start\",\"end\"",
+            "n": {
+              "U0IlLsz4h9OLCQ4t_pJnoA,\"start\",\"end\"": {
+                "s": {
+                  "x": "U0IlLsz4h9OLCQ4t_pJnoA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "RwxTiEByqjt_lkmhRxVHXQ,[\"MGjnt-E9l55Y\",21],\"end\""
+                ]
+              },
+              "RwxTiEByqjt_lkmhRxVHXQ,[\"MGjnt-E9l55Y\",21],\"end\"": {
+                "s": {
+                  "x": "RwxTiEByqjt_lkmhRxVHXQ",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        21
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "fx0dJ-Fr3x6IGmMD6sx-Dg,[\"8YzxYMu77zX9\",123],\"end\""
+                ]
+              },
+              "fx0dJ-Fr3x6IGmMD6sx-Dg,[\"8YzxYMu77zX9\",123],\"end\"": {
+                "s": {
+                  "x": "fx0dJ-Fr3x6IGmMD6sx-Dg",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "8YzxYMu77zX9",
+                        123
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        2
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "こ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        4
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        2
+                      ],
+                      "l": 1,
+                      "c": "れ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        6
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        4
+                      ],
+                      "l": 1,
+                      "c": "ら"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        8
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        6
+                      ],
+                      "l": 1,
+                      "c": "は"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        14
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        8
+                      ],
+                      "l": 2,
+                      "c": "中国"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        18
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        15
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        19
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        18
+                      ],
+                      "l": -13
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        32
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        31
+                      ],
+                      "l": 1,
+                      "c": "「",
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "fx0dJ-Fr3x6IGmMD6sx-Dg",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            99
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              32
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              38
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        33
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        32
+                      ],
+                      "l": 5,
+                      "c": "小雅・采薇",
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "fx0dJ-Fr3x6IGmMD6sx-Dg",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            99
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              32
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              38
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "fx0dJ-Fr3x6IGmMD6sx-Dg",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            100
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              33
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              37
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "https://baike.baidu.com/item/%E5%B0%8F%E9%9B%85%C2%B7%E9%87%87%E8%96%87/1795897"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "fx0dJ-Fr3x6IGmMD6sx-Dg",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            99
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              32
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              38
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        38
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        37
+                      ],
+                      "l": -10,
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        48
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        47
+                      ],
+                      "l": 1,
+                      "c": "」"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        50
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        48
+                      ],
+                      "l": 3,
+                      "c": "という"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        75
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": 1,
+                      "c": "詩"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        77
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        75
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        86
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        77
+                      ],
+                      "l": 1,
+                      "c": "中"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        88
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        86
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        101
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        88
+                      ],
+                      "l": 2,
+                      "c": "一節"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        95
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        88
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        98
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        96
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        97
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        96
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        89
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        88
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        91
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        89
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        94
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        92
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        93
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        92
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        90
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        89
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        87
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        86
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        83
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        77
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        85
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        83
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        84
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        83
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        82
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        77
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        79
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        77
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        81
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        79
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        80
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        79
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        78
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        77
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        76
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        75
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        74
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        73
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        72
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        71
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        69
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        67
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        65
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        64
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        63
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        62
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        61
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        60
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        59
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        58
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        57
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        56
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        53
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        52
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        55
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        53
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        54
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        53
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        49
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        48
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        17
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        16
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        12
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        8
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        10
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        8
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        9
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        7
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        5
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        3
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2833b07c-81ff-800e-8de8-d69f64ae57c8": {
+      "value": {
+        "id": "2833b07c-81ff-800e-8de8-d69f64ae57c8",
+        "version": 29,
+        "type": "quote",
+        "properties": {
+          "title": [
+            [
+              "昔我往矣",
+              [
+                [
+                  "i"
+                ]
+              ]
+            ],
+            [
+              "，"
+            ],
+            [
+              "杨柳依依",
+              [
+                [
+                  "i"
+                ]
+              ]
+            ],
+            [
+              "，今我来思，雨雪霏霏"
+            ]
+          ]
+        },
+        "format": {
+          "block_color": "gray_background"
+        },
+        "created_time": 1759646812933,
+        "last_edited_time": 1759647119576,
+        "parent_id": "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "jyxc-jCuaWWAbNiy5GwNTQ,\"start\",\"end\"",
+            "n": {
+              "jyxc-jCuaWWAbNiy5GwNTQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "jyxc-jCuaWWAbNiy5GwNTQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        4
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "昔我往矣",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "jyxc-jCuaWWAbNiy5GwNTQ",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            25
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              8
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        },
+                        {
+                          "t": "a",
+                          "x": "jyxc-jCuaWWAbNiy5GwNTQ",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            27
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              8
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "i"
+                          ]
+                        },
+                        {
+                          "t": "a",
+                          "x": "jyxc-jCuaWWAbNiy5GwNTQ",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            29
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "jyxc-jCuaWWAbNiy5GwNTQ",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            30
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "k": "b"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        8
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        7
+                      ],
+                      "l": 1,
+                      "c": "，",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "jyxc-jCuaWWAbNiy5GwNTQ",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            29
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "jyxc-jCuaWWAbNiy5GwNTQ",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            30
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "k": "b"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        9
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        8
+                      ],
+                      "l": 4,
+                      "c": "杨柳依依",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "jyxc-jCuaWWAbNiy5GwNTQ",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            26
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              9
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        },
+                        {
+                          "t": "a",
+                          "x": "jyxc-jCuaWWAbNiy5GwNTQ",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            28
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              9
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "i"
+                          ]
+                        },
+                        {
+                          "t": "a",
+                          "x": "jyxc-jCuaWWAbNiy5GwNTQ",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            29
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "jyxc-jCuaWWAbNiy5GwNTQ",
+                          "l": "",
+                          "i": [
+                            "MGjnt-E9l55Y",
+                            30
+                          ],
+                          "s": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "MGjnt-E9l55Y",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "k": "b"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        13
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        12
+                      ],
+                      "l": 10,
+                      "c": "，今我来思，雨雪霏霏",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        23
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        22
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1f33b07c-81ff-8033-9c03-f58589a54e39": {
+      "value": {
+        "id": "1f33b07c-81ff-8033-9c03-f58589a54e39",
+        "version": 52,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "から取られています。"
+            ]
+          ]
+        },
+        "created_time": 1747219975073,
+        "last_edited_time": 1759647151893,
+        "parent_id": "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "6f4iF4M95_RqjYACaU4orA,\"start\",\"end\"",
+            "n": {
+              "6f4iF4M95_RqjYACaU4orA,\"start\",\"end\"": {
+                "s": {
+                  "x": "6f4iF4M95_RqjYACaU4orA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        2
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "か"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        4
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        2
+                      ],
+                      "l": 1,
+                      "c": "ら"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        18
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        4
+                      ],
+                      "l": 1,
+                      "c": "取"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        6
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        8
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        6
+                      ],
+                      "l": 1,
+                      "c": "ら"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        10
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        8
+                      ],
+                      "l": 1,
+                      "c": "れ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        12
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        10
+                      ],
+                      "l": 2,
+                      "c": "てい"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        15
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        13
+                      ],
+                      "l": 1,
+                      "c": "ま"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        17
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        15
+                      ],
+                      "l": 1,
+                      "c": "す"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        19
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        17
+                      ],
+                      "l": 1,
+                      "c": "。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        16
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        14
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        11
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        9
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        7
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        5
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        3
+                      ],
+                      "o": [
+                        "MGjnt-E9l55Y",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1f33b07c-81ff-8044-b3d3-f60da72d3c71": {
+      "value": {
+        "id": "1f33b07c-81ff-8044-b3d3-f60da72d3c71",
+        "version": 5,
+        "type": "text",
+        "created_time": 1747219975227,
+        "last_edited_time": 1747219975231,
+        "parent_id": "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DZSHWvwPsjfi0MXOOl6I_w,\"start\",\"end\"",
+            "n": {
+              "DZSHWvwPsjfi0MXOOl6I_w,\"start\",\"end\"": {
+                "s": {
+                  "x": "DZSHWvwPsjfi0MXOOl6I_w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1f33b07c-81ff-8087-b902-dae3d23b4a0c": {
+      "value": {
+        "id": "1f33b07c-81ff-8087-b902-dae3d23b4a0c",
+        "version": 5,
+        "type": "text",
+        "created_time": 1747219974789,
+        "last_edited_time": 1747219974800,
+        "parent_id": "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "3eBdFbc9Wl_2AwUAuOt9CQ,\"start\",\"end\"",
+            "n": {
+              "3eBdFbc9Wl_2AwUAuOt9CQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "3eBdFbc9Wl_2AwUAuOt9CQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1c53b07c-81ff-80bb-8de7-c317cf4c4980": {
+      "value": {
+        "id": "1c53b07c-81ff-80bb-8de7-c317cf4c4980",
+        "version": 33,
+        "type": "text",
+        "created_time": 1743234896872,
+        "last_edited_time": 1759646417988,
+        "parent_id": "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "LXcpNdLN8KTW3n3jX8w8Iw,\"start\",\"end\"",
+            "n": {
+              "LXcpNdLN8KTW3n3jX8w8Iw,\"start\",\"end\"": {
+                "s": {
+                  "x": "LXcpNdLN8KTW3n3jX8w8Iw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gt5y_TuEnGuz",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -5
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1c53b07c-81ff-80ce-8816-d6c005e97010": {
+      "value": {
+        "id": "1c53b07c-81ff-80ce-8816-d6c005e97010",
+        "version": 5,
+        "type": "text",
+        "created_time": 1743244732470,
+        "last_edited_time": 1743244732472,
+        "parent_id": "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "gXifEVUUdjv95OgGbuJmFg,\"start\",\"end\"",
+            "n": {
+              "gXifEVUUdjv95OgGbuJmFg,\"start\",\"end\"": {
+                "s": {
+                  "x": "gXifEVUUdjv95OgGbuJmFg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    }
+  },
+  "collection": {
+    "1ad3b07c-81ff-80f8-93e5-000baa1c67d4": {
+      "value": {
+        "id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+        "version": 30,
+        "name": [
+          [
+            "考察"
+          ]
+        ],
+        "schema": {
+          "<=z{": {
+            "name": "タグ",
+            "type": "multi_select"
+          },
+          "Q~i|": {
+            "name": "作成日時",
+            "type": "created_time"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "layout_pointer": {
+            "id": "1c93b07c-81ff-8015-8c0c-006e662d4861",
+            "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_section_visibility": {
+            "comments": "section_hide",
+            "backlinks": "section_collapsed",
+            "margin_comments": "minimal"
+          },
+          "collection_page_properties": [
+            {
+              "visible": true,
+              "property": "Q~i|"
+            },
+            {
+              "visible": true,
+              "property": "<=z{"
+            }
+          ]
+        },
+        "parent_id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
+        "parent_table": "block",
+        "alive": true,
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-8086-a96b-000b78a078f2": {
+      "value": {
+        "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "version": 32,
+        "name": [
+          [
+            "目次"
+          ]
+        ],
+        "schema": {
+          "`q`e": {
+            "name": "タグ",
+            "type": "multi_select"
+          },
+          "vidt": {
+            "name": "作成日時",
+            "type": "created_time"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "layout_pointer": {
+            "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+            "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "更新日時",
+              "type": "date"
+            },
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "Wegk",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": ";HBU",
+                  "color": "purple",
+                  "value": "中"
+                },
+                {
+                  "id": "Zark",
+                  "color": "default",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "ステータス",
+              "type": "status"
+            },
+            {
+              "name": "関連ファイル",
+              "type": "file"
+            },
+            {
+              "name": "連絡先メール",
+              "type": "email"
+            },
+            {
+              "name": "連絡先電話番号",
+              "type": "phone_number"
+            },
+            {
+              "name": "カテゴリー",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "o>B<",
+                  "color": "orange",
+                  "value": "技術"
+                },
+                {
+                  "id": "ksAA",
+                  "color": "pink",
+                  "value": "マーケティング"
+                },
+                {
+                  "id": "}yWP",
+                  "color": "brown",
+                  "value": "デザイン"
+                },
+                {
+                  "id": "lt{K",
+                  "color": "yellow",
+                  "value": "管理"
+                }
+              ]
+            },
+            {
+              "name": "予算",
+              "type": "number"
+            }
+          ],
+          "page_section_visibility": {
+            "comments": "section_hide",
+            "backlinks": "section_collapsed",
+            "margin_comments": "minimal"
+          },
+          "collection_cover_position": 0.7987,
+          "collection_page_properties": [
+            {
+              "visible": true,
+              "property": "vidt"
+            },
+            {
+              "visible": true,
+              "property": "`q`e"
+            }
+          ]
+        },
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
+        ],
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba": {
+      "role": "none"
+    }
+  },
+  "layout": {
+    "1c93b07c-81ff-8015-8c0c-006e662d4861": {
+      "value": {
+        "id": "1c93b07c-81ff-8015-8c0c-006e662d4861",
+        "version": 3,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "parent_table": "collection",
+        "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "created_by_table": "notion_user",
+        "created_time": 1743581368985,
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_time": 1743581380331,
+        "modules": {
+          "page_layout_schema": [
+            {
+              "id": "cover",
+              "type": "cover"
+            },
+            {
+              "id": "zHoh",
+              "type": "titleWithIcon"
+            },
+            {
+              "id": "FPjc",
+              "type": "properties"
+            },
+            {
+              "id": "discussions",
+              "type": "discussions"
+            },
+            {
+              "id": "editor",
+              "type": "editor"
+            }
+          ]
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80e0-9466-006e60a7ae40": {
+      "value": {
+        "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+        "version": 5,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "parent_table": "collection",
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "created_by_table": "notion_user",
+        "created_time": 1741120301429,
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_time": 1741120316045,
+        "modules": {
+          "page_layout_schema": [
+            {
+              "id": "cover",
+              "type": "cover"
+            },
+            {
+              "id": "R=YI",
+              "type": "titleWithIcon"
+            },
+            {
+              "id": "discussions",
+              "type": "discussions"
+            },
+            {
+              "id": "editor",
+              "type": "editor"
+            }
+          ],
+          "page_info_layout_schema": [
+            {
+              "id": "vPyb",
+              "type": "properties"
+            }
+          ]
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-801e-8fb8-006ea2bd8886": {
+      "role": "none"
+    }
+  },
+  "collection_view": {
+    "1ad3b07c-81ff-808c-8d68-000c1a966362": {
+      "value": {
+        "id": "1ad3b07c-81ff-808c-8d68-000c1a966362",
+        "version": 43,
+        "type": "gallery",
+        "name": "ギャラリービュー",
+        "format": {
+          "gallery_cover": {
+            "type": "page_cover"
+          },
+          "collection_pointer": {
+            "id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "collection_peek_mode": "full_page"
+        },
+        "parent_id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
+        "parent_table": "block",
+        "alive": true,
+        "page_sort": [
+          "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d",
+          "2833b07c-81ff-802a-b26c-c5fec1d872bf",
+          "1b53b07c-81ff-8022-adb3-cef37daf21d4",
+          "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+          "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+          "1b63b07c-81ff-80a4-a47a-c01325dd88ba",
+          "2923b07c-81ff-809c-8087-d92611f42803",
+          "2a03b07c-81ff-809f-842f-e5b1bd2b5351",
+          "1ad3b07c-81ff-808d-ab51-c9790e0c87cf",
+          "1bc3b07c-81ff-80de-b779-e32ff722ecfc"
+        ],
+        "query2": {
+          "aggregations": [
+            {
+              "aggregator": "count"
+            }
+          ]
+        },
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1759648389260,
+        "last_edited_time": 1762139217746,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80ee-821a-000cec78a24c": {
+      "value": {
+        "id": "1ac3b07c-81ff-80ee-821a-000cec78a24c",
+        "version": 38,
+        "type": "gallery",
+        "name": "ギャラリービュー",
+        "format": {
+          "table_wrap": false,
+          "gallery_cover": {
+            "type": "page_cover"
+          },
+          "collection_pointer": {
+            "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "gallery_cover_size": "medium",
+          "collection_peek_mode": "full_page",
+          "gallery_cover_aspect": "cover"
+        },
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "page_sort": [
+          "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
+          "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
+          "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+          "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
+          "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+          "1ad3b07c-81ff-809c-8204-e16483640fa5",
+          "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
+          "1c83b07c-81ff-803f-99b6-f7010f54b710",
+          "2573b07c-81ff-8076-8c97-c512393c2dc8",
+          "1b63b07c-81ff-809a-8e66-e4e88abf2006"
+        ],
+        "query2": {
+          "aggregations": [
+            {
+              "aggregator": "count"
+            }
+          ]
+        },
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1748772241834,
+        "last_edited_time": 1755881175648,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+      },
+      "role": "reader"
+    },
+    "5531d29a-4e77-406f-a1fc-32cd5bbafec7": {
+      "role": "none"
+    },
+    "5dd8ee8a-3d52-42e6-b781-ac5db580f283": {
+      "role": "none"
+    },
+    "401ba18e-ee37-450f-b369-015c2957f5d4": {
+      "role": "none"
+    },
+    "5961b724-b949-48b2-aef2-d5c03eacd1d8": {
+      "role": "none"
+    },
+    "1ad3b07c-81ff-8037-9574-000c12eb1c9d": {
+      "role": "none"
+    }
+  },
+  "notion_user": {},
+  "collection_query": {},
+  "signed_urls": {
+    "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/c3daef42-c33c-4558-b99e-11287bd67796/760ca1e5gy1hg84nwrikrj21z4140npe.jpg?table=block&id=1b63b07c-81ff-80a0-a0ff-f9031b89e7c7&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=UG1DA2Oo9utwNRm-F5qJlL1ZjwuZ9AZjiYhZzgyRXRs"
+  }
+}

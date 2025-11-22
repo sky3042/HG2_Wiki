@@ -1,0 +1,1006 @@
+{
+  "block": {
+    "1bd3b07c-81ff-8002-811b-f068d3701ab2": {
+      "value": {
+        "id": "1bd3b07c-81ff-8002-811b-f068d3701ab2",
+        "version": 54,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "大崩壊戦争"
+            ]
+          ]
+        },
+        "content": [
+          "1c13b07c-81ff-8086-9533-f92ff105fba8",
+          "1c13b07c-81ff-8013-9681-fe7aa7d44c6a",
+          "23d3b07c-81ff-8029-babe-caef1c619d66"
+        ],
+        "created_time": 1742527138805,
+        "last_edited_time": 1753631125445,
+        "parent_id": "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "4bAjyBNQscH8fImrUtSEAg,\"start\",\"end\"",
+            "n": {
+              "4bAjyBNQscH8fImrUtSEAg,\"start\",\"end\"": {
+                "s": {
+                  "x": "4bAjyBNQscH8fImrUtSEAg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "oPuGyvINS49E",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "大崩壊戦争"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8": {
+      "value": {
+        "id": "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
+        "version": 358,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "歴史"
+            ]
+          ]
+        },
+        "content": [
+          "1b63b07c-81ff-80ab-9656-ec3892783add",
+          "2043b07c-81ff-8078-aa9b-d275267bc75c",
+          "1b63b07c-81ff-8071-8b54-dc7287031675",
+          "1b63b07c-81ff-8023-a319-ed5f37348391",
+          "1b63b07c-81ff-804d-a17c-cbb547aa0d09",
+          "1b63b07c-81ff-809b-a192-d47afae88238",
+          "1b63b07c-81ff-8035-8ba9-e5060b405e61",
+          "1c13b07c-81ff-80f4-a20c-e9086f4ad82b",
+          "2043b07c-81ff-80a5-ade5-fdfb3eae41b5",
+          "1c13b07c-81ff-800b-ad70-fed78569343d",
+          "1c13b07c-81ff-80fe-ae60-c95e56894d4d",
+          "1c13b07c-81ff-808b-b097-ed655de76687",
+          "1c13b07c-81ff-803d-b55d-ed1c888e570b",
+          "1c13b07c-81ff-8041-b0bf-d1a6333285a9",
+          "1c13b07c-81ff-800e-8bef-db928508a954",
+          "1c03b07c-81ff-80c8-9624-ed84a0efc4f5",
+          "1c13b07c-81ff-80bd-a1b6-e069ef3dd687",
+          "1c13b07c-81ff-8093-8e94-cedf6afe968a",
+          "1c13b07c-81ff-80e1-b405-caa39935dfe2",
+          "1c13b07c-81ff-80f1-8e2c-ebdfab5b0c3e",
+          "1c13b07c-81ff-805f-8c1d-c3148400bfd9",
+          "1c13b07c-81ff-80d6-a719-ee7ca75ef045",
+          "1c13b07c-81ff-80a0-afa2-c730ffe4ed5a",
+          "1c13b07c-81ff-8071-853b-ee4214b329bc",
+          "1c13b07c-81ff-80e7-9255-d702d4872174",
+          "1c13b07c-81ff-8043-8f88-ef0476853f49",
+          "1c13b07c-81ff-8016-8078-f0145930546d",
+          "1c13b07c-81ff-800b-a607-d74a877c6c19",
+          "1c13b07c-81ff-8006-8ed9-c58200ed797b",
+          "1c13b07c-81ff-8062-879a-cf52c80542e5",
+          "1c13b07c-81ff-80a1-ab59-d38d14a37533",
+          "1c13b07c-81ff-808a-a99f-eb7175368c95",
+          "1c13b07c-81ff-8087-8f88-ef66b9a360e8",
+          "1c13b07c-81ff-80b0-89d4-e13bd7298ae4",
+          "1c13b07c-81ff-801c-8ec8-fd3316760e99",
+          "1c13b07c-81ff-80bc-8a39-d82c1d9fc6ee",
+          "1c13b07c-81ff-8006-8266-f0ec5f065b78",
+          "1c13b07c-81ff-8045-8c24-e031ddff6e76",
+          "1c13b07c-81ff-8017-adef-f0a3f6fcafec",
+          "1c13b07c-81ff-8051-90a4-d7f10ef51cf3",
+          "1c13b07c-81ff-8088-bbd7-c3af4b7d56f5",
+          "1c13b07c-81ff-8037-88a8-ec7bd7c94c95",
+          "1c13b07c-81ff-809d-9a21-d07034ecc64e",
+          "1c13b07c-81ff-80a3-afe8-f9f079f6ada9",
+          "25a3b07c-81ff-80d7-a765-dc8e61d3f410",
+          "1c13b07c-81ff-80f4-8a44-eebebe6f6b8d",
+          "1c13b07c-81ff-80cb-8477-c1602ac2ea35",
+          "1c13b07c-81ff-8013-ab16-d888c5f8aba6",
+          "1c13b07c-81ff-8012-addc-ca479bc84bab",
+          "1c13b07c-81ff-80cb-abe3-f5dac7fd54e3",
+          "1c13b07c-81ff-8097-a876-c0e6f42ae1a6",
+          "1c13b07c-81ff-800b-b9f2-d747b25dd5ec",
+          "1c13b07c-81ff-80ba-b5da-cb31d44a7382",
+          "27c3b07c-81ff-80d1-ae43-d3d56dbc264e",
+          "1c13b07c-81ff-80f6-805a-fc812b9f823e",
+          "1c13b07c-81ff-80fe-bb88-e87b1e4d9bae",
+          "1c13b07c-81ff-8062-b21c-e481f535db5f",
+          "1c13b07c-81ff-80f4-ab25-e874e518fae8",
+          "1c13b07c-81ff-80fb-9af0-e985ec39b322",
+          "1c13b07c-81ff-80a4-b360-ef13ae3b3162",
+          "1c13b07c-81ff-80ca-9fa2-f2091e50d911",
+          "1c13b07c-81ff-8062-8428-e160e4b3ee37",
+          "1c13b07c-81ff-80c9-952b-d3e90893e97d",
+          "1bd3b07c-81ff-8002-811b-f068d3701ab2",
+          "1bf3b07c-81ff-8038-8812-f6bb3ec684ec",
+          "1c13b07c-81ff-80ac-a387-eb287ed8eeb2",
+          "1c13b07c-81ff-80c8-bd58-eeb683a546ad",
+          "1bf3b07c-81ff-80cd-90bb-ef18277b540f",
+          "1bd3b07c-81ff-80e7-a76e-d90296367102",
+          "1bd3b07c-81ff-80fe-a7e8-d4f8de8950c7",
+          "1b63b07c-81ff-8010-80bd-f33ef12e28f7",
+          "1bd3b07c-81ff-80ac-8589-ee1e8dbaf814",
+          "1c03b07c-81ff-8072-afc0-e06b7948e69d",
+          "1c13b07c-81ff-8023-8994-f973ab3a990b",
+          "1c13b07c-81ff-8059-93d5-cfc538ae8192",
+          "1c03b07c-81ff-807a-8055-ce1c02e15895",
+          "1c03b07c-81ff-80e9-be7e-cf5c2a10a6ea",
+          "1c13b07c-81ff-80b6-9d70-cbc4f0a639af",
+          "1c13b07c-81ff-8079-8db7-c8b54c4c8e6b",
+          "2b13b07c-81ff-80b3-939d-f4f2f5bd0da6"
+        ],
+        "format": {
+          "slug": "history",
+          "page_cover": "attachment:66036856-356f-4878-a7ab-7aff6ef56084:2024-02-28_18-19-08.mp4_snapshot_01.02.36_2025.03.09_00.00.58.jpg",
+          "card_cover_position": 0,
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:1de8f8ae-78ec-4b04-bad0-0359fa08275f:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741140217937,
+        "last_edited_time": 1763610633330,
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "1de8f8ae-78ec-4b04-bad0-0359fa08275f",
+          "f756a14d-b07e-43c0-9e8f-626eb8bb2c23",
+          "66036856-356f-4878-a7ab-7aff6ef56084"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "nZsbBob6JIeC3mTODgi8HQ,\"start\",\"end\"",
+            "n": {
+              "nZsbBob6JIeC3mTODgi8HQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "nZsbBob6JIeC3mTODgi8HQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c-yi34pnagIp",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "歴史"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-8068-828b-fec9cdc96765": {
+      "value": {
+        "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "version": 64,
+        "type": "collection_view",
+        "view_ids": [
+          "1ac3b07c-81ff-80ee-821a-000cec78a24c"
+        ],
+        "collection_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "format": {
+          "collection_pointer": {
+            "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:fb48497c-047a-4a51-8d55-ff2f2a45c136:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741119010204,
+        "last_edited_time": 1755881175648,
+        "parent_id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "6e2b7188-17c5-45ba-bff7-1888e4b3f5b6",
+          "fb48497c-047a-4a51-8d55-ff2f2a45c136"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DpTROquDtyJuDphazM7EPg,\"start\",\"end\"",
+            "n": {
+              "DpTROquDtyJuDphazM7EPg,\"start\",\"end\"": {
+                "s": {
+                  "x": "DpTROquDtyJuDphazM7EPg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
+      "value": {
+        "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
+        "version": 340,
+        "type": "page",
+        "properties": {
+          "mgJK": [
+            [
+              "‣",
+              [
+                [
+                  "p",
+                  "1b9a2d41-3d52-470d-b4eb-79f20192b22b",
+                  "f25e8375-dff8-499a-b7bf-74566e1055df"
+                ]
+              ]
+            ]
+          ],
+          "title": [
+            [
+              "崩壊学園編　ストーリー　Wiki"
+            ]
+          ]
+        },
+        "content": [
+          "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+          "1bc3b07c-81ff-8027-b36b-fe45e7913081",
+          "25e3b07c-81ff-80ea-a0bb-dafec40f099c",
+          "1bc3b07c-81ff-8035-a07b-fd6768f2ea47",
+          "1c83b07c-81ff-8013-861e-e033d11cfdb9",
+          "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
+          "25e3b07c-81ff-8029-8c34-f5c8da01f230",
+          "1b83b07c-81ff-80c4-b3ef-e093616890e5",
+          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
+          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
+          "1c83b07c-81ff-80db-b21c-f216fe984cda",
+          "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
+          "25e3b07c-81ff-807e-9816-e841c1e019fe",
+          "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
+          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
+          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
+          "1c83b07c-81ff-80ba-9b0e-d88248245398",
+          "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
+        ],
+        "format": {
+          "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
+          "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
+          "block_locked": false,
+          "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+          "page_full_width": true,
+          "seo_description": "このサイトについて",
+          "copied_from_pointer": {
+            "id": "f1552fed-37eb-4430-a72c-2b7e492693fe",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_cover_position": 0.8137,
+          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+        },
+        "permissions": [
+          {
+            "role": "reader",
+            "type": "public_permission",
+            "is_site": true,
+            "added_timestamp": 1755837904470,
+            "allow_duplicate": false
+          },
+          {
+            "role": {
+              "read_content": true,
+              "insert_content": true,
+              "update_content": true
+            },
+            "type": "bot_permission",
+            "bot_id": "d24ae229-9722-4f23-b631-a4de79cc9b72",
+            "parent_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+            "parent_table": "space"
+          }
+        ],
+        "created_time": 1741118997345,
+        "last_edited_time": 1763784546918,
+        "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
+        "parent_table": "collection",
+        "alive": true,
+        "copied_from": "f1552fed-37eb-4430-a72c-2b7e492693fe",
+        "file_ids": [
+          "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
+          "d4c78f4a-1872-4d8a-836f-48abb3027e69",
+          "8478f939-1500-4129-9378-6a582186c3c5",
+          "d1263e4a-1f40-45da-8f32-ff552281384b"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "qwZCPsMTuY_DWKxq_PVehw,\"start\",\"end\"",
+            "n": {
+              "qwZCPsMTuY_DWKxq_PVehw,\"start\",\"end\"": {
+                "s": {
+                  "x": "qwZCPsMTuY_DWKxq_PVehw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 16,
+                      "c": "崩壊学園編　ストーリー　Wiki"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "43c1134f-28b4-42d1-a716-f9fa638c9e50": {
+      "role": "none"
+    },
+    "1ad3b07c-81ff-80e6-b0a3-c1e8c0daf575": {
+      "role": "none"
+    },
+    "1c13b07c-81ff-8086-9533-f92ff105fba8": {
+      "value": {
+        "id": "1c13b07c-81ff-8086-9533-f92ff105fba8",
+        "version": 75,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "崩壊と人類の戦争。"
+            ]
+          ]
+        },
+        "created_time": 1742878794497,
+        "last_edited_time": 1742878805546,
+        "parent_id": "1bd3b07c-81ff-8002-811b-f068d3701ab2",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "1c13b07c-81ff-8013-9681-fe7aa7d44c6a": {
+      "value": {
+        "id": "1c13b07c-81ff-8013-9681-fe7aa7d44c6a",
+        "version": 127,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "崩壊の英雄が意思の統括者を倒し終結。"
+            ]
+          ]
+        },
+        "created_time": 1742878805770,
+        "last_edited_time": 1742878823499,
+        "parent_id": "1bd3b07c-81ff-8002-811b-f068d3701ab2",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "23d3b07c-81ff-8029-babe-caef1c619d66": {
+      "value": {
+        "id": "23d3b07c-81ff-8029-babe-caef1c619d66",
+        "version": 61,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "詳しくは新生編"
+            ]
+          ]
+        },
+        "created_time": 1753631125440,
+        "last_edited_time": 1753631129997,
+        "parent_id": "1bd3b07c-81ff-8002-811b-f068d3701ab2",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "qA93TllmtdQp3sZZcCabEA,\"start\",\"end\"",
+            "n": {
+              "qA93TllmtdQp3sZZcCabEA,\"start\",\"end\"": {
+                "s": {
+                  "x": "qA93TllmtdQp3sZZcCabEA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        11
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "詳"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        4
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        6
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        4
+                      ],
+                      "l": 1,
+                      "c": "し"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        8
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        6
+                      ],
+                      "l": 1,
+                      "c": "く"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        10
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        8
+                      ],
+                      "l": 1,
+                      "c": "は"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        23
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        10
+                      ],
+                      "l": 3,
+                      "c": "新生編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        13
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        15
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        17
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        15
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        20
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        22
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        20
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        21
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        20
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        19
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        16
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        14
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        12
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        9
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        7
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        5
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        3
+                      ],
+                      "o": [
+                        "p74caVJTY7zX",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "p74caVJTY7zX",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    }
+  },
+  "collection": {
+    "1ac3b07c-81ff-8086-a96b-000b78a078f2": {
+      "value": {
+        "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "version": 32,
+        "name": [
+          [
+            "目次"
+          ]
+        ],
+        "schema": {
+          "`q`e": {
+            "name": "タグ",
+            "type": "multi_select"
+          },
+          "vidt": {
+            "name": "作成日時",
+            "type": "created_time"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "layout_pointer": {
+            "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+            "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "更新日時",
+              "type": "date"
+            },
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "Wegk",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": ";HBU",
+                  "color": "purple",
+                  "value": "中"
+                },
+                {
+                  "id": "Zark",
+                  "color": "default",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "ステータス",
+              "type": "status"
+            },
+            {
+              "name": "関連ファイル",
+              "type": "file"
+            },
+            {
+              "name": "連絡先メール",
+              "type": "email"
+            },
+            {
+              "name": "連絡先電話番号",
+              "type": "phone_number"
+            },
+            {
+              "name": "カテゴリー",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "o>B<",
+                  "color": "orange",
+                  "value": "技術"
+                },
+                {
+                  "id": "ksAA",
+                  "color": "pink",
+                  "value": "マーケティング"
+                },
+                {
+                  "id": "}yWP",
+                  "color": "brown",
+                  "value": "デザイン"
+                },
+                {
+                  "id": "lt{K",
+                  "color": "yellow",
+                  "value": "管理"
+                }
+              ]
+            },
+            {
+              "name": "予算",
+              "type": "number"
+            }
+          ],
+          "page_section_visibility": {
+            "comments": "section_hide",
+            "backlinks": "section_collapsed",
+            "margin_comments": "minimal"
+          },
+          "collection_cover_position": 0.7987,
+          "collection_page_properties": [
+            {
+              "visible": true,
+              "property": "vidt"
+            },
+            {
+              "visible": true,
+              "property": "`q`e"
+            }
+          ]
+        },
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
+        ],
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba": {
+      "role": "none"
+    }
+  },
+  "layout": {
+    "1ac3b07c-81ff-80e0-9466-006e60a7ae40": {
+      "value": {
+        "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+        "version": 5,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "parent_table": "collection",
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "created_by_table": "notion_user",
+        "created_time": 1741120301429,
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_time": 1741120316045,
+        "modules": {
+          "page_layout_schema": [
+            {
+              "id": "cover",
+              "type": "cover"
+            },
+            {
+              "id": "R=YI",
+              "type": "titleWithIcon"
+            },
+            {
+              "id": "discussions",
+              "type": "discussions"
+            },
+            {
+              "id": "editor",
+              "type": "editor"
+            }
+          ],
+          "page_info_layout_schema": [
+            {
+              "id": "vPyb",
+              "type": "properties"
+            }
+          ]
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-801e-8fb8-006ea2bd8886": {
+      "role": "none"
+    }
+  },
+  "collection_view": {
+    "1ac3b07c-81ff-80ee-821a-000cec78a24c": {
+      "value": {
+        "id": "1ac3b07c-81ff-80ee-821a-000cec78a24c",
+        "version": 38,
+        "type": "gallery",
+        "name": "ギャラリービュー",
+        "format": {
+          "table_wrap": false,
+          "gallery_cover": {
+            "type": "page_cover"
+          },
+          "collection_pointer": {
+            "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "gallery_cover_size": "medium",
+          "collection_peek_mode": "full_page",
+          "gallery_cover_aspect": "cover"
+        },
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "page_sort": [
+          "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
+          "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
+          "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+          "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
+          "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+          "1ad3b07c-81ff-809c-8204-e16483640fa5",
+          "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
+          "1c83b07c-81ff-803f-99b6-f7010f54b710",
+          "2573b07c-81ff-8076-8c97-c512393c2dc8",
+          "1b63b07c-81ff-809a-8e66-e4e88abf2006"
+        ],
+        "query2": {
+          "aggregations": [
+            {
+              "aggregator": "count"
+            }
+          ]
+        },
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1748772241834,
+        "last_edited_time": 1755881175648,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+      },
+      "role": "reader"
+    },
+    "5531d29a-4e77-406f-a1fc-32cd5bbafec7": {
+      "role": "none"
+    },
+    "5dd8ee8a-3d52-42e6-b781-ac5db580f283": {
+      "role": "none"
+    },
+    "401ba18e-ee37-450f-b369-015c2957f5d4": {
+      "role": "none"
+    },
+    "5961b724-b949-48b2-aef2-d5c03eacd1d8": {
+      "role": "none"
+    },
+    "1ad3b07c-81ff-8037-9574-000c12eb1c9d": {
+      "role": "none"
+    }
+  },
+  "notion_user": {},
+  "collection_query": {},
+  "signed_urls": {}
+}

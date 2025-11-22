@@ -1,0 +1,3846 @@
+{
+  "block": {
+    "27a3b07c-81ff-80ba-b060-db7af8e5eb2f": {
+      "value": {
+        "id": "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+        "version": 45,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "ジュード・アンティゼニス"
+            ]
+          ]
+        },
+        "content": [
+          "27a3b07c-81ff-80dd-b1ea-d7a3a0505b53",
+          "27a3b07c-81ff-8063-8ca5-c5493ae156d0",
+          "27a3b07c-81ff-8025-be44-d807354901cd",
+          "27a3b07c-81ff-8070-a194-c4bbf8b007c3",
+          "27a3b07c-81ff-8048-a94b-febf6482e8c0",
+          "27a3b07c-81ff-80ff-8978-c876f0052ea6",
+          "27a3b07c-81ff-8058-9b27-d6b8a443cd27",
+          "27a3b07c-81ff-8000-af57-f78f87c1bf5a",
+          "27a3b07c-81ff-80e6-8a49-d6081f2f230d"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:32f9b604-490f-4ce8-a6a9-e9890b3db7bd:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1758890180235,
+        "last_edited_time": 1759652848485,
+        "parent_id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "32f9b604-490f-4ce8-a6a9-e9890b3db7bd"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "huqFjlkbFasWM6oWeAYelA,\"start\",\"end\"",
+            "n": {
+              "huqFjlkbFasWM6oWeAYelA,\"start\",\"end\"": {
+                "s": {
+                  "x": "huqFjlkbFasWM6oWeAYelA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gUc_6lNDMMnU",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 12,
+                      "c": "ジュード・アンティゼニス"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8012-99ca-ca95556f12b7": {
+      "value": {
+        "id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
+        "version": 55,
+        "type": "collection_view_page",
+        "content": [
+          "25e3b07c-81ff-8016-a529-d055498f8ef2"
+        ],
+        "view_ids": [
+          "25e3b07c-81ff-80a6-8d5d-000cfd50a16d"
+        ],
+        "collection_id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+        "format": {
+          "collection_pointer": {
+            "id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "collection_pointers": [
+            {
+              "id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+              "table": "collection",
+              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+            }
+          ]
+        },
+        "created_time": 1756447751831,
+        "last_edited_time": 1763703684275,
+        "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ubqPrsEKflxJNnzUDeJ49A,\"start\",\"end\"",
+            "n": {
+              "ubqPrsEKflxJNnzUDeJ49A,\"start\",\"end\"": {
+                "s": {
+                  "x": "ubqPrsEKflxJNnzUDeJ49A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1c83b07c-81ff-800b-a0c3-f295d7423d6d": {
+      "value": {
+        "id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
+        "version": 133,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "資料"
+            ]
+          ]
+        },
+        "content": [
+          "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
+          "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
+          "25e3b07c-81ff-8012-99ca-ca95556f12b7",
+          "2893b07c-81ff-80b8-b46f-cf5c554142a0"
+        ],
+        "format": {
+          "slug": "materials",
+          "page_cover": "attachment:4f946ea7-0baf-48cb-8c2e-8308b44e407d:IMG_0553.jpeg",
+          "page_full_width": true,
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:13186f52-3bbe-470d-99a7-65a6b386b0e8:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1743511811402,
+        "last_edited_time": 1760180220662,
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "48eaf885-05a0-4bfa-afd2-285bb30223a0",
+          "4f946ea7-0baf-48cb-8c2e-8308b44e407d",
+          "13186f52-3bbe-470d-99a7-65a6b386b0e8"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "h7qQaI5d8zOIDK7uiVjn7Q,\"start\",\"end\"",
+            "n": {
+              "h7qQaI5d8zOIDK7uiVjn7Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "h7qQaI5d8zOIDK7uiVjn7Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "8YRSdU7u8Edo",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "資料"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "AzJjPuz0eUAW2FdOgSJSmw,[\"0y47HIrTyQeD\",238],\"end\""
+                ]
+              },
+              "AzJjPuz0eUAW2FdOgSJSmw,[\"0y47HIrTyQeD\",238],\"end\"": {
+                "s": {
+                  "x": "AzJjPuz0eUAW2FdOgSJSmw",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "0y47HIrTyQeD",
+                        238
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0y47HIrTyQeD",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -106,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "AzJjPuz0eUAW2FdOgSJSmw",
+                          "l": "",
+                          "i": [
+                            "0y47HIrTyQeD",
+                            107
+                          ],
+                          "s": {
+                            "i": [
+                              "0y47HIrTyQeD",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "0y47HIrTyQeD",
+                              106
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "https://www.notion.so/1c83b07c81ff80ed9cadf904d81aa1d9?v=1c83b07c81ff80db81c3000c6b7b83b0&source=copy_link"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0y47HIrTyQeD",
+                        111
+                      ],
+                      "o": [
+                        "0y47HIrTyQeD",
+                        106
+                      ],
+                      "l": -106,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "AzJjPuz0eUAW2FdOgSJSmw",
+                          "l": "",
+                          "i": [
+                            "0y47HIrTyQeD",
+                            217
+                          ],
+                          "s": {
+                            "i": [
+                              "0y47HIrTyQeD",
+                              111
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "0y47HIrTyQeD",
+                              216
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "https://www.notion.so/1c83b07c81ff80ed9cadf904d81aa1d9?v=1c83b07c81ff80db81c3000c6b7b83b0&source=copy_link"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0y47HIrTyQeD",
+                        108
+                      ],
+                      "o": [
+                        "0y47HIrTyQeD",
+                        106
+                      ],
+                      "l": -1,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "AzJjPuz0eUAW2FdOgSJSmw",
+                          "l": "",
+                          "i": [
+                            "0y47HIrTyQeD",
+                            110
+                          ],
+                          "s": {
+                            "i": [
+                              "0y47HIrTyQeD",
+                              108
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "0y47HIrTyQeD",
+                              108
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "p",
+                            "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
+                            "f25e8375-dff8-499a-b7bf-74566e1055df"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0y47HIrTyQeD",
+                        109
+                      ],
+                      "o": [
+                        "0y47HIrTyQeD",
+                        108
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-8068-828b-fec9cdc96765": {
+      "value": {
+        "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "version": 64,
+        "type": "collection_view",
+        "view_ids": [
+          "1ac3b07c-81ff-80ee-821a-000cec78a24c"
+        ],
+        "collection_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "format": {
+          "collection_pointer": {
+            "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:fb48497c-047a-4a51-8d55-ff2f2a45c136:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741119010204,
+        "last_edited_time": 1755881175648,
+        "parent_id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "6e2b7188-17c5-45ba-bff7-1888e4b3f5b6",
+          "fb48497c-047a-4a51-8d55-ff2f2a45c136"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DpTROquDtyJuDphazM7EPg,\"start\",\"end\"",
+            "n": {
+              "DpTROquDtyJuDphazM7EPg,\"start\",\"end\"": {
+                "s": {
+                  "x": "DpTROquDtyJuDphazM7EPg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
+      "value": {
+        "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
+        "version": 340,
+        "type": "page",
+        "properties": {
+          "mgJK": [
+            [
+              "‣",
+              [
+                [
+                  "p",
+                  "1b9a2d41-3d52-470d-b4eb-79f20192b22b",
+                  "f25e8375-dff8-499a-b7bf-74566e1055df"
+                ]
+              ]
+            ]
+          ],
+          "title": [
+            [
+              "崩壊学園編　ストーリー　Wiki"
+            ]
+          ]
+        },
+        "content": [
+          "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+          "1bc3b07c-81ff-8027-b36b-fe45e7913081",
+          "25e3b07c-81ff-80ea-a0bb-dafec40f099c",
+          "1bc3b07c-81ff-8035-a07b-fd6768f2ea47",
+          "1c83b07c-81ff-8013-861e-e033d11cfdb9",
+          "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
+          "25e3b07c-81ff-8029-8c34-f5c8da01f230",
+          "1b83b07c-81ff-80c4-b3ef-e093616890e5",
+          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
+          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
+          "1c83b07c-81ff-80db-b21c-f216fe984cda",
+          "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
+          "25e3b07c-81ff-807e-9816-e841c1e019fe",
+          "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
+          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
+          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
+          "1c83b07c-81ff-80ba-9b0e-d88248245398",
+          "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
+        ],
+        "format": {
+          "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
+          "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
+          "block_locked": false,
+          "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+          "page_full_width": true,
+          "seo_description": "このサイトについて",
+          "copied_from_pointer": {
+            "id": "f1552fed-37eb-4430-a72c-2b7e492693fe",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_cover_position": 0.8137,
+          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+        },
+        "permissions": [
+          {
+            "role": "reader",
+            "type": "public_permission",
+            "is_site": true,
+            "added_timestamp": 1755837904470,
+            "allow_duplicate": false
+          },
+          {
+            "role": {
+              "read_content": true,
+              "insert_content": true,
+              "update_content": true
+            },
+            "type": "bot_permission",
+            "bot_id": "d24ae229-9722-4f23-b631-a4de79cc9b72",
+            "parent_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+            "parent_table": "space"
+          }
+        ],
+        "created_time": 1741118997345,
+        "last_edited_time": 1763784546918,
+        "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
+        "parent_table": "collection",
+        "alive": true,
+        "copied_from": "f1552fed-37eb-4430-a72c-2b7e492693fe",
+        "file_ids": [
+          "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
+          "d4c78f4a-1872-4d8a-836f-48abb3027e69",
+          "8478f939-1500-4129-9378-6a582186c3c5",
+          "d1263e4a-1f40-45da-8f32-ff552281384b"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "qwZCPsMTuY_DWKxq_PVehw,\"start\",\"end\"",
+            "n": {
+              "qwZCPsMTuY_DWKxq_PVehw,\"start\",\"end\"": {
+                "s": {
+                  "x": "qwZCPsMTuY_DWKxq_PVehw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 16,
+                      "c": "崩壊学園編　ストーリー　Wiki"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "43c1134f-28b4-42d1-a716-f9fa638c9e50": {
+      "role": "none"
+    },
+    "1ad3b07c-81ff-80e6-b0a3-c1e8c0daf575": {
+      "role": "none"
+    },
+    "27a3b07c-81ff-80dd-b1ea-d7a3a0505b53": {
+      "value": {
+        "id": "27a3b07c-81ff-80dd-b1ea-d7a3a0505b53",
+        "version": 7,
+        "type": "image",
+        "properties": {
+          "size": [
+            [
+              "3.6 MB"
+            ]
+          ],
+          "title": [
+            [
+              "IMG_0709.png"
+            ]
+          ],
+          "source": [
+            [
+              "attachment:8b3d4bdc-50bd-41fd-9e3c-515ee2f8c904:IMG_0709.png"
+            ]
+          ]
+        },
+        "format": {
+          "block_width": 600,
+          "display_source": "attachment:8b3d4bdc-50bd-41fd-9e3c-515ee2f8c904:IMG_0709.png",
+          "block_full_width": false,
+          "block_page_width": true,
+          "block_aspect_ratio": 0.4633333333333333,
+          "copied_from_pointer": {
+            "id": "27a3b07c-81ff-80a9-ac1a-e9fdb985e3af",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "block_preserve_scale": true
+        },
+        "created_time": 1758890625957,
+        "last_edited_time": 1758890627954,
+        "parent_id": "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "27a3b07c-81ff-80a9-ac1a-e9fdb985e3af",
+        "file_ids": [
+          "8b3d4bdc-50bd-41fd-9e3c-515ee2f8c904"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "jDRgmASc8G1V54bMjuP7TQ,\"start\",\"end\"",
+            "n": {
+              "jDRgmASc8G1V54bMjuP7TQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "jDRgmASc8G1V54bMjuP7TQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gjQerhP1gHJr",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 12,
+                      "c": "IMG_0709.png"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-8063-8ca5-c5493ae156d0": {
+      "value": {
+        "id": "27a3b07c-81ff-8063-8ca5-c5493ae156d0",
+        "version": 4,
+        "type": "sub_header",
+        "properties": {
+          "title": [
+            [
+              "データ"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-8072-9345-fb497eb2831b",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388860,
+        "last_edited_time": 1758890388887,
+        "parent_id": "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-8072-9345-fb497eb2831b",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "8OruBIQB8BRgv4ry4cWuUg,\"start\",\"end\"",
+            "n": {
+              "8OruBIQB8BRgv4ry4cWuUg,\"start\",\"end\"": {
+                "s": {
+                  "x": "8OruBIQB8BRgv4ry4cWuUg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LVMojBd9Ooub",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "データ"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-8025-be44-d807354901cd": {
+      "value": {
+        "id": "27a3b07c-81ff-8025-be44-d807354901cd",
+        "version": 3,
+        "type": "callout",
+        "content": [
+          "27a3b07c-81ff-80d4-8641-f40b5012bec1",
+          "27a3b07c-81ff-80f3-8c23-c7b2b9960003",
+          "27a3b07c-81ff-80a5-bb12-c2b490858668",
+          "27a3b07c-81ff-80fb-8dc3-c2dc5698a10c",
+          "27a3b07c-81ff-80e1-9c25-e6567d66aacd",
+          "27a3b07c-81ff-80a3-a4b5-cc51819992df"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80f4-bb7b-ee38e6a28303",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388864,
+        "last_edited_time": 1758890388887,
+        "parent_id": "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80f4-bb7b-ee38e6a28303",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "gw4R80kij7EcyN8tvz-YPg,\"start\",\"end\"",
+            "n": {
+              "gw4R80kij7EcyN8tvz-YPg,\"start\",\"end\"": {
+                "s": {
+                  "x": "gw4R80kij7EcyN8tvz-YPg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-8070-a194-c4bbf8b007c3": {
+      "value": {
+        "id": "27a3b07c-81ff-8070-a194-c4bbf8b007c3",
+        "version": 7,
+        "type": "callout",
+        "content": [
+          "27a3b07c-81ff-8037-a74b-fd14d5192049",
+          "27a3b07c-81ff-80a9-99c7-f86f677255a8"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-807c-8c9a-ec248f7d86e6",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388870,
+        "last_edited_time": 1758890437720,
+        "parent_id": "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-807c-8c9a-ec248f7d86e6",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "fOjiNILOjkwq03mQ3S-aRQ,\"start\",\"end\"",
+            "n": {
+              "fOjiNILOjkwq03mQ3S-aRQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "fOjiNILOjkwq03mQ3S-aRQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-8048-a94b-febf6482e8c0": {
+      "value": {
+        "id": "27a3b07c-81ff-8048-a94b-febf6482e8c0",
+        "version": 4,
+        "type": "sub_header",
+        "properties": {
+          "title": [
+            [
+              "台詞"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80da-8df4-cf7dfe669df6",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388872,
+        "last_edited_time": 1758890388887,
+        "parent_id": "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80da-8df4-cf7dfe669df6",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "KqelRpWxbiglp1jjwdZylg,\"start\",\"end\"",
+            "n": {
+              "KqelRpWxbiglp1jjwdZylg,\"start\",\"end\"": {
+                "s": {
+                  "x": "KqelRpWxbiglp1jjwdZylg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "11TpaFrAcWEE",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "台詞"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80ff-8978-c876f0052ea6": {
+      "value": {
+        "id": "27a3b07c-81ff-80ff-8978-c876f0052ea6",
+        "version": 15,
+        "type": "callout",
+        "content": [
+          "27a3b07c-81ff-808b-bcd7-e57bca09c512",
+          "27a3b07c-81ff-8068-8175-d04ee4afc38e",
+          "27a3b07c-81ff-80af-a5ab-ed833f471df0",
+          "27a3b07c-81ff-80af-b6ec-f6a988b5d182",
+          "27a3b07c-81ff-8084-8f62-e43c2857a14d"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-807a-8015-e90cf654bda4",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388873,
+        "last_edited_time": 1758890441787,
+        "parent_id": "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-807a-8015-e90cf654bda4",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Nk5cxndSzzKV59kO80TUdQ,\"start\",\"end\"",
+            "n": {
+              "Nk5cxndSzzKV59kO80TUdQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "Nk5cxndSzzKV59kO80TUdQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-8058-9b27-d6b8a443cd27": {
+      "value": {
+        "id": "27a3b07c-81ff-8058-9b27-d6b8a443cd27",
+        "version": 4,
+        "type": "sub_header",
+        "properties": {
+          "title": [
+            [
+              "物語"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-806e-ba16-e86f22c2483e",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388877,
+        "last_edited_time": 1758890388887,
+        "parent_id": "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-806e-ba16-e86f22c2483e",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "cU5JgfVDpPV3EQggbnG8ag,\"start\",\"end\"",
+            "n": {
+              "cU5JgfVDpPV3EQggbnG8ag,\"start\",\"end\"": {
+                "s": {
+                  "x": "cU5JgfVDpPV3EQggbnG8ag",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "oquC57QHkSeg",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "物語"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-8000-af57-f78f87c1bf5a": {
+      "value": {
+        "id": "27a3b07c-81ff-8000-af57-f78f87c1bf5a",
+        "version": 14,
+        "type": "callout",
+        "content": [
+          "27a3b07c-81ff-809a-a585-cc4386b4df16",
+          "27a3b07c-81ff-802d-ad4d-f5f0d83d4ebe",
+          "27a3b07c-81ff-80a0-89b2-de6817e180db",
+          "27a3b07c-81ff-80ad-896f-d5ef2fdd83f1",
+          "27a3b07c-81ff-80aa-a131-dd4289441e5d",
+          "27a3b07c-81ff-807c-ad90-f902a618a62b",
+          "27a3b07c-81ff-80eb-a9e8-d1f669d3cdfe"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80c2-96ac-d961f539a37c",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388879,
+        "last_edited_time": 1758890453536,
+        "parent_id": "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80c2-96ac-d961f539a37c",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "7mwMOArCMeQrHUHLxk45sg,\"start\",\"end\"",
+            "n": {
+              "7mwMOArCMeQrHUHLxk45sg,\"start\",\"end\"": {
+                "s": {
+                  "x": "7mwMOArCMeQrHUHLxk45sg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80e6-8a49-d6081f2f230d": {
+      "value": {
+        "id": "27a3b07c-81ff-80e6-8a49-d6081f2f230d",
+        "version": 16,
+        "type": "callout",
+        "content": [
+          "27a3b07c-81ff-8051-ab9e-ffcdc3663ff7",
+          "27a3b07c-81ff-80bd-8233-f4a01823c6c6",
+          "2833b07c-81ff-8014-a107-cff610cdae4f",
+          "2833b07c-81ff-8044-a942-d00ccd5cc5ba",
+          "2833b07c-81ff-8075-af35-c7babcbe24ac",
+          "2833b07c-81ff-80cb-a975-d919ada1b7ea",
+          "2833b07c-81ff-8077-9a59-f4e38e30e70a"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-808d-b79e-e64ba9c672b0",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388882,
+        "last_edited_time": 1759652851343,
+        "parent_id": "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-808d-b79e-e64ba9c672b0",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "LLPojIAuunIag3H61i1Xew,\"start\",\"end\"",
+            "n": {
+              "LLPojIAuunIag3H61i1Xew,\"start\",\"end\"": {
+                "s": {
+                  "x": "LLPojIAuunIag3H61i1Xew",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80d4-8641-f40b5012bec1": {
+      "value": {
+        "id": "27a3b07c-81ff-80d4-8641-f40b5012bec1",
+        "version": 17,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "関連装備："
+            ],
+            [
+              "ゴルディアスの霜焔",
+              [
+                [
+                  "a",
+                  "/27a3b07c81ff80e3a970daecd8aa28f6?pvs=25"
+                ]
+              ]
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-8063-862e-e1fb8dcf1d74",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388865,
+        "last_edited_time": 1758890405635,
+        "parent_id": "27a3b07c-81ff-8025-be44-d807354901cd",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-8063-862e-e1fb8dcf1d74",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "aLBozpx66pk9ZobTKGc12A,\"start\",\"end\"",
+            "n": {
+              "aLBozpx66pk9ZobTKGc12A,\"start\",\"end\"": {
+                "s": {
+                  "x": "aLBozpx66pk9ZobTKGc12A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "f8xzGg7V6GdT",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "関連装備："
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "f8xzGg7V6GdT",
+                        6
+                      ],
+                      "o": [
+                        "f8xzGg7V6GdT",
+                        5
+                      ],
+                      "l": -5,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "aLBozpx66pk9ZobTKGc12A",
+                          "l": "",
+                          "i": [
+                            "f8xzGg7V6GdT",
+                            11
+                          ],
+                          "s": {
+                            "i": [
+                              "f8xzGg7V6GdT",
+                              6
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "f8xzGg7V6GdT",
+                              10
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1ca3b07c81ff8000ba40ea37eb555629?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gUc_6lNDMMnU",
+                        12
+                      ],
+                      "o": [
+                        "f8xzGg7V6GdT",
+                        10
+                      ],
+                      "l": -71,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "aLBozpx66pk9ZobTKGc12A",
+                          "l": "",
+                          "i": [
+                            "gUc_6lNDMMnU",
+                            83
+                          ],
+                          "s": {
+                            "i": [
+                              "gUc_6lNDMMnU",
+                              12
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "gUc_6lNDMMnU",
+                              82
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "https://www.notion.so/27a3b07c81ff80e3a970daecd8aa28f6?source=copy_link"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "aLBozpx66pk9ZobTKGc12A",
+                          "l": "",
+                          "i": [
+                            "gUc_6lNDMMnU",
+                            93
+                          ],
+                          "s": {
+                            "i": [
+                              "gUc_6lNDMMnU",
+                              82
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": "end",
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gUc_6lNDMMnU",
+                        84
+                      ],
+                      "o": [
+                        "gUc_6lNDMMnU",
+                        82
+                      ],
+                      "l": 9,
+                      "c": "ゴルディアスの霜焔",
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "aLBozpx66pk9ZobTKGc12A",
+                          "l": "",
+                          "i": [
+                            "gUc_6lNDMMnU",
+                            93
+                          ],
+                          "s": {
+                            "i": [
+                              "gUc_6lNDMMnU",
+                              82
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": "end",
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "aLBozpx66pk9ZobTKGc12A",
+                          "l": "",
+                          "i": [
+                            "gUc_6lNDMMnU",
+                            94
+                          ],
+                          "s": {
+                            "i": [
+                              "gUc_6lNDMMnU",
+                              84
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "gUc_6lNDMMnU",
+                              92
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27a3b07c81ff80e3a970daecd8aa28f6?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "aLBozpx66pk9ZobTKGc12A",
+                          "l": "",
+                          "i": [
+                            "gUc_6lNDMMnU",
+                            93
+                          ],
+                          "s": {
+                            "i": [
+                              "gUc_6lNDMMnU",
+                              82
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": "end",
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "e",
+                      "b": []
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80f3-8c23-c7b2b9960003": {
+      "value": {
+        "id": "27a3b07c-81ff-80f3-8c23-c7b2b9960003",
+        "version": 9,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "身長：162cm"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-8095-b330-cdab68c03acb",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388865,
+        "last_edited_time": 1758890419411,
+        "parent_id": "27a3b07c-81ff-8025-be44-d807354901cd",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-8095-b330-cdab68c03acb",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "6Nb9ZBH1_vTGhprH9Fd32g,\"start\",\"end\"",
+            "n": {
+              "6Nb9ZBH1_vTGhprH9Fd32g,\"start\",\"end\"": {
+                "s": {
+                  "x": "6Nb9ZBH1_vTGhprH9Fd32g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "DZXv1j_icpZA",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "身長："
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gUc_6lNDMMnU",
+                        9
+                      ],
+                      "o": [
+                        "DZXv1j_icpZA",
+                        3
+                      ],
+                      "l": 5,
+                      "c": "162cm"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "DZXv1j_icpZA",
+                        4
+                      ],
+                      "o": [
+                        "DZXv1j_icpZA",
+                        3
+                      ],
+                      "l": -5
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80a5-bb12-c2b490858668": {
+      "value": {
+        "id": "27a3b07c-81ff-80a5-bb12-c2b490858668",
+        "version": 6,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "3サイズ：84/66/90"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80d9-955d-e2942849cd0a",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388866,
+        "last_edited_time": 1758890422244,
+        "parent_id": "27a3b07c-81ff-8025-be44-d807354901cd",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80d9-955d-e2942849cd0a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "RIVJPie3CyFuD1J96p4baw,\"start\",\"end\"",
+            "n": {
+              "RIVJPie3CyFuD1J96p4baw,\"start\",\"end\"": {
+                "s": {
+                  "x": "RIVJPie3CyFuD1J96p4baw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "NYoU7DdCX88d",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "3サイズ："
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gUc_6lNDMMnU",
+                        14
+                      ],
+                      "o": [
+                        "NYoU7DdCX88d",
+                        5
+                      ],
+                      "l": 8,
+                      "c": "84/66/90"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "NYoU7DdCX88d",
+                        6
+                      ],
+                      "o": [
+                        "NYoU7DdCX88d",
+                        5
+                      ],
+                      "l": -8
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80fb-8dc3-c2dc5698a10c": {
+      "value": {
+        "id": "27a3b07c-81ff-80fb-8dc3-c2dc5698a10c",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "誕生日：-"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80e5-b576-dc85d401e0d3",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388866,
+        "last_edited_time": 1758890388887,
+        "parent_id": "27a3b07c-81ff-8025-be44-d807354901cd",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80e5-b576-dc85d401e0d3",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "hfhaQQTNmCTJ5uu8F0FqGw,\"start\",\"end\"",
+            "n": {
+              "hfhaQQTNmCTJ5uu8F0FqGw,\"start\",\"end\"": {
+                "s": {
+                  "x": "hfhaQQTNmCTJ5uu8F0FqGw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "YHqEECHq5NXn",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "誕生日：-"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80e1-9c25-e6567d66aacd": {
+      "value": {
+        "id": "27a3b07c-81ff-80e1-9c25-e6567d66aacd",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "体重：55kg"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-803e-b84b-fb1b5adcd1e6",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388866,
+        "last_edited_time": 1758890388887,
+        "parent_id": "27a3b07c-81ff-8025-be44-d807354901cd",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-803e-b84b-fb1b5adcd1e6",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "9_JKGOsYW36fqLC-M6G2IQ,\"start\",\"end\"",
+            "n": {
+              "9_JKGOsYW36fqLC-M6G2IQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "9_JKGOsYW36fqLC-M6G2IQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "S4UgPtbnmsqE",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 7,
+                      "c": "体重：55kg"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80a3-a4b5-cc51819992df": {
+      "value": {
+        "id": "27a3b07c-81ff-80a3-a4b5-cc51819992df",
+        "version": 7,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "趣味：プラモデル"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-8004-ab05-e5c413a2f62b",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388866,
+        "last_edited_time": 1758890433577,
+        "parent_id": "27a3b07c-81ff-8025-be44-d807354901cd",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-8004-ab05-e5c413a2f62b",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "MtJqdKQ4jichdUPIQKbL6Q,\"start\",\"end\"",
+            "n": {
+              "MtJqdKQ4jichdUPIQKbL6Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "MtJqdKQ4jichdUPIQKbL6Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3ayLP2_t0hG_",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "趣味："
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gUc_6lNDMMnU",
+                        16
+                      ],
+                      "o": [
+                        "3ayLP2_t0hG_",
+                        3
+                      ],
+                      "l": 5,
+                      "c": "プラモデル"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3ayLP2_t0hG_",
+                        4
+                      ],
+                      "o": [
+                        "3ayLP2_t0hG_",
+                        3
+                      ],
+                      "l": -12
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80e3-a970-daecd8aa28f6": {
+      "value": {
+        "id": "27a3b07c-81ff-80e3-a970-daecd8aa28f6",
+        "version": 52,
+        "type": "page",
+        "properties": {
+          ";yc\\": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "type": "date",
+                    "start_date": "2025-09-26",
+                    "date_format": "relative"
+                  }
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ],
+          "IxYo": [
+            [
+              "勲章"
+            ]
+          ],
+          "^UL:": [
+            [
+              "あり"
+            ]
+          ],
+          "c:Yb": [
+            [
+              "Yes"
+            ]
+          ],
+          "title": [
+            [
+              "ゴルディアスの霜焔"
+            ]
+          ]
+        },
+        "content": [
+          "27a3b07c-81ff-8027-a5f3-d07278931afd",
+          "27a3b07c-81ff-80dc-b0d5-e5eb05b4411c",
+          "27a3b07c-81ff-8000-b0a2-db61c930d056",
+          "27a3b07c-81ff-8065-831a-d38286f49539"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:265b16e9-7772-4253-b988-9c9be9dc38ec:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1758890125201,
+        "last_edited_time": 1759463543490,
+        "parent_id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "265b16e9-7772-4253-b988-9c9be9dc38ec"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "iUztENVOpv9A15DHg_TjYg,\"start\",\"end\"",
+            "n": {
+              "iUztENVOpv9A15DHg_TjYg,\"start\",\"end\"": {
+                "s": {
+                  "x": "iUztENVOpv9A15DHg_TjYg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "P1MuJ-GyBnJW",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 9,
+                      "c": "ゴルディアスの霜焔"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ca3b07c-81ff-805b-ac89-cfc3f70c9828": {
+      "value": {
+        "id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
+        "version": 52,
+        "type": "collection_view_page",
+        "view_ids": [
+          "1ca3b07c-81ff-8093-aca5-000c02c824d8"
+        ],
+        "collection_id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+        "format": {
+          "collection_pointer": {
+            "id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "collection_pointers": [
+            {
+              "id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+              "table": "collection",
+              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+            }
+          ]
+        },
+        "created_time": 1743690486831,
+        "last_edited_time": 1763704471949,
+        "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "3Y5nzmzfnHibCXNFBwdndQ,\"start\",\"end\"",
+            "n": {
+              "3Y5nzmzfnHibCXNFBwdndQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "3Y5nzmzfnHibCXNFBwdndQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-8037-a74b-fd14d5192049": {
+      "value": {
+        "id": "27a3b07c-81ff-8037-a74b-fd14d5192049",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "ラニアットから「メイドさん」と呼ばれているが、実際は家事が得意ではない。エウメネス公爵の要請により、ラニアットの誕生時から彼女の世話を任されている。"
+            ]
+          ]
+        },
+        "created_time": 1758890437715,
+        "last_edited_time": 1758890437720,
+        "parent_id": "27a3b07c-81ff-8070-a194-c4bbf8b007c3",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "mYKi538MSrauxprvnwRu2A,\"start\",\"end\"",
+            "n": {
+              "mYKi538MSrauxprvnwRu2A,\"start\",\"end\"": {
+                "s": {
+                  "x": "mYKi538MSrauxprvnwRu2A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0t2tK7pRql6L",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 74,
+                      "c": "ラニアットから「メイドさん」と呼ばれているが、実際は家事が得意ではない。エウメネス公爵の要請により、ラニアットの誕生時から彼女の世話を任されている。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80a9-99c7-f86f677255a8": {
+      "value": {
+        "id": "27a3b07c-81ff-80a9-99c7-f86f677255a8",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "一方で、ジュードは軍人でもある。その優れた能力とゴルディアスへの忠誠心により、白金蝶衛隊の最高司令官となり、エウメネス公爵の右腕となった。"
+            ]
+          ]
+        },
+        "created_time": 1758890437717,
+        "last_edited_time": 1758890437720,
+        "parent_id": "27a3b07c-81ff-8070-a194-c4bbf8b007c3",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "n21FaNOtwIpJBbgMeNUoBw,\"start\",\"end\"",
+            "n": {
+              "n21FaNOtwIpJBbgMeNUoBw,\"start\",\"end\"": {
+                "s": {
+                  "x": "n21FaNOtwIpJBbgMeNUoBw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "yJkJ6O7PtmdM",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 69,
+                      "c": "一方で、ジュードは軍人でもある。その優れた能力とゴルディアスへの忠誠心により、白金蝶衛隊の最高司令官となり、エウメネス公爵の右腕となった。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-808b-bcd7-e57bca09c512": {
+      "value": {
+        "id": "27a3b07c-81ff-808b-bcd7-e57bca09c512",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "最近のプラモデルは品質が落ちてますわね。縮み、ウォーターマーク、パーティングライン…メーカーを説教したいですわ。"
+            ]
+          ]
+        },
+        "created_time": 1758890441777,
+        "last_edited_time": 1758890441787,
+        "parent_id": "27a3b07c-81ff-80ff-8978-c876f0052ea6",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "85FJuSuFsQLoepZ50skMnQ,\"start\",\"end\"",
+            "n": {
+              "85FJuSuFsQLoepZ50skMnQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "85FJuSuFsQLoepZ50skMnQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "CeeTm4F_EAHD",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 56,
+                      "c": "最近のプラモデルは品質が落ちてますわね。縮み、ウォーターマーク、パーティングライン…メーカーを説教したいですわ。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-8068-8175-d04ee4afc38e": {
+      "value": {
+        "id": "27a3b07c-81ff-8068-8175-d04ee4afc38e",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "掃除が戦いのように簡単だったらいいのですが。"
+            ]
+          ]
+        },
+        "created_time": 1758890441780,
+        "last_edited_time": 1758890441787,
+        "parent_id": "27a3b07c-81ff-80ff-8978-c876f0052ea6",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DVYzoSYMxx3o-pN7GVJnhg,\"start\",\"end\"",
+            "n": {
+              "DVYzoSYMxx3o-pN7GVJnhg,\"start\",\"end\"": {
+                "s": {
+                  "x": "DVYzoSYMxx3o-pN7GVJnhg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "L7PmdxUrImJK",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 22,
+                      "c": "掃除が戦いのように簡単だったらいいのですが。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80af-a5ab-ed833f471df0": {
+      "value": {
+        "id": "27a3b07c-81ff-80af-a5ab-ed833f471df0",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "お嬢様の成績は本当に素晴らしく、私が教える必要もありませんが……なぜ話すとバカみたいになってしまうのでしょうか？"
+            ]
+          ]
+        },
+        "created_time": 1758890441781,
+        "last_edited_time": 1758890441787,
+        "parent_id": "27a3b07c-81ff-80ff-8978-c876f0052ea6",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "dzEMW2JPfkOzdyKTLubmCw,\"start\",\"end\"",
+            "n": {
+              "dzEMW2JPfkOzdyKTLubmCw,\"start\",\"end\"": {
+                "s": {
+                  "x": "dzEMW2JPfkOzdyKTLubmCw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "dPl8iHSsuctA",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 56,
+                      "c": "お嬢様の成績は本当に素晴らしく、私が教える必要もありませんが……なぜ話すとバカみたいになってしまうのでしょうか？"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80af-b6ec-f6a988b5d182": {
+      "value": {
+        "id": "27a3b07c-81ff-80af-b6ec-f6a988b5d182",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "お嬢様が呼んでいらっしゃる？ちょっと待ってもらえませんか。まだプラモデルを組み立てている最中なのです。"
+            ]
+          ]
+        },
+        "created_time": 1758890441782,
+        "last_edited_time": 1758890441787,
+        "parent_id": "27a3b07c-81ff-80ff-8978-c876f0052ea6",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "bGnpVur5ZBXAgPCdtopRWw,\"start\",\"end\"",
+            "n": {
+              "bGnpVur5ZBXAgPCdtopRWw,\"start\",\"end\"": {
+                "s": {
+                  "x": "bGnpVur5ZBXAgPCdtopRWw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e2FZ4-ulpCbz",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 51,
+                      "c": "お嬢様が呼んでいらっしゃる？ちょっと待ってもらえませんか。まだプラモデルを組み立てている最中なのです。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-8084-8f62-e43c2857a14d": {
+      "value": {
+        "id": "27a3b07c-81ff-8084-8f62-e43c2857a14d",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "最初はお嬢様の家出が心配でしたが、今のご友人達は悪い方たちではないようで安心しました"
+            ]
+          ]
+        },
+        "created_time": 1758890441782,
+        "last_edited_time": 1758890441787,
+        "parent_id": "27a3b07c-81ff-80ff-8978-c876f0052ea6",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "lIHSlFkvWcvpnMmfARSyBQ,\"start\",\"end\"",
+            "n": {
+              "lIHSlFkvWcvpnMmfARSyBQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "lIHSlFkvWcvpnMmfARSyBQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "BFF8y9jWtTWB",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 42,
+                      "c": "最初はお嬢様の家出が心配でしたが、今のご友人達は悪い方たちではないようで安心しました"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-809a-a585-cc4386b4df16": {
+      "value": {
+        "id": "27a3b07c-81ff-809a-a585-cc4386b4df16",
+        "version": 6,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "白金蝶の近衛兵"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-8054-a638-e6bb1fd8e2f7",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388879,
+        "last_edited_time": 1758890455410,
+        "parent_id": "27a3b07c-81ff-8000-af57-f78f87c1bf5a",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-8054-a638-e6bb1fd8e2f7",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ItjRJW-jz5EmWp2o-KUCdw,\"start\",\"end\"",
+            "n": {
+              "ItjRJW-jz5EmWp2o-KUCdw,\"start\",\"end\"": {
+                "s": {
+                  "x": "ItjRJW-jz5EmWp2o-KUCdw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gUc_6lNDMMnU",
+                        6
+                      ],
+                      "o": "start",
+                      "l": 7,
+                      "c": "白金蝶の近衛兵"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Ec2pV0otrkCM",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -5
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-802d-ad4d-f5f0d83d4ebe": {
+      "value": {
+        "id": "27a3b07c-81ff-802d-ad4d-f5f0d83d4ebe",
+        "version": 2,
+        "type": "divider",
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80b1-b785-c2e4986ba9d3",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388879,
+        "last_edited_time": 1758890388887,
+        "parent_id": "27a3b07c-81ff-8000-af57-f78f87c1bf5a",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80b1-b785-c2e4986ba9d3",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "TRy5XNQmBacSF8QccsEv9g,\"start\",\"end\"",
+            "n": {
+              "TRy5XNQmBacSF8QccsEv9g,\"start\",\"end\"": {
+                "s": {
+                  "x": "TRy5XNQmBacSF8QccsEv9g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80a0-89b2-de6817e180db": {
+      "value": {
+        "id": "27a3b07c-81ff-80a0-89b2-de6817e180db",
+        "version": 10,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "ジュード・アンティゼニスは名門の出身だ。西暦から続く貴族の一員であり、そのため彼女は南方軍で出世し、すぐさま軍の指揮官となった。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80f3-99ea-c919d5e08c8d",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388879,
+        "last_edited_time": 1758890450727,
+        "parent_id": "27a3b07c-81ff-8000-af57-f78f87c1bf5a",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80f3-99ea-c919d5e08c8d",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "XsYrF3iAuudf6OhAUaIt5A,\"start\",\"end\"",
+            "n": {
+              "XsYrF3iAuudf6OhAUaIt5A,\"start\",\"end\"": {
+                "s": {
+                  "x": "XsYrF3iAuudf6OhAUaIt5A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "fni-Xu1BLRO3",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -341
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "3eTV1rTAIIC_ZxSotmP8wQ,[\"gUc_6lNDMMnU\",28],\"end\""
+                ]
+              },
+              "3eTV1rTAIIC_ZxSotmP8wQ,[\"gUc_6lNDMMnU\",28],\"end\"": {
+                "s": {
+                  "x": "3eTV1rTAIIC_ZxSotmP8wQ",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "gUc_6lNDMMnU",
+                        28
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Wvi8vtUcM50Z",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -7
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "3ZveX0lQySgy2fGXojgbrA,[\"gUc_6lNDMMnU\",85],\"end\""
+                ]
+              },
+              "3ZveX0lQySgy2fGXojgbrA,[\"gUc_6lNDMMnU\",85],\"end\"": {
+                "s": {
+                  "x": "3ZveX0lQySgy2fGXojgbrA",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "gUc_6lNDMMnU",
+                        85
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Ty1mZ5LSrlpI",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 64,
+                      "c": "ジュード・アンティゼニスは名門の出身だ。西暦から続く貴族の一員であり、そのため彼女は南方軍で出世し、すぐさま軍の指揮官となった。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80ad-896f-d5ef2fdd83f1": {
+      "value": {
+        "id": "27a3b07c-81ff-80ad-896f-d5ef2fdd83f1",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "……しかし43年の戦争で、父親が反乱に加担したため、戦後は一族全体が粛清の対象となった。"
+            ]
+          ]
+        },
+        "created_time": 1758890446818,
+        "last_edited_time": 1758890446823,
+        "parent_id": "27a3b07c-81ff-8000-af57-f78f87c1bf5a",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "QdpleVv2P_8uVfQq6vL2ag,\"start\",\"end\"",
+            "n": {
+              "QdpleVv2P_8uVfQq6vL2ag,\"start\",\"end\"": {
+                "s": {
+                  "x": "QdpleVv2P_8uVfQq6vL2ag",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "A6Va5lfa0q3O",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 44,
+                      "c": "……しかし43年の戦争で、父親が反乱に加担したため、戦後は一族全体が粛清の対象となった。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80aa-a131-dd4289441e5d": {
+      "value": {
+        "id": "27a3b07c-81ff-80aa-a131-dd4289441e5d",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "ジュードも例外ではなかったが、裁判にかけられた時にエウメネス公爵が衆議を押し切って家臣として迎え入れたため、彼女は深く感謝した。"
+            ]
+          ]
+        },
+        "created_time": 1758890446818,
+        "last_edited_time": 1758890446823,
+        "parent_id": "27a3b07c-81ff-8000-af57-f78f87c1bf5a",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "UMBaFfK_F_LvQk_k6g8__w,\"start\",\"end\"",
+            "n": {
+              "UMBaFfK_F_LvQk_k6g8__w,\"start\",\"end\"": {
+                "s": {
+                  "x": "UMBaFfK_F_LvQk_k6g8__w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "esBJr375teMr",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 64,
+                      "c": "ジュードも例外ではなかったが、裁判にかけられた時にエウメネス公爵が衆議を押し切って家臣として迎え入れたため、彼女は深く感謝した。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-807c-ad90-f902a618a62b": {
+      "value": {
+        "id": "27a3b07c-81ff-807c-ad90-f902a618a62b",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "その後は旧姓を捨て、ジュード・アンティゼニスを名乗り、ゴルディアス家のために無数の功績を残した。"
+            ]
+          ]
+        },
+        "created_time": 1758890446819,
+        "last_edited_time": 1758890446823,
+        "parent_id": "27a3b07c-81ff-8000-af57-f78f87c1bf5a",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Pi575q6Df_LNE6QBNPjN1w,\"start\",\"end\"",
+            "n": {
+              "Pi575q6Df_LNE6QBNPjN1w,\"start\",\"end\"": {
+                "s": {
+                  "x": "Pi575q6Df_LNE6QBNPjN1w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ItERSFuR1u8n",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 48,
+                      "c": "その後は旧姓を捨て、ジュード・アンティゼニスを名乗り、ゴルディアス家のために無数の功績を残した。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80eb-a9e8-d1f669d3cdfe": {
+      "value": {
+        "id": "27a3b07c-81ff-80eb-a9e8-d1f669d3cdfe",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "現在は、ラニアット・ゴルディアスの直属衛兵「白金蝶衛隊」の隊長として、密かにラニアットを守っている"
+            ]
+          ]
+        },
+        "created_time": 1758890446819,
+        "last_edited_time": 1758890446823,
+        "parent_id": "27a3b07c-81ff-8000-af57-f78f87c1bf5a",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ONRcF_8GkxJDWk2arraQow,\"start\",\"end\"",
+            "n": {
+              "ONRcF_8GkxJDWk2arraQow,\"start\",\"end\"": {
+                "s": {
+                  "x": "ONRcF_8GkxJDWk2arraQow",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "smQFTd7cJQRX",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 49,
+                      "c": "現在は、ラニアット・ゴルディアスの直属衛兵「白金蝶衛隊」の隊長として、密かにラニアットを守っている"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-8051-ab9e-ffcdc3663ff7": {
+      "value": {
+        "id": "27a3b07c-81ff-8051-ab9e-ffcdc3663ff7",
+        "version": 6,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "プラモデル戦士"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-8014-b022-ea52b2ee3c3a",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388882,
+        "last_edited_time": 1758890457400,
+        "parent_id": "27a3b07c-81ff-80e6-8a49-d6081f2f230d",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-8014-b022-ea52b2ee3c3a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "WJDSDxCP3khKQQzC08EkJA,\"start\",\"end\"",
+            "n": {
+              "WJDSDxCP3khKQQzC08EkJA,\"start\",\"end\"": {
+                "s": {
+                  "x": "WJDSDxCP3khKQQzC08EkJA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "9a8489m819r9",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -7
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "KpuO5ixT1499nj7R3HGkUw,[\"MGjnt-E9l55Y\",28],\"end\""
+                ]
+              },
+              "KpuO5ixT1499nj7R3HGkUw,[\"MGjnt-E9l55Y\",28],\"end\"": {
+                "s": {
+                  "x": "KpuO5ixT1499nj7R3HGkUw",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "MGjnt-E9l55Y",
+                        28
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Sjf0hZXdpq5c",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 7,
+                      "c": "プラモデル戦士"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27a3b07c-81ff-80bd-8233-f4a01823c6c6": {
+      "value": {
+        "id": "27a3b07c-81ff-80bd-8233-f4a01823c6c6",
+        "version": 2,
+        "type": "divider",
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80c0-8c98-f7147c174319",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1758890388882,
+        "last_edited_time": 1758890388887,
+        "parent_id": "27a3b07c-81ff-80e6-8a49-d6081f2f230d",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80c0-8c98-f7147c174319",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "NdbQnRiZacd40nVKqR5r9w,\"start\",\"end\"",
+            "n": {
+              "NdbQnRiZacd40nVKqR5r9w,\"start\",\"end\"": {
+                "s": {
+                  "x": "NdbQnRiZacd40nVKqR5r9w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2833b07c-81ff-8014-a107-cff610cdae4f": {
+      "value": {
+        "id": "2833b07c-81ff-8014-a107-cff610cdae4f",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "優秀で聡明なジュード・アンティゼニスだが――家事に関しては完全に無能だ。"
+            ]
+          ]
+        },
+        "created_time": 1759652848478,
+        "last_edited_time": 1759652848485,
+        "parent_id": "27a3b07c-81ff-80e6-8a49-d6081f2f230d",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "TmbqC3WwE91kQfNAEehbjg,\"start\",\"end\"",
+            "n": {
+              "TmbqC3WwE91kQfNAEehbjg,\"start\",\"end\"": {
+                "s": {
+                  "x": "TmbqC3WwE91kQfNAEehbjg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "XPVpZWn9CN-S",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 36,
+                      "c": "優秀で聡明なジュード・アンティゼニスだが――家事に関しては完全に無能だ。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2833b07c-81ff-8044-a942-d00ccd5cc5ba": {
+      "value": {
+        "id": "2833b07c-81ff-8044-a942-d00ccd5cc5ba",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "布団を四角く畳むこと以外は、いつもラニアットが自ら片付けなければならなかった。たとえば、部屋中に散らかった衣類や埃まみれの家具、そして、ラニアットのために掃除した部屋など……"
+            ]
+          ]
+        },
+        "created_time": 1759652848479,
+        "last_edited_time": 1759652848485,
+        "parent_id": "27a3b07c-81ff-80e6-8a49-d6081f2f230d",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "1Uq_Pu4MtPTwVrilzMxWlA,\"start\",\"end\"",
+            "n": {
+              "1Uq_Pu4MtPTwVrilzMxWlA,\"start\",\"end\"": {
+                "s": {
+                  "x": "1Uq_Pu4MtPTwVrilzMxWlA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "nhdS7nViWC0-",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 87,
+                      "c": "布団を四角く畳むこと以外は、いつもラニアットが自ら片付けなければならなかった。たとえば、部屋中に散らかった衣類や埃まみれの家具、そして、ラニアットのために掃除した部屋など……"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2833b07c-81ff-8075-af35-c7babcbe24ac": {
+      "value": {
+        "id": "2833b07c-81ff-8075-af35-c7babcbe24ac",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "前線を離れることは、ジュード・アンティゼニスにとっては罰に等しいことかもしれない――だが幸い、彼女は新しい楽しみを見つけた。"
+            ]
+          ]
+        },
+        "created_time": 1759652848480,
+        "last_edited_time": 1759652848485,
+        "parent_id": "27a3b07c-81ff-80e6-8a49-d6081f2f230d",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "7mjFOe246MMkYfGZFAWjcA,\"start\",\"end\"",
+            "n": {
+              "7mjFOe246MMkYfGZFAWjcA,\"start\",\"end\"": {
+                "s": {
+                  "x": "7mjFOe246MMkYfGZFAWjcA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qpfhRaJfAPQj",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 62,
+                      "c": "前線を離れることは、ジュード・アンティゼニスにとっては罰に等しいことかもしれない――だが幸い、彼女は新しい楽しみを見つけた。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2833b07c-81ff-80cb-a975-d919ada1b7ea": {
+      "value": {
+        "id": "2833b07c-81ff-80cb-a975-d919ada1b7ea",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "それは、プラモデルを組み立てることだ。"
+            ]
+          ]
+        },
+        "created_time": 1759652848480,
+        "last_edited_time": 1759652848485,
+        "parent_id": "27a3b07c-81ff-80e6-8a49-d6081f2f230d",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "KnYhiFyPgLliuBQu-bfWXA,\"start\",\"end\"",
+            "n": {
+              "KnYhiFyPgLliuBQu-bfWXA,\"start\",\"end\"": {
+                "s": {
+                  "x": "KnYhiFyPgLliuBQu-bfWXA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "CnCA-eZ3zcy3",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 19,
+                      "c": "それは、プラモデルを組み立てることだ。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2833b07c-81ff-8077-9a59-f4e38e30e70a": {
+      "value": {
+        "id": "2833b07c-81ff-8077-9a59-f4e38e30e70a",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "ゲート処理から塗装までの一連の工程を、彼女は戦士のように熟知している。"
+            ]
+          ]
+        },
+        "created_time": 1759652848481,
+        "last_edited_time": 1759652848485,
+        "parent_id": "27a3b07c-81ff-80e6-8a49-d6081f2f230d",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "yxYedhjfQsQPO-2KsvFYag,\"start\",\"end\"",
+            "n": {
+              "yxYedhjfQsQPO-2KsvFYag,\"start\",\"end\"": {
+                "s": {
+                  "x": "yxYedhjfQsQPO-2KsvFYag",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "fsF9_TSnIs2D",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 35,
+                      "c": "ゲート処理から塗装までの一連の工程を、彼女は戦士のように熟知している。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    }
+  },
+  "collection": {
+    "25e3b07c-81ff-8056-a91b-000b47c2690f": {
+      "value": {
+        "id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+        "version": 37,
+        "name": [
+          [
+            "看板娘"
+          ]
+        ],
+        "schema": {
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "parent_id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
+        "parent_table": "block",
+        "alive": true,
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "deleted_schema": {
+          "S;OO": {
+            "name": "ステータス",
+            "type": "status",
+            "groups": [
+              {
+                "id": "584a2d25-7143-4c02-80a9-31ad33b50a36",
+                "name": "To-do",
+                "color": "gray",
+                "optionIds": [
+                  "d48d1a03-ac3d-4342-ab31-8080bb0cd818"
+                ]
+              },
+              {
+                "id": "bfdf02a8-4fd8-45d7-a116-3a5367677a84",
+                "name": "In progress",
+                "color": "blue",
+                "optionIds": [
+                  "94d9315f-5518-42c9-a4d5-c62771a31fb0"
+                ]
+              },
+              {
+                "id": "63cb37bd-c3b4-4c35-b85b-591f84ff9645",
+                "name": "Complete",
+                "color": "green",
+                "optionIds": [
+                  "62498e31-c857-47ec-b86f-a574bb847cc1"
+                ]
+              }
+            ],
+            "options": [
+              {
+                "id": "d48d1a03-ac3d-4342-ab31-8080bb0cd818",
+                "value": "未着手"
+              },
+              {
+                "id": "94d9315f-5518-42c9-a4d5-c62771a31fb0",
+                "color": "blue",
+                "value": "進行中"
+              },
+              {
+                "id": "62498e31-c857-47ec-b86f-a574bb847cc1",
+                "color": "green",
+                "value": "完了"
+              }
+            ],
+            "defaultOption": "未着手"
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-8086-a96b-000b78a078f2": {
+      "value": {
+        "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "version": 32,
+        "name": [
+          [
+            "目次"
+          ]
+        ],
+        "schema": {
+          "`q`e": {
+            "name": "タグ",
+            "type": "multi_select"
+          },
+          "vidt": {
+            "name": "作成日時",
+            "type": "created_time"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "layout_pointer": {
+            "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+            "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "更新日時",
+              "type": "date"
+            },
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "Wegk",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": ";HBU",
+                  "color": "purple",
+                  "value": "中"
+                },
+                {
+                  "id": "Zark",
+                  "color": "default",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "ステータス",
+              "type": "status"
+            },
+            {
+              "name": "関連ファイル",
+              "type": "file"
+            },
+            {
+              "name": "連絡先メール",
+              "type": "email"
+            },
+            {
+              "name": "連絡先電話番号",
+              "type": "phone_number"
+            },
+            {
+              "name": "カテゴリー",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "o>B<",
+                  "color": "orange",
+                  "value": "技術"
+                },
+                {
+                  "id": "ksAA",
+                  "color": "pink",
+                  "value": "マーケティング"
+                },
+                {
+                  "id": "}yWP",
+                  "color": "brown",
+                  "value": "デザイン"
+                },
+                {
+                  "id": "lt{K",
+                  "color": "yellow",
+                  "value": "管理"
+                }
+              ]
+            },
+            {
+              "name": "予算",
+              "type": "number"
+            }
+          ],
+          "page_section_visibility": {
+            "comments": "section_hide",
+            "backlinks": "section_collapsed",
+            "margin_comments": "minimal"
+          },
+          "collection_cover_position": 0.7987,
+          "collection_page_properties": [
+            {
+              "visible": true,
+              "property": "vidt"
+            },
+            {
+              "visible": true,
+              "property": "`q`e"
+            }
+          ]
+        },
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
+        ],
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba": {
+      "role": "none"
+    },
+    "1ca3b07c-81ff-8084-90ac-000b2b28ae0f": {
+      "value": {
+        "id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+        "version": 20,
+        "name": [
+          [
+            "装備"
+          ]
+        ],
+        "schema": {
+          ";yc\\": {
+            "name": "実装日",
+            "type": "text"
+          },
+          "IxYo": {
+            "name": "分類",
+            "type": "text"
+          },
+          "^UL:": {
+            "name": "神格覚醒",
+            "type": "text"
+          },
+          "c:Yb": {
+            "name": "ステータス",
+            "type": "checkbox",
+            "groups": [
+              {
+                "id": "0f98ba49-e898-4c1e-8621-2564cbbe3da8",
+                "name": "To-do",
+                "color": "gray",
+                "optionIds": [
+                  "9aa46466-b2ec-46d1-9957-dc9ab1ff6d15"
+                ]
+              },
+              {
+                "id": "e1f9db76-9d1a-424d-82d2-8951d29c2c0a",
+                "name": "In progress",
+                "color": "blue",
+                "optionIds": [
+                  "bd592928-3564-4501-88b2-7a6d80d37b2a"
+                ]
+              },
+              {
+                "id": "b8104d55-fad1-4875-9fd5-91eb58921313",
+                "name": "Complete",
+                "color": "green",
+                "optionIds": [
+                  "7b54b739-8b67-43fe-9b96-05513c368835"
+                ]
+              }
+            ],
+            "options": [
+              {
+                "id": "9aa46466-b2ec-46d1-9957-dc9ab1ff6d15",
+                "value": "未着手",
+                "collectionIds": [
+                  "1ca3b07c-81ff-8084-90ac-000b2b28ae0f"
+                ]
+              },
+              {
+                "id": "bd592928-3564-4501-88b2-7a6d80d37b2a",
+                "color": "blue",
+                "value": "進行中",
+                "collectionIds": [
+                  "1ca3b07c-81ff-8084-90ac-000b2b28ae0f"
+                ]
+              },
+              {
+                "id": "7b54b739-8b67-43fe-9b96-05513c368835",
+                "color": "green",
+                "value": "完了",
+                "collectionIds": [
+                  "1ca3b07c-81ff-8084-90ac-000b2b28ae0f"
+                ]
+              }
+            ],
+            "defaultOption": "未着手"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "ai_suggested_properties": [
+            {
+              "name": "装備タイプ",
+              "type": "select",
+              "options": [
+                {
+                  "id": "S~Cn",
+                  "color": "red",
+                  "value": "武器"
+                },
+                {
+                  "id": "`cOf",
+                  "color": "gray",
+                  "value": "防具"
+                },
+                {
+                  "id": "fr;b",
+                  "color": "blue",
+                  "value": "アクセサリー"
+                }
+              ]
+            },
+            {
+              "name": "重量",
+              "type": "number"
+            },
+            {
+              "name": "耐久性",
+              "type": "number"
+            },
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "製造日",
+              "type": "date"
+            },
+            {
+              "name": "所有者",
+              "type": "person"
+            },
+            {
+              "name": "状態",
+              "type": "status"
+            },
+            {
+              "name": "画像URL",
+              "type": "url"
+            },
+            {
+              "name": "関連アイテム",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "zEC=",
+                  "color": "brown",
+                  "value": "ポーション"
+                },
+                {
+                  "id": "`uWJ",
+                  "color": "blue",
+                  "value": "スクロール"
+                },
+                {
+                  "id": "iG\\}",
+                  "color": "pink",
+                  "value": "鍛冶道具"
+                }
+              ]
+            },
+            {
+              "name": "製造者メール",
+              "type": "email"
+            }
+          ]
+        },
+        "parent_id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
+        "parent_table": "block",
+        "alive": true,
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "deleted_schema": {
+          "}d?V": {
+            "name": "記録",
+            "type": "text"
+          }
+        }
+      },
+      "role": "reader"
+    }
+  },
+  "collection_view": {
+    "25e3b07c-81ff-80a6-8d5d-000cfd50a16d": {
+      "value": {
+        "id": "25e3b07c-81ff-80a6-8d5d-000cfd50a16d",
+        "version": 155,
+        "type": "gallery",
+        "format": {
+          "table_wrap": true,
+          "gallery_cover": {
+            "type": "page_content"
+          },
+          "board_columns_by": {
+            "sort": {
+              "type": "ascending"
+            },
+            "type": "status",
+            "groupBy": "option",
+            "property": "S;OO",
+            "hideEmptyGroups": false
+          },
+          "table_properties": [
+            {
+              "width": 280,
+              "visible": true,
+              "property": "title"
+            },
+            {
+              "visible": true,
+              "property": "ecNC"
+            }
+          ],
+          "collection_pointer": {
+            "id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "collection_peek_mode": "full_page"
+        },
+        "parent_id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
+        "parent_table": "block",
+        "alive": true,
+        "page_sort": [
+          "25e3b07c-81ff-8004-802f-dcb19cde5460",
+          "25e3b07c-81ff-80bc-964c-cd1acb07d711",
+          "25e3b07c-81ff-8068-ba2c-f9d4200ff658",
+          "25e3b07c-81ff-8077-8378-c2c92e5767ca",
+          "25e3b07c-81ff-8070-b26d-e5b33bab7774",
+          "25e3b07c-81ff-8095-9f21-d3919d02ba60",
+          "25e3b07c-81ff-8091-90ef-d11d0922c7be",
+          "25e3b07c-81ff-8086-8167-f6bf023339a8",
+          "25e3b07c-81ff-8061-8bca-de0796eda832",
+          "2893b07c-81ff-80f1-b93f-c3be8cb14280",
+          "25e3b07c-81ff-80df-b6f2-e8db695137be",
+          "25e3b07c-81ff-80c6-ba14-f09986022e48",
+          "26d3b07c-81ff-80a1-9184-c390d13443be",
+          "25e3b07c-81ff-80c8-a0e9-ede4d91d2f8f",
+          "25e3b07c-81ff-806d-b2b5-f53ac812dabc",
+          "25e3b07c-81ff-8049-9618-e15920c54158",
+          "25e3b07c-81ff-8099-81cb-d2fc8e10691d",
+          "25e3b07c-81ff-80fd-8fa7-e9b4e27a5d5f",
+          "25e3b07c-81ff-80d5-a645-c91838341597",
+          "25e3b07c-81ff-80a4-9d80-e81fbfa51593",
+          "25e3b07c-81ff-80c7-8363-e8a9baaa926e",
+          "25e3b07c-81ff-8059-83dd-d9804db1e169",
+          "25e3b07c-81ff-80e2-adde-d7f65263ab93",
+          "25e3b07c-81ff-80ed-9afd-e2d9c94f5305",
+          "25e3b07c-81ff-8064-ad08-c48480ea28f5",
+          "27a3b07c-81ff-80ea-b5ff-dcc0b5054793",
+          "25e3b07c-81ff-8027-991d-edc0465fa0cc",
+          "25e3b07c-81ff-804d-9d15-d5520d5f298e",
+          "25e3b07c-81ff-8024-ae0d-d1571749de17",
+          "25e3b07c-81ff-806f-b224-eef179887dbb",
+          "25e3b07c-81ff-8043-8fac-d178348244b8",
+          "25e3b07c-81ff-8079-ba37-cc5a98626baf",
+          "25e3b07c-81ff-80e8-aca9-f053c4584a0a",
+          "25e3b07c-81ff-80d1-be99-c38cbd2b9600",
+          "25e3b07c-81ff-80cc-a4bd-c87bc27c3e1c",
+          "25e3b07c-81ff-8033-b2cd-ecfcdf12900e",
+          "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+          "25e3b07c-81ff-80ae-b03e-ebb0bec98517",
+          "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+          "25e3b07c-81ff-8054-9f66-cd8456080a69",
+          "25e3b07c-81ff-809a-ad94-c4399f89aad7",
+          "25e3b07c-81ff-8052-8af9-e097e59dc856",
+          "25e3b07c-81ff-80f5-91c9-e6f724b43e19",
+          "2793b07c-81ff-80e8-8f3b-effe8d59027b",
+          "2813b07c-81ff-8082-86d9-c743a65e2d7c",
+          "2813b07c-81ff-8043-a0ff-c26be81cb208",
+          "29d3b07c-81ff-80f2-9c48-d67e2eae6a3f",
+          "2b23b07c-81ff-809c-b2b1-d498e747677e",
+          "25e3b07c-81ff-8040-a8d4-c61a3c357eb2",
+          "25e3b07c-81ff-809a-9ff7-c176b1405d43",
+          "25e3b07c-81ff-8059-beb3-eb832e0d36ca",
+          "25e3b07c-81ff-8055-803b-fc0b0e0513d3",
+          "25e3b07c-81ff-80c5-8b7e-f0883d265459",
+          "25e3b07c-81ff-80e5-8920-e98b6e41b435",
+          "25e3b07c-81ff-8042-a6dc-f69fc737662e",
+          "25e3b07c-81ff-8096-bfc6-fa514db609bf",
+          "25e3b07c-81ff-80d1-ac95-e78490e77abb",
+          "25e3b07c-81ff-80c2-b4b5-e284fc8722d9",
+          "25e3b07c-81ff-802a-b82d-f9b0abb018ab",
+          "25e3b07c-81ff-8048-b0a3-cb2ced442b8c"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1760176855849,
+        "last_edited_time": 1763703688216,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80ee-821a-000cec78a24c": {
+      "value": {
+        "id": "1ac3b07c-81ff-80ee-821a-000cec78a24c",
+        "version": 38,
+        "type": "gallery",
+        "name": "ギャラリービュー",
+        "format": {
+          "table_wrap": false,
+          "gallery_cover": {
+            "type": "page_cover"
+          },
+          "collection_pointer": {
+            "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "gallery_cover_size": "medium",
+          "collection_peek_mode": "full_page",
+          "gallery_cover_aspect": "cover"
+        },
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "page_sort": [
+          "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
+          "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
+          "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+          "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
+          "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+          "1ad3b07c-81ff-809c-8204-e16483640fa5",
+          "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
+          "1c83b07c-81ff-803f-99b6-f7010f54b710",
+          "2573b07c-81ff-8076-8c97-c512393c2dc8",
+          "1b63b07c-81ff-809a-8e66-e4e88abf2006"
+        ],
+        "query2": {
+          "aggregations": [
+            {
+              "aggregator": "count"
+            }
+          ]
+        },
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1748772241834,
+        "last_edited_time": 1755881175648,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+      },
+      "role": "reader"
+    },
+    "5531d29a-4e77-406f-a1fc-32cd5bbafec7": {
+      "role": "none"
+    },
+    "5dd8ee8a-3d52-42e6-b781-ac5db580f283": {
+      "role": "none"
+    },
+    "401ba18e-ee37-450f-b369-015c2957f5d4": {
+      "role": "none"
+    },
+    "5961b724-b949-48b2-aef2-d5c03eacd1d8": {
+      "role": "none"
+    },
+    "1ad3b07c-81ff-8037-9574-000c12eb1c9d": {
+      "role": "none"
+    },
+    "1ca3b07c-81ff-8093-aca5-000c02c824d8": {
+      "value": {
+        "id": "1ca3b07c-81ff-8093-aca5-000c02c824d8",
+        "version": 148,
+        "type": "gallery",
+        "format": {
+          "table_wrap": true,
+          "gallery_cover": {
+            "type": "page_content"
+          },
+          "table_properties": [
+            {
+              "width": 276,
+              "visible": true,
+              "property": "title"
+            },
+            {
+              "width": 100,
+              "visible": true,
+              "property": "IxYo"
+            },
+            {
+              "width": 136,
+              "visible": true,
+              "property": ";yc\\"
+            },
+            {
+              "width": 100,
+              "visible": true,
+              "property": "^UL:"
+            },
+            {
+              "width": 32,
+              "visible": true,
+              "property": "c:Yb"
+            }
+          ],
+          "collection_pointer": {
+            "id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "collection_peek_mode": "full_page",
+          "table_frozen_column_index": -1
+        },
+        "parent_id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
+        "parent_table": "block",
+        "alive": true,
+        "page_sort": [
+          "1ca3b07c-81ff-8098-b011-db8496d20af7",
+          "1ca3b07c-81ff-80e7-a56f-dbe76457d572",
+          "1ca3b07c-81ff-80f0-86e5-dff629ac35af",
+          "1ca3b07c-81ff-8005-b742-f0898cbf9507",
+          "1ca3b07c-81ff-80a0-a04e-c2efc644df94",
+          "1ca3b07c-81ff-80b8-8999-d16cc8fc0965",
+          "1ca3b07c-81ff-80f4-b9e3-f1fb5a541587",
+          "1ca3b07c-81ff-8060-be64-ecfc8d7175a1",
+          "1ca3b07c-81ff-8096-b982-c519556c7ade",
+          "1ca3b07c-81ff-80a1-95b5-cd09b518ef68",
+          "1ca3b07c-81ff-80ec-864a-faa7679ebc42",
+          "2033b07c-81ff-80f8-abcc-d9936a91bf2a",
+          "2033b07c-81ff-80c2-99e5-fcbbc2efb469",
+          "1ca3b07c-81ff-8062-aa9a-dfa7fe78339e",
+          "1ca3b07c-81ff-80d9-b3ae-e51c5ae839ac",
+          "1ca3b07c-81ff-80d6-b2ed-ede15f8f05b9",
+          "1ca3b07c-81ff-8008-b052-f068f6d3cd6a",
+          "1ca3b07c-81ff-8066-b11c-f05d9f804934",
+          "1ca3b07c-81ff-8000-ba40-ea37eb555629",
+          "2033b07c-81ff-80d0-9cb6-e3b48e86221e",
+          "2033b07c-81ff-805e-ac6a-e30ef33548d1",
+          "2033b07c-81ff-803f-b7ea-fe5a228ff5f2",
+          "21f3b07c-81ff-8098-afa5-d62d8ecd3c90",
+          "2493b07c-81ff-8041-891d-e92916d34a69",
+          "2493b07c-81ff-80c0-992f-c2d08c55343d",
+          "25d3b07c-81ff-806d-80d1-d78ea2d6ad87",
+          "26c3b07c-81ff-802e-b285-c5340350bafd",
+          "27a3b07c-81ff-80e3-a970-daecd8aa28f6",
+          "2813b07c-81ff-802d-9b35-c16ad7a83f8d",
+          "2813b07c-81ff-80e1-ad5f-e36ce54041dd",
+          "29d3b07c-81ff-804c-9bfb-f48293efe2e4",
+          "2b23b07c-81ff-80c9-a4ee-d0ef44a6c7b1",
+          "2b23b07c-81ff-8091-81d2-c9358abc522b"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1756373099431,
+        "last_edited_time": 1763704471949,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+      },
+      "role": "reader"
+    }
+  },
+  "layout": {
+    "1ac3b07c-81ff-80e0-9466-006e60a7ae40": {
+      "value": {
+        "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+        "version": 5,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "parent_table": "collection",
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "created_by_table": "notion_user",
+        "created_time": 1741120301429,
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_time": 1741120316045,
+        "modules": {
+          "page_layout_schema": [
+            {
+              "id": "cover",
+              "type": "cover"
+            },
+            {
+              "id": "R=YI",
+              "type": "titleWithIcon"
+            },
+            {
+              "id": "discussions",
+              "type": "discussions"
+            },
+            {
+              "id": "editor",
+              "type": "editor"
+            }
+          ],
+          "page_info_layout_schema": [
+            {
+              "id": "vPyb",
+              "type": "properties"
+            }
+          ]
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-801e-8fb8-006ea2bd8886": {
+      "role": "none"
+    }
+  },
+  "notion_user": {},
+  "collection_query": {},
+  "signed_urls": {
+    "27a3b07c-81ff-80dd-b1ea-d7a3a0505b53": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/8b3d4bdc-50bd-41fd-9e3c-515ee2f8c904/IMG_0709.png?table=block&id=27a3b07c-81ff-80dd-b1ea-d7a3a0505b53&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=zUD-vanHH9Kk_5n3p2h0WYK9FxVQQxEWDCOGgk9M11s"
+  }
+}

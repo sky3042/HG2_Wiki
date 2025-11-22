@@ -1,0 +1,3789 @@
+{
+  "block": {
+    "25e3b07c-81ff-803e-ad37-fbc6a9f7688f": {
+      "value": {
+        "id": "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+        "version": 33,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "ミツバチ&リュウくん&クラゲ・ギン"
+            ]
+          ]
+        },
+        "content": [
+          "25e3b07c-81ff-8090-a665-e3cac4d50976",
+          "25e3b07c-81ff-80f9-8baa-d94d2655cf03",
+          "25e3b07c-81ff-8054-88d6-ec85828108df",
+          "25e3b07c-81ff-80cc-ac56-c64274e0ec38",
+          "25e3b07c-81ff-8051-8f0b-e3655f2552ed",
+          "25e3b07c-81ff-80df-9358-eba6e2622576",
+          "25e3b07c-81ff-8093-9a7f-caac8d5c66af",
+          "25e3b07c-81ff-8025-8e0a-faa7e72516c7",
+          "25e3b07c-81ff-8022-b0eb-fab7b40ddd90",
+          "25e3b07c-81ff-804c-9db8-df1eda09b49b"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80cc-a4bd-c87bc27c3e1c",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "social_media_image_preview_url": "attachment:b674ab0d-bece-4ca2-ac8c-6ff2856402b9:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1756450512565,
+        "last_edited_time": 1756453566122,
+        "parent_id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+        "parent_table": "collection",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80cc-a4bd-c87bc27c3e1c",
+        "file_ids": [
+          "b674ab0d-bece-4ca2-ac8c-6ff2856402b9"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "irXTK7O2tGDHeyP1dzt23w,\"start\",\"end\"",
+            "n": {
+              "irXTK7O2tGDHeyP1dzt23w,\"start\",\"end\"": {
+                "s": {
+                  "x": "irXTK7O2tGDHeyP1dzt23w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "aWTMNRiSiUAz",
+                        11
+                      ],
+                      "o": "start",
+                      "l": 17,
+                      "c": "ミツバチ&リュウくん&クラゲ・ギン"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "aWTMNRiSiUAz",
+                        6
+                      ],
+                      "o": "start",
+                      "l": -5
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "P1132fdSk0mN",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -5
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8012-99ca-ca95556f12b7": {
+      "value": {
+        "id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
+        "version": 55,
+        "type": "collection_view_page",
+        "content": [
+          "25e3b07c-81ff-8016-a529-d055498f8ef2"
+        ],
+        "view_ids": [
+          "25e3b07c-81ff-80a6-8d5d-000cfd50a16d"
+        ],
+        "collection_id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+        "format": {
+          "collection_pointer": {
+            "id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "collection_pointers": [
+            {
+              "id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+              "table": "collection",
+              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+            }
+          ]
+        },
+        "created_time": 1756447751831,
+        "last_edited_time": 1763703684275,
+        "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ubqPrsEKflxJNnzUDeJ49A,\"start\",\"end\"",
+            "n": {
+              "ubqPrsEKflxJNnzUDeJ49A,\"start\",\"end\"": {
+                "s": {
+                  "x": "ubqPrsEKflxJNnzUDeJ49A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1c83b07c-81ff-800b-a0c3-f295d7423d6d": {
+      "value": {
+        "id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
+        "version": 133,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "資料"
+            ]
+          ]
+        },
+        "content": [
+          "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
+          "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
+          "25e3b07c-81ff-8012-99ca-ca95556f12b7",
+          "2893b07c-81ff-80b8-b46f-cf5c554142a0"
+        ],
+        "format": {
+          "slug": "materials",
+          "page_cover": "attachment:4f946ea7-0baf-48cb-8c2e-8308b44e407d:IMG_0553.jpeg",
+          "page_full_width": true,
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:13186f52-3bbe-470d-99a7-65a6b386b0e8:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1743511811402,
+        "last_edited_time": 1760180220662,
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "48eaf885-05a0-4bfa-afd2-285bb30223a0",
+          "4f946ea7-0baf-48cb-8c2e-8308b44e407d",
+          "13186f52-3bbe-470d-99a7-65a6b386b0e8"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "h7qQaI5d8zOIDK7uiVjn7Q,\"start\",\"end\"",
+            "n": {
+              "h7qQaI5d8zOIDK7uiVjn7Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "h7qQaI5d8zOIDK7uiVjn7Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "8YRSdU7u8Edo",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "資料"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "AzJjPuz0eUAW2FdOgSJSmw,[\"0y47HIrTyQeD\",238],\"end\""
+                ]
+              },
+              "AzJjPuz0eUAW2FdOgSJSmw,[\"0y47HIrTyQeD\",238],\"end\"": {
+                "s": {
+                  "x": "AzJjPuz0eUAW2FdOgSJSmw",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "0y47HIrTyQeD",
+                        238
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0y47HIrTyQeD",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -106,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "AzJjPuz0eUAW2FdOgSJSmw",
+                          "l": "",
+                          "i": [
+                            "0y47HIrTyQeD",
+                            107
+                          ],
+                          "s": {
+                            "i": [
+                              "0y47HIrTyQeD",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "0y47HIrTyQeD",
+                              106
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "https://www.notion.so/1c83b07c81ff80ed9cadf904d81aa1d9?v=1c83b07c81ff80db81c3000c6b7b83b0&source=copy_link"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0y47HIrTyQeD",
+                        111
+                      ],
+                      "o": [
+                        "0y47HIrTyQeD",
+                        106
+                      ],
+                      "l": -106,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "AzJjPuz0eUAW2FdOgSJSmw",
+                          "l": "",
+                          "i": [
+                            "0y47HIrTyQeD",
+                            217
+                          ],
+                          "s": {
+                            "i": [
+                              "0y47HIrTyQeD",
+                              111
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "0y47HIrTyQeD",
+                              216
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "https://www.notion.so/1c83b07c81ff80ed9cadf904d81aa1d9?v=1c83b07c81ff80db81c3000c6b7b83b0&source=copy_link"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0y47HIrTyQeD",
+                        108
+                      ],
+                      "o": [
+                        "0y47HIrTyQeD",
+                        106
+                      ],
+                      "l": -1,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "AzJjPuz0eUAW2FdOgSJSmw",
+                          "l": "",
+                          "i": [
+                            "0y47HIrTyQeD",
+                            110
+                          ],
+                          "s": {
+                            "i": [
+                              "0y47HIrTyQeD",
+                              108
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "0y47HIrTyQeD",
+                              108
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "p",
+                            "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
+                            "f25e8375-dff8-499a-b7bf-74566e1055df"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0y47HIrTyQeD",
+                        109
+                      ],
+                      "o": [
+                        "0y47HIrTyQeD",
+                        108
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-8068-828b-fec9cdc96765": {
+      "value": {
+        "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "version": 64,
+        "type": "collection_view",
+        "view_ids": [
+          "1ac3b07c-81ff-80ee-821a-000cec78a24c"
+        ],
+        "collection_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "format": {
+          "collection_pointer": {
+            "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:fb48497c-047a-4a51-8d55-ff2f2a45c136:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741119010204,
+        "last_edited_time": 1755881175648,
+        "parent_id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "6e2b7188-17c5-45ba-bff7-1888e4b3f5b6",
+          "fb48497c-047a-4a51-8d55-ff2f2a45c136"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DpTROquDtyJuDphazM7EPg,\"start\",\"end\"",
+            "n": {
+              "DpTROquDtyJuDphazM7EPg,\"start\",\"end\"": {
+                "s": {
+                  "x": "DpTROquDtyJuDphazM7EPg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
+      "value": {
+        "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
+        "version": 340,
+        "type": "page",
+        "properties": {
+          "mgJK": [
+            [
+              "‣",
+              [
+                [
+                  "p",
+                  "1b9a2d41-3d52-470d-b4eb-79f20192b22b",
+                  "f25e8375-dff8-499a-b7bf-74566e1055df"
+                ]
+              ]
+            ]
+          ],
+          "title": [
+            [
+              "崩壊学園編　ストーリー　Wiki"
+            ]
+          ]
+        },
+        "content": [
+          "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+          "1bc3b07c-81ff-8027-b36b-fe45e7913081",
+          "25e3b07c-81ff-80ea-a0bb-dafec40f099c",
+          "1bc3b07c-81ff-8035-a07b-fd6768f2ea47",
+          "1c83b07c-81ff-8013-861e-e033d11cfdb9",
+          "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
+          "25e3b07c-81ff-8029-8c34-f5c8da01f230",
+          "1b83b07c-81ff-80c4-b3ef-e093616890e5",
+          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
+          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
+          "1c83b07c-81ff-80db-b21c-f216fe984cda",
+          "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
+          "25e3b07c-81ff-807e-9816-e841c1e019fe",
+          "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
+          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
+          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
+          "1c83b07c-81ff-80ba-9b0e-d88248245398",
+          "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
+        ],
+        "format": {
+          "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
+          "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
+          "block_locked": false,
+          "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+          "page_full_width": true,
+          "seo_description": "このサイトについて",
+          "copied_from_pointer": {
+            "id": "f1552fed-37eb-4430-a72c-2b7e492693fe",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_cover_position": 0.8137,
+          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+        },
+        "permissions": [
+          {
+            "role": "reader",
+            "type": "public_permission",
+            "is_site": true,
+            "added_timestamp": 1755837904470,
+            "allow_duplicate": false
+          },
+          {
+            "role": {
+              "read_content": true,
+              "insert_content": true,
+              "update_content": true
+            },
+            "type": "bot_permission",
+            "bot_id": "d24ae229-9722-4f23-b631-a4de79cc9b72",
+            "parent_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+            "parent_table": "space"
+          }
+        ],
+        "created_time": 1741118997345,
+        "last_edited_time": 1763784546918,
+        "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
+        "parent_table": "collection",
+        "alive": true,
+        "copied_from": "f1552fed-37eb-4430-a72c-2b7e492693fe",
+        "file_ids": [
+          "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
+          "d4c78f4a-1872-4d8a-836f-48abb3027e69",
+          "8478f939-1500-4129-9378-6a582186c3c5",
+          "d1263e4a-1f40-45da-8f32-ff552281384b"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "qwZCPsMTuY_DWKxq_PVehw,\"start\",\"end\"",
+            "n": {
+              "qwZCPsMTuY_DWKxq_PVehw,\"start\",\"end\"": {
+                "s": {
+                  "x": "qwZCPsMTuY_DWKxq_PVehw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 16,
+                      "c": "崩壊学園編　ストーリー　Wiki"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "43c1134f-28b4-42d1-a716-f9fa638c9e50": {
+      "role": "none"
+    },
+    "1ad3b07c-81ff-80e6-b0a3-c1e8c0daf575": {
+      "role": "none"
+    },
+    "25e3b07c-81ff-8090-a665-e3cac4d50976": {
+      "value": {
+        "id": "25e3b07c-81ff-8090-a665-e3cac4d50976",
+        "version": 4,
+        "type": "image",
+        "properties": {
+          "size": [
+            [
+              "4.1 MB"
+            ]
+          ],
+          "title": [
+            [
+              "IMG_0541.png"
+            ]
+          ],
+          "source": [
+            [
+              "attachment:e951beda-2554-4e25-a676-75bd7a9e6067:IMG_0541.png"
+            ]
+          ]
+        },
+        "format": {
+          "block_width": 600,
+          "display_source": "attachment:e951beda-2554-4e25-a676-75bd7a9e6067:IMG_0541.png",
+          "block_full_width": false,
+          "block_page_width": true,
+          "block_aspect_ratio": 0.4633333333333333,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80a4-be54-fbc8285724df",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "block_preserve_scale": true
+        },
+        "created_time": 1756453566119,
+        "last_edited_time": 1756453566122,
+        "parent_id": "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80a4-be54-fbc8285724df",
+        "file_ids": [
+          "e951beda-2554-4e25-a676-75bd7a9e6067"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "j7Dxy1qKg6w523N3FAuG1Q,\"start\",\"end\"",
+            "n": {
+              "j7Dxy1qKg6w523N3FAuG1Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "j7Dxy1qKg6w523N3FAuG1Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "w9sIk8lSm1hJ",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 12,
+                      "c": "IMG_0541.png"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80f9-8baa-d94d2655cf03": {
+      "value": {
+        "id": "25e3b07c-81ff-80f9-8baa-d94d2655cf03",
+        "version": 5,
+        "type": "sub_header",
+        "properties": {
+          "title": [
+            [
+              "データ"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-8012-bef6-f64b286f7848",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645830,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-8012-bef6-f64b286f7848",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "eb3tTM81vBRLtZxUQ3GaiQ,\"start\",\"end\"",
+            "n": {
+              "eb3tTM81vBRLtZxUQ3GaiQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "eb3tTM81vBRLtZxUQ3GaiQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ZcGVOrOBdNht",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "データ"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "hM1qQs-EIZBUnpcQukzZvQ,[\"aWTMNRiSiUAz\",24],\"end\""
+                ]
+              },
+              "hM1qQs-EIZBUnpcQukzZvQ,[\"aWTMNRiSiUAz\",24],\"end\"": {
+                "s": {
+                  "x": "hM1qQs-EIZBUnpcQukzZvQ",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "aWTMNRiSiUAz",
+                        24
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "bj1QBxPVB4Bt",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -3
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8054-88d6-ec85828108df": {
+      "value": {
+        "id": "25e3b07c-81ff-8054-88d6-ec85828108df",
+        "version": 7,
+        "type": "callout",
+        "content": [
+          "25e3b07c-81ff-808c-8e36-fb56109c3999",
+          "25e3b07c-81ff-8036-9de9-c1fc9aaba8e5",
+          "25e3b07c-81ff-80a1-9106-fd0f7e1cc215",
+          "25e3b07c-81ff-80dd-a6dc-dbfb06a280bb",
+          "25e3b07c-81ff-80f7-a8aa-f72f6e9ee6fe",
+          "25e3b07c-81ff-80eb-a0d4-df7da2ebd395"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-8074-8c08-f97e106fff4f",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450512565,
+        "last_edited_time": 1756450654885,
+        "parent_id": "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-8074-8c08-f97e106fff4f",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "w2ZMTV1ZQmhfwDfStajPMw,\"start\",\"end\"",
+            "n": {
+              "w2ZMTV1ZQmhfwDfStajPMw,\"start\",\"end\"": {
+                "s": {
+                  "x": "w2ZMTV1ZQmhfwDfStajPMw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80cc-ac56-c64274e0ec38": {
+      "value": {
+        "id": "25e3b07c-81ff-80cc-ac56-c64274e0ec38",
+        "version": 3,
+        "type": "callout",
+        "content": [
+          "25e3b07c-81ff-80e8-a420-ee5b94554ba5"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80ca-b6cf-c1cb4e2f887b",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645833,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80ca-b6cf-c1cb4e2f887b",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "e79vcNBWCDjMEepqwR4eSQ,\"start\",\"end\"",
+            "n": {
+              "e79vcNBWCDjMEepqwR4eSQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "e79vcNBWCDjMEepqwR4eSQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8051-8f0b-e3655f2552ed": {
+      "value": {
+        "id": "25e3b07c-81ff-8051-8f0b-e3655f2552ed",
+        "version": 6,
+        "type": "sub_header",
+        "properties": {
+          "title": [
+            [
+              "台詞"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80e9-bdc4-e5a5d05f1bfc",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450512565,
+        "last_edited_time": 1756450690634,
+        "parent_id": "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80e9-bdc4-e5a5d05f1bfc",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "RzRx8ayJMdY_gxU09eknEw,\"start\",\"end\"",
+            "n": {
+              "RzRx8ayJMdY_gxU09eknEw,\"start\",\"end\"": {
+                "s": {
+                  "x": "RzRx8ayJMdY_gxU09eknEw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "vk0SA43itb2N",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "台詞"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80df-9358-eba6e2622576": {
+      "value": {
+        "id": "25e3b07c-81ff-80df-9358-eba6e2622576",
+        "version": 19,
+        "type": "callout",
+        "content": [
+          "25e3b07c-81ff-80fb-8fa4-daa4f05b685b",
+          "25e3b07c-81ff-8092-8642-e281cafbc9bb",
+          "25e3b07c-81ff-80f0-a80b-e2cde8a142d0",
+          "25e3b07c-81ff-8054-a87a-c40d3048a2fc",
+          "25e3b07c-81ff-80c1-b4a0-cbc117e75170",
+          "25e3b07c-81ff-809c-af84-fccf7d2bdda5"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80c5-b8b4-f397fe40840a",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450512565,
+        "last_edited_time": 1756450713003,
+        "parent_id": "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80c5-b8b4-f397fe40840a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "3zVAmsq-_0ICElxv4bep_A,\"start\",\"end\"",
+            "n": {
+              "3zVAmsq-_0ICElxv4bep_A,\"start\",\"end\"": {
+                "s": {
+                  "x": "3zVAmsq-_0ICElxv4bep_A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8093-9a7f-caac8d5c66af": {
+      "value": {
+        "id": "25e3b07c-81ff-8093-9a7f-caac8d5c66af",
+        "version": 4,
+        "type": "sub_header",
+        "properties": {
+          "title": [
+            [
+              "物語"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-800e-9132-dcabc96c45cd",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645834,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-800e-9132-dcabc96c45cd",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "R9Wyu0LnwD4sHa6uSn88yw,\"start\",\"end\"",
+            "n": {
+              "R9Wyu0LnwD4sHa6uSn88yw,\"start\",\"end\"": {
+                "s": {
+                  "x": "R9Wyu0LnwD4sHa6uSn88yw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2cFc4nrFy-PU",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "物語"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8025-8e0a-faa7e72516c7": {
+      "value": {
+        "id": "25e3b07c-81ff-8025-8e0a-faa7e72516c7",
+        "version": 3,
+        "type": "callout",
+        "content": [
+          "25e3b07c-81ff-8059-9306-ce984ecef60f",
+          "25e3b07c-81ff-806a-bca8-c285afba5c62",
+          "25e3b07c-81ff-80f9-b987-dca381ed8d57",
+          "25e3b07c-81ff-802d-b093-f1be88b888c9",
+          "25e3b07c-81ff-8058-9eb0-e2acdb29ecd6",
+          "25e3b07c-81ff-8098-8ce9-d8f99a86423f",
+          "25e3b07c-81ff-8065-b471-d2e8c35dfaf7"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-808b-8e4f-fa5838bd039e",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645835,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-808b-8e4f-fa5838bd039e",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "6q6w0gFqFJZhwDD1NYsuzg,\"start\",\"end\"",
+            "n": {
+              "6q6w0gFqFJZhwDD1NYsuzg,\"start\",\"end\"": {
+                "s": {
+                  "x": "6q6w0gFqFJZhwDD1NYsuzg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8022-b0eb-fab7b40ddd90": {
+      "value": {
+        "id": "25e3b07c-81ff-8022-b0eb-fab7b40ddd90",
+        "version": 3,
+        "type": "callout",
+        "content": [
+          "25e3b07c-81ff-8047-abb6-c1483b20d3a0",
+          "25e3b07c-81ff-8007-9e0f-ceb298ca9f11",
+          "25e3b07c-81ff-8029-82f7-ecb55f4669de",
+          "25e3b07c-81ff-803d-9698-cf5a3c64276e",
+          "25e3b07c-81ff-8089-9c97-f1b004950355",
+          "25e3b07c-81ff-80da-9592-d1276b9ccd1e"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-8005-9553-d592b40e8a82",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645839,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-8005-9553-d592b40e8a82",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "8SIOFpWC7RmltGAsfu5ciA,\"start\",\"end\"",
+            "n": {
+              "8SIOFpWC7RmltGAsfu5ciA,\"start\",\"end\"": {
+                "s": {
+                  "x": "8SIOFpWC7RmltGAsfu5ciA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-804c-9db8-df1eda09b49b": {
+      "value": {
+        "id": "25e3b07c-81ff-804c-9db8-df1eda09b49b",
+        "version": 2,
+        "type": "text",
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-809a-a626-f0f1a8733f7f",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450512565,
+        "last_edited_time": 1756450512575,
+        "parent_id": "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-809a-a626-f0f1a8733f7f",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "0QH1NmwbShLXpK-P6GC87Q,\"start\",\"end\"",
+            "n": {
+              "0QH1NmwbShLXpK-P6GC87Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "0QH1NmwbShLXpK-P6GC87Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-808c-8e36-fb56109c3999": {
+      "value": {
+        "id": "25e3b07c-81ff-808c-8e36-fb56109c3999",
+        "version": 28,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "関連装備："
+            ],
+            [
+              "医療精霊・ミツバチ",
+              [
+                [
+                  "a",
+                  "/1ca3b07c81ff8066b11cf05d9f804934?pvs=25"
+                ]
+              ]
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80e6-928d-e9e8d4713cfc",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450597411,
+        "last_edited_time": 1756450630275,
+        "parent_id": "25e3b07c-81ff-8054-88d6-ec85828108df",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ZBMaDiPOEPIYddfRS-oDkw,\"start\",\"end\"",
+            "n": {
+              "ZBMaDiPOEPIYddfRS-oDkw,\"start\",\"end\"": {
+                "s": {
+                  "x": "ZBMaDiPOEPIYddfRS-oDkw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "aWTMNRiSiUAz",
+                        8
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "関連装備：",
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "ZBMaDiPOEPIYddfRS-oDkw",
+                          "l": "",
+                          "i": [
+                            "aWTMNRiSiUAz",
+                            22
+                          ],
+                          "s": {
+                            "i": [
+                              "aWTMNRiSiUAz",
+                              12
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "aWTMNRiSiUAz",
+                              2
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "aWTMNRiSiUAz",
+                        13
+                      ],
+                      "o": [
+                        "aWTMNRiSiUAz",
+                        12
+                      ],
+                      "l": 9,
+                      "c": "医療精霊・ミツバチ",
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "ZBMaDiPOEPIYddfRS-oDkw",
+                          "l": "",
+                          "i": [
+                            "aWTMNRiSiUAz",
+                            22
+                          ],
+                          "s": {
+                            "i": [
+                              "aWTMNRiSiUAz",
+                              12
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "aWTMNRiSiUAz",
+                              2
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "ZBMaDiPOEPIYddfRS-oDkw",
+                          "l": "",
+                          "i": [
+                            "aWTMNRiSiUAz",
+                            23
+                          ],
+                          "s": {
+                            "i": [
+                              "aWTMNRiSiUAz",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "aWTMNRiSiUAz",
+                              21
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1ca3b07c81ff8066b11cf05d9f804934?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "ZBMaDiPOEPIYddfRS-oDkw",
+                          "l": "",
+                          "i": [
+                            "aWTMNRiSiUAz",
+                            22
+                          ],
+                          "s": {
+                            "i": [
+                              "aWTMNRiSiUAz",
+                              12
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "aWTMNRiSiUAz",
+                              2
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "aWTMNRiSiUAz",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -1,
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "aWTMNRiSiUAz",
+                        4
+                      ],
+                      "o": [
+                        "aWTMNRiSiUAz",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "aWTMNRiSiUAz",
+                        6
+                      ],
+                      "o": [
+                        "aWTMNRiSiUAz",
+                        4
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "aWTMNRiSiUAz",
+                        5
+                      ],
+                      "o": [
+                        "aWTMNRiSiUAz",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "aWTMNRiSiUAz",
+                        3
+                      ],
+                      "o": [
+                        "aWTMNRiSiUAz",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "aWTMNRiSiUAz",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8036-9de9-c1fc9aaba8e5": {
+      "value": {
+        "id": "25e3b07c-81ff-8036-9de9-c1fc9aaba8e5",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "身長："
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80e6-928d-e9e8d4713cfc",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450512565,
+        "last_edited_time": 1756450512575,
+        "parent_id": "25e3b07c-81ff-8054-88d6-ec85828108df",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80e6-928d-e9e8d4713cfc",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "bTHs63elbmOTte-oku1PQw,\"start\",\"end\"",
+            "n": {
+              "bTHs63elbmOTte-oku1PQw,\"start\",\"end\"": {
+                "s": {
+                  "x": "bTHs63elbmOTte-oku1PQw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "v6I24hZsB0bd",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "身長："
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80a1-9106-fd0f7e1cc215": {
+      "value": {
+        "id": "25e3b07c-81ff-80a1-9106-fd0f7e1cc215",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "3サイズ："
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80bd-a915-c633d9f425b4",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450512565,
+        "last_edited_time": 1756450512575,
+        "parent_id": "25e3b07c-81ff-8054-88d6-ec85828108df",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80bd-a915-c633d9f425b4",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "OgiL2EjiElNqjcssRBvWdA,\"start\",\"end\"",
+            "n": {
+              "OgiL2EjiElNqjcssRBvWdA,\"start\",\"end\"": {
+                "s": {
+                  "x": "OgiL2EjiElNqjcssRBvWdA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ZheOPfKBEND0",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "3サイズ："
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80dd-a6dc-dbfb06a280bb": {
+      "value": {
+        "id": "25e3b07c-81ff-80dd-a6dc-dbfb06a280bb",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "誕生日："
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80de-990b-ce65944f4727",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450512565,
+        "last_edited_time": 1756450512575,
+        "parent_id": "25e3b07c-81ff-8054-88d6-ec85828108df",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80de-990b-ce65944f4727",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "97whGig2RluPzNKCnykMTw,\"start\",\"end\"",
+            "n": {
+              "97whGig2RluPzNKCnykMTw,\"start\",\"end\"": {
+                "s": {
+                  "x": "97whGig2RluPzNKCnykMTw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "D-_2Lg-UWtDk",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "誕生日："
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80f7-a8aa-f72f6e9ee6fe": {
+      "value": {
+        "id": "25e3b07c-81ff-80f7-a8aa-f72f6e9ee6fe",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "体重："
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-803a-86a2-fa05a409540f",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450512565,
+        "last_edited_time": 1756450512575,
+        "parent_id": "25e3b07c-81ff-8054-88d6-ec85828108df",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-803a-86a2-fa05a409540f",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "WOcApZXN_HWDkrLQkaoc4g,\"start\",\"end\"",
+            "n": {
+              "WOcApZXN_HWDkrLQkaoc4g,\"start\",\"end\"": {
+                "s": {
+                  "x": "WOcApZXN_HWDkrLQkaoc4g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0ahoXWT0dCCZ",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "体重："
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80eb-a0d4-df7da2ebd395": {
+      "value": {
+        "id": "25e3b07c-81ff-80eb-a0d4-df7da2ebd395",
+        "version": 8,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "趣味："
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-8003-a918-e64e0edef1c1",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450512565,
+        "last_edited_time": 1756450596067,
+        "parent_id": "25e3b07c-81ff-8054-88d6-ec85828108df",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-8003-a918-e64e0edef1c1",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "rvWuQszVsq-fW7CMPVJI2g,\"start\",\"end\"",
+            "n": {
+              "rvWuQszVsq-fW7CMPVJI2g,\"start\",\"end\"": {
+                "s": {
+                  "x": "rvWuQszVsq-fW7CMPVJI2g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "YP6MvohqyYAS",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "趣味："
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "aWTMNRiSiUAz",
+                        4
+                      ],
+                      "o": [
+                        "YP6MvohqyYAS",
+                        3
+                      ],
+                      "l": -9
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ca3b07c-81ff-8066-b11c-f05d9f804934": {
+      "value": {
+        "id": "1ca3b07c-81ff-8066-b11c-f05d9f804934",
+        "version": 106,
+        "type": "page",
+        "properties": {
+          ";yc\\": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "type": "date",
+                    "start_date": "2025-03-28",
+                    "date_format": "relative"
+                  }
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ],
+          "IxYo": [
+            [
+              "武器"
+            ]
+          ],
+          "^UL:": [
+            [
+              "あり"
+            ]
+          ],
+          "c:Yb": [
+            [
+              "Yes"
+            ]
+          ],
+          "}d?V": [
+            [
+              "なし"
+            ]
+          ],
+          "title": [
+            [
+              "医療精霊·ミツバチ"
+            ]
+          ]
+        },
+        "content": [
+          "25e3b07c-81ff-8086-884f-ea8dba93bbc9",
+          "25e3b07c-81ff-80ec-80f0-f10f4d1369ed",
+          "25e3b07c-81ff-8055-b12b-c5a7f7df9b0c",
+          "25e3b07c-81ff-80d7-a8f4-ca09e9e8db8d"
+        ],
+        "created_time": 1743690807641,
+        "last_edited_time": 1758880964366,
+        "parent_id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+        "parent_table": "collection",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "hlUfj293i0Q4jvYRn1GOAQ,\"start\",\"end\"",
+            "n": {
+              "hlUfj293i0Q4jvYRn1GOAQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "hlUfj293i0Q4jvYRn1GOAQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ZWCW4G5iVlf3",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 9,
+                      "c": "医療精霊·ミツバチ"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ca3b07c-81ff-805b-ac89-cfc3f70c9828": {
+      "value": {
+        "id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
+        "version": 52,
+        "type": "collection_view_page",
+        "view_ids": [
+          "1ca3b07c-81ff-8093-aca5-000c02c824d8"
+        ],
+        "collection_id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+        "format": {
+          "collection_pointer": {
+            "id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "collection_pointers": [
+            {
+              "id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+              "table": "collection",
+              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+            }
+          ]
+        },
+        "created_time": 1743690486831,
+        "last_edited_time": 1763704471949,
+        "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "3Y5nzmzfnHibCXNFBwdndQ,\"start\",\"end\"",
+            "n": {
+              "3Y5nzmzfnHibCXNFBwdndQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "3Y5nzmzfnHibCXNFBwdndQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80e8-a420-ee5b94554ba5": {
+      "value": {
+        "id": "25e3b07c-81ff-80e8-a420-ee5b94554ba5",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "「お医者さんが言ってたんだもん。少し痛いかもしれないけど……みんなわたしのこと、助けてくれてるんだって」\n「わたし、みんなに名前をつけたの。そうすれば……ずっとそばにいてくれるよね？」"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-80a0-b33a-d7a2226177b0",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645833,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-80cc-ac56-c64274e0ec38",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-80a0-b33a-d7a2226177b0",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "R0gCTzCQ3_OdTozXUbpP2g,\"start\",\"end\"",
+            "n": {
+              "R0gCTzCQ3_OdTozXUbpP2g,\"start\",\"end\"": {
+                "s": {
+                  "x": "R0gCTzCQ3_OdTozXUbpP2g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "h0iclV4qSW5F",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 92,
+                      "c": "「お医者さんが言ってたんだもん。少し痛いかもしれないけど……みんなわたしのこと、助けてくれてるんだって」\n「わたし、みんなに名前をつけたの。そうすれば……ずっとそばにいてくれるよね？」"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80fb-8fa4-daa4f05b685b": {
+      "value": {
+        "id": "25e3b07c-81ff-80fb-8fa4-daa4f05b685b",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "理恵ちゃんは大きくなったら、すっごくセクシーな美少女になるんだから！[リュウくん]"
+            ]
+          ]
+        },
+        "created_time": 1756450685620,
+        "last_edited_time": 1756450685626,
+        "parent_id": "25e3b07c-81ff-80df-9358-eba6e2622576",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "eU4Nbx1uqJeA-WwGbtmyhg,\"start\",\"end\"",
+            "n": {
+              "eU4Nbx1uqJeA-WwGbtmyhg,\"start\",\"end\"": {
+                "s": {
+                  "x": "eU4Nbx1uqJeA-WwGbtmyhg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "JEpDHdjgmXRY",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 41,
+                      "c": "理恵ちゃんは大きくなったら、すっごくセクシーな美少女になるんだから！[リュウくん]"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8092-8642-e281cafbc9bb": {
+      "value": {
+        "id": "25e3b07c-81ff-8092-8642-e281cafbc9bb",
+        "version": 7,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "サボってなんかないよ、点滴スタンドにぶらさがって、じーっと理恵ちゃんに薬を送るのが仕事なんだから[リュウくん]"
+            ]
+          ]
+        },
+        "created_time": 1756450685622,
+        "last_edited_time": 1756450709890,
+        "parent_id": "25e3b07c-81ff-80df-9358-eba6e2622576",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "0sPVY018UjunVNyS9U9s8g,\"start\",\"end\"",
+            "n": {
+              "0sPVY018UjunVNyS9U9s8g,\"start\",\"end\"": {
+                "s": {
+                  "x": "0sPVY018UjunVNyS9U9s8g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "teF2p_1HibaK",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 55,
+                      "c": "サボってなんかないよ、点滴スタンドにぶらさがって、じーっと理恵ちゃんに薬を送るのが仕事なんだから[リュウくん]"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80f0-a80b-e2cde8a142d0": {
+      "value": {
+        "id": "25e3b07c-81ff-80f0-a80b-e2cde8a142d0",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "注射は痛いけど、もう少しの我慢よ。理恵ちゃんの病気、きっと良くなるからね。[ミツバチ]"
+            ]
+          ]
+        },
+        "created_time": 1756450685621,
+        "last_edited_time": 1756450685626,
+        "parent_id": "25e3b07c-81ff-80df-9358-eba6e2622576",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "WvpPnoqA9dh0DSWw1he9-g,\"start\",\"end\"",
+            "n": {
+              "WvpPnoqA9dh0DSWw1he9-g,\"start\",\"end\"": {
+                "s": {
+                  "x": "WvpPnoqA9dh0DSWw1he9-g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "zDo67XY0zghV",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 43,
+                      "c": "注射は痛いけど、もう少しの我慢よ。理恵ちゃんの病気、きっと良くなるからね。[ミツバチ]"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8054-a87a-c40d3048a2fc": {
+      "value": {
+        "id": "25e3b07c-81ff-8054-a87a-c40d3048a2fc",
+        "version": 7,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "理恵ちゃん、もっとお勉強したいの?こんなにいい子なのに、見てると切なくなるわ……[ミツバチ]"
+            ]
+          ]
+        },
+        "created_time": 1756450685622,
+        "last_edited_time": 1756450713003,
+        "parent_id": "25e3b07c-81ff-80df-9358-eba6e2622576",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "KMqwMtNMLqpUlnCev_n45A,\"start\",\"end\"",
+            "n": {
+              "KMqwMtNMLqpUlnCev_n45A,\"start\",\"end\"": {
+                "s": {
+                  "x": "KMqwMtNMLqpUlnCev_n45A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gyG6BZWB8_m9",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 46,
+                      "c": "理恵ちゃん、もっとお勉強したいの?こんなにいい子なのに、見てると切なくなるわ……[ミツバチ]"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80c1-b4a0-cbc117e75170": {
+      "value": {
+        "id": "25e3b07c-81ff-80c1-b4a0-cbc117e75170",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "(超小声で)ごめんなさい……で、でも、あなたの体を切らないと……[クラゲ・ギン]"
+            ]
+          ]
+        },
+        "created_time": 1756450685621,
+        "last_edited_time": 1756450685626,
+        "parent_id": "25e3b07c-81ff-80df-9358-eba6e2622576",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "FENrz6IYlIWZ8brVTNr00g,\"start\",\"end\"",
+            "n": {
+              "FENrz6IYlIWZ8brVTNr00g,\"start\",\"end\"": {
+                "s": {
+                  "x": "FENrz6IYlIWZ8brVTNr00g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "87RarZhUYo6s",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 40,
+                      "c": "(超小声で)ごめんなさい……で、でも、あなたの体を切らないと……[クラゲ・ギン]"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-809c-af84-fccf7d2bdda5": {
+      "value": {
+        "id": "25e3b07c-81ff-809c-af84-fccf7d2bdda5",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "(超小声で)メスとして生まれて、ごめんなさい……でも、理恵ちゃんが良くなるなら……[クラゲ・ギン]"
+            ]
+          ]
+        },
+        "created_time": 1756450685621,
+        "last_edited_time": 1756450685626,
+        "parent_id": "25e3b07c-81ff-80df-9358-eba6e2622576",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "nfK_s-HnEU01l7p75tKPEg,\"start\",\"end\"",
+            "n": {
+              "nfK_s-HnEU01l7p75tKPEg,\"start\",\"end\"": {
+                "s": {
+                  "x": "nfK_s-HnEU01l7p75tKPEg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "mryRICURHFWR",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 49,
+                      "c": "(超小声で)メスとして生まれて、ごめんなさい……でも、理恵ちゃんが良くなるなら……[クラゲ・ギン]"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8059-9306-ce984ecef60f": {
+      "value": {
+        "id": "25e3b07c-81ff-8059-9306-ce984ecef60f",
+        "version": 3,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "想像の友達"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-80d6-a404-fadf0fe0a866",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645835,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8025-8e0a-faa7e72516c7",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-80d6-a404-fadf0fe0a866",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "HAYk280-VblNTZfvTf49VA,\"start\",\"end\"",
+            "n": {
+              "HAYk280-VblNTZfvTf49VA,\"start\",\"end\"": {
+                "s": {
+                  "x": "HAYk280-VblNTZfvTf49VA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "OaGcHxXHKJjD",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "想像の友達"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-806a-bca8-c285afba5c62": {
+      "value": {
+        "id": "25e3b07c-81ff-806a-bca8-c285afba5c62",
+        "version": 2,
+        "type": "divider",
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-802e-9f70-d814b11d0761",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645835,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8025-8e0a-faa7e72516c7",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-802e-9f70-d814b11d0761",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "s-0Rph3jVbSMEd37nYS_sw,\"start\",\"end\"",
+            "n": {
+              "s-0Rph3jVbSMEd37nYS_sw,\"start\",\"end\"": {
+                "s": {
+                  "x": "s-0Rph3jVbSMEd37nYS_sw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80f9-b987-dca381ed8d57": {
+      "value": {
+        "id": "25e3b07c-81ff-80f9-b987-dca381ed8d57",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "生死の境を彷徨っていた日々、はっきりと覚えている時間さえ、わずかしかなかった。でも、難民病院に漂う硝煙と血の匂いだけは、今でも鮮明に残っている。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-80ef-8cca-fabd9829e226",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645835,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8025-8e0a-faa7e72516c7",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-80ef-8cca-fabd9829e226",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "xb8DstX0j5wuwN7Qjd6IKA,\"start\",\"end\"",
+            "n": {
+              "xb8DstX0j5wuwN7Qjd6IKA,\"start\",\"end\"": {
+                "s": {
+                  "x": "xb8DstX0j5wuwN7Qjd6IKA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ln8IX81QulPK",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 72,
+                      "c": "生死の境を彷徨っていた日々、はっきりと覚えている時間さえ、わずかしかなかった。でも、難民病院に漂う硝煙と血の匂いだけは、今でも鮮明に残っている。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-802d-b093-f1be88b888c9": {
+      "value": {
+        "id": "25e3b07c-81ff-802d-b093-f1be88b888c9",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "あの時期の理恵にとって、医療精霊たちは唯一の心の支えだった。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-8089-965b-fc5bebb7261b",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645835,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8025-8e0a-faa7e72516c7",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-8089-965b-fc5bebb7261b",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "02jCJIcwZjZyXJJ_hanD4g,\"start\",\"end\"",
+            "n": {
+              "02jCJIcwZjZyXJJ_hanD4g,\"start\",\"end\"": {
+                "s": {
+                  "x": "02jCJIcwZjZyXJJ_hanD4g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "y07eYPHQdHeP",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 30,
+                      "c": "あの時期の理恵にとって、医療精霊たちは唯一の心の支えだった。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8058-9eb0-e2acdb29ecd6": {
+      "value": {
+        "id": "25e3b07c-81ff-8058-9eb0-e2acdb29ecd6",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "痛いこともあって、怖かったけど、医療精霊たちは全部善意でやってくれてる一一理恵は強くそう信じていた。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-80b7-b443-f81169d419ed",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645836,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8025-8e0a-faa7e72516c7",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-80b7-b443-f81169d419ed",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "yVmkek3ZXZ3EBRERaa-Vvw,\"start\",\"end\"",
+            "n": {
+              "yVmkek3ZXZ3EBRERaa-Vvw,\"start\",\"end\"": {
+                "s": {
+                  "x": "yVmkek3ZXZ3EBRERaa-Vvw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "4HYlTKLwOGnT",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 50,
+                      "c": "痛いこともあって、怖かったけど、医療精霊たちは全部善意でやってくれてる一一理恵は強くそう信じていた。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8098-8ce9-d8f99a86423f": {
+      "value": {
+        "id": "25e3b07c-81ff-8098-8ce9-d8f99a86423f",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "医術を教えてくれて、外の世界の危険を教えてくれて、生きる術を教えてくれた一一理恵は固く、そう信じていた。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-80e5-a5ea-c89431cfcac5",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645836,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8025-8e0a-faa7e72516c7",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-80e5-a5ea-c89431cfcac5",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "s98qEn7coURCl12GRfbT-Q,\"start\",\"end\"",
+            "n": {
+              "s98qEn7coURCl12GRfbT-Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "s98qEn7coURCl12GRfbT-Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5sWTxeWRvnAH",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 52,
+                      "c": "医術を教えてくれて、外の世界の危険を教えてくれて、生きる術を教えてくれた一一理恵は固く、そう信じていた。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8065-b471-d2e8c35dfaf7": {
+      "value": {
+        "id": "25e3b07c-81ff-8065-b471-d2e8c35dfaf7",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "医療精霊たちが、ただの医療器具だったなんて、信じたくなかった。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-8098-ab4f-fae9519b4c69",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645836,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8025-8e0a-faa7e72516c7",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-8098-ab4f-fae9519b4c69",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "vnGQpdkCGNIjaTMxNYznCg,\"start\",\"end\"",
+            "n": {
+              "vnGQpdkCGNIjaTMxNYznCg,\"start\",\"end\"": {
+                "s": {
+                  "x": "vnGQpdkCGNIjaTMxNYznCg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "hlJrElJV0Vur",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 31,
+                      "c": "医療精霊たちが、ただの医療器具だったなんて、信じたくなかった。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8047-abb6-c1483b20d3a0": {
+      "value": {
+        "id": "25e3b07c-81ff-8047-abb6-c1483b20d3a0",
+        "version": 3,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "消えゆく存在"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-80dc-beee-cd583184be18",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645839,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8022-b0eb-fab7b40ddd90",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-80dc-beee-cd583184be18",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "I0gAKxn846ZL4KblPswsSg,\"start\",\"end\"",
+            "n": {
+              "I0gAKxn846ZL4KblPswsSg,\"start\",\"end\"": {
+                "s": {
+                  "x": "I0gAKxn846ZL4KblPswsSg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VtlnPzWTBmtZ",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 6,
+                      "c": "消えゆく存在"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8007-9e0f-ceb298ca9f11": {
+      "value": {
+        "id": "25e3b07c-81ff-8007-9e0f-ceb298ca9f11",
+        "version": 2,
+        "type": "divider",
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-805e-80a2-e96db2daf1df",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645839,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8022-b0eb-fab7b40ddd90",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-805e-80a2-e96db2daf1df",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Rr9rPOFrgWDMfgIPxOGOzw,\"start\",\"end\"",
+            "n": {
+              "Rr9rPOFrgWDMfgIPxOGOzw,\"start\",\"end\"": {
+                "s": {
+                  "x": "Rr9rPOFrgWDMfgIPxOGOzw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8029-82f7-ecb55f4669de": {
+      "value": {
+        "id": "25e3b07c-81ff-8029-82f7-ecb55f4669de",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "崩壊学園に来てからも、理恵は自分の使う医療器具に名前を付けている。でも、もう医療精霊たちを見ることはない。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-800b-94fb-fb3d5d6e2236",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645839,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8022-b0eb-fab7b40ddd90",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-800b-94fb-fb3d5d6e2236",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Q9bcXSPGcsrwy-kFg8v-Tw,\"start\",\"end\"",
+            "n": {
+              "Q9bcXSPGcsrwy-kFg8v-Tw,\"start\",\"end\"": {
+                "s": {
+                  "x": "Q9bcXSPGcsrwy-kFg8v-Tw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Oi-iH-CteE6K",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 53,
+                      "c": "崩壊学園に来てからも、理恵は自分の使う医療器具に名前を付けている。でも、もう医療精霊たちを見ることはない。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-803d-9698-cf5a3c64276e": {
+      "value": {
+        "id": "25e3b07c-81ff-803d-9698-cf5a3c64276e",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "だって今度は、自分の手で人を救えるから。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-80cc-af8f-ca7045e1709a",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645839,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8022-b0eb-fab7b40ddd90",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-80cc-af8f-ca7045e1709a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "7mwiXibBGJyNqBZdQnLaCg,\"start\",\"end\"",
+            "n": {
+              "7mwiXibBGJyNqBZdQnLaCg,\"start\",\"end\"": {
+                "s": {
+                  "x": "7mwiXibBGJyNqBZdQnLaCg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "xqvUSFjCY813",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 20,
+                      "c": "だって今度は、自分の手で人を救えるから。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-8089-9c97-f1b004950355": {
+      "value": {
+        "id": "25e3b07c-81ff-8089-9c97-f1b004950355",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "「でも、わたしを救ってくれた人は......誰だったんだろう......」"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-803e-8335-eb6aed4627f3",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645839,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8022-b0eb-fab7b40ddd90",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-803e-8335-eb6aed4627f3",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "5nNk_taRMCYJVyG66uHIFA,\"start\",\"end\"",
+            "n": {
+              "5nNk_taRMCYJVyG66uHIFA,\"start\",\"end\"": {
+                "s": {
+                  "x": "5nNk_taRMCYJVyG66uHIFA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "t17zy3V13ckl",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 37,
+                      "c": "「でも、わたしを救ってくれた人は......誰だったんだろう......」"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "25e3b07c-81ff-80da-9592-d1276b9ccd1e": {
+      "value": {
+        "id": "25e3b07c-81ff-80da-9592-d1276b9ccd1e",
+        "version": 3,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "名前も顔もわからない数多の人々と共に、真実は歴史の流れの中に埋もれていくようだった。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2573b07c-81ff-80b0-91ab-f8755e7eda62",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1756450645839,
+        "last_edited_time": 1756450645846,
+        "parent_id": "25e3b07c-81ff-8022-b0eb-fab7b40ddd90",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2573b07c-81ff-80b0-91ab-f8755e7eda62",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "B1kGrePCtU1jtIvy78pcMQ,\"start\",\"end\"",
+            "n": {
+              "B1kGrePCtU1jtIvy78pcMQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "B1kGrePCtU1jtIvy78pcMQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Ze4yKUbSAgmx",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 42,
+                      "c": "名前も顔もわからない数多の人々と共に、真実は歴史の流れの中に埋もれていくようだった。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    }
+  },
+  "collection": {
+    "25e3b07c-81ff-8056-a91b-000b47c2690f": {
+      "value": {
+        "id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+        "version": 37,
+        "name": [
+          [
+            "看板娘"
+          ]
+        ],
+        "schema": {
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "parent_id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
+        "parent_table": "block",
+        "alive": true,
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "deleted_schema": {
+          "S;OO": {
+            "name": "ステータス",
+            "type": "status",
+            "groups": [
+              {
+                "id": "584a2d25-7143-4c02-80a9-31ad33b50a36",
+                "name": "To-do",
+                "color": "gray",
+                "optionIds": [
+                  "d48d1a03-ac3d-4342-ab31-8080bb0cd818"
+                ]
+              },
+              {
+                "id": "bfdf02a8-4fd8-45d7-a116-3a5367677a84",
+                "name": "In progress",
+                "color": "blue",
+                "optionIds": [
+                  "94d9315f-5518-42c9-a4d5-c62771a31fb0"
+                ]
+              },
+              {
+                "id": "63cb37bd-c3b4-4c35-b85b-591f84ff9645",
+                "name": "Complete",
+                "color": "green",
+                "optionIds": [
+                  "62498e31-c857-47ec-b86f-a574bb847cc1"
+                ]
+              }
+            ],
+            "options": [
+              {
+                "id": "d48d1a03-ac3d-4342-ab31-8080bb0cd818",
+                "value": "未着手"
+              },
+              {
+                "id": "94d9315f-5518-42c9-a4d5-c62771a31fb0",
+                "color": "blue",
+                "value": "進行中"
+              },
+              {
+                "id": "62498e31-c857-47ec-b86f-a574bb847cc1",
+                "color": "green",
+                "value": "完了"
+              }
+            ],
+            "defaultOption": "未着手"
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-8086-a96b-000b78a078f2": {
+      "value": {
+        "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "version": 32,
+        "name": [
+          [
+            "目次"
+          ]
+        ],
+        "schema": {
+          "`q`e": {
+            "name": "タグ",
+            "type": "multi_select"
+          },
+          "vidt": {
+            "name": "作成日時",
+            "type": "created_time"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "layout_pointer": {
+            "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+            "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "更新日時",
+              "type": "date"
+            },
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "Wegk",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": ";HBU",
+                  "color": "purple",
+                  "value": "中"
+                },
+                {
+                  "id": "Zark",
+                  "color": "default",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "ステータス",
+              "type": "status"
+            },
+            {
+              "name": "関連ファイル",
+              "type": "file"
+            },
+            {
+              "name": "連絡先メール",
+              "type": "email"
+            },
+            {
+              "name": "連絡先電話番号",
+              "type": "phone_number"
+            },
+            {
+              "name": "カテゴリー",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "o>B<",
+                  "color": "orange",
+                  "value": "技術"
+                },
+                {
+                  "id": "ksAA",
+                  "color": "pink",
+                  "value": "マーケティング"
+                },
+                {
+                  "id": "}yWP",
+                  "color": "brown",
+                  "value": "デザイン"
+                },
+                {
+                  "id": "lt{K",
+                  "color": "yellow",
+                  "value": "管理"
+                }
+              ]
+            },
+            {
+              "name": "予算",
+              "type": "number"
+            }
+          ],
+          "page_section_visibility": {
+            "comments": "section_hide",
+            "backlinks": "section_collapsed",
+            "margin_comments": "minimal"
+          },
+          "collection_cover_position": 0.7987,
+          "collection_page_properties": [
+            {
+              "visible": true,
+              "property": "vidt"
+            },
+            {
+              "visible": true,
+              "property": "`q`e"
+            }
+          ]
+        },
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
+        ],
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba": {
+      "role": "none"
+    },
+    "1ca3b07c-81ff-8084-90ac-000b2b28ae0f": {
+      "value": {
+        "id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+        "version": 20,
+        "name": [
+          [
+            "装備"
+          ]
+        ],
+        "schema": {
+          ";yc\\": {
+            "name": "実装日",
+            "type": "text"
+          },
+          "IxYo": {
+            "name": "分類",
+            "type": "text"
+          },
+          "^UL:": {
+            "name": "神格覚醒",
+            "type": "text"
+          },
+          "c:Yb": {
+            "name": "ステータス",
+            "type": "checkbox",
+            "groups": [
+              {
+                "id": "0f98ba49-e898-4c1e-8621-2564cbbe3da8",
+                "name": "To-do",
+                "color": "gray",
+                "optionIds": [
+                  "9aa46466-b2ec-46d1-9957-dc9ab1ff6d15"
+                ]
+              },
+              {
+                "id": "e1f9db76-9d1a-424d-82d2-8951d29c2c0a",
+                "name": "In progress",
+                "color": "blue",
+                "optionIds": [
+                  "bd592928-3564-4501-88b2-7a6d80d37b2a"
+                ]
+              },
+              {
+                "id": "b8104d55-fad1-4875-9fd5-91eb58921313",
+                "name": "Complete",
+                "color": "green",
+                "optionIds": [
+                  "7b54b739-8b67-43fe-9b96-05513c368835"
+                ]
+              }
+            ],
+            "options": [
+              {
+                "id": "9aa46466-b2ec-46d1-9957-dc9ab1ff6d15",
+                "value": "未着手",
+                "collectionIds": [
+                  "1ca3b07c-81ff-8084-90ac-000b2b28ae0f"
+                ]
+              },
+              {
+                "id": "bd592928-3564-4501-88b2-7a6d80d37b2a",
+                "color": "blue",
+                "value": "進行中",
+                "collectionIds": [
+                  "1ca3b07c-81ff-8084-90ac-000b2b28ae0f"
+                ]
+              },
+              {
+                "id": "7b54b739-8b67-43fe-9b96-05513c368835",
+                "color": "green",
+                "value": "完了",
+                "collectionIds": [
+                  "1ca3b07c-81ff-8084-90ac-000b2b28ae0f"
+                ]
+              }
+            ],
+            "defaultOption": "未着手"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "ai_suggested_properties": [
+            {
+              "name": "装備タイプ",
+              "type": "select",
+              "options": [
+                {
+                  "id": "S~Cn",
+                  "color": "red",
+                  "value": "武器"
+                },
+                {
+                  "id": "`cOf",
+                  "color": "gray",
+                  "value": "防具"
+                },
+                {
+                  "id": "fr;b",
+                  "color": "blue",
+                  "value": "アクセサリー"
+                }
+              ]
+            },
+            {
+              "name": "重量",
+              "type": "number"
+            },
+            {
+              "name": "耐久性",
+              "type": "number"
+            },
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "製造日",
+              "type": "date"
+            },
+            {
+              "name": "所有者",
+              "type": "person"
+            },
+            {
+              "name": "状態",
+              "type": "status"
+            },
+            {
+              "name": "画像URL",
+              "type": "url"
+            },
+            {
+              "name": "関連アイテム",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "zEC=",
+                  "color": "brown",
+                  "value": "ポーション"
+                },
+                {
+                  "id": "`uWJ",
+                  "color": "blue",
+                  "value": "スクロール"
+                },
+                {
+                  "id": "iG\\}",
+                  "color": "pink",
+                  "value": "鍛冶道具"
+                }
+              ]
+            },
+            {
+              "name": "製造者メール",
+              "type": "email"
+            }
+          ]
+        },
+        "parent_id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
+        "parent_table": "block",
+        "alive": true,
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "deleted_schema": {
+          "}d?V": {
+            "name": "記録",
+            "type": "text"
+          }
+        }
+      },
+      "role": "reader"
+    }
+  },
+  "collection_view": {
+    "25e3b07c-81ff-80a6-8d5d-000cfd50a16d": {
+      "value": {
+        "id": "25e3b07c-81ff-80a6-8d5d-000cfd50a16d",
+        "version": 155,
+        "type": "gallery",
+        "format": {
+          "table_wrap": true,
+          "gallery_cover": {
+            "type": "page_content"
+          },
+          "board_columns_by": {
+            "sort": {
+              "type": "ascending"
+            },
+            "type": "status",
+            "groupBy": "option",
+            "property": "S;OO",
+            "hideEmptyGroups": false
+          },
+          "table_properties": [
+            {
+              "width": 280,
+              "visible": true,
+              "property": "title"
+            },
+            {
+              "visible": true,
+              "property": "ecNC"
+            }
+          ],
+          "collection_pointer": {
+            "id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "collection_peek_mode": "full_page"
+        },
+        "parent_id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
+        "parent_table": "block",
+        "alive": true,
+        "page_sort": [
+          "25e3b07c-81ff-8004-802f-dcb19cde5460",
+          "25e3b07c-81ff-80bc-964c-cd1acb07d711",
+          "25e3b07c-81ff-8068-ba2c-f9d4200ff658",
+          "25e3b07c-81ff-8077-8378-c2c92e5767ca",
+          "25e3b07c-81ff-8070-b26d-e5b33bab7774",
+          "25e3b07c-81ff-8095-9f21-d3919d02ba60",
+          "25e3b07c-81ff-8091-90ef-d11d0922c7be",
+          "25e3b07c-81ff-8086-8167-f6bf023339a8",
+          "25e3b07c-81ff-8061-8bca-de0796eda832",
+          "2893b07c-81ff-80f1-b93f-c3be8cb14280",
+          "25e3b07c-81ff-80df-b6f2-e8db695137be",
+          "25e3b07c-81ff-80c6-ba14-f09986022e48",
+          "26d3b07c-81ff-80a1-9184-c390d13443be",
+          "25e3b07c-81ff-80c8-a0e9-ede4d91d2f8f",
+          "25e3b07c-81ff-806d-b2b5-f53ac812dabc",
+          "25e3b07c-81ff-8049-9618-e15920c54158",
+          "25e3b07c-81ff-8099-81cb-d2fc8e10691d",
+          "25e3b07c-81ff-80fd-8fa7-e9b4e27a5d5f",
+          "25e3b07c-81ff-80d5-a645-c91838341597",
+          "25e3b07c-81ff-80a4-9d80-e81fbfa51593",
+          "25e3b07c-81ff-80c7-8363-e8a9baaa926e",
+          "25e3b07c-81ff-8059-83dd-d9804db1e169",
+          "25e3b07c-81ff-80e2-adde-d7f65263ab93",
+          "25e3b07c-81ff-80ed-9afd-e2d9c94f5305",
+          "25e3b07c-81ff-8064-ad08-c48480ea28f5",
+          "27a3b07c-81ff-80ea-b5ff-dcc0b5054793",
+          "25e3b07c-81ff-8027-991d-edc0465fa0cc",
+          "25e3b07c-81ff-804d-9d15-d5520d5f298e",
+          "25e3b07c-81ff-8024-ae0d-d1571749de17",
+          "25e3b07c-81ff-806f-b224-eef179887dbb",
+          "25e3b07c-81ff-8043-8fac-d178348244b8",
+          "25e3b07c-81ff-8079-ba37-cc5a98626baf",
+          "25e3b07c-81ff-80e8-aca9-f053c4584a0a",
+          "25e3b07c-81ff-80d1-be99-c38cbd2b9600",
+          "25e3b07c-81ff-80cc-a4bd-c87bc27c3e1c",
+          "25e3b07c-81ff-8033-b2cd-ecfcdf12900e",
+          "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
+          "25e3b07c-81ff-80ae-b03e-ebb0bec98517",
+          "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+          "25e3b07c-81ff-8054-9f66-cd8456080a69",
+          "25e3b07c-81ff-809a-ad94-c4399f89aad7",
+          "25e3b07c-81ff-8052-8af9-e097e59dc856",
+          "25e3b07c-81ff-80f5-91c9-e6f724b43e19",
+          "2793b07c-81ff-80e8-8f3b-effe8d59027b",
+          "2813b07c-81ff-8082-86d9-c743a65e2d7c",
+          "2813b07c-81ff-8043-a0ff-c26be81cb208",
+          "29d3b07c-81ff-80f2-9c48-d67e2eae6a3f",
+          "2b23b07c-81ff-809c-b2b1-d498e747677e",
+          "25e3b07c-81ff-8040-a8d4-c61a3c357eb2",
+          "25e3b07c-81ff-809a-9ff7-c176b1405d43",
+          "25e3b07c-81ff-8059-beb3-eb832e0d36ca",
+          "25e3b07c-81ff-8055-803b-fc0b0e0513d3",
+          "25e3b07c-81ff-80c5-8b7e-f0883d265459",
+          "25e3b07c-81ff-80e5-8920-e98b6e41b435",
+          "25e3b07c-81ff-8042-a6dc-f69fc737662e",
+          "25e3b07c-81ff-8096-bfc6-fa514db609bf",
+          "25e3b07c-81ff-80d1-ac95-e78490e77abb",
+          "25e3b07c-81ff-80c2-b4b5-e284fc8722d9",
+          "25e3b07c-81ff-802a-b82d-f9b0abb018ab",
+          "25e3b07c-81ff-8048-b0a3-cb2ced442b8c"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1760176855849,
+        "last_edited_time": 1763703688216,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80ee-821a-000cec78a24c": {
+      "value": {
+        "id": "1ac3b07c-81ff-80ee-821a-000cec78a24c",
+        "version": 38,
+        "type": "gallery",
+        "name": "ギャラリービュー",
+        "format": {
+          "table_wrap": false,
+          "gallery_cover": {
+            "type": "page_cover"
+          },
+          "collection_pointer": {
+            "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "gallery_cover_size": "medium",
+          "collection_peek_mode": "full_page",
+          "gallery_cover_aspect": "cover"
+        },
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "page_sort": [
+          "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
+          "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
+          "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+          "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
+          "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+          "1ad3b07c-81ff-809c-8204-e16483640fa5",
+          "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
+          "1c83b07c-81ff-803f-99b6-f7010f54b710",
+          "2573b07c-81ff-8076-8c97-c512393c2dc8",
+          "1b63b07c-81ff-809a-8e66-e4e88abf2006"
+        ],
+        "query2": {
+          "aggregations": [
+            {
+              "aggregator": "count"
+            }
+          ]
+        },
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1748772241834,
+        "last_edited_time": 1755881175648,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+      },
+      "role": "reader"
+    },
+    "5531d29a-4e77-406f-a1fc-32cd5bbafec7": {
+      "role": "none"
+    },
+    "5dd8ee8a-3d52-42e6-b781-ac5db580f283": {
+      "role": "none"
+    },
+    "401ba18e-ee37-450f-b369-015c2957f5d4": {
+      "role": "none"
+    },
+    "5961b724-b949-48b2-aef2-d5c03eacd1d8": {
+      "role": "none"
+    },
+    "1ad3b07c-81ff-8037-9574-000c12eb1c9d": {
+      "role": "none"
+    },
+    "1ca3b07c-81ff-8093-aca5-000c02c824d8": {
+      "value": {
+        "id": "1ca3b07c-81ff-8093-aca5-000c02c824d8",
+        "version": 148,
+        "type": "gallery",
+        "format": {
+          "table_wrap": true,
+          "gallery_cover": {
+            "type": "page_content"
+          },
+          "table_properties": [
+            {
+              "width": 276,
+              "visible": true,
+              "property": "title"
+            },
+            {
+              "width": 100,
+              "visible": true,
+              "property": "IxYo"
+            },
+            {
+              "width": 136,
+              "visible": true,
+              "property": ";yc\\"
+            },
+            {
+              "width": 100,
+              "visible": true,
+              "property": "^UL:"
+            },
+            {
+              "width": 32,
+              "visible": true,
+              "property": "c:Yb"
+            }
+          ],
+          "collection_pointer": {
+            "id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "collection_peek_mode": "full_page",
+          "table_frozen_column_index": -1
+        },
+        "parent_id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
+        "parent_table": "block",
+        "alive": true,
+        "page_sort": [
+          "1ca3b07c-81ff-8098-b011-db8496d20af7",
+          "1ca3b07c-81ff-80e7-a56f-dbe76457d572",
+          "1ca3b07c-81ff-80f0-86e5-dff629ac35af",
+          "1ca3b07c-81ff-8005-b742-f0898cbf9507",
+          "1ca3b07c-81ff-80a0-a04e-c2efc644df94",
+          "1ca3b07c-81ff-80b8-8999-d16cc8fc0965",
+          "1ca3b07c-81ff-80f4-b9e3-f1fb5a541587",
+          "1ca3b07c-81ff-8060-be64-ecfc8d7175a1",
+          "1ca3b07c-81ff-8096-b982-c519556c7ade",
+          "1ca3b07c-81ff-80a1-95b5-cd09b518ef68",
+          "1ca3b07c-81ff-80ec-864a-faa7679ebc42",
+          "2033b07c-81ff-80f8-abcc-d9936a91bf2a",
+          "2033b07c-81ff-80c2-99e5-fcbbc2efb469",
+          "1ca3b07c-81ff-8062-aa9a-dfa7fe78339e",
+          "1ca3b07c-81ff-80d9-b3ae-e51c5ae839ac",
+          "1ca3b07c-81ff-80d6-b2ed-ede15f8f05b9",
+          "1ca3b07c-81ff-8008-b052-f068f6d3cd6a",
+          "1ca3b07c-81ff-8066-b11c-f05d9f804934",
+          "1ca3b07c-81ff-8000-ba40-ea37eb555629",
+          "2033b07c-81ff-80d0-9cb6-e3b48e86221e",
+          "2033b07c-81ff-805e-ac6a-e30ef33548d1",
+          "2033b07c-81ff-803f-b7ea-fe5a228ff5f2",
+          "21f3b07c-81ff-8098-afa5-d62d8ecd3c90",
+          "2493b07c-81ff-8041-891d-e92916d34a69",
+          "2493b07c-81ff-80c0-992f-c2d08c55343d",
+          "25d3b07c-81ff-806d-80d1-d78ea2d6ad87",
+          "26c3b07c-81ff-802e-b285-c5340350bafd",
+          "27a3b07c-81ff-80e3-a970-daecd8aa28f6",
+          "2813b07c-81ff-802d-9b35-c16ad7a83f8d",
+          "2813b07c-81ff-80e1-ad5f-e36ce54041dd",
+          "29d3b07c-81ff-804c-9bfb-f48293efe2e4",
+          "2b23b07c-81ff-80c9-a4ee-d0ef44a6c7b1",
+          "2b23b07c-81ff-8091-81d2-c9358abc522b"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1756373099431,
+        "last_edited_time": 1763704471949,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+      },
+      "role": "reader"
+    }
+  },
+  "layout": {
+    "1ac3b07c-81ff-80e0-9466-006e60a7ae40": {
+      "value": {
+        "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+        "version": 5,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "parent_table": "collection",
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "created_by_table": "notion_user",
+        "created_time": 1741120301429,
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_time": 1741120316045,
+        "modules": {
+          "page_layout_schema": [
+            {
+              "id": "cover",
+              "type": "cover"
+            },
+            {
+              "id": "R=YI",
+              "type": "titleWithIcon"
+            },
+            {
+              "id": "discussions",
+              "type": "discussions"
+            },
+            {
+              "id": "editor",
+              "type": "editor"
+            }
+          ],
+          "page_info_layout_schema": [
+            {
+              "id": "vPyb",
+              "type": "properties"
+            }
+          ]
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-801e-8fb8-006ea2bd8886": {
+      "role": "none"
+    }
+  },
+  "notion_user": {},
+  "collection_query": {},
+  "signed_urls": {
+    "25e3b07c-81ff-8090-a665-e3cac4d50976": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/e951beda-2554-4e25-a676-75bd7a9e6067/IMG_0541.png?table=block&id=25e3b07c-81ff-8090-a665-e3cac4d50976&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=TFzZdAnly14Mf7236LIH4BYehztTFdo7GYizee1nc7A"
+  }
+}

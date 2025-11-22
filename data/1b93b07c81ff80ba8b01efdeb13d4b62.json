@@ -1,0 +1,5334 @@
+{
+  "block": {
+    "1b93b07c-81ff-80ba-8b01-efdeb13d4b62": {
+      "value": {
+        "id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+        "version": 70,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "イルマ・イングリッド"
+            ]
+          ]
+        },
+        "content": [
+          "27c3b07c-81ff-803c-b556-c041d4cb30fa",
+          "2a03b07c-81ff-80fb-8ae4-ef9aa4944ef0",
+          "1b93b07c-81ff-8076-b0ec-dfa07e8ca043",
+          "1b93b07c-81ff-8065-b0e0-f449ab6803e8",
+          "1b93b07c-81ff-80f8-b6d9-f86692c1f4a2",
+          "1b93b07c-81ff-80dd-bc70-e76d20b09c63",
+          "27c3b07c-81ff-8036-8474-d674b80357b2",
+          "1b93b07c-81ff-8014-be67-f61091c4b359",
+          "27c3b07c-81ff-807f-9b08-eb0be08577f2",
+          "27c3b07c-81ff-80de-ae81-e1ebe05a32c2",
+          "27c3b07c-81ff-8010-92c2-f7dc33d6d421"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1b83b07c-81ff-8013-9637-ecba961f4438",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1742227948325,
+        "last_edited_time": 1763603128645,
+        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1b83b07c-81ff-8013-9637-ecba961f4438",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "u4TVK_RrFSi8NScckhoSOg,\"start\",\"end\"",
+            "n": {
+              "u4TVK_RrFSi8NScckhoSOg,\"start\",\"end\"": {
+                "s": {
+                  "x": "u4TVK_RrFSi8NScckhoSOg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "L4DBCdKZDKQT",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 10,
+                      "c": "イルマ・イングリッド"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
+      "value": {
+        "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "version": 1701,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "登場人物"
+            ]
+          ]
+        },
+        "content": [
+          "1b93b07c-81ff-80b9-9ac2-d0727e53b718",
+          "1bc3b07c-81ff-8013-a1ca-d8d691d310f4",
+          "1bd3b07c-81ff-8027-9f21-e8948f739d78",
+          "1b63b07c-81ff-809a-86e7-c628716ebd94",
+          "1b63b07c-81ff-801b-a186-e4d06de3b436",
+          "1b63b07c-81ff-8023-8adf-d9d3b856b809",
+          "1b73b07c-81ff-80b7-92f5-f79d8854cef0",
+          "1b73b07c-81ff-8010-a98a-cbf71c652e2c",
+          "1b73b07c-81ff-8072-a3e7-c896809ca1d1",
+          "1b73b07c-81ff-803d-a4cb-cb17ca9660f6",
+          "1bc3b07c-81ff-804b-881e-c44dc783b935",
+          "1b73b07c-81ff-8087-962e-f50127aa0e58",
+          "1b73b07c-81ff-80ee-92f3-dcbad8fca36a",
+          "1b83b07c-81ff-8031-8b44-ddf61c7f3fb3",
+          "1b83b07c-81ff-8001-a6a0-c3b9f1737802",
+          "1b83b07c-81ff-80a2-8b9b-f21d9f28ce22",
+          "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+          "1b93b07c-81ff-800e-9887-e454cab932a3",
+          "1bc3b07c-81ff-80ef-acb7-df68a76aa8fd",
+          "1b83b07c-81ff-803a-a2c3-f0f0d71feee1",
+          "1b83b07c-81ff-80ce-b5cd-c20f6ee901ed",
+          "1b83b07c-81ff-802c-a8a9-cfaf705dc00d",
+          "1b83b07c-81ff-8013-9637-ecba961f4438",
+          "1b93b07c-81ff-8091-9664-d7a8e72ff21b",
+          "1b93b07c-81ff-80f5-ba15-fb1d5aaa7b4b",
+          "1b93b07c-81ff-809c-b40c-e92b30835acc",
+          "1b93b07c-81ff-804f-b58b-db4f52c31d02",
+          "27c3b07c-81ff-80a1-abe0-fbb8e2e929de",
+          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "1bf3b07c-81ff-806f-86d6-e5f00eaa57e4",
+          "1b93b07c-81ff-80e6-8833-e860f93f4b5d",
+          "1b93b07c-81ff-808c-a05e-dbfb07e01d95",
+          "1b93b07c-81ff-80a3-a3a5-e6c30247ddea",
+          "1b93b07c-81ff-80e5-903b-d07e81c1d36e",
+          "1b93b07c-81ff-8070-9bb8-d324721c2653",
+          "2b13b07c-81ff-8098-b3da-f65d174cfa92",
+          "2b13b07c-81ff-80fc-9eee-e80210257c17",
+          "27c3b07c-81ff-8076-914e-c98b7a9e323c",
+          "27c3b07c-81ff-80c8-b4f0-ea440e24b973",
+          "1b93b07c-81ff-8093-b73f-ea9338e09284",
+          "1b63b07c-81ff-80d0-8d64-c6d7415df79a",
+          "1bc3b07c-81ff-80f9-a1bc-e3057aa85bc0",
+          "1bc3b07c-81ff-80c6-bb5c-ee4fe07d8741",
+          "1b63b07c-81ff-80bd-95c4-cf6f7224fd7e",
+          "1b93b07c-81ff-80e9-826d-d2c0621206df",
+          "1b93b07c-81ff-80f9-a53e-f27e8a8f9e1f",
+          "1bc3b07c-81ff-8047-a5cf-e4f98ba96ac6",
+          "1b93b07c-81ff-80b1-9077-c8db7853cff6",
+          "1b93b07c-81ff-807b-9842-ec75255fa3cd",
+          "1b93b07c-81ff-8063-b510-f56dea88c4d8",
+          "1b93b07c-81ff-80ec-9f18-ebb0de7f2b69",
+          "1b93b07c-81ff-801f-a7f2-f4ba4abc02a0",
+          "1bd3b07c-81ff-8082-8b25-ff29a47a1760",
+          "1bc3b07c-81ff-8078-8d6d-d0ad8445eb9c",
+          "1bc3b07c-81ff-800a-94aa-f737e3dc99c1",
+          "1bc3b07c-81ff-8024-8f13-d71d5e71b5c2",
+          "1bc3b07c-81ff-8043-af2f-c2af6be8975c",
+          "1bc3b07c-81ff-80d8-9371-df19fc99263f",
+          "1b93b07c-81ff-8058-87c6-cf92f46eeb5e",
+          "1bd3b07c-81ff-800c-af8d-f5dc559f3811",
+          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
+          "1bd3b07c-81ff-8087-9377-facf462a212f",
+          "1b93b07c-81ff-8076-86cb-cc99e3c28e11",
+          "1bd3b07c-81ff-80c5-acdb-e05953c7d3c2",
+          "1bc3b07c-81ff-8024-a546-ea0e68ada392",
+          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
+          "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
+          "27c3b07c-81ff-8088-ac2d-f2beba364720",
+          "2a53b07c-81ff-8022-978a-ccdb80d1d4fb",
+          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
+          "1be3b07c-81ff-8034-9960-db9b3a238538",
+          "1be3b07c-81ff-80f0-9d99-cd8ab44f29d4",
+          "1be3b07c-81ff-80aa-a398-fc78d542be90",
+          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
+          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
+          "27c3b07c-81ff-80b9-af67-da8e328925f6",
+          "1be3b07c-81ff-8086-9bbd-d3ec180d3fcd",
+          "1bd3b07c-81ff-806c-8111-e4bc80a3013e",
+          "1bf3b07c-81ff-8048-b2d0-e2c6da725c6f",
+          "1be3b07c-81ff-801e-85a9-f13d576b6447",
+          "1b93b07c-81ff-806f-bf2d-fa3acb1a1a42",
+          "1bc3b07c-81ff-80b1-9fac-df6f9b398d57",
+          "2b13b07c-81ff-80ff-9fbc-d78483f1bc12",
+          "1bc3b07c-81ff-8057-99f6-e4ba9dfa0146",
+          "1b63b07c-81ff-80be-a8f1-f9328ea9f880",
+          "1b63b07c-81ff-80da-9981-faddfe75ef59",
+          "1b73b07c-81ff-8081-b8c2-c0a3dd50d20d",
+          "1b93b07c-81ff-80e6-ab30-f53c3a4cd04f",
+          "1b93b07c-81ff-809e-90a8-f0e412a0cdac",
+          "1b83b07c-81ff-8072-b34c-d84888baf666",
+          "1b93b07c-81ff-8043-b610-db8506b0dd80",
+          "1bc3b07c-81ff-801b-bf59-caad9fd0bfd2",
+          "1bf3b07c-81ff-80dd-ae4e-f94a70f8a4a5",
+          "1b93b07c-81ff-80a2-95ab-d592676f5c99",
+          "1bf3b07c-81ff-8082-8d97-e4e5dacf5477",
+          "1be3b07c-81ff-8097-a726-ffd88609493a",
+          "1bd3b07c-81ff-80a2-9528-d01a17e40f7b",
+          "1bd3b07c-81ff-80f8-94e1-efd246ed00a6",
+          "1be3b07c-81ff-8013-81f5-d1dcaf33b63f",
+          "1be3b07c-81ff-8005-8c70-c51230279525",
+          "1bd3b07c-81ff-8029-b101-cac3b9c0a4dd",
+          "1be3b07c-81ff-802e-a832-e9657e55c784",
+          "1bd3b07c-81ff-8087-9155-c43df60a93bb",
+          "1bd3b07c-81ff-80bf-9786-cca974d7d5c2",
+          "1bd3b07c-81ff-8038-9111-d48015d9d95c",
+          "1bd3b07c-81ff-8010-ad8b-d5625d04f98a",
+          "1be3b07c-81ff-80fd-aae8-f47a98f1f1ab",
+          "1be3b07c-81ff-80a9-869b-d4ab20e5cfc8",
+          "1be3b07c-81ff-800e-9dc0-d53ad6469316",
+          "1be3b07c-81ff-80b7-bbdc-dc76229eacc2",
+          "1be3b07c-81ff-8080-a58c-eabb4aecc9ea",
+          "1be3b07c-81ff-80e7-980d-f793a19848be",
+          "1bf3b07c-81ff-808f-bfd4-ce7623046f42",
+          "1be3b07c-81ff-8014-8313-f13751ada885",
+          "1bf3b07c-81ff-8003-9d48-c990c9355515",
+          "1be3b07c-81ff-8093-839b-c47f145e2090",
+          "1be3b07c-81ff-806f-a162-dc0c1b8bda2d",
+          "1be3b07c-81ff-8074-a7af-c0b5ec8029f7",
+          "1be3b07c-81ff-80f6-90e1-ceca7b0233a9",
+          "1be3b07c-81ff-803c-890a-d42e139e3feb",
+          "1be3b07c-81ff-8060-88cd-fb95593adfee",
+          "1be3b07c-81ff-808e-bb8d-fdb4a1b66d97",
+          "1be3b07c-81ff-80cc-8cf6-fd7791f7830b",
+          "1be3b07c-81ff-80e1-983c-e781ab54ea0e",
+          "1be3b07c-81ff-80fb-b0f3-d6d61ed03fc9",
+          "1be3b07c-81ff-8023-b12e-c05e0bf1422e",
+          "1be3b07c-81ff-808d-917d-c6b18101d32a",
+          "1be3b07c-81ff-8078-a9dc-daf1265c1447",
+          "1be3b07c-81ff-80fb-9a9f-dd37904f9f8d",
+          "1be3b07c-81ff-803f-803c-ee77c4cb7472",
+          "1be3b07c-81ff-8005-aee4-ea8e55b8c3f0",
+          "1be3b07c-81ff-8035-973b-f3b10361bafd",
+          "1be3b07c-81ff-8047-9b5d-e4168575682e",
+          "1be3b07c-81ff-8020-8320-d12efb904e57",
+          "1be3b07c-81ff-80f2-9998-e41fe719b9fb",
+          "1be3b07c-81ff-807e-a7f0-e82df1840ac8",
+          "1be3b07c-81ff-80a6-af5a-fa5ffb991111",
+          "1ad3b07c-81ff-80e0-ae9a-ff3714197331",
+          "1bf3b07c-81ff-8079-b83c-d229ccc6f5ce",
+          "1bf3b07c-81ff-807c-99c8-f9559c187eb0",
+          "1bf3b07c-81ff-80d2-b58f-f8c8e5b7f6de",
+          "1bf3b07c-81ff-80f0-b453-ca5167675f3c",
+          "1bf3b07c-81ff-8080-8098-db624426c502",
+          "1bf3b07c-81ff-809a-a688-fafd22070f34",
+          "1bf3b07c-81ff-80ff-84bc-f8861159cc4d",
+          "1bf3b07c-81ff-80f9-a983-e8c756a3426a",
+          "1bf3b07c-81ff-8043-b9bd-d8e20f36f02f",
+          "1bf3b07c-81ff-8039-9501-d38ee4d786e0",
+          "1bf3b07c-81ff-8046-bf72-f22703467dce",
+          "1bf3b07c-81ff-809e-951d-e73e6266e5a4",
+          "1bf3b07c-81ff-80f1-ab45-fa79bf6571e4",
+          "1bf3b07c-81ff-80d0-86c8-d75cec1a7e70",
+          "1bf3b07c-81ff-80b8-a77c-e758620accbc",
+          "1bf3b07c-81ff-80f9-a6c8-c33a80623855",
+          "27c3b07c-81ff-8018-b7ee-ff527105ae45",
+          "27c3b07c-81ff-80a7-a54a-c53187756c66",
+          "27c3b07c-81ff-8059-bd22-d8cc2599ca76",
+          "27c3b07c-81ff-80fd-a9c6-f09fd21b17fd",
+          "27c3b07c-81ff-801b-b9c2-df19d63f2027",
+          "27c3b07c-81ff-8042-a1f7-ed0bae0397b3",
+          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
+          "27c3b07c-81ff-801a-af68-e11c8b5f8e03",
+          "27c3b07c-81ff-80f1-a34c-c513f98b6fc6",
+          "27c3b07c-81ff-8077-bf43-c523a5d8c3db",
+          "2a53b07c-81ff-80d5-b0fb-ee6eab656e9a",
+          "27c3b07c-81ff-8096-a62b-eb78a49e3631",
+          "2b13b07c-81ff-80e5-92e0-c6d921d34af4",
+          "2b13b07c-81ff-8028-a0de-e0eef35f3587",
+          "1bf3b07c-81ff-8090-ac79-dfbca3b5853e",
+          "1b63b07c-81ff-80de-a3b0-c95920f86655",
+          "2083b07c-81ff-802d-bf18-e376d867503c"
+        ],
+        "format": {
+          "slug": "characters",
+          "page_cover": "attachment:e2c3bdea-aa30-446b-8594-d3de8ee7f12f:8861ea526d73797ebe280d766c49e85e133934.png1052w_!web-dynamic.webp",
+          "page_full_width": false,
+          "page_cover_position": 0.3398
+        },
+        "created_time": 1741119040148,
+        "last_edited_time": 1763651030412,
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "22c3c859-3cbc-4b79-9414-7dcc8afcd6d3",
+          "d0debe9f-b3dc-48e4-8b40-3c40a26e29aa",
+          "e2c3bdea-aa30-446b-8594-d3de8ee7f12f"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "k0VKM7ThzD9RP0ZYrsqIFw,\"start\",\"end\"",
+            "n": {
+              "k0VKM7ThzD9RP0ZYrsqIFw,\"start\",\"end\"": {
+                "s": {
+                  "x": "k0VKM7ThzD9RP0ZYrsqIFw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "_ASJ_ZIXj6Pi",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "登場人物"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-8068-828b-fec9cdc96765": {
+      "value": {
+        "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "version": 64,
+        "type": "collection_view",
+        "view_ids": [
+          "1ac3b07c-81ff-80ee-821a-000cec78a24c"
+        ],
+        "collection_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "format": {
+          "collection_pointer": {
+            "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:fb48497c-047a-4a51-8d55-ff2f2a45c136:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741119010204,
+        "last_edited_time": 1755881175648,
+        "parent_id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "6e2b7188-17c5-45ba-bff7-1888e4b3f5b6",
+          "fb48497c-047a-4a51-8d55-ff2f2a45c136"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DpTROquDtyJuDphazM7EPg,\"start\",\"end\"",
+            "n": {
+              "DpTROquDtyJuDphazM7EPg,\"start\",\"end\"": {
+                "s": {
+                  "x": "DpTROquDtyJuDphazM7EPg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
+      "value": {
+        "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
+        "version": 340,
+        "type": "page",
+        "properties": {
+          "mgJK": [
+            [
+              "‣",
+              [
+                [
+                  "p",
+                  "1b9a2d41-3d52-470d-b4eb-79f20192b22b",
+                  "f25e8375-dff8-499a-b7bf-74566e1055df"
+                ]
+              ]
+            ]
+          ],
+          "title": [
+            [
+              "崩壊学園編　ストーリー　Wiki"
+            ]
+          ]
+        },
+        "content": [
+          "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+          "1bc3b07c-81ff-8027-b36b-fe45e7913081",
+          "25e3b07c-81ff-80ea-a0bb-dafec40f099c",
+          "1bc3b07c-81ff-8035-a07b-fd6768f2ea47",
+          "1c83b07c-81ff-8013-861e-e033d11cfdb9",
+          "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
+          "25e3b07c-81ff-8029-8c34-f5c8da01f230",
+          "1b83b07c-81ff-80c4-b3ef-e093616890e5",
+          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
+          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
+          "1c83b07c-81ff-80db-b21c-f216fe984cda",
+          "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
+          "25e3b07c-81ff-807e-9816-e841c1e019fe",
+          "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
+          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
+          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
+          "1c83b07c-81ff-80ba-9b0e-d88248245398",
+          "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
+        ],
+        "format": {
+          "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
+          "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
+          "block_locked": false,
+          "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+          "page_full_width": true,
+          "seo_description": "このサイトについて",
+          "copied_from_pointer": {
+            "id": "f1552fed-37eb-4430-a72c-2b7e492693fe",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "page_cover_position": 0.8137,
+          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+        },
+        "permissions": [
+          {
+            "role": "reader",
+            "type": "public_permission",
+            "is_site": true,
+            "added_timestamp": 1755837904470,
+            "allow_duplicate": false
+          },
+          {
+            "role": {
+              "read_content": true,
+              "insert_content": true,
+              "update_content": true
+            },
+            "type": "bot_permission",
+            "bot_id": "d24ae229-9722-4f23-b631-a4de79cc9b72",
+            "parent_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+            "parent_table": "space"
+          }
+        ],
+        "created_time": 1741118997345,
+        "last_edited_time": 1763784546918,
+        "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
+        "parent_table": "collection",
+        "alive": true,
+        "copied_from": "f1552fed-37eb-4430-a72c-2b7e492693fe",
+        "file_ids": [
+          "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
+          "d4c78f4a-1872-4d8a-836f-48abb3027e69",
+          "8478f939-1500-4129-9378-6a582186c3c5",
+          "d1263e4a-1f40-45da-8f32-ff552281384b"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "qwZCPsMTuY_DWKxq_PVehw,\"start\",\"end\"",
+            "n": {
+              "qwZCPsMTuY_DWKxq_PVehw,\"start\",\"end\"": {
+                "s": {
+                  "x": "qwZCPsMTuY_DWKxq_PVehw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 16,
+                      "c": "崩壊学園編　ストーリー　Wiki"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "43c1134f-28b4-42d1-a716-f9fa638c9e50": {
+      "role": "none"
+    },
+    "1ad3b07c-81ff-80e6-b0a3-c1e8c0daf575": {
+      "role": "none"
+    },
+    "27c3b07c-81ff-803c-b556-c041d4cb30fa": {
+      "value": {
+        "id": "27c3b07c-81ff-803c-b556-c041d4cb30fa",
+        "version": 13,
+        "type": "image",
+        "properties": {
+          "size": [
+            [
+              "1.1 MB"
+            ]
+          ],
+          "title": [
+            [
+              "760ca1e5gy1hzognezujrj20sg1144qp.jpg"
+            ]
+          ],
+          "source": [
+            [
+              "attachment:6f090089-410d-4c90-b097-c3ae6b7b3a3f:760ca1e5gy1hzognezujrj20sg1144qp.jpg"
+            ]
+          ]
+        },
+        "format": {
+          "block_width": 240,
+          "display_source": "attachment:6f090089-410d-4c90-b097-c3ae6b7b3a3f:760ca1e5gy1hzognezujrj20sg1144qp.jpg",
+          "block_full_width": false,
+          "block_page_width": false,
+          "block_aspect_ratio": 1.3046875,
+          "block_preserve_scale": true
+        },
+        "created_time": 1759072243253,
+        "last_edited_time": 1759072245247,
+        "parent_id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "6f090089-410d-4c90-b097-c3ae6b7b3a3f"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "APZPdOPBmh7cQJjtqu6eWA,\"start\",\"end\"",
+            "n": {
+              "APZPdOPBmh7cQJjtqu6eWA,\"start\",\"end\"": {
+                "s": {
+                  "x": "APZPdOPBmh7cQJjtqu6eWA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "-OzDIB12hrgX",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 36,
+                      "c": "760ca1e5gy1hzognezujrj20sg1144qp.jpg"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2a03b07c-81ff-80fb-8ae4-ef9aa4944ef0": {
+      "value": {
+        "id": "2a03b07c-81ff-80fb-8ae4-ef9aa4944ef0",
+        "version": 12,
+        "type": "callout",
+        "content": [
+          "1b93b07c-81ff-8024-ab63-c89812f4b163",
+          "1b93b07c-81ff-8003-b5b8-d4e649b9322d",
+          "1b93b07c-81ff-80c1-890c-c17625a8b046",
+          "1b93b07c-81ff-803b-89b1-d1ffe92d87bb"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2
+        },
+        "created_time": 1762141999487,
+        "last_edited_time": 1762142004088,
+        "parent_id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "VxXKpio9oi2QvDU-0XFVKQ,\"start\",\"end\"",
+            "n": {
+              "VxXKpio9oi2QvDU-0XFVKQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "VxXKpio9oi2QvDU-0XFVKQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-8076-b0ec-dfa07e8ca043": {
+      "value": {
+        "id": "1b93b07c-81ff-8076-b0ec-dfa07e8ca043",
+        "version": 93,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "南方大分裂",
+              [
+                [
+                  "a",
+                  "/1c03b07c81ff807a8055ce1c02e15895?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "の前、"
+            ],
+            [
+              "南方軍団",
+              [
+                [
+                  "a",
+                  "/1ad3b07c81ff805393aadd1cafe60284?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "の中央軍の"
+            ],
+            [
+              "猟兵",
+              [
+                [
+                  "a",
+                  "/1b83b07c81ff8068a4ead57369c1318a?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "をしていて、中尉で隊長を務めていた。"
+            ]
+          ]
+        },
+        "created_time": 1742230149511,
+        "last_edited_time": 1742903515576,
+        "parent_id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-8065-b0e0-f449ab6803e8": {
+      "value": {
+        "id": "1b93b07c-81ff-8065-b0e0-f449ab6803e8",
+        "version": 82,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "春暁事変",
+              [
+                [
+                  "a",
+                  "/1c13b07c81ff80798db7c8b54c4c8e6b?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "をきっかけに"
+            ],
+            [
+              "南方軍",
+              [
+                [
+                  "a",
+                  "/1ad3b07c81ff805393aadd1cafe60284?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "を脱退し、2年前に"
+            ],
+            [
+              "崩壊学園",
+              [
+                [
+                  "a",
+                  "/1b83b07c81ff8080a308e2151263a17e?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "へと逃れて来た。"
+            ]
+          ]
+        },
+        "created_time": 1742230165075,
+        "last_edited_time": 1763603128978,
+        "parent_id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "v3ViWPctvtmvPOyQXTbFRg,\"start\",\"end\"",
+            "n": {
+              "v3ViWPctvtmvPOyQXTbFRg,\"start\",\"end\"": {
+                "s": {
+                  "x": "v3ViWPctvtmvPOyQXTbFRg",
+                  "i": [
+                    {
+                      "t": "s",
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "zrXB7qBM3Kpc",
+                            42
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              5
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wJqZfJzCfgQB",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "春暁事変",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "wJqZfJzCfgQB",
+                            38
+                          ],
+                          "s": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              4
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1c13b07c81ff80798db7c8b54c4c8e6b?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "zrXB7qBM3Kpc",
+                            42
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              5
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "zrXB7qBM3Kpc",
+                            45
+                          ],
+                          "s": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              4
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1c13b07c81ff80798db7c8b54c4c8e6b?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "zrXB7qBM3Kpc",
+                            42
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              5
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wJqZfJzCfgQB",
+                        5
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        4
+                      ],
+                      "l": 6,
+                      "c": "をきっかけに",
+                      "b": [],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "zrXB7qBM3Kpc",
+                            43
+                          ],
+                          "s": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              10
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              14
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wJqZfJzCfgQB",
+                        11
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        10
+                      ],
+                      "l": 3,
+                      "c": "南方軍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "wJqZfJzCfgQB",
+                            39
+                          ],
+                          "s": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              11
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              13
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1ad3b07c81ff805393aadd1cafe60284?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "zrXB7qBM3Kpc",
+                            43
+                          ],
+                          "s": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              10
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              14
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "zrXB7qBM3Kpc",
+                            46
+                          ],
+                          "s": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              11
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              13
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1ad3b07c81ff805393aadd1cafe60284?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "zrXB7qBM3Kpc",
+                            43
+                          ],
+                          "s": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              10
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              14
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wJqZfJzCfgQB",
+                        14
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        13
+                      ],
+                      "l": 1,
+                      "c": "を",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "OQZuiD1RZe4w",
+                        56
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        14
+                      ],
+                      "l": 2,
+                      "c": "脱退"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "OQZuiD1RZe4w",
+                        49
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "OQZuiD1RZe4w",
+                        51
+                      ],
+                      "o": [
+                        "OQZuiD1RZe4w",
+                        49
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "OQZuiD1RZe4w",
+                        55
+                      ],
+                      "o": [
+                        "OQZuiD1RZe4w",
+                        53
+                      ],
+                      "l": 1,
+                      "c": "し"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "OQZuiD1RZe4w",
+                        54
+                      ],
+                      "o": [
+                        "OQZuiD1RZe4w",
+                        53
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "OQZuiD1RZe4w",
+                        50
+                      ],
+                      "o": [
+                        "OQZuiD1RZe4w",
+                        49
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "OQZuiD1RZe4w",
+                        48
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wJqZfJzCfgQB",
+                        15
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        14
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "zrXB7qBM3Kpc",
+                        41
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        16
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wJqZfJzCfgQB",
+                        17
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        16
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wJqZfJzCfgQB",
+                        18
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        17
+                      ],
+                      "l": 3,
+                      "c": "、2年"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wJqZfJzCfgQB",
+                        21
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        20
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wJqZfJzCfgQB",
+                        24
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        23
+                      ],
+                      "l": 2,
+                      "c": "前に",
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "zrXB7qBM3Kpc",
+                            44
+                          ],
+                          "s": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              25
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              30
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wJqZfJzCfgQB",
+                        26
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        25
+                      ],
+                      "l": 4,
+                      "c": "崩壊学園",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "wJqZfJzCfgQB",
+                            40
+                          ],
+                          "s": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              29
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b83b07c81ff8080a308e2151263a17e?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "zrXB7qBM3Kpc",
+                            44
+                          ],
+                          "s": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              25
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              30
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "zrXB7qBM3Kpc",
+                            47
+                          ],
+                          "s": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              29
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b83b07c81ff8080a308e2151263a17e?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "v3ViWPctvtmvPOyQXTbFRg",
+                          "l": "",
+                          "i": [
+                            "zrXB7qBM3Kpc",
+                            44
+                          ],
+                          "s": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              25
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "wJqZfJzCfgQB",
+                              30
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wJqZfJzCfgQB",
+                        30
+                      ],
+                      "o": [
+                        "wJqZfJzCfgQB",
+                        29
+                      ],
+                      "l": 8,
+                      "c": "へと逃れて来た。",
+                      "b": []
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "FhCv7S6xt41-ae3VaHHeWg,[\"OQZuiD1RZe4w\",21],\"end\""
+                ]
+              },
+              "FhCv7S6xt41-ae3VaHHeWg,[\"OQZuiD1RZe4w\",21],\"end\"": {
+                "s": {
+                  "x": "FhCv7S6xt41-ae3VaHHeWg",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "OQZuiD1RZe4w",
+                        21
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-80f8-b6d9-f86692c1f4a2": {
+      "value": {
+        "id": "1b93b07c-81ff-80f8-b6d9-f86692c1f4a2",
+        "version": 5,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "柔軟性に欠けるものの、決断力がある。"
+            ]
+          ]
+        },
+        "created_time": 1742230208710,
+        "last_edited_time": 1742230209034,
+        "parent_id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-80dd-bc70-e76d20b09c63": {
+      "value": {
+        "id": "1b93b07c-81ff-80dd-bc70-e76d20b09c63",
+        "version": 7,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "言葉遣いは荒いけど、見かけによらず人柄が良い。"
+            ]
+          ]
+        },
+        "created_time": 1742230209721,
+        "last_edited_time": 1742230211955,
+        "parent_id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "27c3b07c-81ff-8036-8474-d674b80357b2": {
+      "value": {
+        "id": "27c3b07c-81ff-8036-8474-d674b80357b2",
+        "version": 12,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "建設兵団",
+              [
+                [
+                  "a",
+                  "/1ad3b07c81ff805d8750c0242a4093b2?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "での従軍経験があるため、時々建設科の授業に招かれることもある。"
+            ]
+          ]
+        },
+        "created_time": 1759065700350,
+        "last_edited_time": 1759065716604,
+        "parent_id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "0PA7kgcKHgVpw_1HO3Hm-w,\"start\",\"end\"",
+            "n": {
+              "0PA7kgcKHgVpw_1HO3Hm-w,\"start\",\"end\"": {
+                "s": {
+                  "x": "0PA7kgcKHgVpw_1HO3Hm-w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -23,
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "0PA7kgcKHgVpw_1HO3Hm-w",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            59
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              23
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              28
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        24
+                      ],
+                      "o": [
+                        "HW4n_RbwyQ76",
+                        23
+                      ],
+                      "l": 4,
+                      "c": "建設兵団",
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "0PA7kgcKHgVpw_1HO3Hm-w",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            59
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              23
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              28
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "0PA7kgcKHgVpw_1HO3Hm-w",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            60
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              24
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              27
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1ad3b07c81ff805d8750c0242a4093b2?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "0PA7kgcKHgVpw_1HO3Hm-w",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            59
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              23
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              28
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        28
+                      ],
+                      "o": [
+                        "HW4n_RbwyQ76",
+                        27
+                      ],
+                      "l": 31,
+                      "c": "での従軍経験があるため、時々建設科の授業に招かれることもある。",
+                      "b": []
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-8014-be67-f61091c4b359": {
+      "value": {
+        "id": "1b93b07c-81ff-8014-be67-f61091c4b359",
+        "version": 25,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "立ち絵"
+            ]
+          ]
+        },
+        "created_time": 1742230212167,
+        "last_edited_time": 1759053800559,
+        "parent_id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ezwfoT_xHIae9aqOglkJeg,\"start\",\"end\"",
+            "n": {
+              "ezwfoT_xHIae9aqOglkJeg,\"start\",\"end\"": {
+                "s": {
+                  "x": "ezwfoT_xHIae9aqOglkJeg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "vs82eEVFHcDR",
+                        2
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "立ち絵"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "MTusOQoXQ1V_",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27c3b07c-81ff-807f-9b08-eb0be08577f2": {
+      "value": {
+        "id": "27c3b07c-81ff-807f-9b08-eb0be08577f2",
+        "version": 15,
+        "type": "divider",
+        "created_time": 1759053801048,
+        "last_edited_time": 1759053801578,
+        "parent_id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "RnQHZA0s1kKRYQsqFYUFfA,\"start\",\"end\"",
+            "n": {
+              "RnQHZA0s1kKRYQsqFYUFfA,\"start\",\"end\"": {
+                "s": {
+                  "x": "RnQHZA0s1kKRYQsqFYUFfA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        3
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27c3b07c-81ff-80de-ae81-e1ebe05a32c2": {
+      "value": {
+        "id": "27c3b07c-81ff-80de-ae81-e1ebe05a32c2",
+        "version": 5,
+        "type": "column_list",
+        "content": [
+          "27c3b07c-81ff-80a2-9570-edaf584283ad",
+          "27c3b07c-81ff-80a1-8ad4-fc527d43b00e"
+        ],
+        "created_time": 1759053924031,
+        "last_edited_time": 1759053924037,
+        "parent_id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "SKSFnPbKqxyJD1B2ZZnjLQ,\"start\",\"end\"",
+            "n": {
+              "SKSFnPbKqxyJD1B2ZZnjLQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "SKSFnPbKqxyJD1B2ZZnjLQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27c3b07c-81ff-8010-92c2-f7dc33d6d421": {
+      "value": {
+        "id": "27c3b07c-81ff-8010-92c2-f7dc33d6d421",
+        "version": 3,
+        "type": "text",
+        "created_time": 1759053801575,
+        "last_edited_time": 1759053801578,
+        "parent_id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "oGZik5NpzBT1PsadTC5EMw,\"start\",\"end\"",
+            "n": {
+              "oGZik5NpzBT1PsadTC5EMw,\"start\",\"end\"": {
+                "s": {
+                  "x": "oGZik5NpzBT1PsadTC5EMw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1c03b07c-81ff-807a-8055-ce1c02e15895": {
+      "value": {
+        "id": "1c03b07c-81ff-807a-8055-ce1c02e15895",
+        "version": 142,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "南方大分裂"
+            ]
+          ]
+        },
+        "content": [
+          "1c03b07c-81ff-80cc-b908-c83a368e1457",
+          "1c03b07c-81ff-8061-992d-f748984c4e27",
+          "1c03b07c-81ff-8082-a6fd-d8ef5e478de7",
+          "1c03b07c-81ff-8006-809b-c979694b4297",
+          "1c03b07c-81ff-8037-8e23-c042af1ef897",
+          "1c03b07c-81ff-8062-88fc-fd8c0a695268",
+          "1c03b07c-81ff-807b-9e61-fdbfe9f9e8b7"
+        ],
+        "created_time": 1742792581195,
+        "last_edited_time": 1742899683860,
+        "parent_id": "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "EWtfWa0m1PfcBTcqy7tS-w,\"start\",\"end\"",
+            "n": {
+              "EWtfWa0m1PfcBTcqy7tS-w,\"start\",\"end\"": {
+                "s": {
+                  "x": "EWtfWa0m1PfcBTcqy7tS-w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "4TcvVBfGWTi9",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "南方大分裂"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-8053-93aa-dd1cafe60284": {
+      "value": {
+        "id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
+        "version": 70,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "南方軍団"
+            ]
+          ]
+        },
+        "content": [
+          "28c3b07c-81ff-800a-864a-effefc8c3ea7",
+          "1ad3b07c-81ff-800f-9456-e8dc263ae684",
+          "1c03b07c-81ff-80a4-829a-f25fa0e3c7c4",
+          "1c03b07c-81ff-8051-933d-c0fd5ef959d0",
+          "1c03b07c-81ff-80f2-8cc0-f5b3455d8990",
+          "28c3b07c-81ff-803e-a8a2-c0d7ea03c427",
+          "28c3b07c-81ff-8069-bf05-d4b543454bae",
+          "1c03b07c-81ff-80f0-8a19-d8ec1a55a74c",
+          "1c03b07c-81ff-80d0-9b6b-f10b40a2bc9b",
+          "1c03b07c-81ff-8017-be4d-fbcf986e452f",
+          "1c03b07c-81ff-8007-82c5-e2804e0f9449"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1413b07c-81ff-80b3-a218-d9843b0090ce",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1741141968528,
+        "last_edited_time": 1760431440298,
+        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1413b07c-81ff-80b3-a218-d9843b0090ce",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "EB3u9ywCMWpXq0ExwlSa3g,\"start\",\"end\"",
+            "n": {
+              "EB3u9ywCMWpXq0ExwlSa3g,\"start\",\"end\"": {
+                "s": {
+                  "x": "EB3u9ywCMWpXq0ExwlSa3g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "KurvUicJDLze",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "南方軍団"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b83b07c-81ff-8068-a4ea-d57369c1318a": {
+      "value": {
+        "id": "1b83b07c-81ff-8068-a4ea-d57369c1318a",
+        "version": 62,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "崩壊の猟兵"
+            ]
+          ]
+        },
+        "content": [
+          "1bc3b07c-81ff-806b-9b60-c706040620eb",
+          "1bc3b07c-81ff-80d3-8390-ce1245e1b9de",
+          "1bc3b07c-81ff-80e5-ba01-eefecfcbd706",
+          "1bc3b07c-81ff-80c5-8210-e171be44bb11"
+        ],
+        "created_time": 1742158366473,
+        "last_edited_time": 1742901088852,
+        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "RIPK1JD7zNOZLIvfOB9gqA,\"start\",\"end\"",
+            "n": {
+              "RIPK1JD7zNOZLIvfOB9gqA,\"start\",\"end\"": {
+                "s": {
+                  "x": "RIPK1JD7zNOZLIvfOB9gqA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ZYk8CCob3xZW",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "崩壊の猟兵"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1c13b07c-81ff-8079-8db7-c8b54c4c8e6b": {
+      "value": {
+        "id": "1c13b07c-81ff-8079-8db7-c8b54c4c8e6b",
+        "version": 20,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "春暁事変"
+            ]
+          ]
+        },
+        "content": [
+          "1c13b07c-81ff-80da-b805-c351bc2ac019",
+          "1c13b07c-81ff-80b5-a73a-e23762dca5a2",
+          "1c13b07c-81ff-8079-a173-c53dee4c0c22"
+        ],
+        "created_time": 1742883878774,
+        "last_edited_time": 1763610717452,
+        "parent_id": "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "lDrvmFRHJ7k2rVSYP0DN1Q,\"start\",\"end\"",
+            "n": {
+              "lDrvmFRHJ7k2rVSYP0DN1Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "lDrvmFRHJ7k2rVSYP0DN1Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "dN36rsd7F5lV",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "春暁事変"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b83b07c-81ff-8080-a308-e2151263a17e": {
+      "value": {
+        "id": "1b83b07c-81ff-8080-a308-e2151263a17e",
+        "version": 484,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "崩壊学園"
+            ]
+          ]
+        },
+        "content": [
+          "28c3b07c-81ff-80e3-8ecf-dbb2e481618e",
+          "1c03b07c-81ff-8001-ad05-ee4ba301714c",
+          "1c03b07c-81ff-80c1-8277-d3cc8234ca30",
+          "2b13b07c-81ff-80b8-a22a-ec4eb3b71859",
+          "1c03b07c-81ff-801b-9353-d0040fac0fbd",
+          "1c03b07c-81ff-8083-8f35-dca8142f4c49",
+          "1c03b07c-81ff-808e-b156-c2987ae7a8f1",
+          "1c03b07c-81ff-804e-a390-ed12937e3a63",
+          "1c03b07c-81ff-8093-b7f2-feb35d28204c",
+          "1b83b07c-81ff-80be-b26e-c063d5c0fc92",
+          "1c03b07c-81ff-80b8-9f4f-d22ca172a185",
+          "1c03b07c-81ff-807f-8cd6-f9fddf462d26",
+          "1c03b07c-81ff-802b-8cc6-e13e855c09af",
+          "1c03b07c-81ff-80f1-80e0-cb050b305585",
+          "1c03b07c-81ff-80dc-87ab-fe65ec3ccca0",
+          "1c03b07c-81ff-80ea-88de-c8b6db50e645",
+          "1c03b07c-81ff-803f-9c9f-e3df4365c48b",
+          "1c03b07c-81ff-8097-b1be-e4668b7248c0",
+          "1c03b07c-81ff-8023-a4be-f088de73b8f3",
+          "1c03b07c-81ff-8078-a9f8-e22c45e4ae72",
+          "1c03b07c-81ff-80a3-b9fb-fc064729a3c3",
+          "2323b07c-81ff-80dc-a1e4-df9af5e0f91e",
+          "2313b07c-81ff-800b-b255-c047ef7a3e83",
+          "1c03b07c-81ff-80d7-beb0-fd394b31c1f8",
+          "1c03b07c-81ff-8048-9e61-dd4e16fd534c",
+          "2313b07c-81ff-8001-a515-c41906064f88",
+          "2323b07c-81ff-8039-903f-e564461fe082",
+          "1c03b07c-81ff-802d-a09c-d3cfb47e938b",
+          "1c03b07c-81ff-80d8-aaaa-c7c60cb0e8b8",
+          "1c03b07c-81ff-80f0-9476-fecdcd23063c",
+          "1c03b07c-81ff-8041-807a-ee6c9b2c5997",
+          "1c03b07c-81ff-80ed-bfee-fcadd204b8f9",
+          "1c03b07c-81ff-80d4-85f8-d3853367a34a",
+          "1c03b07c-81ff-807e-b978-dcdb8e2e9ed5",
+          "1c03b07c-81ff-8002-b297-f6074338f1db",
+          "1c03b07c-81ff-80a8-b230-fabf3a4214a1",
+          "1c03b07c-81ff-80a4-8620-e5718967813d",
+          "1c03b07c-81ff-8036-ae64-de03ee76fa4a",
+          "1c03b07c-81ff-8082-acb4-f47414ddb358",
+          "1c03b07c-81ff-8041-a79a-e8e60cba5d0c",
+          "1c03b07c-81ff-8051-97af-d5142d1c6010",
+          "1c03b07c-81ff-802e-8a3e-e2413954d2ae",
+          "1c03b07c-81ff-8036-9487-c55f97cbe251",
+          "1c03b07c-81ff-80ff-ae01-f10369ec89f6",
+          "1c03b07c-81ff-808e-a18f-f6220d3e4cb0",
+          "27d3b07c-81ff-80e8-af6e-f28d44355743",
+          "1c03b07c-81ff-8087-8007-f2198fa51d41",
+          "26c3b07c-81ff-80ce-872f-f6d5ee70cb0f",
+          "1c03b07c-81ff-8077-b5ce-c62d2ac539f0",
+          "1c03b07c-81ff-80d1-a9d1-c920b04b495e",
+          "1c03b07c-81ff-80e6-9852-f38584faa8a8",
+          "1c03b07c-81ff-801a-9e53-c7b7b45205ea",
+          "1c03b07c-81ff-802d-ab8a-d67ae93ac0d7",
+          "1c03b07c-81ff-807a-9cb7-c53ba7ad3e51",
+          "1c03b07c-81ff-80a2-831c-df4180d6246d",
+          "1c03b07c-81ff-800e-b8fa-fecc736a17e4",
+          "1c03b07c-81ff-8039-b455-c5cce9ddb238",
+          "2b13b07c-81ff-8007-891a-d1d2f113c1a6",
+          "2b13b07c-81ff-8079-8acf-d5dab3d94c4e",
+          "2b13b07c-81ff-8068-aa8a-e882f8b63685",
+          "27d3b07c-81ff-8041-a946-f6a81ef48b61",
+          "1c03b07c-81ff-8087-a1d3-e4217a99f7e8",
+          "1b83b07c-81ff-80fa-b1f1-c1b61d8e7969"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1413b07c-81ff-80a3-be71-eefcb5ad331b",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1742158363837,
+        "last_edited_time": 1763623267516,
+        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ZVbjOvYv5cSyROA23QblUA,\"start\",\"end\"",
+            "n": {
+              "ZVbjOvYv5cSyROA23QblUA,\"start\",\"end\"": {
+                "s": {
+                  "x": "ZVbjOvYv5cSyROA23QblUA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c_75v7hTOmEJ",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "崩壊学園"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-805d-8750-c0242a4093b2": {
+      "value": {
+        "id": "1ad3b07c-81ff-805d-8750-c0242a4093b2",
+        "version": 38,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "世界建設兵団"
+            ]
+          ]
+        },
+        "content": [
+          "28c3b07c-81ff-801c-ae29-c5645b9d485e",
+          "2833b07c-81ff-801a-b1c5-d789831db020",
+          "1ad3b07c-81ff-8045-b187-e1ac3e5c382d",
+          "1c03b07c-81ff-804f-94f5-f0646363aa09",
+          "28c3b07c-81ff-80bd-8219-f7e231f83741",
+          "1c03b07c-81ff-8036-8255-c0d1117d4d0a",
+          "1c03b07c-81ff-804f-ae52-ff299dbfef62",
+          "1c03b07c-81ff-804c-b34f-f50ce8804960"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1413b07c-81ff-8028-ac88-eb311097e81c",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1741141968528,
+        "last_edited_time": 1760431332915,
+        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1413b07c-81ff-8028-ac88-eb311097e81c",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "D7Qujh8lPlpRbO-TEl6PpA,\"start\",\"end\"",
+            "n": {
+              "D7Qujh8lPlpRbO-TEl6PpA,\"start\",\"end\"": {
+                "s": {
+                  "x": "D7Qujh8lPlpRbO-TEl6PpA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "_41fS25jbGCX",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 6,
+                      "c": "世界建設兵団"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8": {
+      "value": {
+        "id": "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
+        "version": 358,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "歴史"
+            ]
+          ]
+        },
+        "content": [
+          "1b63b07c-81ff-80ab-9656-ec3892783add",
+          "2043b07c-81ff-8078-aa9b-d275267bc75c",
+          "1b63b07c-81ff-8071-8b54-dc7287031675",
+          "1b63b07c-81ff-8023-a319-ed5f37348391",
+          "1b63b07c-81ff-804d-a17c-cbb547aa0d09",
+          "1b63b07c-81ff-809b-a192-d47afae88238",
+          "1b63b07c-81ff-8035-8ba9-e5060b405e61",
+          "1c13b07c-81ff-80f4-a20c-e9086f4ad82b",
+          "2043b07c-81ff-80a5-ade5-fdfb3eae41b5",
+          "1c13b07c-81ff-800b-ad70-fed78569343d",
+          "1c13b07c-81ff-80fe-ae60-c95e56894d4d",
+          "1c13b07c-81ff-808b-b097-ed655de76687",
+          "1c13b07c-81ff-803d-b55d-ed1c888e570b",
+          "1c13b07c-81ff-8041-b0bf-d1a6333285a9",
+          "1c13b07c-81ff-800e-8bef-db928508a954",
+          "1c03b07c-81ff-80c8-9624-ed84a0efc4f5",
+          "1c13b07c-81ff-80bd-a1b6-e069ef3dd687",
+          "1c13b07c-81ff-8093-8e94-cedf6afe968a",
+          "1c13b07c-81ff-80e1-b405-caa39935dfe2",
+          "1c13b07c-81ff-80f1-8e2c-ebdfab5b0c3e",
+          "1c13b07c-81ff-805f-8c1d-c3148400bfd9",
+          "1c13b07c-81ff-80d6-a719-ee7ca75ef045",
+          "1c13b07c-81ff-80a0-afa2-c730ffe4ed5a",
+          "1c13b07c-81ff-8071-853b-ee4214b329bc",
+          "1c13b07c-81ff-80e7-9255-d702d4872174",
+          "1c13b07c-81ff-8043-8f88-ef0476853f49",
+          "1c13b07c-81ff-8016-8078-f0145930546d",
+          "1c13b07c-81ff-800b-a607-d74a877c6c19",
+          "1c13b07c-81ff-8006-8ed9-c58200ed797b",
+          "1c13b07c-81ff-8062-879a-cf52c80542e5",
+          "1c13b07c-81ff-80a1-ab59-d38d14a37533",
+          "1c13b07c-81ff-808a-a99f-eb7175368c95",
+          "1c13b07c-81ff-8087-8f88-ef66b9a360e8",
+          "1c13b07c-81ff-80b0-89d4-e13bd7298ae4",
+          "1c13b07c-81ff-801c-8ec8-fd3316760e99",
+          "1c13b07c-81ff-80bc-8a39-d82c1d9fc6ee",
+          "1c13b07c-81ff-8006-8266-f0ec5f065b78",
+          "1c13b07c-81ff-8045-8c24-e031ddff6e76",
+          "1c13b07c-81ff-8017-adef-f0a3f6fcafec",
+          "1c13b07c-81ff-8051-90a4-d7f10ef51cf3",
+          "1c13b07c-81ff-8088-bbd7-c3af4b7d56f5",
+          "1c13b07c-81ff-8037-88a8-ec7bd7c94c95",
+          "1c13b07c-81ff-809d-9a21-d07034ecc64e",
+          "1c13b07c-81ff-80a3-afe8-f9f079f6ada9",
+          "25a3b07c-81ff-80d7-a765-dc8e61d3f410",
+          "1c13b07c-81ff-80f4-8a44-eebebe6f6b8d",
+          "1c13b07c-81ff-80cb-8477-c1602ac2ea35",
+          "1c13b07c-81ff-8013-ab16-d888c5f8aba6",
+          "1c13b07c-81ff-8012-addc-ca479bc84bab",
+          "1c13b07c-81ff-80cb-abe3-f5dac7fd54e3",
+          "1c13b07c-81ff-8097-a876-c0e6f42ae1a6",
+          "1c13b07c-81ff-800b-b9f2-d747b25dd5ec",
+          "1c13b07c-81ff-80ba-b5da-cb31d44a7382",
+          "27c3b07c-81ff-80d1-ae43-d3d56dbc264e",
+          "1c13b07c-81ff-80f6-805a-fc812b9f823e",
+          "1c13b07c-81ff-80fe-bb88-e87b1e4d9bae",
+          "1c13b07c-81ff-8062-b21c-e481f535db5f",
+          "1c13b07c-81ff-80f4-ab25-e874e518fae8",
+          "1c13b07c-81ff-80fb-9af0-e985ec39b322",
+          "1c13b07c-81ff-80a4-b360-ef13ae3b3162",
+          "1c13b07c-81ff-80ca-9fa2-f2091e50d911",
+          "1c13b07c-81ff-8062-8428-e160e4b3ee37",
+          "1c13b07c-81ff-80c9-952b-d3e90893e97d",
+          "1bd3b07c-81ff-8002-811b-f068d3701ab2",
+          "1bf3b07c-81ff-8038-8812-f6bb3ec684ec",
+          "1c13b07c-81ff-80ac-a387-eb287ed8eeb2",
+          "1c13b07c-81ff-80c8-bd58-eeb683a546ad",
+          "1bf3b07c-81ff-80cd-90bb-ef18277b540f",
+          "1bd3b07c-81ff-80e7-a76e-d90296367102",
+          "1bd3b07c-81ff-80fe-a7e8-d4f8de8950c7",
+          "1b63b07c-81ff-8010-80bd-f33ef12e28f7",
+          "1bd3b07c-81ff-80ac-8589-ee1e8dbaf814",
+          "1c03b07c-81ff-8072-afc0-e06b7948e69d",
+          "1c13b07c-81ff-8023-8994-f973ab3a990b",
+          "1c13b07c-81ff-8059-93d5-cfc538ae8192",
+          "1c03b07c-81ff-807a-8055-ce1c02e15895",
+          "1c03b07c-81ff-80e9-be7e-cf5c2a10a6ea",
+          "1c13b07c-81ff-80b6-9d70-cbc4f0a639af",
+          "1c13b07c-81ff-8079-8db7-c8b54c4c8e6b",
+          "2b13b07c-81ff-80b3-939d-f4f2f5bd0da6"
+        ],
+        "format": {
+          "slug": "history",
+          "page_cover": "attachment:66036856-356f-4878-a7ab-7aff6ef56084:2024-02-28_18-19-08.mp4_snapshot_01.02.36_2025.03.09_00.00.58.jpg",
+          "card_cover_position": 0,
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:1de8f8ae-78ec-4b04-bad0-0359fa08275f:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741140217937,
+        "last_edited_time": 1763610633330,
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "1de8f8ae-78ec-4b04-bad0-0359fa08275f",
+          "f756a14d-b07e-43c0-9e8f-626eb8bb2c23",
+          "66036856-356f-4878-a7ab-7aff6ef56084"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "nZsbBob6JIeC3mTODgi8HQ,\"start\",\"end\"",
+            "n": {
+              "nZsbBob6JIeC3mTODgi8HQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "nZsbBob6JIeC3mTODgi8HQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c-yi34pnagIp",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "歴史"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-80e4-8271-c7f781e181c3": {
+      "value": {
+        "id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+        "version": 407,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "派閥"
+            ]
+          ]
+        },
+        "content": [
+          "28f3b07c-81ff-8088-86f4-f50d66e82b31",
+          "28f3b07c-81ff-808a-953c-d9937edac668",
+          "1ad3b07c-81ff-805d-8750-c0242a4093b2",
+          "1ad3b07c-81ff-808c-9c1c-f3fbaa32a34d",
+          "2b13b07c-81ff-80cc-9d22-f9e0833a922d",
+          "1b83b07c-81ff-8080-a308-e2151263a17e",
+          "1c13b07c-81ff-8056-86f8-eddcb7e6acd3",
+          "2b13b07c-81ff-8037-8264-ef8029c22b71",
+          "2b13b07c-81ff-8030-bfad-f9b7e47bc494",
+          "1bf3b07c-81ff-808a-be73-f024e61f8970",
+          "1ad3b07c-81ff-80c4-bfdf-e82a7b46b62e",
+          "1ad3b07c-81ff-8022-b265-c8f22fad0746",
+          "1bd3b07c-81ff-80d5-84db-ee7ecfcf9c74",
+          "1bd3b07c-81ff-80ba-aab1-daf31e8f59fa",
+          "1bd3b07c-81ff-800d-8ed5-f276b432b90f",
+          "1bd3b07c-81ff-8026-b78d-ea2eb9ab73be",
+          "1c03b07c-81ff-8074-a982-d66b8dc10d3c",
+          "1ad3b07c-81ff-807e-8e90-c7a9a006cc89",
+          "1c03b07c-81ff-801c-b4c9-d532b5741847",
+          "1ad3b07c-81ff-80c1-86ea-c17c44e088b2",
+          "1c03b07c-81ff-80f5-b5af-f3a5dd6f4fce",
+          "1ad3b07c-81ff-80e7-9b93-f5b1b076c9c4",
+          "1c03b07c-81ff-80d2-9089-ee6cd2a53a44",
+          "1c03b07c-81ff-80a1-af25-d0c37d72e56c",
+          "1c03b07c-81ff-8008-a6c5-ecf56b682820",
+          "1bf3b07c-81ff-80d2-a20f-c091f32a959b",
+          "1bf3b07c-81ff-802a-b765-fcb55f672b23",
+          "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
+          "1ad3b07c-81ff-80d3-9e1c-e62f1b0c8602",
+          "1ad3b07c-81ff-80c6-b3cd-e526c6aa90cc",
+          "1b83b07c-81ff-8068-a4ea-d57369c1318a",
+          "1b83b07c-81ff-80ef-a764-f911e40e98b1",
+          "27d3b07c-81ff-806a-b6f5-eb11cda2b41e",
+          "1ad3b07c-81ff-8024-afa3-e14ec27bc496",
+          "1bf3b07c-81ff-80a9-a3f6-e9f1c54e5d02",
+          "1bf3b07c-81ff-8084-9adb-d2af2b8c362d",
+          "1bf3b07c-81ff-8063-9043-f20e5753a572",
+          "1c03b07c-81ff-8047-be46-cb3e0b0e3f97",
+          "27c3b07c-81ff-8096-8449-eff920b94b98",
+          "27c3b07c-81ff-80c2-9c65-edb134e6ea3f",
+          "27d3b07c-81ff-808c-9414-c30fd37c630f",
+          "27d3b07c-81ff-8056-bba5-f0f0a21f324a",
+          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
+          "1c03b07c-81ff-80ff-84e2-fcf373444957",
+          "1ad3b07c-81ff-8021-b8dc-e3d75b522904",
+          "1bf3b07c-81ff-8080-b2e4-eba35337822a",
+          "1bf3b07c-81ff-80e4-b816-ce2dd2f39961",
+          "1c03b07c-81ff-80a9-8b4d-e0adf1c1a98f",
+          "1c03b07c-81ff-809a-8895-e898c991e9b0",
+          "27d3b07c-81ff-8066-b271-e38d7d66d7a2"
+        ],
+        "format": {
+          "slug": "factions",
+          "page_cover": "attachment:58b38835-b3fa-40ec-aed7-324cfb602cc4:スクリーンショット_2025-04-25_043543.png",
+          "card_cover_position": 0.6567,
+          "page_cover_position": 0.5
+        },
+        "created_time": 1741141291977,
+        "last_edited_time": 1763623466932,
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "a54d0e91-e4c1-4dce-a6a7-411f0fef0fd7",
+          "58b38835-b3fa-40ec-aed7-324cfb602cc4"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "sUO3XWzVKn7sqVrccGBuEQ,\"start\",\"end\"",
+            "n": {
+              "sUO3XWzVKn7sqVrccGBuEQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "sUO3XWzVKn7sqVrccGBuEQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "vRGmLQnSuWIg",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "派閥"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "DG0qU8VcZHkqabRu-IZ9SQ,[\"L7LHowlyAseN\",27],\"end\""
+                ]
+              },
+              "DG0qU8VcZHkqabRu-IZ9SQ,[\"L7LHowlyAseN\",27],\"end\"": {
+                "s": {
+                  "x": "DG0qU8VcZHkqabRu-IZ9SQ",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "L7LHowlyAseN",
+                        27
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "_XQ6dDfn_vJq",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -6
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-8024-ab63-c89812f4b163": {
+      "value": {
+        "id": "1b93b07c-81ff-8024-ab63-c89812f4b163",
+        "version": 9,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "名前：イルマ・イングリッド"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "1b83b07c-81ff-8148-80c6-ee12ff485624",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1742227948325,
+        "last_edited_time": 1762142002935,
+        "parent_id": "2a03b07c-81ff-80fb-8ae4-ef9aa4944ef0",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1b83b07c-81ff-8148-80c6-ee12ff485624",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "QdxirmmuC2EcvWJPl3xWPw,\"start\",\"end\"",
+            "n": {
+              "QdxirmmuC2EcvWJPl3xWPw,\"start\",\"end\"": {
+                "s": {
+                  "x": "QdxirmmuC2EcvWJPl3xWPw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "PlWJ67bHeIWr",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 13,
+                      "c": "名前：イルマ・イングリッド"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-8003-b5b8-d4e649b9322d": {
+      "value": {
+        "id": "1b93b07c-81ff-8003-b5b8-d4e649b9322d",
+        "version": 62,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "所属："
+            ],
+            [
+              "崩壊学園",
+              [
+                [
+                  "a",
+                  "/1b83b07c81ff8080a308e2151263a17e?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "、（南方軍）"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "1b83b07c-81ff-81ed-af87-e8b51227ef8a",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1742227948325,
+        "last_edited_time": 1762142002935,
+        "parent_id": "2a03b07c-81ff-80fb-8ae4-ef9aa4944ef0",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1b83b07c-81ff-81ed-af87-e8b51227ef8a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "LC8G1-xXiyRefu_rq7hTig,\"start\",\"end\"",
+            "n": {
+              "LC8G1-xXiyRefu_rq7hTig,\"start\",\"end\"": {
+                "s": {
+                  "x": "LC8G1-xXiyRefu_rq7hTig",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "YV9EJVd9LfuN",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "所属："
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "YV9EJVd9LfuN",
+                        4
+                      ],
+                      "o": [
+                        "YV9EJVd9LfuN",
+                        3
+                      ],
+                      "l": 4,
+                      "c": "崩壊学園",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "LC8G1-xXiyRefu_rq7hTig",
+                          "l": "",
+                          "i": [
+                            "YV9EJVd9LfuN",
+                            14
+                          ],
+                          "s": {
+                            "i": [
+                              "YV9EJVd9LfuN",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "YV9EJVd9LfuN",
+                              7
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b83b07c81ff8080a308e2151263a17e?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "YV9EJVd9LfuN",
+                        8
+                      ],
+                      "o": [
+                        "YV9EJVd9LfuN",
+                        7
+                      ],
+                      "l": 6,
+                      "c": "、（南方軍）"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-80c1-890c-c17625a8b046": {
+      "value": {
+        "id": "1b93b07c-81ff-80c1-890c-c17625a8b046",
+        "version": 60,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "肩書：上級教員、（崩壊の猟兵）"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "1b83b07c-81ff-818b-b78a-e9826b501b90",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1742227948325,
+        "last_edited_time": 1762142002935,
+        "parent_id": "2a03b07c-81ff-80fb-8ae4-ef9aa4944ef0",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1b83b07c-81ff-818b-b78a-e9826b501b90",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "GKuzRMuBraFhEgMbqu4kpg,\"start\",\"end\"",
+            "n": {
+              "GKuzRMuBraFhEgMbqu4kpg,\"start\",\"end\"": {
+                "s": {
+                  "x": "GKuzRMuBraFhEgMbqu4kpg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "x63jmlzjGelC",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 15,
+                      "c": "肩書：上級教員、（崩壊の猟兵）"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-803b-89b1-d1ffe92d87bb": {
+      "value": {
+        "id": "1b93b07c-81ff-803b-89b1-d1ffe92d87bb",
+        "version": 119,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "聖痕：「"
+            ],
+            [
+              "金属",
+              [
+                [
+                  "a",
+                  "/1b93b07c81ff80199d0cc9f2e837479b?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "」「"
+            ],
+            [
+              "岩",
+              [
+                [
+                  "a",
+                  "/1b93b07c81ff803c88b2c42f896a2f68?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "」の聖痕レシピエント"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "1b83b07c-81ff-8109-8be0-e14acb7188d8",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1742227948325,
+        "last_edited_time": 1762142002935,
+        "parent_id": "2a03b07c-81ff-80fb-8ae4-ef9aa4944ef0",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1b83b07c-81ff-8109-8be0-e14acb7188d8",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "uUeH_3wZ3RNZN9OkP8YJTw,\"start\",\"end\"",
+            "n": {
+              "uUeH_3wZ3RNZN9OkP8YJTw,\"start\",\"end\"": {
+                "s": {
+                  "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "omutssrSCg7t",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "聖痕：",
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            32
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            40
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "omutssrSCg7t",
+                        4
+                      ],
+                      "o": [
+                        "omutssrSCg7t",
+                        3
+                      ],
+                      "l": 1,
+                      "c": "「",
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            32
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            33
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff80199d0cc9f2e837479b?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            40
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            32
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            33
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff80199d0cc9f2e837479b?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            40
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            43
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              4
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "5n4UTXyjO_zm",
+                              16
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        24
+                      ],
+                      "o": [
+                        "omutssrSCg7t",
+                        4
+                      ],
+                      "l": 2,
+                      "c": "金属",
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            32
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            33
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff80199d0cc9f2e837479b?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            40
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            43
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              4
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "5n4UTXyjO_zm",
+                              16
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            44
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              24
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              25
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff80199d0cc9f2e837479b?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            32
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            33
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff80199d0cc9f2e837479b?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            40
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            43
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              4
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "5n4UTXyjO_zm",
+                              16
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5n4UTXyjO_zm",
+                        16
+                      ],
+                      "o": [
+                        "omutssrSCg7t",
+                        4
+                      ],
+                      "l": -1,
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            32
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            33
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff80199d0cc9f2e837479b?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            40
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        19
+                      ],
+                      "o": [
+                        "5n4UTXyjO_zm",
+                        16
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        21
+                      ],
+                      "o": [
+                        "HW4n_RbwyQ76",
+                        19
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        23
+                      ],
+                      "o": [
+                        "HW4n_RbwyQ76",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        22
+                      ],
+                      "o": [
+                        "HW4n_RbwyQ76",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        20
+                      ],
+                      "o": [
+                        "HW4n_RbwyQ76",
+                        19
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        18
+                      ],
+                      "o": [
+                        "5n4UTXyjO_zm",
+                        16
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5n4UTXyjO_zm",
+                        17
+                      ],
+                      "o": [
+                        "5n4UTXyjO_zm",
+                        16
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "omutssrSCg7t",
+                        5
+                      ],
+                      "o": [
+                        "omutssrSCg7t",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "omutssrSCg7t",
+                        6
+                      ],
+                      "o": [
+                        "omutssrSCg7t",
+                        5
+                      ],
+                      "l": 1,
+                      "c": "」",
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            32
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            34
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            36
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            40
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        26
+                      ],
+                      "o": [
+                        "omutssrSCg7t",
+                        6
+                      ],
+                      "l": 1,
+                      "c": "「",
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            34
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            35
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              27
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff803c88b2c42f896a2f68?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            36
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            34
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            35
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              27
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff803c88b2c42f896a2f68?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            36
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            37
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              28
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            39
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              28
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            41
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              28
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        31
+                      ],
+                      "o": [
+                        "HW4n_RbwyQ76",
+                        26
+                      ],
+                      "l": 1,
+                      "c": "岩",
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            34
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            35
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              27
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff803c88b2c42f896a2f68?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            36
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            37
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              28
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            38
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              31
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              31
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff803c88b2c42f896a2f68?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            39
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              28
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            41
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              28
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            42
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              31
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              31
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff803c88b2c42f896a2f68?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            34
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            35
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              27
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff803c88b2c42f896a2f68?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            36
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            37
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              28
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            39
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              28
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            41
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              28
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        28
+                      ],
+                      "o": [
+                        "HW4n_RbwyQ76",
+                        26
+                      ],
+                      "l": -1,
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            34
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            35
+                          ],
+                          "s": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "HW4n_RbwyQ76",
+                              27
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff803c88b2c42f896a2f68?pvs=25"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            36
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        30
+                      ],
+                      "o": [
+                        "HW4n_RbwyQ76",
+                        28
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        29
+                      ],
+                      "o": [
+                        "HW4n_RbwyQ76",
+                        28
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        27
+                      ],
+                      "o": [
+                        "HW4n_RbwyQ76",
+                        26
+                      ],
+                      "l": 1,
+                      "c": "」",
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            34
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "r",
+                          "x": "uUeH_3wZ3RNZN9OkP8YJTw",
+                          "l": "",
+                          "i": [
+                            "HW4n_RbwyQ76",
+                            36
+                          ],
+                          "s": {
+                            "i": [
+                              "omutssrSCg7t",
+                              6
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "omutssrSCg7t",
+                              7
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "omutssrSCg7t",
+                        7
+                      ],
+                      "o": [
+                        "omutssrSCg7t",
+                        6
+                      ],
+                      "l": 9,
+                      "c": "の聖痕レシピエント",
+                      "b": []
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "HWeFnA2pRvyezxcyWEg4eA,[\"IwFjAigi3rGd\",21],\"end\""
+                ]
+              },
+              "HWeFnA2pRvyezxcyWEg4eA,[\"IwFjAigi3rGd\",21],\"end\"": {
+                "s": {
+                  "x": "HWeFnA2pRvyezxcyWEg4eA",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        21
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-8019-9d0c-c9f2e837479b": {
+      "value": {
+        "id": "1b93b07c-81ff-8019-9d0c-c9f2e837479b",
+        "version": 55,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "「金属」の聖痕"
+            ]
+          ]
+        },
+        "content": [
+          "1b93b07c-81ff-8065-b73a-e9366e56fad4",
+          "1b93b07c-81ff-8013-b3e9-d6726a1ef399",
+          "1b93b07c-81ff-80cd-b8d9-d9e71d196795"
+        ],
+        "created_time": 1742243902157,
+        "last_edited_time": 1759053851625,
+        "parent_id": "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "b4yIVHTbqKTRXWEY69DNLQ,\"start\",\"end\"",
+            "n": {
+              "b4yIVHTbqKTRXWEY69DNLQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "b4yIVHTbqKTRXWEY69DNLQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "6rWmFAYdw0-k",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 7,
+                      "c": "「金属」の聖痕"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b93b07c-81ff-803c-88b2-c42f896a2f68": {
+      "value": {
+        "id": "1b93b07c-81ff-803c-88b2-c42f896a2f68",
+        "version": 20,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "「岩」の聖痕"
+            ]
+          ]
+        },
+        "content": [
+          "1b93b07c-81ff-80e2-8b06-f9ce9645079c",
+          "1b93b07c-81ff-808f-9af4-ee6a4fb7df8e",
+          "1b93b07c-81ff-8078-95dd-e5b9a32741de"
+        ],
+        "created_time": 1742245677384,
+        "last_edited_time": 1759053866728,
+        "parent_id": "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "dpAxq9dvFySF9StxTs3tag,\"start\",\"end\"",
+            "n": {
+              "dpAxq9dvFySF9StxTs3tag,\"start\",\"end\"": {
+                "s": {
+                  "x": "dpAxq9dvFySF9StxTs3tag",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "453JgYr_Cpgp",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 6,
+                      "c": "「岩」の聖痕"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5": {
+      "value": {
+        "id": "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5",
+        "version": 170,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "聖痕"
+            ]
+          ]
+        },
+        "content": [
+          "1bf3b07c-81ff-8071-8c71-ea1eb5624d0b",
+          "1bf3b07c-81ff-80a5-b22f-f23969ecd36c",
+          "1bf3b07c-81ff-806d-8389-c3c4accb3e90",
+          "1bf3b07c-81ff-80df-bb5b-e98331c505bb",
+          "1b63b07c-81ff-807a-8d0f-fbe759b563fe",
+          "1b63b07c-81ff-808c-9a4a-d766a16f533c",
+          "1b63b07c-81ff-8008-a9d3-d08565a44f74",
+          "1b73b07c-81ff-80c0-8697-c7d53a0ccf85",
+          "1b93b07c-81ff-8098-a4c6-d176e2d9d32d",
+          "1b93b07c-81ff-800b-8a73-e24ecb09af85",
+          "27c3b07c-81ff-80c3-88c8-fe25dbe2a704",
+          "27c3b07c-81ff-80d4-9d4c-c04ac355e061",
+          "1b93b07c-81ff-805d-92c5-c9ea7dcf38b5",
+          "1b93b07c-81ff-80e0-8028-e4e8aa7c06dc",
+          "1b73b07c-81ff-809c-aa20-c878af26209d",
+          "1bf3b07c-81ff-80bc-b81d-e21153f6f3c8",
+          "2b13b07c-81ff-804e-84e5-d7b628c42ebf",
+          "2b13b07c-81ff-8071-91e8-f886a7054bd2",
+          "2b13b07c-81ff-80b6-a232-c05c3f154a4c",
+          "1bc3b07c-81ff-805d-a768-c035877ab4bd",
+          "1b93b07c-81ff-801c-adc8-ce9b99a5c988",
+          "1bf3b07c-81ff-80e1-bb8e-f84d14b6d57a",
+          "1b93b07c-81ff-8019-9d0c-c9f2e837479b",
+          "1b93b07c-81ff-803c-88b2-c42f896a2f68",
+          "1b93b07c-81ff-80e4-8269-d677005c4cd0",
+          "1bc3b07c-81ff-80c2-b124-dfe366d619d4",
+          "1be3b07c-81ff-806c-b8f5-d71339d48092",
+          "1be3b07c-81ff-803d-ad92-ffa1906c5b70",
+          "1be3b07c-81ff-8037-bd69-c95879a1ddac",
+          "1be3b07c-81ff-8069-b19e-cdfab6910dfb"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1413b07c-81ff-8036-a548-fa1be47dc2be",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1741979389065,
+        "last_edited_time": 1763610059720,
+        "parent_id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Leng7MlaH_UnjXEMKpVRCg,\"start\",\"end\"",
+            "n": {
+              "Leng7MlaH_UnjXEMKpVRCg,\"start\",\"end\"": {
+                "s": {
+                  "x": "Leng7MlaH_UnjXEMKpVRCg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5Hk9hhyOfzF-",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "聖痕"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-803d-b570-dd34e00c1df5": {
+      "value": {
+        "id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
+        "version": 261,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "用語"
+            ]
+          ]
+        },
+        "content": [
+          "1c13b07c-81ff-80a9-9939-c0260f75f495",
+          "1bf3b07c-81ff-8055-81ae-c40dff2072b2",
+          "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5",
+          "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
+          "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+          "1b63b07c-81ff-803b-bf3a-e1be19f9a530",
+          "1bf3b07c-81ff-80a1-b1db-dd5457ff278f",
+          "1bf3b07c-81ff-80a9-94e2-cc3ad373803f",
+          "1bf3b07c-81ff-80c6-925a-d3e1fe9a4c94",
+          "1bf3b07c-81ff-80b4-b959-e3e6c2bcd9c6",
+          "1bf3b07c-81ff-805c-a52b-fe86fc0f55e0",
+          "1ad3b07c-81ff-806f-814d-e9208d31aca7",
+          "1bf3b07c-81ff-80ca-82cd-dc2a6b34742b",
+          "1bf3b07c-81ff-80d3-8e18-d55a7f713b84",
+          "1bf3b07c-81ff-80f1-9cfa-d172fcc44356",
+          "1bd3b07c-81ff-802b-881f-e69def649392",
+          "1bf3b07c-81ff-802e-93ca-d920e2751ff1",
+          "1be3b07c-81ff-801e-9bc1-cb69c4262cba",
+          "1b93b07c-81ff-8090-88e4-e5ec255d4e02",
+          "1bf3b07c-81ff-80bb-bd76-efdad8e1ea76",
+          "27c3b07c-81ff-80a9-8cfc-d1c79da175d5"
+        ],
+        "format": {
+          "slug": "glossary",
+          "page_cover": "attachment:609f03c1-d882-4fcc-affa-f4d3a7fef79f:スクリーンショット_2025-04-25_043737.png",
+          "card_cover_position": 0.6687,
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:0c2d3364-aa4c-4140-93ae-100086c0fa1e:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1741140188770,
+        "last_edited_time": 1763622970353,
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "0c2d3364-aa4c-4140-93ae-100086c0fa1e",
+          "a76c3c0a-2e2f-4011-bdb0-fb7e8c8eae2d",
+          "9f42ed99-82d8-4e4c-a878-c0c1ab8d4bd7",
+          "609f03c1-d882-4fcc-affa-f4d3a7fef79f"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "hbctKKqln5bwCZRokNkaYA,\"start\",\"end\"",
+            "n": {
+              "hbctKKqln5bwCZRokNkaYA,\"start\",\"end\"": {
+                "s": {
+                  "x": "hbctKKqln5bwCZRokNkaYA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "NEZliCbHjMKz",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "用語"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27c3b07c-81ff-80a2-9570-edaf584283ad": {
+      "value": {
+        "id": "27c3b07c-81ff-80a2-9570-edaf584283ad",
+        "version": 5,
+        "type": "column",
+        "content": [
+          "27c3b07c-81ff-8015-b643-c0917fc47c64"
+        ],
+        "format": {
+          "column_ratio": 0.5
+        },
+        "created_time": 1759053924030,
+        "last_edited_time": 1759053924037,
+        "parent_id": "27c3b07c-81ff-80de-ae81-e1ebe05a32c2",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "MZ-De5SxdZ3s9SSZxwQrZg,\"start\",\"end\"",
+            "n": {
+              "MZ-De5SxdZ3s9SSZxwQrZg,\"start\",\"end\"": {
+                "s": {
+                  "x": "MZ-De5SxdZ3s9SSZxwQrZg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27c3b07c-81ff-80a1-8ad4-fc527d43b00e": {
+      "value": {
+        "id": "27c3b07c-81ff-80a1-8ad4-fc527d43b00e",
+        "version": 5,
+        "type": "column",
+        "content": [
+          "27c3b07c-81ff-8088-838d-d492a9fa71ec"
+        ],
+        "format": {
+          "column_ratio": 0.5
+        },
+        "created_time": 1759053924033,
+        "last_edited_time": 1759053924037,
+        "parent_id": "27c3b07c-81ff-80de-ae81-e1ebe05a32c2",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "APAyb5PH0WWvdee06liEBA,\"start\",\"end\"",
+            "n": {
+              "APAyb5PH0WWvdee06liEBA,\"start\",\"end\"": {
+                "s": {
+                  "x": "APAyb5PH0WWvdee06liEBA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27c3b07c-81ff-8015-b643-c0917fc47c64": {
+      "value": {
+        "id": "27c3b07c-81ff-8015-b643-c0917fc47c64",
+        "version": 32,
+        "type": "image",
+        "properties": {
+          "size": [
+            [
+              "241.6 KB"
+            ]
+          ],
+          "title": [
+            [
+              "2024-08-09 13-59-44.mp4_snapshot_00.39_[2025.03.03_00.05.05].jpg"
+            ]
+          ],
+          "source": [
+            [
+              "attachment:b66d60e2-c097-4fa8-ace1-774c91bd9c07:2024-08-09_13-59-44.mp4_snapshot_00.39_2025.03.03_00.05.05.jpg"
+            ]
+          ],
+          "caption": [
+            [
+              "通常"
+            ]
+          ]
+        },
+        "format": {
+          "block_width": 709.9759521484375,
+          "display_source": "attachment:b66d60e2-c097-4fa8-ace1-774c91bd9c07:2024-08-09_13-59-44.mp4_snapshot_00.39_2025.03.03_00.05.05.jpg",
+          "block_full_width": false,
+          "block_page_width": true,
+          "block_aspect_ratio": 0.5625,
+          "block_preserve_scale": true
+        },
+        "created_time": 1759053917757,
+        "last_edited_time": 1759053932131,
+        "parent_id": "27c3b07c-81ff-80a2-9570-edaf584283ad",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "b66d60e2-c097-4fa8-ace1-774c91bd9c07"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "qy_-TRyS2OcRCzr5v158Fw,\"start\",\"end\"",
+            "n": {
+              "qy_-TRyS2OcRCzr5v158Fw,\"start\",\"end\"": {
+                "s": {
+                  "x": "qy_-TRyS2OcRCzr5v158Fw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 64,
+                      "c": "2024-08-09 13-59-44.mp4_snapshot_00.39_[2025.03.03_00.05.05].jpg"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27c3b07c-81ff-8088-838d-d492a9fa71ec": {
+      "value": {
+        "id": "27c3b07c-81ff-8088-838d-d492a9fa71ec",
+        "version": 57,
+        "type": "image",
+        "properties": {
+          "size": [
+            [
+              "84 KB"
+            ]
+          ],
+          "title": [
+            [
+              "2025-09-26_12-45-00.mkv_snapshot_24.19_[2025-09-26_23.12.15].jpg"
+            ]
+          ],
+          "source": [
+            [
+              "attachment:69d5ffd8-dadb-443e-9798-eead5d70419e:2025-09-26_12-45-00.mkv_snapshot_24.19_2025-09-26_23.12.15.jpg"
+            ]
+          ],
+          "caption": [
+            [
+              "戦闘服"
+            ]
+          ]
+        },
+        "format": {
+          "block_width": 1920,
+          "display_source": "attachment:69d5ffd8-dadb-443e-9798-eead5d70419e:2025-09-26_12-45-00.mkv_snapshot_24.19_2025-09-26_23.12.15.jpg",
+          "block_full_width": false,
+          "block_page_width": true,
+          "block_aspect_ratio": 0.5625,
+          "block_preserve_scale": true
+        },
+        "created_time": 1759053924027,
+        "last_edited_time": 1759053944125,
+        "parent_id": "27c3b07c-81ff-80a1-8ad4-fc527d43b00e",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "69d5ffd8-dadb-443e-9798-eead5d70419e"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "_g9-YO2Rw_44kfJ2DSk_dA,\"start\",\"end\"",
+            "n": {
+              "_g9-YO2Rw_44kfJ2DSk_dA,\"start\",\"end\"": {
+                "s": {
+                  "x": "_g9-YO2Rw_44kfJ2DSk_dA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HW4n_RbwyQ76",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 64,
+                      "c": "2025-09-26_12-45-00.mkv_snapshot_24.19_[2025-09-26_23.12.15].jpg"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    }
+  },
+  "collection": {
+    "1ac3b07c-81ff-8086-a96b-000b78a078f2": {
+      "value": {
+        "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "version": 32,
+        "name": [
+          [
+            "目次"
+          ]
+        ],
+        "schema": {
+          "`q`e": {
+            "name": "タグ",
+            "type": "multi_select"
+          },
+          "vidt": {
+            "name": "作成日時",
+            "type": "created_time"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "layout_pointer": {
+            "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+            "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "更新日時",
+              "type": "date"
+            },
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "Wegk",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": ";HBU",
+                  "color": "purple",
+                  "value": "中"
+                },
+                {
+                  "id": "Zark",
+                  "color": "default",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "ステータス",
+              "type": "status"
+            },
+            {
+              "name": "関連ファイル",
+              "type": "file"
+            },
+            {
+              "name": "連絡先メール",
+              "type": "email"
+            },
+            {
+              "name": "連絡先電話番号",
+              "type": "phone_number"
+            },
+            {
+              "name": "カテゴリー",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "o>B<",
+                  "color": "orange",
+                  "value": "技術"
+                },
+                {
+                  "id": "ksAA",
+                  "color": "pink",
+                  "value": "マーケティング"
+                },
+                {
+                  "id": "}yWP",
+                  "color": "brown",
+                  "value": "デザイン"
+                },
+                {
+                  "id": "lt{K",
+                  "color": "yellow",
+                  "value": "管理"
+                }
+              ]
+            },
+            {
+              "name": "予算",
+              "type": "number"
+            }
+          ],
+          "page_section_visibility": {
+            "comments": "section_hide",
+            "backlinks": "section_collapsed",
+            "margin_comments": "minimal"
+          },
+          "collection_cover_position": 0.7987,
+          "collection_page_properties": [
+            {
+              "visible": true,
+              "property": "vidt"
+            },
+            {
+              "visible": true,
+              "property": "`q`e"
+            }
+          ]
+        },
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
+        ],
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+      },
+      "role": "reader"
+    },
+    "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba": {
+      "role": "none"
+    }
+  },
+  "layout": {
+    "1ac3b07c-81ff-80e0-9466-006e60a7ae40": {
+      "value": {
+        "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+        "version": 5,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "parent_table": "collection",
+        "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "created_by_table": "notion_user",
+        "created_time": 1741120301429,
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_time": 1741120316045,
+        "modules": {
+          "page_layout_schema": [
+            {
+              "id": "cover",
+              "type": "cover"
+            },
+            {
+              "id": "R=YI",
+              "type": "titleWithIcon"
+            },
+            {
+              "id": "discussions",
+              "type": "discussions"
+            },
+            {
+              "id": "editor",
+              "type": "editor"
+            }
+          ],
+          "page_info_layout_schema": [
+            {
+              "id": "vPyb",
+              "type": "properties"
+            }
+          ]
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-801e-8fb8-006ea2bd8886": {
+      "role": "none"
+    }
+  },
+  "collection_view": {
+    "1ac3b07c-81ff-80ee-821a-000cec78a24c": {
+      "value": {
+        "id": "1ac3b07c-81ff-80ee-821a-000cec78a24c",
+        "version": 38,
+        "type": "gallery",
+        "name": "ギャラリービュー",
+        "format": {
+          "table_wrap": false,
+          "gallery_cover": {
+            "type": "page_cover"
+          },
+          "collection_pointer": {
+            "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+            "table": "collection",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "gallery_cover_size": "medium",
+          "collection_peek_mode": "full_page",
+          "gallery_cover_aspect": "cover"
+        },
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "page_sort": [
+          "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
+          "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
+          "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+          "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
+          "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+          "1ad3b07c-81ff-809c-8204-e16483640fa5",
+          "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
+          "1c83b07c-81ff-803f-99b6-f7010f54b710",
+          "2573b07c-81ff-8076-8c97-c512393c2dc8",
+          "1b63b07c-81ff-809a-8e66-e4e88abf2006"
+        ],
+        "query2": {
+          "aggregations": [
+            {
+              "aggregator": "count"
+            }
+          ]
+        },
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1748772241834,
+        "last_edited_time": 1755881175648,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+      },
+      "role": "reader"
+    },
+    "5531d29a-4e77-406f-a1fc-32cd5bbafec7": {
+      "role": "none"
+    },
+    "5dd8ee8a-3d52-42e6-b781-ac5db580f283": {
+      "role": "none"
+    },
+    "401ba18e-ee37-450f-b369-015c2957f5d4": {
+      "role": "none"
+    },
+    "5961b724-b949-48b2-aef2-d5c03eacd1d8": {
+      "role": "none"
+    },
+    "1ad3b07c-81ff-8037-9574-000c12eb1c9d": {
+      "role": "none"
+    }
+  },
+  "notion_user": {},
+  "collection_query": {},
+  "signed_urls": {
+    "27c3b07c-81ff-803c-b556-c041d4cb30fa": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/6f090089-410d-4c90-b097-c3ae6b7b3a3f/760ca1e5gy1hzognezujrj20sg1144qp.jpg?table=block&id=27c3b07c-81ff-803c-b556-c041d4cb30fa&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=wtcrGRRaIlGMzEe995wTkXSLmut_0k0-BhXmnYvwP7I",
+    "27c3b07c-81ff-8015-b643-c0917fc47c64": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/b66d60e2-c097-4fa8-ace1-774c91bd9c07/2024-08-09_13-59-44.mp4_snapshot_00.39_2025.03.03_00.05.05.jpg?table=block&id=27c3b07c-81ff-8015-b643-c0917fc47c64&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=15T_nsewJ0JebHT4KvzthOYJVjan69vN0ChWIIKDExA",
+    "27c3b07c-81ff-8088-838d-d492a9fa71ec": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/69d5ffd8-dadb-443e-9798-eead5d70419e/2025-09-26_12-45-00.mkv_snapshot_24.19_2025-09-26_23.12.15.jpg?table=block&id=27c3b07c-81ff-8088-838d-d492a9fa71ec&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763812800000&signature=kaUnu8iGuwSy0GT9L542Eqwd9DSlkh_lSSGza8jBL4A"
+  }
+}
