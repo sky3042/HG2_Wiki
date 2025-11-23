@@ -31,22 +31,37 @@ export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
   }
 }
 
+// XMLエスケープ関数（特殊文字を無害化）
+const xmlEscape = (str: string) => {
+  if (!str) return ''
+  return str.replace(/[<>&'"]/g, (c) => {
+    switch (c) {
+      case '<': return '&lt;'
+      case '>': return '&gt;'
+      case '&': return '&amp;'
+      case '\'': return '&apos;'
+      case '"': return '&quot;'
+      default: return c
+    }
+  })
+}
+
 const createSitemap = (siteMap: SiteMap) =>
   `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-      <loc>${host}</loc>
+      <loc>${xmlEscape(host)}</loc>
     </url>
 
     <url>
-      <loc>${host}/</loc>
+      <loc>${xmlEscape(`${host}/`)}</loc>
     </url>
 
     ${Object.keys(siteMap.canonicalPageMap)
       .map((canonicalPagePath) =>
         `
           <url>
-            <loc>${host}/${canonicalPagePath}</loc>
+            <loc>${xmlEscape(`${host}/${canonicalPagePath}`)}</loc>
           </url>
         `.trim()
       )
