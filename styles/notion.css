@@ -437,3 +437,8 @@
   border-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
 }
+/* タイトル下のプロパティ一覧（Slugや日付など）を非表示にする */
+.notion-page-properties,
+.notion-collection-page-properties {
+  display: none !important;
+}
