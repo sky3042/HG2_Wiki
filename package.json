@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-notion-starter-kit",
+  "name": "houkai-gakuen-wiki",
   "version": "2.0.0",
   "private": true,
-  "description": "The perfect starter kit for building beautiful websites with Next.js and Notion.",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
-  "repository": "transitive-bullshit/nextjs-notion-starter-kit",
+  "description": "崩壊学園のWikiサイト",
+  "author": "Sky",
+  "repository": "sky3042/HG2_Wiki",
   "license": "MIT",
   "engines": {
     "node": ">=18"
@@ -12,7 +12,8 @@
   "type": "module",
   "scripts": {
     "fetch-data": "npx tsx scripts/fetch-data.ts",
-    "update": "npx tsx scripts/fetch-data.ts && git add . && git commit -m \"Update content\" && git push",
+    "generate-sitemap": "npx tsx scripts/generate-sitemap.ts",
+    "update": "npx tsx scripts/fetch-data.ts && npx tsx scripts/generate-sitemap.ts && git add . && git commit -m \"Update content\" && git push",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

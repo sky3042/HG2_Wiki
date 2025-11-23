@@ -13,8 +13,8 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '崩壊学園編Wiki',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  name: '崩壊学園Wiki',
+  domain: 'houkai-gakuen-wiki.com',
   author: 'Sky',
 
   // open graph metadata (optional)
