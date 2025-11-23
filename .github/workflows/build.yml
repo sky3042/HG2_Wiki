@@ -16,18 +16,20 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
+
+      # pnpm のセットアップ（pnpm/action-setup）は削除します
+
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
+          cache: 'npm' # pnpm から npm に変更
 
-      - run: pnpm install --frozen-lockfile --strict-peer-dependencies
-      - run: pnpm test
+      # pnpm install から npm install に変更
+      - run: npm install
+      
+      # pnpm test から npm test に変更
+      - run: npm test
 
-      # TODO Enable those lines below if you use a Redis cache, you'll also need to configure GitHub Repository Secrets
-      # env:
-      #   REDIS_HOST: ${{ secrets.REDIS_HOST }}
-      #   REDIS_PASSWORD: ${{ secrets.REDIS_PASSWORD }}
+      # 必要であればビルドも有効化（npm run build）
       # - name: Build
-      #   run: pnpm build
+      #   run: npm run build
