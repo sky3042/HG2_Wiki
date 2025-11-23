@@ -1,0 +1,49 @@
+name: Daily Content Update
+
+on:
+  # 1. スケジュール実行 (日本時間の朝 4:00)
+  schedule:
+    # UTC 19:00 = JST 04:00
+    - cron: '0 19 * * *'
+  
+  # 2. 手動実行 (GitHub画面から「Run workflow」ボタンで即時実行可能)
+  workflow_dispatch:
+
+permissions:
+  contents: write # リポジトリへの書き込み権限（更新データのプッシュに必要）
+
+jobs:
+  update-content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15 # 万が一暴走した時のために制限
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci # 依存関係をクリーンインストール
+
+      - name: Run update scripts
+        # ここでデータ取得とサイトマップ生成を行います
+        run: |
+          npx tsx scripts/fetch-data.ts
+          npx tsx scripts/generate-sitemap.ts
+        env:
+          # GitHubに登録したSecretを読み込んでスクリプトに渡します
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_ACTIVE_USER: ${{ secrets.NOTION_ACTIVE_USER }}
+
+      - name: Commit and Push changes
+        # 変更があった場合のみコミットしてプッシュします
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: daily content update"
+          branch: main
+          file_pattern: 'data/* canonical-map.json' # 変更を監視するファイル
