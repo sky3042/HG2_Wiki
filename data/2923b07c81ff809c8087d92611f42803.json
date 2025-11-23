@@ -3,7 +3,7 @@
     "2923b07c-81ff-809c-8087-d92611f42803": {
       "value": {
         "id": "2923b07c-81ff-809c-8087-d92611f42803",
-        "version": 23,
+        "version": 35,
         "type": "page",
         "properties": {
           "title": [
@@ -25,15 +25,19 @@
           "2923b07c-81ff-8012-a376-d331e0f885d9"
         ],
         "format": {
-          "social_media_image_preview_url": "attachment:11681921-4363-49c7-a98b-b2997412951f:SocialMediaPreviewImage.png"
+          "page_cover": "https://pbs.twimg.com/media/Gkxur0TaoAE18eO?format=jpg&name=medium",
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:d2dd00c0-a354-4590-8665-376322f992e8:SocialMediaPreviewImage.png"
         },
         "created_time": 1760968697051,
-        "last_edited_time": 1760968803984,
+        "last_edited_time": 1763902033486,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
         "file_ids": [
-          "11681921-4363-49c7-a98b-b2997412951f"
+          "11681921-4363-49c7-a98b-b2997412951f",
+          "28cea78e-0ac0-4411-92b9-09a3bccac408",
+          "d2dd00c0-a354-4590-8665-376322f992e8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -254,7 +258,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 345,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -290,9 +294,6 @@
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
@@ -332,7 +333,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1763811578341,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
