@@ -56,7 +56,14 @@ export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
     const description =
       getPageProperty<string>('Description', block, recordMap) ||
       config.description
+    
+    // URLを取得
     const url = getCanonicalPageUrl(config.site, recordMap)(pageId)
+    
+    // ▼▼▼ 修正箇所：URLが無効な場合はスキップする（エラー回避） ▼▼▼
+    if (!url) continue
+    // ▲▲▲
+
     const lastUpdatedTime = getPageProperty<number>(
       'Last Updated',
       block,
@@ -66,8 +73,8 @@ export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
     const date = lastUpdatedTime
       ? new Date(lastUpdatedTime)
       : publishedTime
-        ? new Date(publishedTime)
-        : new Date()
+      ? new Date(publishedTime)
+      : new Date()
     const socialImageUrl = getSocialImageUrl(pageId)
 
     feed.item({
