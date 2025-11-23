@@ -14,14 +14,13 @@ export const mapPageUrl =
     searchParams: URLSearchParams,
     canonicalPageMap?: CanonicalPageMap
   ) => {
-    // 高速検索用の「ID逆引き辞典」を作成
+    // 住所録検索用のインデックス
     const pageIdToUrl = new Map<string, string>()
     
     if (canonicalPageMap) {
       for (const url of Object.keys(canonicalPageMap)) {
         const id = uuidToId(canonicalPageMap[url]!)
         if (id) {
-          // ▼▼▼ 修正: IDを小文字に統一して登録 ▼▼▼
           pageIdToUrl.set(id.toLowerCase(), url)
         }
       }
@@ -49,49 +48,15 @@ export const mapPageUrl =
         return createUrl('/', searchParams) + anchor
       }
 
-      // 2. 辞書を使って正しいURLを検索
       const cleanUuid = uuidToId(pageUuid)
-      // ▼▼▼ 修正: 検索時も小文字に統一して探す ▼▼▼
       const lookupId = cleanUuid.toLowerCase()
 
+      // ★住所録にあれば、そのURL（IDなしかもしれない）を使う
       if (pageIdToUrl.has(lookupId)) {
         return createUrl(`/${pageIdToUrl.get(lookupId)}`, searchParams) + anchor
       }
-      // ▲▲▲ ここまで ▲▲▲
 
-      // 3. ブロックリンク対応
-      const block = recordMap.block[pageUuid]?.value
-
-      if (block) {
-        const type = block.type as string
-        if (type !== 'page' && type !== 'collection_view_page') {
-          let parent = block
-          while (parent && (parent.type as string) !== 'page' && (parent.type as string) !== 'collection_view_page' && parent.parent_id) {
-             const parentBlock = recordMap.block[parent.parent_id]?.value
-             if (parentBlock) {
-               parent = parentBlock
-             } else {
-               break
-             }
-          }
-
-          if (parent) {
-             const parentUuid = parent.id
-             let parentUrl = ''
-             const parentCleanUuid = uuidToId(parentUuid).toLowerCase() // ここも小文字化
-
-             if (pageIdToUrl.has(parentCleanUuid)) {
-               parentUrl = pageIdToUrl.get(parentCleanUuid)!
-             } else {
-               parentUrl = getCanonicalPageId(parentUuid, recordMap, { uuid }) || uuidToId(parentUuid)
-             }
-
-             const base = createUrl(`/${parentUrl}`, searchParams)
-             return `${base}#${uuidToId(pageUuid)}`
-          }
-        }
-      }
-
+      // ★住所録になければ、基本ルール（タイトル-ID）を使うので404にはならない
       return createUrl(
         `/${getCanonicalPageId(pageUuid, recordMap, { uuid })}`,
         searchParams

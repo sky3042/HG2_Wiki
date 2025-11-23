@@ -8,10 +8,22 @@ import { includeNotionIdInUrls } from './config'
 import type * as types from './types'
 
 export async function getSiteMap(): Promise<types.SiteMap> {
-  const dataDir = path.join(process.cwd(), 'data')
   const pageMap: types.PageMap = {}
+  
+  const canonicalMapPath = path.join(process.cwd(), 'canonical-map.json')
+  let canonicalPageMap: any = null
 
-  // 1. データの読み込み
+  // キャッシュがあれば読み込む
+  if (fs.existsSync(canonicalMapPath)) {
+    try {
+      canonicalPageMap = JSON.parse(fs.readFileSync(canonicalMapPath, 'utf8'))
+    } catch (err) {
+      console.warn('Failed to load canonical-map.json', err)
+    }
+  }
+
+  // データ読み込み
+  const dataDir = path.join(process.cwd(), 'data')
   if (fs.existsSync(dataDir)) {
     const files = fs.readdirSync(dataDir).filter((f) => f.endsWith('.json'))
     for (const file of files) {
@@ -26,77 +38,83 @@ export async function getSiteMap(): Promise<types.SiteMap> {
     }
   }
 
-  // 2. URLの重複カウント用マップを作成
-  const urlCounts: Record<string, number> = {}
-  const pageIdToIntendedUrl: Record<string, string> = {}
+  // サイトマップ生成（ID削除の判断はここで行う）
+  if (!canonicalPageMap) {
+    const urlCounts: Record<string, number> = {}
+    const pageIdToTitle: Record<string, string> = {}
+    const pageIdToSlug: Record<string, string> = {}
 
-  // まず全ページを走査して「希望するURL」を決める
-  for (const pageId of Object.keys(pageMap)) {
-    const recordMap = pageMap[pageId]
-    
-    // 【修正】recordMap が存在しない場合はスキップ（型エラー回避）
-    if (!recordMap) continue
+    // ステップA: 全ページのタイトルを収集してカウント
+    for (const pageId of Object.keys(pageMap)) {
+      const recordMap = pageMap[pageId]
+      if (!recordMap) continue
+      const blockId = idToUuid(pageId)
+      const block = recordMap.block[blockId]?.value
+      if (!block) continue
 
-    const blockId = idToUuid(pageId)
-    const block = recordMap.block[blockId]?.value
+      if (!(getPageProperty<boolean | null>('Public', block, recordMap) ?? true)) {
+        continue
+      }
 
-    if (!block) continue
-
-    // 非公開ページはスキップ
-    if (!(getPageProperty<boolean | null>('Public', block, recordMap) ?? true)) {
-      continue
-    }
-
-    let url = ''
-    if (includeNotionIdInUrls) {
-      url = uuidToId(pageId)
-    } else {
-      // Slugがあればそれを使う
       const slug = getPageProperty<string>('Slug', block, recordMap)
       if (slug) {
-        url = slug
+        pageIdToSlug[pageId] = slug
       } else {
-        // Slugがなければタイトルを使う
         const title = getBlockTitle(block, recordMap)
         if (title) {
-          url = title.trim().replace(/\s+/g, '-')
-        } else {
-          url = uuidToId(pageId)
+          const cleanTitle = title.trim().replace(/\s+/g, '-')
+          pageIdToTitle[pageId] = cleanTitle
+          // タイトルの出現回数をカウント
+          urlCounts[cleanTitle] = (urlCounts[cleanTitle] || 0) + 1
         }
       }
     }
 
-    // 希望URLを記録し、出現回数をカウントする
-    if (url) {
-      pageIdToIntendedUrl[pageId] = url
-      urlCounts[url] = (urlCounts[url] || 0) + 1
-    }
+    // ステップB: URLを確定させる
+    canonicalPageMap = Object.keys(pageMap).reduce(
+      (map: Record<string, string>, pageId: string) => {
+        const recordMap = pageMap[pageId]
+        if (!recordMap) return map
+        
+        // 公開チェック
+        const blockId = idToUuid(pageId)
+        const block = recordMap.block[blockId]?.value
+        if (!block) return map
+        if (!(getPageProperty<boolean | null>('Public', block, recordMap) ?? true)) {
+          return map
+        }
+
+        let url = ''
+        
+        // 1. Slugがあればそれ
+        if (pageIdToSlug[pageId]) {
+           url = pageIdToSlug[pageId]
+        } 
+        // 2. タイトルがあれば重複チェック
+        else if (pageIdToTitle[pageId]) {
+           const title = pageIdToTitle[pageId]
+           
+           // ★重複していない（カウントが1）なら、IDなしのきれいなタイトルを使う
+           if (urlCounts[title] === 1) {
+             url = title
+           } else {
+             // 重複しているなら、ID付きにする
+             url = `${title}-${uuidToId(pageId)}`
+           }
+        } 
+        // 3. タイトルもなければIDのみ
+        else {
+           url = uuidToId(pageId)
+        }
+
+        return {
+          ...map,
+          [url]: pageId
+        }
+      },
+      {}
+    )
   }
-
-  // 3. サイトマップの確定（重複があればIDを付与）
-  const canonicalPageMap = Object.keys(pageIdToIntendedUrl).reduce(
-    (map: Record<string, string>, pageId: string) => {
-      const intendedUrl = pageIdToIntendedUrl[pageId]
-      
-      // 【修正】intendedUrl が undefined の場合はスキップ
-      if (!intendedUrl) return map
-
-      let finalUrl = intendedUrl
-
-      // もしこのURLが全体で2回以上登場していたら、強制的にIDを付けて区別する
-      const count = urlCounts[intendedUrl]
-      if (count && count > 1) {
-        console.warn(`Duplicate URL detected: "${intendedUrl}". Appending ID to make unique.`)
-        finalUrl = `${intendedUrl}-${uuidToId(pageId)}`
-      }
-
-      return {
-        ...map,
-        [finalUrl]: pageId
-      }
-    },
-    {}
-  )
 
   return {
     site: config.site,

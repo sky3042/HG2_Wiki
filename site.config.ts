@@ -5,7 +5,7 @@ export default siteConfig({
   rootNotionPageId: '1ac3b07c81ff80d184a1f564abe7fef3',
 
   // ▼▼▼ これを追加してください ▼▼▼
-  includeNotionIdInUrls: false,
+  includeNotionIdInUrls: true,
   // ▲▲▲ ここまで ▲▲▲
 
   // if you want to restrict pages to a single notion workspace (optional)
