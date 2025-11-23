@@ -19,16 +19,15 @@ export const mapPageUrl =
     
     if (canonicalPageMap) {
       for (const url of Object.keys(canonicalPageMap)) {
-        // ▼▼▼ 修正箇所：末尾に ! をつけて「値は必ずある」と明示 ▼▼▼
         const id = uuidToId(canonicalPageMap[url]!)
         if (id) {
-          pageIdToUrl.set(id, url)
+          // ▼▼▼ 修正: IDを小文字に統一して登録 ▼▼▼
+          pageIdToUrl.set(id.toLowerCase(), url)
         }
       }
     }
 
     return (pageId = '') => {
-      // 1. アンカー(#以降)の処理
       let anchor = ''
       let cleanPageIdString = pageId
 
@@ -52,12 +51,15 @@ export const mapPageUrl =
 
       // 2. 辞書を使って正しいURLを検索
       const cleanUuid = uuidToId(pageUuid)
+      // ▼▼▼ 修正: 検索時も小文字に統一して探す ▼▼▼
+      const lookupId = cleanUuid.toLowerCase()
 
-      if (pageIdToUrl.has(cleanUuid)) {
-        return createUrl(`/${pageIdToUrl.get(cleanUuid)}`, searchParams) + anchor
+      if (pageIdToUrl.has(lookupId)) {
+        return createUrl(`/${pageIdToUrl.get(lookupId)}`, searchParams) + anchor
       }
+      // ▲▲▲ ここまで ▲▲▲
 
-      // 3. 見出しブロックへのリンク対応
+      // 3. ブロックリンク対応
       const block = recordMap.block[pageUuid]?.value
 
       if (block) {
@@ -76,9 +78,8 @@ export const mapPageUrl =
           if (parent) {
              const parentUuid = parent.id
              let parentUrl = ''
-             const parentCleanUuid = uuidToId(parentUuid)
+             const parentCleanUuid = uuidToId(parentUuid).toLowerCase() // ここも小文字化
 
-             // 親ページもMapから検索
              if (pageIdToUrl.has(parentCleanUuid)) {
                parentUrl = pageIdToUrl.get(parentCleanUuid)!
              } else {
@@ -91,7 +92,6 @@ export const mapPageUrl =
         }
       }
 
-      // 4. 通常生成（フォールバック）
       return createUrl(
         `/${getCanonicalPageId(pageUuid, recordMap, { uuid })}`,
         searchParams
