@@ -17,19 +17,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # pnpm のセットアップ（pnpm/action-setup）は削除します
-
+      # pnpm のセットアップを削除し、npm のキャッシュ設定に変更
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm' # pnpm から npm に変更
+          cache: 'npm'
 
-      # pnpm install から npm install に変更
+      # pnpm install -> npm install に変更
       - run: npm install
       
-      # pnpm test から npm test に変更
+      # pnpm test -> npm test に変更
       - run: npm test
 
-      # 必要であればビルドも有効化（npm run build）
+      # ビルドコマンドも npm に変更 (必要であればコメントアウトを外してください)
       # - name: Build
       #   run: npm run build
