@@ -186,7 +186,8 @@ export function NotionPage({
   site,
   recordMap,
   error,
-  pageId
+  pageId,
+  canonicalPageMap
 }: types.PageProps) {
   const router = useRouter()
   const lite = useSearchParam('lite')
@@ -219,8 +220,10 @@ export function NotionPage({
     if (lite) params.lite = lite
 
     const searchParams = new URLSearchParams(params)
-    return site ? mapPageUrl(site, recordMap!, searchParams) : undefined
-  }, [site, recordMap, lite])
+    return site
+      ? mapPageUrl(site, recordMap!, searchParams, canonicalPageMap)
+      : undefined
+  }, [site, recordMap, lite, canonicalPageMap])
 
   const keys = Object.keys(recordMap?.block || {})
   const block = recordMap?.block?.[keys[0]!]?.value

@@ -14,7 +14,7 @@ export const mapPageUrl =
     searchParams: URLSearchParams,
     canonicalPageMap?: CanonicalPageMap
   ) => {
-    // 住所録検索用のインデックス
+    // 高速検索用の「ID逆引き辞典」を作成
     const pageIdToUrl = new Map<string, string>()
     
     if (canonicalPageMap) {
@@ -27,6 +27,7 @@ export const mapPageUrl =
     }
 
     return (pageId = '') => {
+      // 1. アンカー(#以降)があれば退避
       let anchor = ''
       let cleanPageIdString = pageId
 
@@ -48,15 +49,55 @@ export const mapPageUrl =
         return createUrl('/', searchParams) + anchor
       }
 
+      // 2. 辞書を使って正しいURLを検索（ページの場合）
       const cleanUuid = uuidToId(pageUuid)
       const lookupId = cleanUuid.toLowerCase()
 
-      // ★住所録にあれば、そのURL（IDなしかもしれない）を使う
       if (pageIdToUrl.has(lookupId)) {
         return createUrl(`/${pageIdToUrl.get(lookupId)}`, searchParams) + anchor
       }
 
-      // ★住所録になければ、基本ルール（タイトル-ID）を使うので404にはならない
+      // 3. 辞書にない場合、それが「ブロック」かどうか確認する
+      const block = recordMap.block[pageUuid]?.value
+
+      if (block) {
+        const type = block.type as string
+        // ページ自体ではない場合（＝見出しやテキストへのリンク）
+        if (type !== 'page' && type !== 'collection_view_page') {
+          
+          // 親ページまで遡る
+          let parent = block
+          while (parent && (parent.type as string) !== 'page' && (parent.type as string) !== 'collection_view_page' && parent.parent_id) {
+             const parentBlock = recordMap.block[parent.parent_id]?.value
+             if (parentBlock) {
+               parent = parentBlock
+             } else {
+               break
+             }
+          }
+
+          // 親ページが見つかったら、そのURLを取得してアンカーをつける
+          if (parent) {
+             const parentUuid = parent.id
+             let parentUrl = ''
+             const parentCleanUuid = uuidToId(parentUuid).toLowerCase()
+
+             // 親ページのURLを辞書から探す
+             if (pageIdToUrl.has(parentCleanUuid)) {
+               parentUrl = pageIdToUrl.get(parentCleanUuid)!
+             } else {
+               // 辞書になければ基本生成
+               parentUrl = getCanonicalPageId(parentUuid, recordMap, { uuid }) || uuidToId(parentUuid)
+             }
+
+             // URL + クエリ + #ブロックID
+             const base = createUrl(`/${parentUrl}`, searchParams)
+             return `${base}#${uuidToId(pageUuid)}`
+          }
+        }
+      }
+
+      // 4. 通常生成（フォールバック）
       return createUrl(
         `/${getCanonicalPageId(pageUuid, recordMap, { uuid })}`,
         searchParams

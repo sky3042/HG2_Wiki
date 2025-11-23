@@ -10,18 +10,6 @@ import type * as types from './types'
 export async function getSiteMap(): Promise<types.SiteMap> {
   const pageMap: types.PageMap = {}
   
-  const canonicalMapPath = path.join(process.cwd(), 'canonical-map.json')
-  let canonicalPageMap: any = null
-
-  // キャッシュがあれば読み込む
-  if (fs.existsSync(canonicalMapPath)) {
-    try {
-      canonicalPageMap = JSON.parse(fs.readFileSync(canonicalMapPath, 'utf8'))
-    } catch (err) {
-      console.warn('Failed to load canonical-map.json', err)
-    }
-  }
-
   // データ読み込み
   const dataDir = path.join(process.cwd(), 'data')
   if (fs.existsSync(dataDir)) {
@@ -38,82 +26,71 @@ export async function getSiteMap(): Promise<types.SiteMap> {
     }
   }
 
-  // サイトマップ生成（ID削除の判断はここで行う）
-  if (!canonicalPageMap) {
-    const urlCounts: Record<string, number> = {}
-    const pageIdToTitle: Record<string, string> = {}
-    const pageIdToSlug: Record<string, string> = {}
+  const canonicalPageMap: types.CanonicalPageMap = {}
+  
+  const urlCounts: Record<string, number> = {}
+  const pageIdToTitle: Record<string, string> = {}
+  const pageIdToSlug: Record<string, string> = {}
 
-    // ステップA: 全ページのタイトルを収集してカウント
-    for (const pageId of Object.keys(pageMap)) {
-      const recordMap = pageMap[pageId]
-      if (!recordMap) continue
-      const blockId = idToUuid(pageId)
-      const block = recordMap.block[blockId]?.value
-      if (!block) continue
+  // ステップA: 全ページのタイトル/Slugを収集してカウント
+  for (const pageId of Object.keys(pageMap)) {
+    const recordMap = pageMap[pageId]
+    if (!recordMap) continue
+    const blockId = idToUuid(pageId)
+    const block = recordMap.block[blockId]?.value
+    if (!block) continue
 
-      if (!(getPageProperty<boolean | null>('Public', block, recordMap) ?? true)) {
-        continue
-      }
-
-      const slug = getPageProperty<string>('Slug', block, recordMap)
-      if (slug) {
-        pageIdToSlug[pageId] = slug
-      } else {
-        const title = getBlockTitle(block, recordMap)
-        if (title) {
-          const cleanTitle = title.trim().replace(/\s+/g, '-')
-          pageIdToTitle[pageId] = cleanTitle
-          // タイトルの出現回数をカウント
-          urlCounts[cleanTitle] = (urlCounts[cleanTitle] || 0) + 1
-        }
-      }
+    if (!(getPageProperty<boolean | null>('Public', block, recordMap) ?? true)) {
+      continue
     }
 
-    // ステップB: URLを確定させる
-    canonicalPageMap = Object.keys(pageMap).reduce(
-      (map: Record<string, string>, pageId: string) => {
-        const recordMap = pageMap[pageId]
-        if (!recordMap) return map
-        
-        // 公開チェック
-        const blockId = idToUuid(pageId)
-        const block = recordMap.block[blockId]?.value
-        if (!block) return map
-        if (!(getPageProperty<boolean | null>('Public', block, recordMap) ?? true)) {
-          return map
-        }
+    const slug = getPageProperty<string>('Slug', block, recordMap)
+    if (slug) {
+      pageIdToSlug[pageId] = slug
+    } else {
+      const title = getBlockTitle(block, recordMap)
+      if (title) {
+        const cleanTitle = title.trim().replace(/\s+/g, '-')
+        pageIdToTitle[pageId] = cleanTitle
+        urlCounts[cleanTitle] = (urlCounts[cleanTitle] || 0) + 1
+      }
+    }
+  }
 
-        let url = ''
-        
-        // 1. Slugがあればそれ
-        if (pageIdToSlug[pageId]) {
-           url = pageIdToSlug[pageId]
-        } 
-        // 2. タイトルがあれば重複チェック
-        else if (pageIdToTitle[pageId]) {
-           const title = pageIdToTitle[pageId]
-           
-           // ★重複していない（カウントが1）なら、IDなしのきれいなタイトルを使う
-           if (urlCounts[title] === 1) {
-             url = title
-           } else {
-             // 重複しているなら、ID付きにする
-             url = `${title}-${uuidToId(pageId)}`
-           }
-        } 
-        // 3. タイトルもなければIDのみ
-        else {
-           url = uuidToId(pageId)
-        }
+  // ステップB: URL確定
+  for (const pageId of Object.keys(pageMap)) {
+    const recordMap = pageMap[pageId]
+    if (!recordMap) continue
+    const blockId = idToUuid(pageId)
+    const block = recordMap.block[blockId]?.value
+    if (!block) continue
 
-        return {
-          ...map,
-          [url]: pageId
+    if (!(getPageProperty<boolean | null>('Public', block, recordMap) ?? true)) {
+      continue
+    }
+
+    let url = ''
+
+    if (pageIdToSlug[pageId]) {
+        url = pageIdToSlug[pageId]
+    } else if (pageIdToTitle[pageId]) {
+        const title = pageIdToTitle[pageId]
+        
+        // ★ここがロジックの核心★
+        // 重複していない(count == 1) なら、きれいなタイトル(IDなし)
+        if (urlCounts[title] === 1) {
+          url = title
+        } else {
+          // 重複しているなら、タイトル-ID (安全策)
+          url = `${title}-${uuidToId(pageId)}`
         }
-      },
-      {}
-    )
+    } else {
+        url = uuidToId(pageId)
+    }
+
+    if (url) {
+      canonicalPageMap[url] = pageId
+    }
   }
 
   return {

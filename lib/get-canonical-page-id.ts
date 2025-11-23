@@ -32,13 +32,13 @@ export function getCanonicalPageId(
   }
 
   if (block) {
-    // Slugがあればそれを使う
+    // A. Slugがあれば最優先
     const slug = getPageProperty<string>('Slug', block, recordMap)
     if (slug) {
       return slug
     }
 
-    // Slugがなければ、必ず「タイトル-ID」を返す（基本動作）
+    // B. Slugがない場合、必ず「タイトル-ID」を返す（安全なフォールバック）
     const title = getBlockTitle(block, recordMap)
     if (title) {
       const cleanTitle = title.trim().replace(/\s+/g, '-')

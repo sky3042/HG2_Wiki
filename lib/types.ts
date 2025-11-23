@@ -1,6 +1,5 @@
-import { type ParsedUrlQuery } from 'node:querystring'
-
 import { type ExtendedRecordMap, type PageMap } from 'notion-types'
+import { type ParsedUrlQuery } from 'node:querystring'
 
 export * from 'notion-types'
 
@@ -16,6 +15,7 @@ export interface PageProps {
   recordMap?: ExtendedRecordMap
   pageId?: string
   error?: PageError
+  canonicalPageMap?: CanonicalPageMap // ★これを追加
 }
 
 export interface ExtendedTweetRecordMap extends ExtendedRecordMap {
@@ -55,14 +55,10 @@ export interface CanonicalPageMap {
 }
 
 export interface PageUrlOverridesMap {
-  // maps from a URL path to the notion page id the page should be resolved to
-  // (this overrides the built-in URL path generation for these pages)
   [pagePath: string]: string
 }
 
 export interface PageUrlOverridesInverseMap {
-  // maps from a notion page id to the URL path the page should be resolved to
-  // (this overrides the built-in URL path generation for these pages)
   [pageId: string]: string
 }
 
