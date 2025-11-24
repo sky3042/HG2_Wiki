@@ -13,7 +13,7 @@
   "scripts": {
     "fetch-data": "npx tsx scripts/fetch-data.ts",
     "generate-sitemap": "npx tsx scripts/generate-sitemap.ts",
-    "update": "npx tsx scripts/fetch-spreadsheet.ts && npx tsx scripts/fetch-data.ts && npx tsx scripts/generate-sitemap.ts && git add . && git commit -m \"Update content\" && git push",
+    "update": "npx tsx scripts/deploy.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

@@ -32,44 +32,82 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   
   // --- 状態管理 ---
   const [activeTab, setActiveTab] = React.useState(sheetNames[0] || '');
-  const [searchQuery, setSearchQuery] = React.useState('');
+  
+  // 全体検索 (タブを変えても維持する)
+  const [globalSearchQuery, setGlobalSearchQuery] = React.useState('');
+  
+  // 列ごとのフィルター (タブが変わったらリセット推奨だが、維持したい場合はここを調整)
+  const [columnFilters, setColumnFilters] = React.useState<Record<number, string>>({});
+  
+  // ソート設定
   const [sortConfig, setSortConfig] = React.useState<{ colIndex: number, direction: 'asc' | 'desc' } | null>(null);
+  
+  // ページネーション
   const [currentPage, setCurrentPage] = React.useState(1);
 
-  // --- データ処理ロジック ---
+  // --- データ処理 ---
   const rawData = sheets[activeTab] || [];
   const header = rawData[0] || [];
   const bodyRows = rawData.slice(1);
 
-  // 1. 検索（全件フィルタリング）
-  const filteredRows = React.useMemo(() => {
-    if (!searchQuery) return bodyRows;
-    const lowerQuery = searchQuery.toLowerCase();
-    return bodyRows.filter(row => 
-      row.some((cell: any) => String(cell).toLowerCase().includes(lowerQuery))
-    );
-  }, [bodyRows, searchQuery]);
+  // 1. 空白行の削除 & データ整形
+  const cleanRows = React.useMemo(() => {
+    return bodyRows.filter(row => {
+      // セルの中身が1つでもあれば「有効な行」とみなす
+      return row.some(cell => cell !== null && cell !== undefined && String(cell).trim() !== '');
+    });
+  }, [bodyRows]);
 
-  // 2. 並べ替え
+  // 2. フィルタリング (全体検索 + 列フィルター)
+  const filteredRows = React.useMemo(() => {
+    return cleanRows.filter(row => {
+      // A. 全体検索
+      if (globalSearchQuery) {
+        const lowerQuery = globalSearchQuery.toLowerCase();
+        const matchGlobal = row.some((cell: any) => String(cell ?? '').toLowerCase().includes(lowerQuery));
+        if (!matchGlobal) return false;
+      }
+
+      // B. 列ごとのフィルター
+      for (const [colIndexStr, filterValue] of Object.entries(columnFilters)) {
+        if (!filterValue) continue;
+        const colIndex = Number(colIndexStr);
+        const cellValue = String(row[colIndex] ?? '').toLowerCase();
+        if (!cellValue.includes(filterValue.toLowerCase())) {
+          return false; // 一つでも条件に合わなければ除外
+        }
+      }
+
+      return true;
+    });
+  }, [cleanRows, globalSearchQuery, columnFilters]);
+
+  // 3. 並べ替え
   const sortedRows = React.useMemo(() => {
     if (!sortConfig) return filteredRows;
     const sorted = [...filteredRows].sort((a, b) => {
       const cellA = a[sortConfig.colIndex];
       const cellB = b[sortConfig.colIndex];
       
-      // 数値なら数値比較、それ以外は文字比較
-      if (!isNaN(Number(cellA)) && !isNaN(Number(cellB))) {
-        return sortConfig.direction === 'asc' ? cellA - cellB : cellB - cellA;
+      // 数値比較を試みる
+      const numA = Number(cellA);
+      const numB = Number(cellB);
+
+      if (!isNaN(numA) && !isNaN(numB) && cellA !== '' && cellB !== '') {
+        return sortConfig.direction === 'asc' ? numA - numB : numB - numA;
       } else {
+        // 文字列比較
+        const strA = String(cellA ?? '');
+        const strB = String(cellB ?? '');
         return sortConfig.direction === 'asc' 
-          ? String(cellA).localeCompare(String(cellB))
-          : String(cellB).localeCompare(String(cellA));
+          ? strA.localeCompare(strB, 'ja')
+          : strB.localeCompare(strA, 'ja');
       }
     });
     return sorted;
   }, [filteredRows, sortConfig]);
 
-  // 3. ページネーション（表示分だけ切り出す）
+  // 4. ページネーション
   const totalItems = sortedRows.length;
   const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
@@ -77,21 +115,27 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
 
   // --- イベントハンドラ ---
   
-  // タブ変更時
   const handleTabChange = (name: string) => {
     setActiveTab(name);
-    setSearchQuery(''); // 検索リセット
-    setSortConfig(null); // ソートリセット
-    setCurrentPage(1); // ページリセット
+    // GlobalSearchQuery は維持する (削除しない)
+    setColumnFilters({}); // 列フィルターはリセット（列の意味が変わるため）
+    setSortConfig(null);  // ソートはリセット
+    setCurrentPage(1);
   };
 
-  // 検索入力時
-  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchQuery(e.target.value);
-    setCurrentPage(1); // 検索したら1ページ目に戻す
+  const handleGlobalSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setGlobalSearchQuery(e.target.value);
+    setCurrentPage(1);
   };
 
-  // ソート実行
+  const handleColumnFilterChange = (colIndex: number, value: string) => {
+    setColumnFilters(prev => ({
+      ...prev,
+      [colIndex]: value
+    }));
+    setCurrentPage(1);
+  };
+
   const handleSort = (colIndex: number) => {
     let direction: 'asc' | 'desc' = 'asc';
     if (sortConfig && sortConfig.colIndex === colIndex && sortConfig.direction === 'asc') {
@@ -100,7 +144,10 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     setSortConfig({ colIndex, direction });
   };
 
-  // ページ切り替え
+  const resetSort = () => {
+    setSortConfig(null);
+  };
+
   const goToPage = (page: number) => {
     setCurrentPage(page);
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -111,10 +158,10 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
       <PageHead site={config.site} title="データ一覧" description="スプレッドシートデータ" />
       <NotionPageHeader block={null} />
 
-      <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '40px 20px' }}>
+      <main style={{ maxWidth: '1400px', margin: '0 auto', padding: '40px 20px' }}>
         <h1 style={{ fontSize: '2rem', marginBottom: '20px' }}>データ一覧</h1>
         
-        {/* --- タブ --- */}
+        {/* タブ切り替え */}
         {sheetNames.length > 0 && (
           <div style={{ marginBottom: '20px', display: 'flex', gap: '10px', overflowX: 'auto', paddingBottom: '5px' }}>
             {sheetNames.map((name) => (
@@ -138,68 +185,116 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
           </div>
         )}
 
-        {/* --- 検索ボックス --- */}
-        <div style={{ marginBottom: '15px' }}>
+        {/* コントロールエリア */}
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px', marginBottom: '15px', alignItems: 'center' }}>
+          {/* 全体検索 */}
           <input
             type="text"
-            placeholder="全データから検索..."
-            value={searchQuery}
-            onChange={handleSearch}
+            placeholder="全体から検索..."
+            value={globalSearchQuery}
+            onChange={handleGlobalSearch}
             style={{
-              width: '100%',
-              maxWidth: '400px',
+              flex: '1',
+              minWidth: '200px',
               padding: '10px',
               fontSize: '16px',
               border: '1px solid #ccc',
               borderRadius: '5px'
             }}
           />
+          
+          {/* ソート解除ボタン (ソート中のみ表示) */}
+          {sortConfig && (
+            <button 
+              onClick={resetSort}
+              style={{
+                padding: '10px 15px',
+                backgroundColor: '#f44336',
+                color: 'white',
+                border: 'none',
+                borderRadius: '5px',
+                cursor: 'pointer',
+                fontWeight: 'bold',
+                whiteSpace: 'nowrap'
+              }}
+            >
+              並べ替えを解除 ×
+            </button>
+          )}
         </div>
 
-        {/* --- 件数表示 --- */}
+        {/* 件数表示 */}
         <div style={{ marginBottom: '10px', fontSize: '14px', color: '#666' }}>
-          {totalItems === 0 ? '見つかりませんでした' : 
+          {totalItems === 0 ? '該当なし' : 
             `全 ${totalItems} 件中 ${startIndex + 1} - ${Math.min(startIndex + ITEMS_PER_PAGE, totalItems)} 件を表示`
           }
         </div>
 
-        {/* --- テーブル --- */}
+        {/* テーブル */}
         <div style={{ 
           overflowX: 'auto', 
           border: '1px solid #eee', 
           borderRadius: '8px',
           boxShadow: '0 2px 8px rgba(0,0,0,0.05)' 
         }}>
-          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '14px', minWidth: '600px' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '14px', minWidth: '800px' }}>
             <thead>
-              <tr style={{ background: '#f9f9f9', borderBottom: '2px solid #ddd' }}>
+              {/* 1行目：ヘッダー (クリックでソート) */}
+              <tr style={{ background: '#f9f9f9', borderBottom: '1px solid #ddd' }}>
                 {header.map((col: any, i: number) => (
                   <th 
                     key={i} 
-                    onClick={() => handleSort(i)} // クリックでソート
+                    onClick={() => handleSort(i)}
                     style={{ 
-                      padding: '12px 16px', 
+                      padding: '12px 10px', 
                       textAlign: 'left', 
                       fontWeight: '600',
                       whiteSpace: 'nowrap',
                       borderRight: '1px solid #eee',
                       color: '#333',
-                      cursor: 'pointer', // クリックできる感を出す
-                      userSelect: 'none'
+                      cursor: 'pointer',
+                      userSelect: 'none',
+                      backgroundColor: sortConfig?.colIndex === i ? '#eef' : 'transparent'
                     }}
                   >
-                    {col}
-                    {sortConfig?.colIndex === i ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ' ⇅'}
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '5px' }}>
+                      {col}
+                      <span style={{ fontSize: '10px', color: '#888' }}>
+                        {sortConfig?.colIndex === i ? (sortConfig.direction === 'asc' ? '▲' : '▼') : '⇅'}
+                      </span>
+                    </div>
                   </th>
+                ))}
+              </tr>
+              
+              {/* 2行目：列ごとのフィルター入力欄 */}
+              <tr style={{ background: '#fff', borderBottom: '2px solid #ddd' }}>
+                {header.map((_: any, i: number) => (
+                  <td key={i} style={{ padding: '5px', borderRight: '1px solid #eee' }}>
+                    <input
+                      type="text"
+                      placeholder="絞り込み..."
+                      value={columnFilters[i] || ''}
+                      onChange={(e) => handleColumnFilterChange(i, e.target.value)}
+                      style={{
+                        width: '100%',
+                        padding: '6px',
+                        fontSize: '12px',
+                        border: '1px solid #ddd',
+                        borderRadius: '4px',
+                        boxSizing: 'border-box'
+                      }}
+                    />
+                  </td>
                 ))}
               </tr>
             </thead>
             <tbody>
               {currentRows.length > 0 ? currentRows.map((row: any[], rowIndex: number) => (
-                <tr key={rowIndex} style={{ borderBottom: '1px solid #f0f0f0' }}>
+                <tr key={rowIndex} style={{ borderBottom: '1px solid #f0f0f0', backgroundColor: rowIndex % 2 === 0 ? '#fff' : '#fcfcfc' }}>
                   {row.map((cell: any, cellIndex: number) => (
                     <td key={cellIndex} style={{ 
-                      padding: '12px 16px',
+                      padding: '10px 12px',
                       whiteSpace: 'nowrap',
                       borderRight: '1px solid #f5f5f5'
                     }}>
@@ -210,7 +305,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
               )) : (
                 <tr>
                   <td colSpan={header.length} style={{ padding: '40px', textAlign: 'center', color: '#888' }}>
-                    データがありません
+                    データが見つかりませんでした
                   </td>
                 </tr>
               )}
@@ -218,27 +313,41 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
           </table>
         </div>
 
-        {/* --- ページネーション --- */}
+        {/* ページネーション */}
         {totalPages > 1 && (
-          <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+          <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'center', gap: '8px', flexWrap: 'wrap' }}>
+            <button 
+              onClick={() => goToPage(1)} 
+              disabled={currentPage === 1}
+              style={{ padding: '6px 12px', cursor: currentPage === 1 ? 'not-allowed' : 'pointer', borderRadius: '4px', border: '1px solid #ccc', background: '#fff' }}
+            >
+              « 最初
+            </button>
             <button 
               onClick={() => goToPage(currentPage - 1)} 
               disabled={currentPage === 1}
-              style={{ padding: '8px 16px', cursor: currentPage === 1 ? 'not-allowed' : 'pointer', opacity: currentPage === 1 ? 0.5 : 1 }}
+              style={{ padding: '6px 12px', cursor: currentPage === 1 ? 'not-allowed' : 'pointer', borderRadius: '4px', border: '1px solid #ccc', background: '#fff' }}
             >
-              前へ
+              ‹ 前
             </button>
             
-            <span style={{ padding: '8px 16px', fontWeight: 'bold' }}>
+            <span style={{ padding: '6px 12px', fontWeight: 'bold', display: 'flex', alignItems: 'center' }}>
               {currentPage} / {totalPages}
             </span>
 
             <button 
               onClick={() => goToPage(currentPage + 1)} 
               disabled={currentPage === totalPages}
-              style={{ padding: '8px 16px', cursor: currentPage === totalPages ? 'not-allowed' : 'pointer', opacity: currentPage === totalPages ? 0.5 : 1 }}
+              style={{ padding: '6px 12px', cursor: currentPage === totalPages ? 'not-allowed' : 'pointer', borderRadius: '4px', border: '1px solid #ccc', background: '#fff' }}
             >
-              次へ
+              次 ›
+            </button>
+            <button 
+              onClick={() => goToPage(totalPages)} 
+              disabled={currentPage === totalPages}
+              style={{ padding: '6px 12px', cursor: currentPage === totalPages ? 'not-allowed' : 'pointer', borderRadius: '4px', border: '1px solid #ccc', background: '#fff' }}
+            >
+              最後 »
             </button>
           </div>
         )}
