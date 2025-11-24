@@ -30,35 +30,24 @@ export async function getStaticProps() {
 export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const sheetNames = Object.keys(sheets);
   
-  // --- 状態管理 ---
   const [activeTab, setActiveTab] = React.useState(sheetNames[0] || '');
-  
-  // 全体検索 (タブを変えても維持する)
   const [globalSearchQuery, setGlobalSearchQuery] = React.useState('');
-  
-  // 列ごとのフィルター (タブが変わったらリセット推奨だが、維持したい場合はここを調整)
   const [columnFilters, setColumnFilters] = React.useState<Record<number, string>>({});
-  
-  // ソート設定
   const [sortConfig, setSortConfig] = React.useState<{ colIndex: number, direction: 'asc' | 'desc' } | null>(null);
-  
-  // ページネーション
   const [currentPage, setCurrentPage] = React.useState(1);
 
-  // --- データ処理 ---
   const rawData = sheets[activeTab] || [];
   const header = rawData[0] || [];
   const bodyRows = rawData.slice(1);
 
-  // 1. 空白行の削除 & データ整形
+  // 1. 空白行の削除
   const cleanRows = React.useMemo(() => {
     return bodyRows.filter(row => {
-      // セルの中身が1つでもあれば「有効な行」とみなす
       return row.some(cell => cell !== null && cell !== undefined && String(cell).trim() !== '');
     });
   }, [bodyRows]);
 
-  // 2. フィルタリング (全体検索 + 列フィルター)
+  // 2. フィルタリング
   const filteredRows = React.useMemo(() => {
     return cleanRows.filter(row => {
       // A. 全体検索
@@ -70,11 +59,17 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
 
       // B. 列ごとのフィルター
       for (const [colIndexStr, filterValue] of Object.entries(columnFilters)) {
+        // 【修正】型エラー回避：filterValueがundefinedでないことを確認
         if (!filterValue) continue;
+        
         const colIndex = Number(colIndexStr);
         const cellValue = String(row[colIndex] ?? '').toLowerCase();
-        if (!cellValue.includes(filterValue.toLowerCase())) {
-          return false; // 一つでも条件に合わなければ除外
+        
+        // 【修正】明示的に文字列として扱う
+        const searchStr = String(filterValue).toLowerCase();
+        
+        if (!cellValue.includes(searchStr)) {
+          return false;
         }
       }
 
@@ -84,22 +79,25 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
 
   // 3. 並べ替え
   const sortedRows = React.useMemo(() => {
-    if (!sortConfig) return filteredRows;
+    // 【修正】sortConfig を一度変数に取ることで「nullではない」ことを保証
+    const currentSort = sortConfig;
+    if (!currentSort) return filteredRows;
+
+    const { colIndex, direction } = currentSort;
+
     const sorted = [...filteredRows].sort((a, b) => {
-      const cellA = a[sortConfig.colIndex];
-      const cellB = b[sortConfig.colIndex];
+      const cellA = a[colIndex];
+      const cellB = b[colIndex];
       
-      // 数値比較を試みる
       const numA = Number(cellA);
       const numB = Number(cellB);
 
       if (!isNaN(numA) && !isNaN(numB) && cellA !== '' && cellB !== '') {
-        return sortConfig.direction === 'asc' ? numA - numB : numB - numA;
+        return direction === 'asc' ? numA - numB : numB - numA;
       } else {
-        // 文字列比較
         const strA = String(cellA ?? '');
         const strB = String(cellB ?? '');
-        return sortConfig.direction === 'asc' 
+        return direction === 'asc' 
           ? strA.localeCompare(strB, 'ja')
           : strB.localeCompare(strA, 'ja');
       }
@@ -117,9 +115,8 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   
   const handleTabChange = (name: string) => {
     setActiveTab(name);
-    // GlobalSearchQuery は維持する (削除しない)
-    setColumnFilters({}); // 列フィルターはリセット（列の意味が変わるため）
-    setSortConfig(null);  // ソートはリセット
+    setColumnFilters({}); 
+    setSortConfig(null);
     setCurrentPage(1);
   };
 
@@ -187,7 +184,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
 
         {/* コントロールエリア */}
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px', marginBottom: '15px', alignItems: 'center' }}>
-          {/* 全体検索 */}
           <input
             type="text"
             placeholder="全体から検索..."
@@ -203,7 +199,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
             }}
           />
           
-          {/* ソート解除ボタン (ソート中のみ表示) */}
           {sortConfig && (
             <button 
               onClick={resetSort}
@@ -239,7 +234,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '14px', minWidth: '800px' }}>
             <thead>
-              {/* 1行目：ヘッダー (クリックでソート) */}
+              {/* ヘッダー */}
               <tr style={{ background: '#f9f9f9', borderBottom: '1px solid #ddd' }}>
                 {header.map((col: any, i: number) => (
                   <th 
@@ -267,7 +262,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                 ))}
               </tr>
               
-              {/* 2行目：列ごとのフィルター入力欄 */}
+              {/* フィルター行 */}
               <tr style={{ background: '#fff', borderBottom: '2px solid #ddd' }}>
                 {header.map((_: any, i: number) => (
                   <td key={i} style={{ padding: '5px', borderRight: '1px solid #eee' }}>

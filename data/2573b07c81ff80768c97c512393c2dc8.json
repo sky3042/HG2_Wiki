@@ -3,7 +3,7 @@
     "2573b07c-81ff-8076-8c97-c512393c2dc8": {
       "value": {
         "id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "version": 140,
+        "version": 143,
         "type": "page",
         "properties": {
           "title": [
@@ -30,8 +30,6 @@
           "25e3b07c-81ff-80fe-8eca-e43fbea99f30",
           "28f3b07c-81ff-8037-8280-c4a6bf7a56f2",
           "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
-          "2913b07c-81ff-807f-853f-e7c5721d84ec",
-          "2b53b07c-81ff-8082-96d4-d7a1f6405049",
           "2b53b07c-81ff-8091-8f90-e7a710d07690"
         ],
         "format": {
@@ -40,7 +38,7 @@
           "social_media_image_preview_url": "attachment:0eab7c0e-ed9f-40fb-a5ad-56992f43fc6c:SocialMediaPreviewImage.png"
         },
         "created_time": 1755881175615,
-        "last_edited_time": 1763974640242,
+        "last_edited_time": 1763977418548,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -3946,200 +3944,6 @@
                   "i": [
                     {
                       "t": "s"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2913b07c-81ff-807f-853f-e7c5721d84ec": {
-      "value": {
-        "id": "2913b07c-81ff-807f-853f-e7c5721d84ec",
-        "version": 20,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "test"
-            ]
-          ]
-        },
-        "created_time": 1760842792677,
-        "last_edited_time": 1763974640242,
-        "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "ZyvOQU0lZMIP5Y7VHm2vcw,\"start\",\"end\"",
-            "n": {
-              "ZyvOQU0lZMIP5Y7VHm2vcw,\"start\",\"end\"": {
-                "s": {
-                  "x": "ZyvOQU0lZMIP5Y7VHm2vcw",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "y4-9iiDlZD1a",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 4,
-                      "c": "test"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2b53b07c-81ff-8082-96d4-d7a1f6405049": {
-      "value": {
-        "id": "2b53b07c-81ff-8082-96d4-d7a1f6405049",
-        "version": 19,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "‣",
-              [
-                [
-                  "lm",
-                  {
-                    "href": "https://houkai-gakuen-wiki.com/spreadsheet",
-                    "title": "houkai-gakuen-wiki.com",
-                    "icon_url": "https://houkai-gakuen-wiki.com/favicon.png"
-                  }
-                ]
-              ]
-            ]
-          ]
-        },
-        "created_time": 1763970157495,
-        "last_edited_time": 1763974640242,
-        "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "uUbZu60dbSlYTUMy7zYQgw,\"start\",\"end\"",
-            "n": {
-              "uUbZu60dbSlYTUMy7zYQgw,\"start\",\"end\"": {
-                "s": {
-                  "x": "uUbZu60dbSlYTUMy7zYQgw",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "y4-9iiDlZD1a",
-                        1
-                      ],
-                      "o": "start",
-                      "l": -42,
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "uUbZu60dbSlYTUMy7zYQgw",
-                          "l": "",
-                          "i": [
-                            "y4-9iiDlZD1a",
-                            43
-                          ],
-                          "s": {
-                            "i": [
-                              "y4-9iiDlZD1a",
-                              1
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "y4-9iiDlZD1a",
-                              42
-                            ],
-                            "a": "a"
-                          },
-                          "a": [
-                            "a",
-                            "https://houkai-gakuen-wiki.com/spreadsheet"
-                          ]
-                        }
-                      ],
-                      "a": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "y4-9iiDlZD1a",
-                        44
-                      ],
-                      "o": [
-                        "y4-9iiDlZD1a",
-                        42
-                      ],
-                      "l": 1,
-                      "c": "‣",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "uUbZu60dbSlYTUMy7zYQgw",
-                          "l": "",
-                          "i": [
-                            "y4-9iiDlZD1a",
-                            45
-                          ],
-                          "s": {
-                            "i": [
-                              "y4-9iiDlZD1a",
-                              44
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "y4-9iiDlZD1a",
-                              44
-                            ],
-                            "a": "a"
-                          },
-                          "a": [
-                            "lm",
-                            {
-                              "href": "https://houkai-gakuen-wiki.com/spreadsheet",
-                              "title": "houkai-gakuen-wiki.com",
-                              "icon_url": "https://houkai-gakuen-wiki.com/favicon.png"
-                            }
-                          ]
-                        }
-                      ],
-                      "a": []
                     },
                     {
                       "t": "e"
