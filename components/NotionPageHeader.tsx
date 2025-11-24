@@ -35,18 +35,22 @@ function ToggleThemeButton() {
 export function NotionPageHeader({
   block
 }: {
-  block: types.CollectionViewPageBlock | types.PageBlock
+  // 修正: block を null も許容するように変更
+  block: types.CollectionViewPageBlock | types.PageBlock | null
 }) {
   const { components, mapPageUrl } = useNotionContext()
 
   if (navigationStyle === 'default') {
+    // blockがない場合はデフォルトヘッダーは表示できない
+    if (!block) return null
     return <Header block={block} />
   }
 
   return (
     <header className='notion-header'>
       <div className='notion-nav-header'>
-        <Breadcrumbs block={block} rootOnly={true} />
+        {/* 修正: blockがある場合のみパンくずリストを表示 */}
+        {block && <Breadcrumbs block={block} rootOnly={true} />}
 
         <div className='notion-nav-header-rhs breadcrumbs'>
           {navigationLinks
@@ -81,7 +85,8 @@ export function NotionPageHeader({
 
           <ToggleThemeButton />
 
-          {isSearchEnabled && <Search block={block} title={null} />}
+          {/* 修正: blockがある場合のみ検索ボタンを表示（またはnullでも表示できるように調整） */}
+          {isSearchEnabled && block && <Search block={block} title={null} />}
         </div>
       </div>
     </header>

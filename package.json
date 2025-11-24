@@ -13,7 +13,7 @@
   "scripts": {
     "fetch-data": "npx tsx scripts/fetch-data.ts",
     "generate-sitemap": "npx tsx scripts/generate-sitemap.ts",
-    "update": "npx tsx scripts/fetch-data.ts && npx tsx scripts/generate-sitemap.ts && git add . && git commit -m \"Update content\" && git push",
+    "update": "npx tsx scripts/fetch-spreadsheet.ts && npx tsx scripts/fetch-data.ts && npx tsx scripts/generate-sitemap.ts && git add . && git commit -m \"Update content\" && git push",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -38,6 +38,7 @@
     "@keyvhq/redis": "^1.6.10",
     "@react-icons/all-files": "^4.1.0",
     "classnames": "^2.5.1",
+    "csv-parse": "^6.1.0",
     "expiry-map": "^2.0.0",
     "fathom-client": "^3.4.1",
     "ky": "^1.8.1",

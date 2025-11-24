@@ -10,87 +10,116 @@ import type * as types from './types'
 export async function getSiteMap(): Promise<types.SiteMap> {
   const pageMap: types.PageMap = {}
   
-  // データ読み込み
+  // --- 1. サーバー上のキャッシュ読み込み ---
+  const canonicalMapPath = path.join(process.cwd(), 'canonical-map.json')
+  let canonicalPageMap: any = null
+
+  if (fs.existsSync(canonicalMapPath)) {
+    try {
+      canonicalPageMap = JSON.parse(fs.readFileSync(canonicalMapPath, 'utf8'))
+    } catch (err) {
+      console.warn('Failed to load canonical-map.json', err)
+    }
+  }
+
+  // --- 2. データ読み込み ---
   const dataDir = path.join(process.cwd(), 'data')
   if (fs.existsSync(dataDir)) {
     const files = fs.readdirSync(dataDir).filter((f) => f.endsWith('.json'))
     for (const file of files) {
+      // ▼▼▼ 修正: スプレッドシートのデータなら無視する ▼▼▼
+      if (file === 'spreadsheet.json') continue
+      // ▲▲▲
+
       const pageId = file.replace('.json', '')
       try {
         const content = fs.readFileSync(path.join(dataDir, file), 'utf8')
         const recordMap = JSON.parse(content) as ExtendedRecordMap
+        
+        // ▼▼▼ 修正: 中身がNotionデータかどうかもチェック（安全策） ▼▼▼
+        if (!recordMap.block) {
+            console.warn(`Skipping non-Notion file: ${file}`)
+            continue
+        }
+        // ▲▲▲
+
         pageMap[pageId] = recordMap
       } catch (err) {
         console.warn(`Failed to load ${file}`, err)
       }
     }
   }
+  // ---------------------
 
-  const canonicalPageMap: types.CanonicalPageMap = {}
-  
-  const urlCounts: Record<string, number> = {}
-  const pageIdToTitle: Record<string, string> = {}
-  const pageIdToSlug: Record<string, string> = {}
+  if (!canonicalPageMap) {
+    const urlCounts: Record<string, number> = {}
+    const pageIdToTitle: Record<string, string> = {}
+    const pageIdToSlug: Record<string, string> = {}
 
-  // ステップA: 全ページのタイトル/Slugを収集してカウント
-  for (const pageId of Object.keys(pageMap)) {
-    const recordMap = pageMap[pageId]
-    if (!recordMap) continue
-    const blockId = idToUuid(pageId)
-    const block = recordMap.block[blockId]?.value
-    if (!block) continue
+    // ステップA: タイトル収集と重複カウント
+    for (const pageId of Object.keys(pageMap)) {
+      const recordMap = pageMap[pageId]
+      // ガードを入れたのでここは安全ですが念のため
+      if (!recordMap || !recordMap.block) continue
+      
+      const blockId = idToUuid(pageId)
+      const block = recordMap.block[blockId]?.value
+      if (!block) continue
 
-    if (!(getPageProperty<boolean | null>('Public', block, recordMap) ?? true)) {
-      continue
-    }
+      if (!(getPageProperty<boolean | null>('Public', block, recordMap) ?? true)) {
+        continue
+      }
 
-    const slug = getPageProperty<string>('Slug', block, recordMap)
-    if (slug) {
-      pageIdToSlug[pageId] = slug
-    } else {
-      const title = getBlockTitle(block, recordMap)
-      if (title) {
-        const cleanTitle = title.trim().replace(/\s+/g, '-')
-        pageIdToTitle[pageId] = cleanTitle
-        urlCounts[cleanTitle] = (urlCounts[cleanTitle] || 0) + 1
+      const slug = getPageProperty<string>('Slug', block, recordMap)
+      if (slug) {
+        pageIdToSlug[pageId] = slug
+      } else {
+        const title = getBlockTitle(block, recordMap)
+        if (title) {
+          const cleanTitle = title.trim().replace(/\s+/g, '-')
+          pageIdToTitle[pageId] = cleanTitle
+          urlCounts[cleanTitle] = (urlCounts[cleanTitle] || 0) + 1
+        }
       }
     }
-  }
 
-  // ステップB: URL確定
-  for (const pageId of Object.keys(pageMap)) {
-    const recordMap = pageMap[pageId]
-    if (!recordMap) continue
-    const blockId = idToUuid(pageId)
-    const block = recordMap.block[blockId]?.value
-    if (!block) continue
-
-    if (!(getPageProperty<boolean | null>('Public', block, recordMap) ?? true)) {
-      continue
-    }
-
-    let url = ''
-
-    if (pageIdToSlug[pageId]) {
-        url = pageIdToSlug[pageId]
-    } else if (pageIdToTitle[pageId]) {
-        const title = pageIdToTitle[pageId]
+    // ステップB: URL確定
+    canonicalPageMap = Object.keys(pageMap).reduce(
+      (map: Record<string, string>, pageId: string) => {
+        const recordMap = pageMap[pageId]
+        if (!recordMap) return map
         
-        // ★ここがロジックの核心★
-        // 重複していない(count == 1) なら、きれいなタイトル(IDなし)
-        if (urlCounts[title] === 1) {
-          url = title
-        } else {
-          // 重複しているなら、タイトル-ID (安全策)
-          url = `${title}-${uuidToId(pageId)}`
-        }
-    } else {
-        url = uuidToId(pageId)
-    }
+        const blockId = idToUuid(pageId)
+        const block = recordMap.block[blockId]?.value
+        if (!block) return map
 
-    if (url) {
-      canonicalPageMap[url] = pageId
-    }
+        if (!(getPageProperty<boolean | null>('Public', block, recordMap) ?? true)) {
+          return map
+        }
+
+        let url = ''
+
+        if (pageIdToSlug[pageId]) {
+           url = pageIdToSlug[pageId]
+        } else if (pageIdToTitle[pageId]) {
+           const title = pageIdToTitle[pageId]
+           // 重複していないならIDなし、重複ならIDあり
+           if (urlCounts[title] === 1) {
+             url = title
+           } else {
+             url = `${title}-${uuidToId(pageId)}`
+           }
+        } else {
+           url = uuidToId(pageId)
+        }
+
+        return {
+          ...map,
+          [url]: pageId
+        }
+      },
+      {}
+    )
   }
 
   return {
