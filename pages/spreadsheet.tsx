@@ -10,7 +10,7 @@ type SheetData = Record<string, any[][]>;
 
 const ITEMS_PER_PAGE = 100;
 
-// 文字列の表示幅を概算する関数
+// 文字列の表示幅を概算
 const getTextDisplayLength = (text: string) => {
   let len = 0;
   const str = String(text ?? '');
@@ -23,6 +23,73 @@ const getTextDisplayLength = (text: string) => {
     }
   }
   return len;
+};
+
+// セルコンポーネント
+const DataCell = ({ content, width }: { content: any, width: number }) => {
+  const [isExpanded, setIsExpanded] = React.useState(false);
+  
+  const str = String(content ?? '');
+  const lines = str.split(/[\r\n]+/);
+  const hasMultiLines = lines.length > 1;
+  const firstLine = lines[0] || '';
+
+  if (!hasMultiLines) {
+    return (
+      <div style={{
+        padding: '10px 12px',
+        whiteSpace: 'pre-wrap',
+        wordBreak: 'break-word',
+        lineHeight: '1.6',
+        minWidth: `${width}px`,
+        maxWidth: '200px'
+      }}>
+        {str}
+      </div>
+    );
+  }
+
+  return (
+    <div 
+      onClick={() => setIsExpanded(!isExpanded)}
+      title="クリックして展開/折りたたみ"
+      style={{
+        padding: '10px 12px',
+        minWidth: `${width}px`,
+        maxWidth: '200px',
+        cursor: 'pointer',
+        position: 'relative',
+        backgroundColor: isExpanded ? '#fff9e6' : 'transparent',
+        transition: 'background-color 0.2s'
+      }}
+    >
+      {isExpanded ? (
+        <div style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word', lineHeight: '1.6' }}>
+          {str}
+          <div style={{ color: '#aaa', fontSize: '10px', marginTop: '4px', textAlign: 'center' }}>
+            ▲ 閉じる
+          </div>
+        </div>
+      ) : (
+        <div style={{ 
+          whiteSpace: 'nowrap', 
+          overflow: 'hidden', 
+          textOverflow: 'ellipsis',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: '8px'
+        }}>
+          <span style={{ overflow: 'hidden', textOverflow: 'ellipsis' }}>
+            {firstLine}
+          </span>
+          <span style={{ fontSize: '10px', color: '#888', flexShrink: 0 }}>
+            ▼
+          </span>
+        </div>
+      )}
+    </div>
+  );
 };
 
 export async function getStaticProps() {
@@ -57,9 +124,8 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const header = rawData[0] || [];
   const bodyRows = rawData.slice(1);
 
-  // ★列幅の計算ロジック（修正版）★
+  // 列幅計算
   const columnWidths = React.useMemo(() => {
-    // 初期幅を 60px に縮小（余白削減）
     const widths: number[] = new Array(header.length).fill(60);
 
     [header, ...bodyRows].forEach(row => {
@@ -68,37 +134,31 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         if (colIndex >= widths.length) return;
 
         const str = String(cell);
-        const lines = str.split(/[\r\n]+/);
-        let maxLineLength = 0;
-        
-        // 最も長い行を探す
-        for (const line of lines) {
-           const len = getTextDisplayLength(line);
-           if (len > maxLineLength) maxLineLength = len;
+        let firstLine = str.split(/[\r\n]+/)[0] ?? '';
+
+        if (firstLine.length > 40) {
+            const spaceSplit = firstLine.split(/[\s\u3000]/);
+            if (spaceSplit.length > 1 && spaceSplit[0]!.length > 0) {
+                firstLine = spaceSplit[0]!;
+            }
         }
         
-        // 幅計算: 係数を 10px に戻し、余白も削減
-        const estimatedWidth = (maxLineLength * 10) + 20;
-
-        // 最大幅を 300px に制限（これ以上は強制的に折り返し）
-        // ※これで「無駄に広すぎる列」を防ぎます
+        const estimatedWidth = (getTextDisplayLength(firstLine) * 10) + 20;
         const currentWidth = widths[colIndex] || 60;
         if (estimatedWidth > currentWidth) {
-          widths[colIndex] = Math.min(estimatedWidth, 300);
+          widths[colIndex] = Math.min(estimatedWidth, 200);
         }
       });
     });
     return widths;
   }, [header, bodyRows]);
 
-  // 1. 空白行削除
   const cleanRows = React.useMemo(() => {
     return bodyRows.filter(row => {
       return row.some(cell => cell !== null && cell !== undefined && String(cell).trim() !== '');
     });
   }, [bodyRows]);
 
-  // 2. フィルタリング
   const filteredRows = React.useMemo(() => {
     return cleanRows.filter(row => {
       if (globalSearchQuery) {
@@ -119,7 +179,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     });
   }, [cleanRows, globalSearchQuery, columnFilters]);
 
-  // 3. 並べ替え
   const sortedRows = React.useMemo(() => {
     const currentSort = sortConfig;
     if (!currentSort) return filteredRows;
@@ -136,7 +195,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     return [...filteredRows].sort((a, b) => {
       const cellA = a[colIndex];
       const cellB = b[colIndex];
-      
       const numA = Number(cellA);
       const numB = Number(cellB);
 
@@ -152,13 +210,11 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     });
   }, [filteredRows, sortConfig]);
 
-  // 4. ページネーション
   const totalItems = sortedRows.length;
   const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const currentRows = sortedRows.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
-  // --- イベントハンドラ ---
   const handleTabChange = (name: string) => {
     setActiveTab(name);
     setColumnFilters({}); 
@@ -193,17 +249,37 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // --- 固定列のためのスタイルヘルパー ---
-  const getStickyStyle = (colIndex: number, bgColor: string, isHeader = false): React.CSSProperties => {
-    if (colIndex !== 0) return {};
-    return {
-      position: 'sticky',
-      left: 0,
-      zIndex: isHeader ? 3 : 2, // ヘッダーはより上に
-      backgroundColor: bgColor, // 透けないように背景色を指定
-      boxShadow: '2px 0 5px -2px rgba(0,0,0,0.2)', // 境界線に影をつける
-      borderRight: '1px solid #ddd'
+  // --- 固定列・固定ヘッダーのためのスタイル ---
+  // isStickyTop: 縦スクロールで固定するかどうか
+  const getStickyStyle = (colIndex: number, bgColor: string, isStickyTop = false): React.CSSProperties => {
+    const style: React.CSSProperties = {
+      backgroundColor: bgColor,
+      borderBottom: isStickyTop ? '1px solid #ddd' : '1px solid #f0f0f0',
+      borderRight: '1px solid #eee',
+      zIndex: 1
     };
+
+    // A. 1列目の固定（横スクロール対策） -> 常にSticky
+    if (colIndex === 0) {
+      style.position = 'sticky';
+      style.left = 0;
+      style.zIndex = 3; // データセルのZ
+      style.boxShadow = '2px 0 5px -2px rgba(0,0,0,0.2)';
+    }
+
+    // B. ヘッダー行の固定（縦スクロール対策） -> isStickyTop=true の時だけ
+    if (isStickyTop) {
+      style.position = 'sticky';
+      style.top = 0;
+      style.zIndex = 4; // ヘッダーはデータより上
+      
+      // 「1列目かつヘッダー」は最強のZ-index
+      if (colIndex === 0) {
+         style.zIndex = 5;
+      }
+    }
+
+    return style;
   };
 
   return (
@@ -268,14 +344,15 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
 
         {/* テーブル */}
         <div style={{ 
-          overflowX: 'auto', 
+          overflow: 'auto', 
           border: '1px solid #eee', 
           borderRadius: '8px',
           boxShadow: '0 2px 8px rgba(0,0,0,0.05)',
-          maxHeight: '80vh' // 縦スクロールも可能に
+          maxHeight: '80vh'
         }}>
           <table style={{ borderCollapse: 'separate', borderSpacing: 0, fontSize: '14px' }}>
             <thead>
+              {/* 1行目：ヘッダー (縦固定: ON) */}
               <tr style={{ background: '#f9f9f9' }}>
                 {header.map((col: any, i: number) => (
                   <th 
@@ -283,14 +360,10 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                     onClick={() => handleSort(i)}
                     style={{ 
                       padding: '0',
-                      borderBottom: '1px solid #ddd',
-                      borderRight: '1px solid #eee',
                       color: '#333',
                       cursor: 'pointer',
                       userSelect: 'none',
-                      top: 0, // ヘッダー縦固定用
-                      position: i === 0 ? 'sticky' : undefined, // 1列目ならsticky
-                      zIndex: i === 0 ? 3 : 1, // 1列目は最前面
+                      // ★ isStickyTop = true
                       ...getStickyStyle(i, sortConfig?.colIndex === i ? '#eef' : '#f9f9f9', true)
                     }}
                   >
@@ -301,7 +374,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                       justifyContent: 'space-between', 
                       gap: '5px',
                       minWidth: `${columnWidths[i]}px`,
-                      maxWidth: '300px' // ★最大幅を300pxに制限
+                      maxWidth: '200px'
                     }}>
                       {col}
                       <span style={{ fontSize: '10px', color: '#888' }}>
@@ -312,14 +385,14 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                 ))}
               </tr>
               
+              {/* 2行目：フィルター (縦固定: OFF) */}
               {showFilter && (
                 <tr style={{ background: '#fcfcfc' }}>
                   {header.map((_: any, i: number) => (
                     <td key={i} style={{ 
                       padding: '5px', 
-                      borderBottom: '2px solid #ddd',
-                      borderRight: '1px solid #eee',
-                      ...getStickyStyle(i, '#fcfcfc', true) // フィルター行も固定
+                      // ★ isStickyTop = false (1行目の上に重ならないようにする)
+                      ...getStickyStyle(i, '#fcfcfc', false)
                     }}>
                       <input
                         type="text"
@@ -341,21 +414,11 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                     {row.map((cell: any, cellIndex: number) => (
                       <td key={cellIndex} style={{ 
                         padding: '0',
-                        borderBottom: '1px solid #f0f0f0',
-                        borderRight: '1px solid #f5f5f5',
                         verticalAlign: 'top',
-                        ...getStickyStyle(cellIndex, bgColor) // 1列目データ固定
+                        // ★ isStickyTop = false (データ行はもちろん流れる)
+                        ...getStickyStyle(cellIndex, bgColor, false)
                       }}>
-                        <div style={{
-                          padding: '10px 12px',
-                          whiteSpace: 'pre-wrap', 
-                          wordBreak: 'break-word',
-                          lineHeight: '1.6',
-                          minWidth: `${columnWidths[cellIndex]}px`,
-                          maxWidth: '300px' // ★データも300pxで折り返し
-                        }}>
-                          {cell}
-                        </div>
+                        <DataCell content={cell} width={columnWidths[cellIndex] || 60} />
                       </td>
                     ))}
                   </tr>
@@ -387,7 +450,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   )
 }
 
-// スタイル定義
 const controlBtnStyle = (active: boolean): React.CSSProperties => ({
   padding: '10px 15px',
   backgroundColor: active ? '#ddd' : '#f0f0f0',
