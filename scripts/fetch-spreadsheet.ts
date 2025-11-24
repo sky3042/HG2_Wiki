@@ -3,7 +3,7 @@ import * as path from 'path';
 import * as XLSX from 'xlsx';
 
 // ▼▼▼ 設定：末尾を "output=xlsx" にしたURL ▼▼▼
-// ※ あなたのURLをここに貼り付けてください
+// ※ あなたのURLをここに貼り付けてください（output=csv ではなく output=xlsx にすること！）
 const SPREADSHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSvZfL_0EJO7E2hYvLIwa7NVsuFuz9dwKjoOUNXJalJotuLjs1U6mwY1q35pex8DvGtVW6qc_k8mIMO/pub?output=xlsx';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -26,10 +26,10 @@ async function main() {
     workbook.SheetNames.forEach((sheetName) => {
       const worksheet = workbook.Sheets[sheetName];
       
-      // 【修正1】ワークシートが存在しない場合はスキップ（undefinedエラー回避）
+      // ワークシートが存在しない場合はスキップ
       if (!worksheet) return;
 
-      // 【修正2】型アサーション (as any[][]) を追加して型不一致エラーを回避
+      // 型アサーションを追加してエラーを回避
       const rows = XLSX.utils.sheet_to_json(worksheet, { header: 1 }) as any[][];
 
       // 空のシートは除外
