@@ -5,7 +5,7 @@ import { PageHead } from '@/components/PageHead'
 import { Footer } from '@/components/Footer'
 import { NotionPageHeader } from '@/components/NotionPageHeader'
 import * as config from '@/lib/config'
-import { TableVirtuoso } from 'react-virtuoso'
+import { TableVirtuoso, type TableComponents } from 'react-virtuoso'
 
 type SheetData = Record<string, any[][]>;
 
@@ -42,7 +42,7 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
         whiteSpace: 'pre-wrap',
         wordBreak: 'break-word',
         lineHeight: '1.6',
-        minWidth: `${width}px`,
+        width: `${width}px`,
         maxWidth: '200px'
       }}>
         {str}
@@ -56,7 +56,7 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
       title="クリックして展開/折りたたみ"
       style={{
         padding: '10px 12px',
-        minWidth: `${width}px`,
+        width: `${width}px`,
         maxWidth: '200px',
         cursor: 'pointer',
         position: 'relative',
@@ -239,52 +239,54 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const toggleFilter = () => setShowFilter(prev => !prev);
 
   // --- 固定列・固定ヘッダーのためのスタイル ---
-  // rowType: 'header' | 'filter' | 'data'
   const getStickyStyle = (colIndex: number, bgColor: string, rowType: 'header' | 'filter' | 'data'): React.CSSProperties => {
     const style: React.CSSProperties = {
       backgroundColor: bgColor,
       borderBottom: rowType === 'header' || rowType === 'filter' ? '1px solid #ddd' : '1px solid #f0f0f0',
       borderRight: '1px solid #eee',
-      zIndex: 1 // デフォルト
+      padding: 0,
+      verticalAlign: 'top',
+      zIndex: 1
     };
 
-    // 1. 左列の固定 (Horizontal Sticky)
+    // 1. 横方向の固定 (1列目)
     if (colIndex === 0) {
       style.position = 'sticky';
       style.left = 0;
-      style.zIndex = 50; // データ行の固定列は z-50
       style.boxShadow = '2px 0 5px -2px rgba(0,0,0,0.2)';
+      style.zIndex = 100;
     }
 
-    // 2. ヘッダー行の固定 (Vertical Sticky)
+    // 2. 縦方向の固定 (ヘッダー行)
     if (rowType === 'header') {
       style.position = 'sticky';
       style.top = 0;
-      style.zIndex = 90; // 普通のヘッダーは z-90 (データ固定列より上)
-
-      // 左上の角 (ヘッダー かつ 1列目) は最強
-      if (colIndex === 0) {
-         style.zIndex = 100; 
-      }
     }
 
-    // 3. フィルター行 (Vertical Stickyにする場合)
-    // VirtuosoのfixedHeaderContent内にある場合、自動的にトップに固定されますが、
-    // Z-indexでヘッダーの下、データの上に来るように調整
-    if (rowType === 'filter') {
-        // フィルター行も固定したい場合、ヘッダーの下に来る必要があるので
-        // 今回はVirtuosoの仕様上、fixedHeaderContent内なら自然に配置されますが、
-        // 1列目固定との兼ね合いでZ-indexを調整
-        style.zIndex = 50; // データ行と同じか少し上
-        if (colIndex === 0) {
-            style.zIndex = 80; // 1列目のフィルターは、1列目データより上で、左上角より下
-            style.position = 'sticky';
-            style.left = 0;
-        }
+    // 3. Z-Index の階層構造
+    if (rowType === 'header') {
+        style.zIndex = colIndex === 0 ? 1000 : 900;
+    } else if (rowType === 'filter') {
+        style.zIndex = colIndex === 0 ? 800 : 700;
+    } else {
+        // data
+        style.zIndex = colIndex === 0 ? 500 : 1;
     }
 
     return style;
   };
+
+  // ★ TableVirtuosoのコンポーネントカスタマイズ (型定義を追加して修正) ★
+  const VirtuosoTableComponents: TableComponents<any[]> = {
+    TableHead: React.forwardRef((props, ref) => (
+      <thead {...props} ref={ref} style={{ ...props.style, zIndex: 2000, position: 'sticky', top: 0 }} />
+    )),
+    TableBody: React.forwardRef((props, ref) => (
+      <tbody {...props} ref={ref} />
+    )),
+  };
+  VirtuosoTableComponents.TableHead!.displayName = 'TableHead';
+  VirtuosoTableComponents.TableBody!.displayName = 'TableBody';
 
   return (
     <>
@@ -294,7 +296,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
       <main style={{ maxWidth: '100%', margin: '0 auto', padding: '20px' }}>
         <h1 style={{ fontSize: '2rem', marginBottom: '20px', maxWidth: '1200px', marginInline: 'auto' }}>データ一覧</h1>
         
-        {/* タブ */}
         <div style={{ maxWidth: '1200px', margin: '0 auto 20px', display: 'flex', gap: '10px', overflowX: 'auto', paddingBottom: '5px' }}>
           {sheetNames.map((name) => (
             <button
@@ -316,7 +317,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
           ))}
         </div>
 
-        {/* コントロール */}
         <div style={{ maxWidth: '1200px', margin: '0 auto 15px', display: 'flex', flexWrap: 'wrap', gap: '10px', alignItems: 'center' }}>
           <input
             type="text"
@@ -344,13 +344,13 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
           {sortedRows.length === 0 ? '該当なし' : `全 ${sortedRows.length} 件を表示`}
         </div>
 
-        {/* ★仮想スクロールテーブル★ */}
         <div style={{ height: '80vh', border: '1px solid #eee', borderRadius: '8px' }}>
           <TableVirtuoso
             data={sortedRows}
+            components={VirtuosoTableComponents}
             fixedHeaderContent={() => (
               <>
-                <tr>
+                <tr style={{ background: '#f9f9f9' }}>
                   {header.map((col: any, i: number) => (
                     <th 
                       key={i} 
@@ -369,7 +369,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                         alignItems: 'center', 
                         justifyContent: 'space-between', 
                         gap: '5px',
-                        minWidth: `${columnWidths[i]}px`,
+                        width: `${columnWidths[i]}px`,
                         maxWidth: '200px'
                       }}>
                         {col}
@@ -381,12 +381,10 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                   ))}
                 </tr>
                 {showFilter && (
-                  <tr>
+                  <tr style={{ background: '#fcfcfc' }}>
                     {header.map((_: any, i: number) => (
                       <td key={i} style={{ 
                         padding: '5px', 
-                        borderBottom: '2px solid #ddd',
-                        borderRight: '1px solid #eee',
                         ...getStickyStyle(i, '#fcfcfc', 'filter')
                       }}>
                         <input
@@ -402,7 +400,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                 )}
               </>
             )}
-            itemContent={(index, row) => (
+            itemContent={(index, row: any[]) => (
               <>
                 {row.map((cell: any, cellIndex: number) => (
                   <td key={cellIndex} style={{ 
