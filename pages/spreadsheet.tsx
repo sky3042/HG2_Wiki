@@ -48,16 +48,22 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const [activeTab, setActiveTab] = React.useState(sheetNames[0] || '');
   const [globalSearchQuery, setGlobalSearchQuery] = React.useState('');
   const [columnFilters, setColumnFilters] = React.useState<Record<number, string>>({});
+  
+  // sortConfig: colIndex === -1 は「デフォルト順」を意味する特殊値とします
   const [sortConfig, setSortConfig] = React.useState<{ colIndex: number, direction: 'asc' | 'desc' } | null>(null);
+  
   const [currentPage, setCurrentPage] = React.useState(1);
+  
+  // ★追加: 絞り込み行の表示状態
+  const [showFilter, setShowFilter] = React.useState(false);
 
   const rawData = sheets[activeTab] || [];
   const header = rawData[0] || [];
   const bodyRows = rawData.slice(1);
 
-  // ★列幅の計算ロジック★
+  // 列幅計算
   const columnWidths = React.useMemo(() => {
-    const widths: number[] = new Array(header.length).fill(100);
+    const widths: number[] = new Array(header.length).fill(120);
 
     [header, ...bodyRows].forEach(row => {
       row.forEach((cell, colIndex) => {
@@ -65,16 +71,19 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         if (colIndex >= widths.length) return;
 
         const str = String(cell);
-        // 改行コードで区切って「1行目」だけを取り出す
-        const firstLine = str.split(/[\r\n]+/)[0] ?? '';
-        
-        // 1行目の長さに基づいて幅を決定
-        const estimatedWidth = (getTextDisplayLength(firstLine) * 10) + 30;
+        let firstLine = str.split(/[\r\n]+/)[0] ?? '';
 
-        const currentWidth = widths[colIndex] || 100;
-        // 最大幅 400px でキャップ（これ以上は折り返す）
+        if (firstLine.length > 40) {
+            const spaceSplit = firstLine.split(/[\s\u3000]/);
+            if (spaceSplit.length > 1 && spaceSplit[0]!.length > 0) {
+                firstLine = spaceSplit[0]!;
+            }
+        }
+        
+        const estimatedWidth = (getTextDisplayLength(firstLine) * 12) + 40;
+        const currentWidth = widths[colIndex] || 120;
         if (estimatedWidth > currentWidth) {
-          widths[colIndex] = Math.min(estimatedWidth, 400);
+          widths[colIndex] = Math.min(estimatedWidth, 500);
         }
       });
     });
@@ -109,15 +118,26 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     });
   }, [cleanRows, globalSearchQuery, columnFilters]);
 
-  // 3. 並べ替え
+  // 3. 並べ替え (デフォルト逆順対応)
   const sortedRows = React.useMemo(() => {
     const currentSort = sortConfig;
     if (!currentSort) return filteredRows;
+
     const { colIndex, direction } = currentSort;
 
+    // colIndex が -1 の場合は「デフォルト順」の処理
+    if (colIndex === -1) {
+      if (direction === 'desc') {
+        return [...filteredRows].reverse();
+      }
+      return filteredRows;
+    }
+
+    // 通常の列ソート
     return [...filteredRows].sort((a, b) => {
       const cellA = a[colIndex];
       const cellB = b[colIndex];
+      
       const numA = Number(cellA);
       const numB = Number(cellB);
 
@@ -139,11 +159,13 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const currentRows = sortedRows.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
+  // --- イベントハンドラ ---
   const handleTabChange = (name: string) => {
     setActiveTab(name);
     setColumnFilters({}); 
     setSortConfig(null);
     setCurrentPage(1);
+    setShowFilter(false); // タブ切り替え時にフィルター行も閉じる（お好みで）
   };
 
   const handleGlobalSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -165,6 +187,15 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   };
 
   const resetSort = () => setSortConfig(null);
+
+  // デフォルト逆順にする
+  const reverseDefaultSort = () => {
+    setSortConfig({ colIndex: -1, direction: 'desc' });
+  };
+
+  const toggleFilter = () => {
+    setShowFilter(prev => !prev);
+  };
 
   const goToPage = (page: number) => {
     setCurrentPage(page);
@@ -204,7 +235,8 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         )}
 
         {/* コントロール */}
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px', marginBottom: '15px', alignItems: 'center' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginBottom: '15px', alignItems: 'center' }}>
+          {/* 全体検索 */}
           <input
             type="text"
             placeholder="全体から検索..."
@@ -219,7 +251,29 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
               borderRadius: '5px'
             }}
           />
-          {sortConfig && (
+          
+          {/* フィルター表示切替ボタン */}
+          <button
+            onClick={toggleFilter}
+            style={{
+              padding: '10px 15px',
+              backgroundColor: showFilter ? '#ddd' : '#f0f0f0',
+              color: '#333',
+              border: '1px solid #ccc',
+              borderRadius: '5px',
+              cursor: 'pointer',
+              fontWeight: 'bold',
+              whiteSpace: 'nowrap',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '5px'
+            }}
+          >
+            <span>🔍</span> 絞り込み
+          </button>
+
+          {/* ソート制御ボタン */}
+          {sortConfig ? (
             <button 
               onClick={resetSort}
               style={{
@@ -233,7 +287,23 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                 whiteSpace: 'nowrap'
               }}
             >
-              並べ替えを解除 ×
+              × 標準に戻す
+            </button>
+          ) : (
+            <button 
+              onClick={reverseDefaultSort}
+              style={{
+                padding: '10px 15px',
+                backgroundColor: '#fff',
+                color: '#333',
+                border: '1px solid #ccc',
+                borderRadius: '5px',
+                cursor: 'pointer',
+                fontWeight: 'bold',
+                whiteSpace: 'nowrap'
+              }}
+            >
+              ⇅ 逆順にする
             </button>
           )}
         </div>
@@ -251,16 +321,16 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
           borderRadius: '8px',
           boxShadow: '0 2px 8px rgba(0,0,0,0.05)' 
         }}>
-          {/* テーブル自体の幅指定を削除し、セルの幅で自然に広がるようにする */}
           <table style={{ borderCollapse: 'collapse', fontSize: '14px' }}>
             <thead>
+              {/* ヘッダー行 */}
               <tr style={{ background: '#f9f9f9', borderBottom: '1px solid #ddd' }}>
                 {header.map((col: any, i: number) => (
                   <th 
                     key={i} 
                     onClick={() => handleSort(i)}
                     style={{ 
-                      padding: '0', // パディングは中のdivで持つ
+                      padding: '0',
                       borderRight: '1px solid #eee',
                       color: '#333',
                       cursor: 'pointer',
@@ -274,9 +344,8 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                       alignItems: 'center', 
                       justifyContent: 'space-between', 
                       gap: '5px',
-                      // ★ここで幅を固定
                       minWidth: `${columnWidths[i]}px`,
-                      maxWidth: '400px'
+                      maxWidth: '500px'
                     }}>
                       {col}
                       <span style={{ fontSize: '10px', color: '#888' }}>
@@ -286,19 +355,23 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                   </th>
                 ))}
               </tr>
-              <tr style={{ background: '#fff', borderBottom: '2px solid #ddd' }}>
-                {header.map((_: any, i: number) => (
-                  <td key={i} style={{ padding: '5px', borderRight: '1px solid #eee' }}>
-                    <input
-                      type="text"
-                      placeholder="絞り込み..."
-                      value={columnFilters[i] || ''}
-                      onChange={(e) => handleColumnFilterChange(i, e.target.value)}
-                      style={{ width: '100%', padding: '6px', fontSize: '12px', border: '1px solid #ddd', borderRadius: '4px', boxSizing: 'border-box' }}
-                    />
-                  </td>
-                ))}
-              </tr>
+              
+              {/* フィルター行 (showFilterがtrueの時だけ表示) */}
+              {showFilter && (
+                <tr style={{ background: '#fcfcfc', borderBottom: '2px solid #ddd' }}>
+                  {header.map((_: any, i: number) => (
+                    <td key={i} style={{ padding: '5px', borderRight: '1px solid #eee' }}>
+                      <input
+                        type="text"
+                        placeholder="含む..."
+                        value={columnFilters[i] || ''}
+                        onChange={(e) => handleColumnFilterChange(i, e.target.value)}
+                        style={{ width: '100%', padding: '6px', fontSize: '12px', border: '1px solid #ddd', borderRadius: '4px', boxSizing: 'border-box' }}
+                      />
+                    </td>
+                  ))}
+                </tr>
+              )}
             </thead>
             <tbody>
               {currentRows.length > 0 ? currentRows.map((row: any[], rowIndex: number) => (
@@ -310,13 +383,12 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                       verticalAlign: 'top'
                     }}>
                       <div style={{
-                        // ★データセルも同じ幅ルールを適用
                         padding: '10px 12px',
                         whiteSpace: 'pre-wrap', 
                         wordBreak: 'break-word',
                         lineHeight: '1.6',
                         minWidth: `${columnWidths[cellIndex]}px`,
-                        maxWidth: '400px'
+                        maxWidth: '500px'
                       }}>
                         {cell}
                       </div>
