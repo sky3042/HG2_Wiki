@@ -10,13 +10,12 @@ type SheetData = Record<string, any[][]>;
 
 const ITEMS_PER_PAGE = 100;
 
-// 【追加】文字列の表示幅を概算する関数
+// 文字列の表示幅を概算する関数
 const getTextDisplayLength = (text: string) => {
   let len = 0;
   const str = String(text ?? '');
   for (let i = 0; i < str.length; i++) {
     const code = str.charCodeAt(i);
-    // 全角文字の範囲（大まかな判定）
     if ( (code >= 0x3000 && code <= 0xffff) || (code >= 0xff00 && code <= 0xff60) ) {
       len += 2;
     } else {
@@ -58,36 +57,23 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
 
   // ★列幅の計算ロジック★
   const columnWidths = React.useMemo(() => {
-    // ヘッダーの列数分だけ初期値(100px)を用意
     const widths: number[] = new Array(header.length).fill(100);
 
     [header, ...bodyRows].forEach(row => {
       row.forEach((cell, colIndex) => {
         if (!cell) return;
-        // ヘッダーより多い列のデータは無視（エラー回避）
         if (colIndex >= widths.length) return;
 
         const str = String(cell);
+        // 改行コードで区切って「1行目」だけを取り出す
+        const firstLine = str.split(/[\r\n]+/)[0] ?? '';
         
-        // 改行で区切って「1行目」だけを取り出す
-        let firstLine = str.split(/\r\n|\r|\n/)[0] ?? '';
+        // 1行目の長さに基づいて幅を決定
+        const estimatedWidth = (getTextDisplayLength(firstLine) * 10) + 30;
 
-        // もし改行がなく、かつ文字数が極端に長い(30文字以上)場合は、
-        // 「最初のスペース」までを「見なし一行目」とする
-        if (firstLine.length > 30) {
-            const spaceSplit = firstLine.split(/[\s\u3000]/);
-            if (spaceSplit.length > 1 && spaceSplit[0]!.length > 0) {
-                firstLine = spaceSplit[0]!;
-            }
-        }
-        
-        // 幅計算 (1文字約9px + パディング40px)
-        const estimatedWidth = (getTextDisplayLength(firstLine) * 9) + 40;
-
-        // 最大幅を 400px に制限
-        const currentWidth = widths[colIndex];
-        // 【修正】undefinedチェックをしてから比較
-        if (currentWidth !== undefined && estimatedWidth > currentWidth) {
+        const currentWidth = widths[colIndex] || 100;
+        // 最大幅 400px でキャップ（これ以上は折り返す）
+        if (estimatedWidth > currentWidth) {
           widths[colIndex] = Math.min(estimatedWidth, 400);
         }
       });
@@ -105,25 +91,20 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   // 2. フィルタリング
   const filteredRows = React.useMemo(() => {
     return cleanRows.filter(row => {
-      // A. 全体検索
       if (globalSearchQuery) {
         const lowerQuery = globalSearchQuery.toLowerCase();
         const matchGlobal = row.some((cell: any) => String(cell ?? '').toLowerCase().includes(lowerQuery));
         if (!matchGlobal) return false;
       }
-
-      // B. 列ごとのフィルター
       for (const [colIndexStr, filterValue] of Object.entries(columnFilters)) {
         if (!filterValue) continue;
         const colIndex = Number(colIndexStr);
         const cellValue = String(row[colIndex] ?? '').toLowerCase();
         const searchStr = String(filterValue).toLowerCase();
-        
         if (!cellValue.includes(searchStr)) {
           return false;
         }
       }
-
       return true;
     });
   }, [cleanRows, globalSearchQuery, columnFilters]);
@@ -132,13 +113,11 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const sortedRows = React.useMemo(() => {
     const currentSort = sortConfig;
     if (!currentSort) return filteredRows;
-
     const { colIndex, direction } = currentSort;
 
     return [...filteredRows].sort((a, b) => {
       const cellA = a[colIndex];
       const cellB = b[colIndex];
-      
       const numA = Number(cellA);
       const numB = Number(cellB);
 
@@ -160,7 +139,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const currentRows = sortedRows.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
-  // --- イベントハンドラ ---
   const handleTabChange = (name: string) => {
     setActiveTab(name);
     setColumnFilters({}); 
@@ -273,7 +251,8 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
           borderRadius: '8px',
           boxShadow: '0 2px 8px rgba(0,0,0,0.05)' 
         }}>
-          <table style={{ width: 'max-content', borderCollapse: 'collapse', fontSize: '14px' }}>
+          {/* テーブル自体の幅指定を削除し、セルの幅で自然に広がるようにする */}
+          <table style={{ borderCollapse: 'collapse', fontSize: '14px' }}>
             <thead>
               <tr style={{ background: '#f9f9f9', borderBottom: '1px solid #ddd' }}>
                 {header.map((col: any, i: number) => (
@@ -281,14 +260,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                     key={i} 
                     onClick={() => handleSort(i)}
                     style={{ 
-                      // 計算した幅を適用
-                      minWidth: `${columnWidths[i]}px`,
-                      maxWidth: '400px', 
-                      padding: '12px 10px', 
-                      textAlign: 'left', 
-                      fontWeight: '600',
-                      whiteSpace: 'pre-wrap',
-                      verticalAlign: 'top',
+                      padding: '0', // パディングは中のdivで持つ
                       borderRight: '1px solid #eee',
                       color: '#333',
                       cursor: 'pointer',
@@ -296,7 +268,16 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                       backgroundColor: sortConfig?.colIndex === i ? '#eef' : 'transparent'
                     }}
                   >
-                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '5px' }}>
+                    <div style={{ 
+                      padding: '12px 10px',
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      justifyContent: 'space-between', 
+                      gap: '5px',
+                      // ★ここで幅を固定
+                      minWidth: `${columnWidths[i]}px`,
+                      maxWidth: '400px'
+                    }}>
                       {col}
                       <span style={{ fontSize: '10px', color: '#888' }}>
                         {sortConfig?.colIndex === i ? (sortConfig.direction === 'asc' ? '▲' : '▼') : '⇅'}
@@ -305,8 +286,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                   </th>
                 ))}
               </tr>
-              
-              {/* フィルター行 */}
               <tr style={{ background: '#fff', borderBottom: '2px solid #ddd' }}>
                 {header.map((_: any, i: number) => (
                   <td key={i} style={{ padding: '5px', borderRight: '1px solid #eee' }}>
@@ -326,15 +305,21 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
                 <tr key={rowIndex} style={{ borderBottom: '1px solid #f0f0f0', backgroundColor: rowIndex % 2 === 0 ? '#fff' : '#fcfcfc' }}>
                   {row.map((cell: any, cellIndex: number) => (
                     <td key={cellIndex} style={{ 
-                      padding: '10px 12px',
-                      whiteSpace: 'pre-wrap', // 改行反映
-                      wordBreak: 'break-word', 
-                      verticalAlign: 'top',
+                      padding: '0',
                       borderRight: '1px solid #f5f5f5',
-                      lineHeight: '1.6',
-                      maxWidth: '400px'
+                      verticalAlign: 'top'
                     }}>
-                      {cell}
+                      <div style={{
+                        // ★データセルも同じ幅ルールを適用
+                        padding: '10px 12px',
+                        whiteSpace: 'pre-wrap', 
+                        wordBreak: 'break-word',
+                        lineHeight: '1.6',
+                        minWidth: `${columnWidths[cellIndex]}px`,
+                        maxWidth: '400px'
+                      }}>
+                        {cell}
+                      </div>
                     </td>
                   ))}
                 </tr>
