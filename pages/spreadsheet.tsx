@@ -5,6 +5,7 @@ import { PageHead } from '@/components/PageHead'
 import { Footer } from '@/components/Footer'
 import { NotionPageHeader } from '@/components/NotionPageHeader'
 import * as config from '@/lib/config'
+import { TableVirtuoso } from 'react-virtuoso'
 
 type SheetData = Record<string, any[][]>;
 
@@ -117,7 +118,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const [columnFilters, setColumnFilters] = React.useState<Record<number, string>>({});
   
   const [sortConfig, setSortConfig] = React.useState<{ colIndex: number, direction: 'asc' | 'desc' } | null>(null);
-  const [currentPage, setCurrentPage] = React.useState(1);
   const [showFilter, setShowFilter] = React.useState(false);
 
   const rawData = sheets[activeTab] || [];
@@ -144,6 +144,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         }
         
         const estimatedWidth = (getTextDisplayLength(firstLine) * 10) + 20;
+
         const currentWidth = widths[colIndex] || 60;
         if (estimatedWidth > currentWidth) {
           widths[colIndex] = Math.min(estimatedWidth, 200);
@@ -210,27 +211,19 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     });
   }, [filteredRows, sortConfig]);
 
-  const totalItems = sortedRows.length;
-  const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
-  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const currentRows = sortedRows.slice(startIndex, startIndex + ITEMS_PER_PAGE);
-
   const handleTabChange = (name: string) => {
     setActiveTab(name);
     setColumnFilters({}); 
     setSortConfig(null);
-    setCurrentPage(1);
     setShowFilter(false);
   };
 
   const handleGlobalSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setGlobalSearchQuery(e.target.value);
-    setCurrentPage(1);
   };
 
   const handleColumnFilterChange = (colIndex: number, value: string) => {
     setColumnFilters(prev => ({ ...prev, [colIndex]: value }));
-    setCurrentPage(1);
   };
 
   const handleSort = (colIndex: number) => {
@@ -244,39 +237,50 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const resetSort = () => setSortConfig(null);
   const reverseDefaultSort = () => setSortConfig({ colIndex: -1, direction: 'desc' });
   const toggleFilter = () => setShowFilter(prev => !prev);
-  const goToPage = (page: number) => {
-    setCurrentPage(page);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
 
   // --- 固定列・固定ヘッダーのためのスタイル ---
-  // isStickyTop: 縦スクロールで固定するかどうか
-  const getStickyStyle = (colIndex: number, bgColor: string, isStickyTop = false): React.CSSProperties => {
+  // rowType: 'header' | 'filter' | 'data'
+  const getStickyStyle = (colIndex: number, bgColor: string, rowType: 'header' | 'filter' | 'data'): React.CSSProperties => {
     const style: React.CSSProperties = {
       backgroundColor: bgColor,
-      borderBottom: isStickyTop ? '1px solid #ddd' : '1px solid #f0f0f0',
+      borderBottom: rowType === 'header' || rowType === 'filter' ? '1px solid #ddd' : '1px solid #f0f0f0',
       borderRight: '1px solid #eee',
-      zIndex: 1
+      zIndex: 1 // デフォルト
     };
 
-    // A. 1列目の固定（横スクロール対策） -> 常にSticky
+    // 1. 左列の固定 (Horizontal Sticky)
     if (colIndex === 0) {
       style.position = 'sticky';
       style.left = 0;
-      style.zIndex = 3; // データセルのZ
+      style.zIndex = 50; // データ行の固定列は z-50
       style.boxShadow = '2px 0 5px -2px rgba(0,0,0,0.2)';
     }
 
-    // B. ヘッダー行の固定（縦スクロール対策） -> isStickyTop=true の時だけ
-    if (isStickyTop) {
+    // 2. ヘッダー行の固定 (Vertical Sticky)
+    if (rowType === 'header') {
       style.position = 'sticky';
       style.top = 0;
-      style.zIndex = 4; // ヘッダーはデータより上
-      
-      // 「1列目かつヘッダー」は最強のZ-index
+      style.zIndex = 90; // 普通のヘッダーは z-90 (データ固定列より上)
+
+      // 左上の角 (ヘッダー かつ 1列目) は最強
       if (colIndex === 0) {
-         style.zIndex = 5;
+         style.zIndex = 100; 
       }
+    }
+
+    // 3. フィルター行 (Vertical Stickyにする場合)
+    // VirtuosoのfixedHeaderContent内にある場合、自動的にトップに固定されますが、
+    // Z-indexでヘッダーの下、データの上に来るように調整
+    if (rowType === 'filter') {
+        // フィルター行も固定したい場合、ヘッダーの下に来る必要があるので
+        // 今回はVirtuosoの仕様上、fixedHeaderContent内なら自然に配置されますが、
+        // 1列目固定との兼ね合いでZ-indexを調整
+        style.zIndex = 50; // データ行と同じか少し上
+        if (colIndex === 0) {
+            style.zIndex = 80; // 1列目のフィルターは、1列目データより上で、左上角より下
+            style.position = 'sticky';
+            style.left = 0;
+        }
     }
 
     return style;
@@ -337,113 +341,82 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         </div>
 
         <div style={{ maxWidth: '1200px', margin: '0 auto 10px', fontSize: '14px', color: '#666' }}>
-          {totalItems === 0 ? '該当なし' : 
-            `全 ${totalItems} 件中 ${startIndex + 1} - ${Math.min(startIndex + ITEMS_PER_PAGE, totalItems)} 件を表示`
-          }
+          {sortedRows.length === 0 ? '該当なし' : `全 ${sortedRows.length} 件を表示`}
         </div>
 
-        {/* テーブル */}
-        <div style={{ 
-          overflow: 'auto', 
-          border: '1px solid #eee', 
-          borderRadius: '8px',
-          boxShadow: '0 2px 8px rgba(0,0,0,0.05)',
-          maxHeight: '80vh'
-        }}>
-          <table style={{ borderCollapse: 'separate', borderSpacing: 0, fontSize: '14px' }}>
-            <thead>
-              {/* 1行目：ヘッダー (縦固定: ON) */}
-              <tr style={{ background: '#f9f9f9' }}>
-                {header.map((col: any, i: number) => (
-                  <th 
-                    key={i} 
-                    onClick={() => handleSort(i)}
-                    style={{ 
-                      padding: '0',
-                      color: '#333',
-                      cursor: 'pointer',
-                      userSelect: 'none',
-                      // ★ isStickyTop = true
-                      ...getStickyStyle(i, sortConfig?.colIndex === i ? '#eef' : '#f9f9f9', true)
-                    }}
-                  >
-                    <div style={{ 
-                      padding: '12px 10px',
-                      display: 'flex', 
-                      alignItems: 'center', 
-                      justifyContent: 'space-between', 
-                      gap: '5px',
-                      minWidth: `${columnWidths[i]}px`,
-                      maxWidth: '200px'
-                    }}>
-                      {col}
-                      <span style={{ fontSize: '10px', color: '#888' }}>
-                        {sortConfig?.colIndex === i ? (sortConfig.direction === 'asc' ? '▲' : '▼') : '⇅'}
-                      </span>
-                    </div>
-                  </th>
-                ))}
-              </tr>
-              
-              {/* 2行目：フィルター (縦固定: OFF) */}
-              {showFilter && (
-                <tr style={{ background: '#fcfcfc' }}>
-                  {header.map((_: any, i: number) => (
-                    <td key={i} style={{ 
-                      padding: '5px', 
-                      // ★ isStickyTop = false (1行目の上に重ならないようにする)
-                      ...getStickyStyle(i, '#fcfcfc', false)
-                    }}>
-                      <input
-                        type="text"
-                        placeholder="絞り込み..."
-                        value={columnFilters[i] || ''}
-                        onChange={(e) => handleColumnFilterChange(i, e.target.value)}
-                        style={{ width: '100%', padding: '6px', fontSize: '12px', border: '1px solid #ddd', borderRadius: '4px', boxSizing: 'border-box' }}
-                      />
-                    </td>
+        {/* ★仮想スクロールテーブル★ */}
+        <div style={{ height: '80vh', border: '1px solid #eee', borderRadius: '8px' }}>
+          <TableVirtuoso
+            data={sortedRows}
+            fixedHeaderContent={() => (
+              <>
+                <tr>
+                  {header.map((col: any, i: number) => (
+                    <th 
+                      key={i} 
+                      onClick={() => handleSort(i)}
+                      style={{ 
+                        padding: '0',
+                        color: '#333',
+                        cursor: 'pointer',
+                        userSelect: 'none',
+                        ...getStickyStyle(i, sortConfig?.colIndex === i ? '#eef' : '#f9f9f9', 'header')
+                      }}
+                    >
+                      <div style={{ 
+                        padding: '12px 10px',
+                        display: 'flex', 
+                        alignItems: 'center', 
+                        justifyContent: 'space-between', 
+                        gap: '5px',
+                        minWidth: `${columnWidths[i]}px`,
+                        maxWidth: '200px'
+                      }}>
+                        {col}
+                        <span style={{ fontSize: '10px', color: '#888' }}>
+                          {sortConfig?.colIndex === i ? (sortConfig.direction === 'asc' ? '▲' : '▼') : '⇅'}
+                        </span>
+                      </div>
+                    </th>
                   ))}
                 </tr>
-              )}
-            </thead>
-            <tbody>
-              {currentRows.length > 0 ? currentRows.map((row: any[], rowIndex: number) => {
-                const bgColor = rowIndex % 2 === 0 ? '#fff' : '#fcfcfc';
-                return (
-                  <tr key={rowIndex} style={{ backgroundColor: bgColor }}>
-                    {row.map((cell: any, cellIndex: number) => (
-                      <td key={cellIndex} style={{ 
-                        padding: '0',
-                        verticalAlign: 'top',
-                        // ★ isStickyTop = false (データ行はもちろん流れる)
-                        ...getStickyStyle(cellIndex, bgColor, false)
+                {showFilter && (
+                  <tr>
+                    {header.map((_: any, i: number) => (
+                      <td key={i} style={{ 
+                        padding: '5px', 
+                        borderBottom: '2px solid #ddd',
+                        borderRight: '1px solid #eee',
+                        ...getStickyStyle(i, '#fcfcfc', 'filter')
                       }}>
-                        <DataCell content={cell} width={columnWidths[cellIndex] || 60} />
+                        <input
+                          type="text"
+                          placeholder="絞り込み..."
+                          value={columnFilters[i] || ''}
+                          onChange={(e) => handleColumnFilterChange(i, e.target.value)}
+                          style={{ width: '100%', padding: '6px', fontSize: '12px', border: '1px solid #ddd', borderRadius: '4px', boxSizing: 'border-box' }}
+                        />
                       </td>
                     ))}
                   </tr>
-                )
-              }) : (
-                <tr>
-                  <td colSpan={header.length} style={{ padding: '40px', textAlign: 'center', color: '#888' }}>
-                    データが見つかりませんでした
+                )}
+              </>
+            )}
+            itemContent={(index, row) => (
+              <>
+                {row.map((cell: any, cellIndex: number) => (
+                  <td key={cellIndex} style={{ 
+                    padding: '0',
+                    verticalAlign: 'top',
+                    ...getStickyStyle(cellIndex, index % 2 === 0 ? '#fff' : '#fcfcfc', 'data')
+                  }}>
+                    <DataCell content={cell} width={columnWidths[cellIndex] || 60} />
                   </td>
-                </tr>
-              )}
-            </tbody>
-          </table>
+                ))}
+              </>
+            )}
+          />
         </div>
-
-        {/* ページネーション */}
-        {totalPages > 1 && (
-          <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'center', gap: '8px', flexWrap: 'wrap' }}>
-            <button onClick={() => goToPage(1)} disabled={currentPage === 1} style={paginationButtonStyle(currentPage === 1)}>« 最初</button>
-            <button onClick={() => goToPage(currentPage - 1)} disabled={currentPage === 1} style={paginationButtonStyle(currentPage === 1)}>‹ 前</button>
-            <span style={{ padding: '6px 12px', fontWeight: 'bold', display: 'flex', alignItems: 'center' }}>{currentPage} / {totalPages}</span>
-            <button onClick={() => goToPage(currentPage + 1)} disabled={currentPage === totalPages} style={paginationButtonStyle(currentPage === totalPages)}>次 ›</button>
-            <button onClick={() => goToPage(totalPages)} disabled={currentPage === totalPages} style={paginationButtonStyle(currentPage === totalPages)}>最後 »</button>
-          </div>
-        )}
       </main>
       <Footer />
     </>
@@ -474,12 +447,3 @@ const resetBtnStyle: React.CSSProperties = {
   fontWeight: 'bold',
   whiteSpace: 'nowrap'
 };
-
-const paginationButtonStyle = (disabled: boolean): React.CSSProperties => ({
-  padding: '6px 12px',
-  cursor: disabled ? 'not-allowed' : 'pointer',
-  borderRadius: '4px',
-  border: '1px solid #ccc',
-  background: '#fff',
-  opacity: disabled ? 0.5 : 1
-});
