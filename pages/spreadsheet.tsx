@@ -6,12 +6,26 @@ import { Footer } from '@/components/Footer'
 import { NotionPageHeader } from '@/components/NotionPageHeader'
 import * as config from '@/lib/config'
 import { TableVirtuoso, type TableComponents } from 'react-virtuoso'
-// ▼▼▼ 追加: 画面サイズ検知用 ▼▼▼
 import { useMedia } from 'react-use'
 
 type SheetData = Record<string, any[][]>;
 
 const ITEMS_PER_PAGE = 100;
+
+// --- Context for Header ---
+// ヘッダーが再マウントされるのを防ぐため、Context経由でデータを渡す
+interface SpreadsheetContextType {
+  header: any[];
+  columnWidths: number[];
+  sortConfig: { colIndex: number, direction: 'asc' | 'desc' } | null;
+  showFilter: boolean;
+  columnFilters: Record<number, string>;
+  handleSort: (i: number) => void;
+  handleColumnFilterChange: (i: number, val: string) => void;
+  getStickyStyle: (colIndex: number, bgColor: string, rowType: 'header' | 'filter' | 'data') => React.CSSProperties;
+}
+
+const SpreadsheetContext = React.createContext<SpreadsheetContextType | null>(null);
 
 // 文字列の表示幅を概算
 const getTextDisplayLength = (text: string) => {
@@ -95,6 +109,69 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
   );
 };
 
+// --- Header Content Component ---
+// Contextからデータを受け取ることで、親の再レンダリング時にもマウント状態を維持する
+const SpreadsheetHeaderContent = () => {
+  const ctx = React.useContext(SpreadsheetContext);
+  if (!ctx) return null;
+
+  const { header, columnWidths, sortConfig, showFilter, columnFilters, handleSort, handleColumnFilterChange, getStickyStyle } = ctx;
+
+  return (
+    <>
+      <tr style={{ background: '#f9f9f9' }}>
+        {header.map((col: any, i: number) => (
+          <th 
+            key={i} 
+            onClick={() => handleSort(i)}
+            style={{ 
+              padding: '0',
+              color: '#333',
+              cursor: 'pointer',
+              userSelect: 'none',
+              ...getStickyStyle(i, sortConfig?.colIndex === i ? '#eef' : '#f9f9f9', 'header')
+            }}
+          >
+            <div style={{ 
+              padding: '12px 10px',
+              display: 'flex', 
+              alignItems: 'center', 
+              justifyContent: 'space-between', 
+              gap: '5px',
+              width: `${columnWidths[i]}px`,
+              maxWidth: '200px'
+            }}>
+              {col}
+              <span style={{ fontSize: '10px', color: '#888' }}>
+                {sortConfig?.colIndex === i ? (sortConfig.direction === 'asc' ? '▲' : '▼') : '⇅'}
+              </span>
+            </div>
+          </th>
+        ))}
+      </tr>
+      {showFilter && (
+        <tr style={{ background: '#fcfcfc' }}>
+          {header.map((_: any, i: number) => (
+            <td key={i} style={{ 
+              padding: '5px', 
+              ...getStickyStyle(i, '#fcfcfc', 'filter')
+            }}>
+              <input
+                type="text"
+                placeholder="絞り込み..."
+                value={columnFilters[i] || ''}
+                onChange={(e) => handleColumnFilterChange(i, e.target.value)}
+                style={{ width: '100%', padding: '6px', fontSize: '12px', border: '1px solid #ddd', borderRadius: '4px', boxSizing: 'border-box' }}
+              />
+            </td>
+          ))}
+        </tr>
+      )}
+    </>
+  );
+};
+
+
 export async function getStaticProps() {
   try {
     const jsonPath = path.join(process.cwd(), 'data', 'spreadsheet.json')
@@ -122,7 +199,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const [sortConfig, setSortConfig] = React.useState<{ colIndex: number, direction: 'asc' | 'desc' } | null>(null);
   const [showFilter, setShowFilter] = React.useState(false);
 
-  // ▼▼▼ スマホ判定 (768px以下ならモバイルとみなす) ▼▼▼
   const isMobile = useMedia('(max-width: 768px)', false);
 
   const rawData = sheets[activeTab] || [];
@@ -254,12 +330,11 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
       zIndex: 1
     };
 
-    // 1. 横方向の固定 (1列目) - ★PCのみ有効化
+    // 1. 横方向の固定 (1列目) - PCのみ
     if (colIndex === 0 && !isMobile) {
       style.position = 'sticky';
       style.left = 0;
       style.boxShadow = '2px 0 5px -2px rgba(0,0,0,0.2)';
-      // データ行の1列目もそれなりに高く
       style.zIndex = 100;
     }
 
@@ -271,29 +346,39 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
 
     // 3. Z-Index の階層構造
     if (rowType === 'header') {
-        // スマホでもヘッダー固定は有効にするが、左上の最強Z-IndexはPCのみ
         style.zIndex = (colIndex === 0 && !isMobile) ? 1000 : 900;
     } else if (rowType === 'filter') {
         style.zIndex = (colIndex === 0 && !isMobile) ? 800 : 700;
     } else {
-        // data
         style.zIndex = (colIndex === 0 && !isMobile) ? 500 : 1;
     }
 
     return style;
   };
 
-  // ★ TableVirtuosoのコンポーネントカスタマイズ
-  const VirtuosoTableComponents: TableComponents<any[]> = {
+  // コンテキストの値を生成（メモ化）
+  const contextValue = React.useMemo(() => ({
+    header,
+    columnWidths,
+    sortConfig,
+    showFilter,
+    columnFilters,
+    handleSort,
+    handleColumnFilterChange,
+    getStickyStyle
+  }), [header, columnWidths, sortConfig, showFilter, columnFilters, isMobile]);
+
+  // ★ ヘッダー生成関数を固定（依存配列を空にする） ★
+  const fixedHeaderContent = React.useCallback(() => <SpreadsheetHeaderContent />, []);
+
+  const VirtuosoTableComponents: TableComponents<any[]> = React.useMemo(() => ({
     TableHead: React.forwardRef((props, ref) => (
       <thead {...props} ref={ref} style={{ ...props.style, zIndex: 2000, position: 'sticky', top: 0 }} />
     )),
     TableBody: React.forwardRef((props, ref) => (
       <tbody {...props} ref={ref} />
     )),
-  };
-  VirtuosoTableComponents.TableHead!.displayName = 'TableHead';
-  VirtuosoTableComponents.TableBody!.displayName = 'TableBody';
+  }), []);
 
   return (
     <>
@@ -352,75 +437,26 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         </div>
 
         <div style={{ height: '80vh', border: '1px solid #eee', borderRadius: '8px' }}>
-          <TableVirtuoso
-            data={sortedRows}
-            components={VirtuosoTableComponents}
-            fixedHeaderContent={() => (
-              <>
-                <tr style={{ background: '#f9f9f9' }}>
-                  {header.map((col: any, i: number) => (
-                    <th 
-                      key={i} 
-                      onClick={() => handleSort(i)}
-                      style={{ 
-                        padding: '0',
-                        color: '#333',
-                        cursor: 'pointer',
-                        userSelect: 'none',
-                        ...getStickyStyle(i, sortConfig?.colIndex === i ? '#eef' : '#f9f9f9', 'header')
-                      }}
-                    >
-                      <div style={{ 
-                        padding: '12px 10px',
-                        display: 'flex', 
-                        alignItems: 'center', 
-                        justifyContent: 'space-between', 
-                        gap: '5px',
-                        width: `${columnWidths[i]}px`,
-                        maxWidth: '200px'
-                      }}>
-                        {col}
-                        <span style={{ fontSize: '10px', color: '#888' }}>
-                          {sortConfig?.colIndex === i ? (sortConfig.direction === 'asc' ? '▲' : '▼') : '⇅'}
-                        </span>
-                      </div>
-                    </th>
+          <SpreadsheetContext.Provider value={contextValue}>
+            <TableVirtuoso
+              data={sortedRows}
+              components={VirtuosoTableComponents}
+              fixedHeaderContent={fixedHeaderContent}
+              itemContent={(index, row: any[]) => (
+                <>
+                  {row.map((cell: any, cellIndex: number) => (
+                    <td key={cellIndex} style={{ 
+                      padding: '0',
+                      verticalAlign: 'top',
+                      ...getStickyStyle(cellIndex, index % 2 === 0 ? '#fff' : '#fcfcfc', 'data')
+                    }}>
+                      <DataCell content={cell} width={columnWidths[cellIndex] || 60} />
+                    </td>
                   ))}
-                </tr>
-                {showFilter && (
-                  <tr style={{ background: '#fcfcfc' }}>
-                    {header.map((_: any, i: number) => (
-                      <td key={i} style={{ 
-                        padding: '5px', 
-                        ...getStickyStyle(i, '#fcfcfc', 'filter')
-                      }}>
-                        <input
-                          type="text"
-                          placeholder="絞り込み..."
-                          value={columnFilters[i] || ''}
-                          onChange={(e) => handleColumnFilterChange(i, e.target.value)}
-                          style={{ width: '100%', padding: '6px', fontSize: '12px', border: '1px solid #ddd', borderRadius: '4px', boxSizing: 'border-box' }}
-                        />
-                      </td>
-                    ))}
-                  </tr>
-                )}
-              </>
-            )}
-            itemContent={(index, row: any[]) => (
-              <>
-                {row.map((cell: any, cellIndex: number) => (
-                  <td key={cellIndex} style={{ 
-                    padding: '0',
-                    verticalAlign: 'top',
-                    ...getStickyStyle(cellIndex, index % 2 === 0 ? '#fff' : '#fcfcfc', 'data')
-                  }}>
-                    <DataCell content={cell} width={columnWidths[cellIndex] || 60} />
-                  </td>
-                ))}
-              </>
-            )}
-          />
+                </>
+              )}
+            />
+          </SpreadsheetContext.Provider>
         </div>
       </main>
       <Footer />
