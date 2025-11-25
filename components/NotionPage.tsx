@@ -36,69 +36,37 @@ import styles from './styles.module.css'
 
 const Code = dynamic(() =>
   import('react-notion-x/build/third-party/code').then(async (m) => {
-    // add / remove any prism syntaxes here
     await Promise.allSettled([
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-markup-templating.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-markup.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-bash.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-c.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-cpp.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-csharp.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-docker.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-java.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-js-templates.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-coffeescript.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-diff.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-git.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-go.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-graphql.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-handlebars.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-less.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-makefile.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-markdown.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-objectivec.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-ocaml.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-python.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-reason.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-rust.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-sass.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-scss.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-solidity.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-sql.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-stylus.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-swift.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-wasm.js'),
-      // @ts-expect-error Ignore prisma types
       import('prismjs/components/prism-yaml.js')
     ])
     return m.Code
@@ -138,6 +106,29 @@ function Tweet({ id }: { id: string }) {
     <React.Suspense fallback={<TweetSkeleton />}>
       {tweet ? <EmbeddedTweet tweet={tweet} /> : <TweetNotFound />}
     </React.Suspense>
+  )
+}
+
+// ★ カスタムリンクコンポーネント ★
+// 内部リンクを判定して、同じタブで開くようにする
+const CustomLink = (props: any) => {
+  const { href, ...rest } = props;
+  const isInternal = href && (href.startsWith('/') || href.includes('houkai-gakuen-wiki.com'));
+
+  if (isInternal) {
+    // ドメイン部分を削除して相対パスにする
+    const relativeHref = href.replace('https://houkai-gakuen-wiki.com', '') || '/';
+    return (
+      <Link href={relativeHref} {...rest} className={cs('notion-link', props.className)}>
+        {props.children}
+      </Link>
+    )
+  }
+
+  return (
+    <a target="_blank" rel="noopener noreferrer" href={href} {...rest} className={cs('notion-link', props.className)}>
+      {props.children}
+    </a>
   )
 }
 
@@ -196,6 +187,8 @@ export function NotionPage({
     () => ({
       nextLegacyImage: Image,
       nextLink: Link,
+      // ★ ここでカスタムリンクを適用
+      Link: CustomLink, 
       Code,
       Collection,
       Equation,
@@ -210,9 +203,7 @@ export function NotionPage({
     []
   )
 
-  // lite mode is for oembed
   const isLiteMode = lite === 'true'
-
   const { isDarkMode } = useDarkMode()
 
   const siteMapPageUrl = React.useMemo(() => {
@@ -228,8 +219,6 @@ export function NotionPage({
   const keys = Object.keys(recordMap?.block || {})
   const block = recordMap?.block?.[keys[0]!]?.value
 
-  // const isRootPage =
-  //   parsePageId(block?.id) === parsePageId(site?.rootNotionPageId)
   const isBlogPost =
     block?.type === 'page' && block?.parent_table === 'collection'
 
@@ -259,16 +248,7 @@ export function NotionPage({
 
   const title = getBlockTitle(block, recordMap) || site.name
 
-  console.log('notion page', {
-    isDev: config.isDev,
-    title,
-    pageId,
-    rootNotionPageId: site.rootNotionPageId,
-    recordMap
-  })
-
   if (!config.isServer) {
-    // add important objects to the window global for easy debugging
     const g = window as any
     g.pageId = pageId
     g.recordMap = recordMap
@@ -326,8 +306,6 @@ export function NotionPage({
         pageAside={pageAside}
         footer={footer}
       />
-
-      {/* 削除済み */}
     </>
   )
 }

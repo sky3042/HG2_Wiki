@@ -29,8 +29,7 @@ import {
   BookOpen,
   AlertTriangle,
   X,
-  CheckCircle,
-  Twitter
+  CheckCircle
 } from 'lucide-react'
 import { 
   type GachaItem, 
@@ -155,7 +154,6 @@ export default function GachaCalculatorPage() {
     gachaData.map(item => item.label).filter(l => l.trim() !== ''), 
   [gachaData]);
 
-  // ターゲット情報の取得（バリデーション用）
   const getTargetValidation = (label: string, count: number) => {
     const labelData = gachaData.find(item => item.label === label);
     if (!labelData) return { isValid: false, message: 'データなし' };
@@ -448,11 +446,11 @@ export default function GachaCalculatorPage() {
             return val !== undefined ? val * 100 : 0;
         }),
         borderColor: colors[i % colors.length],
-        backgroundColor: colors[i % colors.length] + '20', // 薄い背景色
+        backgroundColor: colors[i % colors.length] + '20',
         borderWidth: 2,
-        pointRadius: 3, // ポイントを表示
+        pointRadius: 3,
         pointHoverRadius: 5,
-        tension: 0.3, // 曲線を滑らかに
+        tension: 0.3,
         fill: false
     }));
 
@@ -473,8 +471,8 @@ export default function GachaCalculatorPage() {
                 labels: { usePointStyle: true, padding: 15 } 
             },
             tooltip: {
-                mode: 'index' as const, // 修正: X軸上の同じ位置のデータをまとめて表示
-                intersect: false,       // 修正: ポイントに触れなくても表示
+                mode: 'index' as const,
+                intersect: false,
                 backgroundColor: 'rgba(0, 0, 0, 0.8)',
                 titleColor: 'white',
                 bodyColor: 'white',
@@ -483,7 +481,7 @@ export default function GachaCalculatorPage() {
                 callbacks: {
                     title: (context: TooltipItem<'line'>[]) => `${context[0]?.label}回`,
                     label: (context: TooltipItem<'line'>) => {
-                        return `${context.dataset.label}: ${Number(context.parsed.y).toFixed(2)}%`; // 修正: %を追加
+                        return `${context.dataset.label}: ${Number(context.parsed.y).toFixed(2)}%`;
                     }
                 }
             }
@@ -500,13 +498,13 @@ export default function GachaCalculatorPage() {
                 grid: { color: 'rgba(0, 0, 0, 0.1)' },
                 ticks: {
                     callback: function(value: any) {
-                        return value + '%'; // 修正: 軸のラベルにも%を追加
+                        return value + '%';
                     }
                 }
             }
         },
         interaction: {
-            mode: 'index' as const, // 修正: ホバー時の挙動を改善
+            mode: 'index' as const,
             intersect: false
         },
         elements: {
@@ -536,24 +534,6 @@ export default function GachaCalculatorPage() {
             <p>このサイトは崩壊学園の祈り（ガチャ）の確率計算を行うサイトです。<br/>
             現在はお姫様の祈りのWピックアップ、通常ピックアップに対応していますが、今後他の祈りも追加していく予定です。<br/>
             バグや誤りがあれば制作者のXまでお願いします。</p>
-            
-            <div style={{ marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                <div>
-                    制作者のX: <a href="https://x.com/sky_gakuen" target="_blank" rel="noopener noreferrer" style={{color: '#2563EB', fontWeight: 'bold', display: 'inline-flex', alignItems: 'center', gap: '4px'}}><Twitter size={16}/>@sky_gakuen</a>
-                </div>
-                <div>
-                    こちらもどうぞ： <a href="https://houkai-gakuen.notion.site/" target="_blank" rel="noopener noreferrer" style={{color: '#2563EB'}}>崩壊学園編ストーリーWiki</a>
-                </div>
-                <div>
-                    <button onClick={() => {
-                        const url = window.location.href;
-                        const text = '崩壊学園 祈り計算機 - ガチャの確率を正確に計算できるツールです！';
-                        window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
-                    }} style={{...buttonStyle(true), padding: '6px 12px', fontSize: '14px'}}>
-                        <Twitter size={16}/> Xで共有
-                    </button>
-                </div>
-            </div>
           </div>
 
           <div style={{ borderTop: '1px solid #eee', paddingTop: '20px' }}>
@@ -582,6 +562,31 @@ export default function GachaCalculatorPage() {
                     </li>
                 ))}
              </ol>
+             
+             {/* 設定例を追加 */}
+             <div style={{ marginTop: '20px', padding: '15px', background: '#f0f9ff', borderRadius: '8px', fontSize: '14px' }}>
+                <h4 style={{ margin: '0 0 10px 0', fontSize: '1rem', color: '#1e40af' }}>設定例</h4>
+                
+                <div style={{ marginBottom: '15px' }}>
+                    <div style={{ fontWeight: 'bold', color: '#333', marginBottom: '4px' }}>例1：Wピックアップで、ピックアップの中に欲しい装備が4種類あり、1天井分の水晶がある場合</div>
+                    <ul style={{ listStyle: 'disc', paddingLeft: '20px', margin: 0, color: '#555' }}>
+                        <li>欲しい装備の設定：Wピックアップ、4</li>
+                        <li>各装備の必要個数：1</li>
+                        <li>最大ガチャ回数：100</li>
+                        <li>グラフ間隔：任意</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div style={{ fontWeight: 'bold', color: '#333', marginBottom: '4px' }}>例2：「ラニアット（鎮罪の蝶）」など崩壊学園キャラを完凸したい、かつピックアップに他に欲しい装備がない場合</div>
+                    <ul style={{ listStyle: 'disc', paddingLeft: '20px', margin: 0, color: '#555' }}>
+                        <li>欲しい装備の設定：ピックアップ、1</li>
+                        <li>各装備の必要個数：4（無料分と合わせて5）</li>
+                        <li>最大ガチャ回数：任意</li>
+                        <li>グラフ間隔：任意</li>
+                    </ul>
+                </div>
+             </div>
           </div>
       </div>
   );
@@ -598,7 +603,6 @@ export default function GachaCalculatorPage() {
 
         {notification && <ErrorNotification error={notification} onClose={() => setNotification(null)} />}
 
-        {/* タブナビゲーション */}
         <div style={{ display: 'flex', gap: '10px', marginBottom: '20px', flexWrap: 'wrap' }}>
             {[
                 { id: 'settings', label: '設定', icon: Calculator },
@@ -621,7 +625,6 @@ export default function GachaCalculatorPage() {
             ))}
         </div>
 
-        {/* コンテンツエリア */}
         <div>
             {activeTab === 'settings' && renderSettings()}
             {activeTab === 'chart' && renderChart()}
@@ -693,7 +696,6 @@ const actionBtnStyle: React.CSSProperties = {
     cursor: 'pointer',
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'center',
     gap: '5px',
     fontSize: '12px',
     color: '#555',

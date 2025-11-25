@@ -6,6 +6,8 @@ import { Footer } from '@/components/Footer'
 import { NotionPageHeader } from '@/components/NotionPageHeader'
 import * as config from '@/lib/config'
 import { TableVirtuoso, type TableComponents } from 'react-virtuoso'
+// ▼▼▼ 追加: 画面サイズ検知用 ▼▼▼
+import { useMedia } from 'react-use'
 
 type SheetData = Record<string, any[][]>;
 
@@ -119,6 +121,9 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   
   const [sortConfig, setSortConfig] = React.useState<{ colIndex: number, direction: 'asc' | 'desc' } | null>(null);
   const [showFilter, setShowFilter] = React.useState(false);
+
+  // ▼▼▼ スマホ判定 (768px以下ならモバイルとみなす) ▼▼▼
+  const isMobile = useMedia('(max-width: 768px)', false);
 
   const rawData = sheets[activeTab] || [];
   const header = rawData[0] || [];
@@ -249,11 +254,12 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
       zIndex: 1
     };
 
-    // 1. 横方向の固定 (1列目)
-    if (colIndex === 0) {
+    // 1. 横方向の固定 (1列目) - ★PCのみ有効化
+    if (colIndex === 0 && !isMobile) {
       style.position = 'sticky';
       style.left = 0;
       style.boxShadow = '2px 0 5px -2px rgba(0,0,0,0.2)';
+      // データ行の1列目もそれなりに高く
       style.zIndex = 100;
     }
 
@@ -265,18 +271,19 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
 
     // 3. Z-Index の階層構造
     if (rowType === 'header') {
-        style.zIndex = colIndex === 0 ? 1000 : 900;
+        // スマホでもヘッダー固定は有効にするが、左上の最強Z-IndexはPCのみ
+        style.zIndex = (colIndex === 0 && !isMobile) ? 1000 : 900;
     } else if (rowType === 'filter') {
-        style.zIndex = colIndex === 0 ? 800 : 700;
+        style.zIndex = (colIndex === 0 && !isMobile) ? 800 : 700;
     } else {
         // data
-        style.zIndex = colIndex === 0 ? 500 : 1;
+        style.zIndex = (colIndex === 0 && !isMobile) ? 500 : 1;
     }
 
     return style;
   };
 
-  // ★ TableVirtuosoのコンポーネントカスタマイズ (型定義を追加して修正) ★
+  // ★ TableVirtuosoのコンポーネントカスタマイズ
   const VirtuosoTableComponents: TableComponents<any[]> = {
     TableHead: React.forwardRef((props, ref) => (
       <thead {...props} ref={ref} style={{ ...props.style, zIndex: 2000, position: 'sticky', top: 0 }} />

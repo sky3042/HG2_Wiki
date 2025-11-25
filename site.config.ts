@@ -12,7 +12,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '崩壊学園編Wiki',
+  name: '崩壊学園編　ストーリー　Wiki',
   domain: 'houkai-gakuen-wiki.com',
   author: 'Sky',
 
@@ -51,20 +51,15 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  
-  // ▼▼▼ ここを変更しました ▼▼▼
   navigationStyle: 'custom',
-  
   navigationLinks: [
+    {
+      title: '図鑑データ',
+      url: '/spreadsheet'
+    },
     {
       title: '祈り計算機',
       url: '/gacha-calculator'
-    },
-    // 他にリンクを追加したい場合はここに書けます
-    // {
-    //   title: 'About',
-    //   pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-    // }
+    }
   ]
-  // ▲▲▲ ここまで ▲▲▲
 })
