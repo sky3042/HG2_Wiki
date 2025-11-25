@@ -12,7 +12,7 @@ import {
   Title, 
   Tooltip, 
   Legend,
-  type TooltipItem // type import に修正
+  type TooltipItem
 } from 'chart.js'
 import { Line } from 'react-chartjs-2'
 import { 
@@ -26,7 +26,11 @@ import {
   Download,
   Trash2,
   Edit3,
-  BookOpen
+  BookOpen,
+  AlertTriangle,
+  X,
+  CheckCircle,
+  Twitter
 } from 'lucide-react'
 import { 
   type GachaItem, 
@@ -70,16 +74,66 @@ const DEFAULT_PRESETS = [
   {
     id: 'w_pickup',
     name: 'Wピックアップ',
-    defaultTargets: { 'Wピックアップ': 1 } as Record<string, number>, // 型アサーションを追加
+    defaultTargets: { 'Wピックアップ': 1 } as Record<string, number>,
     data: parseCSVData(DEFAULT_CSV_DATA)
   },
   {
     id: 'normal_pickup',
     name: '通常ピックアップ',
-    defaultTargets: { 'ピックアップ': 1, '追加枠': 1 } as Record<string, number>, // 型アサーションを追加
+    defaultTargets: { 'ピックアップ': 1, '追加枠': 1 } as Record<string, number>,
     data: parseCSVData(DEFAULT_CSV_DATA.replace('0.926%', '0.000%').replace('ピックアップ,0.000%', 'ピックアップ,1.436%').replace('追加枠,0.000%', '追加枠,1.777%'))
   }
 ];
+
+// --- Sub Components (Inline) ---
+
+const ErrorNotification = ({ error, onClose }: { error: ErrorInfo | null, onClose: () => void }) => {
+  if (!error) return null;
+  
+  const colors = {
+    error: { bg: '#FEF2F2', border: '#FECACA', text: '#991B1B', icon: '#EF4444' },
+    warning: { bg: '#FFFBEB', border: '#FDE68A', text: '#92400E', icon: '#F59E0B' },
+    info: { bg: '#EFF6FF', border: '#BFDBFE', text: '#1E40AF', icon: '#3B82F6' },
+    success: { bg: '#ECFDF5', border: '#A7F3D0', text: '#065F46', icon: '#10B981' }
+  }[error.type];
+
+  const Icon = {
+    error: AlertTriangle,
+    warning: AlertTriangle,
+    info: Info,
+    success: CheckCircle
+  }[error.type];
+
+  return (
+    <div style={{
+      padding: '16px',
+      marginBottom: '24px',
+      borderRadius: '8px',
+      backgroundColor: colors.bg,
+      border: `1px solid ${colors.border}`,
+      display: 'flex',
+      justifyContent: 'space-between',
+      alignItems: 'flex-start',
+      gap: '12px'
+    }}>
+      <div style={{ display: 'flex', gap: '12px', flex: 1 }}>
+        <Icon size={20} color={colors.icon} style={{ marginTop: '2px' }} />
+        <div>
+          <h3 style={{ margin: '0 0 4px 0', fontSize: '1rem', fontWeight: '600', color: colors.text }}>{error.title}</h3>
+          <p style={{ margin: '0 0 8px 0', fontSize: '0.9rem', color: colors.text }}>{error.message}</p>
+          {error.suggestions && (
+            <ul style={{ margin: 0, paddingLeft: '20px', fontSize: '0.85rem', color: colors.text }}>
+              {error.suggestions.map((s, i) => <li key={i}>{s}</li>)}
+            </ul>
+          )}
+        </div>
+      </div>
+      <button onClick={onClose} style={{ background: 'none', border: 'none', cursor: 'pointer', color: colors.text }}>
+        <X size={18} />
+      </button>
+    </div>
+  );
+};
 
 export default function GachaCalculatorPage() {
   const [activeTab, setActiveTab] = React.useState<'settings' | 'chart' | 'about'>('settings');
@@ -95,9 +149,30 @@ export default function GachaCalculatorPage() {
   const [notification, setNotification] = React.useState<ErrorInfo | null>(null);
   const [isDataExpanded, setIsDataExpanded] = React.useState(false);
 
+  const chartRef = React.useRef<ChartJS<'line'>>(null);
+
   const availableLabels = React.useMemo(() => 
     gachaData.map(item => item.label).filter(l => l.trim() !== ''), 
   [gachaData]);
+
+  // ターゲット情報の取得（バリデーション用）
+  const getTargetValidation = (label: string, count: number) => {
+    const labelData = gachaData.find(item => item.label === label);
+    if (!labelData) return { isValid: false, message: 'データなし' };
+    if (count > labelData.count) return { isValid: false, message: `最大${labelData.count}個` };
+    if (labelData.count === 0) return { isValid: false, message: '個数0' };
+    return { isValid: true, message: '' };
+  };
+
+  const updateTargetCount = (label: string, count: number) => {
+    const newTargets = { ...settings.targetsByLabel };
+    if (count <= 0) {
+      delete newTargets[label];
+    } else {
+      newTargets[label] = count;
+    }
+    setSettings({ ...settings, targetsByLabel: newTargets });
+  };
 
   const calculateProbabilities = async () => {
     const error = GachaErrorHandler.validateCalculationData(gachaData, settings);
@@ -130,6 +205,7 @@ export default function GachaCalculatorPage() {
         <h2 style={{ margin: 0, fontSize: '1.5rem' }}>設定</h2>
       </div>
 
+      {/* プリセット */}
       <div style={{ marginBottom: '24px' }}>
         <h3 style={{ fontSize: '1.1rem', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '8px' }}>
           <BookOpen size={20} /> 祈りを選択
@@ -151,6 +227,7 @@ export default function GachaCalculatorPage() {
         </div>
       </div>
 
+      {/* 詳細データエディタ */}
       <div style={{ marginBottom: '24px' }}>
         <button 
           onClick={() => setIsDataExpanded(!isDataExpanded)}
@@ -263,65 +340,76 @@ export default function GachaCalculatorPage() {
         )}
       </div>
 
+      {/* ターゲット設定 */}
       <div style={{ marginBottom: '24px' }}>
-        <h3 style={{ fontSize: '1.1rem', marginBottom: '15px' }}>欲しい装備の設定</h3>
-        
-        {Object.entries(settings.targetsByLabel).map(([label, count]) => (
-          <div key={label} style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px', background: '#f5f5f5', padding: '10px', borderRadius: '8px' }}>
-             <select 
-                value={label}
-                onChange={(e) => {
-                    const newL = e.target.value;
-                    const n = {...settings.targetsByLabel};
-                    delete n[label];
-                    n[newL] = count;
-                    setSettings({...settings, targetsByLabel: n});
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px' }}>
+            <h3 style={{ fontSize: '1.1rem', margin: 0 }}>欲しい装備の設定</h3>
+            <button 
+                onClick={() => {
+                    const unused = availableLabels.find(l => !settings.targetsByLabel[l]);
+                    if(unused) updateTargetCount(unused, 1);
                 }}
-                style={{ ...inputStyle, flex: 1 }}
-             >
-                {availableLabels.map(l => <option key={l} value={l}>{l}</option>)}
-             </select>
-             
-             <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
-                <button onClick={() => {
-                    const n = {...settings.targetsByLabel};
-                    if (n[label] && n[label]! > 1) {
-                        n[label] = n[label]! - 1;
-                        setSettings({...settings, targetsByLabel: n});
-                    }
-                }} style={iconBtnStyle}><Minus size={14}/></button>
-                
-                <span style={{ fontWeight: 'bold', minWidth: '20px', textAlign: 'center' }}>{count}</span>
-                
-                <button onClick={() => {
-                    const n = {...settings.targetsByLabel};
-                    if (typeof n[label] === 'number') {
-                        n[label] = n[label]! + 1;
-                        setSettings({...settings, targetsByLabel: n});
-                    }
-                }} style={iconBtnStyle}><Plus size={14}/></button>
-             </div>
+                disabled={Object.keys(settings.targetsByLabel).length >= availableLabels.length}
+                style={{ ...buttonStyle(false), fontSize: '14px', padding: '5px 10px' }}
+            >
+                <Plus size={14}/> 追加
+            </button>
+        </div>
+        
+        {Object.keys(settings.targetsByLabel).length === 0 ? (
+            <p style={{color: '#888', textAlign: 'center', padding: '20px', background: '#f9f9f9', borderRadius: '8px'}}>
+                ターゲットが設定されていません。「追加」ボタンでターゲットを設定してください。
+            </p>
+        ) : (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                {Object.entries(settings.targetsByLabel).map(([label, count]) => {
+                    const validation = getTargetValidation(label, count);
+                    return (
+                        <div key={label} style={{ 
+                            display: 'flex', alignItems: 'center', gap: '10px', 
+                            background: validation.isValid ? '#f5f5f5' : '#FEF2F2', 
+                            padding: '10px', borderRadius: '8px',
+                            border: validation.isValid ? '1px solid transparent' : '1px solid #FECACA'
+                        }}>
+                            <select 
+                                value={label}
+                                onChange={(e) => {
+                                    const newL = e.target.value;
+                                    const n = {...settings.targetsByLabel};
+                                    delete n[label];
+                                    n[newL] = count;
+                                    setSettings({...settings, targetsByLabel: n});
+                                }}
+                                style={{ ...inputStyle, flex: 1, borderColor: validation.isValid ? '#ddd' : '#FCA5A5' }}
+                            >
+                                {availableLabels.map(l => <option key={l} value={l}>{l}</option>)}
+                            </select>
+                            
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+                                <button onClick={() => updateTargetCount(label, count - 1)} style={iconBtnStyle}><Minus size={14}/></button>
+                                
+                                <input 
+                                    type="number" 
+                                    value={count} 
+                                    onChange={(e) => updateTargetCount(label, parseInt(e.target.value)||0)}
+                                    style={{ ...inputStyle, width: '50px', textAlign: 'center', padding: '5px' }}
+                                    min="0"
+                                />
+                                
+                                <button onClick={() => updateTargetCount(label, count + 1)} style={iconBtnStyle}><Plus size={14}/></button>
+                            </div>
 
-             <button onClick={() => {
-                 const n = {...settings.targetsByLabel};
-                 delete n[label];
-                 setSettings({...settings, targetsByLabel: n});
-             }} style={{...iconBtnStyle, color: 'red'}}>×</button>
-          </div>
-        ))}
-
-        <button 
-            onClick={() => {
-                const unused = availableLabels.find(l => !settings.targetsByLabel[l]);
-                if(unused) setSettings({...settings, targetsByLabel: {...settings.targetsByLabel, [unused]: 1}});
-            }}
-            disabled={Object.keys(settings.targetsByLabel).length >= availableLabels.length}
-            style={{ ...buttonStyle(false), fontSize: '14px', padding: '5px 10px' }}
-        >
-            <Plus size={14}/> ターゲットを追加
-        </button>
+                            <button onClick={() => updateTargetCount(label, 0)} style={{...iconBtnStyle, color: 'red', background: '#fff'}}>×</button>
+                            
+                            {!validation.isValid && <span style={{color: '#DC2626', fontSize: '12px'}}>{validation.message}</span>}
+                        </div>
+                    );
+                })}
+            </div>
+        )}
       </div>
 
+      {/* 数値設定 */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '30px' }}>
           <div>
               <label style={labelStyle}>各装備の必要個数</label>
@@ -350,9 +438,7 @@ export default function GachaCalculatorPage() {
     if (graphData.length === 0) return <div style={cardStyle}>データがありません。計算を実行してください。</div>;
     
     const labels = graphData.map(p => p.pullCount);
-    // graphData[0] が存在することをチェックしてアクセス
-    const firstData = graphData[0];
-    const numTargets = firstData ? firstData.probabilities.length : 0;
+    const numTargets = graphData[0]?.probabilities.length || 0;
     const colors = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6', '#06B6D4', '#84CC16'];
     
     const datasets = Array.from({ length: numTargets }, (_, i) => ({
@@ -362,23 +448,78 @@ export default function GachaCalculatorPage() {
             return val !== undefined ? val * 100 : 0;
         }),
         borderColor: colors[i % colors.length],
-        backgroundColor: 'transparent',
+        backgroundColor: colors[i % colors.length] + '20', // 薄い背景色
         borderWidth: 2,
-        pointRadius: 0,
-        tension: 0.1
+        pointRadius: 3, // ポイントを表示
+        pointHoverRadius: 5,
+        tension: 0.3, // 曲線を滑らかに
+        fill: false
     }));
+
+    const options = {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: { duration: 1000, easing: 'easeInOutCubic' as const },
+        plugins: {
+            title: { 
+                display: true, 
+                text: '欲しい装備の入手確率', 
+                font: { size: 18, weight: 'bold' as const }, 
+                padding: 20 
+            },
+            legend: { 
+                display: true, 
+                position: 'top' as const,
+                labels: { usePointStyle: true, padding: 15 } 
+            },
+            tooltip: {
+                mode: 'index' as const, // 修正: X軸上の同じ位置のデータをまとめて表示
+                intersect: false,       // 修正: ポイントに触れなくても表示
+                backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                titleColor: 'white',
+                bodyColor: 'white',
+                borderColor: 'rgba(255, 255, 255, 0.2)',
+                borderWidth: 1,
+                callbacks: {
+                    title: (context: TooltipItem<'line'>[]) => `${context[0]?.label}回`,
+                    label: (context: TooltipItem<'line'>) => {
+                        return `${context.dataset.label}: ${Number(context.parsed.y).toFixed(2)}%`; // 修正: %を追加
+                    }
+                }
+            }
+        },
+        scales: {
+            x: { 
+                title: { display: true, text: 'ガチャ回数', font: { size: 14, weight: 'bold' as const } },
+                grid: { color: 'rgba(0, 0, 0, 0.1)' }
+            },
+            y: { 
+                title: { display: true, text: '確率 (%)', font: { size: 14, weight: 'bold' as const } },
+                min: 0, 
+                max: 100,
+                grid: { color: 'rgba(0, 0, 0, 0.1)' },
+                ticks: {
+                    callback: function(value: any) {
+                        return value + '%'; // 修正: 軸のラベルにも%を追加
+                    }
+                }
+            }
+        },
+        interaction: {
+            mode: 'index' as const, // 修正: ホバー時の挙動を改善
+            intersect: false
+        },
+        elements: {
+            point: {
+                hoverBorderWidth: 3
+            }
+        }
+    };
 
     return (
         <div style={cardStyle}>
             <div style={{ height: '500px', width: '100%' }}>
-                <Line data={{ labels, datasets }} options={{
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        x: { title: { display: true, text: 'ガチャ回数' } },
-                        y: { title: { display: true, text: '確率 (%)' }, min: 0, max: 100 }
-                    }
-                }} />
+                <Line ref={chartRef} data={{ labels, datasets }} options={options} />
             </div>
         </div>
     );
@@ -386,15 +527,61 @@ export default function GachaCalculatorPage() {
 
   const renderAbout = () => (
       <div style={cardStyle}>
-          <h2 style={{fontSize: '1.5rem', marginBottom: '15px', display:'flex', alignItems:'center', gap:'10px'}}>
-              <Info size={24} color="#3B82F6"/> このサイトについて
-          </h2>
-          <p style={{lineHeight: '1.8', color: '#444'}}>
-            このツールは「崩壊学園」のガチャ（祈り）確率を、動的計画法を用いて厳密に計算するシミュレーターです。<br/>
-            単純な二項分布ではなく、天井システム（100連天井など）や「ピックアップ」「追加枠」の仕様を考慮しています。
-          </p>
-          <div style={{ marginTop: '20px', padding: '15px', background: '#f0f9ff', borderRadius: '8px', fontSize: '14px' }}>
-            制作者: <a href="https://x.com/sky_gakuen" target="_blank" style={{color: '#2563EB', fontWeight: 'bold'}}>@sky_gakuen</a>
+          <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px'}}>
+            <Info size={24} color="#3B82F6" />
+            <h2 style={{fontSize: '1.5rem', margin: 0}}>このサイトについて</h2>
+          </div>
+          
+          <div style={{ lineHeight: '1.8', color: '#444', marginBottom: '24px' }}>
+            <p>このサイトは崩壊学園の祈り（ガチャ）の確率計算を行うサイトです。<br/>
+            現在はお姫様の祈りのWピックアップ、通常ピックアップに対応していますが、今後他の祈りも追加していく予定です。<br/>
+            バグや誤りがあれば制作者のXまでお願いします。</p>
+            
+            <div style={{ marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                <div>
+                    制作者のX: <a href="https://x.com/sky_gakuen" target="_blank" rel="noopener noreferrer" style={{color: '#2563EB', fontWeight: 'bold', display: 'inline-flex', alignItems: 'center', gap: '4px'}}><Twitter size={16}/>@sky_gakuen</a>
+                </div>
+                <div>
+                    こちらもどうぞ： <a href="https://houkai-gakuen.notion.site/" target="_blank" rel="noopener noreferrer" style={{color: '#2563EB'}}>崩壊学園編ストーリーWiki</a>
+                </div>
+                <div>
+                    <button onClick={() => {
+                        const url = window.location.href;
+                        const text = '崩壊学園 祈り計算機 - ガチャの確率を正確に計算できるツールです！';
+                        window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
+                    }} style={{...buttonStyle(true), padding: '6px 12px', fontSize: '14px'}}>
+                        <Twitter size={16}/> Xで共有
+                    </button>
+                </div>
+            </div>
+          </div>
+
+          <div style={{ borderTop: '1px solid #eee', paddingTop: '20px' }}>
+             <h3 style={{ fontSize: '1.2rem', marginBottom: '15px', color: '#333' }}>使い方</h3>
+             <ol style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                {[
+                    { num: 1, text: '祈りを選択します。' },
+                    { num: 2, text: '確率タイプごとに、欲しい装備が何種類あるかを指定します。', note: ['タイプは基本的に「ピックアップ」「Wピックアップ」「追加枠」を選べば問題ありません。', '※「追加枠」とは、通常ピックアップで他のPU装備より確率が高い2種類の装備を指します。', '※ 詳細設定から確率の確認・変更も可能ですが、ガチャ毎の差は計算結果にほとんど影響しないため、基本的に変更は不要です。'] },
+                    { num: 3, text: '最大ガチャ回数、グラフの間隔を指定します。複数個欲しい装備がある場合は各装備の必要個数で指定します（ただし個別には設定できません）。' },
+                    { num: 4, text: '計算結果を確認します。グラフにカーソルを当てると詳細な数値が表示されます。' }
+                ].map((step) => (
+                    <li key={step.num} style={{ display: 'flex', gap: '12px' }}>
+                        <span style={{ 
+                            background: '#3B82F6', color: '#fff', width: '24px', height: '24px', 
+                            borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                            fontSize: '12px', fontWeight: 'bold', flexShrink: 0, marginTop: '2px'
+                        }}>{step.num}</span>
+                        <div>
+                            <div>{step.text}</div>
+                            {step.note && (
+                                <div style={{ marginTop: '8px', fontSize: '0.85rem', color: '#666', background: '#f5f5f5', padding: '10px', borderRadius: '6px' }}>
+                                    {step.note.map((n, i) => <p key={i} style={{ margin: '4px 0' }}>{n}</p>)}
+                                </div>
+                            )}
+                        </div>
+                    </li>
+                ))}
+             </ol>
           </div>
       </div>
   );
@@ -404,30 +591,19 @@ export default function GachaCalculatorPage() {
       <PageHead site={config.site} title="祈り計算機" description="崩壊学園ガチャ確率計算機" />
       <NotionPageHeader block={null} />
 
-      <main style={{ maxWidth: '1000px', margin: '0 auto', padding: '40px 20px', minHeight: 'calc(100vh - 200px)' }}>
+      <main style={{ maxWidth: '1000px', margin: '0 auto', padding: '40px 20px', minHeight: 'calc(100vh - 200px)', fontFamily: '"Helvetica Neue", Arial, sans-serif' }}>
         <h1 style={{ fontSize: '2.5rem', marginBottom: '30px', textAlign: 'center', fontWeight: '800', color: '#333' }}>
             祈り計算機
         </h1>
 
-        {notification && (
-            <div style={{
-                padding: '15px',
-                marginBottom: '20px',
-                borderRadius: '8px',
-                background: notification.type === 'error' ? '#fef2f2' : '#f0fdf4',
-                border: `1px solid ${notification.type === 'error' ? '#fecaca' : '#bbf7d0'}`,
-                color: notification.type === 'error' ? '#991b1b' : '#166534'
-            }}>
-                <strong>{notification.title}</strong>: {notification.message}
-                <button onClick={() => setNotification(null)} style={{float: 'right', background: 'none', border: 'none', cursor: 'pointer'}}>×</button>
-            </div>
-        )}
+        {notification && <ErrorNotification error={notification} onClose={() => setNotification(null)} />}
 
-        <div style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
+        {/* タブナビゲーション */}
+        <div style={{ display: 'flex', gap: '10px', marginBottom: '20px', flexWrap: 'wrap' }}>
             {[
                 { id: 'settings', label: '設定', icon: Calculator },
                 { id: 'chart', label: '結果グラフ', icon: BarChart3 },
-                { id: 'about', label: 'ヘルプ', icon: Info },
+                { id: 'about', label: 'このサイトについて', icon: Info },
             ].map(tab => (
                 <button
                     key={tab.id}
@@ -436,7 +612,8 @@ export default function GachaCalculatorPage() {
                         ...tabStyle,
                         background: activeTab === tab.id ? '#3B82F6' : '#fff',
                         color: activeTab === tab.id ? '#fff' : '#555',
-                        borderColor: activeTab === tab.id ? '#3B82F6' : '#ddd'
+                        borderColor: activeTab === tab.id ? '#3B82F6' : '#ddd',
+                        boxShadow: activeTab === tab.id ? '0 2px 4px rgba(59, 130, 246, 0.2)' : 'none'
                     }}
                 >
                     <tab.icon size={18} /> {tab.label}
@@ -444,6 +621,7 @@ export default function GachaCalculatorPage() {
             ))}
         </div>
 
+        {/* コンテンツエリア */}
         <div>
             {activeTab === 'settings' && renderSettings()}
             {activeTab === 'chart' && renderChart()}
@@ -477,7 +655,8 @@ const tabStyle: React.CSSProperties = {
     justifyContent: 'center',
     gap: '8px',
     fontWeight: 'bold',
-    transition: 'all 0.2s'
+    transition: 'all 0.2s',
+    minWidth: '120px'
 };
 
 const buttonStyle = (primary: boolean): React.CSSProperties => ({
@@ -492,7 +671,8 @@ const buttonStyle = (primary: boolean): React.CSSProperties => ({
     alignItems: 'center',
     justifyContent: 'center',
     gap: '8px',
-    transition: 'transform 0.1s'
+    transition: 'transform 0.1s',
+    boxShadow: primary ? '0 4px 6px rgba(59, 130, 246, 0.3)' : 'none'
 });
 
 const inputStyle: React.CSSProperties = {
@@ -500,7 +680,9 @@ const inputStyle: React.CSSProperties = {
     padding: '8px 12px',
     borderRadius: '6px',
     border: '1px solid #ddd',
-    fontSize: '14px'
+    fontSize: '14px',
+    outline: 'none',
+    transition: 'border-color 0.2s'
 };
 
 const actionBtnStyle: React.CSSProperties = {
@@ -511,26 +693,29 @@ const actionBtnStyle: React.CSSProperties = {
     cursor: 'pointer',
     display: 'flex',
     alignItems: 'center',
+    justifyContent: 'center',
     gap: '5px',
     fontSize: '12px',
-    color: '#555'
+    color: '#555',
+    transition: 'background 0.2s'
 };
 
 const iconBtnStyle: React.CSSProperties = {
-    width: '24px',
-    height: '24px',
+    width: '28px',
+    height: '28px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: '#eee',
+    background: '#f3f4f6',
     border: 'none',
-    borderRadius: '4px',
-    cursor: 'pointer'
+    borderRadius: '6px',
+    cursor: 'pointer',
+    color: '#555'
 };
 
 const labelStyle: React.CSSProperties = {
     display: 'block',
-    marginBottom: '5px',
+    marginBottom: '6px',
     fontWeight: 'bold',
     fontSize: '14px',
     color: '#444'
