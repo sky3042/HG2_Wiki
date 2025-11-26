@@ -15,7 +15,7 @@ export interface PageProps {
   recordMap?: ExtendedRecordMap
   pageId?: string
   error?: PageError
-  canonicalPageMap?: CanonicalPageMap // ★これを追加
+  canonicalPageMap?: CanonicalPageMap
 }
 
 export interface ExtendedTweetRecordMap extends ExtendedRecordMap {
@@ -42,6 +42,9 @@ export interface Site {
   // opengraph metadata
   description?: string
   image?: string
+
+  // social accounts
+  twitter?: string  // ★これを追加しました
 }
 
 export interface SiteMap {
