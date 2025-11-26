@@ -76,7 +76,9 @@ export async function getSiteMap(): Promise<types.SiteMap> {
       } else {
         const title = getBlockTitle(block, recordMap)
         if (title) {
-          const cleanTitle = title.trim().replace(/\s+/g, '-')
+          // ▼▼▼ 修正箇所1：タイトル収集時 ▼▼▼
+          const cleanTitle = title.trim().replace(/[\s\u30FB]+/g, '-')
+          // ▲▲▲
           pageIdToTitle[pageId] = cleanTitle
           urlCounts[cleanTitle] = (urlCounts[cleanTitle] || 0) + 1
         }

@@ -3,7 +3,7 @@
     "2813b07c-81ff-810c-8f8f-ccbd890fe48e": {
       "value": {
         "id": "2813b07c-81ff-810c-8f8f-ccbd890fe48e",
-        "version": 2,
+        "version": 10,
         "type": "page",
         "properties": {
           "title": [
@@ -25,8 +25,8 @@
           }
         },
         "created_time": 1759488308260,
-        "last_edited_time": 1759488308260,
-        "parent_id": "2813b07c-81ff-81c9-90c8-f34ac6330396",
+        "last_edited_time": 1764153461908,
+        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
         "parent_table": "block",
         "alive": true,
         "copied_from": "27b3b07c-81ff-80f2-969c-f7f49887686a",
@@ -67,87 +67,10 @@
       },
       "role": "reader"
     },
-    "2813b07c-81ff-81c9-90c8-f34ac6330396": {
-      "value": {
-        "id": "2813b07c-81ff-81c9-90c8-f34ac6330396",
-        "version": 6,
-        "type": "page",
-        "properties": {
-          "title": [
-            [
-              "Lの肖像"
-            ]
-          ]
-        },
-        "content": [
-          "2813b07c-81ff-8145-b448-e586844f90be",
-          "2813b07c-81ff-8109-a79a-f2b9a5413453",
-          "2813b07c-81ff-8135-bed1-e0d6700a1ac2",
-          "2813b07c-81ff-81a3-807f-db717e933abc",
-          "2813b07c-81ff-8170-b3c6-d08991e2c53e",
-          "2813b07c-81ff-81ee-b57d-c83ae3d5f9df",
-          "2813b07c-81ff-8182-ba49-fe77d7c2f078",
-          "2813b07c-81ff-810c-8f8f-ccbd890fe48e",
-          "2813b07c-81ff-811d-8f06-dadcf6c6d732",
-          "2813b07c-81ff-81a0-9ea1-dbb87780d1b6",
-          "2813b07c-81ff-8175-a702-c85626a2f066",
-          "2813b07c-81ff-81df-868b-c58be40b6faa",
-          "2813b07c-81ff-81f0-a140-f2330e44d58e"
-        ],
-        "format": {
-          "copied_from_pointer": {
-            "id": "27b3b07c-81ff-80d9-a700-cfb3f1dad04f",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1759488308254,
-        "last_edited_time": 1759831232430,
-        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "27b3b07c-81ff-80d9-a700-cfb3f1dad04f",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "CT42-UgtOOKEceE2JwYOlA,\"start\",\"end\"",
-            "n": {
-              "CT42-UgtOOKEceE2JwYOlA,\"start\",\"end\"": {
-                "s": {
-                  "x": "CT42-UgtOOKEceE2JwYOlA",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "o3Xzaq28o25j",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 4,
-                      "c": "Lの肖像"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
     "2813b07c-81ff-805c-afb1-cb31163b9008": {
       "value": {
         "id": "2813b07c-81ff-805c-afb1-cb31163b9008",
-        "version": 19,
+        "version": 38,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -169,7 +92,19 @@
           ]
         },
         "content": [
-          "2813b07c-81ff-81c9-90c8-f34ac6330396"
+          "2813b07c-81ff-8145-b448-e586844f90be",
+          "2813b07c-81ff-8109-a79a-f2b9a5413453",
+          "2813b07c-81ff-8135-bed1-e0d6700a1ac2",
+          "2813b07c-81ff-81a3-807f-db717e933abc",
+          "2813b07c-81ff-8170-b3c6-d08991e2c53e",
+          "2813b07c-81ff-81ee-b57d-c83ae3d5f9df",
+          "2813b07c-81ff-8182-ba49-fe77d7c2f078",
+          "2813b07c-81ff-810c-8f8f-ccbd890fe48e",
+          "2813b07c-81ff-811d-8f06-dadcf6c6d732",
+          "2813b07c-81ff-81a0-9ea1-dbb87780d1b6",
+          "2813b07c-81ff-8175-a702-c85626a2f066",
+          "2813b07c-81ff-81df-868b-c58be40b6faa",
+          "2813b07c-81ff-81f0-a140-f2330e44d58e"
         ],
         "format": {
           "block_locked": false,
@@ -183,7 +118,7 @@
           "social_media_image_preview_url": "attachment:50b71594-827f-43ca-b57f-ab3640c9ba0b:SocialMediaPreviewImage.png"
         },
         "created_time": 1759488314374,
-        "last_edited_time": 1762139514632,
+        "last_edited_time": 1764153464584,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -243,9 +178,14 @@
     "2573b07c-81ff-8076-8c97-c512393c2dc8": {
       "value": {
         "id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "version": 130,
+        "version": 167,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "others"
+            ]
+          ],
           "title": [
             [
               "その他"
@@ -269,7 +209,8 @@
           "2a03b07c-81ff-8053-bb5f-f9fbc420dda3",
           "25e3b07c-81ff-80fe-8eca-e43fbea99f30",
           "28f3b07c-81ff-8037-8280-c4a6bf7a56f2",
-          "2913b07c-81ff-807f-853f-e7c5721d84ec"
+          "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
+          "2b53b07c-81ff-8091-8f90-e7a710d07690"
         ],
         "format": {
           "page_cover": "/images/page-cover/solid_beige.png",
@@ -277,7 +218,7 @@
           "social_media_image_preview_url": "attachment:0eab7c0e-ed9f-40fb-a5ad-56992f43fc6c:SocialMediaPreviewImage.png"
         },
         "created_time": 1755881175615,
-        "last_edited_time": 1762139498078,
+        "last_edited_time": 1764148019339,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -452,7 +393,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 349,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -482,15 +423,9 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
@@ -530,7 +465,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764030939329,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -1557,6 +1492,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2813b07c-81ff-8189-80ed-d62f468a4f49": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/5803bb40-49c0-4397-8c88-4a25fe09d547/image.png?table=block&id=2813b07c-81ff-8189-80ed-d62f468a4f49&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=F06WcvFInAEnkvePkEduNz_DG5KROEjXgkOyjN_XBBo"
+    "2813b07c-81ff-8189-80ed-d62f468a4f49": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/5803bb40-49c0-4397-8c88-4a25fe09d547/image.png?table=block&id=2813b07c-81ff-8189-80ed-d62f468a4f49&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764187200000&signature=gMtWVMLyV--Yi-_qOgx-xUXG-aZbQqdK2RGb7n0fcdY"
   }
 }

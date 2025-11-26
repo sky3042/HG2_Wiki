@@ -7,6 +7,10 @@ const commitMessage = args[0] || 'Update content';
 console.log(`🚀 Starting update with message: "${commitMessage}"...`);
 
 const commands = [
+  // ▼▼▼ 対策：まずGitHubの最新状態を取り込む（競合回避） ▼▼▼
+  'git pull origin main',
+  // ▲▲▲ ここまで ▲▲▲
+
   // 1. データの取得と生成
   'npx tsx scripts/fetch-spreadsheet.ts',
   'npx tsx scripts/fetch-data.ts',
@@ -27,7 +31,5 @@ try {
   console.log('\n✅ Update completed successfully!');
 } catch (error) {
   console.error('\n❌ Update failed.');
-  // Git commitは変更がないとエラーになることがあるため、それは許容する場合は調整が必要ですが、
-  // 基本的にはエラーなら止める挙動でOKです。
   process.exit(1);
 }

@@ -41,7 +41,9 @@ export function getCanonicalPageId(
     // B. Slugがない場合、必ず「タイトル-ID」を返す（安全なフォールバック）
     const title = getBlockTitle(block, recordMap)
     if (title) {
-      const cleanTitle = title.trim().replace(/\s+/g, '-')
+      // ▼▼▼ 修正箇所：スペース(\s) または 中黒(・) をハイフンに置換 ▼▼▼
+      const cleanTitle = title.trim().replace(/[\s\u30FB]+/g, '-')
+      // ▲▲▲
       return `${cleanTitle}-${cleanPageId}`
     }
   }
