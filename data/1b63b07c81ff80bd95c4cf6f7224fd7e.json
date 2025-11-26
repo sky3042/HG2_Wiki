@@ -3,7 +3,7 @@
     "1b63b07c-81ff-80bd-95c4-cf6f7224fd7e": {
       "value": {
         "id": "1b63b07c-81ff-80bd-95c4-cf6f7224fd7e",
-        "version": 58,
+        "version": 59,
         "type": "page",
         "properties": {
           "title": [
@@ -32,7 +32,7 @@
           }
         },
         "created_time": 1741984795120,
-        "last_edited_time": 1753631533749,
+        "last_edited_time": 1764112536744,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -76,7 +76,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1717,
+        "version": 1723,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -127,7 +127,6 @@
           "1b93b07c-81ff-80e5-903b-d07e81c1d36e",
           "1b93b07c-81ff-8070-9bb8-d324721c2653",
           "2b13b07c-81ff-8098-b3da-f65d174cfa92",
-          "2b13b07c-81ff-80fc-9eee-e80210257c17",
           "27c3b07c-81ff-8076-914e-c98b7a9e323c",
           "27c3b07c-81ff-80c8-b4f0-ea440e24b973",
           "1b93b07c-81ff-8093-b73f-ea9338e09284",
@@ -271,7 +270,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1763799859805,
+        "last_edited_time": 1763862654684,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -374,7 +373,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 349,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -404,15 +403,9 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
@@ -452,7 +445,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764030939329,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -1074,17 +1067,17 @@
     "1b63b07c-81ff-80a0-8013-ec307bec2520": {
       "value": {
         "id": "1b63b07c-81ff-80a0-8013-ec307bec2520",
-        "version": 63,
+        "version": 65,
         "type": "text",
         "properties": {
           "title": [
             [
-              "おそらく↓の人"
+              "おそらく↓の人？"
             ]
           ]
         },
         "created_time": 1741986822873,
-        "last_edited_time": 1741986828730,
+        "last_edited_time": 1764112536744,
         "parent_id": "1b63b07c-81ff-80bd-95c4-cf6f7224fd7e",
         "parent_table": "block",
         "alive": true,
@@ -1110,6 +1103,19 @@
                       "o": "start",
                       "l": 7,
                       "c": "おそらく↓の人"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ZvYIdxH_6a-l",
+                        8
+                      ],
+                      "o": [
+                        "Tb8vENfy1T1T",
+                        7
+                      ],
+                      "l": 1,
+                      "c": "？"
                     },
                     {
                       "t": "e"
@@ -1453,9 +1459,14 @@
     "1ad3b07c-81ff-80e4-8271-c7f781e181c3": {
       "value": {
         "id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "version": 407,
+        "version": 425,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "organization"
+            ]
+          ],
           "title": [
             [
               "派閥"
@@ -1521,7 +1532,7 @@
           "page_cover_position": 0.5
         },
         "created_time": 1741141291977,
-        "last_edited_time": 1763623466932,
+        "last_edited_time": 1764148123988,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,

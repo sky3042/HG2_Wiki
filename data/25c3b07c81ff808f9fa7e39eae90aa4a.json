@@ -3,7 +3,7 @@
     "25c3b07c-81ff-808f-9fa7-e39eae90aa4a": {
       "value": {
         "id": "25c3b07c-81ff-808f-9fa7-e39eae90aa4a",
-        "version": 105,
+        "version": 143,
         "type": "page",
         "properties": {
           "?hQ~": [
@@ -29,6 +29,11 @@
               " "
             ]
           ],
+          "q>W{": [
+            [
+              "story-bousou-challenge"
+            ]
+          ],
           "title": [
             [
               "暴走チャレンジ"
@@ -46,7 +51,7 @@
           "social_media_image_preview_url": "attachment:93787434-b9d6-47f4-9cb3-13f3144b7065:SocialMediaPreviewImage.png"
         },
         "created_time": 1756277696645,
-        "last_edited_time": 1756280527624,
+        "last_edited_time": 1764147570994,
         "parent_id": "1c83b07c-81ff-80c8-b9ad-000b936e88a7",
         "parent_table": "collection",
         "alive": true,
@@ -138,7 +143,7 @@
     "1c83b07c-81ff-80ed-9cad-f904d81aa1d9": {
       "value": {
         "id": "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
-        "version": 43,
+        "version": 48,
         "type": "collection_view_page",
         "view_ids": [
           "1c83b07c-81ff-80db-81c3-000c6b7b83b0"
@@ -159,7 +164,7 @@
           ]
         },
         "created_time": 1743512112793,
-        "last_edited_time": 1759296838599,
+        "last_edited_time": 1764146276527,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -193,9 +198,14 @@
     "1c83b07c-81ff-800b-a0c3-f295d7423d6d": {
       "value": {
         "id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
-        "version": 133,
+        "version": 151,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "materials"
+            ]
+          ],
           "title": [
             [
               "資料"
@@ -216,7 +226,7 @@
           "social_media_image_preview_url": "attachment:13186f52-3bbe-470d-99a7-65a6b386b0e8:SocialMediaPreviewImage.png"
         },
         "created_time": 1743511811402,
-        "last_edited_time": 1760180220662,
+        "last_edited_time": 1764148075454,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -477,7 +487,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 349,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -507,15 +517,9 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
@@ -555,7 +559,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764030939329,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -795,7 +799,7 @@
     "1c83b07c-81ff-80c8-b9ad-000b936e88a7": {
       "value": {
         "id": "1c83b07c-81ff-80c8-b9ad-000b936e88a7",
-        "version": 18,
+        "version": 28,
         "name": [
           [
             "ストーリー"
@@ -810,6 +814,11 @@
             "name": "実装日",
             "type": "text"
           },
+          "q>W{": {
+            "name": "Slug",
+            "type": "text",
+            "description": ""
+          },
           "title": {
             "name": "名前",
             "type": "title"
@@ -821,6 +830,60 @@
             "table": "layout",
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
+          "property_visibility": [
+            {
+              "property": "q>W{",
+              "visibility": "show"
+            },
+            {
+              "property": "?hQ~",
+              "visibility": "show"
+            },
+            {
+              "property": "fixk",
+              "visibility": "show"
+            }
+          ],
+          "metadata_copied_from": {
+            "id": "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "作成者",
+              "type": "person"
+            },
+            {
+              "name": "公開日",
+              "type": "date"
+            },
+            {
+              "name": "重要度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "LRho",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": "Q|^@",
+                  "color": "gray",
+                  "value": "中"
+                },
+                {
+                  "id": "VFwE",
+                  "color": "green",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "関連リンク",
+              "type": "url"
+            }
+          ],
           "page_section_visibility": {
             "comments": "section_hide",
             "backlinks": "section_collapsed",
@@ -880,7 +943,13 @@
             ],
             "defaultOption": "未着手"
           }
-        }
+        },
+        "created_time": 1743512112793,
+        "last_edited_time": 1764146276527,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
       "role": "reader"
     },
@@ -1346,6 +1415,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "25c3b07c-81ff-808f-9fa7-e39eae90aa4a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/44503409-ea5a-4298-9fe5-1ef5888adc8d/暴走チャレンジ.jpg?table=block&id=25c3b07c-81ff-808f-9fa7-e39eae90aa4a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=vzwkKVmkkt-dCNvR3rv8i9-12aHRXstIVsUmTM9rQZw"
+    "25c3b07c-81ff-808f-9fa7-e39eae90aa4a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/44503409-ea5a-4298-9fe5-1ef5888adc8d/暴走チャレンジ.jpg?table=block&id=25c3b07c-81ff-808f-9fa7-e39eae90aa4a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=BbNg3AgysIPYyYiE8Cai8tZQsTWoND1UDnP5NmxU1aI"
   }
 }

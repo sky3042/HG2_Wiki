@@ -5,15 +5,18 @@ export default class MyDocument extends Document {
   override render() {
     return (
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
-        <Html lang='en'>
+        <Html lang='ja'>
           <Head>
+            {/* 基本のファビコン */}
             <link rel='shortcut icon' href='/favicon.ico' />
-            <link
-              rel='icon'
-              type='image/png'
-              sizes='32x32'
-              href='favicon.png'
-            />
+            
+            {/* ▼▼▼ 追加・修正部分 ▼▼▼ */}
+            {/* Google推奨: 48pxの倍数である 192px を指定すると確実です */}
+            <link rel='icon' type='image/png' sizes='192x192' href='/favicon-192x192.png' />
+            
+            {/* スマホ用アイコン（iPhoneなど） */}
+            <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
+            {/* ▲▲▲ ここまで ▲▲▲ */}
 
             <link rel='manifest' href='/manifest.json' />
           </Head>

@@ -3,9 +3,14 @@
     "1ac3b07c-81ff-8089-98b4-ec9f8c06db35": {
       "value": {
         "id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
-        "version": 106,
+        "version": 122,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "lore"
+            ]
+          ],
           "title": [
             [
               "考察"
@@ -24,7 +29,7 @@
           "social_media_image_preview_url": "attachment:8df55a7c-dc11-421a-ad46-8e12905aa7f2:SocialMediaPreviewImage.png"
         },
         "created_time": 1741119050032,
-        "last_edited_time": 1763354128830,
+        "last_edited_time": 1764148160955,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -130,7 +135,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 349,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -160,15 +165,9 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
@@ -208,7 +207,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764030939329,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -265,7 +264,7 @@
     "1ad3b07c-81ff-8049-a679-dee2753e730d": {
       "value": {
         "id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
-        "version": 70,
+        "version": 71,
         "type": "collection_view",
         "view_ids": [
           "1ad3b07c-81ff-808c-8d68-000c1a966362"
@@ -280,7 +279,7 @@
           "social_media_image_preview_url": "attachment:77ee58c3-eb3b-464f-91ec-260bc5a88966:SocialMediaPreviewImage.png"
         },
         "created_time": 1741139703841,
-        "last_edited_time": 1762139217746,
+        "last_edited_time": 1764148211020,
         "parent_id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
         "parent_table": "block",
         "alive": true,
@@ -363,7 +362,7 @@
     "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d": {
       "value": {
         "id": "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d",
-        "version": 1794,
+        "version": 1843,
         "type": "page",
         "properties": {
           "title": [
@@ -392,9 +391,9 @@
           "1ad3b07c-81ff-8008-b3b8-ed031c310fc3",
           "1ad3b07c-81ff-8093-87a0-e2f56fa8ca80",
           "1ad3b07c-81ff-808b-b69f-e8ca6313ac59",
+          "1ad3b07c-81ff-8082-97a5-d1c40460fec1",
           "1ad3b07c-81ff-8069-a3aa-f663d4540b7f",
           "1ad3b07c-81ff-80e1-906b-f741205d3aa9",
-          "1ad3b07c-81ff-8082-97a5-d1c40460fec1",
           "28c3b07c-81ff-80b7-b23e-d2a9020a0441",
           "28c3b07c-81ff-8062-ad6c-f6e650d53420",
           "2563b07c-81ff-803f-8325-e6e9cd467213",
@@ -483,8 +482,6 @@
           "2563b07c-81ff-805c-8e11-ee74b42ee1e7",
           "1ad3b07c-81ff-800a-aa10-e11e7298df57",
           "1c93b07c-81ff-8080-9c3e-da572191d09b",
-          "2a73b07c-81ff-80e2-bff7-e4f3c6d2628d",
-          "2a73b07c-81ff-8040-958e-f048208da79d",
           "1c53b07c-81ff-80de-ab37-ea8f131a394d",
           "2713b07c-81ff-8092-8653-e6ebd3c457ce",
           "2a73b07c-81ff-8066-a710-ce19e8c0ae46",
@@ -495,7 +492,6 @@
           "1ad3b07c-81ff-805e-8636-ca8d47eca32b",
           "1ad3b07c-81ff-8070-a734-d667fdf78433",
           "1c93b07c-81ff-80d2-822a-c9e95b7312c4",
-          "1c93b07c-81ff-8034-8e0c-cbec649b1987",
           "1ad3b07c-81ff-8071-b4a4-f1b79a93dda2",
           "22f3b07c-81ff-80bd-b5b1-d27dff80f71e",
           "25c3b07c-81ff-80be-82ba-fab64bc05e0b",
@@ -530,11 +526,12 @@
           "1ad3b07c-81ff-8026-9310-ceb9fc8db6d7",
           "1ad3b07c-81ff-8097-9b9e-e1d33bd805ac",
           "1ad3b07c-81ff-80c7-839c-d9d362f424f0",
-          "1ad3b07c-81ff-80a7-b63f-f1a7e1db8387",
-          "1ad3b07c-81ff-8073-8d96-ff72a524394d",
           "2563b07c-81ff-8096-b79c-d843ce503c01",
+          "1ad3b07c-81ff-80a7-b63f-f1a7e1db8387",
+          "2b73b07c-81ff-80c8-80d6-e232a23ebf03",
           "1ad3b07c-81ff-80f3-b903-e51b8cf70f82",
           "2563b07c-81ff-802b-bd65-ecfcb229524e",
+          "2b73b07c-81ff-809f-af34-ca988c93c557",
           "1ad3b07c-81ff-8066-9a3c-e8d84caeb293",
           "1c83b07c-81ff-808d-b8ab-ca12cf68c385",
           "1c53b07c-81ff-8051-a176-fd80a7130516",
@@ -624,7 +621,7 @@
           "social_media_image_preview_url": "attachment:4542613b-c3c0-418b-b88f-d2f782a9dbfd:SocialMediaPreviewImage.png"
         },
         "created_time": 1741139722430,
-        "last_edited_time": 1763608284463,
+        "last_edited_time": 1764150018529,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
@@ -1279,7 +1276,7 @@
     "2923b07c-81ff-809c-8087-d92611f42803": {
       "value": {
         "id": "2923b07c-81ff-809c-8087-d92611f42803",
-        "version": 23,
+        "version": 35,
         "type": "page",
         "properties": {
           "title": [
@@ -1301,15 +1298,19 @@
           "2923b07c-81ff-8012-a376-d331e0f885d9"
         ],
         "format": {
-          "social_media_image_preview_url": "attachment:11681921-4363-49c7-a98b-b2997412951f:SocialMediaPreviewImage.png"
+          "page_cover": "https://pbs.twimg.com/media/Gkxur0TaoAE18eO?format=jpg&name=medium",
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:d2dd00c0-a354-4590-8665-376322f992e8:SocialMediaPreviewImage.png"
         },
         "created_time": 1760968697051,
-        "last_edited_time": 1760968803984,
+        "last_edited_time": 1763902033486,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
         "file_ids": [
-          "11681921-4363-49c7-a98b-b2997412951f"
+          "11681921-4363-49c7-a98b-b2997412951f",
+          "28cea78e-0ac0-4411-92b9-09a3bccac408",
+          "d2dd00c0-a354-4590-8665-376322f992e8"
         ],
         "created_by_table": "notion_user",
         "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -1355,25 +1356,26 @@
     "2a03b07c-81ff-809f-842f-e5b1bd2b5351": {
       "value": {
         "id": "2a03b07c-81ff-809f-842f-e5b1bd2b5351",
-        "version": 32,
+        "version": 51,
         "type": "page",
         "properties": {
           "title": [
             [
-              "その他"
+              "その他考察"
             ]
           ]
         },
         "content": [
           "2a03b07c-81ff-80b7-bad5-ce92fb63f854",
           "2a03b07c-81ff-8065-9b96-dcc1f78480fe",
-          "2a03b07c-81ff-80a6-9bcd-f1aa3b45ec7d"
+          "2a03b07c-81ff-80a6-9bcd-f1aa3b45ec7d",
+          "2b73b07c-81ff-80ba-89ec-c1e3c476804b"
         ],
         "format": {
           "social_media_image_preview_url": "attachment:d8525e73-44e3-4726-b57e-0ace33bc21f2:SocialMediaPreviewImage.png"
         },
         "created_time": 1762139217735,
-        "last_edited_time": 1762139287963,
+        "last_edited_time": 1764148222483,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
@@ -1432,6 +1434,31 @@
                       ],
                       "l": 1,
                       "c": "他"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "uU0Su_GB9f_H",
+                        13
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        8
+                      ],
+                      "l": 2,
+                      "c": "考察"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "uU0Su_GB9f_H",
+                        9
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        8
+                      ],
+                      "l": -4
                     },
                     {
                       "t": "t",
@@ -11978,7 +12005,7 @@
     "2a53b07c-81ff-807d-9296-df79a1b4ccc9": {
       "value": {
         "id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
-        "version": 213,
+        "version": 215,
         "type": "page",
         "properties": {
           "title": [
@@ -12172,7 +12199,7 @@
           "social_media_image_preview_url": "attachment:74cff22d-31fa-4482-8de3-8aa977d262f9:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578014330,
-        "last_edited_time": 1763629778990,
+        "last_edited_time": 1764129422296,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -12232,7 +12259,7 @@
     "2a53b07c-81ff-803b-9031-c35b360999ae": {
       "value": {
         "id": "2a53b07c-81ff-803b-9031-c35b360999ae",
-        "version": 233,
+        "version": 267,
         "type": "page",
         "properties": {
           "title": [
@@ -12369,6 +12396,7 @@
           "2b13b07c-81ff-80a2-971e-d26a92024584",
           "2b13b07c-81ff-802d-8cd3-de81d1c14ba3",
           "2b13b07c-81ff-8051-98be-f0080e9f339a",
+          "2b73b07c-81ff-8054-ae5d-f15bfc222fb3",
           "2b13b07c-81ff-8092-8594-dc57e2f5e12b",
           "2b13b07c-81ff-8008-ab8b-f4aa34c95ad9",
           "2b13b07c-81ff-8068-890f-eef77224cbc6",
@@ -12389,6 +12417,7 @@
           "2b13b07c-81ff-8015-9a41-dfd741b2c62b",
           "2b13b07c-81ff-8000-84da-ec72d2cc12bd",
           "2b13b07c-81ff-8037-ae7c-f3d7fefbbac0",
+          "2b73b07c-81ff-801b-9fbe-ef2ed459a5d6",
           "2b13b07c-81ff-80fc-91c5-c1c190cb4959",
           "2b13b07c-81ff-807c-915e-c6fe940ef670",
           "2b13b07c-81ff-80d6-b262-e70e5ed85663",
@@ -12397,6 +12426,8 @@
           "2b13b07c-81ff-808c-a473-eb89a3e44226",
           "2b13b07c-81ff-80cd-b87b-cbcd5e11816c",
           "2b13b07c-81ff-80cd-be50-ca8b01c1cfe5",
+          "2b73b07c-81ff-808f-9fe6-c3e2ede3b9ac",
+          "2b73b07c-81ff-805b-a8ba-ff97528e1ddf",
           "2b13b07c-81ff-80de-bbf3-dce0a821b7d4",
           "2b13b07c-81ff-80c5-ae1a-e713f1a120f2",
           "2b13b07c-81ff-8099-8c69-d1c3912773f3",
@@ -12458,7 +12489,7 @@
           "social_media_image_preview_url": "attachment:ed1a5e96-debd-4deb-bf67-fbded38bb906:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578025932,
-        "last_edited_time": 1763629770718,
+        "last_edited_time": 1764150306267,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -15114,6 +15145,47 @@
         }
       },
       "role": "reader"
+    },
+    "2b73b07c-81ff-80ba-89ec-c1e3c476804b": {
+      "value": {
+        "id": "2b73b07c-81ff-80ba-89ec-c1e3c476804b",
+        "version": 3,
+        "type": "text",
+        "created_time": 1764148238733,
+        "last_edited_time": 1764148238742,
+        "parent_id": "2a03b07c-81ff-809f-842f-e5b1bd2b5351",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "B-hB39v1-IceorzeZrQr_A,\"start\",\"end\"",
+            "n": {
+              "B-hB39v1-IceorzeZrQr_A,\"start\",\"end\"": {
+                "s": {
+                  "x": "B-hB39v1-IceorzeZrQr_A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
     }
   },
   "collection": {
@@ -15290,7 +15362,7 @@
     "1ad3b07c-81ff-80f8-93e5-000baa1c67d4": {
       "value": {
         "id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
-        "version": 30,
+        "version": 32,
         "name": [
           [
             "考察"
@@ -15316,6 +15388,46 @@
             "table": "layout",
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
+          "metadata_copied_from": {
+            "id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "`xvK",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": "F;c`",
+                  "color": "pink",
+                  "value": "中"
+                },
+                {
+                  "id": "\\iK_",
+                  "color": "red",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "締切日",
+              "type": "date"
+            }
+          ],
           "page_section_visibility": {
             "comments": "section_hide",
             "backlinks": "section_collapsed",
@@ -15336,7 +15448,13 @@
         "parent_table": "block",
         "alive": true,
         "migrated": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1741139703841,
+        "last_edited_time": 1764148211020,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
       "role": "reader"
     }
@@ -15564,6 +15682,6 @@
     }
   },
   "signed_urls": {
-    "1ac3b07c-81ff-8089-98b4-ec9f8c06db35": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/2f875b07-83d3-4464-ad09-ac674afffc97/2024-11-08_14-25-53.mp4_snapshot_03.48_2025.03.05_00.16.37.jpg?table=block&id=1ac3b07c-81ff-8089-98b4-ec9f8c06db35&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=uTFJF-DpPso1SP9wMiN5vTl4j7cJRNPC5d6ffnkNc6U"
+    "1ac3b07c-81ff-8089-98b4-ec9f8c06db35": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/2f875b07-83d3-4464-ad09-ac674afffc97/2024-11-08_14-25-53.mp4_snapshot_03.48_2025.03.05_00.16.37.jpg?table=block&id=1ac3b07c-81ff-8089-98b4-ec9f8c06db35&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=vzxuoeuSzkJ4U0VwSqsOVvcrcJI1ZIKlEt--MUVEJyg"
   }
 }

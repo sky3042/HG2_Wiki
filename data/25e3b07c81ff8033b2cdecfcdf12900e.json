@@ -3,9 +3,14 @@
     "25e3b07c-81ff-8033-b2cd-ecfcdf12900e": {
       "value": {
         "id": "25e3b07c-81ff-8033-b2cd-ecfcdf12900e",
-        "version": 49,
+        "version": 65,
         "type": "page",
         "properties": {
+          "^;~U": [
+            [
+              "kanban-nanalan"
+            ]
+          ],
           "title": [
             [
               "ナナラン・ナナティナ"
@@ -30,7 +35,7 @@
           "social_media_image_preview_url": "attachment:e2616d00-1492-4b9a-b4ba-74c48fcf72bb:SocialMediaPreviewImage.png"
         },
         "created_time": 1756450512247,
-        "last_edited_time": 1756453503054,
+        "last_edited_time": 1764147904840,
         "parent_id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
         "parent_table": "collection",
         "alive": true,
@@ -218,7 +223,7 @@
     "25e3b07c-81ff-8012-99ca-ca95556f12b7": {
       "value": {
         "id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
-        "version": 55,
+        "version": 60,
         "type": "collection_view_page",
         "content": [
           "25e3b07c-81ff-8016-a529-d055498f8ef2"
@@ -242,7 +247,7 @@
           ]
         },
         "created_time": 1756447751831,
-        "last_edited_time": 1763703684275,
+        "last_edited_time": 1764147807737,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -276,9 +281,14 @@
     "1c83b07c-81ff-800b-a0c3-f295d7423d6d": {
       "value": {
         "id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
-        "version": 133,
+        "version": 151,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "materials"
+            ]
+          ],
           "title": [
             [
               "資料"
@@ -299,7 +309,7 @@
           "social_media_image_preview_url": "attachment:13186f52-3bbe-470d-99a7-65a6b386b0e8:SocialMediaPreviewImage.png"
         },
         "created_time": 1743511811402,
-        "last_edited_time": 1760180220662,
+        "last_edited_time": 1764148075454,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -560,7 +570,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 349,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -590,15 +600,9 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
@@ -638,7 +642,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764030939329,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -1871,17 +1875,92 @@
     "25e3b07c-81ff-8056-a91b-000b47c2690f": {
       "value": {
         "id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
-        "version": 37,
+        "version": 47,
         "name": [
           [
             "看板娘"
           ]
         ],
         "schema": {
+          "^;~U": {
+            "name": "Slug",
+            "type": "text",
+            "description": ""
+          },
           "title": {
             "name": "名前",
             "type": "title"
           }
+        },
+        "format": {
+          "property_visibility": [
+            {
+              "property": "^;~U",
+              "visibility": "show"
+            }
+          ],
+          "metadata_copied_from": {
+            "id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "年齢",
+              "type": "number"
+            },
+            {
+              "name": "性別",
+              "type": "select",
+              "options": [
+                {
+                  "id": "=Yyp",
+                  "color": "gray",
+                  "value": "男性"
+                },
+                {
+                  "id": "JosT",
+                  "color": "red",
+                  "value": "女性"
+                },
+                {
+                  "id": "OUmN",
+                  "color": "purple",
+                  "value": "その他"
+                }
+              ]
+            },
+            {
+              "name": "趣味",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "dPcC",
+                  "color": "pink",
+                  "value": "アニメ"
+                },
+                {
+                  "id": "J^o[",
+                  "color": "purple",
+                  "value": "ゲーム"
+                },
+                {
+                  "id": "ULQO",
+                  "color": "yellow",
+                  "value": "音楽"
+                },
+                {
+                  "id": "_iU>",
+                  "color": "blue",
+                  "value": "読書"
+                }
+              ]
+            },
+            {
+              "name": "プロフィール画像",
+              "type": "file"
+            }
+          ]
         },
         "parent_id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
         "parent_table": "block",
@@ -1936,7 +2015,13 @@
             ],
             "defaultOption": "未着手"
           }
-        }
+        },
+        "created_time": 1756447751831,
+        "last_edited_time": 1764147807737,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
       "role": "reader"
     },
@@ -2338,6 +2423,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "25e3b07c-81ff-8036-b021-c69c4165c26a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d67b66d1-ad3f-4fdb-9359-b7ee62a9c6a4/IMG_0531.png?table=block&id=25e3b07c-81ff-8036-b021-c69c4165c26a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=hfhv6_azrS1lgEqxYdMS3JzYekIX7XgQ9uv6hYMmmuY"
+    "25e3b07c-81ff-8036-b021-c69c4165c26a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d67b66d1-ad3f-4fdb-9359-b7ee62a9c6a4/IMG_0531.png?table=block&id=25e3b07c-81ff-8036-b021-c69c4165c26a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=rlnlDg933QWeV7R9xDSsksvsn6ODJ3nwx7mexSuq-qM"
   }
 }
