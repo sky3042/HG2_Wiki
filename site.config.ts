@@ -12,7 +12,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '崩壊学園編　ストーリー　Wiki',
+  name: '崩壊学園編 Wiki',
   domain: 'houkai-gakuen-wiki.com',
   author: 'Sky',
 

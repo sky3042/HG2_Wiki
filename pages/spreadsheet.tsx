@@ -13,7 +13,7 @@ type SheetData = Record<string, any[][]>;
 const ITEMS_PER_PAGE = 100;
 const MAX_COLUMN_WIDTH = 400;
 const MAX_SELECT_ITEMS = 30;
-const EMPTY_KEY = '$$EMPTY$$'; // ★空白を表す特殊キー
+const EMPTY_KEY = '$$EMPTY$$';
 
 // --- Helper Functions ---
 const getTextDisplayLength = (text: string) => {
@@ -43,10 +43,10 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
   if (!hasMultiLines) {
     return (
       <div style={{
-        padding: '8px 10px',
+        padding: '10px 12px',
         whiteSpace: 'pre-wrap',
         wordBreak: 'break-word',
-        lineHeight: '1.4',
+        lineHeight: '1.6',
         width: `${width}px`,
         maxWidth: `${MAX_COLUMN_WIDTH}px`
       }}>
@@ -60,7 +60,7 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
       onClick={() => setIsExpanded(!isExpanded)}
       title="クリックして展開/折りたたみ"
       style={{
-        padding: '8px 10px',
+        padding: '10px 12px',
         width: `${width}px`,
         maxWidth: `${MAX_COLUMN_WIDTH}px`,
         cursor: 'pointer',
@@ -70,7 +70,7 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
       }}
     >
       {isExpanded ? (
-        <div style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word', lineHeight: '1.4' }}>
+        <div style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word', lineHeight: '1.6' }}>
           {str}
           <div style={{ color: '#aaa', fontSize: '10px', marginTop: '4px', textAlign: 'center' }}>
             ▲ 閉じる
@@ -205,7 +205,6 @@ const FilterMultiSelect = ({ options, value, onChange }: { options: string[], va
                 checked={selectedSet.has(option)} 
                 onChange={() => handleCheck(option)}
               />
-              {/* ★修正: 特殊キーなら(空白)と表示 */}
               {option === EMPTY_KEY ? <span style={{color: '#999'}}>(空白)</span> : option}
             </label>
           ))}
@@ -254,7 +253,7 @@ const SpreadsheetHeaderContent = () => {
             }}
           >
             <div style={{ 
-              padding: '8px 10px',
+              padding: '12px 10px',
               display: 'flex', 
               alignItems: 'center', 
               justifyContent: 'space-between', 
@@ -263,7 +262,7 @@ const SpreadsheetHeaderContent = () => {
               maxWidth: `${MAX_COLUMN_WIDTH}px`,
               whiteSpace: 'pre-wrap',
               wordBreak: 'break-word',
-              lineHeight: '1.3', 
+              lineHeight: '1.6',
               textAlign: 'left'
             }}>
               {col}
@@ -362,6 +361,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         }
         
         const estimatedWidth = (getTextDisplayLength(firstLine) * 10) + 40;
+
         const currentWidth = widths[colIndex] || 80;
         if (estimatedWidth > currentWidth) {
           widths[colIndex] = Math.min(estimatedWidth, MAX_COLUMN_WIDTH);
@@ -371,7 +371,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     return widths;
   }, [header, bodyRows]);
 
-  // 1. ユニーク値の抽出 (空白対応)
+  // 1. ユニーク値の抽出 (出現順、ただし空白は先頭)
   const uniqueValuesMap = React.useMemo(() => {
     const map: Record<number, string[]> = {};
     if (bodyRows.length === 0) return map;
@@ -380,19 +380,25 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
       const values = new Set<string>();
       bodyRows.forEach(row => {
         const cell = row[colIndex];
-        // ★修正: 空白セルは EMPTY_KEY として登録
         if (cell === null || cell === undefined || String(cell).trim() === '') {
           values.add(EMPTY_KEY);
         } else {
           values.add(String(cell));
         }
       });
-      // 並べ替え (EMPTY_KEYは先頭へ)
-      map[colIndex] = Array.from(values).sort((a, b) => {
-        if (a === EMPTY_KEY) return -1;
-        if (b === EMPTY_KEY) return 1;
-        return a.localeCompare(b, 'ja');
-      });
+      
+      // ★修正: 辞書順ソートを削除し、出現順（Setの並び）を維持
+      const list = Array.from(values);
+      const hasEmpty = values.has(EMPTY_KEY);
+      // 空白以外のデータを抽出（出現順は保持される）
+      const contentValues = list.filter(v => v !== EMPTY_KEY);
+      
+      // 空白があれば先頭に追加
+      if (hasEmpty) {
+        map[colIndex] = [EMPTY_KEY, ...contentValues];
+      } else {
+        map[colIndex] = contentValues;
+      }
     });
     return map;
   }, [header, bodyRows]);
@@ -416,16 +422,13 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         
         const colIndex = Number(colIndexStr);
         const rawCellValue = String(row[colIndex] ?? '');
-        // ★修正: 比較用に空白を変換
         const cellValue = (rawCellValue.trim() === '') ? EMPTY_KEY : rawCellValue;
         
         if (Array.isArray(filterValue)) {
-          // 複数選択
           if (!filterValue.includes(cellValue)) {
             return false;
           }
         } else {
-          // テキスト入力 (こちらは元の値で比較)
           if (!rawCellValue.toLowerCase().includes(filterValue.toLowerCase())) {
             return false;
           }
