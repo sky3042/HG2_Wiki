@@ -7,7 +7,7 @@ import { Breadcrumbs, Header, Search, useNotionContext } from 'react-notion-x'
 import Link from 'next/link'
 
 import { isSearchEnabled, navigationLinks, navigationStyle } from '@/lib/config'
-import * as config from '@/lib/config' // サイト設定（タイトル等）を読み込む
+import * as config from '@/lib/config'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import styles from './styles.module.css'
@@ -49,19 +49,17 @@ export function NotionPageHeader({
   return (
     <header className='notion-header'>
       <div className='notion-nav-header'>
-        {/* ▼▼▼ 修正箇所：左上のタイトル表示ロジック ▼▼▼ */}
         {block ? (
-          // Notionページの場合はパンくずリストを表示
-          <Breadcrumbs block={block} rootOnly={true} />
+          // ▼▼▼ 修正: rootOnly={false} にして階層を表示する ▼▼▼
+          <Breadcrumbs block={block} rootOnly={false} />
         ) : (
-          // カスタムページ（ブロックがない）の場合は、サイトタイトルをホームリンクとして表示
+          // カスタムページ用: サイトタイトルのみ表示（階層なし）
           <div className='breadcrumbs'>
              <Link href='/' className={cs('breadcrumb', 'button')} style={{ fontWeight: 600 }}>
                {config.name}
              </Link>
            </div>
         )}
-        {/* ▲▲▲ ここまで ▲▲▲ */}
 
         <div className='notion-nav-header-rhs breadcrumbs'>
           {navigationLinks
@@ -71,7 +69,6 @@ export function NotionPageHeader({
               }
 
               if (link.pageId) {
-                // Notionページへのリンク
                 if (components?.PageLink && mapPageUrl) {
                   return (
                     <components.PageLink
@@ -86,7 +83,6 @@ export function NotionPageHeader({
                    return null
                 }
               } else {
-                // URLリンク（内部リンク判定）
                 const isInternal = link.url && (link.url.startsWith('/') || link.url.includes('houkai-gakuen-wiki.com'));
                 
                 if (isInternal) {

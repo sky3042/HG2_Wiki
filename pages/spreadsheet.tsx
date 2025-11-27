@@ -11,7 +11,7 @@ import { useMedia, useClickAway } from 'react-use'
 type SheetData = Record<string, any[][]>;
 
 const ITEMS_PER_PAGE = 100;
-const MAX_COLUMN_WIDTH = 400;
+const MAX_COLUMN_WIDTH = 200; // ★ここを200pxに戻しました
 const MAX_SELECT_ITEMS = 30;
 const EMPTY_KEY = '$$EMPTY$$';
 
@@ -43,10 +43,10 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
   if (!hasMultiLines) {
     return (
       <div style={{
-        padding: '10px 12px',
+        padding: '8px 10px',
         whiteSpace: 'pre-wrap',
         wordBreak: 'break-word',
-        lineHeight: '1.6',
+        lineHeight: '1.4',
         width: `${width}px`,
         maxWidth: `${MAX_COLUMN_WIDTH}px`
       }}>
@@ -60,7 +60,7 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
       onClick={() => setIsExpanded(!isExpanded)}
       title="クリックして展開/折りたたみ"
       style={{
-        padding: '10px 12px',
+        padding: '8px 10px',
         width: `${width}px`,
         maxWidth: `${MAX_COLUMN_WIDTH}px`,
         cursor: 'pointer',
@@ -70,7 +70,7 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
       }}
     >
       {isExpanded ? (
-        <div style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word', lineHeight: '1.6' }}>
+        <div style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word', lineHeight: '1.4' }}>
           {str}
           <div style={{ color: '#aaa', fontSize: '10px', marginTop: '4px', textAlign: 'center' }}>
             ▲ 閉じる
@@ -253,7 +253,7 @@ const SpreadsheetHeaderContent = () => {
             }}
           >
             <div style={{ 
-              padding: '12px 10px',
+              padding: '8px 10px',
               display: 'flex', 
               alignItems: 'center', 
               justifyContent: 'space-between', 
@@ -262,7 +262,7 @@ const SpreadsheetHeaderContent = () => {
               maxWidth: `${MAX_COLUMN_WIDTH}px`,
               whiteSpace: 'pre-wrap',
               wordBreak: 'break-word',
-              lineHeight: '1.6',
+              lineHeight: '1.3', 
               textAlign: 'left'
             }}>
               {col}
@@ -341,9 +341,10 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const header = rawData[0] || [];
   const bodyRows = rawData.slice(1);
 
-  // 列幅計算
+  // 列幅計算（タイトに修正）
   const columnWidths = React.useMemo(() => {
-    const widths: number[] = new Array(header.length).fill(80);
+    // 初期幅 50px
+    const widths: number[] = new Array(header.length).fill(50);
 
     [header, ...bodyRows].forEach(row => {
       row.forEach((cell, colIndex) => {
@@ -360,9 +361,10 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
             }
         }
         
+        // 係数を 10px にし、余白を 40px に削減
         const estimatedWidth = (getTextDisplayLength(firstLine) * 10) + 40;
 
-        const currentWidth = widths[colIndex] || 80;
+        const currentWidth = widths[colIndex] || 50;
         if (estimatedWidth > currentWidth) {
           widths[colIndex] = Math.min(estimatedWidth, MAX_COLUMN_WIDTH);
         }
@@ -371,7 +373,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     return widths;
   }, [header, bodyRows]);
 
-  // 1. ユニーク値の抽出 (出現順、ただし空白は先頭)
+  // 1. ユニーク値の抽出
   const uniqueValuesMap = React.useMemo(() => {
     const map: Record<number, string[]> = {};
     if (bodyRows.length === 0) return map;
@@ -386,19 +388,16 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
           values.add(String(cell));
         }
       });
-      
-      // ★修正: 辞書順ソートを削除し、出現順（Setの並び）を維持
-      const list = Array.from(values);
-      const hasEmpty = values.has(EMPTY_KEY);
-      // 空白以外のデータを抽出（出現順は保持される）
-      const contentValues = list.filter(v => v !== EMPTY_KEY);
-      
-      // 空白があれば先頭に追加
-      if (hasEmpty) {
-        map[colIndex] = [EMPTY_KEY, ...contentValues];
-      } else {
-        map[colIndex] = contentValues;
-      }
+      // 並べ替え (EMPTY_KEYは先頭へ)
+      map[colIndex] = Array.from(values).sort((a, b) => {
+        if (a === EMPTY_KEY) return -1;
+        if (b === EMPTY_KEY) return 1;
+        // 出現順に戻すならここでのソートを消すが、
+        // 使い勝手のためには辞書順が見やすいので一旦維持します。
+        // 「データに出てきた順」が絶対条件なら、ここでのsortを削除してください。
+        // 今回は前回の要望（データ順）を尊重してソートを削除します。
+        return 0; 
+      });
     });
     return map;
   }, [header, bodyRows]);
@@ -425,10 +424,12 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         const cellValue = (rawCellValue.trim() === '') ? EMPTY_KEY : rawCellValue;
         
         if (Array.isArray(filterValue)) {
+          // 複数選択
           if (!filterValue.includes(cellValue)) {
             return false;
           }
         } else {
+          // テキスト入力
           if (!rawCellValue.toLowerCase().includes(filterValue.toLowerCase())) {
             return false;
           }
