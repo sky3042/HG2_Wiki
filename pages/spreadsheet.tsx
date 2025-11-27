@@ -6,13 +6,16 @@ import { Footer } from '@/components/Footer'
 import { NotionPageHeader } from '@/components/NotionPageHeader'
 import * as config from '@/lib/config'
 import { TableVirtuoso, type TableComponents } from 'react-virtuoso'
-import { useMedia } from 'react-use'
+import { useMedia, useClickAway } from 'react-use'
 
 type SheetData = Record<string, any[][]>;
 
 const ITEMS_PER_PAGE = 100;
+const MAX_COLUMN_WIDTH = 400;
+const MAX_SELECT_ITEMS = 30;
+const EMPTY_KEY = '$$EMPTY$$'; // ★空白を表す特殊キー
 
-// 文字列の表示幅を概算
+// --- Helper Functions ---
 const getTextDisplayLength = (text: string) => {
   let len = 0;
   const str = String(text ?? '');
@@ -27,7 +30,8 @@ const getTextDisplayLength = (text: string) => {
   return len;
 };
 
-// セルコンポーネント
+// --- Components ---
+
 const DataCell = ({ content, width }: { content: any, width: number }) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
   
@@ -39,12 +43,12 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
   if (!hasMultiLines) {
     return (
       <div style={{
-        padding: '10px 12px',
+        padding: '8px 10px',
         whiteSpace: 'pre-wrap',
         wordBreak: 'break-word',
-        lineHeight: '1.6',
+        lineHeight: '1.4',
         width: `${width}px`,
-        maxWidth: '200px'
+        maxWidth: `${MAX_COLUMN_WIDTH}px`
       }}>
         {str}
       </div>
@@ -56,9 +60,9 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
       onClick={() => setIsExpanded(!isExpanded)}
       title="クリックして展開/折りたたみ"
       style={{
-        padding: '10px 12px',
+        padding: '8px 10px',
         width: `${width}px`,
-        maxWidth: '200px',
+        maxWidth: `${MAX_COLUMN_WIDTH}px`,
         cursor: 'pointer',
         position: 'relative',
         backgroundColor: isExpanded ? '#fff9e6' : 'transparent',
@@ -66,7 +70,7 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
       }}
     >
       {isExpanded ? (
-        <div style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word', lineHeight: '1.6' }}>
+        <div style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word', lineHeight: '1.4' }}>
           {str}
           <div style={{ color: '#aaa', fontSize: '10px', marginTop: '4px', textAlign: 'center' }}>
             ▲ 閉じる
@@ -94,30 +98,145 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
   );
 };
 
-// --- Context for Header ---
+// 複数選択フィルターコンポーネント
+const FilterMultiSelect = ({ options, value, onChange }: { options: string[], value: string[] | undefined, onChange: (val: string[] | undefined) => void }) => {
+  const [isOpen, setIsOpen] = React.useState(false);
+  const ref = React.useRef<HTMLDivElement>(null);
+  const menuRef = React.useRef<HTMLDivElement>(null);
+  const [coords, setCoords] = React.useState({ top: 0, left: 0, width: 200 });
+
+  const selectedSet = new Set(value ?? options);
+  const isAllSelected = value === undefined || value.length === options.length;
+
+  useClickAway(menuRef, (e) => {
+    if (ref.current && ref.current.contains(e.target as Node)) return;
+    setIsOpen(false);
+  });
+
+  const toggleOpen = () => {
+    if (!isOpen && ref.current) {
+      const rect = ref.current.getBoundingClientRect();
+      let left = rect.left;
+      if (left + 250 > window.innerWidth) {
+          left = window.innerWidth - 260;
+      }
+      setCoords({
+        top: rect.bottom,
+        left: left,
+        width: Math.max(rect.width, 200)
+      });
+    }
+    setIsOpen(!isOpen);
+  };
+
+  const handleCheck = (option: string) => {
+    const newSet = new Set(selectedSet);
+    if (newSet.has(option)) {
+      newSet.delete(option);
+    } else {
+      newSet.add(option);
+    }
+    
+    if (newSet.size === options.length) {
+      onChange(undefined);
+    } else {
+      onChange(Array.from(newSet));
+    }
+  };
+
+  const handleSelectAll = () => onChange(undefined);
+  const handleClear = () => onChange([]);
+
+  return (
+    <div ref={ref} style={{ position: 'relative', width: '100%' }}>
+      <div 
+        onClick={toggleOpen}
+        style={{
+          width: '100%',
+          padding: '6px',
+          fontSize: '12px',
+          border: '1px solid #ddd',
+          borderRadius: '4px',
+          boxSizing: 'border-box',
+          backgroundColor: '#fff',
+          cursor: 'pointer',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          color: isAllSelected ? '#555' : '#3B82F6',
+          fontWeight: isAllSelected ? 'normal' : 'bold'
+        }}
+      >
+        <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+          {isAllSelected ? 'すべて (選択)' : `${selectedSet.size}件 選択中`}
+        </span>
+        <span style={{ fontSize: '10px' }}>▼</span>
+      </div>
+
+      {isOpen && (
+        <div 
+          ref={menuRef}
+          style={{
+            position: 'fixed',
+            top: coords.top,
+            left: coords.left,
+            width: 250,
+            maxHeight: 300,
+            overflowY: 'auto',
+            backgroundColor: 'white',
+            border: '1px solid #ccc',
+            borderRadius: '6px',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+            zIndex: 99999,
+            padding: '8px',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '4px'
+          }}
+        >
+          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px', borderBottom: '1px solid #eee', paddingBottom: '4px' }}>
+            <button onClick={handleSelectAll} style={{ fontSize: '11px', padding: '2px 6px', cursor: 'pointer', border: 'none', background: 'none', color: '#3B82F6' }}>全選択</button>
+            <button onClick={handleClear} style={{ fontSize: '11px', padding: '2px 6px', cursor: 'pointer', border: 'none', background: 'none', color: '#EF4444' }}>解除</button>
+          </div>
+          {options.map(option => (
+            <label key={option} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '13px', cursor: 'pointer', padding: '2px 0' }}>
+              <input 
+                type="checkbox" 
+                checked={selectedSet.has(option)} 
+                onChange={() => handleCheck(option)}
+              />
+              {/* ★修正: 特殊キーなら(空白)と表示 */}
+              {option === EMPTY_KEY ? <span style={{color: '#999'}}>(空白)</span> : option}
+            </label>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
+
+
+// --- Context ---
 interface SpreadsheetContextType {
   header: any[];
   columnWidths: number[];
   sortConfig: { colIndex: number, direction: 'asc' | 'desc' } | null;
   showFilter: boolean;
-  columnFilters: Record<number, string>;
+  columnFilters: Record<number, string | string[]>;
   uniqueValuesMap: Record<number, string[]>;
   handleSort: (i: number) => void;
-  handleColumnFilterChange: (i: number, val: string) => void;
+  handleColumnFilterChange: (i: number, val: string | string[] | undefined) => void;
   getStickyStyle: (colIndex: number, bgColor: string, rowType: 'header' | 'filter' | 'data') => React.CSSProperties;
 }
 
 const SpreadsheetContext = React.createContext<SpreadsheetContextType | null>(null);
 
-// --- Header Content Component ---
+// --- Header Content ---
 const SpreadsheetHeaderContent = () => {
   const ctx = React.useContext(SpreadsheetContext);
   if (!ctx) return null;
 
   const { header, columnWidths, sortConfig, showFilter, columnFilters, uniqueValuesMap, handleSort, handleColumnFilterChange, getStickyStyle } = ctx;
-  
-  // 定数: ドロップダウン表示にする最大ユニーク数
-  const MAX_SELECT_ITEMS = 30;
 
   return (
     <>
@@ -135,19 +254,17 @@ const SpreadsheetHeaderContent = () => {
             }}
           >
             <div style={{ 
-              padding: '12px 10px',
+              padding: '8px 10px',
               display: 'flex', 
               alignItems: 'center', 
               justifyContent: 'space-between', 
               gap: '5px',
               width: `${columnWidths[i]}px`,
-              maxWidth: '200px',
-              // ▼▼▼ 修正: ヘッダーもデータセルと同じ折り返し設定にする ▼▼▼
+              maxWidth: `${MAX_COLUMN_WIDTH}px`,
               whiteSpace: 'pre-wrap',
               wordBreak: 'break-word',
-              lineHeight: '1.6',
+              lineHeight: '1.3', 
               textAlign: 'left'
-              // ▲▲▲
             }}>
               {col}
               <span style={{ fontSize: '10px', color: '#888', flexShrink: 0 }}>
@@ -169,29 +286,16 @@ const SpreadsheetHeaderContent = () => {
                 ...getStickyStyle(i, '#fcfcfc', 'filter')
               }}>
                 {isSelectMode ? (
-                  <select
-                    value={columnFilters[i] || ''}
-                    onChange={(e) => handleColumnFilterChange(i, e.target.value)}
-                    style={{ 
-                      width: '100%', 
-                      padding: '6px', 
-                      fontSize: '12px', 
-                      border: '1px solid #ddd', 
-                      borderRadius: '4px', 
-                      boxSizing: 'border-box',
-                      backgroundColor: '#fff'
-                    }}
-                  >
-                    <option value="">すべて</option>
-                    {uniqueValues.map(val => (
-                      <option key={val} value={val}>{val}</option>
-                    ))}
-                  </select>
+                  <FilterMultiSelect 
+                    options={uniqueValues}
+                    value={columnFilters[i] as string[] | undefined}
+                    onChange={(val) => handleColumnFilterChange(i, val)}
+                  />
                 ) : (
                   <input
                     type="text"
                     placeholder="絞り込み..."
-                    value={columnFilters[i] || ''}
+                    value={(columnFilters[i] as string) || ''}
                     onChange={(e) => handleColumnFilterChange(i, e.target.value)}
                     style={{ width: '100%', padding: '6px', fontSize: '12px', border: '1px solid #ddd', borderRadius: '4px', boxSizing: 'border-box' }}
                   />
@@ -204,7 +308,6 @@ const SpreadsheetHeaderContent = () => {
     </>
   );
 };
-
 
 export async function getStaticProps() {
   try {
@@ -228,7 +331,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   
   const [activeTab, setActiveTab] = React.useState(sheetNames[0] || '');
   const [globalSearchQuery, setGlobalSearchQuery] = React.useState('');
-  const [columnFilters, setColumnFilters] = React.useState<Record<number, string>>({});
+  const [columnFilters, setColumnFilters] = React.useState<Record<number, string | string[]>>({});
   
   const [sortConfig, setSortConfig] = React.useState<{ colIndex: number, direction: 'asc' | 'desc' } | null>(null);
   const [showFilter, setShowFilter] = React.useState(false);
@@ -241,7 +344,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
 
   // 列幅計算
   const columnWidths = React.useMemo(() => {
-    const widths: number[] = new Array(header.length).fill(60);
+    const widths: number[] = new Array(header.length).fill(80);
 
     [header, ...bodyRows].forEach(row => {
       row.forEach((cell, colIndex) => {
@@ -258,18 +361,17 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
             }
         }
         
-        const estimatedWidth = (getTextDisplayLength(firstLine) * 10) + 20;
-
-        const currentWidth = widths[colIndex] || 60;
+        const estimatedWidth = (getTextDisplayLength(firstLine) * 10) + 40;
+        const currentWidth = widths[colIndex] || 80;
         if (estimatedWidth > currentWidth) {
-          widths[colIndex] = Math.min(estimatedWidth, 200);
+          widths[colIndex] = Math.min(estimatedWidth, MAX_COLUMN_WIDTH);
         }
       });
     });
     return widths;
   }, [header, bodyRows]);
 
-  // 1. ユニーク値の抽出
+  // 1. ユニーク値の抽出 (空白対応)
   const uniqueValuesMap = React.useMemo(() => {
     const map: Record<number, string[]> = {};
     if (bodyRows.length === 0) return map;
@@ -278,11 +380,19 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
       const values = new Set<string>();
       bodyRows.forEach(row => {
         const cell = row[colIndex];
-        if (cell !== null && cell !== undefined && String(cell).trim() !== '') {
+        // ★修正: 空白セルは EMPTY_KEY として登録
+        if (cell === null || cell === undefined || String(cell).trim() === '') {
+          values.add(EMPTY_KEY);
+        } else {
           values.add(String(cell));
         }
       });
-      map[colIndex] = Array.from(values).sort((a, b) => a.localeCompare(b, 'ja'));
+      // 並べ替え (EMPTY_KEYは先頭へ)
+      map[colIndex] = Array.from(values).sort((a, b) => {
+        if (a === EMPTY_KEY) return -1;
+        if (b === EMPTY_KEY) return 1;
+        return a.localeCompare(b, 'ja');
+      });
     });
     return map;
   }, [header, bodyRows]);
@@ -302,27 +412,28 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
       }
 
       for (const [colIndexStr, filterValue] of Object.entries(columnFilters)) {
-        if (!filterValue) continue;
+        if (!filterValue || (Array.isArray(filterValue) && filterValue.length === 0)) continue;
         
         const colIndex = Number(colIndexStr);
-        const cellValue = String(row[colIndex] ?? '');
-        const uniqueValues = uniqueValuesMap[colIndex] || [];
-        const MAX_SELECT_ITEMS = 30; // ここでも定数
-        const isSelectMode = uniqueValues.length <= MAX_SELECT_ITEMS && uniqueValues.length > 0;
-
-        if (isSelectMode) {
-          if (cellValue !== filterValue) {
+        const rawCellValue = String(row[colIndex] ?? '');
+        // ★修正: 比較用に空白を変換
+        const cellValue = (rawCellValue.trim() === '') ? EMPTY_KEY : rawCellValue;
+        
+        if (Array.isArray(filterValue)) {
+          // 複数選択
+          if (!filterValue.includes(cellValue)) {
             return false;
           }
         } else {
-          if (!cellValue.toLowerCase().includes(filterValue.toLowerCase())) {
+          // テキスト入力 (こちらは元の値で比較)
+          if (!rawCellValue.toLowerCase().includes(filterValue.toLowerCase())) {
             return false;
           }
         }
       }
       return true;
     });
-  }, [cleanRows, globalSearchQuery, columnFilters, uniqueValuesMap]);
+  }, [cleanRows, globalSearchQuery, columnFilters]);
 
   const sortedRows = React.useMemo(() => {
     const currentSort = sortConfig;
@@ -366,8 +477,15 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     setGlobalSearchQuery(e.target.value);
   };
 
-  const handleColumnFilterChange = (colIndex: number, value: string) => {
-    setColumnFilters(prev => ({ ...prev, [colIndex]: value }));
+  const handleColumnFilterChange = (colIndex: number, value: string | string[] | undefined) => {
+    setColumnFilters(prev => {
+        if (value === undefined) {
+            const next = { ...prev };
+            delete next[colIndex];
+            return next;
+        }
+        return { ...prev, [colIndex]: value };
+    });
   };
 
   const handleSort = (colIndex: number) => {
@@ -382,7 +500,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const reverseDefaultSort = () => setSortConfig({ colIndex: -1, direction: 'desc' });
   const toggleFilter = () => setShowFilter(prev => !prev);
 
-  // --- 固定列・固定ヘッダーのためのスタイル ---
   const getStickyStyle = (colIndex: number, bgColor: string, rowType: 'header' | 'filter' | 'data'): React.CSSProperties => {
     const style: React.CSSProperties = {
       backgroundColor: bgColor,
@@ -393,7 +510,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
       zIndex: 1
     };
 
-    // 1. 横方向の固定 (1列目) - PCのみ
     if (colIndex === 0 && !isMobile) {
       style.position = 'sticky';
       style.left = 0;
@@ -401,13 +517,11 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
       style.zIndex = 100;
     }
 
-    // 2. 縦方向の固定 (ヘッダー行)
     if (rowType === 'header') {
       style.position = 'sticky';
       style.top = 0;
     }
 
-    // 3. Z-Index の階層構造
     if (rowType === 'header') {
         style.zIndex = (colIndex === 0 && !isMobile) ? 1000 : 900;
     } else if (rowType === 'filter') {
@@ -419,7 +533,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     return style;
   };
 
-  // Context Value
   const contextValue = React.useMemo(() => ({
     header,
     columnWidths,
@@ -432,7 +545,6 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     getStickyStyle
   }), [header, columnWidths, sortConfig, showFilter, columnFilters, uniqueValuesMap, isMobile]);
 
-  // ヘッダー生成関数を固定
   const fixedHeaderContent = React.useCallback(() => <SpreadsheetHeaderContent />, []);
 
   const VirtuosoTableComponents: TableComponents<any[]> = React.useMemo(() => ({
