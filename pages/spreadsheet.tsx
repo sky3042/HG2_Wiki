@@ -11,22 +11,6 @@ import { useMedia } from 'react-use'
 type SheetData = Record<string, any[][]>;
 
 const ITEMS_PER_PAGE = 100;
-const MAX_SELECT_ITEMS = 60; // ★ここを60に変更しました
-
-// --- Context for Header ---
-interface SpreadsheetContextType {
-  header: any[];
-  columnWidths: number[];
-  sortConfig: { colIndex: number, direction: 'asc' | 'desc' } | null;
-  showFilter: boolean;
-  columnFilters: Record<number, string>;
-  uniqueValuesMap: Record<number, string[]>;
-  handleSort: (i: number) => void;
-  handleColumnFilterChange: (i: number, val: string) => void;
-  getStickyStyle: (colIndex: number, bgColor: string, rowType: 'header' | 'filter' | 'data') => React.CSSProperties;
-}
-
-const SpreadsheetContext = React.createContext<SpreadsheetContextType | null>(null);
 
 // 文字列の表示幅を概算
 const getTextDisplayLength = (text: string) => {
@@ -110,12 +94,30 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
   );
 };
 
+// --- Context for Header ---
+interface SpreadsheetContextType {
+  header: any[];
+  columnWidths: number[];
+  sortConfig: { colIndex: number, direction: 'asc' | 'desc' } | null;
+  showFilter: boolean;
+  columnFilters: Record<number, string>;
+  uniqueValuesMap: Record<number, string[]>;
+  handleSort: (i: number) => void;
+  handleColumnFilterChange: (i: number, val: string) => void;
+  getStickyStyle: (colIndex: number, bgColor: string, rowType: 'header' | 'filter' | 'data') => React.CSSProperties;
+}
+
+const SpreadsheetContext = React.createContext<SpreadsheetContextType | null>(null);
+
 // --- Header Content Component ---
 const SpreadsheetHeaderContent = () => {
   const ctx = React.useContext(SpreadsheetContext);
   if (!ctx) return null;
 
   const { header, columnWidths, sortConfig, showFilter, columnFilters, uniqueValuesMap, handleSort, handleColumnFilterChange, getStickyStyle } = ctx;
+  
+  // 定数: ドロップダウン表示にする最大ユニーク数
+  const MAX_SELECT_ITEMS = 30;
 
   return (
     <>
@@ -139,10 +141,16 @@ const SpreadsheetHeaderContent = () => {
               justifyContent: 'space-between', 
               gap: '5px',
               width: `${columnWidths[i]}px`,
-              maxWidth: '200px'
+              maxWidth: '200px',
+              // ▼▼▼ 修正: ヘッダーもデータセルと同じ折り返し設定にする ▼▼▼
+              whiteSpace: 'pre-wrap',
+              wordBreak: 'break-word',
+              lineHeight: '1.6',
+              textAlign: 'left'
+              // ▲▲▲
             }}>
               {col}
-              <span style={{ fontSize: '10px', color: '#888' }}>
+              <span style={{ fontSize: '10px', color: '#888', flexShrink: 0 }}>
                 {sortConfig?.colIndex === i ? (sortConfig.direction === 'asc' ? '▲' : '▼') : '⇅'}
               </span>
             </div>
@@ -153,7 +161,6 @@ const SpreadsheetHeaderContent = () => {
         <tr style={{ background: '#fcfcfc' }}>
           {header.map((_: any, i: number) => {
             const uniqueValues = uniqueValuesMap[i] || [];
-            // ★ここでも定数を使用
             const isSelectMode = uniqueValues.length <= MAX_SELECT_ITEMS && uniqueValues.length > 0;
 
             return (
@@ -300,17 +307,14 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         const colIndex = Number(colIndexStr);
         const cellValue = String(row[colIndex] ?? '');
         const uniqueValues = uniqueValuesMap[colIndex] || [];
-        
-        // ★ここでも定数を使用
+        const MAX_SELECT_ITEMS = 30; // ここでも定数
         const isSelectMode = uniqueValues.length <= MAX_SELECT_ITEMS && uniqueValues.length > 0;
 
         if (isSelectMode) {
-          // 選択肢モード：完全一致
           if (cellValue !== filterValue) {
             return false;
           }
         } else {
-          // テキスト入力モード：部分一致
           if (!cellValue.toLowerCase().includes(filterValue.toLowerCase())) {
             return false;
           }
@@ -389,7 +393,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
       zIndex: 1
     };
 
-    // 1. 横方向の固定 (1列目)
+    // 1. 横方向の固定 (1列目) - PCのみ
     if (colIndex === 0 && !isMobile) {
       style.position = 'sticky';
       style.left = 0;
