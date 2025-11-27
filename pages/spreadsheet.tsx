@@ -11,15 +11,16 @@ import { useMedia } from 'react-use'
 type SheetData = Record<string, any[][]>;
 
 const ITEMS_PER_PAGE = 100;
+const MAX_SELECT_ITEMS = 60; // ★ここを60に変更しました
 
 // --- Context for Header ---
-// ヘッダーが再マウントされるのを防ぐため、Context経由でデータを渡す
 interface SpreadsheetContextType {
   header: any[];
   columnWidths: number[];
   sortConfig: { colIndex: number, direction: 'asc' | 'desc' } | null;
   showFilter: boolean;
   columnFilters: Record<number, string>;
+  uniqueValuesMap: Record<number, string[]>;
   handleSort: (i: number) => void;
   handleColumnFilterChange: (i: number, val: string) => void;
   getStickyStyle: (colIndex: number, bgColor: string, rowType: 'header' | 'filter' | 'data') => React.CSSProperties;
@@ -110,12 +111,11 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
 };
 
 // --- Header Content Component ---
-// Contextからデータを受け取ることで、親の再レンダリング時にもマウント状態を維持する
 const SpreadsheetHeaderContent = () => {
   const ctx = React.useContext(SpreadsheetContext);
   if (!ctx) return null;
 
-  const { header, columnWidths, sortConfig, showFilter, columnFilters, handleSort, handleColumnFilterChange, getStickyStyle } = ctx;
+  const { header, columnWidths, sortConfig, showFilter, columnFilters, uniqueValuesMap, handleSort, handleColumnFilterChange, getStickyStyle } = ctx;
 
   return (
     <>
@@ -151,20 +151,47 @@ const SpreadsheetHeaderContent = () => {
       </tr>
       {showFilter && (
         <tr style={{ background: '#fcfcfc' }}>
-          {header.map((_: any, i: number) => (
-            <td key={i} style={{ 
-              padding: '5px', 
-              ...getStickyStyle(i, '#fcfcfc', 'filter')
-            }}>
-              <input
-                type="text"
-                placeholder="絞り込み..."
-                value={columnFilters[i] || ''}
-                onChange={(e) => handleColumnFilterChange(i, e.target.value)}
-                style={{ width: '100%', padding: '6px', fontSize: '12px', border: '1px solid #ddd', borderRadius: '4px', boxSizing: 'border-box' }}
-              />
-            </td>
-          ))}
+          {header.map((_: any, i: number) => {
+            const uniqueValues = uniqueValuesMap[i] || [];
+            // ★ここでも定数を使用
+            const isSelectMode = uniqueValues.length <= MAX_SELECT_ITEMS && uniqueValues.length > 0;
+
+            return (
+              <td key={i} style={{ 
+                padding: '5px', 
+                ...getStickyStyle(i, '#fcfcfc', 'filter')
+              }}>
+                {isSelectMode ? (
+                  <select
+                    value={columnFilters[i] || ''}
+                    onChange={(e) => handleColumnFilterChange(i, e.target.value)}
+                    style={{ 
+                      width: '100%', 
+                      padding: '6px', 
+                      fontSize: '12px', 
+                      border: '1px solid #ddd', 
+                      borderRadius: '4px', 
+                      boxSizing: 'border-box',
+                      backgroundColor: '#fff'
+                    }}
+                  >
+                    <option value="">すべて</option>
+                    {uniqueValues.map(val => (
+                      <option key={val} value={val}>{val}</option>
+                    ))}
+                  </select>
+                ) : (
+                  <input
+                    type="text"
+                    placeholder="絞り込み..."
+                    value={columnFilters[i] || ''}
+                    onChange={(e) => handleColumnFilterChange(i, e.target.value)}
+                    style={{ width: '100%', padding: '6px', fontSize: '12px', border: '1px solid #ddd', borderRadius: '4px', boxSizing: 'border-box' }}
+                  />
+                )}
+              </td>
+            );
+          })}
         </tr>
       )}
     </>
@@ -235,6 +262,24 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     return widths;
   }, [header, bodyRows]);
 
+  // 1. ユニーク値の抽出
+  const uniqueValuesMap = React.useMemo(() => {
+    const map: Record<number, string[]> = {};
+    if (bodyRows.length === 0) return map;
+
+    header.forEach((_, colIndex) => {
+      const values = new Set<string>();
+      bodyRows.forEach(row => {
+        const cell = row[colIndex];
+        if (cell !== null && cell !== undefined && String(cell).trim() !== '') {
+          values.add(String(cell));
+        }
+      });
+      map[colIndex] = Array.from(values).sort((a, b) => a.localeCompare(b, 'ja'));
+    });
+    return map;
+  }, [header, bodyRows]);
+
   const cleanRows = React.useMemo(() => {
     return bodyRows.filter(row => {
       return row.some(cell => cell !== null && cell !== undefined && String(cell).trim() !== '');
@@ -248,18 +293,32 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         const matchGlobal = row.some((cell: any) => String(cell ?? '').toLowerCase().includes(lowerQuery));
         if (!matchGlobal) return false;
       }
+
       for (const [colIndexStr, filterValue] of Object.entries(columnFilters)) {
         if (!filterValue) continue;
+        
         const colIndex = Number(colIndexStr);
-        const cellValue = String(row[colIndex] ?? '').toLowerCase();
-        const searchStr = String(filterValue).toLowerCase();
-        if (!cellValue.includes(searchStr)) {
-          return false;
+        const cellValue = String(row[colIndex] ?? '');
+        const uniqueValues = uniqueValuesMap[colIndex] || [];
+        
+        // ★ここでも定数を使用
+        const isSelectMode = uniqueValues.length <= MAX_SELECT_ITEMS && uniqueValues.length > 0;
+
+        if (isSelectMode) {
+          // 選択肢モード：完全一致
+          if (cellValue !== filterValue) {
+            return false;
+          }
+        } else {
+          // テキスト入力モード：部分一致
+          if (!cellValue.toLowerCase().includes(filterValue.toLowerCase())) {
+            return false;
+          }
         }
       }
       return true;
     });
-  }, [cleanRows, globalSearchQuery, columnFilters]);
+  }, [cleanRows, globalSearchQuery, columnFilters, uniqueValuesMap]);
 
   const sortedRows = React.useMemo(() => {
     const currentSort = sortConfig;
@@ -330,7 +389,7 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
       zIndex: 1
     };
 
-    // 1. 横方向の固定 (1列目) - PCのみ
+    // 1. 横方向の固定 (1列目)
     if (colIndex === 0 && !isMobile) {
       style.position = 'sticky';
       style.left = 0;
@@ -356,19 +415,20 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
     return style;
   };
 
-  // コンテキストの値を生成（メモ化）
+  // Context Value
   const contextValue = React.useMemo(() => ({
     header,
     columnWidths,
     sortConfig,
     showFilter,
     columnFilters,
+    uniqueValuesMap,
     handleSort,
     handleColumnFilterChange,
     getStickyStyle
-  }), [header, columnWidths, sortConfig, showFilter, columnFilters, isMobile]);
+  }), [header, columnWidths, sortConfig, showFilter, columnFilters, uniqueValuesMap, isMobile]);
 
-  // ★ ヘッダー生成関数を固定（依存配列を空にする） ★
+  // ヘッダー生成関数を固定
   const fixedHeaderContent = React.useCallback(() => <SpreadsheetHeaderContent />, []);
 
   const VirtuosoTableComponents: TableComponents<any[]> = React.useMemo(() => ({
