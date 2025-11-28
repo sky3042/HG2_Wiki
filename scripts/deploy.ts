@@ -7,16 +7,20 @@ const commitMessage = args[0] || 'Update content';
 console.log(`🚀 Starting update with message: "${commitMessage}"...`);
 
 const commands = [
-  // ▼▼▼ 対策：まずGitHubの最新状態を取り込む（競合回避） ▼▼▼
-  'git pull origin main',
+  // ▼▼▼ 対策：データフォルダのローカル変更を破棄して競合を防ぐ ▼▼▼
+  // (どうせこのあと fetch-data で最新を取ってくるので、古い変更は捨ててOKです)
+  'git checkout data/',
   // ▲▲▲ ここまで ▲▲▲
 
-  // 1. データの取得と生成
+  // 1. 最新コードの取り込み
+  'git pull origin main',
+
+  // 2. データの取得と生成
   'npx tsx scripts/fetch-spreadsheet.ts',
   'npx tsx scripts/fetch-data.ts',
   'npx tsx scripts/generate-sitemap.ts',
   
-  // 2. Git操作
+  // 3. Git操作
   'git add .',
   `git commit -m "${commitMessage}"`,
   'git push'
