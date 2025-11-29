@@ -3,7 +3,7 @@
     "1ad3b07c-81ff-80e4-8271-c7f781e181c3": {
       "value": {
         "id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "version": 425,
+        "version": 428,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -56,11 +56,11 @@
           "1bf3b07c-81ff-8084-9adb-d2af2b8c362d",
           "1bf3b07c-81ff-8063-9043-f20e5753a572",
           "1c03b07c-81ff-8047-be46-cb3e0b0e3f97",
+          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "27c3b07c-81ff-8096-8449-eff920b94b98",
           "27c3b07c-81ff-80c2-9c65-edb134e6ea3f",
           "27d3b07c-81ff-808c-9414-c30fd37c630f",
           "27d3b07c-81ff-8056-bba5-f0f0a21f324a",
-          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "1c03b07c-81ff-80ff-84e2-fcf373444957",
           "1ad3b07c-81ff-8021-b8dc-e3d75b522904",
           "1bf3b07c-81ff-8080-b2e4-eba35337822a",
@@ -76,7 +76,7 @@
           "page_cover_position": 0.5
         },
         "created_time": 1741141291977,
-        "last_edited_time": 1764148123988,
+        "last_edited_time": 1764427847589,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -209,7 +209,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 349,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -246,7 +246,7 @@
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -258,7 +258,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -281,7 +281,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764030939329,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -290,7 +290,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -312,8 +313,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -3043,6 +3082,107 @@
       },
       "role": "reader"
     },
+    "2b13b07c-81ff-80b0-a6d2-c5de5faf859c": {
+      "value": {
+        "id": "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
+        "version": 31,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "ゴルディアス家"
+            ]
+          ]
+        },
+        "content": [
+          "2b13b07c-81ff-8088-b828-ebcc9f0a7547",
+          "2b13b07c-81ff-806f-99b7-cc146f5aea95",
+          "2b13b07c-81ff-802d-a0dd-c626284d5330",
+          "2b13b07c-81ff-800e-9123-eead320e07ff",
+          "2b13b07c-81ff-80c5-b34e-c98bf9ca39b3"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:f0ad6e2d-d87e-4a56-a97a-2fcea6cb8870:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1763623466930,
+        "last_edited_time": 1764427847589,
+        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "f0ad6e2d-d87e-4a56-a97a-2fcea6cb8870"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "8kCWRu3eXeQvBQ96UXI6HQ,\"start\",\"end\"",
+            "n": {
+              "8kCWRu3eXeQvBQ96UXI6HQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "8kCWRu3eXeQvBQ96UXI6HQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "U_FHDLvDUP8I",
+                        2
+                      ],
+                      "o": "start",
+                      "l": 6,
+                      "c": "ゴルディアス"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "U_FHDLvDUP8I",
+                        10
+                      ],
+                      "o": [
+                        "U_FHDLvDUP8I",
+                        7
+                      ],
+                      "l": 1,
+                      "c": "家"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "U_FHDLvDUP8I",
+                        8
+                      ],
+                      "o": [
+                        "U_FHDLvDUP8I",
+                        7
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "U_FHDLvDUP8I",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "27c3b07c-81ff-8096-8449-eff920b94b98": {
       "value": {
         "id": "27c3b07c-81ff-8096-8449-eff920b94b98",
@@ -3456,107 +3596,6 @@
                       "t": "t",
                       "i": [
                         "lH_muk5m17_G",
-                        1
-                      ],
-                      "o": "start",
-                      "l": -1
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2b13b07c-81ff-80b0-a6d2-c5de5faf859c": {
-      "value": {
-        "id": "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
-        "version": 28,
-        "type": "page",
-        "properties": {
-          "title": [
-            [
-              "ゴルディアス家"
-            ]
-          ]
-        },
-        "content": [
-          "2b13b07c-81ff-8088-b828-ebcc9f0a7547",
-          "2b13b07c-81ff-806f-99b7-cc146f5aea95",
-          "2b13b07c-81ff-802d-a0dd-c626284d5330",
-          "2b13b07c-81ff-800e-9123-eead320e07ff",
-          "2b13b07c-81ff-80c5-b34e-c98bf9ca39b3"
-        ],
-        "format": {
-          "social_media_image_preview_url": "attachment:f0ad6e2d-d87e-4a56-a97a-2fcea6cb8870:SocialMediaPreviewImage.png"
-        },
-        "created_time": 1763623466930,
-        "last_edited_time": 1763623517925,
-        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "parent_table": "block",
-        "alive": true,
-        "file_ids": [
-          "f0ad6e2d-d87e-4a56-a97a-2fcea6cb8870"
-        ],
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "8kCWRu3eXeQvBQ96UXI6HQ,\"start\",\"end\"",
-            "n": {
-              "8kCWRu3eXeQvBQ96UXI6HQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "8kCWRu3eXeQvBQ96UXI6HQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "U_FHDLvDUP8I",
-                        2
-                      ],
-                      "o": "start",
-                      "l": 6,
-                      "c": "ゴルディアス"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "U_FHDLvDUP8I",
-                        10
-                      ],
-                      "o": [
-                        "U_FHDLvDUP8I",
-                        7
-                      ],
-                      "l": 1,
-                      "c": "家"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "U_FHDLvDUP8I",
-                        8
-                      ],
-                      "o": [
-                        "U_FHDLvDUP8I",
-                        7
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "U_FHDLvDUP8I",
                         1
                       ],
                       "o": "start",
@@ -4260,7 +4299,7 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "1ad3b07c-81ff-80e4-8271-c7f781e181c3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/58b38835-b3fa-40ec-aed7-324cfb602cc4/スクリーンショット_2025-04-25_043543.png?table=block&id=1ad3b07c-81ff-80e4-8271-c7f781e181c3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=8Mh76CKjgeKCVqvGljKaHwFQqlckAlJOP1E_YAFrO8I",
-    "28f3b07c-81ff-8088-86f4-f50d66e82b31": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f851a34a-942a-451e-be0f-95bf47dfc590/スクリーンショット_(413).png?table=block&id=28f3b07c-81ff-8088-86f4-f50d66e82b31&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=G2_OZKCO8N8g_6Moa7FR3bmvrIa3kqoPwk1vdwWN9AU"
+    "1ad3b07c-81ff-80e4-8271-c7f781e181c3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/58b38835-b3fa-40ec-aed7-324cfb602cc4/スクリーンショット_2025-04-25_043543.png?table=block&id=1ad3b07c-81ff-80e4-8271-c7f781e181c3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764468000000&signature=fRDlEcMpljgmAju5lTTNXL36SZGHHFY-Tj85Th56Urg",
+    "28f3b07c-81ff-8088-86f4-f50d66e82b31": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f851a34a-942a-451e-be0f-95bf47dfc590/スクリーンショット_(413).png?table=block&id=28f3b07c-81ff-8088-86f4-f50d66e82b31&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764468000000&signature=6j_xSghrwRAEktn1E5kI_g0Lu3z7dHYnmrY25l3bBj4"
   }
 }

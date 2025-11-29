@@ -3,7 +3,7 @@
     "2a53b07c-81ff-803b-9031-c35b360999ae": {
       "value": {
         "id": "2a53b07c-81ff-803b-9031-c35b360999ae",
-        "version": 267,
+        "version": 269,
         "type": "page",
         "properties": {
           "title": [
@@ -233,7 +233,7 @@
           "social_media_image_preview_url": "attachment:ed1a5e96-debd-4deb-bf67-fbded38bb906:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578025932,
-        "last_edited_time": 1764150306267,
+        "last_edited_time": 1764413407036,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -289,7 +289,7 @@
     "2833b07c-81ff-802a-b26c-c5fec1d872bf": {
       "value": {
         "id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
-        "version": 585,
+        "version": 586,
         "type": "page",
         "properties": {
           "title": [
@@ -347,7 +347,7 @@
           "social_media_image_preview_url": "attachment:a9d0d2e7-a0b7-4a0e-99ab-8f52ff3055a4:SocialMediaPreviewImage.png"
         },
         "created_time": 1759648389245,
-        "last_edited_time": 1763611326980,
+        "last_edited_time": 1764153475903,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
@@ -669,7 +669,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 349,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -706,7 +706,7 @@
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -718,7 +718,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -741,7 +741,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764030939329,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -750,7 +750,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -772,8 +773,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -13511,7 +13550,7 @@
     "2b13b07c-81ff-80ca-8cdf-e2862eb9c7f4": {
       "value": {
         "id": "2b13b07c-81ff-80ca-8cdf-e2862eb9c7f4",
-        "version": 8,
+        "version": 28,
         "type": "quote",
         "properties": {
           "title": [
@@ -13519,7 +13558,7 @@
               "――鋼鉄の森に新月が昇り、太陽に代わる銀の輝きが、人々に再び光をもたらす。 だが、その"
             ],
             [
-              "光",
+              "光明",
               [
                 [
                   "b"
@@ -13530,7 +13569,7 @@
               "をもってしても、パリス・パラドの"
             ],
             [
-              "闇",
+              "黒闇",
               [
                 [
                   "b"
@@ -13551,7 +13590,7 @@
           }
         },
         "created_time": 1763629637146,
-        "last_edited_time": 1764130245139,
+        "last_edited_time": 1764413084322,
         "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
         "parent_table": "block",
         "alive": true,
@@ -13582,6 +13621,47 @@
                     {
                       "t": "t",
                       "i": [
+                        "2Olc2Gav3kJ4",
+                        83
+                      ],
+                      "o": [
+                        "FyPx6-5roBGN",
+                        43
+                      ],
+                      "l": 2,
+                      "c": "光明",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "bazpkLvtGTHGe-uYeHc1xQ",
+                          "l": "",
+                          "i": [
+                            "2Olc2Gav3kJ4",
+                            85
+                          ],
+                          "s": {
+                            "i": [
+                              "2Olc2Gav3kJ4",
+                              83
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "FyPx6-5roBGN",
+                              44
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "FyPx6-5roBGN",
                         44
                       ],
@@ -13589,8 +13669,7 @@
                         "FyPx6-5roBGN",
                         43
                       ],
-                      "l": 1,
-                      "c": "光",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -13633,6 +13712,96 @@
                       "l": 16,
                       "c": "をもってしても、パリス・パラドの",
                       "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        81
+                      ],
+                      "o": [
+                        "FyPx6-5roBGN",
+                        60
+                      ],
+                      "l": 1,
+                      "c": "黒",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "bazpkLvtGTHGe-uYeHc1xQ",
+                          "l": "",
+                          "i": [
+                            "2Olc2Gav3kJ4",
+                            82
+                          ],
+                          "s": {
+                            "i": [
+                              "2Olc2Gav3kJ4",
+                              81
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "2Olc2Gav3kJ4",
+                              78
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        78
+                      ],
+                      "o": [
+                        "FyPx6-5roBGN",
+                        60
+                      ],
+                      "l": -1,
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        80
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        78
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        79
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        78
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        77
+                      ],
+                      "o": [
+                        "FyPx6-5roBGN",
+                        60
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -38762,12 +38931,23 @@
     "2b13b07c-81ff-8018-942e-d03b84b33b1c": {
       "value": {
         "id": "2b13b07c-81ff-8018-942e-d03b84b33b1c",
-        "version": 3,
+        "version": 5,
         "type": "text",
         "properties": {
           "title": [
             [
-              "日本語：E：あなたはまだ十六歳。世界を滅ぼすにしても、救うにしても、若すぎます。"
+              "日本語：E：あなたはまだ十六歳。世界を"
+            ],
+            [
+              "滅ぼす",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "にしても、救うにしても、若すぎます。"
             ]
           ]
         },
@@ -38779,7 +38959,7 @@
           }
         },
         "created_time": 1763629637424,
-        "last_edited_time": 1763629637554,
+        "last_edited_time": 1764413407036,
         "parent_id": "2b13b07c-81ff-80bb-9554-d7b331b34706",
         "parent_table": "block",
         "alive": true,
@@ -38804,8 +38984,63 @@
                         1
                       ],
                       "o": "start",
-                      "l": 40,
-                      "c": "日本語：E：あなたはまだ十六歳。世界を滅ぼすにしても、救うにしても、若すぎます。"
+                      "l": 19,
+                      "c": "日本語：E：あなたはまだ十六歳。世界を"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "xnF62F67JspF",
+                        20
+                      ],
+                      "o": [
+                        "xnF62F67JspF",
+                        19
+                      ],
+                      "l": 3,
+                      "c": "滅ぼす",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "oSGHlnpff05_sNRxCUrp1g",
+                          "l": "",
+                          "i": [
+                            "2Olc2Gav3kJ4",
+                            41
+                          ],
+                          "s": {
+                            "i": [
+                              "xnF62F67JspF",
+                              20
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "xnF62F67JspF",
+                              23
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "xnF62F67JspF",
+                        23
+                      ],
+                      "o": [
+                        "xnF62F67JspF",
+                        22
+                      ],
+                      "l": 18,
+                      "c": "にしても、救うにしても、若すぎます。",
+                      "b": []
                     },
                     {
                       "t": "e"
@@ -38824,12 +39059,23 @@
     "2b13b07c-81ff-8027-a593-e7f0c3a070f7": {
       "value": {
         "id": "2b13b07c-81ff-8027-a593-e7f0c3a070f7",
-        "version": 3,
+        "version": 5,
         "type": "text",
         "properties": {
           "title": [
             [
-              "修正案：E：あなたはまだ十六歳。世界を破滅させるにしても、救うにしても、若すぎます。"
+              "修正案：E：あなたはまだ十六歳。世界を"
+            ],
+            [
+              "破滅させる",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "にしても、救うにしても、若すぎます。"
             ]
           ]
         },
@@ -38841,7 +39087,7 @@
           }
         },
         "created_time": 1763629637424,
-        "last_edited_time": 1763629637554,
+        "last_edited_time": 1764413408442,
         "parent_id": "2b13b07c-81ff-80bb-9554-d7b331b34706",
         "parent_table": "block",
         "alive": true,
@@ -38866,8 +39112,63 @@
                         1
                       ],
                       "o": "start",
-                      "l": 42,
-                      "c": "修正案：E：あなたはまだ十六歳。世界を破滅させるにしても、救うにしても、若すぎます。"
+                      "l": 19,
+                      "c": "修正案：E：あなたはまだ十六歳。世界を"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "31g5NjqCrK2E",
+                        20
+                      ],
+                      "o": [
+                        "31g5NjqCrK2E",
+                        19
+                      ],
+                      "l": 5,
+                      "c": "破滅させる",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "2sO7yneIaxY_RZtyH5lsqw",
+                          "l": "",
+                          "i": [
+                            "2Olc2Gav3kJ4",
+                            43
+                          ],
+                          "s": {
+                            "i": [
+                              "31g5NjqCrK2E",
+                              20
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "31g5NjqCrK2E",
+                              25
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "31g5NjqCrK2E",
+                        25
+                      ],
+                      "o": [
+                        "31g5NjqCrK2E",
+                        24
+                      ],
+                      "l": 18,
+                      "c": "にしても、救うにしても、若すぎます。",
+                      "b": []
                     },
                     {
                       "t": "e"
@@ -41045,10 +41346,10 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2b13b07c-81ff-803f-8ae7-f6d2c16e75d4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1c936670-5d2c-4970-acef-a9fc46fd9ba1/image.png?table=block&id=2b13b07c-81ff-803f-8ae7-f6d2c16e75d4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=Lnke-Y7n6Q_p4PYMENl2OV5ZRPaYZI9W2ZKTpEXEXyc",
-    "2b13b07c-81ff-807e-91fe-fc87d3e64140": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/a39c8a1a-3456-4709-9a06-24a4ad11cd56/760ca1e5gy1hobi70di1cj20sg114b29.jpg?table=block&id=2b13b07c-81ff-807e-91fe-fc87d3e64140&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=8CrvNHCX7RTSNiizPpVEfXiVJ92hp287Ed81wqKeKq4",
-    "2b13b07c-81ff-8040-af5c-d312947bbfda": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/65b356cf-629b-456c-ad30-f89db6e2fd44/image.png?table=block&id=2b13b07c-81ff-8040-af5c-d312947bbfda&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=nz0xLc5uBzJpc2PVUZ_PIs5KmF3wsAX81TRcVuts9_Q",
-    "2b13b07c-81ff-8035-96f5-eca7fdcdd218": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1ac304ea-7d7e-411c-b1b2-4548393455cc/Lの肖像.jpg?table=block&id=2b13b07c-81ff-8035-96f5-eca7fdcdd218&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=ad4HTvn57y7_LyY8y0wIuFzwHpXk4QRsDviavCwaaYY",
-    "2b13b07c-81ff-804c-94ef-ecba1d4b2c28": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/9a1a5beb-bcaa-483d-b742-3ce1b1dcd22d/image.png?table=block&id=2b13b07c-81ff-804c-94ef-ecba1d4b2c28&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=Fth-LSoXGo5ofGYW9-gtQWNcFC7_YD3tVWjumoAMBzg"
+    "2b13b07c-81ff-803f-8ae7-f6d2c16e75d4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1c936670-5d2c-4970-acef-a9fc46fd9ba1/image.png?table=block&id=2b13b07c-81ff-803f-8ae7-f6d2c16e75d4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764468000000&signature=VCfYOLdO2ffYMfp0JZ2mznXd9hilcNfjOxHrsVSIupc",
+    "2b13b07c-81ff-807e-91fe-fc87d3e64140": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/a39c8a1a-3456-4709-9a06-24a4ad11cd56/760ca1e5gy1hobi70di1cj20sg114b29.jpg?table=block&id=2b13b07c-81ff-807e-91fe-fc87d3e64140&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764468000000&signature=du5-sgew_4yfZKNWnQMxdzJacbtGrg7oAMwUaqPBISY",
+    "2b13b07c-81ff-8040-af5c-d312947bbfda": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/65b356cf-629b-456c-ad30-f89db6e2fd44/image.png?table=block&id=2b13b07c-81ff-8040-af5c-d312947bbfda&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764468000000&signature=t_HF2mkPOYSCcw6GSJokBiLd-38g4sjg8vIL5kbxHe4",
+    "2b13b07c-81ff-8035-96f5-eca7fdcdd218": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1ac304ea-7d7e-411c-b1b2-4548393455cc/Lの肖像.jpg?table=block&id=2b13b07c-81ff-8035-96f5-eca7fdcdd218&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764468000000&signature=x2cRZZ4pTw_1WOyMT0DswPLFVftUu3TTRaAhxNnt0QI",
+    "2b13b07c-81ff-804c-94ef-ecba1d4b2c28": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/9a1a5beb-bcaa-483d-b742-3ce1b1dcd22d/image.png?table=block&id=2b13b07c-81ff-804c-94ef-ecba1d4b2c28&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764468000000&signature=aXbAmFaHOPUzizvkqNgP4jQLrXOUjhRXE-cGP0tLA1A"
   }
 }

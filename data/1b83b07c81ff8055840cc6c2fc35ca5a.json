@@ -3,7 +3,7 @@
     "1b83b07c-81ff-8055-840c-c6c2fc35ca5a": {
       "value": {
         "id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "version": 230,
+        "version": 252,
         "type": "page",
         "properties": {
           "title": [
@@ -13,11 +13,6 @@
           ]
         },
         "content": [
-          "1eb3b07c-81ff-80fc-a8e0-ca53dbc13982",
-          "1f33b07c-81ff-8041-bc75-de6fb258e0df",
-          "1f33b07c-81ff-80d4-a07e-d165480bfb96",
-          "1f33b07c-81ff-801a-8733-edd716d4a701",
-          "1f33b07c-81ff-802e-ad89-c55a3b79ad7f",
           "1eb3b07c-81ff-80e9-bfe5-dd42855fd0c1",
           "1c53b07c-81ff-806a-b5c4-f48b09c06723",
           "1c53b07c-81ff-800e-993a-c791daca5a3b",
@@ -27,9 +22,6 @@
           "1c53b07c-81ff-809e-a0a5-c625f0f7c306",
           "1c53b07c-81ff-80ba-9af5-ff6dc432e46c",
           "1c53b07c-81ff-8036-ad36-cef4bfd0a097",
-          "1c53b07c-81ff-800e-bbbf-fd2ba8b42368",
-          "1c53b07c-81ff-808c-99db-eac7a411d3ef",
-          "1c53b07c-81ff-80dc-87b5-d76cba6c82e7",
           "1c53b07c-81ff-80fa-8da5-c9070bda6c17",
           "1bc3b07c-81ff-80ff-b783-cbf7ddf37407",
           "1c53b07c-81ff-8029-ae8e-fdd423aecc7d",
@@ -39,7 +31,6 @@
           "2823b07c-81ff-8065-98ff-d9f8d31f5d55",
           "2823b07c-81ff-80d2-aecd-cc87378545b0",
           "2823b07c-81ff-8034-b91a-d8dc1c152706",
-          "2823b07c-81ff-80ab-9876-d6c72360e160",
           "1bc3b07c-81ff-8041-b856-cb93bc25539b",
           "1c53b07c-81ff-80b9-aca1-f8e673840935",
           "1c53b07c-81ff-80dd-97ef-f0bc3e92de08",
@@ -62,9 +53,9 @@
           "page_cover_position": 0.2367
         },
         "created_time": 1742159482202,
-        "last_edited_time": 1759558952861,
-        "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
-        "parent_table": "collection",
+        "last_edited_time": 1764427759882,
+        "parent_id": "2a03b07c-81ff-809f-842f-e5b1bd2b5351",
+        "parent_table": "block",
         "alive": true,
         "file_ids": [
           "25f8d2dd-692a-4ffd-b74b-729609786f2e",
@@ -107,10 +98,185 @@
       },
       "role": "reader"
     },
+    "2a03b07c-81ff-809f-842f-e5b1bd2b5351": {
+      "value": {
+        "id": "2a03b07c-81ff-809f-842f-e5b1bd2b5351",
+        "version": 71,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "その他考察"
+            ]
+          ]
+        },
+        "content": [
+          "2a03b07c-81ff-80b7-bad5-ce92fb63f854",
+          "2a03b07c-81ff-8065-9b96-dcc1f78480fe",
+          "2a03b07c-81ff-80a6-9bcd-f1aa3b45ec7d",
+          "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+          "2923b07c-81ff-809c-8087-d92611f42803",
+          "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+          "1b63b07c-81ff-80a4-a47a-c01325dd88ba",
+          "2ba3b07c-81ff-8021-a59e-e48ae9916ca4"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:d8525e73-44e3-4726-b57e-0ace33bc21f2:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1762139217735,
+        "last_edited_time": 1764427685230,
+        "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "d8525e73-44e3-4726-b57e-0ace33bc21f2"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "6Fvg_Z2BMtnY0QbqM0Cf0g,\"start\",\"end\"",
+            "n": {
+              "6Fvg_Z2BMtnY0QbqM0Cf0g,\"start\",\"end\"": {
+                "s": {
+                  "x": "6Fvg_Z2BMtnY0QbqM0Cf0g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        3
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "そ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        5
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        3
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        8
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        5
+                      ],
+                      "l": 1,
+                      "c": "他"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "uU0Su_GB9f_H",
+                        13
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        8
+                      ],
+                      "l": 2,
+                      "c": "考察"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "uU0Su_GB9f_H",
+                        9
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        8
+                      ],
+                      "l": -4
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        7
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        6
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        4
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IwFjAigi3rGd",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "1ad3b07c-81ff-8049-a679-dee2753e730d": {
       "value": {
         "id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
-        "version": 70,
+        "version": 71,
         "type": "collection_view",
         "view_ids": [
           "1ad3b07c-81ff-808c-8d68-000c1a966362"
@@ -125,7 +291,7 @@
           "social_media_image_preview_url": "attachment:77ee58c3-eb3b-464f-91ec-260bc5a88966:SocialMediaPreviewImage.png"
         },
         "created_time": 1741139703841,
-        "last_edited_time": 1762139217746,
+        "last_edited_time": 1764148211020,
         "parent_id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
         "parent_table": "block",
         "alive": true,
@@ -162,9 +328,14 @@
     "1ac3b07c-81ff-8089-98b4-ec9f8c06db35": {
       "value": {
         "id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
-        "version": 106,
+        "version": 122,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "lore"
+            ]
+          ],
           "title": [
             [
               "考察"
@@ -183,7 +354,7 @@
           "social_media_image_preview_url": "attachment:8df55a7c-dc11-421a-ad46-8e12905aa7f2:SocialMediaPreviewImage.png"
         },
         "created_time": 1741119050032,
-        "last_edited_time": 1763354128830,
+        "last_edited_time": 1764148160955,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -289,7 +460,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -319,20 +490,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -344,7 +509,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -367,7 +532,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -376,7 +541,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -398,8 +564,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -421,682 +625,20 @@
     "1ad3b07c-81ff-80e6-b0a3-c1e8c0daf575": {
       "role": "none"
     },
-    "1eb3b07c-81ff-80fc-a8e0-ca53dbc13982": {
-      "value": {
-        "id": "1eb3b07c-81ff-80fc-a8e0-ca53dbc13982",
-        "version": 129,
-        "type": "header",
-        "properties": {
-          "title": [
-            [
-              "※下書き",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ]
-          ]
-        },
-        "created_time": 1746538112501,
-        "last_edited_time": 1753629370917,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "IsfMqVZVVbY9ksz00qQ-FQ,\"start\",\"end\"",
-            "n": {
-              "IsfMqVZVVbY9ksz00qQ-FQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "IsfMqVZVVbY9ksz00qQ-FQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "97kmuSC09ciE",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 4,
-                      "c": "※下書き",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "IsfMqVZVVbY9ksz00qQ-FQ",
-                          "l": "",
-                          "i": [
-                            "97kmuSC09ciE",
-                            5
-                          ],
-                          "s": {
-                            "i": [
-                              "97kmuSC09ciE",
-                              1
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": "end",
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "e",
-                      "b": []
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1f33b07c-81ff-8041-bc75-de6fb258e0df": {
-      "value": {
-        "id": "1f33b07c-81ff-8041-bc75-de6fb258e0df",
-        "version": 116,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "考察というより感想、メモ"
-            ]
-          ]
-        },
-        "created_time": 1747219945642,
-        "last_edited_time": 1759558840478,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "1ugAqnNP07szJNvpiNr_sg,\"start\",\"end\"",
-            "n": {
-              "1ugAqnNP07szJNvpiNr_sg,\"start\",\"end\"": {
-                "s": {
-                  "x": "1ugAqnNP07szJNvpiNr_sg",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        8
-                      ],
-                      "o": "start",
-                      "l": 2,
-                      "c": "考察"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        11
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        9
-                      ],
-                      "l": 3,
-                      "c": "という"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        15
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        13
-                      ],
-                      "l": 1,
-                      "c": "よ"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        17
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        15
-                      ],
-                      "l": 1,
-                      "c": "り"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        41
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        17
-                      ],
-                      "l": 3,
-                      "c": "感想、"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        48
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        43
-                      ],
-                      "l": 2,
-                      "c": "メモ"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        45
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        43
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        47
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        45
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        46
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        45
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        44
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        43
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        39
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        17
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        37
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        17
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        31
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        17
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        33
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        31
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        35
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        33
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        34
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        33
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        32
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        31
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        30
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        17
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        27
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        17
-                      ],
-                      "l": -3
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        19
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        17
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        23
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        19
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        25
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        23
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        24
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        23
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        22
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        19
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        21
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        19
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        20
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        19
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        18
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        17
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        16
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        15
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        14
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        13
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        10
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        9
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        2
-                      ],
-                      "o": "start",
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        5
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        3
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        7
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        5
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        6
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        5
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        4
-                      ],
-                      "o": [
-                        "YMS6-G04Bk5o",
-                        3
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "YMS6-G04Bk5o",
-                        1
-                      ],
-                      "o": "start",
-                      "l": -1
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1f33b07c-81ff-80d4-a07e-d165480bfb96": {
-      "value": {
-        "id": "1f33b07c-81ff-80d4-a07e-d165480bfb96",
-        "version": 5,
-        "type": "text",
-        "created_time": 1747219945829,
-        "last_edited_time": 1747219945832,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "WlGV40WVL5KtmqL23TrbCQ,\"start\",\"end\"",
-            "n": {
-              "WlGV40WVL5KtmqL23TrbCQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "WlGV40WVL5KtmqL23TrbCQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1f33b07c-81ff-801a-8733-edd716d4a701": {
-      "value": {
-        "id": "1f33b07c-81ff-801a-8733-edd716d4a701",
-        "version": 5,
-        "type": "text",
-        "created_time": 1747219947419,
-        "last_edited_time": 1747219947426,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "Qy5PUA4PWDqNLucqlR74Pg,\"start\",\"end\"",
-            "n": {
-              "Qy5PUA4PWDqNLucqlR74Pg,\"start\",\"end\"": {
-                "s": {
-                  "x": "Qy5PUA4PWDqNLucqlR74Pg",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1f33b07c-81ff-802e-ad89-c55a3b79ad7f": {
-      "value": {
-        "id": "1f33b07c-81ff-802e-ad89-c55a3b79ad7f",
-        "version": 5,
-        "type": "text",
-        "created_time": 1747219945506,
-        "last_edited_time": 1747219945520,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "_u1yQYu_j4qSmEN1ndQKsw,\"start\",\"end\"",
-            "n": {
-              "_u1yQYu_j4qSmEN1ndQKsw,\"start\",\"end\"": {
-                "s": {
-                  "x": "_u1yQYu_j4qSmEN1ndQKsw",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
     "1eb3b07c-81ff-80e9-bfe5-dd42855fd0c1": {
       "value": {
         "id": "1eb3b07c-81ff-80e9-bfe5-dd42855fd0c1",
-        "version": 5,
+        "version": 52,
         "type": "text",
+        "properties": {
+          "title": [
+            [
+              "考察というかメモ"
+            ]
+          ]
+        },
         "created_time": 1746538109745,
-        "last_edited_time": 1746538109748,
+        "last_edited_time": 1764427767778,
         "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
         "parent_table": "block",
         "alive": true,
@@ -1112,6 +654,193 @@
                   "i": [
                     {
                       "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        8
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "考察"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        11
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        9
+                      ],
+                      "l": 3,
+                      "c": "という"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        15
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        13
+                      ],
+                      "l": 1,
+                      "c": "か"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        20
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        15
+                      ],
+                      "l": 2,
+                      "c": "メモ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        17
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        19
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        17
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        18
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        17
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        16
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        14
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        10
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        9
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        5
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        7
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        6
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        4
+                      ],
+                      "o": [
+                        "2Olc2Gav3kJ4",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -1540,176 +1269,6 @@
                       "o": "start",
                       "l": 16,
                       "c": "本当に単なる地殻活動だったのか。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-800e-bbbf-fd2ba8b42368": {
-      "value": {
-        "id": "1c53b07c-81ff-800e-bbbf-fd2ba8b42368",
-        "version": 17,
-        "type": "sub_sub_header",
-        "properties": {
-          "title": [
-            [
-              "司徒等泓"
-            ]
-          ]
-        },
-        "created_time": 1743225936931,
-        "last_edited_time": 1743227421764,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "UxVWiImbyYO1eWUx3MY47g,\"start\",\"end\"",
-            "n": {
-              "UxVWiImbyYO1eWUx3MY47g,\"start\",\"end\"": {
-                "s": {
-                  "x": "UxVWiImbyYO1eWUx3MY47g",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "9or7QQz4XBmo",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 4,
-                      "c": "司徒等泓"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-808c-99db-eac7a411d3ef": {
-      "value": {
-        "id": "1c53b07c-81ff-808c-99db-eac7a411d3ef",
-        "version": 49,
-        "type": "quote",
-        "properties": {
-          "title": [
-            [
-              "司徒等泓が何か考えるような表情を見せ、頭をすこし傾けた。その表情や仕草からは何を考えているのかわからなかった。"
-            ]
-          ]
-        },
-        "content": [
-          "1c53b07c-81ff-809d-83f6-e182bcf030af",
-          "1c53b07c-81ff-8020-8dce-f5fcd9bd57b6",
-          "1c53b07c-81ff-8059-ba61-f035e76773c6"
-        ],
-        "format": {
-          "block_color": "gray_background"
-        },
-        "created_time": 1743225870987,
-        "last_edited_time": 1743227512048,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "yTkRfIs0del4rO7OncEM9g,\"start\",\"end\"",
-            "n": {
-              "yTkRfIs0del4rO7OncEM9g,\"start\",\"end\"": {
-                "s": {
-                  "x": "yTkRfIs0del4rO7OncEM9g",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "T1TWU0xj8Jrn",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 55,
-                      "c": "司徒等泓が何か考えるような表情を見せ、頭をすこし傾けた。その表情や仕草からは何を考えているのかわからなかった。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-80dc-87b5-d76cba6c82e7": {
-      "value": {
-        "id": "1c53b07c-81ff-80dc-87b5-d76cba6c82e7",
-        "version": 31,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "気になる。"
-            ]
-          ]
-        },
-        "created_time": 1743225623703,
-        "last_edited_time": 1743227077298,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "SALdiDAIggSRBraHTHc-Pg,\"start\",\"end\"",
-            "n": {
-              "SALdiDAIggSRBraHTHc-Pg,\"start\",\"end\"": {
-                "s": {
-                  "x": "SALdiDAIggSRBraHTHc-Pg",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "CBwbP6rvZAAf",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 5,
-                      "c": "気になる。"
                     },
                     {
                       "t": "e"
@@ -2286,6 +1845,532 @@
       },
       "role": "reader"
     },
+    "2823b07c-81ff-8034-b91a-d8dc1c152706": {
+      "value": {
+        "id": "2823b07c-81ff-8034-b91a-d8dc1c152706",
+        "version": 5,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "三度の落ちていく描写"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "27f3b07c-81ff-8068-abab-e5fd02ead0d5",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1759558953375,
+        "last_edited_time": 1759558953379,
+        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "27f3b07c-81ff-8068-abab-e5fd02ead0d5",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "2ERUd-hlI5FIZEpvfs5D0Q,\"start\",\"end\"",
+            "n": {
+              "2ERUd-hlI5FIZEpvfs5D0Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "2ERUd-hlI5FIZEpvfs5D0Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "yq_BUzE3PMd8",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 10,
+                      "c": "三度の落ちていく描写"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "BFNY7jcRQ3xeqcmfYszu8Q,[\"2Olc2Gav3kJ4\",21],\"end\""
+                ]
+              },
+              "BFNY7jcRQ3xeqcmfYszu8Q,[\"2Olc2Gav3kJ4\",21],\"end\"": {
+                "s": {
+                  "x": "BFNY7jcRQ3xeqcmfYszu8Q",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "2Olc2Gav3kJ4",
+                        21
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1bc3b07c-81ff-8041-b856-cb93bc25539b": {
+      "value": {
+        "id": "1bc3b07c-81ff-8041-b856-cb93bc25539b",
+        "version": 93,
+        "type": "sub_header",
+        "properties": {
+          "title": [
+            [
+              "伏線"
+            ]
+          ]
+        },
+        "created_time": 1742506807398,
+        "last_edited_time": 1743227413086,
+        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "E1-YAFPlyuJmLX--n1ZVjA,\"start\",\"end\"",
+            "n": {
+              "E1-YAFPlyuJmLX--n1ZVjA,\"start\",\"end\"": {
+                "s": {
+                  "x": "E1-YAFPlyuJmLX--n1ZVjA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "yyK6pIEOUqHl",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "伏線"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1c53b07c-81ff-80b9-aca1-f8e673840935": {
+      "value": {
+        "id": "1c53b07c-81ff-80b9-aca1-f8e673840935",
+        "version": 17,
+        "type": "divider",
+        "created_time": 1743228040355,
+        "last_edited_time": 1743228040925,
+        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "zI1NxyvmFXpYSZZFjIZoZA,\"start\",\"end\"",
+            "n": {
+              "zI1NxyvmFXpYSZZFjIZoZA,\"start\",\"end\"": {
+                "s": {
+                  "x": "zI1NxyvmFXpYSZZFjIZoZA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1c53b07c-81ff-80dd-97ef-f0bc3e92de08": {
+      "value": {
+        "id": "1c53b07c-81ff-80dd-97ef-f0bc3e92de08",
+        "version": 27,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "諜報員"
+            ]
+          ]
+        },
+        "created_time": 1743228034443,
+        "last_edited_time": 1743228036699,
+        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "1OTTGPDCnJyJBo8DQIY5Pg,\"start\",\"end\"",
+            "n": {
+              "1OTTGPDCnJyJBo8DQIY5Pg,\"start\",\"end\"": {
+                "s": {
+                  "x": "1OTTGPDCnJyJBo8DQIY5Pg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "U54tAE40Ib03",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "諜報員"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1c53b07c-81ff-8060-8515-caf706d82ca6": {
+      "value": {
+        "id": "1c53b07c-81ff-8060-8515-caf706d82ca6",
+        "version": 53,
+        "type": "quote",
+        "properties": {
+          "title": [
+            [
+              "慕寒音：はい、これ見て。私が昨日おすすめって言ってた占いサイト——"
+            ]
+          ]
+        },
+        "content": [
+          "1c53b07c-81ff-8032-a0f2-f1176d1d10d7",
+          "1c53b07c-81ff-80a1-aa57-fd249d8323bd",
+          "1c53b07c-81ff-80ee-8adb-f5d4242f933f",
+          "1c53b07c-81ff-800a-bb5c-c3f39d69493d"
+        ],
+        "format": {
+          "block_color": "gray_background"
+        },
+        "created_time": 1743226049612,
+        "last_edited_time": 1743227510853,
+        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "CjmX44g0xJZKXvrHNDfkiQ,\"start\",\"end\"",
+            "n": {
+              "CjmX44g0xJZKXvrHNDfkiQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "CjmX44g0xJZKXvrHNDfkiQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "j2B5ExMiUOnd",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 33,
+                      "c": "慕寒音：はい、これ見て。私が昨日おすすめって言ってた占いサイト——"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1c53b07c-81ff-802d-a57a-dbc3d87f354c": {
+      "value": {
+        "id": "1c53b07c-81ff-802d-a57a-dbc3d87f354c",
+        "version": 28,
+        "type": "quote",
+        "properties": {
+          "title": [
+            [
+              "……ああ、この前のあれね？彼とはもうおしまいにしたの——あの人、いかにもできそうなふりをしてたけど、こっそり調べてみたら家は賃貸で、車もレンタルだったんだもの。\nどう、あなたの相棒なんだから私もなかなかやるでしょう。こういう"
+            ],
+            [
+              "スパイ",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "活動の能力とかさ〜。"
+            ]
+          ]
+        },
+        "format": {
+          "block_color": "gray_background"
+        },
+        "created_time": 1743226534967,
+        "last_edited_time": 1743227509085,
+        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "7FqWozT7fxFFCuq6M6uTEQ,\"start\",\"end\"",
+            "n": {
+              "7FqWozT7fxFFCuq6M6uTEQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "7FqWozT7fxFFCuq6M6uTEQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "QZGszDpHUGBq",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 112,
+                      "c": "……ああ、この前のあれね？彼とはもうおしまいにしたの——あの人、いかにもできそうなふりをしてたけど、こっそり調べてみたら家は賃貸で、車もレンタルだったんだもの。\nどう、あなたの相棒なんだから私もなかなかやるでしょう。こういう"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "QZGszDpHUGBq",
+                        113
+                      ],
+                      "o": [
+                        "QZGszDpHUGBq",
+                        112
+                      ],
+                      "l": 3,
+                      "c": "スパイ",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "7FqWozT7fxFFCuq6M6uTEQ",
+                          "l": "",
+                          "i": [
+                            "QZGszDpHUGBq",
+                            126
+                          ],
+                          "s": {
+                            "i": [
+                              "QZGszDpHUGBq",
+                              113
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "QZGszDpHUGBq",
+                              116
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "QZGszDpHUGBq",
+                        116
+                      ],
+                      "o": [
+                        "QZGszDpHUGBq",
+                        115
+                      ],
+                      "l": 10,
+                      "c": "活動の能力とかさ〜。",
+                      "b": []
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1c53b07c-81ff-8095-8ea4-f920829dbf2b": {
+      "value": {
+        "id": "1c53b07c-81ff-8095-8ea4-f920829dbf2b",
+        "version": 18,
+        "type": "quote",
+        "properties": {
+          "title": [
+            [
+              "もちろん知ってるわよ……受付って色々と情報が集まってくるからさ。"
+            ]
+          ]
+        },
+        "format": {
+          "block_color": "gray_background"
+        },
+        "created_time": 1743226561684,
+        "last_edited_time": 1755718849540,
+        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "_8VO2qjDW7WMnAC983z3ZA,\"start\",\"end\"",
+            "n": {
+              "_8VO2qjDW7WMnAC983z3ZA,\"start\",\"end\"": {
+                "s": {
+                  "x": "_8VO2qjDW7WMnAC983z3ZA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GXI5Pil_OCB7",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 32,
+                      "c": "もちろん知ってるわよ……受付って色々と情報が集まってくるからさ。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1c53b07c-81ff-8047-8a99-db7ee55b4147": {
+      "value": {
+        "id": "1c53b07c-81ff-8047-8a99-db7ee55b4147",
+        "version": 233,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "慕寒音が諜報員だったことの伏線や、昔征きし時への伏線。"
+            ]
+          ]
+        },
+        "created_time": 1743227456179,
+        "last_edited_time": 1743227488568,
+        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "IeTxBY78_KOQLHN8854N4A,\"start\",\"end\"",
+            "n": {
+              "IeTxBY78_KOQLHN8854N4A,\"start\",\"end\"": {
+                "s": {
+                  "x": "IeTxBY78_KOQLHN8854N4A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "_lIs6RTqV9GF",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 27,
+                      "c": "慕寒音が諜報員だったことの伏線や、昔征きし時への伏線。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "1c53b07c-81ff-8071-8702-fd05d613b9d5": {
       "value": {
         "id": "1c53b07c-81ff-8071-8702-fd05d613b9d5",
@@ -2379,168 +2464,6 @@
                       "o": "start",
                       "l": 77,
                       "c": "フェミリス：大丈夫ですよ～。フェミリスが各地の監視リソースを使って確認しましたが、崩壊エネルギーの痕跡は見つかりませんでした。単なる地殻活動だと思います。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-809d-83f6-e182bcf030af": {
-      "value": {
-        "id": "1c53b07c-81ff-809d-83f6-e182bcf030af",
-        "version": 10,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "鉄師一夏：司徒理事、何か……ございましたか？"
-            ]
-          ]
-        },
-        "created_time": 1743225939825,
-        "last_edited_time": 1743225946057,
-        "parent_id": "1c53b07c-81ff-808c-99db-eac7a411d3ef",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "X2ce79Fn0F6S5y-Z6QiZNQ,\"start\",\"end\"",
-            "n": {
-              "X2ce79Fn0F6S5y-Z6QiZNQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "X2ce79Fn0F6S5y-Z6QiZNQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "Cu0U6Nauuzke",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 22,
-                      "c": "鉄師一夏：司徒理事、何か……ございましたか？"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-8020-8dce-f5fcd9bd57b6": {
-      "value": {
-        "id": "1c53b07c-81ff-8020-8dce-f5fcd9bd57b6",
-        "version": 10,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "司徒箐泓：……いや、なんでもない。\nちょっと思い出したことがあってな。"
-            ]
-          ]
-        },
-        "created_time": 1743225939825,
-        "last_edited_time": 1743225948928,
-        "parent_id": "1c53b07c-81ff-808c-99db-eac7a411d3ef",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "NrQNYna-uX-VvKDTwBj-UQ,\"start\",\"end\"",
-            "n": {
-              "NrQNYna-uX-VvKDTwBj-UQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "NrQNYna-uX-VvKDTwBj-UQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IaLygooH47xA",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 35,
-                      "c": "司徒箐泓：……いや、なんでもない。\nちょっと思い出したことがあってな。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-8059-ba61-f035e76773c6": {
-      "value": {
-        "id": "1c53b07c-81ff-8059-ba61-f035e76773c6",
-        "version": 6,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "司徒箐泓は再び彼女に笑顔を見せた。"
-            ]
-          ]
-        },
-        "created_time": 1743225939826,
-        "last_edited_time": 1743225939831,
-        "parent_id": "1c53b07c-81ff-808c-99db-eac7a411d3ef",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "JQXVp2h-5fMdARo4BRmsaA,\"start\",\"end\"",
-            "n": {
-              "JQXVp2h-5fMdARo4BRmsaA,\"start\",\"end\"": {
-                "s": {
-                  "x": "JQXVp2h-5fMdARo4BRmsaA",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "N84Wx0JhqQlg",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 17,
-                      "c": "司徒箐泓は再び彼女に笑顔を見せた。"
                     },
                     {
                       "t": "e"
@@ -3106,40 +3029,32 @@
       },
       "role": "reader"
     },
-    "2823b07c-81ff-8034-b91a-d8dc1c152706": {
+    "1c53b07c-81ff-8032-a0f2-f1176d1d10d7": {
       "value": {
-        "id": "2823b07c-81ff-8034-b91a-d8dc1c152706",
-        "version": 4,
+        "id": "1c53b07c-81ff-8032-a0f2-f1176d1d10d7",
+        "version": 10,
         "type": "text",
         "properties": {
           "title": [
             [
-              "三度の落ちていく描写"
+              "鉄師一夏：…… 「四万年前の自分が誰だったのか占い」？"
             ]
           ]
         },
-        "format": {
-          "copied_from_pointer": {
-            "id": "27f3b07c-81ff-8068-abab-e5fd02ead0d5",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1759558953375,
-        "last_edited_time": 1759558953379,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+        "created_time": 1743226051732,
+        "last_edited_time": 1743226066063,
+        "parent_id": "1c53b07c-81ff-8060-8515-caf706d82ca6",
         "parent_table": "block",
         "alive": true,
-        "copied_from": "27f3b07c-81ff-8068-abab-e5fd02ead0d5",
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "2ERUd-hlI5FIZEpvfs5D0Q,\"start\",\"end\"",
+            "r": "TzvDJqWJhG3UDCzVv0kkKQ,\"start\",\"end\"",
             "n": {
-              "2ERUd-hlI5FIZEpvfs5D0Q,\"start\",\"end\"": {
+              "TzvDJqWJhG3UDCzVv0kkKQ,\"start\",\"end\"": {
                 "s": {
-                  "x": "2ERUd-hlI5FIZEpvfs5D0Q",
+                  "x": "TzvDJqWJhG3UDCzVv0kkKQ",
                   "i": [
                     {
                       "t": "s"
@@ -3147,12 +3062,12 @@
                     {
                       "t": "t",
                       "i": [
-                        "yq_BUzE3PMd8",
+                        "OmwykH2mz5_q",
                         1
                       ],
                       "o": "start",
-                      "l": 10,
-                      "c": "三度の落ちていく描写"
+                      "l": 27,
+                      "c": "鉄師一夏：…… 「四万年前の自分が誰だったのか占い」？"
                     },
                     {
                       "t": "e"
@@ -3168,69 +3083,32 @@
       },
       "role": "reader"
     },
-    "2823b07c-81ff-80ab-9876-d6c72360e160": {
+    "1c53b07c-81ff-80a1-aa57-fd249d8323bd": {
       "value": {
-        "id": "2823b07c-81ff-80ab-9876-d6c72360e160",
-        "version": 3,
+        "id": "1c53b07c-81ff-80a1-aa57-fd249d8323bd",
+        "version": 14,
         "type": "text",
-        "created_time": 1759558963032,
-        "last_edited_time": 1759558963035,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "BFNY7jcRQ3xeqcmfYszu8Q,\"start\",\"end\"",
-            "n": {
-              "BFNY7jcRQ3xeqcmfYszu8Q,\"start\",\"end\"": {
-                "s": {
-                  "x": "BFNY7jcRQ3xeqcmfYszu8Q",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1bc3b07c-81ff-8041-b856-cb93bc25539b": {
-      "value": {
-        "id": "1bc3b07c-81ff-8041-b856-cb93bc25539b",
-        "version": 93,
-        "type": "sub_header",
         "properties": {
           "title": [
             [
-              "伏線"
+              "慕寒音：説明によると聖痕の技術や崩壊エネルギー、気功、それに磁場まで活用してて、すごく当たるらしいのよ！"
             ]
           ]
         },
-        "created_time": 1742506807398,
-        "last_edited_time": 1743227413086,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+        "created_time": 1743226051732,
+        "last_edited_time": 1743226098501,
+        "parent_id": "1c53b07c-81ff-8060-8515-caf706d82ca6",
         "parent_table": "block",
         "alive": true,
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "E1-YAFPlyuJmLX--n1ZVjA,\"start\",\"end\"",
+            "r": "c6DiPAi59howU1k8qGlPiA,\"start\",\"end\"",
             "n": {
-              "E1-YAFPlyuJmLX--n1ZVjA,\"start\",\"end\"": {
+              "c6DiPAi59howU1k8qGlPiA,\"start\",\"end\"": {
                 "s": {
-                  "x": "E1-YAFPlyuJmLX--n1ZVjA",
+                  "x": "c6DiPAi59howU1k8qGlPiA",
                   "i": [
                     {
                       "t": "s"
@@ -3238,12 +3116,12 @@
                     {
                       "t": "t",
                       "i": [
-                        "yyK6pIEOUqHl",
+                        "FioLTMgBGvLF",
                         1
                       ],
                       "o": "start",
-                      "l": 2,
-                      "c": "伏線"
+                      "l": 52,
+                      "c": "慕寒音：説明によると聖痕の技術や崩壊エネルギー、気功、それに磁場まで活用してて、すごく当たるらしいのよ！"
                     },
                     {
                       "t": "e"
@@ -3259,69 +3137,32 @@
       },
       "role": "reader"
     },
-    "1c53b07c-81ff-80b9-aca1-f8e673840935": {
+    "1c53b07c-81ff-80ee-8adb-f5d4242f933f": {
       "value": {
-        "id": "1c53b07c-81ff-80b9-aca1-f8e673840935",
-        "version": 17,
-        "type": "divider",
-        "created_time": 1743228040355,
-        "last_edited_time": 1743228040925,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "zI1NxyvmFXpYSZZFjIZoZA,\"start\",\"end\"",
-            "n": {
-              "zI1NxyvmFXpYSZZFjIZoZA,\"start\",\"end\"": {
-                "s": {
-                  "x": "zI1NxyvmFXpYSZZFjIZoZA",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-80dd-97ef-f0bc3e92de08": {
-      "value": {
-        "id": "1c53b07c-81ff-80dd-97ef-f0bc3e92de08",
-        "version": 27,
-        "type": "sub_sub_header",
+        "id": "1c53b07c-81ff-80ee-8adb-f5d4242f933f",
+        "version": 6,
+        "type": "text",
         "properties": {
           "title": [
             [
-              "諜報員"
+              "「ええっ、これが四万年前のあなたなの！？」\n「四万年前、少女を救うためにひとり突撃していった流浪の剣士——」"
             ]
           ]
         },
-        "created_time": 1743228034443,
-        "last_edited_time": 1743228036699,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+        "created_time": 1743226100294,
+        "last_edited_time": 1743226100299,
+        "parent_id": "1c53b07c-81ff-8060-8515-caf706d82ca6",
         "parent_table": "block",
         "alive": true,
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "1OTTGPDCnJyJBo8DQIY5Pg,\"start\",\"end\"",
+            "r": "39tfXef0s2ilJQ8pa0iNIQ,\"start\",\"end\"",
             "n": {
-              "1OTTGPDCnJyJBo8DQIY5Pg,\"start\",\"end\"": {
+              "39tfXef0s2ilJQ8pa0iNIQ,\"start\",\"end\"": {
                 "s": {
-                  "x": "1OTTGPDCnJyJBo8DQIY5Pg",
+                  "x": "39tfXef0s2ilJQ8pa0iNIQ",
                   "i": [
                     {
                       "t": "s"
@@ -3329,12 +3170,12 @@
                     {
                       "t": "t",
                       "i": [
-                        "U54tAE40Ib03",
+                        "gz-EjcVdgjPR",
                         1
                       ],
                       "o": "start",
-                      "l": 3,
-                      "c": "諜報員"
+                      "l": 54,
+                      "c": "「ええっ、これが四万年前のあなたなの！？」\n「四万年前、少女を救うためにひとり突撃していった流浪の剣士——」"
                     },
                     {
                       "t": "e"
@@ -3350,81 +3191,18 @@
       },
       "role": "reader"
     },
-    "1c53b07c-81ff-8060-8515-caf706d82ca6": {
+    "1c53b07c-81ff-800a-bb5c-c3f39d69493d": {
       "value": {
-        "id": "1c53b07c-81ff-8060-8515-caf706d82ca6",
-        "version": 53,
-        "type": "quote",
+        "id": "1c53b07c-81ff-800a-bb5c-c3f39d69493d",
+        "version": 14,
+        "type": "text",
         "properties": {
           "title": [
             [
-              "慕寒音：はい、これ見て。私が昨日おすすめって言ってた占いサイト——"
-            ]
-          ]
-        },
-        "content": [
-          "1c53b07c-81ff-8032-a0f2-f1176d1d10d7",
-          "1c53b07c-81ff-80a1-aa57-fd249d8323bd",
-          "1c53b07c-81ff-80ee-8adb-f5d4242f933f",
-          "1c53b07c-81ff-800a-bb5c-c3f39d69493d"
-        ],
-        "format": {
-          "block_color": "gray_background"
-        },
-        "created_time": 1743226049612,
-        "last_edited_time": 1743227510853,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "CjmX44g0xJZKXvrHNDfkiQ,\"start\",\"end\"",
-            "n": {
-              "CjmX44g0xJZKXvrHNDfkiQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "CjmX44g0xJZKXvrHNDfkiQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "j2B5ExMiUOnd",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 33,
-                      "c": "慕寒音：はい、これ見て。私が昨日おすすめって言ってた占いサイト——"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-802d-a57a-dbc3d87f354c": {
-      "value": {
-        "id": "1c53b07c-81ff-802d-a57a-dbc3d87f354c",
-        "version": 28,
-        "type": "quote",
-        "properties": {
-          "title": [
-            [
-              "……ああ、この前のあれね？彼とはもうおしまいにしたの——あの人、いかにもできそうなふりをしてたけど、こっそり調べてみたら家は賃貸で、車もレンタルだったんだもの。\nどう、あなたの相棒なんだから私もなかなかやるでしょう。こういう"
+              "慕寒音：あらあら、"
             ],
             [
-              "スパイ",
+              "流浪の剣士",
               [
                 [
                   "b"
@@ -3432,27 +3210,35 @@
               ]
             ],
             [
-              "活動の能力とかさ〜。"
+              "だって！一夏さんはやっぱりいつの時代も英雄なのね！でもなんで救う相手は少女なのかしら。かっこいいお兄さんとかだったらもっとよかったのにね……。\n実は私の結果もかなり変でね……それによると私は四万年前、諜報員だったらしいわ……あ〜あ、"
+            ],
+            [
+              "諜報員",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "かあ。一夏さんの相棒になるにはちょっと物足りないかなぁ……。"
             ]
           ]
         },
-        "format": {
-          "block_color": "gray_background"
-        },
-        "created_time": 1743226534967,
-        "last_edited_time": 1743227509085,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+        "created_time": 1743226124233,
+        "last_edited_time": 1743227445598,
+        "parent_id": "1c53b07c-81ff-8060-8515-caf706d82ca6",
         "parent_table": "block",
         "alive": true,
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "7FqWozT7fxFFCuq6M6uTEQ,\"start\",\"end\"",
+            "r": "fWnoE43bOc4IUUenG4TPFw,\"start\",\"end\"",
             "n": {
-              "7FqWozT7fxFFCuq6M6uTEQ,\"start\",\"end\"": {
+              "fWnoE43bOc4IUUenG4TPFw,\"start\",\"end\"": {
                 "s": {
-                  "x": "7FqWozT7fxFFCuq6M6uTEQ",
+                  "x": "fWnoE43bOc4IUUenG4TPFw",
                   "i": [
                     {
                       "t": "s"
@@ -3460,45 +3246,45 @@
                     {
                       "t": "t",
                       "i": [
-                        "QZGszDpHUGBq",
+                        "N0Pis1f3GnBq",
                         1
                       ],
                       "o": "start",
-                      "l": 112,
-                      "c": "……ああ、この前のあれね？彼とはもうおしまいにしたの——あの人、いかにもできそうなふりをしてたけど、こっそり調べてみたら家は賃貸で、車もレンタルだったんだもの。\nどう、あなたの相棒なんだから私もなかなかやるでしょう。こういう"
+                      "l": 9,
+                      "c": "慕寒音：あらあら、"
                     },
                     {
                       "t": "t",
                       "i": [
-                        "QZGszDpHUGBq",
-                        113
+                        "N0Pis1f3GnBq",
+                        10
                       ],
                       "o": [
-                        "QZGszDpHUGBq",
-                        112
+                        "N0Pis1f3GnBq",
+                        9
                       ],
-                      "l": 3,
-                      "c": "スパイ",
+                      "l": 5,
+                      "c": "流浪の剣士",
                       "b": [
                         {
                           "t": "a",
-                          "x": "7FqWozT7fxFFCuq6M6uTEQ",
+                          "x": "fWnoE43bOc4IUUenG4TPFw",
                           "l": "",
                           "i": [
-                            "QZGszDpHUGBq",
-                            126
+                            "N0Pis1f3GnBq",
+                            164
                           ],
                           "s": {
                             "i": [
-                              "QZGszDpHUGBq",
-                              113
+                              "N0Pis1f3GnBq",
+                              10
                             ],
                             "a": "b"
                           },
                           "e": {
                             "i": [
-                              "QZGszDpHUGBq",
-                              116
+                              "N0Pis1f3GnBq",
+                              15
                             ],
                             "a": "b"
                           },
@@ -3511,127 +3297,71 @@
                     {
                       "t": "t",
                       "i": [
-                        "QZGszDpHUGBq",
-                        116
+                        "N0Pis1f3GnBq",
+                        15
                       ],
                       "o": [
-                        "QZGszDpHUGBq",
-                        115
+                        "N0Pis1f3GnBq",
+                        14
                       ],
-                      "l": 10,
-                      "c": "活動の能力とかさ〜。",
+                      "l": 116,
+                      "c": "だって！一夏さんはやっぱりいつの時代も英雄なのね！でもなんで救う相手は少女なのかしら。かっこいいお兄さんとかだったらもっとよかったのにね……。\n実は私の結果もかなり変でね……それによると私は四万年前、諜報員だったらしいわ……あ〜あ、",
                       "b": []
                     },
                     {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-8095-8ea4-f920829dbf2b": {
-      "value": {
-        "id": "1c53b07c-81ff-8095-8ea4-f920829dbf2b",
-        "version": 18,
-        "type": "quote",
-        "properties": {
-          "title": [
-            [
-              "もちろん知ってるわよ……受付って色々と情報が集まってくるからさ。"
-            ]
-          ]
-        },
-        "format": {
-          "block_color": "gray_background"
-        },
-        "created_time": 1743226561684,
-        "last_edited_time": 1755718849540,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "_8VO2qjDW7WMnAC983z3ZA,\"start\",\"end\"",
-            "n": {
-              "_8VO2qjDW7WMnAC983z3ZA,\"start\",\"end\"": {
-                "s": {
-                  "x": "_8VO2qjDW7WMnAC983z3ZA",
-                  "i": [
-                    {
-                      "t": "s"
+                      "t": "t",
+                      "i": [
+                        "N0Pis1f3GnBq",
+                        131
+                      ],
+                      "o": [
+                        "N0Pis1f3GnBq",
+                        130
+                      ],
+                      "l": 3,
+                      "c": "諜報員",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "fWnoE43bOc4IUUenG4TPFw",
+                          "l": "",
+                          "i": [
+                            "N0Pis1f3GnBq",
+                            165
+                          ],
+                          "s": {
+                            "i": [
+                              "N0Pis1f3GnBq",
+                              131
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "N0Pis1f3GnBq",
+                              134
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
                     },
                     {
                       "t": "t",
                       "i": [
-                        "GXI5Pil_OCB7",
-                        1
+                        "N0Pis1f3GnBq",
+                        134
                       ],
-                      "o": "start",
-                      "l": 32,
-                      "c": "もちろん知ってるわよ……受付って色々と情報が集まってくるからさ。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-8047-8a99-db7ee55b4147": {
-      "value": {
-        "id": "1c53b07c-81ff-8047-8a99-db7ee55b4147",
-        "version": 233,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "慕寒音が諜報員だったことの伏線や、昔征きし時への伏線。"
-            ]
-          ]
-        },
-        "created_time": 1743227456179,
-        "last_edited_time": 1743227488568,
-        "parent_id": "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "IeTxBY78_KOQLHN8854N4A,\"start\",\"end\"",
-            "n": {
-              "IeTxBY78_KOQLHN8854N4A,\"start\",\"end\"": {
-                "s": {
-                  "x": "IeTxBY78_KOQLHN8854N4A",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "_lIs6RTqV9GF",
-                        1
+                      "o": [
+                        "N0Pis1f3GnBq",
+                        133
                       ],
-                      "o": "start",
-                      "l": 27,
-                      "c": "慕寒音が諜報員だったことの伏線や、昔征きし時への伏線。"
+                      "l": 30,
+                      "c": "かあ。一夏さんの相棒になるにはちょっと物足りないかなぁ……。",
+                      "b": []
                     },
                     {
                       "t": "e"
@@ -4203,354 +3933,6 @@
       },
       "role": "reader"
     },
-    "1c53b07c-81ff-8032-a0f2-f1176d1d10d7": {
-      "value": {
-        "id": "1c53b07c-81ff-8032-a0f2-f1176d1d10d7",
-        "version": 10,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "鉄師一夏：…… 「四万年前の自分が誰だったのか占い」？"
-            ]
-          ]
-        },
-        "created_time": 1743226051732,
-        "last_edited_time": 1743226066063,
-        "parent_id": "1c53b07c-81ff-8060-8515-caf706d82ca6",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "TzvDJqWJhG3UDCzVv0kkKQ,\"start\",\"end\"",
-            "n": {
-              "TzvDJqWJhG3UDCzVv0kkKQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "TzvDJqWJhG3UDCzVv0kkKQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "OmwykH2mz5_q",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 27,
-                      "c": "鉄師一夏：…… 「四万年前の自分が誰だったのか占い」？"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-80a1-aa57-fd249d8323bd": {
-      "value": {
-        "id": "1c53b07c-81ff-80a1-aa57-fd249d8323bd",
-        "version": 14,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "慕寒音：説明によると聖痕の技術や崩壊エネルギー、気功、それに磁場まで活用してて、すごく当たるらしいのよ！"
-            ]
-          ]
-        },
-        "created_time": 1743226051732,
-        "last_edited_time": 1743226098501,
-        "parent_id": "1c53b07c-81ff-8060-8515-caf706d82ca6",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "c6DiPAi59howU1k8qGlPiA,\"start\",\"end\"",
-            "n": {
-              "c6DiPAi59howU1k8qGlPiA,\"start\",\"end\"": {
-                "s": {
-                  "x": "c6DiPAi59howU1k8qGlPiA",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "FioLTMgBGvLF",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 52,
-                      "c": "慕寒音：説明によると聖痕の技術や崩壊エネルギー、気功、それに磁場まで活用してて、すごく当たるらしいのよ！"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-80ee-8adb-f5d4242f933f": {
-      "value": {
-        "id": "1c53b07c-81ff-80ee-8adb-f5d4242f933f",
-        "version": 6,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "「ええっ、これが四万年前のあなたなの！？」\n「四万年前、少女を救うためにひとり突撃していった流浪の剣士——」"
-            ]
-          ]
-        },
-        "created_time": 1743226100294,
-        "last_edited_time": 1743226100299,
-        "parent_id": "1c53b07c-81ff-8060-8515-caf706d82ca6",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "39tfXef0s2ilJQ8pa0iNIQ,\"start\",\"end\"",
-            "n": {
-              "39tfXef0s2ilJQ8pa0iNIQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "39tfXef0s2ilJQ8pa0iNIQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gz-EjcVdgjPR",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 54,
-                      "c": "「ええっ、これが四万年前のあなたなの！？」\n「四万年前、少女を救うためにひとり突撃していった流浪の剣士——」"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1c53b07c-81ff-800a-bb5c-c3f39d69493d": {
-      "value": {
-        "id": "1c53b07c-81ff-800a-bb5c-c3f39d69493d",
-        "version": 14,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "慕寒音：あらあら、"
-            ],
-            [
-              "流浪の剣士",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "だって！一夏さんはやっぱりいつの時代も英雄なのね！でもなんで救う相手は少女なのかしら。かっこいいお兄さんとかだったらもっとよかったのにね……。\n実は私の結果もかなり変でね……それによると私は四万年前、諜報員だったらしいわ……あ〜あ、"
-            ],
-            [
-              "諜報員",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "かあ。一夏さんの相棒になるにはちょっと物足りないかなぁ……。"
-            ]
-          ]
-        },
-        "created_time": 1743226124233,
-        "last_edited_time": 1743227445598,
-        "parent_id": "1c53b07c-81ff-8060-8515-caf706d82ca6",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "fWnoE43bOc4IUUenG4TPFw,\"start\",\"end\"",
-            "n": {
-              "fWnoE43bOc4IUUenG4TPFw,\"start\",\"end\"": {
-                "s": {
-                  "x": "fWnoE43bOc4IUUenG4TPFw",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "N0Pis1f3GnBq",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 9,
-                      "c": "慕寒音：あらあら、"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "N0Pis1f3GnBq",
-                        10
-                      ],
-                      "o": [
-                        "N0Pis1f3GnBq",
-                        9
-                      ],
-                      "l": 5,
-                      "c": "流浪の剣士",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "fWnoE43bOc4IUUenG4TPFw",
-                          "l": "",
-                          "i": [
-                            "N0Pis1f3GnBq",
-                            164
-                          ],
-                          "s": {
-                            "i": [
-                              "N0Pis1f3GnBq",
-                              10
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "N0Pis1f3GnBq",
-                              15
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "N0Pis1f3GnBq",
-                        15
-                      ],
-                      "o": [
-                        "N0Pis1f3GnBq",
-                        14
-                      ],
-                      "l": 116,
-                      "c": "だって！一夏さんはやっぱりいつの時代も英雄なのね！でもなんで救う相手は少女なのかしら。かっこいいお兄さんとかだったらもっとよかったのにね……。\n実は私の結果もかなり変でね……それによると私は四万年前、諜報員だったらしいわ……あ〜あ、",
-                      "b": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "N0Pis1f3GnBq",
-                        131
-                      ],
-                      "o": [
-                        "N0Pis1f3GnBq",
-                        130
-                      ],
-                      "l": 3,
-                      "c": "諜報員",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "fWnoE43bOc4IUUenG4TPFw",
-                          "l": "",
-                          "i": [
-                            "N0Pis1f3GnBq",
-                            165
-                          ],
-                          "s": {
-                            "i": [
-                              "N0Pis1f3GnBq",
-                              131
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "N0Pis1f3GnBq",
-                              134
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "N0Pis1f3GnBq",
-                        134
-                      ],
-                      "o": [
-                        "N0Pis1f3GnBq",
-                        133
-                      ],
-                      "l": 30,
-                      "c": "かあ。一夏さんの相棒になるにはちょっと物足りないかなぁ……。",
-                      "b": []
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
     "2553b07c-81ff-8013-85c2-ccf811153df3": {
       "value": {
         "id": "2553b07c-81ff-8013-85c2-ccf811153df3",
@@ -4917,7 +4299,7 @@
     "1ad3b07c-81ff-80f8-93e5-000baa1c67d4": {
       "value": {
         "id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
-        "version": 30,
+        "version": 32,
         "name": [
           [
             "考察"
@@ -4943,6 +4325,46 @@
             "table": "layout",
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
+          "metadata_copied_from": {
+            "id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "`xvK",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": "F;c`",
+                  "color": "pink",
+                  "value": "中"
+                },
+                {
+                  "id": "\\iK_",
+                  "color": "red",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "締切日",
+              "type": "date"
+            }
+          ],
           "page_section_visibility": {
             "comments": "section_hide",
             "backlinks": "section_collapsed",
@@ -4963,7 +4385,13 @@
         "parent_table": "block",
         "alive": true,
         "migrated": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1741139703841,
+        "last_edited_time": 1764148211020,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
       "role": "reader"
     },
@@ -5342,6 +4770,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "1b83b07c-81ff-8055-840c-c6c2fc35ca5a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/debb00d8-78e9-4e53-9eaa-26a55cce6b14/スクリーンショット_2025-03-17_061318.png?table=block&id=1b83b07c-81ff-8055-840c-c6c2fc35ca5a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=4casPIaSW9r_G8hWzFuSMq6lYYcZ06Op4VVoqjLXOkc"
+    "1b83b07c-81ff-8055-840c-c6c2fc35ca5a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/debb00d8-78e9-4e53-9eaa-26a55cce6b14/スクリーンショット_2025-03-17_061318.png?table=block&id=1b83b07c-81ff-8055-840c-c6c2fc35ca5a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764468000000&signature=UDWqmQbSfA_QC9IYPro-2QxpXYhgkC-GGIF_-nXKnxI"
   }
 }
