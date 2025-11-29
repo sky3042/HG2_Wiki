@@ -25,6 +25,11 @@ export default siteConfig({
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
+  // ▼▼▼ ここに追加してください ▼▼▼
+  // Google Analytics の測定ID
+  googleAnalytics: 'G-9S2S1MR0SR', 
+  // ▲▲▲ (※ 'G-XXXXXXXXXX' の部分を、手順1で取得したあなたのIDに書き換えてください)
+  
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,

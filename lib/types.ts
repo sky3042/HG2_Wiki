@@ -44,7 +44,10 @@ export interface Site {
   image?: string
 
   // social accounts
-  twitter?: string  // ★これを追加しました
+  twitter?: string
+
+  // analytics
+  googleAnalytics?: string // ★これを追加しました
 }
 
 export interface SiteMap {

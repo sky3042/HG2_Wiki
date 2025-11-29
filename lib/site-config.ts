@@ -33,6 +33,10 @@ export interface SiteConfig {
 
   navigationStyle?: types.NavigationStyle
   navigationLinks?: Array<NavigationLink>
+
+  // ▼▼▼ ここに追加しました ▼▼▼
+  googleAnalytics?: string
+  // ▲▲▲
 }
 
 export interface NavigationLink {
