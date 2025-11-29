@@ -21,8 +21,33 @@ export const PageHead = ({
 }) => {
   const rss = rssFeedUrl || `${config.host}/feed`
   
-  // SEO用タイトル（中黒をハイフンに置換）
-  const seoTitle = title ? title.replace(/・/g, '-') : site?.name
+  // SEO用タイトル
+  // ★修正点：replaceを削除し、中点（・）のまま表示するように戻しました
+  const seoTitle = title || site?.name
+  
+  // 現在のページのURL（canonical URL）
+  const canonicalUrl = url || config.host
+
+  // ▼▼▼ 追加：構造化データ (JSON-LD) ▼▼▼
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      {
+        '@type': 'ListItem',
+        'position': 1,
+        'name': site?.name || 'Home',
+        'item': config.host
+      },
+      {
+        '@type': 'ListItem',
+        'position': 2,
+        'name': title || 'Page',
+        'item': canonicalUrl
+      }
+    ]
+  }
+  // ▲▲▲ ここまで ▲▲▲
 
   return (
     <Head>
@@ -54,7 +79,6 @@ export const PageHead = ({
       <meta name='twitter:description' content={description} />
       <meta name='twitter:image' content={image} />
       
-      {/* ▼▼▼ 修正: site?.twitter を使用 ▼▼▼ */}
       {site?.twitter && (
         <meta name='twitter:site' content={`@${site.twitter}`} />
       )}
@@ -64,13 +88,18 @@ export const PageHead = ({
 
       <link rel='alternate' type='application/rss+xml' href={rss} title={site?.name} />
 
-      {/* ▼▼▼ 修正: site?.fontFamily を使用 ▼▼▼ */}
       {site?.fontFamily && (
         <link
           rel='stylesheet'
           href={`https://fonts.googleapis.com/css?family=${site.fontFamily}`}
         />
       )}
+
+      {/* ▼▼▼ 追加：JSON-LDを埋め込む ▼▼▼ */}
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </Head>
   )
 }

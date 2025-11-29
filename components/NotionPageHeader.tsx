@@ -95,8 +95,8 @@ export function NotionPageHeader({
               // ▼▼▼ スマホ用の短縮ラベル ▼▼▼
               let label = link.title
               if (isMobile) {
-                if (link.title === '図鑑データ') label = '📊図鑑'
-                if (link.title === '祈り計算機') label = '🎰祈り'
+                if (link.title === '図鑑データ') label = '図鑑'
+                if (link.title === '祈り計算機') label = '祈り'
               }
               // ▲▲▲
 
