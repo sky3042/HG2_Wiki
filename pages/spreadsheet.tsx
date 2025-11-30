@@ -11,27 +11,26 @@ import { useMedia, useClickAway } from 'react-use'
 type SheetData = Record<string, any[][]>;
 
 const ITEMS_PER_PAGE = 100;
-const MAX_COLUMN_WIDTH = 200; // ★ここを200pxに戻しました
+const MAX_COLUMN_WIDTH = 200;
 const MAX_SELECT_ITEMS = 30;
 const EMPTY_KEY = '$$EMPTY$$';
 
-// --- Helper Functions ---
+// 文字列の表示幅を概算
 const getTextDisplayLength = (text: string) => {
   let len = 0;
   const str = String(text ?? '');
   for (let i = 0; i < str.length; i++) {
     const code = str.charCodeAt(i);
     if ( (code >= 0x3000 && code <= 0xffff) || (code >= 0xff00 && code <= 0xff60) ) {
-      len += 2;
+      len += 2; // 全角
     } else {
-      len += 1;
+      len += 1; // 半角
     }
   }
   return len;
 };
 
-// --- Components ---
-
+// セルコンポーネント
 const DataCell = ({ content, width }: { content: any, width: number }) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
   
@@ -40,15 +39,24 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
   const hasMultiLines = lines.length > 1;
   const firstLine = lines[0] || '';
 
+  // パディングを詰める (8px 10px -> 8px 4px)
+  const cellStyle: React.CSSProperties = {
+    padding: '8px 4px',
+    minWidth: `${width}px`,
+    maxWidth: `${MAX_COLUMN_WIDTH}px`,
+    cursor: hasMultiLines ? 'pointer' : 'default',
+    position: 'relative',
+    backgroundColor: isExpanded ? '#fff9e6' : 'transparent',
+    transition: 'background-color 0.2s'
+  };
+
   if (!hasMultiLines) {
     return (
       <div style={{
-        padding: '8px 10px',
+        ...cellStyle,
         whiteSpace: 'pre-wrap',
         wordBreak: 'break-word',
         lineHeight: '1.4',
-        width: `${width}px`,
-        maxWidth: `${MAX_COLUMN_WIDTH}px`
       }}>
         {str}
       </div>
@@ -59,15 +67,7 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
     <div 
       onClick={() => setIsExpanded(!isExpanded)}
       title="クリックして展開/折りたたみ"
-      style={{
-        padding: '8px 10px',
-        width: `${width}px`,
-        maxWidth: `${MAX_COLUMN_WIDTH}px`,
-        cursor: 'pointer',
-        position: 'relative',
-        backgroundColor: isExpanded ? '#fff9e6' : 'transparent',
-        transition: 'background-color 0.2s'
-      }}
+      style={cellStyle}
     >
       {isExpanded ? (
         <div style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word', lineHeight: '1.4' }}>
@@ -84,7 +84,7 @@ const DataCell = ({ content, width }: { content: any, width: number }) => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          gap: '8px'
+          gap: '4px' // 隙間も詰める
         }}>
           <span style={{ overflow: 'hidden', textOverflow: 'ellipsis' }}>
             {firstLine}
@@ -153,7 +153,7 @@ const FilterMultiSelect = ({ options, value, onChange }: { options: string[], va
         onClick={toggleOpen}
         style={{
           width: '100%',
-          padding: '6px',
+          padding: '6px 4px', // パディング調整
           fontSize: '12px',
           border: '1px solid #ddd',
           borderRadius: '4px',
@@ -168,7 +168,7 @@ const FilterMultiSelect = ({ options, value, onChange }: { options: string[], va
         }}
       >
         <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-          {isAllSelected ? 'すべて (選択)' : `${selectedSet.size}件 選択中`}
+          {isAllSelected ? 'すべて' : `${selectedSet.size}件`}
         </span>
         <span style={{ fontSize: '10px' }}>▼</span>
       </div>
@@ -253,11 +253,12 @@ const SpreadsheetHeaderContent = () => {
             }}
           >
             <div style={{ 
-              padding: '8px 10px',
+              // ★修正: パディングを減らしてタイトにする
+              padding: '8px 4px',
               display: 'flex', 
               alignItems: 'center', 
               justifyContent: 'space-between', 
-              gap: '5px',
+              gap: '4px',
               width: `${columnWidths[i]}px`,
               maxWidth: `${MAX_COLUMN_WIDTH}px`,
               whiteSpace: 'pre-wrap',
@@ -341,10 +342,10 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
   const header = rawData[0] || [];
   const bodyRows = rawData.slice(1);
 
-  // 列幅計算（タイトに修正）
+  // ★列幅の計算ロジック（再修正：初期値0、余白削減）★
   const columnWidths = React.useMemo(() => {
-    // 初期幅 50px
-    const widths: number[] = new Array(header.length).fill(50);
+    // 初期値を0にする（余分な幅を持たせない）
+    const widths: number[] = new Array(header.length).fill(0);
 
     [header, ...bodyRows].forEach(row => {
       row.forEach((cell, colIndex) => {
@@ -361,10 +362,10 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
             }
         }
         
-        // 係数を 10px にし、余白を 40px に削減
-        const estimatedWidth = (getTextDisplayLength(firstLine) * 10) + 40;
+        // ★修正: 係数を8、余白を24まで削る
+        const estimatedWidth = (getTextDisplayLength(firstLine) * 8) + 24;
 
-        const currentWidth = widths[colIndex] || 50;
+        const currentWidth = widths[colIndex] || 0;
         if (estimatedWidth > currentWidth) {
           widths[colIndex] = Math.min(estimatedWidth, MAX_COLUMN_WIDTH);
         }
@@ -388,15 +389,10 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
           values.add(String(cell));
         }
       });
-      // 並べ替え (EMPTY_KEYは先頭へ)
       map[colIndex] = Array.from(values).sort((a, b) => {
         if (a === EMPTY_KEY) return -1;
         if (b === EMPTY_KEY) return 1;
-        // 出現順に戻すならここでのソートを消すが、
-        // 使い勝手のためには辞書順が見やすいので一旦維持します。
-        // 「データに出てきた順」が絶対条件なら、ここでのsortを削除してください。
-        // 今回は前回の要望（データ順）を尊重してソートを削除します。
-        return 0; 
+        return a.localeCompare(b, 'ja');
       });
     });
     return map;
@@ -424,12 +420,10 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
         const cellValue = (rawCellValue.trim() === '') ? EMPTY_KEY : rawCellValue;
         
         if (Array.isArray(filterValue)) {
-          // 複数選択
           if (!filterValue.includes(cellValue)) {
             return false;
           }
         } else {
-          // テキスト入力
           if (!rawCellValue.toLowerCase().includes(filterValue.toLowerCase())) {
             return false;
           }
