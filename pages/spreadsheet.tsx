@@ -362,8 +362,8 @@ export default function SpreadsheetPage({ sheets }: { sheets: SheetData }) {
             }
         }
         
-        // ★修正: 係数を8、余白を24まで削る
-        const estimatedWidth = (getTextDisplayLength(firstLine) * 8) + 24;
+        // ★修正: 係数を8、余白を26まで削る
+        const estimatedWidth = (getTextDisplayLength(firstLine) * 8) + 26;
 
         const currentWidth = widths[colIndex] || 0;
         if (estimatedWidth > currentWidth) {
