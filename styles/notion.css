@@ -456,3 +456,54 @@
 .notion-collection-page-properties {
   display: none !important;
 }
+/* ==========================================================================
+   ギャラリービューの強制グリッド化 & 列数制御
+   ========================================================================== */
+
+/* 1. 幅制限の解除
+  ギャラリーを含むページは、親要素の制限を無視して画面いっぱいに広げます。
+  (フルページデータベースが2列になってしまう問題を解消)
+*/
+.notion-page:has(.notion-gallery-grid) {
+  width: 100% !important;
+  max-width: 1400px !important; /* 読みやすい最大幅を設定（お好みで100%でも可） */
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin: 0 auto !important;
+}
+
+/* 2. ギャラリーのグリッド設定 
+*/
+.notion-gallery-grid {
+  display: grid !important;
+  gap: 24px !important;
+  border-top: none !important;
+  padding-top: 0 !important;
+  width: 100% !important;
+  
+  /* スマホ・タブレット: 自動調整 (最低260px確保) */
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
+}
+
+/* 3. PCでの列数固定
+  画面幅が広い時（1024px以上）は、強制的に「4列」にします。
+  (インラインが5列になってしまう問題を解消)
+*/
+@media (min-width: 1024px) {
+  .notion-gallery-grid {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+
+/* カード自体のスタイル調整 */
+.notion-gallery-grid .notion-page-link {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  height: 100% !important;
+}
+
+/* プロパティエリアの修正 */
+.notion-collection-page-properties {
+  max-width: 100% !important;
+}
