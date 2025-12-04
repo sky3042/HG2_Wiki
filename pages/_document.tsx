@@ -1,5 +1,6 @@
-import { IconContext } from '@react-icons/all-files'
+import * as React from 'react'
 import Document, { Head, Html, Main, NextScript } from 'next/document'
+import { IconContext } from '@react-icons/all-files'
 
 export default class MyDocument extends Document {
   override render() {
@@ -7,17 +8,18 @@ export default class MyDocument extends Document {
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <Html lang='ja'>
           <Head>
-            {/* 基本のファビコン */}
+            <meta charSet='utf-8' />
+            
+            {/* 1. 基本のファビコン (ブラウザタブ用) */}
             <link rel='shortcut icon' href='/favicon.ico' />
             
-            {/* ▼▼▼ 追加・修正部分 ▼▼▼ */}
-            {/* Google推奨: 48pxの倍数である 192px を指定すると確実です */}
+            {/* 2. Google検索結果用 (重要: 192x192のPNGを指定) */}
             <link rel='icon' type='image/png' sizes='192x192' href='/favicon-192x192.png' />
             
-            {/* スマホ用アイコン（iPhoneなど） */}
+            {/* 3. iPhone/iPad用 */}
             <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
-            {/* ▲▲▲ ここまで ▲▲▲ */}
 
+            {/* 4. Android/PWA用マニフェスト */}
             <link rel='manifest' href='/manifest.json' />
           </Head>
 
@@ -45,16 +47,12 @@ export default class MyDocument extends Document {
   if (localStorageExists) {
     localStorageTheme = JSON.parse(localStorageTheme)
   }
-  // Determine the source of truth
   if (localStorageExists) {
-    // source of truth from localStorage
     setClassOnDocumentBody(localStorageTheme)
   } else if (supportsColorSchemeQuery) {
-    // source of truth from system
     setClassOnDocumentBody(mql.matches)
     localStorage.setItem(storageKey, mql.matches)
   } else {
-    // source of truth from document.body
     var isDarkMode = document.body.classList.contains(classNameDark)
     localStorage.setItem(storageKey, JSON.stringify(isDarkMode))
   }
@@ -63,7 +61,6 @@ export default class MyDocument extends Document {
               }}
             />
             <Main />
-
             <NextScript />
           </body>
         </Html>
