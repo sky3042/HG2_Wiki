@@ -3,7 +3,7 @@
     "1ca3b07c-81ff-805b-ac89-cfc3f70c9828": {
       "value": {
         "id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
-        "version": 54,
+        "version": 55,
         "type": "collection_view_page",
         "view_ids": [
           "1ca3b07c-81ff-8093-aca5-000c02c824d8"
@@ -24,7 +24,7 @@
           ]
         },
         "created_time": 1743690486831,
-        "last_edited_time": 1764306901483,
+        "last_edited_time": 1764910422856,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -4462,6 +4462,103 @@
                   "i": [
                     {
                       "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2c03b07c-81ff-8000-bd60-de0f418d432e": {
+      "value": {
+        "id": "2c03b07c-81ff-8000-bd60-de0f418d432e",
+        "version": 33,
+        "type": "page",
+        "properties": {
+          ";yc\\": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "type": "date",
+                    "start_date": "2025-12-05",
+                    "date_format": "relative"
+                  }
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ],
+          "^UL:": [
+            [
+              "なし"
+            ]
+          ],
+          "c:Yb": [
+            [
+              "Yes"
+            ]
+          ],
+          "title": [
+            [
+              "烈炎執行官"
+            ]
+          ]
+        },
+        "content": [
+          "2c03b07c-81ff-8042-ba1c-fec759b89ac2",
+          "2c03b07c-81ff-80c3-a786-caa929c0dbed",
+          "2c03b07c-81ff-80ae-97d2-ef811cfd7e1d"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:1bc10fb6-5d35-432f-a1d7-7442cb6cb09d:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1764910422826,
+        "last_edited_time": 1764910571155,
+        "parent_id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "1bc10fb6-5d35-432f-a1d7-7442cb6cb09d"
+        ],
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "EOpPdI5WLPQgCsWryGe9Bw,\"start\",\"end\"",
+            "n": {
+              "EOpPdI5WLPQgCsWryGe9Bw,\"start\",\"end\"": {
+                "s": {
+                  "x": "EOpPdI5WLPQgCsWryGe9Bw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "NhLZyzQvltKS",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "烈炎執行官"
                     },
                     {
                       "t": "e"
@@ -15647,13 +15744,208 @@
         }
       },
       "role": "reader"
+    },
+    "2c03b07c-81ff-8042-ba1c-fec759b89ac2": {
+      "value": {
+        "id": "2c03b07c-81ff-8042-ba1c-fec759b89ac2",
+        "version": 16,
+        "type": "image",
+        "properties": {
+          "size": [
+            [
+              "146.3 KiB"
+            ]
+          ],
+          "title": [
+            [
+              "2025-12-05 13-55-43.png"
+            ]
+          ],
+          "source": [
+            [
+              "attachment:b55501ef-8c43-4a6f-b26f-1aceb73ab583:2025-12-05_13-55-43.png"
+            ]
+          ]
+        },
+        "format": {
+          "block_width": 709.9759521484375,
+          "display_source": "attachment:b55501ef-8c43-4a6f-b26f-1aceb73ab583:2025-12-05_13-55-43.png",
+          "block_full_width": false,
+          "block_page_width": true,
+          "block_aspect_ratio": 0.6488888888888888,
+          "block_preserve_scale": true
+        },
+        "created_time": 1764910559723,
+        "last_edited_time": 1764910564737,
+        "parent_id": "2c03b07c-81ff-8000-bd60-de0f418d432e",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "b55501ef-8c43-4a6f-b26f-1aceb73ab583"
+        ],
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "8zvr2cV3kRix-vVRZ9lNpQ,\"start\",\"end\"",
+            "n": {
+              "8zvr2cV3kRix-vVRZ9lNpQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "8zvr2cV3kRix-vVRZ9lNpQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "NhLZyzQvltKS",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 23,
+                      "c": "2025-12-05 13-55-43.png"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2c03b07c-81ff-80c3-a786-caa929c0dbed": {
+      "value": {
+        "id": "2c03b07c-81ff-80c3-a786-caa929c0dbed",
+        "version": 5,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "我が心は秤のごとく"
+            ]
+          ]
+        },
+        "created_time": 1764910497839,
+        "last_edited_time": 1764910500150,
+        "parent_id": "2c03b07c-81ff-8000-bd60-de0f418d432e",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "nD-horpYkY_PN-uVBL6sVQ,\"start\",\"end\"",
+            "n": {
+              "nD-horpYkY_PN-uVBL6sVQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "nD-horpYkY_PN-uVBL6sVQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "NhLZyzQvltKS",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 9,
+                      "c": "我が心は秤のごとく"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2c03b07c-81ff-80ae-97d2-ef811cfd7e1d": {
+      "value": {
+        "id": "2c03b07c-81ff-80ae-97d2-ef811cfd7e1d",
+        "version": 5,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "真理の炎"
+            ]
+          ]
+        },
+        "created_time": 1764910497178,
+        "last_edited_time": 1764910498214,
+        "parent_id": "2c03b07c-81ff-8000-bd60-de0f418d432e",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "iC7HdZWWLtNTgSZaqksnmA,\"start\",\"end\"",
+            "n": {
+              "iC7HdZWWLtNTgSZaqksnmA,\"start\",\"end\"": {
+                "s": {
+                  "x": "iC7HdZWWLtNTgSZaqksnmA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "NhLZyzQvltKS",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "真理の炎"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
     }
   },
   "collection_view": {
     "1ca3b07c-81ff-8093-aca5-000c02c824d8": {
       "value": {
         "id": "1ca3b07c-81ff-8093-aca5-000c02c824d8",
-        "version": 152,
+        "version": 154,
         "type": "gallery",
         "format": {
           "table_wrap": true,
@@ -15733,11 +16025,12 @@
           "2b23b07c-81ff-80c9-a4ee-d0ef44a6c7b1",
           "2b23b07c-81ff-8091-81d2-c9358abc522b",
           "2b93b07c-81ff-8040-82eb-c1a4675b7b06",
-          "2b93b07c-81ff-8063-8e60-f0dae3bafd05"
+          "2b93b07c-81ff-8063-8e60-f0dae3bafd05",
+          "2c03b07c-81ff-8000-bd60-de0f418d432e"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "created_time": 1756373099431,
-        "last_edited_time": 1764306945987,
+        "last_edited_time": 1764910422856,
         "created_by_table": "notion_user",
         "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
@@ -16253,7 +16546,8 @@
             "2b23b07c-81ff-80c9-a4ee-d0ef44a6c7b1",
             "2b23b07c-81ff-8091-81d2-c9358abc522b",
             "2b93b07c-81ff-8040-82eb-c1a4675b7b06",
-            "2b93b07c-81ff-8063-8e60-f0dae3bafd05"
+            "2b93b07c-81ff-8063-8e60-f0dae3bafd05",
+            "2c03b07c-81ff-8000-bd60-de0f418d432e"
           ],
           "hasMore": false
         }
