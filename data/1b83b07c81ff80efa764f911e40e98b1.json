@@ -3,7 +3,7 @@
     "1b83b07c-81ff-80ef-a764-f911e40e98b1": {
       "value": {
         "id": "1b83b07c-81ff-80ef-a764-f911e40e98b1",
-        "version": 39,
+        "version": 40,
         "type": "page",
         "properties": {
           "title": [
@@ -20,7 +20,7 @@
           "1c03b07c-81ff-80f2-8bca-fac115601dba"
         ],
         "created_time": 1742158366217,
-        "last_edited_time": 1742901183373,
+        "last_edited_time": 1765073331518,
         "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
         "parent_table": "block",
         "alive": true,
@@ -64,9 +64,14 @@
     "1ad3b07c-81ff-80e4-8271-c7f781e181c3": {
       "value": {
         "id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "version": 407,
+        "version": 428,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "organization"
+            ]
+          ],
           "title": [
             [
               "派閥"
@@ -112,11 +117,11 @@
           "1bf3b07c-81ff-8084-9adb-d2af2b8c362d",
           "1bf3b07c-81ff-8063-9043-f20e5753a572",
           "1c03b07c-81ff-8047-be46-cb3e0b0e3f97",
+          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "27c3b07c-81ff-8096-8449-eff920b94b98",
           "27c3b07c-81ff-80c2-9c65-edb134e6ea3f",
           "27d3b07c-81ff-808c-9414-c30fd37c630f",
           "27d3b07c-81ff-8056-bba5-f0f0a21f324a",
-          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "1c03b07c-81ff-80ff-84e2-fcf373444957",
           "1ad3b07c-81ff-8021-b8dc-e3d75b522904",
           "1bf3b07c-81ff-8080-b2e4-eba35337822a",
@@ -132,7 +137,7 @@
           "page_cover_position": 0.5
         },
         "created_time": 1741141291977,
-        "last_edited_time": 1763623466932,
+        "last_edited_time": 1764427847589,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -265,7 +270,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -295,20 +300,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -320,7 +319,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -343,7 +342,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -352,7 +351,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -374,8 +374,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -576,12 +614,12 @@
     "1c03b07c-81ff-80e0-a105-e772b7ec7dee": {
       "value": {
         "id": "1c03b07c-81ff-80e0-a105-e772b7ec7dee",
-        "version": 38,
+        "version": 52,
         "type": "text",
         "properties": {
           "title": [
             [
-              "貴族制度は、実は"
+              "貴族制度は"
             ],
             [
               "内戦",
@@ -593,7 +631,7 @@
               ]
             ],
             [
-              "が起きるまでは存在してなかった。かって君主制の国々が行っていた、大きな貢献のあった人々に爵位を与え表彰するという儀礼を南方軍が取り入れるようになったことが発端になっている。\n"
+              "が起きるまでは存在していなかった。かつて君主制の国々が行っていた、大きな貢献のあった人々に爵位を与え表彰するという儀礼を南方軍が取り入れるようになったことが発端になっている。\n"
             ],
             [
               "人類の内戦",
@@ -634,7 +672,7 @@
           ]
         },
         "created_time": 1742803004911,
-        "last_edited_time": 1742901183373,
+        "last_edited_time": 1765073339082,
         "parent_id": "1b83b07c-81ff-80ef-a764-f911e40e98b1",
         "parent_table": "block",
         "alive": true,
@@ -658,8 +696,20 @@
                         1
                       ],
                       "o": "start",
-                      "l": 8,
-                      "c": "貴族制度は、実は"
+                      "l": 5,
+                      "c": "貴族制度は"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Q3FuJsSiS3My",
+                        6
+                      ],
+                      "o": [
+                        "Q3FuJsSiS3My",
+                        5
+                      ],
+                      "l": -3
                     },
                     {
                       "t": "t",
@@ -714,8 +764,84 @@
                         "Q3FuJsSiS3My",
                         10
                       ],
-                      "l": 87,
-                      "c": "が起きるまでは存在してなかった。かって君主制の国々が行っていた、大きな貢献のあった人々に爵位を与え表彰するという儀礼を南方軍が取り入れるようになったことが発端になっている。\n"
+                      "l": 11,
+                      "c": "が起きるまでは存在して"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "dxq1h6HDnYOA",
+                        318
+                      ],
+                      "o": [
+                        "Q3FuJsSiS3My",
+                        21
+                      ],
+                      "l": 1,
+                      "c": "い"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Q3FuJsSiS3My",
+                        22
+                      ],
+                      "o": [
+                        "Q3FuJsSiS3My",
+                        21
+                      ],
+                      "l": 6,
+                      "c": "なかった。か"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "dxq1h6HDnYOA",
+                        320
+                      ],
+                      "o": [
+                        "Q3FuJsSiS3My",
+                        27
+                      ],
+                      "l": 1,
+                      "c": "つ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "dxq1h6HDnYOA",
+                        319
+                      ],
+                      "o": [
+                        "Q3FuJsSiS3My",
+                        27
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Q3FuJsSiS3My",
+                        28
+                      ],
+                      "o": [
+                        "Q3FuJsSiS3My",
+                        27
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Q3FuJsSiS3My",
+                        29
+                      ],
+                      "o": [
+                        "Q3FuJsSiS3My",
+                        28
+                      ],
+                      "l": 69,
+                      "c": "て君主制の国々が行っていた、大きな貢献のあった人々に爵位を与え表彰するという儀礼を南方軍が取り入れるようになったことが発端になっている。\n"
                     },
                     {
                       "t": "t",
@@ -1221,9 +1347,14 @@
     "1ad3b07c-81ff-803d-b570-dd34e00c1df5": {
       "value": {
         "id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
-        "version": 261,
+        "version": 269,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "term"
+            ]
+          ],
           "title": [
             [
               "用語"
@@ -1261,7 +1392,7 @@
           "social_media_image_preview_url": "attachment:0c2d3364-aa4c-4140-93ae-100086c0fa1e:SocialMediaPreviewImage.png"
         },
         "created_time": 1741140188770,
-        "last_edited_time": 1763622970353,
+        "last_edited_time": 1764148149674,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -1311,9 +1442,14 @@
     "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8": {
       "value": {
         "id": "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
-        "version": 358,
+        "version": 376,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "history"
+            ]
+          ],
           "title": [
             [
               "歴史"
@@ -1410,7 +1546,7 @@
           "social_media_image_preview_url": "attachment:1de8f8ae-78ec-4b04-bad0-0359fa08275f:SocialMediaPreviewImage.png"
         },
         "created_time": 1741140217937,
-        "last_edited_time": 1763610633330,
+        "last_edited_time": 1764148172432,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
