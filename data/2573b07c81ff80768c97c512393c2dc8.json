@@ -3,7 +3,7 @@
     "2573b07c-81ff-8076-8c97-c512393c2dc8": {
       "value": {
         "id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "version": 167,
+        "version": 171,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -28,6 +28,7 @@
           "2a03b07c-81ff-80fa-b46f-e87f5ec14a65",
           "27d3b07c-81ff-8021-9242-d4982307fd8f",
           "2a03b07c-81ff-80f1-b394-c370e9a021a4",
+          "2d33b07c-81ff-8022-98cc-c7096bf94263",
           "2893b07c-81ff-80bd-baba-f4c563d1e680",
           "2863b07c-81ff-805f-9b2e-c297f8891c8f",
           "2913b07c-81ff-803c-92cf-dbd1cc33ae4b",
@@ -43,7 +44,7 @@
           "social_media_image_preview_url": "attachment:0eab7c0e-ed9f-40fb-a5ad-56992f43fc6c:SocialMediaPreviewImage.png"
         },
         "created_time": 1755881175615,
-        "last_edited_time": 1764148019339,
+        "last_edited_time": 1766571708879,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -218,7 +219,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 349,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -255,7 +256,7 @@
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -267,7 +268,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -290,7 +291,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764030939329,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -299,7 +300,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -321,8 +323,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -764,7 +804,7 @@
     "2813b07c-81ff-805c-afb1-cb31163b9008": {
       "value": {
         "id": "2813b07c-81ff-805c-afb1-cb31163b9008",
-        "version": 19,
+        "version": 38,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -786,7 +826,19 @@
           ]
         },
         "content": [
-          "2813b07c-81ff-81c9-90c8-f34ac6330396"
+          "2813b07c-81ff-8145-b448-e586844f90be",
+          "2813b07c-81ff-8109-a79a-f2b9a5413453",
+          "2813b07c-81ff-8135-bed1-e0d6700a1ac2",
+          "2813b07c-81ff-81a3-807f-db717e933abc",
+          "2813b07c-81ff-8170-b3c6-d08991e2c53e",
+          "2813b07c-81ff-81ee-b57d-c83ae3d5f9df",
+          "2813b07c-81ff-8182-ba49-fe77d7c2f078",
+          "2813b07c-81ff-810c-8f8f-ccbd890fe48e",
+          "2813b07c-81ff-811d-8f06-dadcf6c6d732",
+          "2813b07c-81ff-81a0-9ea1-dbb87780d1b6",
+          "2813b07c-81ff-8175-a702-c85626a2f066",
+          "2813b07c-81ff-81df-868b-c58be40b6faa",
+          "2813b07c-81ff-81f0-a140-f2330e44d58e"
         ],
         "format": {
           "block_locked": false,
@@ -800,7 +852,7 @@
           "social_media_image_preview_url": "attachment:50b71594-827f-43ca-b57f-ab3640c9ba0b:SocialMediaPreviewImage.png"
         },
         "created_time": 1759488314374,
-        "last_edited_time": 1762139514632,
+        "last_edited_time": 1764153464584,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -1664,6 +1716,310 @@
                       ],
                       "o": "start",
                       "l": -3
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2d33b07c-81ff-8022-98cc-c7096bf94263": {
+      "value": {
+        "id": "2d33b07c-81ff-8022-98cc-c7096bf94263",
+        "version": 146,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "ガチャ戦略"
+            ]
+          ]
+        },
+        "content": [
+          "2d33b07c-81ff-8092-8c0d-d9670b15c068",
+          "2d33b07c-81ff-80f3-b39a-eaf48208e13a",
+          "2d33b07c-81ff-8048-8379-d3075fb5b108",
+          "2d33b07c-81ff-8057-ae75-d1c8fe012ac7",
+          "2d33b07c-81ff-8075-acdd-cf6a5f05a8d3",
+          "2d33b07c-81ff-80d8-9bf7-fdfb8820e383",
+          "2d33b07c-81ff-80d8-bd95-c1ccbe1e249d",
+          "2d33b07c-81ff-80d1-8734-e7c2dac89671",
+          "2d33b07c-81ff-8049-8762-f7c0c53f12c2",
+          "2d33b07c-81ff-80cb-b563-fce48e0663e6",
+          "2d33b07c-81ff-8082-9853-ebd88a11d62a",
+          "2d33b07c-81ff-806a-b46e-e42bf8008396",
+          "2d33b07c-81ff-8088-815c-d006ce9b2aaf",
+          "2d33b07c-81ff-8003-a837-f1d3c35ef041",
+          "2d33b07c-81ff-80d6-8377-da6f2dd403ef",
+          "2d33b07c-81ff-80b3-b4a2-fdaf64f22250",
+          "2d33b07c-81ff-8023-a5fa-e00fd16cd3c6",
+          "2d33b07c-81ff-8010-976d-df78a4974985",
+          "2d33b07c-81ff-80f1-b2d7-f99d8d7160e7",
+          "2d33b07c-81ff-8024-9695-e73576508162",
+          "2d33b07c-81ff-80bb-8112-cf0df03af148",
+          "2d33b07c-81ff-80e5-ad2c-de8798f33058",
+          "2d33b07c-81ff-80d0-a547-de73f5a39dcf",
+          "2d33b07c-81ff-80da-b9be-df8dd342ab31",
+          "2d33b07c-81ff-80c0-b9f8-fe88e7b8781e",
+          "2d33b07c-81ff-805a-851f-f71a6086c6b4",
+          "2d33b07c-81ff-8085-9dfe-e6d5d14f7d79",
+          "2d33b07c-81ff-809c-bfb6-d8a042f7d07f",
+          "2d33b07c-81ff-80e2-9c03-c1902be2b520",
+          "2d33b07c-81ff-8027-ba5f-e0ee827211b8",
+          "2d33b07c-81ff-80a4-a2a9-f625eaa9aa7a",
+          "2d33b07c-81ff-807b-94ab-fe2bc05092ca",
+          "2d33b07c-81ff-80be-90af-d305d1a79b68",
+          "2d33b07c-81ff-8043-a50b-cd66a096c952",
+          "2d33b07c-81ff-808c-a202-dd4a5677d544",
+          "2d33b07c-81ff-809e-8720-ca66baaebd72",
+          "2d33b07c-81ff-8092-94fe-d92af9115574",
+          "2d33b07c-81ff-8061-97ed-d30f77772cbb",
+          "2d33b07c-81ff-8054-b77b-c6c62592ae75",
+          "2d33b07c-81ff-809d-8205-fb3c00b3b7eb",
+          "2d33b07c-81ff-8072-a8df-f2e45276b2ac",
+          "2d33b07c-81ff-8013-ac5b-df37a6a56064",
+          "2d33b07c-81ff-805a-87bf-d6912022f430",
+          "2d33b07c-81ff-8000-bbdd-dc1d32fde9af",
+          "2d33b07c-81ff-80b9-a0e3-fcc90de7866d",
+          "2d33b07c-81ff-8023-968d-cb20008f0ed5",
+          "2d33b07c-81ff-80b8-87cd-d59b77ca9440",
+          "2d33b07c-81ff-8022-836c-ec785d2f4bde",
+          "2d33b07c-81ff-802c-a9d6-dbc141fc0505",
+          "2d33b07c-81ff-80ab-be35-e012fc256e3e",
+          "2d33b07c-81ff-801f-8fa2-d618c80bf544",
+          "2d33b07c-81ff-8025-9d50-f5045f9c38be",
+          "2d33b07c-81ff-8098-9a36-ddae05aedef7",
+          "2d33b07c-81ff-80ed-9fdd-da6ff262c79a",
+          "2d33b07c-81ff-8041-89ea-e13b251899bb",
+          "2d33b07c-81ff-8025-a9b7-fdf903c6af62",
+          "2d33b07c-81ff-803f-aaf1-c1eebc01a095",
+          "2d33b07c-81ff-800d-ace5-fb8ee1449c53",
+          "2d33b07c-81ff-80da-a79e-c092e6e05cc8",
+          "2d33b07c-81ff-806e-96f8-e0512c34b15e",
+          "2d33b07c-81ff-80f1-a593-d81f345ade68",
+          "2d33b07c-81ff-8097-aa78-d757268fcbf0",
+          "2d33b07c-81ff-80b9-a542-d1758099f301",
+          "2d33b07c-81ff-80c5-a4f7-c3a3bf6a3f12",
+          "2d33b07c-81ff-805d-9252-d52d35105b83",
+          "2d33b07c-81ff-80fc-997e-cc75f3ef9dc8",
+          "2d33b07c-81ff-8066-ae03-edad5cb7d7cf",
+          "2d33b07c-81ff-803c-adb4-f1079c4510f6",
+          "2d33b07c-81ff-8043-b878-ee45fb911dd3",
+          "2d33b07c-81ff-80b9-a127-c6c2a3881949",
+          "2d33b07c-81ff-8097-b0d4-d9b885198cfe",
+          "2d33b07c-81ff-8003-b495-e3ecacac93ad",
+          "2d33b07c-81ff-80f0-889c-d8ccbd4ee0f5"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:6f3634e5-02ef-4770-90f8-fc1a78e41dbe:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1766571708870,
+        "last_edited_time": 1766571961790,
+        "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "6f3634e5-02ef-4770-90f8-fc1a78e41dbe"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "0X5AcPQaeKnBXXiZTfwkMA,\"start\",\"end\"",
+            "n": {
+              "0X5AcPQaeKnBXXiZTfwkMA,\"start\",\"end\"": {
+                "s": {
+                  "x": "0X5AcPQaeKnBXXiZTfwkMA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        11
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "ガチャ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        24
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        13
+                      ],
+                      "l": 2,
+                      "c": "戦略"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        15
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        17
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        20
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        17
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        23
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        22
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        18
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        17
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        16
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        14
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        6
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        9
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        6
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        7
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        6
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        5
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        3
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jMtd39fCwUrW",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -2
                     },
                     {
                       "t": "e"
