@@ -3,7 +3,7 @@
     "2d43b07c-81ff-806a-a8d1-d000ddc130d5": {
       "value": {
         "id": "2d43b07c-81ff-806a-a8d1-d000ddc130d5",
-        "version": 18,
+        "version": 19,
         "type": "page",
         "properties": {
           "title": [
@@ -30,7 +30,7 @@
           "social_media_image_preview_url": "attachment:56ff15ee-f853-44ff-bcc5-c079a9f90af6:SocialMediaPreviewImage.png"
         },
         "created_time": 1766655050620,
-        "last_edited_time": 1766655569687,
+        "last_edited_time": 1766663957713,
         "parent_id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
         "parent_table": "collection",
         "alive": true,
@@ -740,11 +740,10 @@
     "2d43b07c-81ff-8161-bcd2-fe5e63a7a144": {
       "value": {
         "id": "2d43b07c-81ff-8161-bcd2-fe5e63a7a144",
-        "version": 1,
+        "version": 3,
         "type": "callout",
         "content": [
           "2d43b07c-81ff-8165-85ff-d15a0bd3f02e",
-          "2d43b07c-81ff-8186-bbae-d61bc56f07d2",
           "2d43b07c-81ff-81dd-b2e3-ebb3331adf5a",
           "2d43b07c-81ff-81be-9a21-f071428c0dfb",
           "2d43b07c-81ff-81d2-979e-d7eaf3e934ba",
@@ -760,7 +759,7 @@
           }
         },
         "created_time": 1766655050618,
-        "last_edited_time": 1766655050618,
+        "last_edited_time": 1766663958812,
         "parent_id": "2d43b07c-81ff-806a-a8d1-d000ddc130d5",
         "parent_table": "block",
         "alive": true,
@@ -1006,12 +1005,12 @@
     "2d43b07c-81ff-8165-85ff-d15a0bd3f02e": {
       "value": {
         "id": "2d43b07c-81ff-8165-85ff-d15a0bd3f02e",
-        "version": 2,
+        "version": 5,
         "type": "text",
         "properties": {
           "title": [
             [
-              "関連装備："
+              "身長：160cm"
             ]
           ]
         },
@@ -1023,7 +1022,7 @@
           }
         },
         "created_time": 1766655050619,
-        "last_edited_time": 1766655050619,
+        "last_edited_time": 1766663957713,
         "parent_id": "2d43b07c-81ff-8161-bcd2-fe5e63a7a144",
         "parent_table": "block",
         "alive": true,
@@ -1048,8 +1047,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 5,
-                      "c": "関連装備："
+                      "l": -5
                     },
                     {
                       "t": "e"
@@ -1057,51 +1055,21 @@
                   ],
                   "l": ""
                 },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2d43b07c-81ff-8186-bbae-d61bc56f07d2": {
-      "value": {
-        "id": "2d43b07c-81ff-8186-bbae-d61bc56f07d2",
-        "version": 4,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "身長：160cm"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "25e3b07c-81ff-8055-a09e-ddf85e03741f",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1766655050619,
-        "last_edited_time": 1766655090492,
-        "parent_id": "2d43b07c-81ff-8161-bcd2-fe5e63a7a144",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "25e3b07c-81ff-8055-a09e-ddf85e03741f",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "03DoPdEYrkfg4GwthYBcvQ,\"start\",\"end\"",
-            "n": {
-              "03DoPdEYrkfg4GwthYBcvQ,\"start\",\"end\"": {
+                "c": [
+                  "03DoPdEYrkfg4GwthYBcvQ,[\"kKafyAVSPA_d\",29],\"end\""
+                ]
+              },
+              "03DoPdEYrkfg4GwthYBcvQ,[\"kKafyAVSPA_d\",29],\"end\"": {
                 "s": {
                   "x": "03DoPdEYrkfg4GwthYBcvQ",
                   "i": [
                     {
-                      "t": "s"
+                      "t": "p",
+                      "i": [
+                        "kKafyAVSPA_d",
+                        29
+                      ],
+                      "o": "start"
                     },
                     {
                       "t": "t",
@@ -1130,7 +1098,7 @@
                       "t": "e"
                     }
                   ],
-                  "l": ""
+                  "l": "l"
                 },
                 "c": []
               }
@@ -2334,6 +2302,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2d43b07c-81ff-80ad-ae8d-e3b115c95d33": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/2bee6deb-4c70-4f8b-90df-d056c76d1b97/IMG_1340.png?table=block&id=2d43b07c-81ff-80ad-ae8d-e3b115c95d33&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1766678400000&signature=vvxHFRMMz8uu7LOGaFTkIhatGUoUYFaUzc__-Ux0Lik"
+    "2d43b07c-81ff-80ad-ae8d-e3b115c95d33": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/2bee6deb-4c70-4f8b-90df-d056c76d1b97/IMG_1340.png?table=block&id=2d43b07c-81ff-80ad-ae8d-e3b115c95d33&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1766714400000&signature=jue-lqgFvPtcm5KNKlbbFauQjZHSApOBjFS8EPhsYGs"
   }
 }
