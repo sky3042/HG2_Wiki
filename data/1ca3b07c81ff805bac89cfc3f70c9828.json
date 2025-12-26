@@ -3,7 +3,7 @@
     "1ca3b07c-81ff-805b-ac89-cfc3f70c9828": {
       "value": {
         "id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
-        "version": 55,
+        "version": 56,
         "type": "collection_view_page",
         "view_ids": [
           "1ca3b07c-81ff-8093-aca5-000c02c824d8"
@@ -24,7 +24,7 @@
           ]
         },
         "created_time": 1743690486831,
-        "last_edited_time": 1764910422856,
+        "last_edited_time": 1766741606688,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -4559,6 +4559,128 @@
                       "o": "start",
                       "l": 5,
                       "c": "烈炎執行官"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2d53b07c-81ff-801b-8d45-ccd8fc6bd217": {
+      "value": {
+        "id": "2d53b07c-81ff-801b-8d45-ccd8fc6bd217",
+        "version": 46,
+        "type": "page",
+        "properties": {
+          ";yc\\": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "type": "date",
+                    "start_date": "2025-12-26",
+                    "date_format": "relative"
+                  }
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ],
+          "^UL:": [
+            [
+              "あり"
+            ]
+          ],
+          "c:Yb": [
+            [
+              "Yes"
+            ]
+          ],
+          "title": [
+            [
+              "携帯型崩壊エネルギー探知器"
+            ]
+          ]
+        },
+        "content": [
+          "2d53b07c-81ff-8084-b1ed-f8ba79d31a1b",
+          "2d53b07c-81ff-8050-98bd-c06f3f16e520",
+          "2d53b07c-81ff-80cf-97a9-c441416ddd9a",
+          "2d53b07c-81ff-80fc-944e-cd103b9fb1eb"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "2c03b07c-81ff-8000-bd60-de0f418d432e",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "social_media_image_preview_url": "attachment:3f9d7669-ccb2-4304-8a90-82605923efa4:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1766741606654,
+        "last_edited_time": 1766741641104,
+        "parent_id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+        "parent_table": "collection",
+        "alive": true,
+        "copied_from": "2c03b07c-81ff-8000-bd60-de0f418d432e",
+        "file_ids": [
+          "3f9d7669-ccb2-4304-8a90-82605923efa4"
+        ],
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Kqltwx10fm8Zk4Oh0VhpxA,\"start\",\"end\"",
+            "n": {
+              "Kqltwx10fm8Zk4Oh0VhpxA,\"start\",\"end\"": {
+                "s": {
+                  "x": "Kqltwx10fm8Zk4Oh0VhpxA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "k4U7Pw4ruybn",
+                        15
+                      ],
+                      "o": "start",
+                      "l": 13,
+                      "c": "携帯型崩壊エネルギー探知器"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "k4U7Pw4ruybn",
+                        6
+                      ],
+                      "o": "start",
+                      "l": -9
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GqLVfl7uvrOv",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -5
                     },
                     {
                       "t": "e"
@@ -15939,13 +16061,407 @@
         }
       },
       "role": "reader"
+    },
+    "2d53b07c-81ff-8084-b1ed-f8ba79d31a1b": {
+      "value": {
+        "id": "2d53b07c-81ff-8084-b1ed-f8ba79d31a1b",
+        "version": 10,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "‣",
+              [
+                [
+                  "p",
+                  "2d53b07c-81ff-801c-ad0a-dc4da8f59276",
+                  "f25e8375-dff8-499a-b7bf-74566e1055df"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2c03b07c-81ff-80c3-a786-caa929c0dbed",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1766741637835,
+        "last_edited_time": 1766741655435,
+        "parent_id": "2d53b07c-81ff-801b-8d45-ccd8fc6bd217",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "6K_IYp1GHk6W2aWXy1TKRw,\"start\",\"end\"",
+            "n": {
+              "6K_IYp1GHk6W2aWXy1TKRw,\"start\",\"end\"": {
+                "s": {
+                  "x": "6K_IYp1GHk6W2aWXy1TKRw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "k4U7Pw4ruybn",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -71,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "6K_IYp1GHk6W2aWXy1TKRw",
+                          "l": "",
+                          "i": [
+                            "k4U7Pw4ruybn",
+                            72
+                          ],
+                          "s": {
+                            "i": [
+                              "k4U7Pw4ruybn",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "k4U7Pw4ruybn",
+                              71
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "https://www.notion.so/2d53b07c81ff801cad0adc4da8f59276?source=copy_link"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "k4U7Pw4ruybn",
+                        73
+                      ],
+                      "o": [
+                        "k4U7Pw4ruybn",
+                        71
+                      ],
+                      "l": 1,
+                      "c": "‣",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "6K_IYp1GHk6W2aWXy1TKRw",
+                          "l": "",
+                          "i": [
+                            "k4U7Pw4ruybn",
+                            75
+                          ],
+                          "s": {
+                            "i": [
+                              "k4U7Pw4ruybn",
+                              73
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "k4U7Pw4ruybn",
+                              73
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "p",
+                            "2d53b07c-81ff-801c-ad0a-dc4da8f59276",
+                            "f25e8375-dff8-499a-b7bf-74566e1055df"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "k4U7Pw4ruybn",
+                        74
+                      ],
+                      "o": [
+                        "k4U7Pw4ruybn",
+                        73
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2d53b07c-81ff-8050-98bd-c06f3f16e520": {
+      "value": {
+        "id": "2d53b07c-81ff-8050-98bd-c06f3f16e520",
+        "version": 21,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "パラメータ検知"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2c03b07c-81ff-80c3-a786-caa929c0dbed",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1766741606655,
+        "last_edited_time": 1766741643713,
+        "parent_id": "2d53b07c-81ff-801b-8d45-ccd8fc6bd217",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2c03b07c-81ff-80c3-a786-caa929c0dbed",
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DyC5EM6mEuiWt_mIzp1PQg,\"start\",\"end\"",
+            "n": {
+              "DyC5EM6mEuiWt_mIzp1PQg,\"start\",\"end\"": {
+                "s": {
+                  "x": "DyC5EM6mEuiWt_mIzp1PQg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kO31_doXQyu2",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -9
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "NVrV1ZeGeAUZvX9aopMHOw,[\"k4U7Pw4ruybn\",25],\"end\""
+                ]
+              },
+              "NVrV1ZeGeAUZvX9aopMHOw,[\"k4U7Pw4ruybn\",25],\"end\"": {
+                "s": {
+                  "x": "NVrV1ZeGeAUZvX9aopMHOw",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "k4U7Pw4ruybn",
+                        25
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "k4U7Pw4ruybn",
+                        26
+                      ],
+                      "o": [
+                        "k4U7Pw4ruybn",
+                        25
+                      ],
+                      "l": 7,
+                      "c": "パラメータ検知"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "xEskLN_shss3",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -4
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2d53b07c-81ff-80cf-97a9-c441416ddd9a": {
+      "value": {
+        "id": "2d53b07c-81ff-80cf-97a9-c441416ddd9a",
+        "version": 16,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "補助充電"
+            ]
+          ]
+        },
+        "created_time": 1766741638530,
+        "last_edited_time": 1766741643713,
+        "parent_id": "2d53b07c-81ff-801b-8d45-ccd8fc6bd217",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "7q65UTBVneAq1VapZK7geg,\"start\",\"end\"",
+            "n": {
+              "7q65UTBVneAq1VapZK7geg,\"start\",\"end\"": {
+                "s": {
+                  "x": "7q65UTBVneAq1VapZK7geg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "k4U7Pw4ruybn",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "補助充"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "k4U7Pw4ruybn",
+                        4
+                      ],
+                      "o": [
+                        "k4U7Pw4ruybn",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "k4U7Pw4ruybn",
+                        5
+                      ],
+                      "o": [
+                        "k4U7Pw4ruybn",
+                        4
+                      ],
+                      "l": 1,
+                      "c": "電"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2d53b07c-81ff-80fc-944e-cd103b9fb1eb": {
+      "value": {
+        "id": "2d53b07c-81ff-80fc-944e-cd103b9fb1eb",
+        "version": 3,
+        "type": "text",
+        "created_time": 1766741644393,
+        "last_edited_time": 1766741644395,
+        "parent_id": "2d53b07c-81ff-801b-8d45-ccd8fc6bd217",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "eWGBS02Dr9JImpsRpSA3tQ,\"start\",\"end\"",
+            "n": {
+              "eWGBS02Dr9JImpsRpSA3tQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "eWGBS02Dr9JImpsRpSA3tQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
     }
   },
   "collection_view": {
     "1ca3b07c-81ff-8093-aca5-000c02c824d8": {
       "value": {
         "id": "1ca3b07c-81ff-8093-aca5-000c02c824d8",
-        "version": 154,
+        "version": 156,
         "type": "gallery",
         "format": {
           "table_wrap": true,
@@ -16026,11 +16542,12 @@
           "2b23b07c-81ff-8091-81d2-c9358abc522b",
           "2b93b07c-81ff-8040-82eb-c1a4675b7b06",
           "2b93b07c-81ff-8063-8e60-f0dae3bafd05",
-          "2c03b07c-81ff-8000-bd60-de0f418d432e"
+          "2c03b07c-81ff-8000-bd60-de0f418d432e",
+          "2d53b07c-81ff-801b-8d45-ccd8fc6bd217"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "created_time": 1756373099431,
-        "last_edited_time": 1764910422856,
+        "last_edited_time": 1766741606688,
         "created_by_table": "notion_user",
         "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
@@ -16547,7 +17064,8 @@
             "2b23b07c-81ff-8091-81d2-c9358abc522b",
             "2b93b07c-81ff-8040-82eb-c1a4675b7b06",
             "2b93b07c-81ff-8063-8e60-f0dae3bafd05",
-            "2c03b07c-81ff-8000-bd60-de0f418d432e"
+            "2c03b07c-81ff-8000-bd60-de0f418d432e",
+            "2d53b07c-81ff-801b-8d45-ccd8fc6bd217"
           ],
           "hasMore": false
         }
