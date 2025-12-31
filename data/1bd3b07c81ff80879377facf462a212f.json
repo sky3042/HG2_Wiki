@@ -3,7 +3,7 @@
     "1bd3b07c-81ff-8087-9377-facf462a212f": {
       "value": {
         "id": "1bd3b07c-81ff-8087-9377-facf462a212f",
-        "version": 79,
+        "version": 80,
         "type": "page",
         "properties": {
           "title": [
@@ -41,7 +41,7 @@
           "social_media_image_preview_url": "attachment:e3434c27-7521-4128-a2ae-0128954588aa:SocialMediaPreviewImage.png"
         },
         "created_time": 1742568141097,
-        "last_edited_time": 1763609833086,
+        "last_edited_time": 1767155130928,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -101,7 +101,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1717,
+        "version": 1724,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -152,7 +152,6 @@
           "1b93b07c-81ff-80e5-903b-d07e81c1d36e",
           "1b93b07c-81ff-8070-9bb8-d324721c2653",
           "2b13b07c-81ff-8098-b3da-f65d174cfa92",
-          "2b13b07c-81ff-80fc-9eee-e80210257c17",
           "27c3b07c-81ff-8076-914e-c98b7a9e323c",
           "27c3b07c-81ff-80c8-b4f0-ea440e24b973",
           "1b93b07c-81ff-8093-b73f-ea9338e09284",
@@ -296,7 +295,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1763799859805,
+        "last_edited_time": 1763862654684,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -399,7 +398,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -429,20 +428,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -454,7 +447,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -477,7 +470,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -486,7 +479,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -508,8 +502,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -609,20 +641,24 @@
     "2a03b07c-81ff-8032-abaf-d5abd6d1ebe3": {
       "value": {
         "id": "2a03b07c-81ff-8032-abaf-d5abd6d1ebe3",
-        "version": 12,
+        "version": 20,
         "type": "callout",
         "content": [
           "1bd3b07c-81ff-8092-b8e3-e0067be60a16",
           "1bd3b07c-81ff-80a2-bb64-d5ef386a0b71",
           "1bd3b07c-81ff-80a6-8b5c-c1ff7ba70826",
-          "1bd3b07c-81ff-809f-bd05-d106e181625b"
+          "1bd3b07c-81ff-809f-bd05-d106e181625b",
+          "2da3b07c-81ff-8076-8263-cb29c14531d2",
+          "2da3b07c-81ff-8011-9d35-c1dcb3daadf1",
+          "2da3b07c-81ff-80a1-a62e-e5e55f4d2319",
+          "2da3b07c-81ff-807f-8ee2-cb904378643a"
         ],
         "format": {
           "block_color": "gray_background",
           "callout_version": 2
         },
         "created_time": 1762138879945,
-        "last_edited_time": 1762138884398,
+        "last_edited_time": 1767155131180,
         "parent_id": "1bd3b07c-81ff-8087-9377-facf462a212f",
         "parent_table": "block",
         "alive": true,
@@ -3684,7 +3720,7 @@
     "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d": {
       "value": {
         "id": "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d",
-        "version": 1794,
+        "version": 1865,
         "type": "page",
         "properties": {
           "title": [
@@ -3713,9 +3749,9 @@
           "1ad3b07c-81ff-8008-b3b8-ed031c310fc3",
           "1ad3b07c-81ff-8093-87a0-e2f56fa8ca80",
           "1ad3b07c-81ff-808b-b69f-e8ca6313ac59",
+          "1ad3b07c-81ff-8082-97a5-d1c40460fec1",
           "1ad3b07c-81ff-8069-a3aa-f663d4540b7f",
           "1ad3b07c-81ff-80e1-906b-f741205d3aa9",
-          "1ad3b07c-81ff-8082-97a5-d1c40460fec1",
           "28c3b07c-81ff-80b7-b23e-d2a9020a0441",
           "28c3b07c-81ff-8062-ad6c-f6e650d53420",
           "2563b07c-81ff-803f-8325-e6e9cd467213",
@@ -3740,7 +3776,6 @@
           "22f3b07c-81ff-8073-81f3-cd028bac7e81",
           "22f3b07c-81ff-80d4-a0e8-c2aa3d0972c9",
           "22f3b07c-81ff-8065-abfc-e4284921f784",
-          "22f3b07c-81ff-80d3-a5bd-f33c620bd487",
           "22f3b07c-81ff-807b-acb0-e543e575d13c",
           "22f3b07c-81ff-804c-af3e-ea7bb4632372",
           "22f3b07c-81ff-80bb-87f3-efa7f6798a28",
@@ -3790,7 +3825,7 @@
           "2b13b07c-81ff-8061-9441-f9626a137929",
           "1ad3b07c-81ff-80d7-834f-dd018563d0a2",
           "2053b07c-81ff-806d-856f-e9bc89932314",
-          "1ad3b07c-81ff-808b-9ac1-f268b6588205",
+          "2c53b07c-81ff-80c8-8eed-f459e1f688cf",
           "2b13b07c-81ff-8067-8b3f-fd0e1c143ec1",
           "2b13b07c-81ff-8019-b101-ed5c19e50306",
           "2b13b07c-81ff-804f-9277-f09199338bfc",
@@ -3804,8 +3839,6 @@
           "2563b07c-81ff-805c-8e11-ee74b42ee1e7",
           "1ad3b07c-81ff-800a-aa10-e11e7298df57",
           "1c93b07c-81ff-8080-9c3e-da572191d09b",
-          "2a73b07c-81ff-80e2-bff7-e4f3c6d2628d",
-          "2a73b07c-81ff-8040-958e-f048208da79d",
           "1c53b07c-81ff-80de-ab37-ea8f131a394d",
           "2713b07c-81ff-8092-8653-e6ebd3c457ce",
           "2a73b07c-81ff-8066-a710-ce19e8c0ae46",
@@ -3816,7 +3849,6 @@
           "1ad3b07c-81ff-805e-8636-ca8d47eca32b",
           "1ad3b07c-81ff-8070-a734-d667fdf78433",
           "1c93b07c-81ff-80d2-822a-c9e95b7312c4",
-          "1c93b07c-81ff-8034-8e0c-cbec649b1987",
           "1ad3b07c-81ff-8071-b4a4-f1b79a93dda2",
           "22f3b07c-81ff-80bd-b5b1-d27dff80f71e",
           "25c3b07c-81ff-80be-82ba-fab64bc05e0b",
@@ -3851,11 +3883,12 @@
           "1ad3b07c-81ff-8026-9310-ceb9fc8db6d7",
           "1ad3b07c-81ff-8097-9b9e-e1d33bd805ac",
           "1ad3b07c-81ff-80c7-839c-d9d362f424f0",
-          "1ad3b07c-81ff-80a7-b63f-f1a7e1db8387",
-          "1ad3b07c-81ff-8073-8d96-ff72a524394d",
           "2563b07c-81ff-8096-b79c-d843ce503c01",
+          "1ad3b07c-81ff-80a7-b63f-f1a7e1db8387",
+          "2b73b07c-81ff-80c8-80d6-e232a23ebf03",
           "1ad3b07c-81ff-80f3-b903-e51b8cf70f82",
           "2563b07c-81ff-802b-bd65-ecfcb229524e",
+          "2b73b07c-81ff-809f-af34-ca988c93c557",
           "1ad3b07c-81ff-8066-9a3c-e8d84caeb293",
           "1c83b07c-81ff-808d-b8ab-ca12cf68c385",
           "1c53b07c-81ff-8051-a176-fd80a7130516",
@@ -3945,7 +3978,7 @@
           "social_media_image_preview_url": "attachment:4542613b-c3c0-418b-b88f-d2f782a9dbfd:SocialMediaPreviewImage.png"
         },
         "created_time": 1741139722430,
-        "last_edited_time": 1763608284463,
+        "last_edited_time": 1765339818460,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
@@ -3995,7 +4028,7 @@
     "2a53b07c-81ff-807d-9296-df79a1b4ccc9": {
       "value": {
         "id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
-        "version": 213,
+        "version": 215,
         "type": "page",
         "properties": {
           "title": [
@@ -4189,7 +4222,7 @@
           "social_media_image_preview_url": "attachment:74cff22d-31fa-4482-8de3-8aa977d262f9:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578014330,
-        "last_edited_time": 1763629778990,
+        "last_edited_time": 1764129422296,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -4245,7 +4278,7 @@
     "2833b07c-81ff-802a-b26c-c5fec1d872bf": {
       "value": {
         "id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
-        "version": 585,
+        "version": 611,
         "type": "page",
         "properties": {
           "title": [
@@ -4303,7 +4336,7 @@
           "social_media_image_preview_url": "attachment:a9d0d2e7-a0b7-4a0e-99ab-8f52ff3055a4:SocialMediaPreviewImage.png"
         },
         "created_time": 1759648389245,
-        "last_edited_time": 1763611326980,
+        "last_edited_time": 1764153475903,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
@@ -4441,7 +4474,7 @@
     "1ad3b07c-81ff-8049-a679-dee2753e730d": {
       "value": {
         "id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
-        "version": 70,
+        "version": 71,
         "type": "collection_view",
         "view_ids": [
           "1ad3b07c-81ff-808c-8d68-000c1a966362"
@@ -4456,7 +4489,7 @@
           "social_media_image_preview_url": "attachment:77ee58c3-eb3b-464f-91ec-260bc5a88966:SocialMediaPreviewImage.png"
         },
         "created_time": 1741139703841,
-        "last_edited_time": 1762139217746,
+        "last_edited_time": 1764148211020,
         "parent_id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
         "parent_table": "block",
         "alive": true,
@@ -4493,9 +4526,14 @@
     "1ac3b07c-81ff-8089-98b4-ec9f8c06db35": {
       "value": {
         "id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
-        "version": 106,
+        "version": 122,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "lore"
+            ]
+          ],
           "title": [
             [
               "考察"
@@ -4514,7 +4552,7 @@
           "social_media_image_preview_url": "attachment:8df55a7c-dc11-421a-ad46-8e12905aa7f2:SocialMediaPreviewImage.png"
         },
         "created_time": 1741119050032,
-        "last_edited_time": 1763354128830,
+        "last_edited_time": 1764148160955,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -5042,6 +5080,254 @@
       },
       "role": "reader"
     },
+    "2da3b07c-81ff-8076-8263-cb29c14531d2": {
+      "value": {
+        "id": "2da3b07c-81ff-8076-8263-cb29c14531d2",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "身長：162cm"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "27a3b07c-81ff-80f3-8c23-c7b2b9960003",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767155131171,
+        "last_edited_time": 1767155131180,
+        "parent_id": "2a03b07c-81ff-8032-abaf-d5abd6d1ebe3",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "27a3b07c-81ff-80f3-8c23-c7b2b9960003",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "FBT3TBwNo_c1xGv9NSSKxQ,\"start\",\"end\"",
+            "n": {
+              "FBT3TBwNo_c1xGv9NSSKxQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "FBT3TBwNo_c1xGv9NSSKxQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "bxwzOK_Hscpe",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 8,
+                      "c": "身長：162cm"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2da3b07c-81ff-8011-9d35-c1dcb3daadf1": {
+      "value": {
+        "id": "2da3b07c-81ff-8011-9d35-c1dcb3daadf1",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "3サイズ：84/66/90"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "27a3b07c-81ff-80a5-bb12-c2b490858668",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767155131173,
+        "last_edited_time": 1767155131180,
+        "parent_id": "2a03b07c-81ff-8032-abaf-d5abd6d1ebe3",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "27a3b07c-81ff-80a5-bb12-c2b490858668",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "saOEtWju5krehRCgEEykyw,\"start\",\"end\"",
+            "n": {
+              "saOEtWju5krehRCgEEykyw,\"start\",\"end\"": {
+                "s": {
+                  "x": "saOEtWju5krehRCgEEykyw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3XVFmAu2xuxm",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 13,
+                      "c": "3サイズ：84/66/90"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2da3b07c-81ff-80a1-a62e-e5e55f4d2319": {
+      "value": {
+        "id": "2da3b07c-81ff-80a1-a62e-e5e55f4d2319",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "誕生日：-"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "27a3b07c-81ff-80fb-8dc3-c2dc5698a10c",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767155131175,
+        "last_edited_time": 1767155131180,
+        "parent_id": "2a03b07c-81ff-8032-abaf-d5abd6d1ebe3",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "27a3b07c-81ff-80fb-8dc3-c2dc5698a10c",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "bFjZKnEsC9uPMnPpqrXSAA,\"start\",\"end\"",
+            "n": {
+              "bFjZKnEsC9uPMnPpqrXSAA,\"start\",\"end\"": {
+                "s": {
+                  "x": "bFjZKnEsC9uPMnPpqrXSAA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "uuN0cIfmRyjH",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "誕生日：-"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2da3b07c-81ff-807f-8ee2-cb904378643a": {
+      "value": {
+        "id": "2da3b07c-81ff-807f-8ee2-cb904378643a",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "体重：55kg"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "27a3b07c-81ff-80e1-9c25-e6567d66aacd",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767155131177,
+        "last_edited_time": 1767155131180,
+        "parent_id": "2a03b07c-81ff-8032-abaf-d5abd6d1ebe3",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "27a3b07c-81ff-80e1-9c25-e6567d66aacd",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "fy1gATxHy8cP3PPOwSyPZQ,\"start\",\"end\"",
+            "n": {
+              "fy1gATxHy8cP3PPOwSyPZQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "fy1gATxHy8cP3PPOwSyPZQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "4hqwp6oB9Q6k",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 7,
+                      "c": "体重：55kg"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "1ad3b07c-81ff-8053-93aa-dd1cafe60284": {
       "value": {
         "id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
@@ -5177,9 +5463,14 @@
     "1ad3b07c-81ff-80e4-8271-c7f781e181c3": {
       "value": {
         "id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "version": 407,
+        "version": 428,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "organization"
+            ]
+          ],
           "title": [
             [
               "派閥"
@@ -5225,11 +5516,11 @@
           "1bf3b07c-81ff-8084-9adb-d2af2b8c362d",
           "1bf3b07c-81ff-8063-9043-f20e5753a572",
           "1c03b07c-81ff-8047-be46-cb3e0b0e3f97",
+          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "27c3b07c-81ff-8096-8449-eff920b94b98",
           "27c3b07c-81ff-80c2-9c65-edb134e6ea3f",
           "27d3b07c-81ff-808c-9414-c30fd37c630f",
           "27d3b07c-81ff-8056-bba5-f0f0a21f324a",
-          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "1c03b07c-81ff-80ff-84e2-fcf373444957",
           "1ad3b07c-81ff-8021-b8dc-e3d75b522904",
           "1bf3b07c-81ff-8080-b2e4-eba35337822a",
@@ -5245,7 +5536,7 @@
           "page_cover_position": 0.5
         },
         "created_time": 1741141291977,
-        "last_edited_time": 1763623466932,
+        "last_edited_time": 1764427847589,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -5324,9 +5615,14 @@
     "1ad3b07c-81ff-809c-8204-e16483640fa5": {
       "value": {
         "id": "1ad3b07c-81ff-809c-8204-e16483640fa5",
-        "version": 299,
+        "version": 317,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "geography"
+            ]
+          ],
           "title": [
             [
               "地理"
@@ -5371,7 +5667,7 @@
           "page_cover_position": 0.2338
         },
         "created_time": 1741142028871,
-        "last_edited_time": 1763623874273,
+        "last_edited_time": 1764148101098,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -5591,7 +5887,7 @@
     "1ad3b07c-81ff-80f8-93e5-000baa1c67d4": {
       "value": {
         "id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
-        "version": 30,
+        "version": 32,
         "name": [
           [
             "考察"
@@ -5617,6 +5913,46 @@
             "table": "layout",
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
+          "metadata_copied_from": {
+            "id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "`xvK",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": "F;c`",
+                  "color": "pink",
+                  "value": "中"
+                },
+                {
+                  "id": "\\iK_",
+                  "color": "red",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "締切日",
+              "type": "date"
+            }
+          ],
           "page_section_visibility": {
             "comments": "section_hide",
             "backlinks": "section_collapsed",
@@ -5637,7 +5973,13 @@
         "parent_table": "block",
         "alive": true,
         "migrated": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1741139703841,
+        "last_edited_time": 1764148211020,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
       "role": "reader"
     }
@@ -5846,7 +6188,7 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "27c3b07c-81ff-80fb-b3b9-fdbdbc1c7b9a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/759ac6df-6f50-410c-ab12-0fa67b53470f/760ca1e5gy1i02bmkkh3ej20sg114e81.jpg?table=block&id=27c3b07c-81ff-80fb-b3b9-fdbdbc1c7b9a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=hxuLSmwhosGJd-O7ciQGiMYQIrAP5C61eKdHtTNs6Zg",
-    "1be3b07c-81ff-8007-b505-cd4c8e87d65d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/a06e58cc-ecd4-42bd-91ee-1f2ee091d160/2024-10-24_20-49-57.mp4_snapshot_07.02_2025.03.04_03.02.37.jpg?table=block&id=1be3b07c-81ff-8007-b505-cd4c8e87d65d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=MxJwa4oRym2KqzMpmdreH_5sNt7s4X9GcnlBiZS6DnQ"
+    "27c3b07c-81ff-80fb-b3b9-fdbdbc1c7b9a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/759ac6df-6f50-410c-ab12-0fa67b53470f/760ca1e5gy1i02bmkkh3ej20sg114e81.jpg?table=block&id=27c3b07c-81ff-80fb-b3b9-fdbdbc1c7b9a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1767232800000&signature=OCWRHyxQMqJCMg4t6G9VNi1_q6hw-bdl5YohV2NA9P0",
+    "1be3b07c-81ff-8007-b505-cd4c8e87d65d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/a06e58cc-ecd4-42bd-91ee-1f2ee091d160/2024-10-24_20-49-57.mp4_snapshot_07.02_2025.03.04_03.02.37.jpg?table=block&id=1be3b07c-81ff-8007-b505-cd4c8e87d65d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1767232800000&signature=hIY5qUUuwAyMsCPTfCuGCthg_fgGYRWhCAxG9uNMjwM"
   }
 }

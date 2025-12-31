@@ -3,9 +3,14 @@
     "2d53b07c-81ff-801c-ad0a-dc4da8f59276": {
       "value": {
         "id": "2d53b07c-81ff-801c-ad0a-dc4da8f59276",
-        "version": 21,
+        "version": 44,
         "type": "page",
         "properties": {
+          "^;~U": [
+            [
+              "kanban-irma"
+            ]
+          ],
           "title": [
             [
               "イルマ・イングリッド"
@@ -33,7 +38,7 @@
           "social_media_image_preview_url": "attachment:5ec10c33-3944-4466-98c3-14ac83d493df:SocialMediaPreviewImage.png"
         },
         "created_time": 1766741365284,
-        "last_edited_time": 1766741651733,
+        "last_edited_time": 1767155022640,
         "parent_id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
         "parent_table": "collection",
         "alive": true,
@@ -1084,12 +1089,12 @@
     "2d53b07c-81ff-81f1-b69e-d02877f7c07d": {
       "value": {
         "id": "2d53b07c-81ff-81f1-b69e-d02877f7c07d",
-        "version": 1,
+        "version": 4,
         "type": "callout",
         "content": [
           "2d53b07c-81ff-81ed-9e4c-d76ac6539390",
           "2d53b07c-81ff-812a-9ea5-f2ff52fb96e0",
-          "2d53b07c-81ff-81b6-b8f1-cad3fa13fd66"
+          "2da3b07c-81ff-80f6-87c0-e8111da0ae6e"
         ],
         "format": {
           "block_color": "gray_background",
@@ -1101,7 +1106,7 @@
           }
         },
         "created_time": 1766741365283,
-        "last_edited_time": 1766741365283,
+        "last_edited_time": 1767154976754,
         "parent_id": "2d53b07c-81ff-801c-ad0a-dc4da8f59276",
         "parent_table": "block",
         "alive": true,
@@ -2776,8 +2781,15 @@
     "2d53b07c-81ff-81ed-9e4c-d76ac6539390": {
       "value": {
         "id": "2d53b07c-81ff-81ed-9e4c-d76ac6539390",
-        "version": 1,
+        "version": 5,
         "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "イルマの苦悩"
+            ]
+          ]
+        },
         "format": {
           "copied_from_pointer": {
             "id": "2813b07c-81ff-8091-b811-c40af6624a32",
@@ -2786,7 +2798,7 @@
           }
         },
         "created_time": 1766741365284,
-        "last_edited_time": 1766741365284,
+        "last_edited_time": 1767154979388,
         "parent_id": "2d53b07c-81ff-81f1-b69e-d02877f7c07d",
         "parent_table": "block",
         "alive": true,
@@ -2803,6 +2815,28 @@
                   "i": [
                     {
                       "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3ZHeojx11BpH",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 6,
+                      "c": "イルマの苦悩"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3ZHeojx11BpH",
+                        7
+                      ],
+                      "o": [
+                        "3ZHeojx11BpH",
+                        6
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -2863,36 +2897,57 @@
       },
       "role": "reader"
     },
-    "2d53b07c-81ff-81b6-b8f1-cad3fa13fd66": {
+    "2da3b07c-81ff-80f6-87c0-e8111da0ae6e": {
       "value": {
-        "id": "2d53b07c-81ff-81b6-b8f1-cad3fa13fd66",
-        "version": 1,
+        "id": "2da3b07c-81ff-80f6-87c0-e8111da0ae6e",
+        "version": 6,
         "type": "text",
-        "format": {
-          "copied_from_pointer": {
-            "id": "2813b07c-81ff-804b-806b-c0c09d9ee8a3",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
+        "properties": {
+          "title": [
+            [
+              "教師となったイルマは仕事に対して非常に強い責任感を持っている。\n元軍人としての経験から、後輩や年齢の近い若者に対しては厳しい態度を取るが、子供たちには優しく接する。\n教師としてのイルマは生徒たちを深く気にかけているが、その厳格な表情の裏には、彼女らに好かれたいという思いが隠されている。\nしかし、あまりにも厳格なせいか、イルマは生徒たちと良好な関係を築くことができず、絆を深められずにいる。それが常に彼女の悩みとなっている。"
+            ]
+          ]
         },
-        "created_time": 1766741365284,
-        "last_edited_time": 1766741365284,
+        "created_time": 1767154976742,
+        "last_edited_time": 1767154978252,
         "parent_id": "2d53b07c-81ff-81f1-b69e-d02877f7c07d",
         "parent_table": "block",
         "alive": true,
-        "copied_from": "2813b07c-81ff-804b-806b-c0c09d9ee8a3",
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "5E0JC0joJy9dfwa6j5Zg0w,\"start\",\"end\"",
+            "r": "rN1RNP_eRtbE3rHTiCAFfQ,\"start\",\"end\"",
             "n": {
-              "5E0JC0joJy9dfwa6j5Zg0w,\"start\",\"end\"": {
+              "rN1RNP_eRtbE3rHTiCAFfQ,\"start\",\"end\"": {
                 "s": {
-                  "x": "5E0JC0joJy9dfwa6j5Zg0w",
+                  "x": "rN1RNP_eRtbE3rHTiCAFfQ",
                   "i": [
                     {
                       "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "y2DAmicj44r3",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "y2DAmicj44r3",
+                        8
+                      ],
+                      "o": [
+                        "y2DAmicj44r3",
+                        7
+                      ],
+                      "l": 212,
+                      "c": "教師となったイルマは仕事に対して非常に強い責任感を持っている。\n元軍人としての経験から、後輩や年齢の近い若者に対しては厳しい態度を取るが、子供たちには優しく接する。\n教師としてのイルマは生徒たちを深く気にかけているが、その厳格な表情の裏には、彼女らに好かれたいという思いが隠されている。\nしかし、あまりにも厳格なせいか、イルマは生徒たちと良好な関係を築くことができず、絆を深められずにいる。それが常に彼女の悩みとなっている。"
                     },
                     {
                       "t": "e"
@@ -3752,6 +3807,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2d53b07c-81ff-800a-9aab-da50bea97bb1": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d6e5aa8e-83f3-4c53-b015-14ddbcb05534/image.png?table=block&id=2d53b07c-81ff-800a-9aab-da50bea97bb1&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1766764800000&signature=G0XtMhPsyH-HkXgqk-uTL2pNC6Q79izkqZ0fN2EHWfw"
+    "2d53b07c-81ff-800a-9aab-da50bea97bb1": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d6e5aa8e-83f3-4c53-b015-14ddbcb05534/image.png?table=block&id=2d53b07c-81ff-800a-9aab-da50bea97bb1&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1767232800000&signature=R_2zoGpyBpmUzCc56uiu7-sds0_HlJ8Rve9BvLLcfDQ"
   }
 }
