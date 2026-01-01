@@ -3,7 +3,7 @@
     "25e3b07c-81ff-8012-99ca-ca95556f12b7": {
       "value": {
         "id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
-        "version": 75,
+        "version": 76,
         "type": "collection_view_page",
         "content": [
           "2b93b07c-81ff-80b1-ad37-c5579ae66e94",
@@ -28,7 +28,7 @@
           ]
         },
         "created_time": 1756447751831,
-        "last_edited_time": 1766741364972,
+        "last_edited_time": 1767240584739,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -7756,9 +7756,14 @@
     "2d53b07c-81ff-801c-ad0a-dc4da8f59276": {
       "value": {
         "id": "2d53b07c-81ff-801c-ad0a-dc4da8f59276",
-        "version": 21,
+        "version": 44,
         "type": "page",
         "properties": {
+          "^;~U": [
+            [
+              "kanban-irma"
+            ]
+          ],
           "title": [
             [
               "イルマ・イングリッド"
@@ -7786,7 +7791,7 @@
           "social_media_image_preview_url": "attachment:5ec10c33-3944-4466-98c3-14ac83d493df:SocialMediaPreviewImage.png"
         },
         "created_time": 1766741365284,
-        "last_edited_time": 1766741651733,
+        "last_edited_time": 1767155022640,
         "parent_id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
         "parent_table": "collection",
         "alive": true,
@@ -7825,6 +7830,93 @@
                       "t": "t",
                       "i": [
                         "Gz74INJDGMJ5",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -9
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2db3b07c-81ff-80a3-bb74-dec5603d3373": {
+      "value": {
+        "id": "2db3b07c-81ff-80a3-bb74-dec5603d3373",
+        "version": 16,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "ラニアット・猫カフェの店長"
+            ]
+          ]
+        },
+        "content": [
+          "2db3b07c-81ff-8101-bea0-feb194dd473d",
+          "2db3b07c-81ff-81b5-9329-f31a6b3b74bd",
+          "2db3b07c-81ff-8104-b830-d7c9aac447e9",
+          "2db3b07c-81ff-812c-9fdd-c868222fdb02",
+          "2db3b07c-81ff-8116-a4cb-dc505f8f2700",
+          "2db3b07c-81ff-81c2-be72-d423e0d73965"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-8040-a8d4-c61a3c357eb2",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "social_media_image_preview_url": "attachment:2a45d094-61a2-4961-b350-6e3cd0f2e91c:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1767240582420,
+        "last_edited_time": 1767240639380,
+        "parent_id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
+        "parent_table": "collection",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-8040-a8d4-c61a3c357eb2",
+        "file_ids": [
+          "2a45d094-61a2-4961-b350-6e3cd0f2e91c"
+        ],
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "r0eREdT35KDN6rzEVK2j-w,\"start\",\"end\"",
+            "n": {
+              "r0eREdT35KDN6rzEVK2j-w,\"start\",\"end\"": {
+                "s": {
+                  "x": "r0eREdT35KDN6rzEVK2j-w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "_WIx1laCzkih",
+                        10
+                      ],
+                      "o": "start",
+                      "l": 13,
+                      "c": "ラニアット・猫カフェの店長"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "iNF_sGGHkn0w",
                         1
                       ],
                       "o": "start",
@@ -34773,12 +34865,12 @@
     "2d53b07c-81ff-81f1-b69e-d02877f7c07d": {
       "value": {
         "id": "2d53b07c-81ff-81f1-b69e-d02877f7c07d",
-        "version": 1,
+        "version": 4,
         "type": "callout",
         "content": [
           "2d53b07c-81ff-81ed-9e4c-d76ac6539390",
           "2d53b07c-81ff-812a-9ea5-f2ff52fb96e0",
-          "2d53b07c-81ff-81b6-b8f1-cad3fa13fd66"
+          "2da3b07c-81ff-80f6-87c0-e8111da0ae6e"
         ],
         "format": {
           "block_color": "gray_background",
@@ -34790,7 +34882,7 @@
           }
         },
         "created_time": 1766741365283,
-        "last_edited_time": 1766741365283,
+        "last_edited_time": 1767154976754,
         "parent_id": "2d53b07c-81ff-801c-ad0a-dc4da8f59276",
         "parent_table": "block",
         "alive": true,
@@ -34874,13 +34966,361 @@
         }
       },
       "role": "reader"
+    },
+    "2db3b07c-81ff-8101-bea0-feb194dd473d": {
+      "value": {
+        "id": "2db3b07c-81ff-8101-bea0-feb194dd473d",
+        "version": 2,
+        "type": "sub_header",
+        "properties": {
+          "title": [
+            [
+              "データ"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80f2-988c-cc6485ebde43",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767240582419,
+        "last_edited_time": 1767240582419,
+        "parent_id": "2db3b07c-81ff-80a3-bb74-dec5603d3373",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80f2-988c-cc6485ebde43",
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "TvMIdosZ9ml4RonLvKZPwg,\"start\",\"end\"",
+            "n": {
+              "TvMIdosZ9ml4RonLvKZPwg,\"start\",\"end\"": {
+                "s": {
+                  "x": "TvMIdosZ9ml4RonLvKZPwg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "RHDS8erOy6Ik",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "データ"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2db3b07c-81ff-81b5-9329-f31a6b3b74bd": {
+      "value": {
+        "id": "2db3b07c-81ff-81b5-9329-f31a6b3b74bd",
+        "version": 3,
+        "type": "callout",
+        "content": [
+          "2db3b07c-81ff-81dc-8c15-ea55f20a238a",
+          "2db3b07c-81ff-810c-9578-dbb717155c37",
+          "2db3b07c-81ff-810b-ae03-cbdac2e7c784",
+          "2db3b07c-81ff-81ae-ac11-f45e467aa9aa",
+          "2db3b07c-81ff-812e-b0be-fadaefb120d3"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-807f-8a48-fbe3771e3e59",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767240582418,
+        "last_edited_time": 1767240603012,
+        "parent_id": "2db3b07c-81ff-80a3-bb74-dec5603d3373",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-807f-8a48-fbe3771e3e59",
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "BlkQ0vDtTaDMJEq-4bjDIA,\"start\",\"end\"",
+            "n": {
+              "BlkQ0vDtTaDMJEq-4bjDIA,\"start\",\"end\"": {
+                "s": {
+                  "x": "BlkQ0vDtTaDMJEq-4bjDIA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2db3b07c-81ff-8104-b830-d7c9aac447e9": {
+      "value": {
+        "id": "2db3b07c-81ff-8104-b830-d7c9aac447e9",
+        "version": 3,
+        "type": "callout",
+        "content": [
+          "2db3b07c-81ff-8130-93f3-f8934f5b72b5",
+          "2db3b07c-81ff-80e2-98a1-f2c87e0a9bb0"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-80c3-9bd2-f21bccfae6e8",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767240582419,
+        "last_edited_time": 1767240613702,
+        "parent_id": "2db3b07c-81ff-80a3-bb74-dec5603d3373",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-80c3-9bd2-f21bccfae6e8",
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Z9DRSdmEMWEts-txL94EMg,\"start\",\"end\"",
+            "n": {
+              "Z9DRSdmEMWEts-txL94EMg,\"start\",\"end\"": {
+                "s": {
+                  "x": "Z9DRSdmEMWEts-txL94EMg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2db3b07c-81ff-812c-9fdd-c868222fdb02": {
+      "value": {
+        "id": "2db3b07c-81ff-812c-9fdd-c868222fdb02",
+        "version": 2,
+        "type": "sub_header",
+        "properties": {
+          "title": [
+            [
+              "台詞"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-808f-99e7-d35be0a80370",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767240582419,
+        "last_edited_time": 1767240582419,
+        "parent_id": "2db3b07c-81ff-80a3-bb74-dec5603d3373",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-808f-99e7-d35be0a80370",
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "4OdyfGYgUtbLxFGM8QLR5w,\"start\",\"end\"",
+            "n": {
+              "4OdyfGYgUtbLxFGM8QLR5w,\"start\",\"end\"": {
+                "s": {
+                  "x": "4OdyfGYgUtbLxFGM8QLR5w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "-EP25T5eDpqR",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "台詞"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2db3b07c-81ff-8116-a4cb-dc505f8f2700": {
+      "value": {
+        "id": "2db3b07c-81ff-8116-a4cb-dc505f8f2700",
+        "version": 1,
+        "type": "callout",
+        "content": [
+          "2db3b07c-81ff-814a-bb3d-fe9a7868b312"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "25e3b07c-81ff-8029-8fd8-de2aa84f89de",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767240582418,
+        "last_edited_time": 1767240582418,
+        "parent_id": "2db3b07c-81ff-80a3-bb74-dec5603d3373",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "25e3b07c-81ff-8029-8fd8-de2aa84f89de",
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ZYEjbUrj851cBGqinY6W4w,\"start\",\"end\"",
+            "n": {
+              "ZYEjbUrj851cBGqinY6W4w,\"start\",\"end\"": {
+                "s": {
+                  "x": "ZYEjbUrj851cBGqinY6W4w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2db3b07c-81ff-81c2-be72-d423e0d73965": {
+      "value": {
+        "id": "2db3b07c-81ff-81c2-be72-d423e0d73965",
+        "version": 1,
+        "type": "text",
+        "format": {
+          "copied_from_pointer": {
+            "id": "2813b07c-81ff-80da-879e-e665c8e26183",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767240582419,
+        "last_edited_time": 1767240582419,
+        "parent_id": "2db3b07c-81ff-80a3-bb74-dec5603d3373",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2813b07c-81ff-80da-879e-e665c8e26183",
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "uC4df_RZAk3Mq4mbysdIAg,\"start\",\"end\"",
+            "n": {
+              "uC4df_RZAk3Mq4mbysdIAg,\"start\",\"end\"": {
+                "s": {
+                  "x": "uC4df_RZAk3Mq4mbysdIAg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
     }
   },
   "collection_view": {
     "25e3b07c-81ff-80a6-8d5d-000cfd50a16d": {
       "value": {
         "id": "25e3b07c-81ff-80a6-8d5d-000cfd50a16d",
-        "version": 213,
+        "version": 219,
         "type": "gallery",
         "format": {
           "table_wrap": true,
@@ -34932,6 +35372,7 @@
           "25e3b07c-81ff-80df-b6f2-e8db695137be",
           "25e3b07c-81ff-80c6-ba14-f09986022e48",
           "26d3b07c-81ff-80a1-9184-c390d13443be",
+          "2db3b07c-81ff-80a3-bb74-dec5603d3373",
           "25e3b07c-81ff-80c8-a0e9-ede4d91d2f8f",
           "25e3b07c-81ff-806d-b2b5-f53ac812dabc",
           "25e3b07c-81ff-8049-9618-e15920c54158",
@@ -34991,7 +35432,7 @@
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "created_time": 1760176855849,
-        "last_edited_time": 1766741372094,
+        "last_edited_time": 1767240597666,
         "created_by_table": "notion_user",
         "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
@@ -35456,6 +35897,7 @@
             "25e3b07c-81ff-80df-b6f2-e8db695137be",
             "25e3b07c-81ff-80c6-ba14-f09986022e48",
             "26d3b07c-81ff-80a1-9184-c390d13443be",
+            "2db3b07c-81ff-80a3-bb74-dec5603d3373",
             "25e3b07c-81ff-80c8-a0e9-ede4d91d2f8f",
             "25e3b07c-81ff-806d-b2b5-f53ac812dabc",
             "25e3b07c-81ff-8049-9618-e15920c54158",
