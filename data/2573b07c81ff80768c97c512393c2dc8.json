@@ -3,7 +3,7 @@
     "2573b07c-81ff-8076-8c97-c512393c2dc8": {
       "value": {
         "id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "version": 171,
+        "version": 175,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -29,6 +29,7 @@
           "27d3b07c-81ff-8021-9242-d4982307fd8f",
           "2a03b07c-81ff-80f1-b394-c370e9a021a4",
           "2d33b07c-81ff-8022-98cc-c7096bf94263",
+          "2e03b07c-81ff-8072-8667-cee40b433efb",
           "2893b07c-81ff-80bd-baba-f4c563d1e680",
           "2863b07c-81ff-805f-9b2e-c297f8891c8f",
           "2913b07c-81ff-803c-92cf-dbd1cc33ae4b",
@@ -44,7 +45,7 @@
           "social_media_image_preview_url": "attachment:0eab7c0e-ed9f-40fb-a5ad-56992f43fc6c:SocialMediaPreviewImage.png"
         },
         "created_time": 1755881175615,
-        "last_edited_time": 1766571708879,
+        "last_edited_time": 1767713627682,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -804,7 +805,7 @@
     "2813b07c-81ff-805c-afb1-cb31163b9008": {
       "value": {
         "id": "2813b07c-81ff-805c-afb1-cb31163b9008",
-        "version": 38,
+        "version": 39,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -1734,7 +1735,7 @@
     "2d33b07c-81ff-8022-98cc-c7096bf94263": {
       "value": {
         "id": "2d33b07c-81ff-8022-98cc-c7096bf94263",
-        "version": 146,
+        "version": 147,
         "type": "page",
         "properties": {
           "title": [
@@ -1822,7 +1823,7 @@
           "social_media_image_preview_url": "attachment:6f3634e5-02ef-4770-90f8-fc1a78e41dbe:SocialMediaPreviewImage.png"
         },
         "created_time": 1766571708870,
-        "last_edited_time": 1766571961790,
+        "last_edited_time": 1766948221812,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -2020,6 +2021,227 @@
                       ],
                       "o": "start",
                       "l": -2
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e03b07c-81ff-8072-8667-cee40b433efb": {
+      "value": {
+        "id": "2e03b07c-81ff-8072-8667-cee40b433efb",
+        "version": 100,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "崩壊学園の計算式"
+            ]
+          ]
+        },
+        "content": [
+          "2e03b07c-81ff-8096-8442-fc5d72accf67",
+          "2e03b07c-81ff-8014-83c3-d20fdeae4a79",
+          "2e03b07c-81ff-8052-9019-d4828241dfe6",
+          "2e03b07c-81ff-8021-b466-d3ccde835573",
+          "2e03b07c-81ff-80d7-b05b-e7db05679685",
+          "2e03b07c-81ff-8081-bbf6-d684badb5382",
+          "2e03b07c-81ff-80bb-81a8-ea67f63fe838",
+          "2e03b07c-81ff-806b-bb6c-c621ae8a4918",
+          "2e03b07c-81ff-80fa-9835-cbd209d12d8c",
+          "2e03b07c-81ff-80f9-b49a-dbe320091c58",
+          "2e03b07c-81ff-8037-88d0-c7aee74e977a",
+          "2e03b07c-81ff-8048-929e-cd13b6b6013c",
+          "2e03b07c-81ff-805a-b647-ccfaaf2d2f37",
+          "2e03b07c-81ff-8008-95a6-f756e7b6cceb",
+          "2e03b07c-81ff-800a-b4a6-dd41d251c388",
+          "2e03b07c-81ff-805e-9242-c6d83fdbdcd8",
+          "2e03b07c-81ff-80cd-9504-deff71c57f6a",
+          "2e03b07c-81ff-8033-b00f-d3db7d34810d",
+          "2e03b07c-81ff-8056-b8e6-fe5feadbd435",
+          "2e03b07c-81ff-8033-a48c-fdf0a6e13239",
+          "2e03b07c-81ff-8077-8a75-d860a50d93b1",
+          "2e03b07c-81ff-80e7-987f-f6e2c6d4d713",
+          "2e03b07c-81ff-8031-8f09-e7bbfe75225a",
+          "2e03b07c-81ff-80d0-9b57-d9bdf1a5ebe2",
+          "2e03b07c-81ff-808a-9887-c81e215bcfc3",
+          "2e03b07c-81ff-8080-838e-d9b045713332",
+          "2e03b07c-81ff-80c5-b5cf-e65c4f066540",
+          "2e03b07c-81ff-8048-bc37-ea12871832c8",
+          "2e03b07c-81ff-809a-901c-c5d836cad604",
+          "2e03b07c-81ff-80c3-b9d0-c3d3de3de82d",
+          "2e03b07c-81ff-807b-8cdc-c675516d9d29",
+          "2e03b07c-81ff-802b-9f41-c8eb7f0f39bb",
+          "2e03b07c-81ff-8024-ba7c-f6dcb4734b2c",
+          "2e03b07c-81ff-8014-aa60-ef91cdafb096",
+          "2e03b07c-81ff-8003-a440-ff7a220e8224",
+          "2e03b07c-81ff-8033-becb-e04eb3359ba3",
+          "2e03b07c-81ff-80bf-9989-d2d436d3a6ef",
+          "2e03b07c-81ff-8019-bb70-da8306f283f4",
+          "2e03b07c-81ff-80b6-a1d7-ec8144e74911",
+          "2e03b07c-81ff-806c-93cd-c957c6b650e6",
+          "2e03b07c-81ff-807e-91b8-e5db64355b69",
+          "2e03b07c-81ff-808f-a733-f173e1b1fb70",
+          "2e03b07c-81ff-8040-b750-e41eb993b351",
+          "2e03b07c-81ff-80b5-9245-e4d07899548c",
+          "2e03b07c-81ff-8006-8283-c392fdad639d",
+          "2e03b07c-81ff-80da-83f7-fbc9c5497665",
+          "2e03b07c-81ff-8034-ac1d-f0df51dd292f",
+          "2e03b07c-81ff-808c-a037-f2817666f5f4",
+          "2e03b07c-81ff-806f-879d-cb1d749163c5",
+          "2e03b07c-81ff-8071-9fba-edf395454ac2",
+          "2e03b07c-81ff-8016-bcbe-e90b06ba6ab3",
+          "2e03b07c-81ff-80e9-86a4-e7b059d0ef93",
+          "2e03b07c-81ff-8065-b3c9-e79660f2f216",
+          "2e03b07c-81ff-8044-a0e7-c62e6aac930a",
+          "2e03b07c-81ff-8096-aea9-d6e2441c1d28"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:fdb0dedc-8ce1-446e-b87c-a8ed51596738:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1767713627681,
+        "last_edited_time": 1767713654780,
+        "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "fdb0dedc-8ce1-446e-b87c-a8ed51596738"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "o9C_6ijkRK8ZoYnTZEqqGQ,\"start\",\"end\"",
+            "n": {
+              "o9C_6ijkRK8ZoYnTZEqqGQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "o9C_6ijkRK8ZoYnTZEqqGQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "orhY-RFPv5h8",
+                        7
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "崩壊学園"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "orhY-RFPv5h8",
+                        12
+                      ],
+                      "o": [
+                        "orhY-RFPv5h8",
+                        10
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "orhY-RFPv5h8",
+                        16
+                      ],
+                      "o": [
+                        "orhY-RFPv5h8",
+                        12
+                      ],
+                      "l": 3,
+                      "c": "計算式"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "orhY-RFPv5h8",
+                        14
+                      ],
+                      "o": [
+                        "orhY-RFPv5h8",
+                        12
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "orhY-RFPv5h8",
+                        13
+                      ],
+                      "o": [
+                        "orhY-RFPv5h8",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "orhY-RFPv5h8",
+                        11
+                      ],
+                      "o": [
+                        "orhY-RFPv5h8",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "orhY-RFPv5h8",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "orhY-RFPv5h8",
+                        5
+                      ],
+                      "o": [
+                        "orhY-RFPv5h8",
+                        3
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "orhY-RFPv5h8",
+                        4
+                      ],
+                      "o": [
+                        "orhY-RFPv5h8",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "orhY-RFPv5h8",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
                     },
                     {
                       "t": "e"
