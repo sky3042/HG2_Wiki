@@ -3,7 +3,7 @@
     "2e03b07c-81ff-8072-8667-cee40b433efb": {
       "value": {
         "id": "2e03b07c-81ff-8072-8667-cee40b433efb",
-        "version": 100,
+        "version": 102,
         "type": "page",
         "properties": {
           "title": [
@@ -70,10 +70,11 @@
           "2e03b07c-81ff-8096-aea9-d6e2441c1d28"
         ],
         "format": {
+          "page_full_width": true,
           "social_media_image_preview_url": "attachment:fdb0dedc-8ce1-446e-b87c-a8ed51596738:SocialMediaPreviewImage.png"
         },
         "created_time": 1767713627681,
-        "last_edited_time": 1767713654780,
+        "last_edited_time": 1767715017835,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
