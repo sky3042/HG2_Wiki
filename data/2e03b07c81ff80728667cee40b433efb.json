@@ -3,7 +3,7 @@
     "2e03b07c-81ff-8072-8667-cee40b433efb": {
       "value": {
         "id": "2e03b07c-81ff-8072-8667-cee40b433efb",
-        "version": 102,
+        "version": 105,
         "type": "page",
         "properties": {
           "title": [
@@ -74,7 +74,7 @@
           "social_media_image_preview_url": "attachment:fdb0dedc-8ce1-446e-b87c-a8ed51596738:SocialMediaPreviewImage.png"
         },
         "created_time": 1767713627681,
-        "last_edited_time": 1767715017835,
+        "last_edited_time": 1767717311068,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -891,10 +891,11 @@
     "2e03b07c-81ff-8081-bbf6-d684badb5382": {
       "value": {
         "id": "2e03b07c-81ff-8081-bbf6-d684badb5382",
-        "version": 3,
+        "version": 8,
         "type": "callout",
         "content": [
           "2e03b07c-81ff-80d0-aac9-e5cfefc9edf1",
+          "2e03b07c-81ff-80c3-a93e-ef7a75ee84d4",
           "2e03b07c-81ff-802a-aa08-c748e0c1af23"
         ],
         "format": {
@@ -907,7 +908,7 @@
           }
         },
         "created_time": 1767713633341,
-        "last_edited_time": 1767713633417,
+        "last_edited_time": 1767717326012,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -2989,12 +2990,12 @@
     "2e03b07c-81ff-80d0-aac9-e5cfefc9edf1": {
       "value": {
         "id": "2e03b07c-81ff-80d0-aac9-e5cfefc9edf1",
-        "version": 3,
+        "version": 18,
         "type": "equation",
         "properties": {
           "title": [
             [
-              "\\textstyle \n\\mathrm{\nDMG_{non\\_crit}\n=\n[\n(\nATK_{base}\n\\times\nATK_{base\\%}\n+\n\\sum ATK_{add}\n)\n\\times\n\\prod (1+\\sum ATK_{\\%})\n]\n\\times\nMLT\n\\times\n\\prod (1+\\sum bonus)\n\\times\n\\prod (1+\\sum vul)\n}"
+              "\\textstyle \n\\mathrm{\nDMG_{non\\_crit}\n=\nATK\n\\times\nMLT\n\\times\n\\prod (1+\\sum bonus)\n\\times\n\\prod (1+\\sum vul)\n}"
             ]
           ]
         },
@@ -3006,7 +3007,7 @@
           }
         },
         "created_time": 1767713633341,
-        "last_edited_time": 1767713633417,
+        "last_edited_time": 1767717314600,
         "parent_id": "2e03b07c-81ff-8081-bbf6-d684badb5382",
         "parent_table": "block",
         "alive": true,
@@ -3027,12 +3028,57 @@
                     {
                       "t": "t",
                       "i": [
+                        "gNo0jtKcOXW8",
+                        620
+                      ],
+                      "o": "start",
+                      "l": 109,
+                      "c": "\\textstyle \n\\mathrm{\nDMG_{non\\_crit}\n=\nATK\n\\times\nMLT\n\\times\n\\prod (1+\\sum bonus)\n\\times\n\\prod (1+\\sum vul)\n}"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        512
+                      ],
+                      "o": "start",
+                      "l": -108
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        405
+                      ],
+                      "o": "start",
+                      "l": -107
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        299
+                      ],
+                      "o": "start",
+                      "l": -106
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        193
+                      ],
+                      "o": "start",
+                      "l": -106
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "k00sQpB_oKjC",
                         1
                       ],
                       "o": "start",
-                      "l": 192,
-                      "c": "\\textstyle \n\\mathrm{\nDMG_{non\\_crit}\n=\n[\n(\nATK_{base}\n\\times\nATK_{base\\%}\n+\n\\sum ATK_{add}\n)\n\\times\n\\prod (1+\\sum ATK_{\\%})\n]\n\\times\nMLT\n\\times\n\\prod (1+\\sum bonus)\n\\times\n\\prod (1+\\sum vul)\n}"
+                      "l": -192
                     },
                     {
                       "t": "e"
@@ -3095,6 +3141,213 @@
                       "o": "start",
                       "l": 74,
                       "c": "\\textstyle \n\\mathrm{\nDMG_{crit} = DMG_{non\\_crit} \\times \\sum Crit_{dmg}\n}"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e03b07c-81ff-80c3-a93e-ef7a75ee84d4": {
+      "value": {
+        "id": "2e03b07c-81ff-80c3-a93e-ef7a75ee84d4",
+        "version": 56,
+        "type": "equation",
+        "properties": {
+          "title": [
+            [
+              "\\textstyle \n\\mathrm{\nATK = \n(\nATK_{base}\n\\times\nATK_{base\\%}\n+\n\\sum ATK_{add}\n)\n\\times\n\\prod (1+\\sum ATK_{\\%})\n}"
+            ]
+          ]
+        },
+        "created_time": 1767717326010,
+        "last_edited_time": 1767717355019,
+        "parent_id": "2e03b07c-81ff-8081-bbf6-d684badb5382",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "kdC_Or5gLm_81s71LadHWw,\"start\",\"end\"",
+            "n": {
+              "kdC_Or5gLm_81s71LadHWw,\"start\",\"end\"": {
+                "s": {
+                  "x": "kdC_Or5gLm_81s71LadHWw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        1557
+                      ],
+                      "o": "start",
+                      "l": 112,
+                      "c": "\\textstyle \n\\mathrm{\nATK = \n(\nATK_{base}\n\\times\nATK_{base\\%}\n+\n\\sum ATK_{add}\n)\n\\times\n\\prod (1+\\sum ATK_{\\%})\n}"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        1446
+                      ],
+                      "o": "start",
+                      "l": -111
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        1336
+                      ],
+                      "o": "start",
+                      "l": -110
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        1246
+                      ],
+                      "o": "start",
+                      "l": -90
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        1157
+                      ],
+                      "o": "start",
+                      "l": -89
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        1067
+                      ],
+                      "o": "start",
+                      "l": -90
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        976
+                      ],
+                      "o": "start",
+                      "l": -91
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        884
+                      ],
+                      "o": "start",
+                      "l": -92
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        793
+                      ],
+                      "o": "start",
+                      "l": -91
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        703
+                      ],
+                      "o": "start",
+                      "l": -90
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        614
+                      ],
+                      "o": "start",
+                      "l": -89
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        526
+                      ],
+                      "o": "start",
+                      "l": -88
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        439
+                      ],
+                      "o": "start",
+                      "l": -87
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        351
+                      ],
+                      "o": "start",
+                      "l": -88
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        262
+                      ],
+                      "o": "start",
+                      "l": -89
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        174
+                      ],
+                      "o": "start",
+                      "l": -88
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        87
+                      ],
+                      "o": "start",
+                      "l": -87
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -86
                     },
                     {
                       "t": "e"
