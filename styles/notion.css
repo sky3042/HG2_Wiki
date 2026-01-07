@@ -411,8 +411,24 @@
   color: var(--fg-color-2);
 }
 
-.notion-equation.notion-equation-block{
-  align-items: center;
+/* 数式ブロックの修正（左見切れ防止対応） */
+.notion-equation.notion-equation-block {
+  display: block;      /* flex配置をやめてblock配置にする */
+  text-align: center;  /* 短い数式は中央揃えにする */
+  
+  /* スクロール設定 */
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  padding: 8px 0;
+}
+
+/* 数式本体（KaTeX）の挙動制御 */
+.notion-equation.notion-equation-block .katex-display {
+  display: inline-block;
+  width: fit-content;  /* 数式の長さに合わせて幅を確保する */
+  margin: 0 auto;      /* 中央配置 */
+  padding: 0 16px;     /* スクロール時の端の余白 */
 }
 
 /* * 引用(Quote)ブロックのスタイル修正
