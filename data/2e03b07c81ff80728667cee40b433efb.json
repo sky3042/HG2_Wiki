@@ -3,7 +3,7 @@
     "2e03b07c-81ff-8072-8667-cee40b433efb": {
       "value": {
         "id": "2e03b07c-81ff-8072-8667-cee40b433efb",
-        "version": 119,
+        "version": 121,
         "type": "page",
         "properties": {
           "title": [
@@ -35,6 +35,7 @@
           "2e03b07c-81ff-8033-a48c-fdf0a6e13239",
           "2e03b07c-81ff-8077-8a75-d860a50d93b1",
           "2e03b07c-81ff-80e7-987f-f6e2c6d4d713",
+          "2e13b07c-81ff-808f-8597-c412c174c31f",
           "2e03b07c-81ff-8031-8f09-e7bbfe75225a",
           "2e03b07c-81ff-80d0-9b57-d9bdf1a5ebe2",
           "2e03b07c-81ff-808a-9887-c81e215bcfc3",
@@ -74,7 +75,7 @@
           "social_media_image_preview_url": "attachment:fdb0dedc-8ce1-446e-b87c-a8ed51596738:SocialMediaPreviewImage.png"
         },
         "created_time": 1767713627681,
-        "last_edited_time": 1767717954981,
+        "last_edited_time": 1767773352508,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -2863,40 +2864,41 @@
       },
       "role": "reader"
     },
-    "2e03b07c-81ff-808a-9887-c81e215bcfc3": {
+    "2e13b07c-81ff-808f-8597-c412c174c31f": {
       "value": {
-        "id": "2e03b07c-81ff-808a-9887-c81e215bcfc3",
-        "version": 4,
-        "type": "sub_sub_header",
+        "id": "2e13b07c-81ff-808f-8597-c412c174c31f",
+        "version": 47,
+        "type": "text",
         "properties": {
           "title": [
             [
-              "移動速度"
+              "⁍",
+              [
+                [
+                  "e",
+                  "\\textstyle\n\\mathrm{Plv}"
+                ]
+              ]
+            ],
+            [
+              " ：プレイヤーレベル。"
             ]
           ]
         },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2da3b07c-81ff-8079-86ab-cfbb9b420c3f",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767713633369,
-        "last_edited_time": 1767713633417,
+        "created_time": 1767773352496,
+        "last_edited_time": 1767773372138,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
-        "copied_from": "2da3b07c-81ff-8079-86ab-cfbb9b420c3f",
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "hHgwrkc1zDos2WBJUL6GIQ,\"start\",\"end\"",
+            "r": "Yen64ZleCM6ZzsFyiwboPA,\"start\",\"end\"",
             "n": {
-              "hHgwrkc1zDos2WBJUL6GIQ,\"start\",\"end\"": {
+              "Yen64ZleCM6ZzsFyiwboPA,\"start\",\"end\"": {
                 "s": {
-                  "x": "hHgwrkc1zDos2WBJUL6GIQ",
+                  "x": "Yen64ZleCM6ZzsFyiwboPA",
                   "i": [
                     {
                       "t": "s"
@@ -2904,12 +2906,243 @@
                     {
                       "t": "t",
                       "i": [
-                        "avxk9cwZsrv7",
+                        "gNo0jtKcOXW8",
                         1
                       ],
                       "o": "start",
+                      "l": -1,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "Yen64ZleCM6ZzsFyiwboPA",
+                          "l": "",
+                          "i": [
+                            "gNo0jtKcOXW8",
+                            2
+                          ],
+                          "s": {
+                            "i": [
+                              "gNo0jtKcOXW8",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "gNo0jtKcOXW8",
+                              1
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "Plv"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        3
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "Yen64ZleCM6ZzsFyiwboPA",
+                          "l": "",
+                          "i": [
+                            "gNo0jtKcOXW8",
+                            4
+                          ],
+                          "s": {
+                            "i": [
+                              "gNo0jtKcOXW8",
+                              3
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "gNo0jtKcOXW8",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{Plv}"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        5
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        3
+                      ],
+                      "l": 2,
+                      "c": " ："
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        11
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        6
+                      ],
+                      "l": 5,
+                      "c": "プレイヤー"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        22
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        15
+                      ],
                       "l": 4,
-                      "c": "移動速度"
+                      "c": "レベル。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        17
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        19
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        17
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        21
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        19
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        20
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        19
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        18
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        17
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        16
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        8
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        10
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        9
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        7
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        6
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -3534,6 +3767,68 @@
                       "o": "start",
                       "l": 105,
                       "c": "\\textstyle\n\\mathrm{\nHP_{max}=( HP_{base} \\times HP_{base\\%} + 5\\times Plv+590 + HP_{add})\\times HP_{\\%}\n}"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e03b07c-81ff-808a-9887-c81e215bcfc3": {
+      "value": {
+        "id": "2e03b07c-81ff-808a-9887-c81e215bcfc3",
+        "version": 4,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "移動速度"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2da3b07c-81ff-8079-86ab-cfbb9b420c3f",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767713633369,
+        "last_edited_time": 1767713633417,
+        "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2da3b07c-81ff-8079-86ab-cfbb9b420c3f",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "hHgwrkc1zDos2WBJUL6GIQ,\"start\",\"end\"",
+            "n": {
+              "hHgwrkc1zDos2WBJUL6GIQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "hHgwrkc1zDos2WBJUL6GIQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "avxk9cwZsrv7",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "移動速度"
                     },
                     {
                       "t": "e"
@@ -5785,6 +6080,395 @@
       },
       "role": "reader"
     },
+    "2e03b07c-81ff-8090-b041-fbe81eb46d2d": {
+      "value": {
+        "id": "2e03b07c-81ff-8090-b041-fbe81eb46d2d",
+        "version": 92,
+        "type": "bulleted_list",
+        "properties": {
+          "title": [
+            [
+              "攻撃速度は基本的には乗算。"
+            ]
+          ]
+        },
+        "created_time": 1767717831425,
+        "last_edited_time": 1767717845116,
+        "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "YEUiFJaqXa4Nh2EyNhlJHA,\"start\",\"end\"",
+            "n": {
+              "YEUiFJaqXa4Nh2EyNhlJHA,\"start\",\"end\"": {
+                "s": {
+                  "x": "YEUiFJaqXa4Nh2EyNhlJHA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        13
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "攻撃速度"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        18
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        16
+                      ],
+                      "l": 1,
+                      "c": "は"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        28
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        18
+                      ],
+                      "l": 3,
+                      "c": "基本的"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        32
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        30
+                      ],
+                      "l": 1,
+                      "c": "に"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        34
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        32
+                      ],
+                      "l": 1,
+                      "c": "は"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        42
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        34
+                      ],
+                      "l": 3,
+                      "c": "乗算。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        36
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        34
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        40
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        38
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        39
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        38
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        35
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        34
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        33
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        32
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        31
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        30
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        25
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        27
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        25
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        26
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        25
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        24
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        20
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        18
+                      ],
+                      "l": -4
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        19
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        17
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        16
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        5
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        7
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        9
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        7
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        11
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        9
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        10
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        9
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        8
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        7
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        6
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        4
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "gNo0jtKcOXW8",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "2e03b07c-81ff-80bf-9989-d2d436d3a6ef": {
       "value": {
         "id": "2e03b07c-81ff-80bf-9989-d2d436d3a6ef",
@@ -6585,457 +7269,6 @@
                   "i": [
                     {
                       "t": "s"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e03b07c-81ff-8071-9fba-edf395454ac2": {
-      "value": {
-        "id": "2e03b07c-81ff-8071-9fba-edf395454ac2",
-        "version": 4,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "“実際”の列と”ダメージ（32bit）”の列を比べると、ほぼ一致していることが分かります。"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2d93b07c-81ff-803c-9963-fce1982ae3c6",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767713633394,
-        "last_edited_time": 1767713633417,
-        "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2d93b07c-81ff-803c-9963-fce1982ae3c6",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "niDtNnHbYZows8KRlC-CfQ,\"start\",\"end\"",
-            "n": {
-              "niDtNnHbYZows8KRlC-CfQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "niDtNnHbYZows8KRlC-CfQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "r_wrou9ioNlI",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 45,
-                      "c": "“実際”の列と”ダメージ（32bit）”の列を比べると、ほぼ一致していることが分かります。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e03b07c-81ff-8090-b041-fbe81eb46d2d": {
-      "value": {
-        "id": "2e03b07c-81ff-8090-b041-fbe81eb46d2d",
-        "version": 92,
-        "type": "bulleted_list",
-        "properties": {
-          "title": [
-            [
-              "攻撃速度は基本的には乗算。"
-            ]
-          ]
-        },
-        "created_time": 1767717831425,
-        "last_edited_time": 1767717845116,
-        "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "YEUiFJaqXa4Nh2EyNhlJHA,\"start\",\"end\"",
-            "n": {
-              "YEUiFJaqXa4Nh2EyNhlJHA,\"start\",\"end\"": {
-                "s": {
-                  "x": "YEUiFJaqXa4Nh2EyNhlJHA",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        13
-                      ],
-                      "o": "start",
-                      "l": 4,
-                      "c": "攻撃速度"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        18
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        16
-                      ],
-                      "l": 1,
-                      "c": "は"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        28
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        18
-                      ],
-                      "l": 3,
-                      "c": "基本的"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        32
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        30
-                      ],
-                      "l": 1,
-                      "c": "に"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        34
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        32
-                      ],
-                      "l": 1,
-                      "c": "は"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        42
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        34
-                      ],
-                      "l": 3,
-                      "c": "乗算。"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        36
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        34
-                      ],
-                      "l": -3
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        40
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        38
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        39
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        38
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        35
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        34
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        33
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        32
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        31
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        30
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        25
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        18
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        27
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        25
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        26
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        25
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        24
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        18
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        20
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        18
-                      ],
-                      "l": -4
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        19
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        18
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        17
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        16
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        2
-                      ],
-                      "o": "start",
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        5
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        3
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        7
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        5
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        9
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        7
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        11
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        9
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        10
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        9
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        8
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        7
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        6
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        5
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        4
-                      ],
-                      "o": [
-                        "gNo0jtKcOXW8",
-                        3
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "gNo0jtKcOXW8",
-                        1
-                      ],
-                      "o": "start",
-                      "l": -1
                     },
                     {
                       "t": "e"
@@ -10671,6 +10904,68 @@
                   "i": [
                     {
                       "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e03b07c-81ff-8071-9fba-edf395454ac2": {
+      "value": {
+        "id": "2e03b07c-81ff-8071-9fba-edf395454ac2",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "“実際”の列と”ダメージ（32bit）”の列を比べると、ほぼ一致していることが分かります。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2d93b07c-81ff-803c-9963-fce1982ae3c6",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767713633394,
+        "last_edited_time": 1767713633417,
+        "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2d93b07c-81ff-803c-9963-fce1982ae3c6",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "niDtNnHbYZows8KRlC-CfQ,\"start\",\"end\"",
+            "n": {
+              "niDtNnHbYZows8KRlC-CfQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "niDtNnHbYZows8KRlC-CfQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "r_wrou9ioNlI",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 45,
+                      "c": "“実際”の列と”ダメージ（32bit）”の列を比べると、ほぼ一致していることが分かります。"
                     },
                     {
                       "t": "e"
