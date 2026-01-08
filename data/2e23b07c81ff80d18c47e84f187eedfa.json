@@ -3,7 +3,7 @@
     "2e23b07c-81ff-80d1-8c47-e84f187eedfa": {
       "value": {
         "id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "version": 80,
+        "version": 89,
         "type": "page",
         "properties": {
           "title": [
@@ -23,6 +23,9 @@
           "2e23b07c-81ff-809a-b235-e6b87d4e3e30",
           "2e23b07c-81ff-8034-8018-f8fc3b95c86f",
           "2e23b07c-81ff-80a3-9119-c9efc9767c12",
+          "2e23b07c-81ff-8092-91c2-c04b40bc5f63",
+          "2e23b07c-81ff-806c-91fe-dd81761a81b9",
+          "2e23b07c-81ff-80a1-86a3-d742d2225b83",
           "2e23b07c-81ff-80cd-b411-c083826d7e21",
           "2e23b07c-81ff-80ef-a35d-ec2c26d316a8",
           "2e23b07c-81ff-80c7-80b7-fa81adbf4398",
@@ -46,7 +49,7 @@
           "social_media_image_preview_url": "attachment:1d7bc12e-735b-4a67-93ac-c4cf7de341b5:SocialMediaPreviewImage.png"
         },
         "created_time": 1767861085497,
-        "last_edited_time": 1767861420066,
+        "last_edited_time": 1767862652271,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -633,18 +636,24 @@
     "2e23b07c-81ff-8044-9095-e72e494c716a": {
       "value": {
         "id": "2e23b07c-81ff-8044-9095-e72e494c716a",
-        "version": 5,
+        "version": 63,
         "type": "text",
         "properties": {
           "title": [
             [
-              "‣",
+              "ツールは"
+            ],
+            [
+              "こちら",
               [
                 [
-                  "eoi",
-                  "2e23b07c-81ff-80d3-b567-e6272ff14ded"
+                  "a",
+                  "https://docs.google.com/spreadsheets/d/1o0RorlAj8rNJVrUQG-fBoyiLS9iKrhNqeskzDFZPRrA/edit?usp=sharing"
                 ]
               ]
+            ],
+            [
+              "です。"
             ]
           ]
         },
@@ -656,7 +665,7 @@
           }
         },
         "created_time": 1767861096182,
-        "last_edited_time": 1767861096242,
+        "last_edited_time": 1767862344845,
         "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
         "parent_table": "block",
         "alive": true,
@@ -681,8 +690,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "‣",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -713,6 +721,449 @@
                         }
                       ],
                       "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        8
+                      ],
+                      "o": [
+                        "4RdW1roWsUG9",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "ツ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        4
+                      ],
+                      "o": [
+                        "4RdW1roWsUG9",
+                        1
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        5
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        4
+                      ],
+                      "l": 1,
+                      "c": "ー"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        9
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        5
+                      ],
+                      "l": 1,
+                      "c": "ル"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        11
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        9
+                      ],
+                      "l": 1,
+                      "c": "は",
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "r_OYTrOmBHDnd6DJ3dP82g",
+                          "l": "",
+                          "i": [
+                            "5nuUx13frFTC",
+                            20
+                          ],
+                          "s": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              11
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              16
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        13
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        11
+                      ],
+                      "l": 1,
+                      "c": "こ",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "r_OYTrOmBHDnd6DJ3dP82g",
+                          "l": "",
+                          "i": [
+                            "5nuUx13frFTC",
+                            18
+                          ],
+                          "s": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              16
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "r_OYTrOmBHDnd6DJ3dP82g",
+                          "l": "",
+                          "i": [
+                            "5nuUx13frFTC",
+                            19
+                          ],
+                          "s": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              16
+                            ],
+                            "a": "b"
+                          },
+                          "k": "b"
+                        },
+                        {
+                          "t": "r",
+                          "x": "r_OYTrOmBHDnd6DJ3dP82g",
+                          "l": "",
+                          "i": [
+                            "5nuUx13frFTC",
+                            20
+                          ],
+                          "s": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              11
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              16
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "r_OYTrOmBHDnd6DJ3dP82g",
+                          "l": "",
+                          "i": [
+                            "5nuUx13frFTC",
+                            21
+                          ],
+                          "s": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              17
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "https://docs.google.com/spreadsheets/d/1o0RorlAj8rNJVrUQG-fBoyiLS9iKrhNqeskzDFZPRrA/edit?usp=sharing"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        15
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        13
+                      ],
+                      "l": 1,
+                      "c": "ち"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        17
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        15
+                      ],
+                      "l": 1,
+                      "c": "ら",
+                      "a": [
+                        {
+                          "t": "a",
+                          "x": "r_OYTrOmBHDnd6DJ3dP82g",
+                          "l": "",
+                          "i": [
+                            "5nuUx13frFTC",
+                            18
+                          ],
+                          "s": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              16
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "r_OYTrOmBHDnd6DJ3dP82g",
+                          "l": "",
+                          "i": [
+                            "5nuUx13frFTC",
+                            19
+                          ],
+                          "s": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              16
+                            ],
+                            "a": "b"
+                          },
+                          "k": "b"
+                        },
+                        {
+                          "t": "r",
+                          "x": "r_OYTrOmBHDnd6DJ3dP82g",
+                          "l": "",
+                          "i": [
+                            "5nuUx13frFTC",
+                            20
+                          ],
+                          "s": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              11
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "5nuUx13frFTC",
+                              16
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        23
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        17
+                      ],
+                      "l": 1,
+                      "c": "で"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        25
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        23
+                      ],
+                      "l": 2,
+                      "c": "す。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        24
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        23
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        22
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        17
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        16
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        15
+                      ],
+                      "l": -1,
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        14
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        12
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        11
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        10
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        9
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        7
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        6
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        3
+                      ],
+                      "o": [
+                        "4RdW1roWsUG9",
+                        1
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -1193,8 +1644,8 @@
     "2e23b07c-81ff-80a3-9119-c9efc9767c12": {
       "value": {
         "id": "2e23b07c-81ff-80a3-9119-c9efc9767c12",
-        "version": 5,
-        "type": "text",
+        "version": 15,
+        "type": "numbered_list",
         "properties": {
           "title": [
             [
@@ -1222,7 +1673,7 @@
           }
         },
         "created_time": 1767861096199,
-        "last_edited_time": 1767861096242,
+        "last_edited_time": 1767862518191,
         "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
         "parent_table": "block",
         "alive": true,
@@ -1239,6 +1690,15 @@
                   "i": [
                     {
                       "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        40
+                      ],
+                      "o": "start",
+                      "l": -3
                     },
                     {
                       "t": "t",
@@ -2245,40 +2705,32 @@
       },
       "role": "reader"
     },
-    "2e23b07c-81ff-804f-bd7d-fbdf4151db7e": {
+    "2e23b07c-81ff-8092-91c2-c04b40bc5f63": {
       "value": {
-        "id": "2e23b07c-81ff-804f-bd7d-fbdf4151db7e",
-        "version": 4,
-        "type": "bulleted_list",
+        "id": "2e23b07c-81ff-8092-91c2-c04b40bc5f63",
+        "version": 231,
+        "type": "numbered_list",
         "properties": {
           "title": [
             [
-              "ロケット砲は再現性を持たせることができなかったので、まだ実装できていません。"
+              "計算シートに装備名とスタックを入力（あるいは保存編成からコピペ）する。"
             ]
           ]
         },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e23b07c-81ff-80df-8f57-f3b89491e080",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096227,
-        "last_edited_time": 1767861096242,
+        "created_time": 1767862519831,
+        "last_edited_time": 1767862577906,
         "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
         "parent_table": "block",
         "alive": true,
-        "copied_from": "2e23b07c-81ff-80df-8f57-f3b89491e080",
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "rgRnA_3B5hXle2msKbcfEA,\"start\",\"end\"",
+            "r": "QzLkc6v-6SWKuRcvr7ZTDA,\"start\",\"end\"",
             "n": {
-              "rgRnA_3B5hXle2msKbcfEA,\"start\",\"end\"": {
+              "QzLkc6v-6SWKuRcvr7ZTDA,\"start\",\"end\"": {
                 "s": {
-                  "x": "rgRnA_3B5hXle2msKbcfEA",
+                  "x": "QzLkc6v-6SWKuRcvr7ZTDA",
                   "i": [
                     {
                       "t": "s"
@@ -2286,12 +2738,937 @@
                     {
                       "t": "t",
                       "i": [
-                        "D6fRGyyxOFnr",
+                        "5nuUx13frFTC",
+                        7
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "計算"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        11
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        8
+                      ],
+                      "l": 3,
+                      "c": "シート"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        15
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        13
+                      ],
+                      "l": 1,
+                      "c": "に"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        21
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        15
+                      ],
+                      "l": 2,
+                      "c": "装備"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        26
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        22
+                      ],
+                      "l": 1,
+                      "c": "名"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        93
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        26
+                      ],
+                      "l": 1,
+                      "c": "と"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        101
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        93
+                      ],
+                      "l": 4,
+                      "c": "スタック"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        95
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        93
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        97
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        95
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        99
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        97
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        98
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        97
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        96
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        95
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        94
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        93
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        92
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        89
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        91
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        89
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        90
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        89
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        88
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        28
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        30
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        28
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        32
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        30
+                      ],
+                      "l": 1,
+                      "c": "を"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        44
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        32
+                      ],
+                      "l": 3,
+                      "c": "入力（"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        48
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        46
+                      ],
+                      "l": 1,
+                      "c": "あ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        50
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        48
+                      ],
+                      "l": 2,
+                      "c": "るい"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        53
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        51
+                      ],
+                      "l": 1,
+                      "c": "は"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        59
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        53
+                      ],
+                      "l": 2,
+                      "c": "保存"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        68
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        60
+                      ],
+                      "l": 2,
+                      "c": "編成"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        71
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        69
+                      ],
+                      "l": 1,
+                      "c": "か"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        73
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        71
+                      ],
+                      "l": 1,
+                      "c": "ら"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        80
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        73
+                      ],
+                      "l": 3,
+                      "c": "コピペ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        75
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        73
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        77
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        75
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        79
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        77
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        78
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        77
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        76
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        75
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        74
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        73
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        72
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        71
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        70
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        69
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        62
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        60
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        64
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        62
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        66
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        64
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        65
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        64
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        63
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        62
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        61
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        60
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        55
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        53
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        57
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        55
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        56
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        55
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        54
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        53
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        52
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        51
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        49
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        48
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        47
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        46
+                      ],
+                      "l": 1,
+                      "c": "）"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        84
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        47
+                      ],
+                      "l": 1,
+                      "c": "す"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        86
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        84
+                      ],
+                      "l": 2,
+                      "c": "る。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        85
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        84
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        83
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        47
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        35
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        32
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        40
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        37
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        43
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        41
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        42
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        41
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        38
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        37
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        33
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        32
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        31
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        30
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        29
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        28
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        27
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        24
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        22
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        23
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        22
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        17
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        15
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        20
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        19
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        16
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        14
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        10
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        9
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        5
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        3
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        4
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
                         1
                       ],
                       "o": "start",
-                      "l": 38,
-                      "c": "ロケット砲は再現性を持たせることができなかったので、まだ実装できていません。"
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -2307,40 +3684,32 @@
       },
       "role": "reader"
     },
-    "2e23b07c-81ff-80ba-8d53-d0357b1649e2": {
+    "2e23b07c-81ff-806c-91fe-dd81761a81b9": {
       "value": {
-        "id": "2e23b07c-81ff-80ba-8d53-d0357b1649e2",
-        "version": 87,
-        "type": "bulleted_list",
+        "id": "2e23b07c-81ff-806c-91fe-dd81761a81b9",
+        "version": 93,
+        "type": "numbered_list",
         "properties": {
           "title": [
             [
-              "空想星霊・魚座は計算ロジックが分からないので、まだ実装できていません。"
+              "結果シートでダメージを確認。"
             ]
           ]
         },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e23b07c-81ff-80aa-9e27-d6918a70ff33",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096228,
-        "last_edited_time": 1767861465970,
+        "created_time": 1767862548751,
+        "last_edited_time": 1767862559973,
         "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
         "parent_table": "block",
         "alive": true,
-        "copied_from": "2e23b07c-81ff-80aa-9e27-d6918a70ff33",
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "XGeugYcjm8TkAPlQ8ClQdw,\"start\",\"end\"",
+            "r": "5ez8lLvuCBXXRD4s6zER2g,\"start\",\"end\"",
             "n": {
-              "XGeugYcjm8TkAPlQ8ClQdw,\"start\",\"end\"": {
+              "5ez8lLvuCBXXRD4s6zER2g,\"start\",\"end\"": {
                 "s": {
-                  "x": "XGeugYcjm8TkAPlQ8ClQdw",
+                  "x": "5ez8lLvuCBXXRD4s6zER2g",
                   "i": [
                     {
                       "t": "s"
@@ -2349,47 +3718,34 @@
                       "t": "t",
                       "i": [
                         "5nuUx13frFTC",
-                        37
+                        8
                       ],
                       "o": "start",
                       "l": 2,
-                      "c": "空想"
+                      "c": "結果"
                     },
                     {
                       "t": "t",
                       "i": [
                         "5nuUx13frFTC",
-                        49
+                        15
                       ],
                       "o": [
                         "5nuUx13frFTC",
-                        38
+                        9
                       ],
                       "l": 1,
-                      "c": "星"
+                      "c": "シ"
                     },
                     {
                       "t": "t",
                       "i": [
                         "5nuUx13frFTC",
-                        65
+                        11
                       ],
                       "o": [
                         "5nuUx13frFTC",
-                        49
-                      ],
-                      "l": 2,
-                      "c": "霊・"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "5nuUx13frFTC",
-                        64
-                      ],
-                      "o": [
-                        "5nuUx13frFTC",
-                        49
+                        9
                       ],
                       "l": -1
                     },
@@ -2397,146 +3753,66 @@
                       "t": "t",
                       "i": [
                         "5nuUx13frFTC",
-                        61
+                        12
                       ],
                       "o": [
                         "5nuUx13frFTC",
-                        49
-                      ],
-                      "l": -3
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "5nuUx13frFTC",
-                        58
-                      ],
-                      "o": [
-                        "5nuUx13frFTC",
-                        49
-                      ],
-                      "l": -3
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "5nuUx13frFTC",
-                        55
-                      ],
-                      "o": [
-                        "5nuUx13frFTC",
-                        49
-                      ],
-                      "l": -3
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "5nuUx13frFTC",
-                        54
-                      ],
-                      "o": [
-                        "5nuUx13frFTC",
-                        49
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "5nuUx13frFTC",
-                        53
-                      ],
-                      "o": [
-                        "5nuUx13frFTC",
-                        49
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "5nuUx13frFTC",
-                        51
-                      ],
-                      "o": [
-                        "5nuUx13frFTC",
-                        49
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "5nuUx13frFTC",
-                        50
-                      ],
-                      "o": [
-                        "5nuUx13frFTC",
-                        49
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "5nuUx13frFTC",
-                        46
-                      ],
-                      "o": [
-                        "5nuUx13frFTC",
-                        38
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "5nuUx13frFTC",
-                        48
-                      ],
-                      "o": [
-                        "5nuUx13frFTC",
-                        46
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "5nuUx13frFTC",
-                        47
-                      ],
-                      "o": [
-                        "5nuUx13frFTC",
-                        46
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "5nuUx13frFTC",
-                        45
-                      ],
-                      "o": [
-                        "5nuUx13frFTC",
-                        38
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "5nuUx13frFTC",
-                        44
-                      ],
-                      "o": [
-                        "5nuUx13frFTC",
-                        38
+                        11
                       ],
                       "l": 1,
-                      "c": "魚"
+                      "c": "ー"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        16
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        12
+                      ],
+                      "l": 1,
+                      "c": "ト"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        18
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        16
+                      ],
+                      "l": 1,
+                      "c": "で"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        24
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        18
+                      ],
+                      "l": 4,
+                      "c": "ダメージ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        31
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        27
+                      ],
+                      "l": 1,
+                      "c": "を"
                     },
                     {
                       "t": "t",
@@ -2546,7 +3822,44 @@
                       ],
                       "o": [
                         "5nuUx13frFTC",
-                        38
+                        31
+                      ],
+                      "l": 3,
+                      "c": "確認。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        33
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        31
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        35
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        33
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        37
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        35
                       ],
                       "l": -2
                     },
@@ -2554,14 +3867,492 @@
                       "t": "t",
                       "i": [
                         "5nuUx13frFTC",
-                        43
+                        36
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        35
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        34
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        33
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        32
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        31
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        30
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        27
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        28
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        27
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        21
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        23
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        22
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        20
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        19
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        17
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        16
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        14
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        13
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        10
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        9
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        6
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        2
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        5
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        4
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        3
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-80a1-86a3-d742d2225b83": {
+      "value": {
+        "id": "2e23b07c-81ff-80a1-86a3-d742d2225b83",
+        "version": 133,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "それぞれのシートの役割は以下のとおりです。"
+            ]
+          ]
+        },
+        "created_time": 1767862561375,
+        "last_edited_time": 1767862661068,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "_fV7Rz8MMoLyyI0XjQefdg,\"start\",\"end\"",
+            "n": {
+              "_fV7Rz8MMoLyyI0XjQefdg,\"start\",\"end\"": {
+                "s": {
+                  "x": "_fV7Rz8MMoLyyI0XjQefdg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        2
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "そ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        4
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        2
+                      ],
+                      "l": 1,
+                      "c": "れ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        6
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        4
+                      ],
+                      "l": 1,
+                      "c": "ぞ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        8
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        6
+                      ],
+                      "l": 1,
+                      "c": "れ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        10
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        8
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        13
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        10
+                      ],
+                      "l": 3,
+                      "c": "シート"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        17
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        15
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        32
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        17
+                      ],
+                      "l": 2,
+                      "c": "役割"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        35
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        33
+                      ],
+                      "l": 1,
+                      "c": "は"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        53
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        35
+                      ],
+                      "l": 2,
+                      "c": "以下"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        49
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        35
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        46
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        35
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        36
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        35
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        38
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        36
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        40
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        38
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        51
                       ],
                       "o": [
                         "5nuUx13frFTC",
                         40
                       ],
-                      "l": 1,
-                      "c": "座"
+                      "l": 2,
+                      "c": "とお"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        48
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        40
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -2572,6 +4363,44 @@
                       "o": [
                         "5nuUx13frFTC",
                         40
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        45
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        43
+                      ],
+                      "l": 1,
+                      "c": "り"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        55
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        45
+                      ],
+                      "l": 3,
+                      "c": "です。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        44
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        43
                       ],
                       "l": -1
                     },
@@ -2591,22 +4420,25 @@
                       "t": "t",
                       "i": [
                         "5nuUx13frFTC",
-                        32
+                        39
                       ],
-                      "o": "start",
-                      "l": -2
+                      "o": [
+                        "5nuUx13frFTC",
+                        38
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "t",
                       "i": [
                         "5nuUx13frFTC",
-                        35
+                        37
                       ],
                       "o": [
                         "5nuUx13frFTC",
-                        33
+                        36
                       ],
-                      "l": -2
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -2624,219 +4456,238 @@
                       "t": "t",
                       "i": [
                         "5nuUx13frFTC",
-                        31
+                        25
                       ],
-                      "o": "start",
+                      "o": [
+                        "5nuUx13frFTC",
+                        17
+                      ],
                       "l": -1
                     },
                     {
                       "t": "t",
                       "i": [
-                        "D2DN8lqbv1jD",
-                        1
+                        "5nuUx13frFTC",
+                        27
                       ],
-                      "o": "start",
-                      "l": -2
+                      "o": [
+                        "5nuUx13frFTC",
+                        25
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "t",
                       "i": [
-                        "D2DN8lqbv1jD",
+                        "5nuUx13frFTC",
+                        29
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        27
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        31
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        29
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        30
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        29
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        28
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        27
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        26
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        25
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        18
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        17
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        20
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        22
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        20
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        21
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        20
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        19
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        16
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        12
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        11
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        9
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        7
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        5
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
                         3
                       ],
                       "o": [
-                        "D2DN8lqbv1jD",
+                        "5nuUx13frFTC",
                         2
                       ],
-                      "l": 28,
-                      "c": "は計算ロジックが分からないので、まだ実装できていません。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-807c-afec-e9938b824f69": {
-      "value": {
-        "id": "2e23b07c-81ff-807c-afec-e9938b824f69",
-        "version": 4,
-        "type": "bulleted_list",
-        "properties": {
-          "title": [
-            [
-              "一部の装備は計算ロジックが分からなかったため、逆算によって応急措置しています。"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e23b07c-81ff-80c7-be9b-ce07e364ce29",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096229,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e23b07c-81ff-80c7-be9b-ce07e364ce29",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "YWvPAxx5DZlPv6dxQEVZEw,\"start\",\"end\"",
-            "n": {
-              "YWvPAxx5DZlPv6dxQEVZEw,\"start\",\"end\"": {
-                "s": {
-                  "x": "YWvPAxx5DZlPv6dxQEVZEw",
-                  "i": [
-                    {
-                      "t": "s"
+                      "l": -1
                     },
                     {
                       "t": "t",
                       "i": [
-                        "-rM5wTShJY0c",
+                        "5nuUx13frFTC",
                         1
                       ],
                       "o": "start",
-                      "l": 39,
-                      "c": "一部の装備は計算ロジックが分からなかったため、逆算によって応急措置しています。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-80d3-b567-e6272ff14ded": {
-      "value": {
-        "id": "2e23b07c-81ff-80d3-b567-e6272ff14ded",
-        "version": 5,
-        "type": "external_object_instance",
-        "format": {
-          "uri": "https://docs.google.com/spreadsheets/d/1o0RorlAj8rNJVrUQG-fBoyiLS9iKrhNqeskzDFZPRrA/edit?usp=sharing",
-          "stale": false,
-          "bot_id": "25430dd2-589f-437a-bad1-53413af2d074",
-          "domain": "docs.google.com",
-          "attributes": [
-            {
-              "id": "title",
-              "name": "Name",
-              "type": "inline",
-              "format": {
-                "type": "title",
-                "section": "title"
-              },
-              "values": [
-                "崩壊学園_ダメージ計算"
-              ]
-            },
-            {
-              "id": "file_size",
-              "name": "File Size",
-              "type": "inline",
-              "format": {
-                "section": "secondary"
-              },
-              "values": [
-                "71.21 KB"
-              ]
-            },
-            {
-              "id": "updated_at",
-              "name": "Updated At",
-              "type": "inline",
-              "format": {
-                "type": "last_edited_time",
-                "section": "secondary"
-              },
-              "values": [
-                {
-                  "type": "datetime",
-                  "time_zone": "UTC",
-                  "start_date": "2026-01-08",
-                  "start_time": "08:15"
-                }
-              ]
-            },
-            {
-              "id": "username",
-              "name": "User Name",
-              "type": "inline",
-              "values": [
-                "yamada304tarou"
-              ]
-            },
-            {
-              "id": "extension",
-              "name": "Extension",
-              "type": "inline",
-              "format": {
-                "section": "secondary"
-              },
-              "values": [
-                "spreadsheet"
-              ]
-            },
-            {
-              "id": "preview_image",
-              "name": "Preview Image",
-              "type": "embed",
-              "format": {
-                "type": "icon",
-                "section": "embed"
-              },
-              "values": [
-                "https://notion.so/eap/proxy/files/76f4f56d-9f96-48c5-9323-6b194669b186"
-              ],
-              "mimeType": "image/*"
-            }
-          ],
-          "original_url": "https://docs.google.com/spreadsheets/d/1o0RorlAj8rNJVrUQG-fBoyiLS9iKrhNqeskzDFZPRrA/edit?usp=sharing",
-          "external_object_id": "2e03b07c-81ff-81d1-ba9e-0040b2eab957",
-          "copied_from_pointer": {
-            "id": "2e03b07c-81ff-8098-9777-e07a4739fabc",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096182,
-        "last_edited_time": 1767861098663,
-        "parent_id": "2e23b07c-81ff-8044-9095-e72e494c716a",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e03b07c-81ff-8098-9777-e07a4739fabc",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "SOgm3zYOidxkgYnfBVyXyA,\"start\",\"end\"",
-            "n": {
-              "SOgm3zYOidxkgYnfBVyXyA,\"start\",\"end\"": {
-                "s": {
-                  "x": "SOgm3zYOidxkgYnfBVyXyA",
-                  "i": [
-                    {
-                      "t": "s"
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -3913,6 +5764,488 @@
       },
       "role": "reader"
     },
+    "2e23b07c-81ff-804f-bd7d-fbdf4151db7e": {
+      "value": {
+        "id": "2e23b07c-81ff-804f-bd7d-fbdf4151db7e",
+        "version": 4,
+        "type": "bulleted_list",
+        "properties": {
+          "title": [
+            [
+              "ロケット砲は再現性を持たせることができなかったので、まだ実装できていません。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e23b07c-81ff-80df-8f57-f3b89491e080",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096227,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e23b07c-81ff-80df-8f57-f3b89491e080",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "rgRnA_3B5hXle2msKbcfEA,\"start\",\"end\"",
+            "n": {
+              "rgRnA_3B5hXle2msKbcfEA,\"start\",\"end\"": {
+                "s": {
+                  "x": "rgRnA_3B5hXle2msKbcfEA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "D6fRGyyxOFnr",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 38,
+                      "c": "ロケット砲は再現性を持たせることができなかったので、まだ実装できていません。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-80ba-8d53-d0357b1649e2": {
+      "value": {
+        "id": "2e23b07c-81ff-80ba-8d53-d0357b1649e2",
+        "version": 87,
+        "type": "bulleted_list",
+        "properties": {
+          "title": [
+            [
+              "空想星霊・魚座は計算ロジックが分からないので、まだ実装できていません。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e23b07c-81ff-80aa-9e27-d6918a70ff33",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096228,
+        "last_edited_time": 1767861465970,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e23b07c-81ff-80aa-9e27-d6918a70ff33",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "XGeugYcjm8TkAPlQ8ClQdw,\"start\",\"end\"",
+            "n": {
+              "XGeugYcjm8TkAPlQ8ClQdw,\"start\",\"end\"": {
+                "s": {
+                  "x": "XGeugYcjm8TkAPlQ8ClQdw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        37
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "空想"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        49
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        38
+                      ],
+                      "l": 1,
+                      "c": "星"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        65
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        49
+                      ],
+                      "l": 2,
+                      "c": "霊・"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        64
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        49
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        61
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        49
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        58
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        49
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        55
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        49
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        54
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        49
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        53
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        49
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        51
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        49
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        50
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        49
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        46
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        38
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        48
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        46
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        47
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        46
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        45
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        38
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        44
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        38
+                      ],
+                      "l": 1,
+                      "c": "魚"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        39
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        38
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        43
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        40
+                      ],
+                      "l": 1,
+                      "c": "座"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        42
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        40
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        41
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        40
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        32
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        35
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        33
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        34
+                      ],
+                      "o": [
+                        "5nuUx13frFTC",
+                        33
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "5nuUx13frFTC",
+                        31
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "D2DN8lqbv1jD",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "D2DN8lqbv1jD",
+                        3
+                      ],
+                      "o": [
+                        "D2DN8lqbv1jD",
+                        2
+                      ],
+                      "l": 28,
+                      "c": "は計算ロジックが分からないので、まだ実装できていません。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-807c-afec-e9938b824f69": {
+      "value": {
+        "id": "2e23b07c-81ff-807c-afec-e9938b824f69",
+        "version": 4,
+        "type": "bulleted_list",
+        "properties": {
+          "title": [
+            [
+              "一部の装備は計算ロジックが分からなかったため、逆算によって応急措置しています。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e23b07c-81ff-80c7-be9b-ce07e364ce29",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096229,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e23b07c-81ff-80c7-be9b-ce07e364ce29",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "YWvPAxx5DZlPv6dxQEVZEw,\"start\",\"end\"",
+            "n": {
+              "YWvPAxx5DZlPv6dxQEVZEw,\"start\",\"end\"": {
+                "s": {
+                  "x": "YWvPAxx5DZlPv6dxQEVZEw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "-rM5wTShJY0c",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 39,
+                      "c": "一部の装備は計算ロジックが分からなかったため、逆算によって応急措置しています。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "2e23b07c-81ff-8035-8c48-fd7c1cb27777": {
       "value": {
         "id": "2e23b07c-81ff-8035-8c48-fd7c1cb27777",
@@ -4712,17 +7045,17 @@
     "2e23b07c-81ff-803b-a999-eea9e9457c7f": {
       "value": {
         "id": "2e23b07c-81ff-803b-a999-eea9e9457c7f",
-        "version": 670,
+        "version": 672,
         "type": "bulleted_list",
         "properties": {
           "title": [
             [
-              "もしご自身で追加した装備のデータを追加された場合、そのデータをご提供いただけるととても助かります。（検証済みかどうかも教えていただけると幸いです）"
+              "もしご自身で装備のデータを追加された場合、そのデータをご提供いただけるととても助かります。（検証済みかどうかも教えていただけると幸いです）"
             ]
           ]
         },
         "created_time": 1767861255159,
-        "last_edited_time": 1767861439116,
+        "last_edited_time": 1767862463914,
         "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
         "parent_table": "block",
         "alive": true,
@@ -4901,8 +7234,7 @@
                         "5nuUx13frFTC",
                         42
                       ],
-                      "l": 2,
-                      "c": "追加"
+                      "l": -2
                     },
                     {
                       "t": "t",
@@ -4938,8 +7270,7 @@
                         "5nuUx13frFTC",
                         47
                       ],
-                      "l": 1,
-                      "c": "し"
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -4951,8 +7282,7 @@
                         "5nuUx13frFTC",
                         49
                       ],
-                      "l": 1,
-                      "c": "た"
+                      "l": -1
                     },
                     {
                       "t": "t",
