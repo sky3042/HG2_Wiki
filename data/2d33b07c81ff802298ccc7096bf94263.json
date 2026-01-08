@@ -3,12 +3,12 @@
     "2d33b07c-81ff-8022-98cc-c7096bf94263": {
       "value": {
         "id": "2d33b07c-81ff-8022-98cc-c7096bf94263",
-        "version": 147,
+        "version": 176,
         "type": "page",
         "properties": {
           "title": [
             [
-              "ガチャ戦略"
+              "ガチャ戦略シミュ"
             ]
           ]
         },
@@ -88,15 +88,18 @@
           "2d33b07c-81ff-80f0-889c-d8ccbd4ee0f5"
         ],
         "format": {
-          "social_media_image_preview_url": "attachment:6f3634e5-02ef-4770-90f8-fc1a78e41dbe:SocialMediaPreviewImage.png"
+          "page_cover_position": 0.5,
+          "social_media_image_preview_url": "attachment:18602c7e-f66f-46e2-8787-f548142477e5:SocialMediaPreviewImage.png"
         },
         "created_time": 1766571708870,
-        "last_edited_time": 1766948221812,
+        "last_edited_time": 1767849843532,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
         "file_ids": [
-          "6f3634e5-02ef-4770-90f8-fc1a78e41dbe"
+          "6f3634e5-02ef-4770-90f8-fc1a78e41dbe",
+          "ad6621c7-aa40-46ac-94e8-ed059ee10651",
+          "18602c7e-f66f-46e2-8787-f548142477e5"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -133,6 +136,67 @@
                       ],
                       "l": 2,
                       "c": "戦略"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qIsqzpziASrd",
+                        32
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        25
+                      ],
+                      "l": 3,
+                      "c": "シミュ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qIsqzpziASrd",
+                        27
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        25
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qIsqzpziASrd",
+                        30
+                      ],
+                      "o": [
+                        "qIsqzpziASrd",
+                        27
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qIsqzpziASrd",
+                        28
+                      ],
+                      "o": [
+                        "qIsqzpziASrd",
+                        27
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qIsqzpziASrd",
+                        26
+                      ],
+                      "o": [
+                        "jMtd39fCwUrW",
+                        25
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -307,7 +371,7 @@
     "2573b07c-81ff-8076-8c97-c512393c2dc8": {
       "value": {
         "id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "version": 171,
+        "version": 191,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -330,9 +394,11 @@
           "28f3b07c-81ff-803f-854a-f8f2b00feaaa",
           "2a03b07c-81ff-8094-bd88-e09b0ccede98",
           "2a03b07c-81ff-80fa-b46f-e87f5ec14a65",
-          "27d3b07c-81ff-8021-9242-d4982307fd8f",
+          "2e03b07c-81ff-8072-8667-cee40b433efb",
+          "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
           "2a03b07c-81ff-80f1-b394-c370e9a021a4",
           "2d33b07c-81ff-8022-98cc-c7096bf94263",
+          "27d3b07c-81ff-8021-9242-d4982307fd8f",
           "2893b07c-81ff-80bd-baba-f4c563d1e680",
           "2863b07c-81ff-805f-9b2e-c297f8891c8f",
           "2913b07c-81ff-803c-92cf-dbd1cc33ae4b",
@@ -348,7 +414,7 @@
           "social_media_image_preview_url": "attachment:0eab7c0e-ed9f-40fb-a5ad-56992f43fc6c:SocialMediaPreviewImage.png"
         },
         "created_time": 1755881175615,
-        "last_edited_time": 1766571708879,
+        "last_edited_time": 1767861085506,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -13269,8 +13335,8 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2d33b07c-81ff-80ed-9fdd-da6ff262c79a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/53b02976-18f4-4842-baa6-1887e83a4662/image.png?table=block&id=2d33b07c-81ff-80ed-9fdd-da6ff262c79a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1766973600000&signature=tiGdFQtJG_1WAGaElRGbEJUYZPPGJA3u7b21nH0g7WU",
-    "2d33b07c-81ff-80c5-a4f7-c3a3bf6a3f12": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1073d251-6ce4-4a3d-8e4c-d9399066fe62/image.png?table=block&id=2d33b07c-81ff-80c5-a4f7-c3a3bf6a3f12&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1766973600000&signature=8QwU9vDY5Z9zR0bSD5TF6kl_0uuKd2NR12uWtORkrZ8",
-    "2d33b07c-81ff-8066-ae03-edad5cb7d7cf": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f3268682-4553-4825-9e37-c5f697266d75/image.png?table=block&id=2d33b07c-81ff-8066-ae03-edad5cb7d7cf&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1766973600000&signature=V0_UtaXhRfaeeQr5bAx7Lnk8APHkFJYWFxh0vrTj6iE"
+    "2d33b07c-81ff-80ed-9fdd-da6ff262c79a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/53b02976-18f4-4842-baa6-1887e83a4662/image.png?table=block&id=2d33b07c-81ff-80ed-9fdd-da6ff262c79a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1767888000000&signature=LbddF63jiDIswC_SN7MrCxx-lfdlGPQKVueb97L0yfg",
+    "2d33b07c-81ff-80c5-a4f7-c3a3bf6a3f12": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1073d251-6ce4-4a3d-8e4c-d9399066fe62/image.png?table=block&id=2d33b07c-81ff-80c5-a4f7-c3a3bf6a3f12&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1767888000000&signature=HO0sydOAhOlXDtRP3LSq7roIIHTmHWDJjwSyH1vVdhQ",
+    "2d33b07c-81ff-8066-ae03-edad5cb7d7cf": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f3268682-4553-4825-9e37-c5f697266d75/image.png?table=block&id=2d33b07c-81ff-8066-ae03-edad5cb7d7cf&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1767888000000&signature=dsBkZeIQFZ7Yj2loOQQu6zY4lp4VfEQpN8TxqPcBg2g"
   }
 }
