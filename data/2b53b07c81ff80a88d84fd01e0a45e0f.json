@@ -3,7 +3,7 @@
     "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f": {
       "value": {
         "id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
-        "version": 333,
+        "version": 338,
         "type": "page",
         "properties": {
           "title": [
@@ -121,6 +121,7 @@
           "2e33b07c-81ff-8080-8c71-fc4e1a973375",
           "2e33b07c-81ff-806d-bb15-dfb7c603d754",
           "2e33b07c-81ff-80f8-b857-c255e2321824",
+          "2e33b07c-81ff-80d0-bda1-e49cb4431340",
           "2e33b07c-81ff-8040-8f87-efdf8ba07b35",
           "2e33b07c-81ff-8094-a932-f2e8811fc9f5",
           "2e33b07c-81ff-803a-b641-f2f285743b30",
@@ -271,7 +272,7 @@
           "social_media_image_preview_url": "attachment:4b0041b7-f783-44bb-9c45-869c8af42199:SocialMediaPreviewImage.png"
         },
         "created_time": 1763970155986,
-        "last_edited_time": 1767953169577,
+        "last_edited_time": 1767975228926,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -7121,12 +7122,12 @@
     "2e33b07c-81ff-80f8-b857-c255e2321824": {
       "value": {
         "id": "2e33b07c-81ff-80f8-b857-c255e2321824",
-        "version": 4,
+        "version": 13,
         "type": "text",
         "properties": {
           "title": [
             [
-              "解放すべき大陸？？？なんだそれ、めっちゃ気になる。南極とか？あ！！！エリュシオンか！！！ここでLの肖像要素来るか！祭司、仮面の男感あるな。"
+              "解放すべき大陸？？？なんだそれ、めっちゃ気になる。南極とか？エリュシオン？"
             ]
           ]
         },
@@ -7138,7 +7139,7 @@
           }
         },
         "created_time": 1767947038496,
-        "last_edited_time": 1767947038764,
+        "last_edited_time": 1767968704125,
         "parent_id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
         "parent_table": "block",
         "alive": true,
@@ -7147,9 +7148,9 @@
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "ztmM_uoGiEtNpsjKoj3pcg,\"start\",\"end\"",
+            "r": "ztmM_uoGiEtNpsjKoj3pcg,\"start\",[\"SG4gLPhldT9k\",71]",
             "n": {
-              "ztmM_uoGiEtNpsjKoj3pcg,\"start\",\"end\"": {
+              "ztmM_uoGiEtNpsjKoj3pcg,\"start\",[\"SG4gLPhldT9k\",71]": {
                 "s": {
                   "x": "ztmM_uoGiEtNpsjKoj3pcg",
                   "i": [
@@ -7163,14 +7164,154 @@
                         1
                       ],
                       "o": "start",
-                      "l": 69,
-                      "c": "解放すべき大陸？？？なんだそれ、めっちゃ気になる。南極とか？あ！！！エリュシオンか！！！ここでLの肖像要素来るか！祭司、仮面の男感あるな。"
+                      "l": 30,
+                      "c": "解放すべき大陸？？？なんだそれ、めっちゃ気になる。南極とか？"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "QM9OQG-DQsJD",
+                        31
+                      ],
+                      "o": [
+                        "QM9OQG-DQsJD",
+                        30
+                      ],
+                      "l": -4
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "QM9OQG-DQsJD",
+                        35
+                      ],
+                      "o": [
+                        "QM9OQG-DQsJD",
+                        34
+                      ],
+                      "l": 6,
+                      "c": "エリュシオン"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        70
+                      ],
+                      "o": [
+                        "QM9OQG-DQsJD",
+                        40
+                      ],
+                      "l": 1,
+                      "c": "？"
+                    },
+                    {
+                      "t": "p",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        71
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        70
+                      ]
+                    }
+                  ],
+                  "l": "L"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e33b07c-81ff-80d0-bda1-e49cb4431340": {
+      "value": {
+        "id": "2e33b07c-81ff-80d0-bda1-e49cb4431340",
+        "version": 4,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "祭司、仮面の男感あるな。"
+            ]
+          ]
+        },
+        "created_time": 1767968704118,
+        "last_edited_time": 1767968704125,
+        "parent_id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "KmEPSCqroowqRvGkpUoZAg,\"start\",\"end\"",
+            "n": {
+              "KmEPSCqroowqRvGkpUoZAg,\"start\",\"end\"": {
+                "s": {
+                  "x": "KmEPSCqroowqRvGkpUoZAg",
+                  "i": [
+                    {
+                      "t": "s"
                     },
                     {
                       "t": "e"
                     }
                   ],
                   "l": ""
+                },
+                "c": [
+                  "ztmM_uoGiEtNpsjKoj3pcg,[\"SG4gLPhldT9k\",71],\"end\""
+                ]
+              },
+              "ztmM_uoGiEtNpsjKoj3pcg,[\"SG4gLPhldT9k\",71],\"end\"": {
+                "s": {
+                  "x": "ztmM_uoGiEtNpsjKoj3pcg",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        71
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        70
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "QM9OQG-DQsJD",
+                        41
+                      ],
+                      "o": [
+                        "QM9OQG-DQsJD",
+                        40
+                      ],
+                      "l": -17
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "QM9OQG-DQsJD",
+                        58
+                      ],
+                      "o": [
+                        "QM9OQG-DQsJD",
+                        57
+                      ],
+                      "l": 12,
+                      "c": "祭司、仮面の男感あるな。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
                 },
                 "c": []
               }
@@ -11582,12 +11723,12 @@
     "2e33b07c-81ff-8073-8c05-c6a8d933448c": {
       "value": {
         "id": "2e33b07c-81ff-8073-8c05-c6a8d933448c",
-        "version": 4,
+        "version": 8,
         "type": "text",
         "properties": {
           "title": [
             [
-              "655535は2-16-1、16bitの最大値"
+              "655535は2^16-1、16bitの最大値"
             ]
           ]
         },
@@ -11599,7 +11740,7 @@
           }
         },
         "created_time": 1767947038555,
-        "last_edited_time": 1767947038764,
+        "last_edited_time": 1767967664056,
         "parent_id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
         "parent_table": "block",
         "alive": true,
@@ -11624,8 +11765,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 23,
-                      "c": "655535は2-16-1、16bitの最大値"
+                      "l": 8,
+                      "c": "655535は2"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        24
+                      ],
+                      "o": [
+                        "egbJDke0lbuk",
+                        8
+                      ],
+                      "l": 1,
+                      "c": "^"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "egbJDke0lbuk",
+                        9
+                      ],
+                      "o": [
+                        "egbJDke0lbuk",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "egbJDke0lbuk",
+                        10
+                      ],
+                      "o": [
+                        "egbJDke0lbuk",
+                        9
+                      ],
+                      "l": 14,
+                      "c": "16-1、16bitの最大値"
                     },
                     {
                       "t": "e"
@@ -14028,12 +14207,12 @@
     "2e33b07c-81ff-806a-9de3-caca18c8858f": {
       "value": {
         "id": "2e33b07c-81ff-806a-9de3-caca18c8858f",
-        "version": 4,
+        "version": 38,
         "type": "text",
         "properties": {
           "title": [
             [
-              "うわあああああ、カリンのときと同じ手法！！大人のずるい手段！！！"
+              "よく分からん"
             ]
           ]
         },
@@ -14045,7 +14224,7 @@
           }
         },
         "created_time": 1767947038587,
-        "last_edited_time": 1767947038764,
+        "last_edited_time": 1767975234551,
         "parent_id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
         "parent_table": "block",
         "alive": true,
@@ -14066,12 +14245,167 @@
                     {
                       "t": "t",
                       "i": [
+                        "SG4gLPhldT9k",
+                        34
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "よ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        36
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        34
+                      ],
+                      "l": 1,
+                      "c": "く"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        44
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        36
+                      ],
+                      "l": 1,
+                      "c": "分"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        38
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        36
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        40
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        38
+                      ],
+                      "l": 1,
+                      "c": "か"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        42
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        40
+                      ],
+                      "l": 1,
+                      "c": "ら"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        45
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        42
+                      ],
+                      "l": 1,
+                      "c": "ん"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        43
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        42
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        41
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        40
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        39
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        38
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        37
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        36
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        35
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        34
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        33
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "S1d7r_Kid7Gd",
                         1
                       ],
                       "o": "start",
-                      "l": 32,
-                      "c": "うわあああああ、カリンのときと同じ手法！！大人のずるい手段！！！"
+                      "l": -32
                     },
                     {
                       "t": "e"
