@@ -3,7 +3,7 @@
     "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f": {
       "value": {
         "id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
-        "version": 329,
+        "version": 333,
         "type": "page",
         "properties": {
           "title": [
@@ -72,7 +72,6 @@
           "2e33b07c-81ff-805f-a58d-d49e406edd53",
           "2e33b07c-81ff-80ed-a39c-e1a0ab26f39d",
           "2e33b07c-81ff-8082-963d-cc612b42efbc",
-          "2e33b07c-81ff-80dd-b52b-eb8cd12c6d5e",
           "2e33b07c-81ff-80b5-947e-efa918dff87e",
           "2e33b07c-81ff-8071-8b19-e90000f9c318",
           "2e33b07c-81ff-80ba-a43a-e62a1216cb35",
@@ -139,7 +138,6 @@
           "2e33b07c-81ff-8080-a11c-d4e056465248",
           "2e33b07c-81ff-805a-946d-cac4117baa31",
           "2e33b07c-81ff-80cd-9a8c-e9a58b387ee4",
-          "2e33b07c-81ff-8065-be54-f871fd9c91ec",
           "2e33b07c-81ff-8028-baf8-fd4d263504cb",
           "2e33b07c-81ff-801e-8c29-cd1cc4dc385a",
           "2e33b07c-81ff-80a5-bd4e-c831a8cad383",
@@ -263,7 +261,6 @@
           "2e33b07c-81ff-80d4-83f4-ccbfc650fa17",
           "2e33b07c-81ff-80ff-a781-fc4ea36796bf",
           "2e33b07c-81ff-80e5-b3c2-e4b94be38e71",
-          "2e33b07c-81ff-80a1-9b7b-d7ef4afec50d",
           "2e33b07c-81ff-805d-b259-e7e08993b632",
           "2e33b07c-81ff-8051-855b-cdf16f5d9398",
           "2e33b07c-81ff-806d-8316-dce84210bb3e",
@@ -274,7 +271,7 @@
           "social_media_image_preview_url": "attachment:4b0041b7-f783-44bb-9c45-869c8af42199:SocialMediaPreviewImage.png"
         },
         "created_time": 1763970155986,
-        "last_edited_time": 1767947037977,
+        "last_edited_time": 1767953169577,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -4072,7 +4069,7 @@
     "2e33b07c-81ff-8082-963d-cc612b42efbc": {
       "value": {
         "id": "2e33b07c-81ff-8082-963d-cc612b42efbc",
-        "version": 4,
+        "version": 5,
         "type": "text",
         "properties": {
           "title": [
@@ -4123,51 +4120,21 @@
                   ],
                   "l": ""
                 },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e33b07c-81ff-80dd-b52b-eb8cd12c6d5e": {
-      "value": {
-        "id": "2e33b07c-81ff-80dd-b52b-eb8cd12c6d5e",
-        "version": 4,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "兵神？？"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e33b07c-81ff-809c-903d-f4b7efb25c95",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767947038456,
-        "last_edited_time": 1767947038764,
-        "parent_id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e33b07c-81ff-809c-903d-f4b7efb25c95",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "3YhVYprmHX_-DTV9VgFRzA,\"start\",\"end\"",
-            "n": {
-              "3YhVYprmHX_-DTV9VgFRzA,\"start\",\"end\"": {
+                "c": [
+                  "3YhVYprmHX_-DTV9VgFRzA,[\"SG4gLPhldT9k\",25],\"end\""
+                ]
+              },
+              "3YhVYprmHX_-DTV9VgFRzA,[\"SG4gLPhldT9k\",25],\"end\"": {
                 "s": {
                   "x": "3YhVYprmHX_-DTV9VgFRzA",
                   "i": [
                     {
-                      "t": "s"
+                      "t": "p",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        25
+                      ],
+                      "o": "start"
                     },
                     {
                       "t": "t",
@@ -4176,14 +4143,13 @@
                         1
                       ],
                       "o": "start",
-                      "l": 4,
-                      "c": "兵神？？"
+                      "l": -4
                     },
                     {
                       "t": "e"
                     }
                   ],
-                  "l": ""
+                  "l": "l"
                 },
                 "c": []
               }
@@ -8192,7 +8158,7 @@
     "2e33b07c-81ff-80cd-9a8c-e9a58b387ee4": {
       "value": {
         "id": "2e33b07c-81ff-80cd-9a8c-e9a58b387ee4",
-        "version": 4,
+        "version": 5,
         "type": "text",
         "properties": {
           "title": [
@@ -8243,51 +8209,21 @@
                   ],
                   "l": ""
                 },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e33b07c-81ff-8065-be54-f871fd9c91ec": {
-      "value": {
-        "id": "2e33b07c-81ff-8065-be54-f871fd9c91ec",
-        "version": 4,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "そういえばメミニを襲った兵神っぽいのはなんだったんだ。"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e33b07c-81ff-80c7-a43b-dead2396c6d6",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767947038510,
-        "last_edited_time": 1767947038764,
-        "parent_id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e33b07c-81ff-80c7-a43b-dead2396c6d6",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "uy5d1vcawj-LDbZ1aEi3tA,\"start\",\"end\"",
-            "n": {
-              "uy5d1vcawj-LDbZ1aEi3tA,\"start\",\"end\"": {
+                "c": [
+                  "uy5d1vcawj-LDbZ1aEi3tA,[\"SG4gLPhldT9k\",48],\"end\""
+                ]
+              },
+              "uy5d1vcawj-LDbZ1aEi3tA,[\"SG4gLPhldT9k\",48],\"end\"": {
                 "s": {
                   "x": "uy5d1vcawj-LDbZ1aEi3tA",
                   "i": [
                     {
-                      "t": "s"
+                      "t": "p",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        48
+                      ],
+                      "o": "start"
                     },
                     {
                       "t": "t",
@@ -8296,14 +8232,13 @@
                         1
                       ],
                       "o": "start",
-                      "l": 27,
-                      "c": "そういえばメミニを襲った兵神っぽいのはなんだったんだ。"
+                      "l": -27
                     },
                     {
                       "t": "e"
                     }
                   ],
-                  "l": ""
+                  "l": "l"
                 },
                 "c": []
               }
@@ -15795,7 +15730,7 @@
     "2e33b07c-81ff-80e5-b3c2-e4b94be38e71": {
       "value": {
         "id": "2e33b07c-81ff-80e5-b3c2-e4b94be38e71",
-        "version": 4,
+        "version": 5,
         "type": "text",
         "properties": {
           "title": [
@@ -15846,51 +15781,21 @@
                   ],
                   "l": ""
                 },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e33b07c-81ff-80a1-9b7b-d7ef4afec50d": {
-      "value": {
-        "id": "2e33b07c-81ff-80a1-9b7b-d7ef4afec50d",
-        "version": 4,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "メミニを襲ったのは誰だったのか。"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e33b07c-81ff-8093-83f8-c3e4815b468c",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767947038607,
-        "last_edited_time": 1767947038764,
-        "parent_id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e33b07c-81ff-8093-83f8-c3e4815b468c",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "QUjzLwKCSZiPIKBMVYIDCQ,\"start\",\"end\"",
-            "n": {
-              "QUjzLwKCSZiPIKBMVYIDCQ,\"start\",\"end\"": {
+                "c": [
+                  "QUjzLwKCSZiPIKBMVYIDCQ,[\"SG4gLPhldT9k\",37],\"end\""
+                ]
+              },
+              "QUjzLwKCSZiPIKBMVYIDCQ,[\"SG4gLPhldT9k\",37],\"end\"": {
                 "s": {
                   "x": "QUjzLwKCSZiPIKBMVYIDCQ",
                   "i": [
                     {
-                      "t": "s"
+                      "t": "p",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        37
+                      ],
+                      "o": "start"
                     },
                     {
                       "t": "t",
@@ -15899,14 +15804,13 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "メミニを襲ったのは誰だったのか。"
+                      "l": -16
                     },
                     {
                       "t": "e"
                     }
                   ],
-                  "l": ""
+                  "l": "l"
                 },
                 "c": []
               }
