@@ -3,7 +3,7 @@
     "2573b07c-81ff-8076-8c97-c512393c2dc8": {
       "value": {
         "id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "version": 191,
+        "version": 194,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -36,8 +36,8 @@
           "2913b07c-81ff-803c-92cf-dbd1cc33ae4b",
           "2a03b07c-81ff-8053-bb5f-f9fbc420dda3",
           "25e3b07c-81ff-80fe-8eca-e43fbea99f30",
-          "28f3b07c-81ff-8037-8280-c4a6bf7a56f2",
           "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
+          "28f3b07c-81ff-8037-8280-c4a6bf7a56f2",
           "2b53b07c-81ff-8091-8f90-e7a710d07690"
         ],
         "format": {
@@ -46,7 +46,7 @@
           "social_media_image_preview_url": "attachment:0eab7c0e-ed9f-40fb-a5ad-56992f43fc6c:SocialMediaPreviewImage.png"
         },
         "created_time": 1755881175615,
-        "last_edited_time": 1767861085506,
+        "last_edited_time": 1767945180280,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -1713,7 +1713,7 @@
     "2e23b07c-81ff-80d1-8c47-e84f187eedfa": {
       "value": {
         "id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "version": 80,
+        "version": 89,
         "type": "page",
         "properties": {
           "title": [
@@ -1733,6 +1733,9 @@
           "2e23b07c-81ff-809a-b235-e6b87d4e3e30",
           "2e23b07c-81ff-8034-8018-f8fc3b95c86f",
           "2e23b07c-81ff-80a3-9119-c9efc9767c12",
+          "2e23b07c-81ff-8092-91c2-c04b40bc5f63",
+          "2e23b07c-81ff-806c-91fe-dd81761a81b9",
+          "2e23b07c-81ff-80a1-86a3-d742d2225b83",
           "2e23b07c-81ff-80cd-b411-c083826d7e21",
           "2e23b07c-81ff-80ef-a35d-ec2c26d316a8",
           "2e23b07c-81ff-80c7-80b7-fa81adbf4398",
@@ -1756,7 +1759,7 @@
           "social_media_image_preview_url": "attachment:1d7bc12e-735b-4a67-93ac-c4cf7de341b5:SocialMediaPreviewImage.png"
         },
         "created_time": 1767861085497,
-        "last_edited_time": 1767861420066,
+        "last_edited_time": 1767862652271,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -4282,12 +4285,20 @@
     "25e3b07c-81ff-80fe-8eca-e43fbea99f30": {
       "value": {
         "id": "25e3b07c-81ff-80fe-8eca-e43fbea99f30",
-        "version": 288,
+        "version": 327,
         "type": "page",
         "properties": {
           "title": [
             [
-              "Lの肖像　1週目の感想"
+              "Lの肖像",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "･Ⅰ　1周目の感想"
             ]
           ]
         },
@@ -4494,15 +4505,17 @@
         ],
         "format": {
           "slug": "l-kansou",
-          "social_media_image_preview_url": "attachment:1d3b9e92-c00d-4a39-b616-b1dfd9c50abd:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:6e4825f2-cac8-4dab-8d4d-5b80ce1de71f:SocialMediaPreviewImage.png"
         },
         "created_time": 1756460565261,
-        "last_edited_time": 1760842788108,
+        "last_edited_time": 1767945182272,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
         "file_ids": [
-          "1d3b9e92-c00d-4a39-b616-b1dfd9c50abd"
+          "1d3b9e92-c00d-4a39-b616-b1dfd9c50abd",
+          "1fdde12b-b0fa-488e-836d-72f6cfb73e24",
+          "6e4825f2-cac8-4dab-8d4d-5b80ce1de71f"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -4520,12 +4533,186 @@
                     {
                       "t": "t",
                       "i": [
+                        "SG4gLPhldT9k",
+                        36
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "Lの肖像",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "zd9xPGHl7TjYIcjRWo2ldg",
+                          "l": "",
+                          "i": [
+                            "SG4gLPhldT9k",
+                            44
+                          ],
+                          "s": {
+                            "i": [
+                              "SG4gLPhldT9k",
+                              36
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "SG4gLPhldT9k",
+                              40
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        40
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        39
+                      ],
+                      "l": 1,
+                      "c": "･",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        51
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        40
+                      ],
+                      "l": 1,
+                      "c": "Ⅰ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        50
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        40
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        49
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        40
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        48
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        40
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        47
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        40
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        46
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        40
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        41
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        40
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        45
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        41
+                      ],
+                      "l": 1,
+                      "c": "　"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        52
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        45
+                      ],
+                      "l": 6,
+                      "c": "1周目の感想"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        42
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        41
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "hIz8f5lwb6Wi",
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "L"
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -4537,8 +4724,7 @@
                         "hIz8f5lwb6Wi",
                         1
                       ],
-                      "l": 1,
-                      "c": "の"
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -4550,8 +4736,7 @@
                         "hIz8f5lwb6Wi",
                         3
                       ],
-                      "l": 4,
-                      "c": "肖像　1"
+                      "l": -4
                     },
                     {
                       "t": "t",
@@ -4563,8 +4748,7 @@
                         "hIz8f5lwb6Wi",
                         15
                       ],
-                      "l": 2,
-                      "c": "週目"
+                      "l": -2
                     },
                     {
                       "t": "t",
@@ -4576,8 +4760,7 @@
                         "hIz8f5lwb6Wi",
                         24
                       ],
-                      "l": 1,
-                      "c": "の"
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -4589,8 +4772,7 @@
                         "hIz8f5lwb6Wi",
                         26
                       ],
-                      "l": 2,
-                      "c": "感想"
+                      "l": -2
                     },
                     {
                       "t": "t",
@@ -4798,6 +4980,623 @@
       },
       "role": "reader"
     },
+    "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f": {
+      "value": {
+        "id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
+        "version": 329,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "Lの肖像",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "･Ⅲ　1周目の感想"
+            ]
+          ]
+        },
+        "content": [
+          "2e33b07c-81ff-8013-9741-f2eae6105e54",
+          "2e33b07c-81ff-800c-b381-e0c5d0d3694c",
+          "2e33b07c-81ff-8089-9469-d773ef0c16e2",
+          "2e33b07c-81ff-8052-8c37-ef4dc46f25e1",
+          "2e33b07c-81ff-80ab-8644-ff6c06ec1867",
+          "2e33b07c-81ff-80fd-94bc-c9b54ea25419",
+          "2e33b07c-81ff-8009-92fc-f16d2c4aa8f0",
+          "2e33b07c-81ff-80ed-a637-cc2603a700b4",
+          "2e33b07c-81ff-80c5-8777-e1666f7acde7",
+          "2e33b07c-81ff-8061-8ad4-ed43797f3ea0",
+          "2e33b07c-81ff-80de-aebf-f999ecf2cb60",
+          "2e33b07c-81ff-80a6-ba98-c9583146845e",
+          "2e33b07c-81ff-80d5-9baf-e3c7099b01f5",
+          "2e33b07c-81ff-800b-adeb-c88fcb3965e9",
+          "2e33b07c-81ff-804a-a2e1-e19f1771cdfc",
+          "2e33b07c-81ff-802f-a17e-d0c0cc652907",
+          "2e33b07c-81ff-80c7-a99a-db1ca3502bd9",
+          "2e33b07c-81ff-8073-a41b-dc0293ea7db8",
+          "2e33b07c-81ff-80f3-bd34-f6447f3ea73b",
+          "2e33b07c-81ff-8002-b27c-d142a4ea4766",
+          "2e33b07c-81ff-8090-afee-fd6f6e88d058",
+          "2e33b07c-81ff-806f-9b44-c495b8ecf844",
+          "2e33b07c-81ff-807c-a577-ed3eb356271a",
+          "2e33b07c-81ff-80c5-aa42-d72180b9db58",
+          "2e33b07c-81ff-8008-b8f3-f44daf0230be",
+          "2e33b07c-81ff-809b-9978-c14c3a9564b7",
+          "2e33b07c-81ff-8002-a653-eea98450f7d6",
+          "2e33b07c-81ff-8098-b51d-f754ddebc68e",
+          "2e33b07c-81ff-8096-9ea8-f7f17ab561d1",
+          "2e33b07c-81ff-8098-8daf-e05743468230",
+          "2e33b07c-81ff-8018-bc7f-f0bd1747aa71",
+          "2e33b07c-81ff-80f8-8f94-e64011475dc0",
+          "2e33b07c-81ff-803e-b65c-ed09f2ec3d61",
+          "2e33b07c-81ff-8077-8436-d8cf13be469b",
+          "2e33b07c-81ff-80c4-8510-d0940d2925fa",
+          "2e33b07c-81ff-80b3-ba1d-c0dc9b22ffe5",
+          "2e33b07c-81ff-8024-a189-e6ab31c12d81",
+          "2e33b07c-81ff-8079-85a9-d875d325918b",
+          "2e33b07c-81ff-80ee-b32b-c7fbe2834377",
+          "2e33b07c-81ff-800e-8293-da09fdbb0ec4",
+          "2e33b07c-81ff-80eb-84f2-ec5b9e4364fc",
+          "2e33b07c-81ff-8039-9c95-ee03f8034a23",
+          "2e33b07c-81ff-808f-a360-f4622198c338",
+          "2e33b07c-81ff-8039-b7de-cf3b21abfd31",
+          "2e33b07c-81ff-8067-887a-f85ddf0d2c95",
+          "2e33b07c-81ff-805d-8a35-dfc7715d1f1b",
+          "2e33b07c-81ff-80f9-b861-d1d64aa80684",
+          "2e33b07c-81ff-80f1-8a68-ee1a4c0e64e1",
+          "2e33b07c-81ff-805f-a58d-d49e406edd53",
+          "2e33b07c-81ff-80ed-a39c-e1a0ab26f39d",
+          "2e33b07c-81ff-8082-963d-cc612b42efbc",
+          "2e33b07c-81ff-80dd-b52b-eb8cd12c6d5e",
+          "2e33b07c-81ff-80b5-947e-efa918dff87e",
+          "2e33b07c-81ff-8071-8b19-e90000f9c318",
+          "2e33b07c-81ff-80ba-a43a-e62a1216cb35",
+          "2e33b07c-81ff-80d4-8c91-f066f8ad591a",
+          "2e33b07c-81ff-80a4-8bf3-df84bf71c760",
+          "2e33b07c-81ff-8068-9fbe-fdbdf70bd70d",
+          "2e33b07c-81ff-80df-b8b5-f3f542af7e50",
+          "2e33b07c-81ff-804b-9ef0-f9159290fa1f",
+          "2e33b07c-81ff-8024-9bf3-c48c061106ec",
+          "2e33b07c-81ff-80ee-b2f9-c9b7234ba668",
+          "2e33b07c-81ff-807c-9aa1-eca732faabf6",
+          "2e33b07c-81ff-800d-9979-dbde4e1c06e4",
+          "2e33b07c-81ff-80f5-a8db-fc7567bd8ee9",
+          "2e33b07c-81ff-8037-8695-c4f1178ec2a0",
+          "2e33b07c-81ff-80c3-8b14-c9f8d4e61084",
+          "2e33b07c-81ff-8077-add3-fc4531f2a107",
+          "2e33b07c-81ff-8022-9ae1-cb3125023491",
+          "2e33b07c-81ff-800d-92c6-db3b2f455e4a",
+          "2e33b07c-81ff-8041-be20-c990bb91a7ed",
+          "2e33b07c-81ff-8014-910b-f769c07cc896",
+          "2e33b07c-81ff-800f-95cb-e5f60607342e",
+          "2e33b07c-81ff-808d-a3a5-f4729f7526df",
+          "2e33b07c-81ff-80d0-aec7-d5b17020fb0e",
+          "2e33b07c-81ff-805f-b9e9-dc7c1f24fa58",
+          "2e33b07c-81ff-8085-b9c2-f024b70408b8",
+          "2e33b07c-81ff-8017-8b4d-d421b980db18",
+          "2e33b07c-81ff-8062-832d-ed79146acf72",
+          "2e33b07c-81ff-80b2-a51d-df10c033c74b",
+          "2e33b07c-81ff-80ea-910d-e5001f2e0ab4",
+          "2e33b07c-81ff-80b1-8f33-e0ec7ea12988",
+          "2e33b07c-81ff-809a-a132-db343640ec7c",
+          "2e33b07c-81ff-8071-935a-ed2ca03a593f",
+          "2e33b07c-81ff-8006-a6ce-e76c2350fe5d",
+          "2e33b07c-81ff-80ad-b5c6-f09ff80a5c76",
+          "2e33b07c-81ff-800f-93cd-e923dafcb0b3",
+          "2e33b07c-81ff-80f9-9037-c62107de3bfb",
+          "2e33b07c-81ff-801e-82f5-f9d1ce9e84e6",
+          "2e33b07c-81ff-8008-a1b5-c72f0808c4ac",
+          "2e33b07c-81ff-8055-8b71-d15e4e2e683a",
+          "2e33b07c-81ff-80be-bce7-e68be6e001c0",
+          "2e33b07c-81ff-8097-b39a-e517d6b421a3",
+          "2e33b07c-81ff-80c3-af8b-c8e43c1d80af",
+          "2e33b07c-81ff-8089-bb94-d3201cf7bf6e",
+          "2e33b07c-81ff-808d-895b-c0f548846a89",
+          "2e33b07c-81ff-8046-9bf5-ce5d23b8eeb8",
+          "2e33b07c-81ff-808c-95f9-da5b9bacf332",
+          "2e33b07c-81ff-8080-8c71-fc4e1a973375",
+          "2e33b07c-81ff-806d-bb15-dfb7c603d754",
+          "2e33b07c-81ff-80f8-b857-c255e2321824",
+          "2e33b07c-81ff-8040-8f87-efdf8ba07b35",
+          "2e33b07c-81ff-8094-a932-f2e8811fc9f5",
+          "2e33b07c-81ff-803a-b641-f2f285743b30",
+          "2e33b07c-81ff-8031-a14c-c2acd41fe008",
+          "2e33b07c-81ff-8029-b0c5-c61a58235a55",
+          "2e33b07c-81ff-8078-b882-cd1aa6d167f9",
+          "2e33b07c-81ff-80f6-95ce-d3ad158c06ef",
+          "2e33b07c-81ff-8064-b781-dd6c3c396472",
+          "2e33b07c-81ff-8086-8462-e9adabd19589",
+          "2e33b07c-81ff-80b1-94a7-f119472be736",
+          "2e33b07c-81ff-806e-bffc-f3d65e82a840",
+          "2e33b07c-81ff-8076-8472-f5595bbea06b",
+          "2e33b07c-81ff-80e4-a411-f92aec1a8833",
+          "2e33b07c-81ff-8088-9963-dc999072491a",
+          "2e33b07c-81ff-8080-a11c-d4e056465248",
+          "2e33b07c-81ff-805a-946d-cac4117baa31",
+          "2e33b07c-81ff-80cd-9a8c-e9a58b387ee4",
+          "2e33b07c-81ff-8065-be54-f871fd9c91ec",
+          "2e33b07c-81ff-8028-baf8-fd4d263504cb",
+          "2e33b07c-81ff-801e-8c29-cd1cc4dc385a",
+          "2e33b07c-81ff-80a5-bd4e-c831a8cad383",
+          "2e33b07c-81ff-80d8-9d3b-c0148c4adee7",
+          "2e33b07c-81ff-8061-af40-f7429ebe29d7",
+          "2e33b07c-81ff-80c4-9329-df4667dec01f",
+          "2e33b07c-81ff-8016-af7a-c3f3764facbf",
+          "2e33b07c-81ff-809f-90da-e1d380792f2a",
+          "2e33b07c-81ff-807a-87aa-f687f4e3987c",
+          "2e33b07c-81ff-80f5-9718-c72159215021",
+          "2e33b07c-81ff-80f7-853d-e01f4bdab008",
+          "2e33b07c-81ff-80c8-8b77-f69a4f35eade",
+          "2e33b07c-81ff-80e2-b36c-f2f11028835c",
+          "2e33b07c-81ff-8073-a791-f3a5d92d4d6d",
+          "2e33b07c-81ff-80f5-bbe9-c0fadb2cf495",
+          "2e33b07c-81ff-804e-9a11-f02b0d45c9d2",
+          "2e33b07c-81ff-80ca-8fad-ecc0c3b95356",
+          "2e33b07c-81ff-805d-bc5d-c7865efd4615",
+          "2e33b07c-81ff-80d0-81f2-ef241dd37b39",
+          "2e33b07c-81ff-80fc-8138-d675434d29cb",
+          "2e33b07c-81ff-803c-bad9-f348706dbd51",
+          "2e33b07c-81ff-807a-bd7d-e44f0e70e3cc",
+          "2e33b07c-81ff-8062-ada7-e209fa0b73ea",
+          "2e33b07c-81ff-80d0-aee9-fce5497cdf7f",
+          "2e33b07c-81ff-80dc-8ab4-f8133cfc8400",
+          "2e33b07c-81ff-8068-a5bf-c0beab4c22a4",
+          "2e33b07c-81ff-80f2-87f9-e68e84a1cc3f",
+          "2e33b07c-81ff-80e8-90ba-fc279c416ba9",
+          "2e33b07c-81ff-80cb-84e9-ed5a54fff880",
+          "2e33b07c-81ff-8078-b124-f1b66f31d8cb",
+          "2e33b07c-81ff-80d3-ac48-ec9573a50f24",
+          "2e33b07c-81ff-804b-94c6-e2b1d59ba2df",
+          "2e33b07c-81ff-8089-a6fd-f0d2172d1674",
+          "2e33b07c-81ff-80b0-a443-c8122fa60f1a",
+          "2e33b07c-81ff-8000-9d97-d65f5d1fd831",
+          "2e33b07c-81ff-8080-b258-fb204e8272de",
+          "2e33b07c-81ff-80bc-963d-e67cd8c5cac9",
+          "2e33b07c-81ff-8039-9d4c-d9f0cbbdc9ca",
+          "2e33b07c-81ff-8061-9939-d20c3b785865",
+          "2e33b07c-81ff-80c3-968f-e6e48ed134bc",
+          "2e33b07c-81ff-804b-af3f-eae07a438488",
+          "2e33b07c-81ff-800e-b1c7-c4ab723ba88d",
+          "2e33b07c-81ff-8054-8e7e-c71620ca4686",
+          "2e33b07c-81ff-803b-b7bd-e8e3f4b14834",
+          "2e33b07c-81ff-80cd-b6db-dd80c4d0c51b",
+          "2e33b07c-81ff-800a-8497-e96f8cb04a3f",
+          "2e33b07c-81ff-8019-bdc8-d27770663fab",
+          "2e33b07c-81ff-8099-a4f7-c11f90dff1d3",
+          "2e33b07c-81ff-800d-88da-ed3fce39fd25",
+          "2e33b07c-81ff-805f-ba45-febaace73f64",
+          "2e33b07c-81ff-80f1-af77-ede4f84261ec",
+          "2e33b07c-81ff-80bb-8732-e0e636067749",
+          "2e33b07c-81ff-8012-a9b5-ecf07ea7ab37",
+          "2e33b07c-81ff-802c-976e-e070d0e9ce54",
+          "2e33b07c-81ff-8073-8c05-c6a8d933448c",
+          "2e33b07c-81ff-801b-9077-db3a0a03e151",
+          "2e33b07c-81ff-80c5-b89d-d0318ed56819",
+          "2e33b07c-81ff-8016-a9ea-c3672a0afcbd",
+          "2e33b07c-81ff-8068-b593-c644ea494e8b",
+          "2e33b07c-81ff-80e2-b635-d7d4cca323a0",
+          "2e33b07c-81ff-8065-9955-f8dbf461f31b",
+          "2e33b07c-81ff-80ab-bbbf-f3fa43fb16ed",
+          "2e33b07c-81ff-802c-b758-d2af087f3019",
+          "2e33b07c-81ff-8058-a51f-f5f785dffd34",
+          "2e33b07c-81ff-8069-8892-fd5fcf024c83",
+          "2e33b07c-81ff-80c8-9701-e40a9ece6211",
+          "2e33b07c-81ff-8098-b417-d3cb2ee2adf7",
+          "2e33b07c-81ff-80bc-b1ff-ccdc5a626be9",
+          "2e33b07c-81ff-8026-a3b3-ec5b8959ec4b",
+          "2e33b07c-81ff-805f-a7e8-fe0a74fe6b0c",
+          "2e33b07c-81ff-8007-8590-ee1f6ed22cb1",
+          "2e33b07c-81ff-80f1-8be7-c16c48b808a1",
+          "2e33b07c-81ff-80c1-8fa6-dc3d4c60ee0d",
+          "2e33b07c-81ff-806b-8dca-cdca92ab02e6",
+          "2e33b07c-81ff-8085-805e-d932c289c457",
+          "2e33b07c-81ff-804c-b862-cab0b47be400",
+          "2e33b07c-81ff-8020-bd40-cf63cc613d9c",
+          "2e33b07c-81ff-8089-b6c8-c1fa5ed6750f",
+          "2e33b07c-81ff-80c7-9c70-ca73a38acbab",
+          "2e33b07c-81ff-8041-ac1d-c46d7a6cc417",
+          "2e33b07c-81ff-809c-8aa2-d8eee8a85343",
+          "2e33b07c-81ff-8086-84e1-cdb03c6c95e3",
+          "2e33b07c-81ff-807b-8943-ca6b304b2941",
+          "2e33b07c-81ff-806e-a933-d1c43b2d8db9",
+          "2e33b07c-81ff-8081-b509-df7e791ba123",
+          "2e33b07c-81ff-80fa-bb50-ce0e693bfcd3",
+          "2e33b07c-81ff-8088-a290-fb980baacc5d",
+          "2e33b07c-81ff-80f7-964a-c65a3d2d93c0",
+          "2e33b07c-81ff-8097-94df-c667d2371c90",
+          "2e33b07c-81ff-80c8-8540-d1c7028bb67e",
+          "2e33b07c-81ff-804a-bed9-c5069b9838fc",
+          "2e33b07c-81ff-80a5-84d7-dd17cc831351",
+          "2e33b07c-81ff-80bf-b525-cf356f561b9a",
+          "2e33b07c-81ff-808e-b2b5-c891f713bf3e",
+          "2e33b07c-81ff-806a-9de3-caca18c8858f",
+          "2e33b07c-81ff-80a3-bb3d-f5fbf4789441",
+          "2e33b07c-81ff-806e-9ea1-c2c80673d351",
+          "2e33b07c-81ff-80dc-92e1-d53daf6b5c84",
+          "2e33b07c-81ff-8063-b6bd-c82c6bf61ab6",
+          "2e33b07c-81ff-80b2-97d6-edfd51801f1e",
+          "2e33b07c-81ff-808c-9ef2-eb8565f49911",
+          "2e33b07c-81ff-80d9-b73c-dfea5eda4cbc",
+          "2e33b07c-81ff-8077-a9fa-edb1779793ea",
+          "2e33b07c-81ff-80aa-ae16-c4c3fd79a8ba",
+          "2e33b07c-81ff-80f7-8304-c96927fe5694",
+          "2e33b07c-81ff-8074-8daf-e94401e57d21",
+          "2e33b07c-81ff-801f-98ea-e0401ecdb3c6",
+          "2e33b07c-81ff-804f-96d6-c56a5e86168a",
+          "2e33b07c-81ff-80f5-aa14-f839ffe798b4",
+          "2e33b07c-81ff-8033-b242-eade61fa97eb",
+          "2e33b07c-81ff-8036-a48d-e37251579f71",
+          "2e33b07c-81ff-80d2-b38a-d97053d964a1",
+          "2e33b07c-81ff-8081-bf3c-ed5ac3d4453f",
+          "2e33b07c-81ff-8040-890d-cae94f6fdced",
+          "2e33b07c-81ff-8023-be1b-fd1f5c366f28",
+          "2e33b07c-81ff-801d-a857-c88feb49b8a7",
+          "2e33b07c-81ff-80b7-9f62-eaa70d0ffee6",
+          "2e33b07c-81ff-80d3-8668-fc702e9625ec",
+          "2e33b07c-81ff-80d9-ba6f-c8617ac5a361",
+          "2e33b07c-81ff-8090-b5ca-e5fa0b7b029f",
+          "2e33b07c-81ff-80d4-83f4-ccbfc650fa17",
+          "2e33b07c-81ff-80ff-a781-fc4ea36796bf",
+          "2e33b07c-81ff-80e5-b3c2-e4b94be38e71",
+          "2e33b07c-81ff-80a1-9b7b-d7ef4afec50d",
+          "2e33b07c-81ff-805d-b259-e7e08993b632",
+          "2e33b07c-81ff-8051-855b-cdf16f5d9398",
+          "2e33b07c-81ff-806d-8316-dce84210bb3e",
+          "2e33b07c-81ff-809a-af96-d558e6bb651a",
+          "2e33b07c-81ff-80a4-b235-e3f8c99a6b27"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:4b0041b7-f783-44bb-9c45-869c8af42199:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1763970155986,
+        "last_edited_time": 1767947037977,
+        "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "4b0041b7-f783-44bb-9c45-869c8af42199"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "7qCBfpRnhBR6hnsIxUUC2w,\"start\",\"end\"",
+            "n": {
+              "7qCBfpRnhBR6hnsIxUUC2w,\"start\",\"end\"": {
+                "s": {
+                  "x": "7qCBfpRnhBR6hnsIxUUC2w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "Lの肖像",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "7qCBfpRnhBR6hnsIxUUC2w",
+                          "l": "",
+                          "i": [
+                            "SG4gLPhldT9k",
+                            9
+                          ],
+                          "s": {
+                            "i": [
+                              "SG4gLPhldT9k",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "SG4gLPhldT9k",
+                              5
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        5
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        4
+                      ],
+                      "l": 2,
+                      "c": "･Ⅲ",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        10
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        6
+                      ],
+                      "l": 1,
+                      "c": "　"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        15
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        10
+                      ],
+                      "l": 1,
+                      "c": "1"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        23
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        15
+                      ],
+                      "l": 2,
+                      "c": "周目"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        26
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        24
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        34
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        26
+                      ],
+                      "l": 2,
+                      "c": "感想"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        28
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        30
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        28
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        32
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        30
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        31
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        30
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        29
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        28
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        27
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        25
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        24
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        18
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        15
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        22
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        20
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        21
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        20
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        16
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        15
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        14
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        11
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        13
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        11
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        12
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        11
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SG4gLPhldT9k",
+                        7
+                      ],
+                      "o": [
+                        "SG4gLPhldT9k",
+                        6
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "28f3b07c-81ff-8037-8280-c4a6bf7a56f2": {
       "value": {
         "id": "28f3b07c-81ff-8037-8280-c4a6bf7a56f2",
@@ -4985,43 +5784,6 @@
                       ],
                       "o": "start",
                       "l": -1
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f": {
-      "value": {
-        "id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
-        "version": 3,
-        "type": "text",
-        "created_time": 1763970155986,
-        "last_edited_time": 1763970155989,
-        "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "7qCBfpRnhBR6hnsIxUUC2w,\"start\",\"end\"",
-            "n": {
-              "7qCBfpRnhBR6hnsIxUUC2w,\"start\",\"end\"": {
-                "s": {
-                  "x": "7qCBfpRnhBR6hnsIxUUC2w",
-                  "i": [
-                    {
-                      "t": "s"
                     },
                     {
                       "t": "e"
