@@ -3,7 +3,7 @@
     "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f": {
       "value": {
         "id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
-        "version": 338,
+        "version": 340,
         "type": "page",
         "properties": {
           "title": [
@@ -86,7 +86,6 @@
           "2e33b07c-81ff-800d-9979-dbde4e1c06e4",
           "2e33b07c-81ff-80f5-a8db-fc7567bd8ee9",
           "2e33b07c-81ff-8037-8695-c4f1178ec2a0",
-          "2e33b07c-81ff-80c3-8b14-c9f8d4e61084",
           "2e33b07c-81ff-8077-add3-fc4531f2a107",
           "2e33b07c-81ff-8022-9ae1-cb3125023491",
           "2e33b07c-81ff-800d-92c6-db3b2f455e4a",
@@ -272,7 +271,7 @@
           "social_media_image_preview_url": "attachment:4b0041b7-f783-44bb-9c45-869c8af42199:SocialMediaPreviewImage.png"
         },
         "created_time": 1763970155986,
-        "last_edited_time": 1767975228926,
+        "last_edited_time": 1768007975443,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -4969,7 +4968,7 @@
     "2e33b07c-81ff-8037-8695-c4f1178ec2a0": {
       "value": {
         "id": "2e33b07c-81ff-8037-8695-c4f1178ec2a0",
-        "version": 4,
+        "version": 5,
         "type": "text",
         "properties": {
           "title": [
@@ -5020,51 +5019,21 @@
                   ],
                   "l": ""
                 },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e33b07c-81ff-80c3-8b14-c9f8d4e61084": {
-      "value": {
-        "id": "2e33b07c-81ff-80c3-8b14-c9f8d4e61084",
-        "version": 4,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "というか、内乱に気づいてなかったのなら、メミニを襲ったのは兵神は何だったんだ。"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e33b07c-81ff-800a-8a6c-ddf591817f17",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767947038469,
-        "last_edited_time": 1767947038764,
-        "parent_id": "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e33b07c-81ff-800a-8a6c-ddf591817f17",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "t-XuNLXjaF0K3YgRmmXyNQ,\"start\",\"end\"",
-            "n": {
-              "t-XuNLXjaF0K3YgRmmXyNQ,\"start\",\"end\"": {
+                "c": [
+                  "t-XuNLXjaF0K3YgRmmXyNQ,[\"KPl8EKA1TUwe\",60],\"end\""
+                ]
+              },
+              "t-XuNLXjaF0K3YgRmmXyNQ,[\"KPl8EKA1TUwe\",60],\"end\"": {
                 "s": {
                   "x": "t-XuNLXjaF0K3YgRmmXyNQ",
                   "i": [
                     {
-                      "t": "s"
+                      "t": "p",
+                      "i": [
+                        "KPl8EKA1TUwe",
+                        60
+                      ],
+                      "o": "start"
                     },
                     {
                       "t": "t",
@@ -5073,14 +5042,13 @@
                         1
                       ],
                       "o": "start",
-                      "l": 39,
-                      "c": "というか、内乱に気づいてなかったのなら、メミニを襲ったのは兵神は何だったんだ。"
+                      "l": -39
                     },
                     {
                       "t": "e"
                     }
                   ],
-                  "l": ""
+                  "l": "l"
                 },
                 "c": []
               }
