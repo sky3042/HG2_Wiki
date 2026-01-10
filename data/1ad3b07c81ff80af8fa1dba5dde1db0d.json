@@ -3,7 +3,7 @@
     "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d": {
       "value": {
         "id": "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d",
-        "version": 1865,
+        "version": 1868,
         "type": "page",
         "properties": {
           "title": [
@@ -32,9 +32,9 @@
           "1ad3b07c-81ff-8008-b3b8-ed031c310fc3",
           "1ad3b07c-81ff-8093-87a0-e2f56fa8ca80",
           "1ad3b07c-81ff-808b-b69f-e8ca6313ac59",
-          "1ad3b07c-81ff-8082-97a5-d1c40460fec1",
           "1ad3b07c-81ff-8069-a3aa-f663d4540b7f",
           "1ad3b07c-81ff-80e1-906b-f741205d3aa9",
+          "1ad3b07c-81ff-8082-97a5-d1c40460fec1",
           "28c3b07c-81ff-80b7-b23e-d2a9020a0441",
           "28c3b07c-81ff-8062-ad6c-f6e650d53420",
           "2563b07c-81ff-803f-8325-e6e9cd467213",
@@ -261,7 +261,7 @@
           "social_media_image_preview_url": "attachment:4542613b-c3c0-418b-b88f-d2f782a9dbfd:SocialMediaPreviewImage.png"
         },
         "created_time": 1741139722430,
-        "last_edited_time": 1765339818460,
+        "last_edited_time": 1768034608839,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
@@ -6282,884 +6282,6 @@
       },
       "role": "reader"
     },
-    "1ad3b07c-81ff-8082-97a5-d1c40460fec1": {
-      "value": {
-        "id": "1ad3b07c-81ff-8082-97a5-d1c40460fec1",
-        "version": 248,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "魔人",
-              [
-                [
-                  "a",
-                  "/1bc3b07c81ff80b19facdf6f9b398d57?pvs=25"
-                ]
-              ]
-            ],
-            [
-              "が"
-            ],
-            [
-              "アクリアの聖痕",
-              [
-                [
-                  "a",
-                  "/1b63b07c81ff808c9a4ad766a16f533c?pvs=25"
-                ]
-              ]
-            ],
-            [
-              "を知っていたことにも説明がつきます。"
-            ]
-          ]
-        },
-        "created_time": 1741192815294,
-        "last_edited_time": 1764117982915,
-        "parent_id": "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "SxbgT7KooiRgy-CccUe5qQ,\"start\",\"end\"",
-            "n": {
-              "SxbgT7KooiRgy-CccUe5qQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "SxbgT7KooiRgy-CccUe5qQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        24
-                      ],
-                      "o": "start",
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        26
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        24
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        28
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        26
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        30
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        28
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        32
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        30
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        31
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        30
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        29
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        28
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        27
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        26
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        25
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        24
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        23
-                      ],
-                      "o": "start",
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GF_SUfqz25t-",
-                        1
-                      ],
-                      "o": "start",
-                      "l": -3,
-                      "a": [
-                        {
-                          "t": "r",
-                          "x": "SxbgT7KooiRgy-CccUe5qQ",
-                          "l": "",
-                          "i": [
-                            "8ga1e7h_cuNZ",
-                            74
-                          ],
-                          "s": {
-                            "i": [
-                              "GF_SUfqz25t-",
-                              3
-                            ],
-                            "a": "a"
-                          },
-                          "e": {
-                            "i": [
-                              "GjwHgQwEp_dn",
-                              34
-                            ],
-                            "a": "b"
-                          },
-                          "k": "a"
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GF_SUfqz25t-",
-                        4
-                      ],
-                      "o": [
-                        "GF_SUfqz25t-",
-                        3
-                      ],
-                      "l": 2,
-                      "c": "魔人",
-                      "b": [
-                        {
-                          "t": "r",
-                          "x": "SxbgT7KooiRgy-CccUe5qQ",
-                          "l": "",
-                          "i": [
-                            "8ga1e7h_cuNZ",
-                            74
-                          ],
-                          "s": {
-                            "i": [
-                              "GF_SUfqz25t-",
-                              3
-                            ],
-                            "a": "a"
-                          },
-                          "e": {
-                            "i": [
-                              "GjwHgQwEp_dn",
-                              34
-                            ],
-                            "a": "b"
-                          },
-                          "k": "a"
-                        },
-                        {
-                          "t": "a",
-                          "x": "SxbgT7KooiRgy-CccUe5qQ",
-                          "l": "",
-                          "i": [
-                            "8ga1e7h_cuNZ",
-                            75
-                          ],
-                          "s": {
-                            "i": [
-                              "GF_SUfqz25t-",
-                              4
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "GF_SUfqz25t-",
-                              5
-                            ],
-                            "a": "a"
-                          },
-                          "a": [
-                            "a",
-                            "/1bc3b07c81ff80b19facdf6f9b398d57?pvs=25"
-                          ]
-                        }
-                      ],
-                      "a": [
-                        {
-                          "t": "r",
-                          "x": "SxbgT7KooiRgy-CccUe5qQ",
-                          "l": "",
-                          "i": [
-                            "8ga1e7h_cuNZ",
-                            74
-                          ],
-                          "s": {
-                            "i": [
-                              "GF_SUfqz25t-",
-                              3
-                            ],
-                            "a": "a"
-                          },
-                          "e": {
-                            "i": [
-                              "GjwHgQwEp_dn",
-                              34
-                            ],
-                            "a": "b"
-                          },
-                          "k": "a"
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        34
-                      ],
-                      "o": [
-                        "GF_SUfqz25t-",
-                        5
-                      ],
-                      "l": 1,
-                      "c": "が",
-                      "b": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "8ga1e7h_cuNZ",
-                        65
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        34
-                      ],
-                      "l": -4,
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "SxbgT7KooiRgy-CccUe5qQ",
-                          "l": "",
-                          "i": [
-                            "8ga1e7h_cuNZ",
-                            69
-                          ],
-                          "s": {
-                            "i": [
-                              "8ga1e7h_cuNZ",
-                              65
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "8ga1e7h_cuNZ",
-                              68
-                            ],
-                            "a": "a"
-                          },
-                          "a": [
-                            "a",
-                            "/1b63b07c81ff801ba186e4d06de3b436?pvs=25"
-                          ]
-                        }
-                      ],
-                      "a": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        33
-                      ],
-                      "o": [
-                        "GF_SUfqz25t-",
-                        5
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GF_SUfqz25t-",
-                        6
-                      ],
-                      "o": [
-                        "GF_SUfqz25t-",
-                        5
-                      ],
-                      "l": -5,
-                      "a": [
-                        {
-                          "t": "r",
-                          "x": "SxbgT7KooiRgy-CccUe5qQ",
-                          "l": "",
-                          "i": [
-                            "8ga1e7h_cuNZ",
-                            76
-                          ],
-                          "s": {
-                            "i": [
-                              "GF_SUfqz25t-",
-                              10
-                            ],
-                            "a": "a"
-                          },
-                          "e": {
-                            "i": [
-                              "GF_SUfqz25t-",
-                              14
-                            ],
-                            "a": "b"
-                          },
-                          "k": "a"
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "8ga1e7h_cuNZ",
-                        70
-                      ],
-                      "o": [
-                        "GF_SUfqz25t-",
-                        10
-                      ],
-                      "l": 4,
-                      "c": "アクリア",
-                      "b": [
-                        {
-                          "t": "r",
-                          "x": "SxbgT7KooiRgy-CccUe5qQ",
-                          "l": "",
-                          "i": [
-                            "8ga1e7h_cuNZ",
-                            76
-                          ],
-                          "s": {
-                            "i": [
-                              "GF_SUfqz25t-",
-                              10
-                            ],
-                            "a": "a"
-                          },
-                          "e": {
-                            "i": [
-                              "GF_SUfqz25t-",
-                              14
-                            ],
-                            "a": "b"
-                          },
-                          "k": "a"
-                        },
-                        {
-                          "t": "a",
-                          "x": "SxbgT7KooiRgy-CccUe5qQ",
-                          "l": "",
-                          "i": [
-                            "8ga1e7h_cuNZ",
-                            77
-                          ],
-                          "s": {
-                            "i": [
-                              "8ga1e7h_cuNZ",
-                              70
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "GF_SUfqz25t-",
-                              13
-                            ],
-                            "a": "a"
-                          },
-                          "a": [
-                            "a",
-                            "/1b63b07c81ff808c9a4ad766a16f533c?pvs=25"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GF_SUfqz25t-",
-                        11
-                      ],
-                      "o": [
-                        "GF_SUfqz25t-",
-                        10
-                      ],
-                      "l": 3,
-                      "c": "の聖痕",
-                      "a": [
-                        {
-                          "t": "r",
-                          "x": "SxbgT7KooiRgy-CccUe5qQ",
-                          "l": "",
-                          "i": [
-                            "8ga1e7h_cuNZ",
-                            76
-                          ],
-                          "s": {
-                            "i": [
-                              "GF_SUfqz25t-",
-                              10
-                            ],
-                            "a": "a"
-                          },
-                          "e": {
-                            "i": [
-                              "GF_SUfqz25t-",
-                              14
-                            ],
-                            "a": "b"
-                          },
-                          "k": "a"
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GF_SUfqz25t-",
-                        14
-                      ],
-                      "o": [
-                        "GF_SUfqz25t-",
-                        13
-                      ],
-                      "l": 5,
-                      "c": "を知ってい",
-                      "b": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        36
-                      ],
-                      "o": [
-                        "GF_SUfqz25t-",
-                        18
-                      ],
-                      "l": 1,
-                      "c": "た"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        38
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        36
-                      ],
-                      "l": 1,
-                      "c": "こ"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        40
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        38
-                      ],
-                      "l": 1,
-                      "c": "と"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        42
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        40
-                      ],
-                      "l": 1,
-                      "c": "に"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        44
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        42
-                      ],
-                      "l": 1,
-                      "c": "も"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        54
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        44
-                      ],
-                      "l": 2,
-                      "c": "説明"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        46
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        44
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        48
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        46
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        50
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        48
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        53
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        51
-                      ],
-                      "l": 1,
-                      "c": "が"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        57
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        53
-                      ],
-                      "l": 1,
-                      "c": "つ"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        59
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        57
-                      ],
-                      "l": 1,
-                      "c": "き"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        61
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        59
-                      ],
-                      "l": 1,
-                      "c": "ま"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        63
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        61
-                      ],
-                      "l": 2,
-                      "c": "す。"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        62
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        61
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        60
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        59
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        58
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        57
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        56
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        53
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        52
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        51
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        49
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        48
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        47
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        46
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        45
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        44
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        43
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        42
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        41
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        40
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        39
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        38
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        37
-                      ],
-                      "o": [
-                        "GjwHgQwEp_dn",
-                        36
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GjwHgQwEp_dn",
-                        35
-                      ],
-                      "o": [
-                        "GF_SUfqz25t-",
-                        18
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "GF_SUfqz25t-",
-                        19
-                      ],
-                      "o": [
-                        "GF_SUfqz25t-",
-                        18
-                      ],
-                      "l": -4
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
     "1ad3b07c-81ff-8069-a3aa-f663d4540b7f": {
       "value": {
         "id": "1ad3b07c-81ff-8069-a3aa-f663d4540b7f",
@@ -8203,6 +7325,884 @@
                       "o": "start",
                       "l": 50,
                       "c": "シャラハは心の聖痕の効果を知りながら、自分から記憶を同期させたのだ。誰かから教わっていたのだろうか？"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-8082-97a5-d1c40460fec1": {
+      "value": {
+        "id": "1ad3b07c-81ff-8082-97a5-d1c40460fec1",
+        "version": 251,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "魔人",
+              [
+                [
+                  "a",
+                  "/1bc3b07c81ff80b19facdf6f9b398d57?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "が"
+            ],
+            [
+              "アクリアの聖痕",
+              [
+                [
+                  "a",
+                  "/1b63b07c81ff808c9a4ad766a16f533c?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "を知っていたことにも説明がつきます。"
+            ]
+          ]
+        },
+        "created_time": 1741192815294,
+        "last_edited_time": 1768034608839,
+        "parent_id": "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "SxbgT7KooiRgy-CccUe5qQ,\"start\",\"end\"",
+            "n": {
+              "SxbgT7KooiRgy-CccUe5qQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "SxbgT7KooiRgy-CccUe5qQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        24
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        26
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        24
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        28
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        30
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        28
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        32
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        30
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        31
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        30
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        29
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        28
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        27
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        25
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        24
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        23
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GF_SUfqz25t-",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -3,
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "SxbgT7KooiRgy-CccUe5qQ",
+                          "l": "",
+                          "i": [
+                            "8ga1e7h_cuNZ",
+                            74
+                          ],
+                          "s": {
+                            "i": [
+                              "GF_SUfqz25t-",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "GjwHgQwEp_dn",
+                              34
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GF_SUfqz25t-",
+                        4
+                      ],
+                      "o": [
+                        "GF_SUfqz25t-",
+                        3
+                      ],
+                      "l": 2,
+                      "c": "魔人",
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "SxbgT7KooiRgy-CccUe5qQ",
+                          "l": "",
+                          "i": [
+                            "8ga1e7h_cuNZ",
+                            74
+                          ],
+                          "s": {
+                            "i": [
+                              "GF_SUfqz25t-",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "GjwHgQwEp_dn",
+                              34
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "SxbgT7KooiRgy-CccUe5qQ",
+                          "l": "",
+                          "i": [
+                            "8ga1e7h_cuNZ",
+                            75
+                          ],
+                          "s": {
+                            "i": [
+                              "GF_SUfqz25t-",
+                              4
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "GF_SUfqz25t-",
+                              5
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bc3b07c81ff80b19facdf6f9b398d57?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "SxbgT7KooiRgy-CccUe5qQ",
+                          "l": "",
+                          "i": [
+                            "8ga1e7h_cuNZ",
+                            74
+                          ],
+                          "s": {
+                            "i": [
+                              "GF_SUfqz25t-",
+                              3
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "GjwHgQwEp_dn",
+                              34
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        34
+                      ],
+                      "o": [
+                        "GF_SUfqz25t-",
+                        5
+                      ],
+                      "l": 1,
+                      "c": "が",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "8ga1e7h_cuNZ",
+                        65
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        34
+                      ],
+                      "l": -4,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "SxbgT7KooiRgy-CccUe5qQ",
+                          "l": "",
+                          "i": [
+                            "8ga1e7h_cuNZ",
+                            69
+                          ],
+                          "s": {
+                            "i": [
+                              "8ga1e7h_cuNZ",
+                              65
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "8ga1e7h_cuNZ",
+                              68
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b63b07c81ff801ba186e4d06de3b436?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        33
+                      ],
+                      "o": [
+                        "GF_SUfqz25t-",
+                        5
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GF_SUfqz25t-",
+                        6
+                      ],
+                      "o": [
+                        "GF_SUfqz25t-",
+                        5
+                      ],
+                      "l": -5,
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "SxbgT7KooiRgy-CccUe5qQ",
+                          "l": "",
+                          "i": [
+                            "8ga1e7h_cuNZ",
+                            76
+                          ],
+                          "s": {
+                            "i": [
+                              "GF_SUfqz25t-",
+                              10
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "GF_SUfqz25t-",
+                              14
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "8ga1e7h_cuNZ",
+                        70
+                      ],
+                      "o": [
+                        "GF_SUfqz25t-",
+                        10
+                      ],
+                      "l": 4,
+                      "c": "アクリア",
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "SxbgT7KooiRgy-CccUe5qQ",
+                          "l": "",
+                          "i": [
+                            "8ga1e7h_cuNZ",
+                            76
+                          ],
+                          "s": {
+                            "i": [
+                              "GF_SUfqz25t-",
+                              10
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "GF_SUfqz25t-",
+                              14
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "SxbgT7KooiRgy-CccUe5qQ",
+                          "l": "",
+                          "i": [
+                            "8ga1e7h_cuNZ",
+                            77
+                          ],
+                          "s": {
+                            "i": [
+                              "8ga1e7h_cuNZ",
+                              70
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "GF_SUfqz25t-",
+                              13
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b63b07c81ff808c9a4ad766a16f533c?pvs=25"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GF_SUfqz25t-",
+                        11
+                      ],
+                      "o": [
+                        "GF_SUfqz25t-",
+                        10
+                      ],
+                      "l": 3,
+                      "c": "の聖痕",
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "SxbgT7KooiRgy-CccUe5qQ",
+                          "l": "",
+                          "i": [
+                            "8ga1e7h_cuNZ",
+                            76
+                          ],
+                          "s": {
+                            "i": [
+                              "GF_SUfqz25t-",
+                              10
+                            ],
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "GF_SUfqz25t-",
+                              14
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GF_SUfqz25t-",
+                        14
+                      ],
+                      "o": [
+                        "GF_SUfqz25t-",
+                        13
+                      ],
+                      "l": 5,
+                      "c": "を知ってい",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        36
+                      ],
+                      "o": [
+                        "GF_SUfqz25t-",
+                        18
+                      ],
+                      "l": 1,
+                      "c": "た"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        38
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        36
+                      ],
+                      "l": 1,
+                      "c": "こ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        40
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        38
+                      ],
+                      "l": 1,
+                      "c": "と"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        42
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        40
+                      ],
+                      "l": 1,
+                      "c": "に"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        44
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        42
+                      ],
+                      "l": 1,
+                      "c": "も"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        54
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        44
+                      ],
+                      "l": 2,
+                      "c": "説明"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        46
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        44
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        48
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        46
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        50
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        48
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        53
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        51
+                      ],
+                      "l": 1,
+                      "c": "が"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        57
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        53
+                      ],
+                      "l": 1,
+                      "c": "つ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        59
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        57
+                      ],
+                      "l": 1,
+                      "c": "き"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        61
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        59
+                      ],
+                      "l": 1,
+                      "c": "ま"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        63
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        61
+                      ],
+                      "l": 2,
+                      "c": "す。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        62
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        61
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        60
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        59
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        58
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        57
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        56
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        53
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        52
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        51
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        49
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        48
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        47
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        46
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        45
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        44
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        43
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        42
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        41
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        40
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        39
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        38
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        37
+                      ],
+                      "o": [
+                        "GjwHgQwEp_dn",
+                        36
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GjwHgQwEp_dn",
+                        35
+                      ],
+                      "o": [
+                        "GF_SUfqz25t-",
+                        18
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GF_SUfqz25t-",
+                        19
+                      ],
+                      "o": [
+                        "GF_SUfqz25t-",
+                        18
+                      ],
+                      "l": -4
                     },
                     {
                       "t": "e"
@@ -10048,7 +10048,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1723,
+        "version": 1724,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -10291,7 +10291,7 @@
     "1ad3b07c-81ff-803d-b570-dd34e00c1df5": {
       "value": {
         "id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
-        "version": 269,
+        "version": 270,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -28015,7 +28015,7 @@
     "1ca3b07c-81ff-805b-ac89-cfc3f70c9828": {
       "value": {
         "id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
-        "version": 55,
+        "version": 56,
         "type": "collection_view_page",
         "view_ids": [
           "1ca3b07c-81ff-8093-aca5-000c02c824d8"
@@ -28036,7 +28036,7 @@
           ]
         },
         "created_time": 1743690486831,
-        "last_edited_time": 1764910422856,
+        "last_edited_time": 1766741606688,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -100476,7 +100476,7 @@
     "1ca3b07c-81ff-8093-aca5-000c02c824d8": {
       "value": {
         "id": "1ca3b07c-81ff-8093-aca5-000c02c824d8",
-        "version": 154,
+        "version": 156,
         "type": "gallery",
         "format": {
           "table_wrap": true,
@@ -100557,11 +100557,12 @@
           "2b23b07c-81ff-8091-81d2-c9358abc522b",
           "2b93b07c-81ff-8040-82eb-c1a4675b7b06",
           "2b93b07c-81ff-8063-8e60-f0dae3bafd05",
-          "2c03b07c-81ff-8000-bd60-de0f418d432e"
+          "2c03b07c-81ff-8000-bd60-de0f418d432e",
+          "2d53b07c-81ff-801b-8d45-ccd8fc6bd217"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "created_time": 1756373099431,
-        "last_edited_time": 1764910422856,
+        "last_edited_time": 1766741606688,
         "created_by_table": "notion_user",
         "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
@@ -100571,26 +100572,26 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d0232478-c39e-4987-8861-2c97e4a8c8a2/Screenshot_2025.03.17_06.05.21.850.png?table=block&id=1ad3b07c-81ff-80af-8fa1-dba5dde1db0d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=WuP03KbGUJGjw5kp729lMnav-8UfFJsEUC37o-TlQmg",
-    "21c3b07c-81ff-8002-99ab-d529a22e054b": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d2df128a-4d40-46b4-ac18-618741510958/image.png?table=block&id=21c3b07c-81ff-8002-99ab-d529a22e054b&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=ZaBw9KRSItOew3-OOrfcjke6ZgDvZAbNErqzweNvYg8",
-    "1ad3b07c-81ff-80dd-baf1-dd65d90ded88": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/5800f896-0d70-487a-8c69-cf8f371fe2ad/image.png?table=block&id=1ad3b07c-81ff-80dd-baf1-dd65d90ded88&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=YFRQB8jWqE0BkzLcg7Qji3HFpVFOVl0rEIUTMekGZd4",
-    "1ad3b07c-81ff-8059-bd05-ea56fa738f32": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/a1ba8f7b-5223-4865-8c01-868d8a55be50/2024-10-24_20-49-57.mp4_snapshot_09.36_2025.03.05_04.57.24.jpg?table=block&id=1ad3b07c-81ff-8059-bd05-ea56fa738f32&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=EgH6upvb6sNp38qCm_wxRyjF9Lmcve6KxntOu9SWIOc",
-    "22f3b07c-81ff-8025-8452-e1532d8fe56a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/c807b780-129e-4321-a3ed-07d907a0d70a/IMG_3338.png?table=block&id=22f3b07c-81ff-8025-8452-e1532d8fe56a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=bBXXiyVbMH-xxiJNDpSZ7bJ82ll5y2erR394UwYA-yw",
-    "22f3b07c-81ff-8072-87f1-c8d029bc4b5d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/10ca3c4e-727d-482c-bcce-500eebe50c29/image.png?table=block&id=22f3b07c-81ff-8072-87f1-c8d029bc4b5d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=DBOu-cOofJHc826mGmpFywMp97bT-C-G0-OX10BUNn0",
-    "22f3b07c-81ff-8082-a3b4-cc99dab5d84a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f652acf2-2e1f-4699-a2c5-6abaf5f42fce/image.png?table=block&id=22f3b07c-81ff-8082-a3b4-cc99dab5d84a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=7uYdVuwg0siZBO_eq2Vrjjq-d50L1rWLi8l4Iz7Wm7s",
-    "22f3b07c-81ff-8065-abfc-e4284921f784": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/41a38438-6ad1-42bf-919d-8f7cdf8b1080/IMG_3337.png?table=block&id=22f3b07c-81ff-8065-abfc-e4284921f784&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=Ox9_tYoP7rCv8nX26YH9VWtEfIlB0IoVKRvgBNnibmM",
-    "1ad3b07c-81ff-80bc-b1e8-cb158d25d7d8": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/69872302-cc60-4bbc-92bd-1141219fcdb8/image.png?table=block&id=1ad3b07c-81ff-80bc-b1e8-cb158d25d7d8&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=ZUvUCXdO7TbJLU_EI8JtW6ZAgh2UzcWhT0vflBTmLbw",
-    "2023b07c-81ff-80eb-a8ba-c09c2ec8954c": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/277b7b5f-5c9b-4414-ba0c-7b17c5be0f75/2024-10-24_17-19-42.mp4_snapshot_05.28_2025.03.04_02.14.33.jpg?table=block&id=2023b07c-81ff-80eb-a8ba-c09c2ec8954c&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=mb5VbCecQX8swA5b_s1WEwLOl19dQ4Nmfrv1mjUSrTU",
-    "1ad3b07c-81ff-80dc-936f-c03ea4aa299a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/54583b85-829e-4124-a670-1649cd766526/image.png?table=block&id=1ad3b07c-81ff-80dc-936f-c03ea4aa299a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=ZVSb2y4-Uz4iTAw8kNsPaOusehTbQX3DsN7yRaiGE1c",
-    "2563b07c-81ff-8070-973a-d9fa8dde0001": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/69872302-cc60-4bbc-92bd-1141219fcdb8/image.png?table=block&id=2563b07c-81ff-8070-973a-d9fa8dde0001&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=VxFWgxqpMbsQWvc_T3RNpU82KybznqzmTnhik6kfe28",
-    "25b3b07c-81ff-80d9-a6cf-e46bcf3fe4ba": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/74ca610d-18cd-48ba-9d61-5e596002b0b0/9-K1.mp4_snapshot_01.03_2025-08-20_00.26.32.jpg?table=block&id=25b3b07c-81ff-80d9-a6cf-e46bcf3fe4ba&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=Wex3xD2R81-JNiPMtJmGC-VUtsC2H9S_EG__ukdehoI",
-    "25b3b07c-81ff-8005-a3cd-ef513776b1d0": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/3359c318-4e98-4d0a-b689-2222995d7c20/image.png?table=block&id=25b3b07c-81ff-8005-a3cd-ef513776b1d0&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=g6BfYiCRbJVQckDoZr-olncgnWuAkdWyZL0Yf3SQ694",
-    "29c3b07c-81ff-802a-866a-f32884bcef82": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1b96fe2b-4ce1-4d1b-9ca4-a8bdba92f45e/IMG_0918.png?table=block&id=29c3b07c-81ff-802a-866a-f32884bcef82&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=wZvTQzwI2QZVBUbPU6WBRAGiuW88Lr9t7LtcIFacIjk",
-    "1ad3b07c-81ff-80e3-b8a9-ec52ed13f273": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/e5110abf-3a0c-41da-9fd4-9904f4f6d99c/image.png?table=block&id=1ad3b07c-81ff-80e3-b8a9-ec52ed13f273&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=ZDOls4RI6tG1-XQXL9WnTQl2HKwtrVaAzu1AMl3K-MU",
-    "25b3b07c-81ff-803f-9daf-e197d5c30bf9": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d3d0e855-5745-4bd0-9d4a-0901b3a35a41/11-K1.mp4_snapshot_15.52_2025-08-22_22.12.56.jpg?table=block&id=25b3b07c-81ff-803f-9daf-e197d5c30bf9&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=WeN34Drg6QzaW2iyVHRgtNqX2GEnQJiJ_UkhbnxwQQI",
-    "25b3b07c-81ff-8091-9aca-dc1ea11f4cff": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/6c58ecf8-5114-4981-83db-f86008d7013c/11-K1.mp4_snapshot_15.59_2025-08-22_22.13.03.jpg?table=block&id=25b3b07c-81ff-8091-9aca-dc1ea11f4cff&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=hX3kqxnREu7gI-ite1oZwIw7mfwyFUf4ss0gwZPJabM",
-    "25b3b07c-81ff-8022-b193-e87d16652fb4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/62707034-0b82-4387-8062-8b70a9b585e2/スクリーンショット_(200).png?table=block&id=25b3b07c-81ff-8022-b193-e87d16652fb4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=MkM1W5ESFAAXRcZLKT6yY_uCByUnkApj3vyTx5UwGXY",
-    "25b3b07c-81ff-80d3-bb85-f75c2437fc4f": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/54cf57f3-5231-4da8-8b1a-8de4466c7faa/スクリーンショット_(201).png?table=block&id=25b3b07c-81ff-80d3-bb85-f75c2437fc4f&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=zlKZLWOVuskHxGao0BSeOsK08Xmo7kzv0B77KteYiT8",
-    "2633b07c-81ff-805f-9a21-d44fb579b657": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1d433dd4-f21f-44c0-8a84-3aee444d9ab8/elysion.jpg?table=block&id=2633b07c-81ff-805f-9a21-d44fb579b657&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1765418400000&signature=-iGwV8GfgeLz42qOZiQ8anhhwsyhy9fwua06rWQTnps"
+    "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d0232478-c39e-4987-8861-2c97e4a8c8a2/Screenshot_2025.03.17_06.05.21.850.png?table=block&id=1ad3b07c-81ff-80af-8fa1-dba5dde1db0d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=zWWnV-xlKczA1wiNEIZa4VNF3z6K6c54GoK49GW4NlA",
+    "21c3b07c-81ff-8002-99ab-d529a22e054b": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d2df128a-4d40-46b4-ac18-618741510958/image.png?table=block&id=21c3b07c-81ff-8002-99ab-d529a22e054b&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=TSAFBRHTTKeKjCiWnF0CH1GwXyYarqb9qVgI7-ZNa88",
+    "1ad3b07c-81ff-80dd-baf1-dd65d90ded88": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/5800f896-0d70-487a-8c69-cf8f371fe2ad/image.png?table=block&id=1ad3b07c-81ff-80dd-baf1-dd65d90ded88&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=B9Zauf3YfxFEBxt-anDV7xToActQqbvD3uVPJ8PwMK0",
+    "1ad3b07c-81ff-8059-bd05-ea56fa738f32": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/a1ba8f7b-5223-4865-8c01-868d8a55be50/2024-10-24_20-49-57.mp4_snapshot_09.36_2025.03.05_04.57.24.jpg?table=block&id=1ad3b07c-81ff-8059-bd05-ea56fa738f32&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=qyuzoaN6gWqnsZ_7RKDjJSJbkisdM2jsNEXbV6V1b6A",
+    "22f3b07c-81ff-8025-8452-e1532d8fe56a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/c807b780-129e-4321-a3ed-07d907a0d70a/IMG_3338.png?table=block&id=22f3b07c-81ff-8025-8452-e1532d8fe56a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=JGKaS1Z9AQfTWq2DRDLEndAiQHjRVm9i09YSLGgXFbw",
+    "22f3b07c-81ff-8072-87f1-c8d029bc4b5d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/10ca3c4e-727d-482c-bcce-500eebe50c29/image.png?table=block&id=22f3b07c-81ff-8072-87f1-c8d029bc4b5d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=SYZAN-of9ZewdYEEnbSuioFY491HcMSBKLeIuKvIdyw",
+    "22f3b07c-81ff-8082-a3b4-cc99dab5d84a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f652acf2-2e1f-4699-a2c5-6abaf5f42fce/image.png?table=block&id=22f3b07c-81ff-8082-a3b4-cc99dab5d84a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=uVXxPT8ujU_QtdY-5z1yBIhMC-V3E2CEDkIjjPoj-8k",
+    "22f3b07c-81ff-8065-abfc-e4284921f784": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/41a38438-6ad1-42bf-919d-8f7cdf8b1080/IMG_3337.png?table=block&id=22f3b07c-81ff-8065-abfc-e4284921f784&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=DTMmf4-zA8foGzBsfVak4V_J5sdatQ38tlzWKIu_CFk",
+    "1ad3b07c-81ff-80bc-b1e8-cb158d25d7d8": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/69872302-cc60-4bbc-92bd-1141219fcdb8/image.png?table=block&id=1ad3b07c-81ff-80bc-b1e8-cb158d25d7d8&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=NIiemY-BbquQHzgQMBBOhZ8jDO4r82DC5mhZcGzIAbo",
+    "2023b07c-81ff-80eb-a8ba-c09c2ec8954c": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/277b7b5f-5c9b-4414-ba0c-7b17c5be0f75/2024-10-24_17-19-42.mp4_snapshot_05.28_2025.03.04_02.14.33.jpg?table=block&id=2023b07c-81ff-80eb-a8ba-c09c2ec8954c&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=oiJapVf9AzQOid6rlRX1bRUNp0U-f8xE_4AHPBt_5WU",
+    "1ad3b07c-81ff-80dc-936f-c03ea4aa299a": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/54583b85-829e-4124-a670-1649cd766526/image.png?table=block&id=1ad3b07c-81ff-80dc-936f-c03ea4aa299a&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=9FGRqm_TYhC79RncyKI39qb-Dn5FewlazS2DwCSsp_c",
+    "2563b07c-81ff-8070-973a-d9fa8dde0001": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/69872302-cc60-4bbc-92bd-1141219fcdb8/image.png?table=block&id=2563b07c-81ff-8070-973a-d9fa8dde0001&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=__o4UZuycbWioVK7fHqJkL8GUH1uUvevBd9l_7-AVlY",
+    "25b3b07c-81ff-80d9-a6cf-e46bcf3fe4ba": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/74ca610d-18cd-48ba-9d61-5e596002b0b0/9-K1.mp4_snapshot_01.03_2025-08-20_00.26.32.jpg?table=block&id=25b3b07c-81ff-80d9-a6cf-e46bcf3fe4ba&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=GB5cQuKJc9qajfOBiA7uMyxZ2omPVAy5BgGwujcpVyM",
+    "25b3b07c-81ff-8005-a3cd-ef513776b1d0": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/3359c318-4e98-4d0a-b689-2222995d7c20/image.png?table=block&id=25b3b07c-81ff-8005-a3cd-ef513776b1d0&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=fAf9is62OhV4yhZRbpT8ntBrQ1LU4r2oHM58zeCjndg",
+    "29c3b07c-81ff-802a-866a-f32884bcef82": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1b96fe2b-4ce1-4d1b-9ca4-a8bdba92f45e/IMG_0918.png?table=block&id=29c3b07c-81ff-802a-866a-f32884bcef82&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=ZUHXTUDwN7dTdAFjxt-ob9FDjYoiC77UHzU18PiWoog",
+    "1ad3b07c-81ff-80e3-b8a9-ec52ed13f273": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/e5110abf-3a0c-41da-9fd4-9904f4f6d99c/image.png?table=block&id=1ad3b07c-81ff-80e3-b8a9-ec52ed13f273&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=rK9nz_RGnkwrcWV5XNUDoJVQXcPRlJ_0faSxSt55ZrE",
+    "25b3b07c-81ff-803f-9daf-e197d5c30bf9": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d3d0e855-5745-4bd0-9d4a-0901b3a35a41/11-K1.mp4_snapshot_15.52_2025-08-22_22.12.56.jpg?table=block&id=25b3b07c-81ff-803f-9daf-e197d5c30bf9&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=CbsHcvrOpB9yAEVwzVzvETuyoLoS1hLw3oAUEaMwbXU",
+    "25b3b07c-81ff-8091-9aca-dc1ea11f4cff": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/6c58ecf8-5114-4981-83db-f86008d7013c/11-K1.mp4_snapshot_15.59_2025-08-22_22.13.03.jpg?table=block&id=25b3b07c-81ff-8091-9aca-dc1ea11f4cff&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=MK-A4m3STeXibj7BQOOCwhFYnzMWYZknGW1IrUnnREg",
+    "25b3b07c-81ff-8022-b193-e87d16652fb4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/62707034-0b82-4387-8062-8b70a9b585e2/スクリーンショット_(200).png?table=block&id=25b3b07c-81ff-8022-b193-e87d16652fb4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=YfsJRfbQou-MM3v89yHDo-d-e-BQx77uawdjOmuAVA0",
+    "25b3b07c-81ff-80d3-bb85-f75c2437fc4f": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/54cf57f3-5231-4da8-8b1a-8de4466c7faa/スクリーンショット_(201).png?table=block&id=25b3b07c-81ff-80d3-bb85-f75c2437fc4f&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=xQR7oxxKAthWeSHUaILjrqvbGnRlAefQ1_vX7XVeAN8",
+    "2633b07c-81ff-805f-9a21-d44fb579b657": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1d433dd4-f21f-44c0-8a84-3aee444d9ab8/elysion.jpg?table=block&id=2633b07c-81ff-805f-9a21-d44fb579b657&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768060800000&signature=4ny0fYYgI8Jt8nRmz67LWNHyLIryOWVsjznPbMAhAXQ"
   }
 }
