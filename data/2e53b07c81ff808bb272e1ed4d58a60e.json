@@ -1,44 +1,41 @@
 {
   "block": {
-    "2b13b07c-81ff-804e-84e5-d7b628c42ebf": {
+    "2e53b07c-81ff-808b-b272-e1ed4d58a60e": {
       "value": {
-        "id": "2b13b07c-81ff-804e-84e5-d7b628c42ebf",
-        "version": 20,
+        "id": "2e53b07c-81ff-808b-b272-e1ed4d58a60e",
+        "version": 28,
         "type": "page",
         "properties": {
           "title": [
             [
-              "「死者の散歩」の聖痕"
+              "「」の聖痕"
             ]
           ]
         },
         "content": [
-          "2b13b07c-81ff-808c-9bcb-fefdd94880ad",
-          "2e53b07c-81ff-80f1-83bd-daddb85ba332",
-          "2b13b07c-81ff-80b7-ae18-e0105ed7335a",
-          "2b13b07c-81ff-80ba-a351-d62f266020a7"
+          "2e53b07c-81ff-80df-a54f-f44fa01ed837",
+          "2e53b07c-81ff-800d-b632-c2c876dfdfc3"
         ],
         "format": {
-          "social_media_image_preview_url": "attachment:96db0f92-db0b-4e5d-acf0-e9c2386eb3b3:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:fde8e88b-4d3d-4bd3-9601-059b43e09ab7:SocialMediaPreviewImage.png"
         },
-        "created_time": 1763604477926,
-        "last_edited_time": 1768115580049,
+        "created_time": 1768120154252,
+        "last_edited_time": 1768120200460,
         "parent_id": "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5",
         "parent_table": "block",
         "alive": true,
         "file_ids": [
-          "d83b6fcc-37dc-40d5-b58e-9efef0ef3d26",
-          "96db0f92-db0b-4e5d-acf0-e9c2386eb3b3"
+          "fde8e88b-4d3d-4bd3-9601-059b43e09ab7"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "QdDUSJ-obHViSJTEhtYDVA,\"start\",\"end\"",
+            "r": "6-qQx4hOeQaahoH1Kb440Q,\"start\",\"end\"",
             "n": {
-              "QdDUSJ-obHViSJTEhtYDVA,\"start\",\"end\"": {
+              "6-qQx4hOeQaahoH1Kb440Q,\"start\",\"end\"": {
                 "s": {
-                  "x": "QdDUSJ-obHViSJTEhtYDVA",
+                  "x": "6-qQx4hOeQaahoH1Kb440Q",
                   "i": [
                     {
                       "t": "s"
@@ -46,38 +43,74 @@
                     {
                       "t": "t",
                       "i": [
-                        "IhLN21qHFKsJ",
+                        "3k7XHUlVkWF4",
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "「"
+                      "l": 2,
+                      "c": "「」"
                     },
                     {
                       "t": "t",
                       "i": [
-                        "e76SaE2qFSKe",
+                        "3k7XHUlVkWF4",
+                        4
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        2
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        7
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        4
+                      ],
+                      "l": 2,
+                      "c": "聖痕"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
                         6
                       ],
                       "o": [
-                        "IhLN21qHFKsJ",
-                        1
+                        "3k7XHUlVkWF4",
+                        4
                       ],
-                      "l": 5,
-                      "c": "死者の散歩"
+                      "l": -1
                     },
                     {
                       "t": "t",
                       "i": [
-                        "IhLN21qHFKsJ",
-                        2
+                        "3k7XHUlVkWF4",
+                        5
                       ],
                       "o": [
-                        "IhLN21qHFKsJ",
-                        1
+                        "3k7XHUlVkWF4",
+                        4
                       ],
-                      "l": 4,
-                      "c": "」の聖痕"
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        3
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        2
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -504,10 +537,10 @@
     "1ad3b07c-81ff-80e6-b0a3-c1e8c0daf575": {
       "role": "none"
     },
-    "2b13b07c-81ff-808c-9bcb-fefdd94880ad": {
+    "2e53b07c-81ff-80df-a54f-f44fa01ed837": {
       "value": {
-        "id": "2b13b07c-81ff-808c-9bcb-fefdd94880ad",
-        "version": 38,
+        "id": "2e53b07c-81ff-80df-a54f-f44fa01ed837",
+        "version": 53,
         "type": "text",
         "properties": {
           "title": [
@@ -515,30 +548,30 @@
               "所有者："
             ],
             [
-              "メミニ・ロア",
+              "コーデリア",
               [
                 [
                   "a",
-                  "/27c3b07c81ff8094ac21c90878468737?pvs=25"
+                  "/2a53b07c81ff8022978accdb80d1d4fb?pvs=25"
                 ]
               ]
             ]
           ]
         },
-        "created_time": 1763604488588,
-        "last_edited_time": 1763604497727,
-        "parent_id": "2b13b07c-81ff-804e-84e5-d7b628c42ebf",
+        "created_time": 1768120164512,
+        "last_edited_time": 1768120173784,
+        "parent_id": "2e53b07c-81ff-808b-b272-e1ed4d58a60e",
         "parent_table": "block",
         "alive": true,
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "ci7tU5ZChVD3SXTY9qIlJA,\"start\",\"end\"",
+            "r": "T1VXcQxMcyLlhMkVn3F7tA,\"start\",\"end\"",
             "n": {
-              "ci7tU5ZChVD3SXTY9qIlJA,\"start\",\"end\"": {
+              "T1VXcQxMcyLlhMkVn3F7tA,\"start\",\"end\"": {
                 "s": {
-                  "x": "ci7tU5ZChVD3SXTY9qIlJA",
+                  "x": "T1VXcQxMcyLlhMkVn3F7tA",
                   "i": [
                     {
                       "t": "s"
@@ -546,8 +579,8 @@
                     {
                       "t": "t",
                       "i": [
-                        "IhLN21qHFKsJ",
-                        13
+                        "3k7XHUlVkWF4",
+                        7
                       ],
                       "o": "start",
                       "l": 4,
@@ -555,23 +588,23 @@
                       "a": [
                         {
                           "t": "r",
-                          "x": "ci7tU5ZChVD3SXTY9qIlJA",
+                          "x": "T1VXcQxMcyLlhMkVn3F7tA",
                           "l": "",
                           "i": [
-                            "IhLN21qHFKsJ",
-                            23
+                            "3k7XHUlVkWF4",
+                            95
                           ],
                           "s": {
                             "i": [
-                              "IhLN21qHFKsJ",
-                              16
+                              "3k7XHUlVkWF4",
+                              10
                             ],
                             "a": "a"
                           },
                           "e": {
                             "i": [
-                              "IhLN21qHFKsJ",
-                              4
+                              "3k7XHUlVkWF4",
+                              23
                             ],
                             "a": "b"
                           },
@@ -582,35 +615,35 @@
                     {
                       "t": "t",
                       "i": [
-                        "IhLN21qHFKsJ",
-                        17
+                        "3k7XHUlVkWF4",
+                        19
                       ],
                       "o": [
-                        "IhLN21qHFKsJ",
-                        16
+                        "3k7XHUlVkWF4",
+                        10
                       ],
-                      "l": 6,
-                      "c": "メミニ・ロア",
+                      "l": 1,
+                      "c": "コ",
                       "b": [
                         {
                           "t": "r",
-                          "x": "ci7tU5ZChVD3SXTY9qIlJA",
+                          "x": "T1VXcQxMcyLlhMkVn3F7tA",
                           "l": "",
                           "i": [
-                            "IhLN21qHFKsJ",
-                            23
+                            "3k7XHUlVkWF4",
+                            95
                           ],
                           "s": {
                             "i": [
-                              "IhLN21qHFKsJ",
-                              16
+                              "3k7XHUlVkWF4",
+                              10
                             ],
                             "a": "a"
                           },
                           "e": {
                             "i": [
-                              "IhLN21qHFKsJ",
-                              4
+                              "3k7XHUlVkWF4",
+                              23
                             ],
                             "a": "b"
                           },
@@ -618,52 +651,90 @@
                         },
                         {
                           "t": "a",
-                          "x": "ci7tU5ZChVD3SXTY9qIlJA",
+                          "x": "T1VXcQxMcyLlhMkVn3F7tA",
                           "l": "",
                           "i": [
-                            "IhLN21qHFKsJ",
-                            24
+                            "3k7XHUlVkWF4",
+                            96
                           ],
                           "s": {
                             "i": [
-                              "IhLN21qHFKsJ",
-                              17
+                              "3k7XHUlVkWF4",
+                              19
                             ],
                             "a": "b"
                           },
                           "e": {
                             "i": [
-                              "IhLN21qHFKsJ",
+                              "3k7XHUlVkWF4",
                               22
                             ],
                             "a": "a"
                           },
                           "a": [
                             "a",
-                            "/27c3b07c81ff8094ac21c90878468737?pvs=25"
+                            "/2a53b07c81ff8022978accdb80d1d4fb?pvs=25"
                           ]
                         }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        12
                       ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        13
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        12
+                      ],
+                      "l": 1,
+                      "c": "ー"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        20
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        13
+                      ],
+                      "l": 3,
+                      "c": "デリア",
                       "a": [
                         {
                           "t": "r",
-                          "x": "ci7tU5ZChVD3SXTY9qIlJA",
+                          "x": "T1VXcQxMcyLlhMkVn3F7tA",
                           "l": "",
                           "i": [
-                            "IhLN21qHFKsJ",
-                            23
+                            "3k7XHUlVkWF4",
+                            95
                           ],
                           "s": {
                             "i": [
-                              "IhLN21qHFKsJ",
-                              16
+                              "3k7XHUlVkWF4",
+                              10
                             ],
                             "a": "a"
                           },
                           "e": {
                             "i": [
-                              "IhLN21qHFKsJ",
-                              4
+                              "3k7XHUlVkWF4",
+                              23
                             ],
                             "a": "b"
                           },
@@ -674,583 +745,101 @@
                     {
                       "t": "t",
                       "i": [
-                        "IhLN21qHFKsJ",
-                        4
-                      ],
-                      "o": "start",
-                      "l": -2,
-                      "b": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        7
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        5
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        11
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        8
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        9
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        8
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        6
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        5
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        1
-                      ],
-                      "o": "start",
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        3
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        1
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        2
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        1
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e53b07c-81ff-80f1-83bd-daddb85ba332": {
-      "value": {
-        "id": "2e53b07c-81ff-80f1-83bd-daddb85ba332",
-        "version": 7,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "死者を操る能力。"
-            ]
-          ]
-        },
-        "created_time": 1768115575312,
-        "last_edited_time": 1768115576958,
-        "parent_id": "2b13b07c-81ff-804e-84e5-d7b628c42ebf",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "KHaZfwgjyf2v_wv_ajokjg,\"start\",\"end\"",
-            "n": {
-              "KHaZfwgjyf2v_wv_ajokjg,\"start\",\"end\"": {
-                "s": {
-                  "x": "KHaZfwgjyf2v_wv_ajokjg",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 8,
-                      "c": "死者を操る能力。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2b13b07c-81ff-80b7-ae18-e0105ed7335a": {
-      "value": {
-        "id": "2b13b07c-81ff-80b7-ae18-e0105ed7335a",
-        "version": 101,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "死者の口を開かせることができる。"
-            ]
-          ]
-        },
-        "created_time": 1763604517797,
-        "last_edited_time": 1763604525798,
-        "parent_id": "2b13b07c-81ff-804e-84e5-d7b628c42ebf",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "QxMhLxTTZYnEqz-Oc1aFvg,\"start\",\"end\"",
-            "n": {
-              "QxMhLxTTZYnEqz-Oc1aFvg,\"start\",\"end\"": {
-                "s": {
-                  "x": "QxMhLxTTZYnEqz-Oc1aFvg",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        7
-                      ],
-                      "o": "start",
-                      "l": 2,
-                      "c": "死者"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        10
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        8
-                      ],
-                      "l": 1,
-                      "c": "の"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        17
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        10
-                      ],
-                      "l": 1,
-                      "c": "口"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        12
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        10
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        14
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        12
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        16
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        14
-                      ],
-                      "l": 1,
-                      "c": "を"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        28
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        16
-                      ],
-                      "l": 1,
-                      "c": "開"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        19
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        16
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        21
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        19
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
+                        "3k7XHUlVkWF4",
                         23
                       ],
                       "o": [
-                        "IhLN21qHFKsJ",
-                        21
-                      ],
-                      "l": 1,
-                      "c": "か"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        25
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        23
-                      ],
-                      "l": 1,
-                      "c": "せ"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        27
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        25
-                      ],
-                      "l": 1,
-                      "c": "る"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        30
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        27
-                      ],
-                      "l": 1,
-                      "c": "こ"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        32
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        30
-                      ],
-                      "l": 1,
-                      "c": "と"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        34
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        32
-                      ],
-                      "l": 1,
-                      "c": "が"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        36
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        34
-                      ],
-                      "l": 1,
-                      "c": "で"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        38
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        36
-                      ],
-                      "l": 1,
-                      "c": "き"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        40
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        38
-                      ],
-                      "l": 2,
-                      "c": "る。"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        39
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        38
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        37
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        36
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        35
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        34
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        33
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        32
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        31
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        30
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        29
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        27
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        26
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        25
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        24
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        23
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
+                        "3k7XHUlVkWF4",
                         22
                       ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        21
+                      "l": -71,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "T1VXcQxMcyLlhMkVn3F7tA",
+                          "l": "",
+                          "i": [
+                            "3k7XHUlVkWF4",
+                            94
+                          ],
+                          "s": {
+                            "i": [
+                              "3k7XHUlVkWF4",
+                              23
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "3k7XHUlVkWF4",
+                              93
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "https://www.notion.so/2a53b07c81ff8022978accdb80d1d4fb?source=copy_link"
+                          ]
+                        }
                       ],
-                      "l": -1
+                      "a": []
                     },
                     {
                       "t": "t",
                       "i": [
-                        "IhLN21qHFKsJ",
-                        20
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        19
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        18
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        16
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
+                        "3k7XHUlVkWF4",
                         15
                       ],
                       "o": [
-                        "IhLN21qHFKsJ",
-                        14
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
+                        "3k7XHUlVkWF4",
                         13
                       ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        17
+                      ],
                       "o": [
-                        "IhLN21qHFKsJ",
-                        12
+                        "3k7XHUlVkWF4",
+                        15
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        16
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        15
                       ],
                       "l": -1
                     },
                     {
                       "t": "t",
                       "i": [
-                        "IhLN21qHFKsJ",
+                        "3k7XHUlVkWF4",
+                        14
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
                         11
                       ],
                       "o": [
-                        "IhLN21qHFKsJ",
+                        "3k7XHUlVkWF4",
                         10
                       ],
                       "l": -1
@@ -1258,56 +847,44 @@
                     {
                       "t": "t",
                       "i": [
-                        "IhLN21qHFKsJ",
-                        9
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        8
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
-                        2
+                        "3k7XHUlVkWF4",
+                        3
                       ],
                       "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        6
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        4
+                      ],
                       "l": -1
                     },
                     {
                       "t": "t",
                       "i": [
-                        "IhLN21qHFKsJ",
+                        "3k7XHUlVkWF4",
                         5
                       ],
                       "o": [
-                        "IhLN21qHFKsJ",
-                        2
+                        "3k7XHUlVkWF4",
+                        4
                       ],
-                      "l": -2
+                      "l": -1
                     },
                     {
                       "t": "t",
                       "i": [
-                        "IhLN21qHFKsJ",
-                        3
-                      ],
-                      "o": [
-                        "IhLN21qHFKsJ",
-                        2
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IhLN21qHFKsJ",
+                        "3k7XHUlVkWF4",
                         1
                       ],
                       "o": "start",
-                      "l": -1
+                      "l": -2
                     },
                     {
                       "t": "e"
@@ -1323,32 +900,32 @@
       },
       "role": "reader"
     },
-    "2b13b07c-81ff-80ba-a351-d62f266020a7": {
+    "2e53b07c-81ff-800d-b632-c2c876dfdfc3": {
       "value": {
-        "id": "2b13b07c-81ff-80ba-a351-d62f266020a7",
-        "version": 136,
+        "id": "2e53b07c-81ff-800d-b632-c2c876dfdfc3",
+        "version": 85,
         "type": "text",
         "properties": {
           "title": [
             [
-              "死者は聖痕を使うことができる。"
+              "重症を負うと自動的に発動し、脱皮する？"
             ]
           ]
         },
-        "created_time": 1763604526005,
-        "last_edited_time": 1768115588484,
-        "parent_id": "2b13b07c-81ff-804e-84e5-d7b628c42ebf",
+        "created_time": 1768120174070,
+        "last_edited_time": 1768120200460,
+        "parent_id": "2e53b07c-81ff-808b-b272-e1ed4d58a60e",
         "parent_table": "block",
         "alive": true,
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "yLAPSan5yPv3yakeKqJGfA,\"start\",\"end\"",
+            "r": "_fbqF-JATXd790DDnO4wDA,\"start\",\"end\"",
             "n": {
-              "yLAPSan5yPv3yakeKqJGfA,\"start\",\"end\"": {
+              "_fbqF-JATXd790DDnO4wDA,\"start\",\"end\"": {
                 "s": {
-                  "x": "yLAPSan5yPv3yakeKqJGfA",
+                  "x": "_fbqF-JATXd790DDnO4wDA",
                   "i": [
                     {
                       "t": "s"
@@ -1356,520 +933,321 @@
                     {
                       "t": "t",
                       "i": [
-                        "e76SaE2qFSKe",
-                        17
+                        "3k7XHUlVkWF4",
+                        12
                       ],
                       "o": "start",
                       "l": 2,
-                      "c": "死者"
+                      "c": "重症"
                     },
                     {
                       "t": "t",
                       "i": [
-                        "e76SaE2qFSKe",
-                        22
+                        "3k7XHUlVkWF4",
+                        2
                       ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        18
-                      ],
-                      "l": 1,
-                      "c": "は"
+                      "o": "start",
+                      "l": -3
                     },
                     {
                       "t": "t",
                       "i": [
-                        "e76SaE2qFSKe",
-                        33
+                        "3k7XHUlVkWF4",
+                        7
                       ],
                       "o": [
-                        "e76SaE2qFSKe",
-                        22
-                      ],
-                      "l": 2,
-                      "c": "聖痕"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        36
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        34
-                      ],
-                      "l": 1,
-                      "c": "を"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        48
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        36
-                      ],
-                      "l": 1,
-                      "c": "使"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        38
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        36
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        40
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        38
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        41
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        40
-                      ],
-                      "l": 1,
-                      "c": "う"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        43
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        41
-                      ],
-                      "l": 1,
-                      "c": "こ"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        45
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        43
-                      ],
-                      "l": 1,
-                      "c": "と"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        47
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        45
-                      ],
-                      "l": 1,
-                      "c": "が"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        50
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        47
-                      ],
-                      "l": 1,
-                      "c": "で"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        52
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        50
-                      ],
-                      "l": 1,
-                      "c": "き"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        54
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        52
-                      ],
-                      "l": 2,
-                      "c": "る。"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        53
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        52
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        51
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        50
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        49
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        47
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        46
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        45
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        44
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        43
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        42
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        41
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        39
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        38
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        37
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        36
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        35
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        34
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        30
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        22
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        28
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        22
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        24
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        22
+                        "3k7XHUlVkWF4",
+                        4
                       ],
                       "l": -3
                     },
                     {
                       "t": "t",
                       "i": [
-                        "e76SaE2qFSKe",
-                        32
+                        "3k7XHUlVkWF4",
+                        11
                       ],
                       "o": [
-                        "e76SaE2qFSKe",
+                        "3k7XHUlVkWF4",
+                        9
+                      ],
+                      "l": 1,
+                      "c": "を"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
                         26
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        11
+                      ],
+                      "l": 2,
+                      "c": "負う"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        25
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        11
                       ],
                       "l": -1
                     },
                     {
                       "t": "t",
                       "i": [
-                        "e76SaE2qFSKe",
-                        29
+                        "3k7XHUlVkWF4",
+                        24
                       ],
                       "o": [
-                        "e76SaE2qFSKe",
-                        26
+                        "3k7XHUlVkWF4",
+                        11
                       ],
                       "l": -1
                     },
                     {
                       "t": "t",
                       "i": [
-                        "e76SaE2qFSKe",
-                        27
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        26
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        23
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
+                        "3k7XHUlVkWF4",
                         22
                       ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        21
-                      ],
                       "o": [
-                        "e76SaE2qFSKe",
-                        18
+                        "3k7XHUlVkWF4",
+                        11
                       ],
-                      "l": -1
+                      "l": -2
                     },
                     {
                       "t": "t",
                       "i": [
-                        "e76SaE2qFSKe",
+                        "3k7XHUlVkWF4",
                         20
                       ],
                       "o": [
-                        "e76SaE2qFSKe",
-                        18
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        19
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        18
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        12
-                      ],
-                      "o": "start",
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        15
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        12
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        13
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        12
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
+                        "3k7XHUlVkWF4",
                         11
                       ],
-                      "o": "start",
                       "l": -1
                     },
                     {
                       "t": "t",
                       "i": [
-                        "e76SaE2qFSKe",
-                        7
+                        "3k7XHUlVkWF4",
+                        21
                       ],
-                      "o": "start",
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        20
+                      ],
+                      "l": 1,
+                      "c": "と"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        40
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "l": 8,
+                      "c": "自動的に発動し、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        33
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "l": 2,
+                      "c": "脱皮"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        36
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        34
+                      ],
+                      "l": 1,
+                      "c": "す"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        38
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        36
+                      ],
+                      "l": 2,
+                      "c": "る？"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        37
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        36
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        35
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        34
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        29
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        31
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        29
+                      ],
                       "l": -2
                     },
                     {
                       "t": "t",
                       "i": [
-                        "e76SaE2qFSKe",
+                        "3k7XHUlVkWF4",
+                        30
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        29
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        28
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        18
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        11
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        14
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        11
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        17
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        16
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
                         10
                       ],
                       "o": [
-                        "e76SaE2qFSKe",
-                        8
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
+                        "3k7XHUlVkWF4",
                         9
                       ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        8
-                      ],
                       "l": -1
                     },
                     {
                       "t": "t",
                       "i": [
-                        "e76SaE2qFSKe",
-                        2
-                      ],
-                      "o": "start",
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
+                        "3k7XHUlVkWF4",
                         5
                       ],
                       "o": [
-                        "e76SaE2qFSKe",
-                        3
+                        "3k7XHUlVkWF4",
+                        4
                       ],
                       "l": -2
                     },
                     {
                       "t": "t",
                       "i": [
-                        "e76SaE2qFSKe",
-                        4
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        3
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
+                        "3k7XHUlVkWF4",
                         1
                       ],
                       "o": "start",
@@ -1889,47 +1267,47 @@
       },
       "role": "reader"
     },
-    "27c3b07c-81ff-8094-ac21-c90878468737": {
+    "2a53b07c-81ff-8022-978a-ccdb80d1d4fb": {
       "value": {
-        "id": "27c3b07c-81ff-8094-ac21-c90878468737",
-        "version": 56,
+        "id": "2a53b07c-81ff-8022-978a-ccdb80d1d4fb",
+        "version": 45,
         "type": "page",
         "properties": {
           "title": [
             [
-              "メミニ・ロア"
+              "コーデリア"
             ]
           ]
         },
         "content": [
-          "27c3b07c-81ff-808a-8cb6-e29071ea4ea3",
-          "2b13b07c-81ff-80f1-aacb-e4547bc33c88",
-          "27c3b07c-81ff-802f-8ce5-fbadfae4565c",
-          "27c3b07c-81ff-8016-a5c2-e59beddcbbd3",
-          "2b13b07c-81ff-8080-b026-cdbe64192174",
-          "2b13b07c-81ff-80ba-9902-edb95a54451c",
-          "2e53b07c-81ff-801e-9073-d9f4d518b5ef",
-          "2b13b07c-81ff-80ae-982b-c8a6eb0b5846",
-          "27c3b07c-81ff-80da-a116-eda7c5962f83",
-          "2b13b07c-81ff-80f6-8d59-c02ed894aa9b",
-          "2b13b07c-81ff-806a-9f4d-f300cba2b041",
-          "2b13b07c-81ff-80d1-9955-c509a732de19",
-          "27c3b07c-81ff-80cf-b453-fb11b93526cc"
+          "2b13b07c-81ff-80ff-b106-e25f8703828a",
+          "2b13b07c-81ff-805a-a476-f81faedda340",
+          "2b13b07c-81ff-801a-a4f6-ff95a07b03a7",
+          "2b13b07c-81ff-80e7-9b20-e18b5c953a76",
+          "2b13b07c-81ff-809f-aae4-f44d23f6bf61",
+          "2b13b07c-81ff-80de-936d-cad49d157531",
+          "2e53b07c-81ff-8090-89de-eabbbd5b45ce"
         ],
-        "created_time": 1759055549211,
-        "last_edited_time": 1768122662231,
+        "format": {
+          "social_media_image_preview_url": "attachment:2aa3c08f-7cb7-41ec-8948-796a036aeb6c:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1762589818045,
+        "last_edited_time": 1768120275419,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
+        "file_ids": [
+          "2aa3c08f-7cb7-41ec-8948-796a036aeb6c"
+        ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "3DGK3uOVVV2cvD2GRvexQA,\"start\",\"end\"",
+            "r": "DzPXFjv-fuo0zenic9rRVw,\"start\",\"end\"",
             "n": {
-              "3DGK3uOVVV2cvD2GRvexQA,\"start\",\"end\"": {
+              "DzPXFjv-fuo0zenic9rRVw,\"start\",\"end\"": {
                 "s": {
-                  "x": "3DGK3uOVVV2cvD2GRvexQA",
+                  "x": "DzPXFjv-fuo0zenic9rRVw",
                   "i": [
                     {
                       "t": "s"
@@ -1937,12 +1315,56 @@
                     {
                       "t": "t",
                       "i": [
-                        "NyRUE5Kcxwa2",
+                        "6CMyVlfiumPB",
+                        4
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "コ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "6CMyVlfiumPB",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "6CMyVlfiumPB",
+                        3
+                      ],
+                      "o": [
+                        "6CMyVlfiumPB",
+                        2
+                      ],
+                      "l": 1,
+                      "c": "ー"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "6CMyVlfiumPB",
+                        5
+                      ],
+                      "o": [
+                        "6CMyVlfiumPB",
+                        3
+                      ],
+                      "l": 3,
+                      "c": "デリア"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "6CMyVlfiumPB",
                         1
                       ],
                       "o": "start",
-                      "l": 6,
-                      "c": "メミニ・ロア"
+                      "l": -1
                     },
                     {
                       "t": "e"

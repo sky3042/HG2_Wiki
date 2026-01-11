@@ -3,7 +3,7 @@
     "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5": {
       "value": {
         "id": "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5",
-        "version": 170,
+        "version": 172,
         "type": "page",
         "properties": {
           "title": [
@@ -31,6 +31,7 @@
           "1bf3b07c-81ff-80bc-b81d-e21153f6f3c8",
           "2b13b07c-81ff-804e-84e5-d7b628c42ebf",
           "2b13b07c-81ff-8071-91e8-f886a7054bd2",
+          "2e53b07c-81ff-808b-b272-e1ed4d58a60e",
           "2b13b07c-81ff-80b6-a232-c05c3f154a4c",
           "1bc3b07c-81ff-805d-a768-c035877ab4bd",
           "1b93b07c-81ff-801c-adc8-ce9b99a5c988",
@@ -52,7 +53,7 @@
           }
         },
         "created_time": 1741979389065,
-        "last_edited_time": 1763610059720,
+        "last_edited_time": 1768120154258,
         "parent_id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
         "parent_table": "block",
         "alive": true,
@@ -96,9 +97,14 @@
     "1ad3b07c-81ff-803d-b570-dd34e00c1df5": {
       "value": {
         "id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
-        "version": 261,
+        "version": 270,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "term"
+            ]
+          ],
           "title": [
             [
               "用語"
@@ -136,7 +142,7 @@
           "social_media_image_preview_url": "attachment:0c2d3364-aa4c-4140-93ae-100086c0fa1e:SocialMediaPreviewImage.png"
         },
         "created_time": 1741140188770,
-        "last_edited_time": 1763622970353,
+        "last_edited_time": 1764148149674,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -240,7 +246,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -270,20 +276,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -295,7 +295,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -318,7 +318,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -327,7 +327,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -349,8 +350,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -1490,30 +1529,32 @@
     "2b13b07c-81ff-804e-84e5-d7b628c42ebf": {
       "value": {
         "id": "2b13b07c-81ff-804e-84e5-d7b628c42ebf",
-        "version": 13,
+        "version": 20,
         "type": "page",
         "properties": {
           "title": [
             [
-              "「」の聖痕"
+              "「死者の散歩」の聖痕"
             ]
           ]
         },
         "content": [
           "2b13b07c-81ff-808c-9bcb-fefdd94880ad",
+          "2e53b07c-81ff-80f1-83bd-daddb85ba332",
           "2b13b07c-81ff-80b7-ae18-e0105ed7335a",
           "2b13b07c-81ff-80ba-a351-d62f266020a7"
         ],
         "format": {
-          "social_media_image_preview_url": "attachment:d83b6fcc-37dc-40d5-b58e-9efef0ef3d26:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:96db0f92-db0b-4e5d-acf0-e9c2386eb3b3:SocialMediaPreviewImage.png"
         },
         "created_time": 1763604477926,
-        "last_edited_time": 1763604487469,
+        "last_edited_time": 1768115580049,
         "parent_id": "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5",
         "parent_table": "block",
         "alive": true,
         "file_ids": [
-          "d83b6fcc-37dc-40d5-b58e-9efef0ef3d26"
+          "d83b6fcc-37dc-40d5-b58e-9efef0ef3d26",
+          "96db0f92-db0b-4e5d-acf0-e9c2386eb3b3"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -1535,8 +1576,34 @@
                         1
                       ],
                       "o": "start",
+                      "l": 1,
+                      "c": "「"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        6
+                      ],
+                      "o": [
+                        "IhLN21qHFKsJ",
+                        1
+                      ],
                       "l": 5,
-                      "c": "「」の聖痕"
+                      "c": "死者の散歩"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IhLN21qHFKsJ",
+                        2
+                      ],
+                      "o": [
+                        "IhLN21qHFKsJ",
+                        1
+                      ],
+                      "l": 4,
+                      "c": "」の聖痕"
                     },
                     {
                       "t": "e"
@@ -1684,6 +1751,132 @@
                       ],
                       "o": [
                         "W6uDgwt69Q9p",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-808b-b272-e1ed4d58a60e": {
+      "value": {
+        "id": "2e53b07c-81ff-808b-b272-e1ed4d58a60e",
+        "version": 28,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "「」の聖痕"
+            ]
+          ]
+        },
+        "content": [
+          "2e53b07c-81ff-80df-a54f-f44fa01ed837",
+          "2e53b07c-81ff-800d-b632-c2c876dfdfc3"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:fde8e88b-4d3d-4bd3-9601-059b43e09ab7:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1768120154252,
+        "last_edited_time": 1768120200460,
+        "parent_id": "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "fde8e88b-4d3d-4bd3-9601-059b43e09ab7"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "6-qQx4hOeQaahoH1Kb440Q,\"start\",\"end\"",
+            "n": {
+              "6-qQx4hOeQaahoH1Kb440Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "6-qQx4hOeQaahoH1Kb440Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "「」"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        4
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        2
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        7
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        4
+                      ],
+                      "l": 2,
+                      "c": "聖痕"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        6
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        5
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        3
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
                         2
                       ],
                       "l": -1

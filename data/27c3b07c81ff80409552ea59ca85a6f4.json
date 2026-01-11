@@ -3,12 +3,12 @@
     "27c3b07c-81ff-8040-9552-ea59ca85a6f4": {
       "value": {
         "id": "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
-        "version": 21,
+        "version": 34,
         "type": "page",
         "properties": {
           "title": [
             [
-              "ホトトギス"
+              "ツツジ（ホトトギス）"
             ]
           ]
         },
@@ -20,11 +20,17 @@
           "27c3b07c-81ff-8005-b612-f539b3d56cd1",
           "27c3b07c-81ff-80d0-9afd-f19a5c3835b1"
         ],
+        "format": {
+          "social_media_image_preview_url": "attachment:69e75926-5c02-4cbe-8679-66f922961f4b:SocialMediaPreviewImage.png"
+        },
         "created_time": 1759055549209,
-        "last_edited_time": 1763609928122,
+        "last_edited_time": 1768122729841,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
+        "file_ids": [
+          "69e75926-5c02-4cbe-8679-66f922961f4b"
+        ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
@@ -41,12 +47,35 @@
                     {
                       "t": "t",
                       "i": [
+                        "e76SaE2qFSKe",
+                        6
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "ツツジ（"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "9ztOXRViiJIf",
                         1
                       ],
                       "o": "start",
                       "l": 5,
                       "c": "ホトトギス"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        10
+                      ],
+                      "o": [
+                        "9ztOXRViiJIf",
+                        5
+                      ],
+                      "l": 1,
+                      "c": "）"
                     },
                     {
                       "t": "e"
@@ -65,7 +94,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1717,
+        "version": 1790,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -108,7 +137,7 @@
           "1b93b07c-81ff-809c-b40c-e92b30835acc",
           "1b93b07c-81ff-804f-b58b-db4f52c31d02",
           "27c3b07c-81ff-80a1-abe0-fbb8e2e929de",
-          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "2e53b07c-81ff-8030-ae24-db6b6257f2ac",
           "1bf3b07c-81ff-806f-86d6-e5f00eaa57e4",
           "1b93b07c-81ff-80e6-8833-e860f93f4b5d",
           "1b93b07c-81ff-808c-a05e-dbfb07e01d95",
@@ -116,7 +145,6 @@
           "1b93b07c-81ff-80e5-903b-d07e81c1d36e",
           "1b93b07c-81ff-8070-9bb8-d324721c2653",
           "2b13b07c-81ff-8098-b3da-f65d174cfa92",
-          "2b13b07c-81ff-80fc-9eee-e80210257c17",
           "27c3b07c-81ff-8076-914e-c98b7a9e323c",
           "27c3b07c-81ff-80c8-b4f0-ea440e24b973",
           "1b93b07c-81ff-8093-b73f-ea9338e09284",
@@ -140,26 +168,30 @@
           "1bc3b07c-81ff-80d8-9371-df19fc99263f",
           "1b93b07c-81ff-8058-87c6-cf92f46eeb5e",
           "1bd3b07c-81ff-800c-af8d-f5dc559f3811",
-          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
-          "1bd3b07c-81ff-8087-9377-facf462a212f",
           "1b93b07c-81ff-8076-86cb-cc99e3c28e11",
+          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
           "1bd3b07c-81ff-80c5-acdb-e05953c7d3c2",
           "1bc3b07c-81ff-8024-a546-ea0e68ada392",
-          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
+          "2e53b07c-81ff-80fb-ae9c-d4af89dc3526",
+          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
+          "1bd3b07c-81ff-8087-9377-facf462a212f",
           "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
+          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
+          "27c3b07c-81ff-80b9-af67-da8e328925f6",
           "27c3b07c-81ff-8088-ac2d-f2beba364720",
           "2a53b07c-81ff-8022-978a-ccdb80d1d4fb",
-          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
+          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
           "1be3b07c-81ff-8034-9960-db9b3a238538",
           "1be3b07c-81ff-80f0-9d99-cd8ab44f29d4",
           "1be3b07c-81ff-80aa-a398-fc78d542be90",
-          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
-          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
-          "27c3b07c-81ff-80b9-af67-da8e328925f6",
+          "2e53b07c-81ff-80fd-aebf-deaefc211002",
+          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
           "1be3b07c-81ff-8086-9bbd-d3ec180d3fcd",
           "1bd3b07c-81ff-806c-8111-e4bc80a3013e",
           "1bf3b07c-81ff-8048-b2d0-e2c6da725c6f",
           "1be3b07c-81ff-801e-85a9-f13d576b6447",
+          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
           "1b93b07c-81ff-806f-bf2d-fa3acb1a1a42",
           "1bc3b07c-81ff-80b1-9fac-df6f9b398d57",
           "2b13b07c-81ff-80ff-9fbc-d78483f1bc12",
@@ -171,6 +203,7 @@
           "1b93b07c-81ff-809e-90a8-f0e412a0cdac",
           "1b83b07c-81ff-8072-b34c-d84888baf666",
           "1b93b07c-81ff-8043-b610-db8506b0dd80",
+          "2e53b07c-81ff-803d-a29f-e5d209190ebc",
           "1bc3b07c-81ff-801b-bf59-caad9fd0bfd2",
           "1bf3b07c-81ff-80dd-ae4e-f94a70f8a4a5",
           "1b93b07c-81ff-80a2-95ab-d592676f5c99",
@@ -240,7 +273,6 @@
           "27c3b07c-81ff-80fd-a9c6-f09fd21b17fd",
           "27c3b07c-81ff-801b-b9c2-df19d63f2027",
           "27c3b07c-81ff-8042-a1f7-ed0bae0397b3",
-          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
           "27c3b07c-81ff-801a-af68-e11c8b5f8e03",
           "27c3b07c-81ff-80f1-a34c-c513f98b6fc6",
           "27c3b07c-81ff-8077-bf43-c523a5d8c3db",
@@ -248,6 +280,7 @@
           "27c3b07c-81ff-8096-a62b-eb78a49e3631",
           "2b13b07c-81ff-80e5-92e0-c6d921d34af4",
           "2b13b07c-81ff-8028-a0de-e0eef35f3587",
+          "2e53b07c-81ff-8038-ae49-cc39104850c2",
           "1bf3b07c-81ff-8090-ac79-dfbca3b5853e",
           "1b63b07c-81ff-80de-a3b0-c95920f86655",
           "2083b07c-81ff-802d-bf18-e376d867503c",
@@ -260,7 +293,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1763799859805,
+        "last_edited_time": 1768123006610,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -363,7 +396,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -393,20 +426,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -418,7 +445,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -441,7 +468,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -450,7 +477,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -472,8 +500,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -573,12 +639,12 @@
     "27c3b07c-81ff-80e3-8056-e8a5cf99ecb6": {
       "value": {
         "id": "27c3b07c-81ff-80e3-8056-e8a5cf99ecb6",
-        "version": 76,
+        "version": 120,
         "type": "text",
         "properties": {
           "title": [
             [
-              "ホトトギス傭兵団",
+              "ツツジ（ホトトギス）傭兵団",
               [
                 [
                   "a",
@@ -592,7 +658,7 @@
           ]
         },
         "created_time": 1759057806429,
-        "last_edited_time": 1759057817169,
+        "last_edited_time": 1768122183068,
         "parent_id": "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
         "parent_table": "block",
         "alive": true,
@@ -639,8 +705,7 @@
                         4
                       ],
                       "o": "start",
-                      "l": 5,
-                      "c": "ホトトギス",
+                      "l": -5,
                       "b": [
                         {
                           "t": "r",
@@ -702,8 +767,943 @@
                         "iZK4SZVMkdSK",
                         8
                       ],
-                      "l": 3,
-                      "c": "傭兵団",
+                      "l": -3,
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        39
+                      ],
+                      "o": [
+                        "iZK4SZVMkdSK",
+                        20
+                      ],
+                      "l": -9,
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "e76SaE2qFSKe",
+                            48
+                          ],
+                          "s": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              39
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              47
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80c29c65edb134e6ea3f?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        49
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        47
+                      ],
+                      "l": -9,
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "e76SaE2qFSKe",
+                            58
+                          ],
+                          "s": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              49
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              57
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80c29c65edb134e6ea3f?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        59
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        57
+                      ],
+                      "l": -10,
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "e76SaE2qFSKe",
+                            69
+                          ],
+                          "s": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              59
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              68
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80c29c65edb134e6ea3f?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        70
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        68
+                      ],
+                      "l": -10,
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "e76SaE2qFSKe",
+                            80
+                          ],
+                          "s": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              70
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              79
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80c29c65edb134e6ea3f?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        81
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        79
+                      ],
+                      "l": -11,
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "e76SaE2qFSKe",
+                            92
+                          ],
+                          "s": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              81
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              91
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80c29c65edb134e6ea3f?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        93
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        91
+                      ],
+                      "l": -11,
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "e76SaE2qFSKe",
+                            104
+                          ],
+                          "s": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              93
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              103
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80c29c65edb134e6ea3f?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        105
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        103
+                      ],
+                      "l": -11,
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "e76SaE2qFSKe",
+                            116
+                          ],
+                          "s": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              105
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              115
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80c29c65edb134e6ea3f?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        117
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        115
+                      ],
+                      "l": -12,
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "e76SaE2qFSKe",
+                            129
+                          ],
+                          "s": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              117
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              128
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80c29c65edb134e6ea3f?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        130
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        128
+                      ],
+                      "l": -13,
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "e76SaE2qFSKe",
+                            143
+                          ],
+                          "s": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              130
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              142
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80c29c65edb134e6ea3f?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        144
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        142
+                      ],
+                      "l": -12,
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "e76SaE2qFSKe",
+                            156
+                          ],
+                          "s": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              144
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              155
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80c29c65edb134e6ea3f?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        157
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        155
+                      ],
+                      "l": 13,
+                      "c": "ツツジ（ホトトギス）傭兵団",
+                      "b": [
+                        {
+                          "t": "r",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "iZK4SZVMkdSK",
+                            21
+                          ],
+                          "s": {
+                            "i": "start",
+                            "a": "a"
+                          },
+                          "e": {
+                            "i": [
+                              "iZK4SZVMkdSK",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "k": "a"
+                        },
+                        {
+                          "t": "a",
+                          "x": "5H_LobU0dmnoY39-8UptvA",
+                          "l": "",
+                          "i": [
+                            "e76SaE2qFSKe",
+                            170
+                          ],
+                          "s": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              157
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              169
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80c29c65edb134e6ea3f?pvs=25"
+                          ]
+                        }
+                      ],
                       "a": [
                         {
                           "t": "r",
@@ -1422,12 +2422,12 @@
     "27c3b07c-81ff-80c2-9c65-edb134e6ea3f": {
       "value": {
         "id": "27c3b07c-81ff-80c2-9c65-edb134e6ea3f",
-        "version": 46,
+        "version": 54,
         "type": "page",
         "properties": {
           "title": [
             [
-              "ホトトギス傭兵団"
+              "ツツジ（ホトトギス）傭兵団"
             ]
           ]
         },
@@ -1442,15 +2442,16 @@
           "2b13b07c-81ff-808a-981c-c83c4524216e"
         ],
         "format": {
-          "social_media_image_preview_url": "attachment:8d1264f9-fb1f-47ec-bb6e-c1a54ce2a91b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:58361395-e26b-439f-8b72-550401bf1be7:SocialMediaPreviewImage.png"
         },
         "created_time": 1759057770393,
-        "last_edited_time": 1763623383020,
+        "last_edited_time": 1768122207014,
         "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
         "parent_table": "block",
         "alive": true,
         "file_ids": [
-          "8d1264f9-fb1f-47ec-bb6e-c1a54ce2a91b"
+          "8d1264f9-fb1f-47ec-bb6e-c1a54ce2a91b",
+          "58361395-e26b-439f-8b72-550401bf1be7"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -1468,12 +2469,21 @@
                     {
                       "t": "t",
                       "i": [
+                        "e76SaE2qFSKe",
+                        9
+                      ],
+                      "o": "start",
+                      "l": 13,
+                      "c": "ツツジ（ホトトギス）傭兵団"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "HW4n_RbwyQ76",
                         1
                       ],
                       "o": "start",
-                      "l": 8,
-                      "c": "ホトトギス傭兵団"
+                      "l": -8
                     },
                     {
                       "t": "e"
@@ -1492,12 +2502,12 @@
     "27c3b07c-81ff-8001-bad6-fea483ac09c3": {
       "value": {
         "id": "27c3b07c-81ff-8001-bad6-fea483ac09c3",
-        "version": 58,
+        "version": 78,
         "type": "page",
         "properties": {
           "title": [
             [
-              "ウィーブ"
+              "ウィーブ・ロア"
             ]
           ]
         },
@@ -1505,21 +2515,25 @@
           "27c3b07c-81ff-80a8-a905-ce912e5368c1",
           "2b13b07c-81ff-8085-af94-cbf03ee709eb",
           "27c3b07c-81ff-8019-8961-ea06c13f1051",
+          "2e53b07c-81ff-8002-b594-f7d79f0d1c14",
+          "2e53b07c-81ff-804d-b429-e5e246d72250",
           "27c3b07c-81ff-8095-8fdd-d75d308292e4",
+          "2e53b07c-81ff-800f-9cbb-fef07c56a160",
           "27c3b07c-81ff-80ae-bf4e-c780035a5395",
           "27c3b07c-81ff-807b-85a1-f8148bed72f5",
           "27c3b07c-81ff-808f-9ebc-cc1baafd6f17"
         ],
         "format": {
-          "social_media_image_preview_url": "attachment:c1066fd0-4885-48b0-9a73-407ad5ffb599:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:50aea972-a249-4074-899f-cca7eabfedbf:SocialMediaPreviewImage.png"
         },
         "created_time": 1759055549210,
-        "last_edited_time": 1763610423214,
+        "last_edited_time": 1768122726945,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
         "file_ids": [
-          "c1066fd0-4885-48b0-9a73-407ad5ffb599"
+          "c1066fd0-4885-48b0-9a73-407ad5ffb599",
+          "50aea972-a249-4074-899f-cca7eabfedbf"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -1537,18 +2551,18 @@
                     {
                       "t": "t",
                       "i": [
-                        "-OzDIB12hrgX",
-                        11
+                        "e76SaE2qFSKe",
+                        14
                       ],
                       "o": "start",
-                      "l": 2,
-                      "c": "ウィ"
+                      "l": 7,
+                      "c": "ウィーブ・ロア"
                     },
                     {
                       "t": "t",
                       "i": [
                         "-OzDIB12hrgX",
-                        6
+                        11
                       ],
                       "o": "start",
                       "l": -2
@@ -1557,14 +2571,10 @@
                       "t": "t",
                       "i": [
                         "-OzDIB12hrgX",
-                        8
+                        6
                       ],
-                      "o": [
-                        "-OzDIB12hrgX",
-                        7
-                      ],
-                      "l": 1,
-                      "c": "ー"
+                      "o": "start",
+                      "l": -3
                     },
                     {
                       "t": "t",
@@ -1576,8 +2586,7 @@
                         "-OzDIB12hrgX",
                         8
                       ],
-                      "l": 1,
-                      "c": "ブ"
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -1638,9 +2647,14 @@
     "1ad3b07c-81ff-80e4-8271-c7f781e181c3": {
       "value": {
         "id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "version": 407,
+        "version": 428,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "organization"
+            ]
+          ],
           "title": [
             [
               "派閥"
@@ -1686,11 +2700,11 @@
           "1bf3b07c-81ff-8084-9adb-d2af2b8c362d",
           "1bf3b07c-81ff-8063-9043-f20e5753a572",
           "1c03b07c-81ff-8047-be46-cb3e0b0e3f97",
+          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "27c3b07c-81ff-8096-8449-eff920b94b98",
           "27c3b07c-81ff-80c2-9c65-edb134e6ea3f",
           "27d3b07c-81ff-808c-9414-c30fd37c630f",
           "27d3b07c-81ff-8056-bba5-f0f0a21f324a",
-          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "1c03b07c-81ff-80ff-84e2-fcf373444957",
           "1ad3b07c-81ff-8021-b8dc-e3d75b522904",
           "1bf3b07c-81ff-8080-b2e4-eba35337822a",
@@ -1706,7 +2720,7 @@
           "page_cover_position": 0.5
         },
         "created_time": 1741141291977,
-        "last_edited_time": 1763623466932,
+        "last_edited_time": 1764427847589,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -2072,7 +3086,7 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "27c3b07c-81ff-80e2-8233-e537b2fd29a4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/94a8907c-5020-496d-9952-461c8cd4c9e6/760ca1e5gy1hzogmqz8e4j21140sg4qp.jpg?table=block&id=27c3b07c-81ff-80e2-8233-e537b2fd29a4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=7bZSylfpUUtM8o9kRLyjXe_cd92h6sNLNHlqfnWrUfM",
-    "27c3b07c-81ff-80d0-9afd-f19a5c3835b1": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/0695a018-d0eb-4ed3-82a9-bb22b457c679/2025-09-26_13-39-36.mkv_snapshot_10.23_2025-09-26_23.31.59.jpg?table=block&id=27c3b07c-81ff-80d0-9afd-f19a5c3835b1&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=y1hVizanfwjCs8l4AHNR6yLes9F1AFiruUJibbtSPbU"
+    "27c3b07c-81ff-80e2-8233-e537b2fd29a4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/94a8907c-5020-496d-9952-461c8cd4c9e6/760ca1e5gy1hzogmqz8e4j21140sg4qp.jpg?table=block&id=27c3b07c-81ff-80e2-8233-e537b2fd29a4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768183200000&signature=xkZxv1jwGSBMSS63gxY6iSBBQKzcowtbtogAPjAnv54",
+    "27c3b07c-81ff-80d0-9afd-f19a5c3835b1": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/0695a018-d0eb-4ed3-82a9-bb22b457c679/2025-09-26_13-39-36.mkv_snapshot_10.23_2025-09-26_23.31.59.jpg?table=block&id=27c3b07c-81ff-80d0-9afd-f19a5c3835b1&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768183200000&signature=887t3nEE13w2e89P3tuHpZsAaoTp_ZC941uQFLAoD-Y"
   }
 }

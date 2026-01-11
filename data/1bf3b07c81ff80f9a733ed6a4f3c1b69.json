@@ -3,7 +3,7 @@
     "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69": {
       "value": {
         "id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
-        "version": 24,
+        "version": 55,
         "type": "page",
         "properties": {
           "title": [
@@ -15,8 +15,24 @@
         "content": [
           "1bf3b07c-81ff-807c-9e19-dd7ec42603d7",
           "1bf3b07c-81ff-8024-8fa8-d904ac9c027e",
+          "2e53b07c-81ff-80ac-b2f7-dc96b724594f",
+          "1bf3b07c-81ff-80f8-b888-de143b84ef88",
+          "2e53b07c-81ff-8084-ad44-ea17eee3b6b2",
+          "2e53b07c-81ff-80c6-9bb1-f4b26b403c83",
           "1bf3b07c-81ff-802a-87df-c9ac8bce88ec",
-          "1bf3b07c-81ff-80f8-b888-de143b84ef88"
+          "2e53b07c-81ff-80ca-a150-fe8c2374d2a7",
+          "2e53b07c-81ff-8087-bc32-f7ae2760b60e",
+          "2e53b07c-81ff-8029-b643-ec81daa16a67",
+          "2e53b07c-81ff-8057-86af-fd4a1f350a20",
+          "2e53b07c-81ff-805f-be0e-f1f29fe9b1b7",
+          "2e53b07c-81ff-8030-9b63-ddff95b47db0",
+          "2e53b07c-81ff-8053-9e50-ebe1021b74d2",
+          "2e53b07c-81ff-805c-9827-cd5d1f310201",
+          "2e53b07c-81ff-8029-a5c8-c1ae2717a0ff",
+          "2e53b07c-81ff-8092-a2fa-ef0a5362168c",
+          "2e53b07c-81ff-8096-89c3-fd56c8881c17",
+          "2e53b07c-81ff-804e-90ef-fbed6c85d825",
+          "2e53b07c-81ff-80c8-b474-c61d4a716276"
         ],
         "format": {
           "copied_from_pointer": {
@@ -26,7 +42,7 @@
           }
         },
         "created_time": 1742757529663,
-        "last_edited_time": 1742901765770,
+        "last_edited_time": 1768125421740,
         "parent_id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
         "parent_table": "block",
         "alive": true,
@@ -70,9 +86,14 @@
     "1ad3b07c-81ff-803d-b570-dd34e00c1df5": {
       "value": {
         "id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
-        "version": 261,
+        "version": 270,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "term"
+            ]
+          ],
           "title": [
             [
               "用語"
@@ -110,7 +131,7 @@
           "social_media_image_preview_url": "attachment:0c2d3364-aa4c-4140-93ae-100086c0fa1e:SocialMediaPreviewImage.png"
         },
         "created_time": 1741140188770,
-        "last_edited_time": 1763622970353,
+        "last_edited_time": 1764148149674,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -214,7 +235,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -244,20 +265,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -269,7 +284,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -292,7 +307,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -301,7 +316,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -323,8 +339,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -349,7 +403,7 @@
     "1bf3b07c-81ff-807c-9e19-dd7ec42603d7": {
       "value": {
         "id": "1bf3b07c-81ff-807c-9e19-dd7ec42603d7",
-        "version": 15,
+        "version": 18,
         "type": "image",
         "properties": {
           "size": [
@@ -378,24 +432,60 @@
           "block_preserve_scale": true
         },
         "created_time": 1742758198229,
-        "last_edited_time": 1742758204408,
+        "last_edited_time": 1742758204409,
         "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
         "parent_table": "block",
         "alive": true,
         "file_ids": [
           "2472f0d7-46e2-4d78-b20c-ea565e91ec76"
         ],
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "jdYWv5Ifxtr3uEuVu_wcDg,\"start\",\"end\"",
+            "n": {
+              "jdYWv5Ifxtr3uEuVu_wcDg,\"start\",\"end\"": {
+                "s": {
+                  "x": "jdYWv5Ifxtr3uEuVu_wcDg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1DGDLIzlrH-r",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 9,
+                      "c": "image.png"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1bf3b07c-81ff-8024-8fa8-d904ac9c027e": {
       "value": {
         "id": "1bf3b07c-81ff-8024-8fa8-d904ac9c027e",
-        "version": 74,
+        "version": 136,
         "type": "text",
         "properties": {
           "title": [
+            [
+              "崩壊エネルギー施設や"
+            ],
             [
               "死域",
               [
@@ -406,44 +496,458 @@
               ]
             ],
             [
-              "から現れた崩壊創造物"
+              "に出現する崩壊創造物。"
             ]
           ]
         },
         "created_time": 1742757533330,
-        "last_edited_time": 1742901773413,
+        "last_edited_time": 1768123363559,
         "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "dOCPKzrX0AUeX5oA2AFRDg,\"start\",\"end\"",
+            "n": {
+              "dOCPKzrX0AUeX5oA2AFRDg,\"start\",\"end\"": {
+                "s": {
+                  "x": "dOCPKzrX0AUeX5oA2AFRDg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        15
+                      ],
+                      "o": "start",
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        22
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "l": 9,
+                      "c": "崩壊エネルギー施設"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        32
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        30
+                      ],
+                      "l": 1,
+                      "c": "や"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        33
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        32
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        31
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        30
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "zzfqlTPbdfML",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "死域",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "dOCPKzrX0AUeX5oA2AFRDg",
+                          "l": "",
+                          "i": [
+                            "zzfqlTPbdfML",
+                            14
+                          ],
+                          "s": {
+                            "i": [
+                              "zzfqlTPbdfML",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "zzfqlTPbdfML",
+                              2
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bf3b07c81ff80b28c15f4469df560ae?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        37
+                      ],
+                      "o": [
+                        "zzfqlTPbdfML",
+                        2
+                      ],
+                      "l": 1,
+                      "c": "に"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        47
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        37
+                      ],
+                      "l": 2,
+                      "c": "出現"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        50
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        48
+                      ],
+                      "l": 1,
+                      "c": "す"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        52
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        50
+                      ],
+                      "l": 1,
+                      "c": "る"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        51
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        50
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        49
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        48
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        40
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        37
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        43
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        41
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        45
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        43
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        44
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        43
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        42
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        41
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        38
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        37
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        36
+                      ],
+                      "o": [
+                        "zzfqlTPbdfML",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        35
+                      ],
+                      "o": [
+                        "zzfqlTPbdfML",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        34
+                      ],
+                      "o": [
+                        "zzfqlTPbdfML",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "zzfqlTPbdfML",
+                        3
+                      ],
+                      "o": [
+                        "zzfqlTPbdfML",
+                        2
+                      ],
+                      "l": -5
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "zzfqlTPbdfML",
+                        8
+                      ],
+                      "o": [
+                        "zzfqlTPbdfML",
+                        7
+                      ],
+                      "l": 6,
+                      "c": "崩壊創造物。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
-    "1bf3b07c-81ff-802a-87df-c9ac8bce88ec": {
+    "2e53b07c-81ff-80ac-b2f7-dc96b724594f": {
       "value": {
-        "id": "1bf3b07c-81ff-802a-87df-c9ac8bce88ec",
-        "version": 15,
+        "id": "2e53b07c-81ff-80ac-b2f7-dc96b724594f",
+        "version": 16,
         "type": "text",
         "properties": {
           "title": [
             [
-              "手強いのもいるが、崩壊の電裂から離れれば離れるほど弱くなる。"
+              "人間に近い生理構造を持ちすぎていて、多くの人工物も融合している。"
             ]
           ]
         },
-        "created_time": 1742758124712,
-        "last_edited_time": 1742758135559,
+        "created_time": 1768123386247,
+        "last_edited_time": 1768123389662,
         "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ldh1_UEpms05QseYek25iQ,\"start\",\"end\"",
+            "n": {
+              "ldh1_UEpms05QseYek25iQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "ldh1_UEpms05QseYek25iQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 29,
+                      "c": "人間に近い生理構造を持ちすぎていて、多くの人工物も融合して"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        31
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        29
+                      ],
+                      "l": 1,
+                      "c": "い"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        33
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        31
+                      ],
+                      "l": 2,
+                      "c": "る。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        32
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        31
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        30
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        29
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1bf3b07c-81ff-80f8-b888-de143b84ef88": {
       "value": {
         "id": "1bf3b07c-81ff-80f8-b888-de143b84ef88",
-        "version": 5,
+        "version": 8,
         "type": "text",
         "properties": {
           "title": [
@@ -453,18 +957,2753 @@
           ]
         },
         "created_time": 1742758135884,
-        "last_edited_time": 1742758219606,
+        "last_edited_time": 1742758219607,
         "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "GjVuGGkJAjPEDptyQ-y83w,\"start\",\"end\"",
+            "n": {
+              "GjVuGGkJAjPEDptyQ-y83w,\"start\",\"end\"": {
+                "s": {
+                  "x": "GjVuGGkJAjPEDptyQ-y83w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "CxeBXf-bLYup",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 31,
+                      "c": "体内から多くの言語が混ざったような低いうなり声が聞こえてくる。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-8084-ad44-ea17eee3b6b2": {
+      "value": {
+        "id": "2e53b07c-81ff-8084-ad44-ea17eee3b6b2",
+        "version": 36,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "一般的に人を積極的に攻撃することはないが、死域内の帰還者は非常に攻撃的な性質を持っている。"
+            ]
+          ]
+        },
+        "created_time": 1768123305789,
+        "last_edited_time": 1768123399412,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "YjoHblEa0BJu3DaYLPlSDQ,\"start\",\"end\"",
+            "n": {
+              "YjoHblEa0BJu3DaYLPlSDQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "YjoHblEa0BJu3DaYLPlSDQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 19,
+                      "c": "一般的に人を積極的に攻撃することはない"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        19
+                      ],
+                      "l": 6,
+                      "c": "が、死域内の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        27
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        28
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        27
+                      ],
+                      "l": 3,
+                      "c": "帰還者"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        31
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        30
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        32
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        31
+                      ],
+                      "l": 13,
+                      "c": "は非常に攻撃的な性質を持っ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        47
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        44
+                      ],
+                      "l": 2,
+                      "c": "てい"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        50
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        48
+                      ],
+                      "l": 2,
+                      "c": "る。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        49
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        48
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        46
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        44
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        45
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        44
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        20
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        19
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-80c6-9bb1-f4b26b403c83": {
+      "value": {
+        "id": "2e53b07c-81ff-80c6-9bb1-f4b26b403c83",
+        "version": 7,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "死域を生み出す装置への供給を断ち切れば、ほとんどの死域は自然に閉じ、帰還者も崩壊する。"
+            ]
+          ]
+        },
+        "created_time": 1768123306442,
+        "last_edited_time": 1768123420996,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "bg8bNWgL2KAThbSYRHTyjw,\"start\",\"end\"",
+            "n": {
+              "bg8bNWgL2KAThbSYRHTyjw,\"start\",\"end\"": {
+                "s": {
+                  "x": "bg8bNWgL2KAThbSYRHTyjw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 43,
+                      "c": "死域を生み出す装置への供給を断ち切れば、ほとんどの死域は自然に閉じ、帰還者も崩壊する。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1bf3b07c-81ff-802a-87df-c9ac8bce88ec": {
+      "value": {
+        "id": "1bf3b07c-81ff-802a-87df-c9ac8bce88ec",
+        "version": 36,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "死域から離れれば離れるほど弱くなる。"
+            ]
+          ]
+        },
+        "created_time": 1742758124712,
+        "last_edited_time": 1768123429189,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "6njwxBwH9pQQsKEUeizilg,\"start\",\"end\"",
+            "n": {
+              "6njwxBwH9pQQsKEUeizilg,\"start\",\"end\"": {
+                "s": {
+                  "x": "6njwxBwH9pQQsKEUeizilg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        36
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "死域"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        32
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        35
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        33
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        34
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        33
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        31
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Ce274xG6PRR3",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -14
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Ce274xG6PRR3",
+                        15
+                      ],
+                      "o": [
+                        "Ce274xG6PRR3",
+                        14
+                      ],
+                      "l": 16,
+                      "c": "から離れれば離れるほど弱くなる。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-80ca-a150-fe8c2374d2a7": {
+      "value": {
+        "id": "2e53b07c-81ff-80ca-a150-fe8c2374d2a7",
+        "version": 3,
+        "type": "text",
+        "created_time": 1768123551618,
+        "last_edited_time": 1768123551621,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "-omYq9VLWLX8jqHtv1irbQ,\"start\",\"end\"",
+            "n": {
+              "-omYq9VLWLX8jqHtv1irbQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "-omYq9VLWLX8jqHtv1irbQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-8087-bc32-f7ae2760b60e": {
+      "value": {
+        "id": "2e53b07c-81ff-8087-bc32-f7ae2760b60e",
+        "version": 7,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "帰還者将軍"
+            ]
+          ]
+        },
+        "created_time": 1768123444633,
+        "last_edited_time": 1768123568146,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "NEEGb57wyLrWV2OHMhf0yw,\"start\",\"end\"",
+            "n": {
+              "NEEGb57wyLrWV2OHMhf0yw,\"start\",\"end\"": {
+                "s": {
+                  "x": "NEEGb57wyLrWV2OHMhf0yw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "帰還者将軍"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-8029-b643-ec81daa16a67": {
+      "value": {
+        "id": "2e53b07c-81ff-8029-b643-ec81daa16a67",
+        "version": 7,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "崩壊エネルギー指数が臨界点に達すると、死域内に「帰還者将軍」と呼ばれる特殊な存在が現れる。"
+            ]
+          ]
+        },
+        "created_time": 1768123443177,
+        "last_edited_time": 1768123446188,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "l5OE0alfqPsvVL7wS4ZVkg,\"start\",\"end\"",
+            "n": {
+              "l5OE0alfqPsvVL7wS4ZVkg,\"start\",\"end\"": {
+                "s": {
+                  "x": "l5OE0alfqPsvVL7wS4ZVkg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 45,
+                      "c": "崩壊エネルギー指数が臨界点に達すると、死域内に「帰還者将軍」と呼ばれる特殊な存在が現れる。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-8057-86af-fd4a1f350a20": {
+      "value": {
+        "id": "2e53b07c-81ff-8057-86af-fd4a1f350a20",
+        "version": 7,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "帰還者将軍を倒せば、活性化した死域を弱め、素早く閉鎖することができる。"
+            ]
+          ]
+        },
+        "created_time": 1768123446786,
+        "last_edited_time": 1768123454658,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "PNnzBl3lD8dhROxgv7nmyg,\"start\",\"end\"",
+            "n": {
+              "PNnzBl3lD8dhROxgv7nmyg,\"start\",\"end\"": {
+                "s": {
+                  "x": "PNnzBl3lD8dhROxgv7nmyg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 35,
+                      "c": "帰還者将軍を倒せば、活性化した死域を弱め、素早く閉鎖することができる。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-805f-be0e-f1f29fe9b1b7": {
+      "value": {
+        "id": "2e53b07c-81ff-805f-be0e-f1f29fe9b1b7",
+        "version": 25,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "軍の内戦の前には存在しなかった。カリスマがユカタン大死域を開いた後に現れた。"
+            ]
+          ]
+        },
+        "created_time": 1768123556527,
+        "last_edited_time": 1768125423946,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Oo-VTeIyt6Lv4l4UxZiBvQ,\"start\",\"end\"",
+            "n": {
+              "Oo-VTeIyt6Lv4l4UxZiBvQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "Oo-VTeIyt6Lv4l4UxZiBvQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -6
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        7
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        6
+                      ],
+                      "l": 15,
+                      "c": "軍の内戦の前には存在しなかった"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        24
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "l": 19,
+                      "c": "。カリスマがユカタン大死域を開いた後に"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        44
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        42
+                      ],
+                      "l": 3,
+                      "c": "現れた"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        47
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        46
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        49
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        48
+                      ],
+                      "l": 1,
+                      "c": "。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        43
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        42
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        23
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        22
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-8030-9b63-ddff95b47db0": {
+      "value": {
+        "id": "2e53b07c-81ff-8030-9b63-ddff95b47db0",
+        "version": 9,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "一定の知性を持つ超高レベルの崩壊エネルギー使い。"
+            ]
+          ]
+        },
+        "created_time": 1768123463488,
+        "last_edited_time": 1768123555082,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "NfYwvPDFXMPrF69JwX1R2g,\"start\",\"end\"",
+            "n": {
+              "NfYwvPDFXMPrF69JwX1R2g,\"start\",\"end\"": {
+                "s": {
+                  "x": "NfYwvPDFXMPrF69JwX1R2g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        8
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        7
+                      ],
+                      "l": 24,
+                      "c": "一定の知性を持つ超高レベルの崩壊エネルギー使い。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-8053-9e50-ebe1021b74d2": {
+      "value": {
+        "id": "2e53b07c-81ff-8053-9e50-ebe1021b74d2",
+        "version": 12,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "無限の崩壊エネルギーを放つことができ、その実力は聖痕騎士を上回っている。"
+            ]
+          ]
+        },
+        "created_time": 1768123474344,
+        "last_edited_time": 1768123476596,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Gnab0hPewa_iltWlJ0e7zw,\"start\",\"end\"",
+            "n": {
+              "Gnab0hPewa_iltWlJ0e7zw,\"start\",\"end\"": {
+                "s": {
+                  "x": "Gnab0hPewa_iltWlJ0e7zw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 34,
+                      "c": "無限の崩壊エネルギーを放つことができ、その実力は聖痕騎士を上回ってい"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        36
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        34
+                      ],
+                      "l": 2,
+                      "c": "る。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        35
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        34
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-805c-9827-cd5d1f310201": {
+      "value": {
+        "id": "2e53b07c-81ff-805c-9827-cd5d1f310201",
+        "version": 7,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "討伐には専門の軍を編成することが多い。"
+            ]
+          ]
+        },
+        "created_time": 1768123483112,
+        "last_edited_time": 1768123484023,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "50QHKdSMzD3Z5HSJapXYdQ,\"start\",\"end\"",
+            "n": {
+              "50QHKdSMzD3Z5HSJapXYdQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "50QHKdSMzD3Z5HSJapXYdQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 19,
+                      "c": "討伐には専門の軍を編成することが多い。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-8029-a5c8-c1ae2717a0ff": {
+      "value": {
+        "id": "2e53b07c-81ff-8029-a5c8-c1ae2717a0ff",
+        "version": 7,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "空間の裂け目から突如として現れるのが通常。"
+            ]
+          ]
+        },
+        "created_time": 1768123493847,
+        "last_edited_time": 1768123494748,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "OojOiqLTwtdgjANVdrhTxw,\"start\",\"end\"",
+            "n": {
+              "OojOiqLTwtdgjANVdrhTxw,\"start\",\"end\"": {
+                "s": {
+                  "x": "OojOiqLTwtdgjANVdrhTxw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 21,
+                      "c": "空間の裂け目から突如として現れるのが通常。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-8092-a2fa-ef0a5362168c": {
+      "value": {
+        "id": "2e53b07c-81ff-8092-a2fa-ef0a5362168c",
+        "version": 3,
+        "type": "text",
+        "created_time": 1768123536826,
+        "last_edited_time": 1768123536828,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ce1yYZC5H7XrOMFquL625Q,\"start\",\"end\"",
+            "n": {
+              "ce1yYZC5H7XrOMFquL625Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "ce1yYZC5H7XrOMFquL625Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-8096-89c3-fd56c8881c17": {
+      "value": {
+        "id": "2e53b07c-81ff-8096-89c3-fd56c8881c17",
+        "version": 239,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "強力な聖痕使いが崩壊エネルギーに侵食されると、意識が薄れ、内戦の戦場にいると思い込んでしまう。"
+            ]
+          ]
+        },
+        "created_time": 1768123510457,
+        "last_edited_time": 1768125288013,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "j7GQnSXd4qglIVNHB84-7g,\"start\",\"end\"",
+            "n": {
+              "j7GQnSXd4qglIVNHB84-7g,\"start\",\"end\"": {
+                "s": {
+                  "x": "j7GQnSXd4qglIVNHB84-7g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "MytxcEz9vPQxBwXIXxzC8g,[\"3k7XHUlVkWF4\",24],[\"3k7XHUlVkWF4\",113]"
+                ]
+              },
+              "MytxcEz9vPQxBwXIXxzC8g,[\"3k7XHUlVkWF4\",24],[\"3k7XHUlVkWF4\",113]": {
+                "s": {
+                  "x": "MytxcEz9vPQxBwXIXxzC8g",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        24
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        142
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        24
+                      ],
+                      "l": 47,
+                      "c": "強力な聖痕使いが崩壊エネルギーに侵食されると、意識が薄れ、内戦の戦場にいると思い込んでしまう。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        25
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        24
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        28
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        25
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        30
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        28
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        35
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        30
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        40
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        35
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        45
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        41
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        47
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        45
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        53
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        47
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        56
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        54
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        58
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        56
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        70
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        58
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        61
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        58
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        63
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        61
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        65
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        63
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        67
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        65
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        69
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        67
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        78
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        69
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        73
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        69
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        75
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        73
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        77
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        75
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        79
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        77
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        114
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        81
+                      ],
+                      "l": -23
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        138
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        136
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        141
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        139
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        140
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        139
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        137
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        136
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "p",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        113
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        81
+                      ]
+                    }
+                  ],
+                  "l": "d"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-804e-90ef-fbed6c85d825": {
+      "value": {
+        "id": "2e53b07c-81ff-804e-90ef-fbed6c85d825",
+        "version": 10,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "聖痕を使うことが可能。"
+            ]
+          ]
+        },
+        "created_time": 1768123535375,
+        "last_edited_time": 1768125392469,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "p6HBrjLCTKNravtJxWExuw,\"start\",\"end\"",
+            "n": {
+              "p6HBrjLCTKNravtJxWExuw,\"start\",\"end\"": {
+                "s": {
+                  "x": "p6HBrjLCTKNravtJxWExuw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "MytxcEz9vPQxBwXIXxzC8g,[\"3k7XHUlVkWF4\",113],\"end\""
+                ]
+              },
+              "MytxcEz9vPQxBwXIXxzC8g,[\"3k7XHUlVkWF4\",113],\"end\"": {
+                "s": {
+                  "x": "MytxcEz9vPQxBwXIXxzC8g",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        113
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        81
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        91
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        81
+                      ],
+                      "l": 2,
+                      "c": "聖痕"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        83
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        81
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        86
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        84
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        88
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        86
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        90
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        88
+                      ],
+                      "l": 1,
+                      "c": "を"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        104
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        90
+                      ],
+                      "l": 1,
+                      "c": "使"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        94
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        90
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        96
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        94
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        97
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        96
+                      ],
+                      "l": 1,
+                      "c": "う"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        99
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        97
+                      ],
+                      "l": 1,
+                      "c": "こ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        101
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        99
+                      ],
+                      "l": 1,
+                      "c": "と"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        190
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        101
+                      ],
+                      "l": 1,
+                      "c": "が"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        189
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        101
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        103
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        101
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        110
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        103
+                      ],
+                      "l": 3,
+                      "c": "可能。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        106
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        103
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        108
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        106
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        107
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        106
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        105
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        103
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        102
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        101
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        100
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        99
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        98
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        97
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        95
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        94
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        93
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        90
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        89
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        88
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        87
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        86
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        85
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        84
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        82
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        81
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        76
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        75
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        74
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        73
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        72
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        69
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        68
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        67
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        66
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        65
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        64
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        63
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        62
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        61
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        60
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        58
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        59
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        58
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        57
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        56
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        55
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        54
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        49
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        47
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        51
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        49
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        50
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        49
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        48
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        47
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        46
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        45
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        43
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        41
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        42
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        41
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        37
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        35
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        36
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        35
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        34
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        30
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        31
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        30
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        33
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        31
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        32
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        31
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        29
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        28
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        27
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        25
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        26
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        25
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        3
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        2
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "t"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-80c8-b474-c61d4a716276": {
+      "value": {
+        "id": "2e53b07c-81ff-80c8-b474-c61d4a716276",
+        "version": 117,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "空間の亀裂を開いて、崩壊宇宙に逃げることが可能。"
+            ]
+          ]
+        },
+        "created_time": 1768125381212,
+        "last_edited_time": 1768125390538,
+        "parent_id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "yjR91MaFsxIzLdME9YcD6w,\"start\",\"end\"",
+            "n": {
+              "yjR91MaFsxIzLdME9YcD6w,\"start\",\"end\"": {
+                "s": {
+                  "x": "yjR91MaFsxIzLdME9YcD6w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        7
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "空間"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        10
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        8
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        18
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        10
+                      ],
+                      "l": 2,
+                      "c": "亀裂"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        19
+                      ],
+                      "l": 1,
+                      "c": "を"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        30
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "l": 1,
+                      "c": "開"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        23
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        25
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        23
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        26
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        25
+                      ],
+                      "l": 1,
+                      "c": "い"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        29
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        26
+                      ],
+                      "l": 1,
+                      "c": "て"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        31
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        29
+                      ],
+                      "l": 8,
+                      "c": "、崩壊宇宙に逃げ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        40
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        38
+                      ],
+                      "l": 1,
+                      "c": "る"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        42
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        40
+                      ],
+                      "l": 1,
+                      "c": "こ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        44
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        42
+                      ],
+                      "l": 1,
+                      "c": "と"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        46
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        44
+                      ],
+                      "l": 1,
+                      "c": "が"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        52
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        46
+                      ],
+                      "l": 3,
+                      "c": "可能。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        48
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        46
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        50
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        48
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        49
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        48
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        47
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        46
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        45
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        44
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        43
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        42
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        41
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        40
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        39
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        38
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        28
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        27
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        24
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        23
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        22
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        20
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        19
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        13
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        15
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        17
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        16
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        14
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        12
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        11
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        9
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        5
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        3
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        4
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1bf3b07c-81ff-80b2-8c15-f4469df560ae": {
       "value": {
         "id": "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
-        "version": 49,
+        "version": 52,
         "type": "page",
         "properties": {
           "title": [
@@ -475,6 +3714,7 @@
         },
         "content": [
           "1bf3b07c-81ff-8091-86d3-f6eb923c4ae2",
+          "2e53b07c-81ff-808e-870c-c22ae5892cbd",
           "1bf3b07c-81ff-80f2-8285-fbb3fe17df3f",
           "1bf3b07c-81ff-8016-9ffb-e67512c8dc5d",
           "1bf3b07c-81ff-8042-a883-e931067abe23",
@@ -492,7 +3732,7 @@
           }
         },
         "created_time": 1742757201941,
-        "last_edited_time": 1759066933822,
+        "last_edited_time": 1768123261756,
         "parent_id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
         "parent_table": "block",
         "alive": true,
@@ -823,6 +4063,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "1bf3b07c-81ff-807c-9e19-dd7ec42603d7": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/2472f0d7-46e2-4d78-b20c-ea565e91ec76/image.png?table=block&id=1bf3b07c-81ff-807c-9e19-dd7ec42603d7&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=yQ2D1h7YBJVQRoB98N2c7-RaP-DEL44ik2v9rq3kEpI"
+    "1bf3b07c-81ff-807c-9e19-dd7ec42603d7": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/2472f0d7-46e2-4d78-b20c-ea565e91ec76/image.png?table=block&id=1bf3b07c-81ff-807c-9e19-dd7ec42603d7&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768183200000&signature=YWOsXyg7c0EhqU3uwD0MYT77XnR5hPBZkIGjpumvnO8"
   }
 }

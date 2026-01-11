@@ -1,43 +1,43 @@
 {
   "block": {
-    "27c3b07c-81ff-8076-b758-f6e0d7d88902": {
+    "2e53b07c-81ff-8030-ae24-db6b6257f2ac": {
       "value": {
-        "id": "27c3b07c-81ff-8076-b758-f6e0d7d88902",
-        "version": 26,
+        "id": "2e53b07c-81ff-8030-ae24-db6b6257f2ac",
+        "version": 24,
         "type": "page",
         "properties": {
           "title": [
             [
-              "紋面修道女"
+              "シャル"
             ]
           ]
         },
         "content": [
-          "2e53b07c-81ff-805d-9a5f-fd86d89a6335",
-          "2e53b07c-81ff-80be-b785-fd3a78d4794f",
-          "2e53b07c-81ff-807c-a778-d8275d25964b",
-          "2e53b07c-81ff-80d3-9538-e2417ad373f9"
+          "2e53b07c-81ff-8078-a243-e9ca8a1a59d9",
+          "2e53b07c-81ff-8055-86a3-ca765cf73702",
+          "2e53b07c-81ff-80f9-aaf1-d71679c19e60",
+          "2e53b07c-81ff-80ad-b9e6-e71ac33eecdc"
         ],
         "format": {
-          "social_media_image_preview_url": "attachment:2a9c5586-c370-49a1-9a99-f809700282a4:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:88f8d578-20a4-490c-930c-1af730bdd2ef:SocialMediaPreviewImage.png"
         },
-        "created_time": 1759055549208,
-        "last_edited_time": 1768122640446,
+        "created_time": 1768122923847,
+        "last_edited_time": 1768123084523,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
         "file_ids": [
-          "2a9c5586-c370-49a1-9a99-f809700282a4"
+          "88f8d578-20a4-490c-930c-1af730bdd2ef"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "pKsQj9KU_4aFj2QGkbNQXw,\"start\",\"end\"",
+            "r": "nbBnlFRlPt1KVjWr_7IeGQ,\"start\",\"end\"",
             "n": {
-              "pKsQj9KU_4aFj2QGkbNQXw,\"start\",\"end\"": {
+              "nbBnlFRlPt1KVjWr_7IeGQ,\"start\",\"end\"": {
                 "s": {
-                  "x": "pKsQj9KU_4aFj2QGkbNQXw",
+                  "x": "nbBnlFRlPt1KVjWr_7IeGQ",
                   "i": [
                     {
                       "t": "s"
@@ -46,57 +46,17 @@
                       "t": "t",
                       "i": [
                         "e76SaE2qFSKe",
-                        14
-                      ],
-                      "o": "start",
-                      "l": 5,
-                      "c": "紋面修道女"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "iZK4SZVMkdSK",
-                        2
-                      ],
-                      "o": "start",
-                      "l": -12
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "RlNmga8Gjc3F",
                         1
                       ],
                       "o": "start",
-                      "l": -1
+                      "l": 3,
+                      "c": "シャル"
                     },
                     {
                       "t": "e"
                     }
                   ],
                   "l": ""
-                },
-                "c": [
-                  "GGRU2h9JUYr7DvK_bjmSMw,[\"e76SaE2qFSKe\",21],\"end\""
-                ]
-              },
-              "GGRU2h9JUYr7DvK_bjmSMw,[\"e76SaE2qFSKe\",21],\"end\"": {
-                "s": {
-                  "x": "GGRU2h9JUYr7DvK_bjmSMw",
-                  "i": [
-                    {
-                      "t": "p",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        21
-                      ],
-                      "o": "start"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": "l"
                 },
                 "c": []
               }
@@ -576,41 +536,54 @@
     "1ad3b07c-81ff-80e6-b0a3-c1e8c0daf575": {
       "role": "none"
     },
-    "2e53b07c-81ff-805d-9a5f-fd86d89a6335": {
+    "2e53b07c-81ff-8078-a243-e9ca8a1a59d9": {
       "value": {
-        "id": "2e53b07c-81ff-805d-9a5f-fd86d89a6335",
-        "version": 23,
-        "type": "text",
+        "id": "2e53b07c-81ff-8078-a243-e9ca8a1a59d9",
+        "version": 13,
+        "type": "image",
         "properties": {
+          "size": [
+            [
+              "71.7 KiB"
+            ]
+          ],
           "title": [
             [
-              "英霊殿",
-              [
-                [
-                  "a",
-                  "/1ad3b07c81ff8021b8dce3d75b522904?pvs=25"
-                ]
-              ]
-            ],
+              "image.png"
+            ]
+          ],
+          "source": [
             [
-              "の一員だった。"
+              "attachment:5aa41d5f-778b-49cf-9580-996149576aec:image.png"
             ]
           ]
         },
-        "created_time": 1768122564225,
-        "last_edited_time": 1768122632530,
-        "parent_id": "27c3b07c-81ff-8076-b758-f6e0d7d88902",
+        "format": {
+          "block_width": 158.97836303710938,
+          "block_height": 306,
+          "display_source": "attachment:5aa41d5f-778b-49cf-9580-996149576aec:image.png",
+          "block_full_width": false,
+          "block_page_width": false,
+          "block_aspect_ratio": 1.9245283018867925,
+          "block_preserve_scale": true
+        },
+        "created_time": 1768123043854,
+        "last_edited_time": 1768123052467,
+        "parent_id": "2e53b07c-81ff-8030-ae24-db6b6257f2ac",
         "parent_table": "block",
         "alive": true,
+        "file_ids": [
+          "5aa41d5f-778b-49cf-9580-996149576aec"
+        ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "pVcN2PYmwWlFKPveAnlizQ,\"start\",\"end\"",
+            "r": "AM5m1zqgcE6iaciLe-Lvlw,\"start\",\"end\"",
             "n": {
-              "pVcN2PYmwWlFKPveAnlizQ,\"start\",\"end\"": {
+              "AM5m1zqgcE6iaciLe-Lvlw,\"start\",\"end\"": {
                 "s": {
-                  "x": "pVcN2PYmwWlFKPveAnlizQ",
+                  "x": "AM5m1zqgcE6iaciLe-Lvlw",
                   "i": [
                     {
                       "t": "s"
@@ -622,113 +595,8 @@
                         1
                       ],
                       "o": "start",
-                      "l": 3,
-                      "c": "英霊殿",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "pVcN2PYmwWlFKPveAnlizQ",
-                          "l": "",
-                          "i": [
-                            "e76SaE2qFSKe",
-                            14
-                          ],
-                          "s": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              1
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              3
-                            ],
-                            "a": "a"
-                          },
-                          "a": [
-                            "a",
-                            "/1ad3b07c81ff8021b8dce3d75b522904?pvs=25"
-                          ]
-                        }
-                      ],
-                      "a": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        4
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        3
-                      ],
-                      "l": 3,
-                      "c": "の一員"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        9
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        6
-                      ],
-                      "l": 1,
-                      "c": "だ"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        11
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        9
-                      ],
-                      "l": 3,
-                      "c": "った。"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        10
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        9
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        8
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        6
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        7
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        6
-                      ],
-                      "l": -1
+                      "l": 9,
+                      "c": "image.png"
                     },
                     {
                       "t": "e"
@@ -744,583 +612,44 @@
       },
       "role": "reader"
     },
-    "2e53b07c-81ff-80be-b785-fd3a78d4794f": {
+    "2e53b07c-81ff-8055-86a3-ca765cf73702": {
       "value": {
-        "id": "2e53b07c-81ff-80be-b785-fd3a78d4794f",
-        "version": 93,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "顔に現れた予言により、新しい使命を見つけ、"
-            ],
-            [
-              "ラスティ",
-              [
-                [
-                  "a",
-                  "/27c3b07c81ff80a7a54ac53187756c66?pvs=25"
-                ]
-              ]
-            ],
-            [
-              "達に同行した。"
-            ]
-          ]
+        "id": "2e53b07c-81ff-8055-86a3-ca765cf73702",
+        "version": 5,
+        "type": "callout",
+        "content": [
+          "2e53b07c-81ff-8017-88d7-f2dae142bf01",
+          "2e53b07c-81ff-807f-a7ef-cf8317d3c65e",
+          "2e53b07c-81ff-803e-a5e6-d42da7e21240",
+          "2e53b07c-81ff-80d7-b962-c1281f417932"
+        ],
+        "format": {
+          "block_color": "gray_background",
+          "callout_version": 2,
+          "copied_from_pointer": {
+            "id": "2a03b07c-81ff-806f-80a0-d38161af8b4d",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
         },
-        "created_time": 1768122571944,
-        "last_edited_time": 1768122626127,
-        "parent_id": "27c3b07c-81ff-8076-b758-f6e0d7d88902",
+        "created_time": 1768123054657,
+        "last_edited_time": 1768123063907,
+        "parent_id": "2e53b07c-81ff-8030-ae24-db6b6257f2ac",
         "parent_table": "block",
         "alive": true,
+        "copied_from": "2a03b07c-81ff-806f-80a0-d38161af8b4d",
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "Ees7Mju0Mknc4tsPVsWoLA,\"start\",\"end\"",
+            "r": "KkTexWRLwJyXVFhBrrv6VA,\"start\",\"end\"",
             "n": {
-              "Ees7Mju0Mknc4tsPVsWoLA,\"start\",\"end\"": {
+              "KkTexWRLwJyXVFhBrrv6VA,\"start\",\"end\"": {
                 "s": {
-                  "x": "Ees7Mju0Mknc4tsPVsWoLA",
+                  "x": "KkTexWRLwJyXVFhBrrv6VA",
                   "i": [
                     {
                       "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 7,
-                      "c": "顔に現れた予言"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        10
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        7
-                      ],
-                      "l": 1,
-                      "c": "に"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        12
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        10
-                      ],
-                      "l": 1,
-                      "c": "よ"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        14
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        12
-                      ],
-                      "l": 12,
-                      "c": "り、新しい使命を見つけ、",
-                      "a": [
-                        {
-                          "t": "r",
-                          "x": "Ees7Mju0Mknc4tsPVsWoLA",
-                          "l": "",
-                          "i": [
-                            "e76SaE2qFSKe",
-                            53
-                          ],
-                          "s": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              25
-                            ],
-                            "a": "a"
-                          },
-                          "e": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              37
-                            ],
-                            "a": "b"
-                          },
-                          "k": "a"
-                        },
-                        {
-                          "t": "r",
-                          "x": "Ees7Mju0Mknc4tsPVsWoLA",
-                          "l": "",
-                          "i": [
-                            "e76SaE2qFSKe",
-                            55
-                          ],
-                          "s": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              25
-                            ],
-                            "a": "a"
-                          },
-                          "e": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              37
-                            ],
-                            "a": "b"
-                          },
-                          "k": "a"
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        29
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        25
-                      ],
-                      "l": 4,
-                      "c": "ラスティ",
-                      "b": [
-                        {
-                          "t": "r",
-                          "x": "Ees7Mju0Mknc4tsPVsWoLA",
-                          "l": "",
-                          "i": [
-                            "e76SaE2qFSKe",
-                            53
-                          ],
-                          "s": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              25
-                            ],
-                            "a": "a"
-                          },
-                          "e": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              37
-                            ],
-                            "a": "b"
-                          },
-                          "k": "a"
-                        },
-                        {
-                          "t": "a",
-                          "x": "Ees7Mju0Mknc4tsPVsWoLA",
-                          "l": "",
-                          "i": [
-                            "e76SaE2qFSKe",
-                            54
-                          ],
-                          "s": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              29
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              32
-                            ],
-                            "a": "a"
-                          },
-                          "a": [
-                            "a",
-                            "/27c3b07c81ff8076b758f6e0d7d88902?pvs=25"
-                          ]
-                        },
-                        {
-                          "t": "r",
-                          "x": "Ees7Mju0Mknc4tsPVsWoLA",
-                          "l": "",
-                          "i": [
-                            "e76SaE2qFSKe",
-                            55
-                          ],
-                          "s": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              25
-                            ],
-                            "a": "a"
-                          },
-                          "e": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              37
-                            ],
-                            "a": "b"
-                          },
-                          "k": "a"
-                        },
-                        {
-                          "t": "a",
-                          "x": "Ees7Mju0Mknc4tsPVsWoLA",
-                          "l": "",
-                          "i": [
-                            "e76SaE2qFSKe",
-                            56
-                          ],
-                          "s": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              29
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              32
-                            ],
-                            "a": "a"
-                          },
-                          "a": [
-                            "a",
-                            "/27c3b07c81ff80a7a54ac53187756c66?pvs=25"
-                          ]
-                        }
-                      ],
-                      "a": [
-                        {
-                          "t": "r",
-                          "x": "Ees7Mju0Mknc4tsPVsWoLA",
-                          "l": "",
-                          "i": [
-                            "e76SaE2qFSKe",
-                            53
-                          ],
-                          "s": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              25
-                            ],
-                            "a": "a"
-                          },
-                          "e": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              37
-                            ],
-                            "a": "b"
-                          },
-                          "k": "a"
-                        },
-                        {
-                          "t": "r",
-                          "x": "Ees7Mju0Mknc4tsPVsWoLA",
-                          "l": "",
-                          "i": [
-                            "e76SaE2qFSKe",
-                            55
-                          ],
-                          "s": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              25
-                            ],
-                            "a": "a"
-                          },
-                          "e": {
-                            "i": [
-                              "e76SaE2qFSKe",
-                              37
-                            ],
-                            "a": "b"
-                          },
-                          "k": "a"
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        37
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        32
-                      ],
-                      "l": 1,
-                      "c": "達",
-                      "b": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        39
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        37
-                      ],
-                      "l": 1,
-                      "c": "に"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        46
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        39
-                      ],
-                      "l": 2,
-                      "c": "同行"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        49
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        47
-                      ],
-                      "l": 1,
-                      "c": "し"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        51
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        49
-                      ],
-                      "l": 2,
-                      "c": "た。"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        50
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        49
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        48
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        47
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        41
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        39
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        44
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        42
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        43
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        42
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        40
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        39
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        38
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        37
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        34
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        32
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        36
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        34
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        35
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        34
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        33
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        32
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        27
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        25
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        26
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        25
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        13
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        12
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        11
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        10
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        9
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        7
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        8
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        7
-                      ],
-                      "l": -1
                     },
                     {
                       "t": "e"
@@ -1336,32 +665,32 @@
       },
       "role": "reader"
     },
-    "2e53b07c-81ff-807c-a778-d8275d25964b": {
+    "2e53b07c-81ff-80f9-aaf1-d71679c19e60": {
       "value": {
-        "id": "2e53b07c-81ff-807c-a778-d8275d25964b",
-        "version": 50,
+        "id": "2e53b07c-81ff-80f9-aaf1-d71679c19e60",
+        "version": 52,
         "type": "text",
         "properties": {
           "title": [
             [
-              "死域内で死亡。"
+              "メミニの部下。"
             ]
           ]
         },
-        "created_time": 1768122615242,
-        "last_edited_time": 1768122618605,
-        "parent_id": "27c3b07c-81ff-8076-b758-f6e0d7d88902",
+        "created_time": 1768123084522,
+        "last_edited_time": 1768123088499,
+        "parent_id": "2e53b07c-81ff-8030-ae24-db6b6257f2ac",
         "parent_table": "block",
         "alive": true,
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "6KdsEF30qj0oqZnwOYIXIw,\"start\",\"end\"",
+            "r": "A0gsbUDOyDufjDW86TYQig,\"start\",\"end\"",
             "n": {
-              "6KdsEF30qj0oqZnwOYIXIw,\"start\",\"end\"": {
+              "A0gsbUDOyDufjDW86TYQig,\"start\",\"end\"": {
                 "s": {
-                  "x": "6KdsEF30qj0oqZnwOYIXIw",
+                  "x": "A0gsbUDOyDufjDW86TYQig",
                   "i": [
                     {
                       "t": "s"
@@ -1370,37 +699,24 @@
                       "t": "t",
                       "i": [
                         "e76SaE2qFSKe",
-                        6
-                      ],
-                      "o": "start",
-                      "l": 2,
-                      "c": "死域"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        11
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
                         7
                       ],
-                      "l": 1,
-                      "c": "内"
+                      "o": "start",
+                      "l": 3,
+                      "c": "メミニ"
                     },
                     {
                       "t": "t",
                       "i": [
                         "e76SaE2qFSKe",
-                        13
+                        11
                       ],
                       "o": [
                         "e76SaE2qFSKe",
-                        11
+                        9
                       ],
                       "l": 1,
-                      "c": "で"
+                      "c": "の"
                     },
                     {
                       "t": "t",
@@ -1410,20 +726,32 @@
                       ],
                       "o": [
                         "e76SaE2qFSKe",
-                        13
+                        11
                       ],
                       "l": 3,
-                      "c": "死亡。"
+                      "c": "部下。"
                     },
                     {
                       "t": "t",
                       "i": [
                         "e76SaE2qFSKe",
-                        15
+                        16
                       ],
                       "o": [
                         "e76SaE2qFSKe",
-                        13
+                        11
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        18
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        16
                       ],
                       "l": -1
                     },
@@ -1435,19 +763,7 @@
                       ],
                       "o": [
                         "e76SaE2qFSKe",
-                        15
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
                         16
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        15
                       ],
                       "l": -1
                     },
@@ -1455,13 +771,25 @@
                       "t": "t",
                       "i": [
                         "e76SaE2qFSKe",
-                        14
+                        15
                       ],
                       "o": [
+                        "e76SaE2qFSKe",
+                        11
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "e76SaE2qFSKe",
                         13
                       ],
-                      "l": -1
+                      "o": [
+                        "e76SaE2qFSKe",
+                        11
+                      ],
+                      "l": -2
                     },
                     {
                       "t": "t",
@@ -1479,23 +807,11 @@
                       "t": "t",
                       "i": [
                         "e76SaE2qFSKe",
+                        10
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
                         9
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        7
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        8
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        7
                       ],
                       "l": -1
                     },
@@ -1506,18 +822,6 @@
                         2
                       ],
                       "o": "start",
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "e76SaE2qFSKe",
-                        5
-                      ],
-                      "o": [
-                        "e76SaE2qFSKe",
-                        3
-                      ],
                       "l": -1
                     },
                     {
@@ -1528,7 +832,43 @@
                       ],
                       "o": [
                         "e76SaE2qFSKe",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        6
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        5
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
                         3
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        2
                       ],
                       "l": -1
                     },
@@ -1555,28 +895,45 @@
       },
       "role": "reader"
     },
-    "2e53b07c-81ff-80d3-9538-e2417ad373f9": {
+    "2e53b07c-81ff-80ad-b9e6-e71ac33eecdc": {
       "value": {
-        "id": "2e53b07c-81ff-80d3-9538-e2417ad373f9",
-        "version": 3,
+        "id": "2e53b07c-81ff-80ad-b9e6-e71ac33eecdc",
+        "version": 5,
         "type": "text",
-        "created_time": 1768122632958,
-        "last_edited_time": 1768122632959,
-        "parent_id": "27c3b07c-81ff-8076-b758-f6e0d7d88902",
+        "properties": {
+          "title": [
+            [
+              "少佐"
+            ]
+          ]
+        },
+        "created_time": 1768122954317,
+        "last_edited_time": 1768122954427,
+        "parent_id": "2e53b07c-81ff-8030-ae24-db6b6257f2ac",
         "parent_table": "block",
         "alive": true,
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "RNbZNgZ-knzjvTU4bkeEJQ,\"start\",\"end\"",
+            "r": "9NDO0rlrhv7K7D40acP1nQ,\"start\",\"end\"",
             "n": {
-              "RNbZNgZ-knzjvTU4bkeEJQ,\"start\",\"end\"": {
+              "9NDO0rlrhv7K7D40acP1nQ,\"start\",\"end\"": {
                 "s": {
-                  "x": "RNbZNgZ-knzjvTU4bkeEJQ",
+                  "x": "9NDO0rlrhv7K7D40acP1nQ",
                   "i": [
                     {
                       "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "少佐"
                     },
                     {
                       "t": "e"
@@ -1592,52 +949,40 @@
       },
       "role": "reader"
     },
-    "1ad3b07c-81ff-8021-b8dc-e3d75b522904": {
+    "2e53b07c-81ff-8017-88d7-f2dae142bf01": {
       "value": {
-        "id": "1ad3b07c-81ff-8021-b8dc-e3d75b522904",
-        "version": 66,
-        "type": "page",
+        "id": "2e53b07c-81ff-8017-88d7-f2dae142bf01",
+        "version": 3,
+        "type": "text",
         "properties": {
           "title": [
             [
-              "英霊殿"
+              "名前：モーリオ・エイト（影徒）"
             ]
           ]
         },
-        "content": [
-          "1bf3b07c-81ff-8065-8aea-fc19eb888323",
-          "1c03b07c-81ff-80ab-8ea8-e603bd49e349",
-          "1c03b07c-81ff-806a-9299-fad4c7439407",
-          "1c03b07c-81ff-80e5-94e9-e8806d94bdb3",
-          "1c03b07c-81ff-80cb-8fbc-c41641a5bab4",
-          "1c03b07c-81ff-808d-b880-de99d2b7eec5",
-          "1c03b07c-81ff-8038-9f48-df9de0ddb7d3",
-          "1c03b07c-81ff-80d2-9af0-e770483aa843",
-          "2e53b07c-81ff-808b-a240-ce1f6326d12e",
-          "2e53b07c-81ff-803f-a551-cef5b20ec4f9"
-        ],
         "format": {
           "copied_from_pointer": {
-            "id": "1413b07c-81ff-80b1-ad61-c1438f9e310f",
+            "id": "27c3b07c-81ff-8069-bf1f-ed97de7d9e58",
             "table": "block",
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           }
         },
-        "created_time": 1741141968529,
-        "last_edited_time": 1768117620011,
-        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+        "created_time": 1768123054658,
+        "last_edited_time": 1768123054670,
+        "parent_id": "2e53b07c-81ff-8055-86a3-ca765cf73702",
         "parent_table": "block",
         "alive": true,
-        "copied_from": "1413b07c-81ff-80b1-ad61-c1438f9e310f",
+        "copied_from": "27c3b07c-81ff-8069-bf1f-ed97de7d9e58",
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "PACdJn64Pd1CJIe8K7dYeQ,\"start\",\"end\"",
+            "r": "TitsJQtMyVaaL5h3H-SLtA,\"start\",\"end\"",
             "n": {
-              "PACdJn64Pd1CJIe8K7dYeQ,\"start\",\"end\"": {
+              "TitsJQtMyVaaL5h3H-SLtA,\"start\",\"end\"": {
                 "s": {
-                  "x": "PACdJn64Pd1CJIe8K7dYeQ",
+                  "x": "TitsJQtMyVaaL5h3H-SLtA",
                   "i": [
                     {
                       "t": "s"
@@ -1645,12 +990,12 @@
                     {
                       "t": "t",
                       "i": [
-                        "qY6CIx1u6AT8",
+                        "9Il7WSD3lefL",
                         1
                       ],
                       "o": "start",
-                      "l": 3,
-                      "c": "英霊殿"
+                      "l": 15,
+                      "c": "名前：モーリオ・エイト（影徒）"
                     },
                     {
                       "t": "e"
@@ -1666,46 +1011,61 @@
       },
       "role": "reader"
     },
-    "27c3b07c-81ff-80a7-a54a-c53187756c66": {
+    "2e53b07c-81ff-807f-a7ef-cf8317d3c65e": {
       "value": {
-        "id": "27c3b07c-81ff-80a7-a54a-c53187756c66",
-        "version": 43,
-        "type": "page",
+        "id": "2e53b07c-81ff-807f-a7ef-cf8317d3c65e",
+        "version": 33,
+        "type": "text",
         "properties": {
           "title": [
             [
-              "ラスティ"
+              "所属：（"
+            ],
+            [
+              "崩壊学園",
+              [
+                [
+                  "a",
+                  "/1b83b07c81ff8080a308e2151263a17e?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "）、"
+            ],
+            [
+              "南方軍団",
+              [
+                [
+                  "a",
+                  "/1ad3b07c81ff805393aadd1cafe60284?pvs=25"
+                ]
+              ]
             ]
           ]
         },
-        "content": [
-          "27c3b07c-81ff-8080-be55-c0ad30f44a4d",
-          "27c3b07c-81ff-8013-af5c-fd9829d86845",
-          "27c3b07c-81ff-8024-8df1-d26bc1abf8b2",
-          "27c3b07c-81ff-8065-a1cc-ce18ae15c2f4",
-          "27c3b07c-81ff-8031-945e-f9c99beed150",
-          "27c3b07c-81ff-8041-ac5b-d102c840eb47"
-        ],
         "format": {
-          "social_media_image_preview_url": "attachment:1785d093-0f50-4a78-b5bd-f645335e4b66:SocialMediaPreviewImage.png"
+          "copied_from_pointer": {
+            "id": "27c3b07c-81ff-80c3-838e-da47a5ce3d27",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
         },
-        "created_time": 1759053557151,
-        "last_edited_time": 1759057260300,
-        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "created_time": 1768123054659,
+        "last_edited_time": 1768123078455,
+        "parent_id": "2e53b07c-81ff-8055-86a3-ca765cf73702",
         "parent_table": "block",
         "alive": true,
-        "file_ids": [
-          "1785d093-0f50-4a78-b5bd-f645335e4b66"
-        ],
+        "copied_from": "27c3b07c-81ff-80c3-838e-da47a5ce3d27",
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "sbl5aA756bODOPnFV-ni9w,\"start\",\"end\"",
+            "r": "JBX_ZrpbbaBA5Wxh7fzKLg,\"start\",\"end\"",
             "n": {
-              "sbl5aA756bODOPnFV-ni9w,\"start\",\"end\"": {
+              "JBX_ZrpbbaBA5Wxh7fzKLg,\"start\",\"end\"": {
                 "s": {
-                  "x": "sbl5aA756bODOPnFV-ni9w",
+                  "x": "JBX_ZrpbbaBA5Wxh7fzKLg",
                   "i": [
                     {
                       "t": "s"
@@ -1713,78 +1073,655 @@
                     {
                       "t": "t",
                       "i": [
-                        "iZK4SZVMkdSK",
-                        9
-                      ],
-                      "o": "start",
-                      "l": 4,
-                      "c": "ラスティ"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "iZK4SZVMkdSK",
-                        2
-                      ],
-                      "o": "start",
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "iZK4SZVMkdSK",
-                        4
-                      ],
-                      "o": [
-                        "iZK4SZVMkdSK",
-                        2
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "iZK4SZVMkdSK",
-                        7
-                      ],
-                      "o": [
-                        "iZK4SZVMkdSK",
-                        4
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "iZK4SZVMkdSK",
-                        5
-                      ],
-                      "o": [
-                        "iZK4SZVMkdSK",
-                        4
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "iZK4SZVMkdSK",
-                        3
-                      ],
-                      "o": [
-                        "iZK4SZVMkdSK",
-                        2
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "iZK4SZVMkdSK",
+                        "OzuW3q7ma1JN",
                         1
                       ],
                       "o": "start",
+                      "l": 4,
+                      "c": "所属：（"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "OzuW3q7ma1JN",
+                        5
+                      ],
+                      "o": [
+                        "OzuW3q7ma1JN",
+                        4
+                      ],
+                      "l": 4,
+                      "c": "崩壊学園",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "JBX_ZrpbbaBA5Wxh7fzKLg",
+                          "l": "",
+                          "i": [
+                            "OzuW3q7ma1JN",
+                            10
+                          ],
+                          "s": {
+                            "i": [
+                              "OzuW3q7ma1JN",
+                              5
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "OzuW3q7ma1JN",
+                              8
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b83b07c81ff8080a308e2151263a17e?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "OzuW3q7ma1JN",
+                        9
+                      ],
+                      "o": [
+                        "OzuW3q7ma1JN",
+                        8
+                      ],
                       "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        11
+                      ],
+                      "o": [
+                        "OzuW3q7ma1JN",
+                        9
+                      ],
+                      "l": 2,
+                      "c": "）、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        20
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "南方軍団",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "JBX_ZrpbbaBA5Wxh7fzKLg",
+                          "l": "",
+                          "i": [
+                            "e76SaE2qFSKe",
+                            24
+                          ],
+                          "s": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              20
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "e76SaE2qFSKe",
+                              23
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1ad3b07c81ff805393aadd1cafe60284?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        14
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        16
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        18
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        16
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        17
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        16
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        15
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        13
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-803e-a5e6-d42da7e21240": {
+      "value": {
+        "id": "2e53b07c-81ff-803e-a5e6-d42da7e21240",
+        "version": 6,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "肩書：戦術科3期生"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "27c3b07c-81ff-800a-990b-da9d9e11f2b4",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1768123054659,
+        "last_edited_time": 1768123059030,
+        "parent_id": "2e53b07c-81ff-8055-86a3-ca765cf73702",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "27c3b07c-81ff-800a-990b-da9d9e11f2b4",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Sog6BXWhCyWIiJhQ6TO3zA,\"start\",\"end\"",
+            "n": {
+              "Sog6BXWhCyWIiJhQ6TO3zA,\"start\",\"end\"": {
+                "s": {
+                  "x": "Sog6BXWhCyWIiJhQ6TO3zA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ZARHwiIGpvau",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 6,
+                      "c": "肩書：戦術科"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        10
+                      ],
+                      "o": [
+                        "ZARHwiIGpvau",
+                        6
+                      ],
+                      "l": 1,
+                      "c": "3"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ZARHwiIGpvau",
+                        7
+                      ],
+                      "o": [
+                        "ZARHwiIGpvau",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ZARHwiIGpvau",
+                        8
+                      ],
+                      "o": [
+                        "ZARHwiIGpvau",
+                        7
+                      ],
+                      "l": 2,
+                      "c": "期生"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-80d7-b962-c1281f417932": {
+      "value": {
+        "id": "2e53b07c-81ff-80d7-b962-c1281f417932",
+        "version": 7,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "聖痕："
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "27c3b07c-81ff-809b-b28b-d31463ed730b",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1768123054660,
+        "last_edited_time": 1768123060930,
+        "parent_id": "2e53b07c-81ff-8055-86a3-ca765cf73702",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "27c3b07c-81ff-809b-b28b-d31463ed730b",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "uaDkK01h5SKIo3Qs4_7iKw,\"start\",\"end\"",
+            "n": {
+              "uaDkK01h5SKIo3Qs4_7iKw,\"start\",\"end\"": {
+                "s": {
+                  "x": "uaDkK01h5SKIo3Qs4_7iKw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "_mRMMhQvab5q",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "聖痕："
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "_mRMMhQvab5q",
+                        4
+                      ],
+                      "o": [
+                        "_mRMMhQvab5q",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "_mRMMhQvab5q",
+                        5
+                      ],
+                      "o": [
+                        "_mRMMhQvab5q",
+                        4
+                      ],
+                      "l": -1,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "uaDkK01h5SKIo3Qs4_7iKw",
+                          "l": "",
+                          "i": [
+                            "_mRMMhQvab5q",
+                            12
+                          ],
+                          "s": {
+                            "i": [
+                              "_mRMMhQvab5q",
+                              5
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "_mRMMhQvab5q",
+                              5
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80c388c8fe25dbe2a704?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "_mRMMhQvab5q",
+                        6
+                      ],
+                      "o": [
+                        "_mRMMhQvab5q",
+                        5
+                      ],
+                      "l": -6
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "iemh-Ib310YQtlMayAsTRQ,[\"e76SaE2qFSKe\",27],\"end\""
+                ]
+              },
+              "iemh-Ib310YQtlMayAsTRQ,[\"e76SaE2qFSKe\",27],\"end\"": {
+                "s": {
+                  "x": "iemh-Ib310YQtlMayAsTRQ",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        27
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "WaEPQ3HQQbXy",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -6
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b83b07c-81ff-8080-a308-e2151263a17e": {
+      "value": {
+        "id": "1b83b07c-81ff-8080-a308-e2151263a17e",
+        "version": 489,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "崩壊学園"
+            ]
+          ]
+        },
+        "content": [
+          "2b63b07c-81ff-8027-9086-f1812c35add4",
+          "1c03b07c-81ff-8001-ad05-ee4ba301714c",
+          "1c03b07c-81ff-80c1-8277-d3cc8234ca30",
+          "2b13b07c-81ff-80b8-a22a-ec4eb3b71859",
+          "1c03b07c-81ff-801b-9353-d0040fac0fbd",
+          "1c03b07c-81ff-8083-8f35-dca8142f4c49",
+          "1c03b07c-81ff-808e-b156-c2987ae7a8f1",
+          "1c03b07c-81ff-804e-a390-ed12937e3a63",
+          "1c03b07c-81ff-8093-b7f2-feb35d28204c",
+          "1b83b07c-81ff-80be-b26e-c063d5c0fc92",
+          "1c03b07c-81ff-80b8-9f4f-d22ca172a185",
+          "1c03b07c-81ff-807f-8cd6-f9fddf462d26",
+          "1c03b07c-81ff-802b-8cc6-e13e855c09af",
+          "1c03b07c-81ff-80f1-80e0-cb050b305585",
+          "1c03b07c-81ff-80dc-87ab-fe65ec3ccca0",
+          "1c03b07c-81ff-80ea-88de-c8b6db50e645",
+          "1c03b07c-81ff-803f-9c9f-e3df4365c48b",
+          "1c03b07c-81ff-8097-b1be-e4668b7248c0",
+          "1c03b07c-81ff-8023-a4be-f088de73b8f3",
+          "1c03b07c-81ff-8078-a9f8-e22c45e4ae72",
+          "1c03b07c-81ff-80a3-b9fb-fc064729a3c3",
+          "2323b07c-81ff-80dc-a1e4-df9af5e0f91e",
+          "2313b07c-81ff-800b-b255-c047ef7a3e83",
+          "1c03b07c-81ff-80d7-beb0-fd394b31c1f8",
+          "1c03b07c-81ff-8048-9e61-dd4e16fd534c",
+          "2313b07c-81ff-8001-a515-c41906064f88",
+          "2323b07c-81ff-8039-903f-e564461fe082",
+          "1c03b07c-81ff-802d-a09c-d3cfb47e938b",
+          "1c03b07c-81ff-80d8-aaaa-c7c60cb0e8b8",
+          "1c03b07c-81ff-80f0-9476-fecdcd23063c",
+          "1c03b07c-81ff-8041-807a-ee6c9b2c5997",
+          "1c03b07c-81ff-80ed-bfee-fcadd204b8f9",
+          "1c03b07c-81ff-80d4-85f8-d3853367a34a",
+          "1c03b07c-81ff-807e-b978-dcdb8e2e9ed5",
+          "1c03b07c-81ff-8002-b297-f6074338f1db",
+          "1c03b07c-81ff-80a8-b230-fabf3a4214a1",
+          "1c03b07c-81ff-80a4-8620-e5718967813d",
+          "1c03b07c-81ff-8036-ae64-de03ee76fa4a",
+          "1c03b07c-81ff-8082-acb4-f47414ddb358",
+          "1c03b07c-81ff-8041-a79a-e8e60cba5d0c",
+          "1c03b07c-81ff-8051-97af-d5142d1c6010",
+          "1c03b07c-81ff-802e-8a3e-e2413954d2ae",
+          "1c03b07c-81ff-8036-9487-c55f97cbe251",
+          "1c03b07c-81ff-80ff-ae01-f10369ec89f6",
+          "1c03b07c-81ff-808e-a18f-f6220d3e4cb0",
+          "27d3b07c-81ff-80e8-af6e-f28d44355743",
+          "1c03b07c-81ff-8087-8007-f2198fa51d41",
+          "26c3b07c-81ff-80ce-872f-f6d5ee70cb0f",
+          "1c03b07c-81ff-8077-b5ce-c62d2ac539f0",
+          "1c03b07c-81ff-80d1-a9d1-c920b04b495e",
+          "1c03b07c-81ff-80e6-9852-f38584faa8a8",
+          "1c03b07c-81ff-801a-9e53-c7b7b45205ea",
+          "1c03b07c-81ff-802d-ab8a-d67ae93ac0d7",
+          "1c03b07c-81ff-807a-9cb7-c53ba7ad3e51",
+          "1c03b07c-81ff-80a2-831c-df4180d6246d",
+          "1c03b07c-81ff-800e-b8fa-fecc736a17e4",
+          "1c03b07c-81ff-8039-b455-c5cce9ddb238",
+          "2b13b07c-81ff-8007-891a-d1d2f113c1a6",
+          "2b13b07c-81ff-8079-8acf-d5dab3d94c4e",
+          "2b13b07c-81ff-8068-aa8a-e882f8b63685",
+          "27d3b07c-81ff-8041-a946-f6a81ef48b61",
+          "1c03b07c-81ff-8087-a1d3-e4217a99f7e8",
+          "1b83b07c-81ff-80fa-b1f1-c1b61d8e7969"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1413b07c-81ff-80a3-be71-eefcb5ad331b",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1742158363837,
+        "last_edited_time": 1764083198103,
+        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ZVbjOvYv5cSyROA23QblUA,\"start\",\"end\"",
+            "n": {
+              "ZVbjOvYv5cSyROA23QblUA,\"start\",\"end\"": {
+                "s": {
+                  "x": "ZVbjOvYv5cSyROA23QblUA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c_75v7hTOmEJ",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "崩壊学園"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1ad3b07c-81ff-8053-93aa-dd1cafe60284": {
+      "value": {
+        "id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
+        "version": 70,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "南方軍団"
+            ]
+          ]
+        },
+        "content": [
+          "28c3b07c-81ff-800a-864a-effefc8c3ea7",
+          "1ad3b07c-81ff-800f-9456-e8dc263ae684",
+          "1c03b07c-81ff-80a4-829a-f25fa0e3c7c4",
+          "1c03b07c-81ff-8051-933d-c0fd5ef959d0",
+          "1c03b07c-81ff-80f2-8cc0-f5b3455d8990",
+          "28c3b07c-81ff-803e-a8a2-c0d7ea03c427",
+          "28c3b07c-81ff-8069-bf05-d4b543454bae",
+          "1c03b07c-81ff-80f0-8a19-d8ec1a55a74c",
+          "1c03b07c-81ff-80d0-9b6b-f10b40a2bc9b",
+          "1c03b07c-81ff-8017-be4d-fbcf986e452f",
+          "1c03b07c-81ff-8007-82c5-e2804e0f9449"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1413b07c-81ff-80b3-a218-d9843b0090ce",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1741141968528,
+        "last_edited_time": 1760431440298,
+        "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1413b07c-81ff-80b3-a218-d9843b0090ce",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "EB3u9ywCMWpXq0ExwlSa3g,\"start\",\"end\"",
+            "n": {
+              "EB3u9ywCMWpXq0ExwlSa3g,\"start\",\"end\"": {
+                "s": {
+                  "x": "EB3u9ywCMWpXq0ExwlSa3g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "KurvUicJDLze",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "南方軍団"
                     },
                     {
                       "t": "e"
@@ -2241,5 +2178,7 @@
   },
   "notion_user": {},
   "collection_query": {},
-  "signed_urls": {}
+  "signed_urls": {
+    "2e53b07c-81ff-8078-a243-e9ca8a1a59d9": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/5aa41d5f-778b-49cf-9580-996149576aec/image.png?table=block&id=2e53b07c-81ff-8078-a243-e9ca8a1a59d9&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768183200000&signature=YYAcwdPmqm_y80oLcLPnjylHApbQenY4X7-fXBSjTZ0"
+  }
 }

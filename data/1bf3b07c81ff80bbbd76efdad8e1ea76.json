@@ -3,20 +3,21 @@
     "1bf3b07c-81ff-80bb-bd76-efdad8e1ea76": {
       "value": {
         "id": "1bf3b07c-81ff-80bb-bd76-efdad8e1ea76",
-        "version": 37,
+        "version": 58,
         "type": "page",
         "properties": {
           "title": [
             [
-              "？"
+              "新型兵神"
             ]
           ]
         },
         "content": [
+          "2e53b07c-81ff-8049-96af-f42ece9e190b",
           "2b13b07c-81ff-8060-b7cf-d6150524825e",
+          "2e53b07c-81ff-80b8-aaa3-cd8759f3c6da",
           "27c3b07c-81ff-806c-9c9e-c42b6f8fb9b7",
           "27c3b07c-81ff-803b-ad5a-e6912d7e981a",
-          "2b13b07c-81ff-804e-96dd-d1f4381b54b6",
           "2b13b07c-81ff-8061-88d6-fd706a1e99ec",
           "2b13b07c-81ff-8061-92bd-cac8f2cd013d",
           "2b13b07c-81ff-80e4-8bd1-fcd707b5da78",
@@ -24,11 +25,17 @@
           "2b13b07c-81ff-80fe-9612-fbdc80f966f2",
           "2c23b07c-81ff-802e-bb86-e2cd787579d8"
         ],
+        "format": {
+          "social_media_image_preview_url": "attachment:253064c2-590b-46d2-9ed1-67541f7e5916:SocialMediaPreviewImage.png"
+        },
         "created_time": 1742766773337,
-        "last_edited_time": 1765073286231,
+        "last_edited_time": 1768125546850,
         "parent_id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
         "parent_table": "block",
         "alive": true,
+        "file_ids": [
+          "253064c2-590b-46d2-9ed1-67541f7e5916"
+        ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
@@ -45,12 +52,58 @@
                     {
                       "t": "t",
                       "i": [
+                        "3k7XHUlVkWF4",
+                        2
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "新型"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        4
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        5
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        4
+                      ],
+                      "l": 2,
+                      "c": "兵神"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        7
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "Qkj3dQJ_PO_d",
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "？"
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -69,7 +122,7 @@
     "1ad3b07c-81ff-803d-b570-dd34e00c1df5": {
       "value": {
         "id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
-        "version": 269,
+        "version": 270,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -383,6 +436,47 @@
     "1ad3b07c-81ff-80e6-b0a3-c1e8c0daf575": {
       "role": "none"
     },
+    "2e53b07c-81ff-8049-96af-f42ece9e190b": {
+      "value": {
+        "id": "2e53b07c-81ff-8049-96af-f42ece9e190b",
+        "version": 5,
+        "type": "column_list",
+        "content": [
+          "2e53b07c-81ff-805c-8083-c835b7f7c7a3",
+          "2e53b07c-81ff-800f-8051-d65b09e9616c"
+        ],
+        "created_time": 1768125496364,
+        "last_edited_time": 1768125496368,
+        "parent_id": "1bf3b07c-81ff-80bb-bd76-efdad8e1ea76",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "_hWaMWEjHyWgQYO2mBt-2Q,\"start\",\"end\"",
+            "n": {
+              "_hWaMWEjHyWgQYO2mBt-2Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "_hWaMWEjHyWgQYO2mBt-2Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "2b13b07c-81ff-8060-b7cf-d6150524825e": {
       "value": {
         "id": "2b13b07c-81ff-8060-b7cf-d6150524825e",
@@ -428,6 +522,245 @@
                     }
                   ],
                   "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-80b8-aaa3-cd8759f3c6da": {
+      "value": {
+        "id": "2e53b07c-81ff-80b8-aaa3-cd8759f3c6da",
+        "version": 11,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "兵神は英霊殿がカリスマに与えた究極の武器？"
+            ]
+          ]
+        },
+        "created_time": 1768125521568,
+        "last_edited_time": 1768125527072,
+        "parent_id": "1bf3b07c-81ff-80bb-bd76-efdad8e1ea76",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "PxRa2vqg7aDcXYFNmMq_Pg,\"start\",\"end\"",
+            "n": {
+              "PxRa2vqg7aDcXYFNmMq_Pg,\"start\",\"end\"": {
+                "s": {
+                  "x": "PxRa2vqg7aDcXYFNmMq_Pg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 21,
+                      "c": "兵神は英霊殿がカリスマに与えた究極の武器？"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "0r3TpuWYPfa52PB8U3z2CA,[\"3k7XHUlVkWF4\",55],\"end\""
+                ]
+              },
+              "0r3TpuWYPfa52PB8U3z2CA,[\"3k7XHUlVkWF4\",55],\"end\"": {
+                "s": {
+                  "x": "0r3TpuWYPfa52PB8U3z2CA",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        55
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1RAFDmPGJJbH",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -6
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1RAFDmPGJJbH",
+                        14
+                      ],
+                      "o": [
+                        "1RAFDmPGJJbH",
+                        6
+                      ],
+                      "l": -12
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1RAFDmPGJJbH",
+                        7
+                      ],
+                      "o": [
+                        "1RAFDmPGJJbH",
+                        6
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1RAFDmPGJJbH",
+                        10
+                      ],
+                      "o": [
+                        "1RAFDmPGJJbH",
+                        9
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1RAFDmPGJJbH",
+                        33
+                      ],
+                      "o": [
+                        "1RAFDmPGJJbH",
+                        12
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1RAFDmPGJJbH",
+                        32
+                      ],
+                      "o": [
+                        "1RAFDmPGJJbH",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1RAFDmPGJJbH",
+                        31
+                      ],
+                      "o": [
+                        "1RAFDmPGJJbH",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1RAFDmPGJJbH",
+                        30
+                      ],
+                      "o": [
+                        "1RAFDmPGJJbH",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1RAFDmPGJJbH",
+                        26
+                      ],
+                      "o": [
+                        "1RAFDmPGJJbH",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1RAFDmPGJJbH",
+                        28
+                      ],
+                      "o": [
+                        "1RAFDmPGJJbH",
+                        26
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1RAFDmPGJJbH",
+                        27
+                      ],
+                      "o": [
+                        "1RAFDmPGJJbH",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1RAFDmPGJJbH",
+                        13
+                      ],
+                      "o": [
+                        "1RAFDmPGJJbH",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "jx3JIFywK_G8qh9Zl26a4Q,[\"dxq1h6HDnYOA\",21],\"end\""
+                ]
+              },
+              "jx3JIFywK_G8qh9Zl26a4Q,[\"dxq1h6HDnYOA\",21],\"end\"": {
+                "s": {
+                  "x": "jx3JIFywK_G8qh9Zl26a4Q",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "dxq1h6HDnYOA",
+                        21
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
                 },
                 "c": []
               }
@@ -1464,254 +1797,6 @@
       },
       "role": "reader"
     },
-    "2b13b07c-81ff-804e-96dd-d1f4381b54b6": {
-      "value": {
-        "id": "2b13b07c-81ff-804e-96dd-d1f4381b54b6",
-        "version": 45,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "体には多くの大きなダメージを受けた傷跡がある。"
-            ]
-          ]
-        },
-        "created_time": 1763623037536,
-        "last_edited_time": 1763623050628,
-        "parent_id": "1bf3b07c-81ff-80bb-bd76-efdad8e1ea76",
-        "parent_table": "block",
-        "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "0r3TpuWYPfa52PB8U3z2CA,\"start\",\"end\"",
-            "n": {
-              "0r3TpuWYPfa52PB8U3z2CA,\"start\",\"end\"": {
-                "s": {
-                  "x": "0r3TpuWYPfa52PB8U3z2CA",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 6,
-                      "c": "体には多くの"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        14
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        6
-                      ],
-                      "l": 11,
-                      "c": "大きなダメージを受けた"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        25
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        24
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        7
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        6
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        8
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        7
-                      ],
-                      "l": 2,
-                      "c": "傷跡"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        10
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        9
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        11
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        10
-                      ],
-                      "l": 2,
-                      "c": "があ"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        33
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        12
-                      ],
-                      "l": 2,
-                      "c": "る。"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        32
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        12
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        31
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        12
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        30
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        12
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        26
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        12
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        28
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        26
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        27
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        26
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1RAFDmPGJJbH",
-                        13
-                      ],
-                      "o": [
-                        "1RAFDmPGJJbH",
-                        12
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": [
-                  "jx3JIFywK_G8qh9Zl26a4Q,[\"dxq1h6HDnYOA\",21],\"end\""
-                ]
-              },
-              "jx3JIFywK_G8qh9Zl26a4Q,[\"dxq1h6HDnYOA\",21],\"end\"": {
-                "s": {
-                  "x": "jx3JIFywK_G8qh9Zl26a4Q",
-                  "i": [
-                    {
-                      "t": "p",
-                      "i": [
-                        "dxq1h6HDnYOA",
-                        21
-                      ],
-                      "o": "start"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": "l"
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
     "2b13b07c-81ff-8061-88d6-fd706a1e99ec": {
       "value": {
         "id": "2b13b07c-81ff-8061-88d6-fd706a1e99ec",
@@ -2505,7 +2590,7 @@
     "1bf3b07c-81ff-80b2-8c15-f4469df560ae": {
       "value": {
         "id": "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
-        "version": 49,
+        "version": 52,
         "type": "page",
         "properties": {
           "title": [
@@ -2516,6 +2601,7 @@
         },
         "content": [
           "1bf3b07c-81ff-8091-86d3-f6eb923c4ae2",
+          "2e53b07c-81ff-808e-870c-c22ae5892cbd",
           "1bf3b07c-81ff-80f2-8285-fbb3fe17df3f",
           "1bf3b07c-81ff-8016-9ffb-e67512c8dc5d",
           "1bf3b07c-81ff-8042-a883-e931067abe23",
@@ -2533,7 +2619,7 @@
           }
         },
         "created_time": 1742757201941,
-        "last_edited_time": 1759066933822,
+        "last_edited_time": 1768123261756,
         "parent_id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
         "parent_table": "block",
         "alive": true,
@@ -2663,7 +2749,7 @@
     "27c3b07c-81ff-8071-b3b5-ff823942edc9": {
       "value": {
         "id": "27c3b07c-81ff-8071-b3b5-ff823942edc9",
-        "version": 79,
+        "version": 81,
         "type": "page",
         "properties": {
           "title": [
@@ -2679,6 +2765,7 @@
           "27c3b07c-81ff-8034-ba71-ea59aaab4c9d",
           "27c3b07c-81ff-804e-93af-d9d689860d5e",
           "2b13b07c-81ff-8074-b62a-fbc5ecced566",
+          "2e53b07c-81ff-802a-83ae-cd86d1c47b03",
           "2b13b07c-81ff-809f-a341-ce706854e4e4",
           "27c3b07c-81ff-8007-beb7-f02874c4ef97",
           "27d3b07c-81ff-80e0-820f-d491712187dc",
@@ -2694,7 +2781,7 @@
           "social_media_image_preview_url": "attachment:74e37753-40bb-4aa8-b1ef-f8751882f1fb:SocialMediaPreviewImage.png"
         },
         "created_time": 1759062790840,
-        "last_edited_time": 1763623756671,
+        "last_edited_time": 1768132531601,
         "parent_id": "1ad3b07c-81ff-809c-8204-e16483640fa5",
         "parent_table": "block",
         "alive": true,
@@ -2976,6 +3063,242 @@
                       "o": "start",
                       "l": 2,
                       "c": "地理"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-805c-8083-c835b7f7c7a3": {
+      "value": {
+        "id": "2e53b07c-81ff-805c-8083-c835b7f7c7a3",
+        "version": 5,
+        "type": "column",
+        "content": [
+          "2e53b07c-81ff-80dc-8543-f9463447ad1b"
+        ],
+        "format": {
+          "column_ratio": 0.5
+        },
+        "created_time": 1768125496363,
+        "last_edited_time": 1768125496368,
+        "parent_id": "2e53b07c-81ff-8049-96af-f42ece9e190b",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "qEH54BIuK4OfRm0oViK2qA,\"start\",\"end\"",
+            "n": {
+              "qEH54BIuK4OfRm0oViK2qA,\"start\",\"end\"": {
+                "s": {
+                  "x": "qEH54BIuK4OfRm0oViK2qA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-800f-8051-d65b09e9616c": {
+      "value": {
+        "id": "2e53b07c-81ff-800f-8051-d65b09e9616c",
+        "version": 5,
+        "type": "column",
+        "content": [
+          "2e53b07c-81ff-8005-ac56-f5dd78a2db35"
+        ],
+        "format": {
+          "column_ratio": 0.5
+        },
+        "created_time": 1768125496365,
+        "last_edited_time": 1768125496368,
+        "parent_id": "2e53b07c-81ff-8049-96af-f42ece9e190b",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "OUaHwDqXlZ0RYXEhB2yHnQ,\"start\",\"end\"",
+            "n": {
+              "OUaHwDqXlZ0RYXEhB2yHnQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "OUaHwDqXlZ0RYXEhB2yHnQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-80dc-8543-f9463447ad1b": {
+      "value": {
+        "id": "2e53b07c-81ff-80dc-8543-f9463447ad1b",
+        "version": 13,
+        "type": "image",
+        "properties": {
+          "size": [
+            [
+              "266.5 KiB"
+            ]
+          ],
+          "title": [
+            [
+              "2025-11-07_20-32-06.mp4_snapshot_12.12_[2026-01-11_18.57.50].jpg"
+            ]
+          ],
+          "source": [
+            [
+              "attachment:803ac4b5-27fc-411d-ac19-9c2b54a69886:2025-11-07_20-32-06.mp4_snapshot_12.12_2026-01-11_18.57.50.jpg"
+            ]
+          ]
+        },
+        "format": {
+          "block_width": 1920,
+          "display_source": "attachment:803ac4b5-27fc-411d-ac19-9c2b54a69886:2025-11-07_20-32-06.mp4_snapshot_12.12_2026-01-11_18.57.50.jpg",
+          "block_full_width": false,
+          "block_page_width": true,
+          "block_aspect_ratio": 0.5625,
+          "block_preserve_scale": true
+        },
+        "created_time": 1768125494663,
+        "last_edited_time": 1768125496619,
+        "parent_id": "2e53b07c-81ff-805c-8083-c835b7f7c7a3",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "803ac4b5-27fc-411d-ac19-9c2b54a69886"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "oQk4wVpaLZOyXTIV7bJQ4w,\"start\",\"end\"",
+            "n": {
+              "oQk4wVpaLZOyXTIV7bJQ4w,\"start\",\"end\"": {
+                "s": {
+                  "x": "oQk4wVpaLZOyXTIV7bJQ4w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 64,
+                      "c": "2025-11-07_20-32-06.mp4_snapshot_12.12_[2026-01-11_18.57.50].jpg"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-8005-ac56-f5dd78a2db35": {
+      "value": {
+        "id": "2e53b07c-81ff-8005-ac56-f5dd78a2db35",
+        "version": 11,
+        "type": "image",
+        "properties": {
+          "size": [
+            [
+              "268.9 KiB"
+            ]
+          ],
+          "title": [
+            [
+              "2025-11-07_20-32-06.mp4_snapshot_13.37_[2026-01-11_18.58.03].jpg"
+            ]
+          ],
+          "source": [
+            [
+              "attachment:60c7fd2f-9be5-46c9-9634-1177c71a5c31:2025-11-07_20-32-06.mp4_snapshot_13.37_2026-01-11_18.58.03.jpg"
+            ]
+          ]
+        },
+        "format": {
+          "block_width": 1920,
+          "display_source": "attachment:60c7fd2f-9be5-46c9-9634-1177c71a5c31:2025-11-07_20-32-06.mp4_snapshot_13.37_2026-01-11_18.58.03.jpg",
+          "block_full_width": false,
+          "block_page_width": true,
+          "block_aspect_ratio": 0.5625,
+          "block_preserve_scale": true
+        },
+        "created_time": 1768125496363,
+        "last_edited_time": 1768125498597,
+        "parent_id": "2e53b07c-81ff-800f-8051-d65b09e9616c",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "60c7fd2f-9be5-46c9-9634-1177c71a5c31"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "25I89cL_NwLpIOxWsn0VGA,\"start\",\"end\"",
+            "n": {
+              "25I89cL_NwLpIOxWsn0VGA,\"start\",\"end\"": {
+                "s": {
+                  "x": "25I89cL_NwLpIOxWsn0VGA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 64,
+                      "c": "2025-11-07_20-32-06.mp4_snapshot_13.37_[2026-01-11_18.58.03].jpg"
                     },
                     {
                       "t": "e"
@@ -3280,5 +3603,8 @@
   },
   "notion_user": {},
   "collection_query": {},
-  "signed_urls": {}
+  "signed_urls": {
+    "2e53b07c-81ff-80dc-8543-f9463447ad1b": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/803ac4b5-27fc-411d-ac19-9c2b54a69886/2025-11-07_20-32-06.mp4_snapshot_12.12_2026-01-11_18.57.50.jpg?table=block&id=2e53b07c-81ff-80dc-8543-f9463447ad1b&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768183200000&signature=5SxnE5gUMDI13TExdezV_V8R7GlMfbW3K6PjJPrNPQA",
+    "2e53b07c-81ff-8005-ac56-f5dd78a2db35": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/60c7fd2f-9be5-46c9-9634-1177c71a5c31/2025-11-07_20-32-06.mp4_snapshot_13.37_2026-01-11_18.58.03.jpg?table=block&id=2e53b07c-81ff-8005-ac56-f5dd78a2db35&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768183200000&signature=EMnNTa--toTpQKv0AICAfpGhwyFdTwUKRanuvNQGKUw"
+  }
 }

@@ -3,7 +3,7 @@
     "1bf3b07c-81ff-80b2-8c15-f4469df560ae": {
       "value": {
         "id": "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
-        "version": 49,
+        "version": 52,
         "type": "page",
         "properties": {
           "title": [
@@ -14,6 +14,7 @@
         },
         "content": [
           "1bf3b07c-81ff-8091-86d3-f6eb923c4ae2",
+          "2e53b07c-81ff-808e-870c-c22ae5892cbd",
           "1bf3b07c-81ff-80f2-8285-fbb3fe17df3f",
           "1bf3b07c-81ff-8016-9ffb-e67512c8dc5d",
           "1bf3b07c-81ff-8042-a883-e931067abe23",
@@ -31,7 +32,7 @@
           }
         },
         "created_time": 1742757201941,
-        "last_edited_time": 1759066933822,
+        "last_edited_time": 1768123261756,
         "parent_id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
         "parent_table": "block",
         "alive": true,
@@ -75,9 +76,14 @@
     "1ad3b07c-81ff-803d-b570-dd34e00c1df5": {
       "value": {
         "id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
-        "version": 261,
+        "version": 270,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "term"
+            ]
+          ],
           "title": [
             [
               "用語"
@@ -115,7 +121,7 @@
           "social_media_image_preview_url": "attachment:0c2d3364-aa4c-4140-93ae-100086c0fa1e:SocialMediaPreviewImage.png"
         },
         "created_time": 1741140188770,
-        "last_edited_time": 1763622970353,
+        "last_edited_time": 1764148149674,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -219,7 +225,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -249,20 +255,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -274,7 +274,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -297,7 +297,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -306,7 +306,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -328,8 +329,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -354,7 +393,7 @@
     "1bf3b07c-81ff-8091-86d3-f6eb923c4ae2": {
       "value": {
         "id": "1bf3b07c-81ff-8091-86d3-f6eb923c4ae2",
-        "version": 13,
+        "version": 16,
         "type": "text",
         "properties": {
           "title": [
@@ -364,18 +403,339 @@
           ]
         },
         "created_time": 1742757208696,
-        "last_edited_time": 1742759146114,
+        "last_edited_time": 1742759146115,
         "parent_id": "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "iC3mnm2EyHagR23O7oMfGg,\"start\",\"end\"",
+            "n": {
+              "iC3mnm2EyHagR23O7oMfGg,\"start\",\"end\"": {
+                "s": {
+                  "x": "iC3mnm2EyHagR23O7oMfGg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IMJX5F2Xxhmu",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 13,
+                      "c": "崩壊エネルギーによる亀裂。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-808e-870c-c22ae5892cbd": {
+      "value": {
+        "id": "2e53b07c-81ff-808e-870c-c22ae5892cbd",
+        "version": 57,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "崩壊エネルギーの過度な使用は、現実宇宙と崩壊宇宙の安定性を破壊し、死域が発生する。"
+            ]
+          ]
+        },
+        "created_time": 1768123255433,
+        "last_edited_time": 1768123269031,
+        "parent_id": "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "bFH-bNAKJKwAOLt0f06OOw,\"start\",\"end\"",
+            "n": {
+              "bFH-bNAKJKwAOLt0f06OOw,\"start\",\"end\"": {
+                "s": {
+                  "x": "bFH-bNAKJKwAOLt0f06OOw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 32,
+                      "c": "崩壊エネルギーの過度な使用は、現実宇宙と崩壊宇宙の安定性を破壊し"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        33
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        32
+                      ],
+                      "l": -6
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        39
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        38
+                      ],
+                      "l": 1,
+                      "c": "、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        64
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        39
+                      ],
+                      "l": 2,
+                      "c": "死域"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        58
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        39
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        61
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        59
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        63
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        61
+                      ],
+                      "l": 1,
+                      "c": "が"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        72
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        63
+                      ],
+                      "l": 2,
+                      "c": "発生"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        75
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        73
+                      ],
+                      "l": 1,
+                      "c": "す"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        77
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        75
+                      ],
+                      "l": 2,
+                      "c": "る。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        76
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        75
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        74
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        73
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        67
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        63
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        69
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        67
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        68
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        67
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        66
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        63
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        62
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        61
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        60
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        59
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        57
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        39
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3k7XHUlVkWF4",
+                        40
+                      ],
+                      "o": [
+                        "3k7XHUlVkWF4",
+                        39
+                      ],
+                      "l": -17
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1bf3b07c-81ff-80f2-8285-fbb3fe17df3f": {
       "value": {
         "id": "1bf3b07c-81ff-80f2-8285-fbb3fe17df3f",
-        "version": 89,
+        "version": 92,
         "type": "text",
         "properties": {
           "title": [
@@ -418,18 +778,206 @@
           ]
         },
         "created_time": 1742757349678,
-        "last_edited_time": 1742901737157,
+        "last_edited_time": 1742901737158,
         "parent_id": "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "-72XwEP0ecMNmCBVxgitxA,\"start\",\"end\"",
+            "n": {
+              "-72XwEP0ecMNmCBVxgitxA,\"start\",\"end\"": {
+                "s": {
+                  "x": "-72XwEP0ecMNmCBVxgitxA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "RNv2tGmg5gmR",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "カリスマ",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "-72XwEP0ecMNmCBVxgitxA",
+                          "l": "",
+                          "i": [
+                            "RNv2tGmg5gmR",
+                            59
+                          ],
+                          "s": {
+                            "i": [
+                              "RNv2tGmg5gmR",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "RNv2tGmg5gmR",
+                              4
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bc3b07c81ff80f9a1bce3057aa85bc0?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "RNv2tGmg5gmR",
+                        5
+                      ],
+                      "o": [
+                        "RNv2tGmg5gmR",
+                        4
+                      ],
+                      "l": 1,
+                      "c": "が"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "RNv2tGmg5gmR",
+                        6
+                      ],
+                      "o": [
+                        "RNv2tGmg5gmR",
+                        5
+                      ],
+                      "l": 7,
+                      "c": "対惑星決戦兵器",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "-72XwEP0ecMNmCBVxgitxA",
+                          "l": "",
+                          "i": [
+                            "RNv2tGmg5gmR",
+                            60
+                          ],
+                          "s": {
+                            "i": [
+                              "RNv2tGmg5gmR",
+                              6
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "RNv2tGmg5gmR",
+                              12
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bf3b07c81ff805581aec40dff2072b2?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "RNv2tGmg5gmR",
+                        13
+                      ],
+                      "o": [
+                        "RNv2tGmg5gmR",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "を用いて"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "RNv2tGmg5gmR",
+                        17
+                      ],
+                      "o": [
+                        "RNv2tGmg5gmR",
+                        16
+                      ],
+                      "l": 7,
+                      "c": "ユカタン大死域",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "-72XwEP0ecMNmCBVxgitxA",
+                          "l": "",
+                          "i": [
+                            "RNv2tGmg5gmR",
+                            61
+                          ],
+                          "s": {
+                            "i": [
+                              "RNv2tGmg5gmR",
+                              17
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "RNv2tGmg5gmR",
+                              23
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bc3b07c81ff80359544cfc5cdbd9e53?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "RNv2tGmg5gmR",
+                        24
+                      ],
+                      "o": [
+                        "RNv2tGmg5gmR",
+                        23
+                      ],
+                      "l": 35,
+                      "c": "を作り出した後、世界各地で発生した「共鳴」のような現象と言われている。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1bf3b07c-81ff-8016-9ffb-e67512c8dc5d": {
       "value": {
         "id": "1bf3b07c-81ff-8016-9ffb-e67512c8dc5d",
-        "version": 172,
+        "version": 175,
         "type": "text",
         "properties": {
           "title": [
@@ -451,18 +999,107 @@
           ]
         },
         "created_time": 1742757250875,
-        "last_edited_time": 1742758307571,
+        "last_edited_time": 1742758307572,
         "parent_id": "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "--2U1_AFUASMjAg9UGPxRQ,\"start\",\"end\"",
+            "n": {
+              "--2U1_AFUASMjAg9UGPxRQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "--2U1_AFUASMjAg9UGPxRQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ViOOCxdpIn3p",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 8,
+                      "c": "死域が生じてから"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ViOOCxdpIn3p",
+                        9
+                      ],
+                      "o": [
+                        "ViOOCxdpIn3p",
+                        8
+                      ],
+                      "l": 3,
+                      "c": "帰還者",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "--2U1_AFUASMjAg9UGPxRQ",
+                          "l": "",
+                          "i": [
+                            "ViOOCxdpIn3p",
+                            23
+                          ],
+                          "s": {
+                            "i": [
+                              "ViOOCxdpIn3p",
+                              9
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "ViOOCxdpIn3p",
+                              11
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bf3b07c81ff80f9a733ed6a4f3c1b69?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ViOOCxdpIn3p",
+                        12
+                      ],
+                      "o": [
+                        "ViOOCxdpIn3p",
+                        11
+                      ],
+                      "l": 11,
+                      "c": "が現れるようになった。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1bf3b07c-81ff-8042-a883-e931067abe23": {
       "value": {
         "id": "1bf3b07c-81ff-8042-a883-e931067abe23",
-        "version": 21,
+        "version": 24,
         "type": "text",
         "properties": {
           "title": [
@@ -472,18 +1109,51 @@
           ]
         },
         "created_time": 1742758297090,
-        "last_edited_time": 1742758300017,
+        "last_edited_time": 1742758300018,
         "parent_id": "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "8wXKxpXRu0Abs6SUURNA3w,\"start\",\"end\"",
+            "n": {
+              "8wXKxpXRu0Abs6SUURNA3w,\"start\",\"end\"": {
+                "s": {
+                  "x": "8wXKxpXRu0Abs6SUURNA3w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GPUya1-tcqBM",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 22,
+                      "c": "近づかなくても頭痛や吐き気を感じる者もいる。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1bf3b07c-81ff-80aa-8a60-f44358f0eb9d": {
       "value": {
         "id": "1bf3b07c-81ff-80aa-8a60-f44358f0eb9d",
-        "version": 32,
+        "version": 35,
         "type": "text",
         "properties": {
           "title": [
@@ -493,18 +1163,51 @@
           ]
         },
         "created_time": 1742757292221,
-        "last_edited_time": 1742757388518,
+        "last_edited_time": 1742757388519,
         "parent_id": "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "-VqBiF5XKY56op3Lbe0maw,\"start\",\"end\"",
+            "n": {
+              "-VqBiF5XKY56op3Lbe0maw,\"start\",\"end\"": {
+                "s": {
+                  "x": "-VqBiF5XKY56op3Lbe0maw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "UCafrV3COwr6",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 29,
+                      "c": "規則性があり、町の間の道路、幹線道路に沿って拡大している。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1bf3b07c-81ff-8029-a75b-d2076bda3ea5": {
       "value": {
         "id": "1bf3b07c-81ff-8029-a75b-d2076bda3ea5",
-        "version": 9,
+        "version": 12,
         "type": "text",
         "properties": {
           "title": [
@@ -514,18 +1217,51 @@
           ]
         },
         "created_time": 1742757320592,
-        "last_edited_time": 1742757329130,
+        "last_edited_time": 1742757329131,
         "parent_id": "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "J5R6PRVeSYK72FmtNNw_7g,\"start\",\"end\"",
+            "n": {
+              "J5R6PRVeSYK72FmtNNw_7g,\"start\",\"end\"": {
+                "s": {
+                  "x": "J5R6PRVeSYK72FmtNNw_7g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "eLAsZpqnJ8B0",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 37,
+                      "c": "通信が妨害され、電波に対する千渉は死域の中心に近づけば近づくほど強くなる。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1bf3b07c-81ff-80c1-b804-c3088c4772b1": {
       "value": {
         "id": "1bf3b07c-81ff-80c1-b804-c3088c4772b1",
-        "version": 20,
+        "version": 23,
         "type": "text",
         "properties": {
           "title": [
@@ -535,18 +1271,51 @@
           ]
         },
         "created_time": 1742757472155,
-        "last_edited_time": 1742757489971,
+        "last_edited_time": 1742757489972,
         "parent_id": "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "8lqgTEtFxDudLSHxIfvWHw,\"start\",\"end\"",
+            "n": {
+              "8lqgTEtFxDudLSHxIfvWHw,\"start\",\"end\"": {
+                "s": {
+                  "x": "8lqgTEtFxDudLSHxIfvWHw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "2JyI4t6a8Nak",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 58,
+                      "c": "死域に近づけば近づくほど、精密機器は内部に崩壊エネルギーの結晶が蓄積しやすいから、みんな情報の記録に紙を使っている。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1bf3b07c-81ff-8088-816c-dacbe613df28": {
       "value": {
         "id": "1bf3b07c-81ff-8088-816c-dacbe613df28",
-        "version": 7,
+        "version": 10,
         "type": "text",
         "properties": {
           "title": [
@@ -556,11 +1325,44 @@
           ]
         },
         "created_time": 1742757336032,
-        "last_edited_time": 1742757336578,
+        "last_edited_time": 1742757336579,
         "parent_id": "1bf3b07c-81ff-80b2-8c15-f4469df560ae",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "4CGBoMc-yfxriq6nE8QRwA,\"start\",\"end\"",
+            "n": {
+              "4CGBoMc-yfxriq6nE8QRwA,\"start\",\"end\"": {
+                "s": {
+                  "x": "4CGBoMc-yfxriq6nE8QRwA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "7TNVnBgRuyVw",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 29,
+                      "c": "死域の奥は最新の戦艦ですら通常の航行をすることができない。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
@@ -811,7 +1613,7 @@
     "1bc3b07c-81ff-80f9-a1bc-e3057aa85bc0": {
       "value": {
         "id": "1bc3b07c-81ff-80f9-a1bc-e3057aa85bc0",
-        "version": 172,
+        "version": 178,
         "type": "page",
         "properties": {
           "title": [
@@ -837,6 +1639,8 @@
           "1bd3b07c-81ff-808b-b06e-f333ff0911f0",
           "1bd3b07c-81ff-8055-95a8-ce2b26a650b5",
           "1bd3b07c-81ff-8053-8d83-fc718f3e8508",
+          "2e53b07c-81ff-80f4-95ea-ee46852bed9a",
+          "2e53b07c-81ff-80a8-99b9-eee16907f898",
           "1bd3b07c-81ff-8062-8877-c57703bd1d1e",
           "1c13b07c-81ff-80d9-a358-f2a8dcf0bae3",
           "1bd3b07c-81ff-80b0-bf82-fe89f03ee6b8",
@@ -844,6 +1648,7 @@
           "1bd3b07c-81ff-802b-95a5-f148816d1ac6",
           "1bd3b07c-81ff-80a5-997c-f4bddff18be0",
           "1bd3b07c-81ff-8097-9b1a-fa7461812cc4",
+          "2e53b07c-81ff-80c3-b4ab-f68fcaab2fd1",
           "1bd3b07c-81ff-800e-ba8d-ee6594f6412d",
           "2a03b07c-81ff-8016-a971-dd3faf58cbd5",
           "2a03b07c-81ff-80f4-b09f-e52bf35cfcdc"
@@ -856,7 +1661,7 @@
           }
         },
         "created_time": 1742510494124,
-        "last_edited_time": 1762138537710,
+        "last_edited_time": 1768114937841,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -1057,7 +1862,7 @@
     "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69": {
       "value": {
         "id": "1bf3b07c-81ff-80f9-a733-ed6a4f3c1b69",
-        "version": 24,
+        "version": 55,
         "type": "page",
         "properties": {
           "title": [
@@ -1069,8 +1874,24 @@
         "content": [
           "1bf3b07c-81ff-807c-9e19-dd7ec42603d7",
           "1bf3b07c-81ff-8024-8fa8-d904ac9c027e",
+          "2e53b07c-81ff-80ac-b2f7-dc96b724594f",
+          "1bf3b07c-81ff-80f8-b888-de143b84ef88",
+          "2e53b07c-81ff-8084-ad44-ea17eee3b6b2",
+          "2e53b07c-81ff-80c6-9bb1-f4b26b403c83",
           "1bf3b07c-81ff-802a-87df-c9ac8bce88ec",
-          "1bf3b07c-81ff-80f8-b888-de143b84ef88"
+          "2e53b07c-81ff-80ca-a150-fe8c2374d2a7",
+          "2e53b07c-81ff-8087-bc32-f7ae2760b60e",
+          "2e53b07c-81ff-8029-b643-ec81daa16a67",
+          "2e53b07c-81ff-8057-86af-fd4a1f350a20",
+          "2e53b07c-81ff-805f-be0e-f1f29fe9b1b7",
+          "2e53b07c-81ff-8030-9b63-ddff95b47db0",
+          "2e53b07c-81ff-8053-9e50-ebe1021b74d2",
+          "2e53b07c-81ff-805c-9827-cd5d1f310201",
+          "2e53b07c-81ff-8029-a5c8-c1ae2717a0ff",
+          "2e53b07c-81ff-8092-a2fa-ef0a5362168c",
+          "2e53b07c-81ff-8096-89c3-fd56c8881c17",
+          "2e53b07c-81ff-804e-90ef-fbed6c85d825",
+          "2e53b07c-81ff-80c8-b474-c61d4a716276"
         ],
         "format": {
           "copied_from_pointer": {
@@ -1080,7 +1901,7 @@
           }
         },
         "created_time": 1742757529663,
-        "last_edited_time": 1742901765770,
+        "last_edited_time": 1768125421740,
         "parent_id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
         "parent_table": "block",
         "alive": true,
@@ -1187,7 +2008,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1717,
+        "version": 1790,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -1230,7 +2051,7 @@
           "1b93b07c-81ff-809c-b40c-e92b30835acc",
           "1b93b07c-81ff-804f-b58b-db4f52c31d02",
           "27c3b07c-81ff-80a1-abe0-fbb8e2e929de",
-          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "2e53b07c-81ff-8030-ae24-db6b6257f2ac",
           "1bf3b07c-81ff-806f-86d6-e5f00eaa57e4",
           "1b93b07c-81ff-80e6-8833-e860f93f4b5d",
           "1b93b07c-81ff-808c-a05e-dbfb07e01d95",
@@ -1238,7 +2059,6 @@
           "1b93b07c-81ff-80e5-903b-d07e81c1d36e",
           "1b93b07c-81ff-8070-9bb8-d324721c2653",
           "2b13b07c-81ff-8098-b3da-f65d174cfa92",
-          "2b13b07c-81ff-80fc-9eee-e80210257c17",
           "27c3b07c-81ff-8076-914e-c98b7a9e323c",
           "27c3b07c-81ff-80c8-b4f0-ea440e24b973",
           "1b93b07c-81ff-8093-b73f-ea9338e09284",
@@ -1262,26 +2082,30 @@
           "1bc3b07c-81ff-80d8-9371-df19fc99263f",
           "1b93b07c-81ff-8058-87c6-cf92f46eeb5e",
           "1bd3b07c-81ff-800c-af8d-f5dc559f3811",
-          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
-          "1bd3b07c-81ff-8087-9377-facf462a212f",
           "1b93b07c-81ff-8076-86cb-cc99e3c28e11",
+          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
           "1bd3b07c-81ff-80c5-acdb-e05953c7d3c2",
           "1bc3b07c-81ff-8024-a546-ea0e68ada392",
-          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
+          "2e53b07c-81ff-80fb-ae9c-d4af89dc3526",
+          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
+          "1bd3b07c-81ff-8087-9377-facf462a212f",
           "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
+          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
+          "27c3b07c-81ff-80b9-af67-da8e328925f6",
           "27c3b07c-81ff-8088-ac2d-f2beba364720",
           "2a53b07c-81ff-8022-978a-ccdb80d1d4fb",
-          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
+          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
           "1be3b07c-81ff-8034-9960-db9b3a238538",
           "1be3b07c-81ff-80f0-9d99-cd8ab44f29d4",
           "1be3b07c-81ff-80aa-a398-fc78d542be90",
-          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
-          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
-          "27c3b07c-81ff-80b9-af67-da8e328925f6",
+          "2e53b07c-81ff-80fd-aebf-deaefc211002",
+          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
           "1be3b07c-81ff-8086-9bbd-d3ec180d3fcd",
           "1bd3b07c-81ff-806c-8111-e4bc80a3013e",
           "1bf3b07c-81ff-8048-b2d0-e2c6da725c6f",
           "1be3b07c-81ff-801e-85a9-f13d576b6447",
+          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
           "1b93b07c-81ff-806f-bf2d-fa3acb1a1a42",
           "1bc3b07c-81ff-80b1-9fac-df6f9b398d57",
           "2b13b07c-81ff-80ff-9fbc-d78483f1bc12",
@@ -1293,6 +2117,7 @@
           "1b93b07c-81ff-809e-90a8-f0e412a0cdac",
           "1b83b07c-81ff-8072-b34c-d84888baf666",
           "1b93b07c-81ff-8043-b610-db8506b0dd80",
+          "2e53b07c-81ff-803d-a29f-e5d209190ebc",
           "1bc3b07c-81ff-801b-bf59-caad9fd0bfd2",
           "1bf3b07c-81ff-80dd-ae4e-f94a70f8a4a5",
           "1b93b07c-81ff-80a2-95ab-d592676f5c99",
@@ -1362,7 +2187,6 @@
           "27c3b07c-81ff-80fd-a9c6-f09fd21b17fd",
           "27c3b07c-81ff-801b-b9c2-df19d63f2027",
           "27c3b07c-81ff-8042-a1f7-ed0bae0397b3",
-          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
           "27c3b07c-81ff-801a-af68-e11c8b5f8e03",
           "27c3b07c-81ff-80f1-a34c-c513f98b6fc6",
           "27c3b07c-81ff-8077-bf43-c523a5d8c3db",
@@ -1370,6 +2194,7 @@
           "27c3b07c-81ff-8096-a62b-eb78a49e3631",
           "2b13b07c-81ff-80e5-92e0-c6d921d34af4",
           "2b13b07c-81ff-8028-a0de-e0eef35f3587",
+          "2e53b07c-81ff-8038-ae49-cc39104850c2",
           "1bf3b07c-81ff-8090-ac79-dfbca3b5853e",
           "1b63b07c-81ff-80de-a3b0-c95920f86655",
           "2083b07c-81ff-802d-bf18-e376d867503c",
@@ -1382,7 +2207,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1763799859805,
+        "last_edited_time": 1768123006610,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -1431,9 +2256,14 @@
     "1ad3b07c-81ff-809c-8204-e16483640fa5": {
       "value": {
         "id": "1ad3b07c-81ff-809c-8204-e16483640fa5",
-        "version": 299,
+        "version": 317,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "geography"
+            ]
+          ],
           "title": [
             [
               "地理"
@@ -1478,7 +2308,7 @@
           "page_cover_position": 0.2338
         },
         "created_time": 1741142028871,
-        "last_edited_time": 1763623874273,
+        "last_edited_time": 1764148101098,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -1526,7 +2356,7 @@
     "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5": {
       "value": {
         "id": "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5",
-        "version": 170,
+        "version": 172,
         "type": "page",
         "properties": {
           "title": [
@@ -1554,6 +2384,7 @@
           "1bf3b07c-81ff-80bc-b81d-e21153f6f3c8",
           "2b13b07c-81ff-804e-84e5-d7b628c42ebf",
           "2b13b07c-81ff-8071-91e8-f886a7054bd2",
+          "2e53b07c-81ff-808b-b272-e1ed4d58a60e",
           "2b13b07c-81ff-80b6-a232-c05c3f154a4c",
           "1bc3b07c-81ff-805d-a768-c035877ab4bd",
           "1b93b07c-81ff-801c-adc8-ce9b99a5c988",
@@ -1575,7 +2406,7 @@
           }
         },
         "created_time": 1741979389065,
-        "last_edited_time": 1763610059720,
+        "last_edited_time": 1768120154258,
         "parent_id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
         "parent_table": "block",
         "alive": true,

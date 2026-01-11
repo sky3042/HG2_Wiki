@@ -3,7 +3,7 @@
     "27c3b07c-81ff-8071-b3b5-ff823942edc9": {
       "value": {
         "id": "27c3b07c-81ff-8071-b3b5-ff823942edc9",
-        "version": 79,
+        "version": 81,
         "type": "page",
         "properties": {
           "title": [
@@ -19,6 +19,7 @@
           "27c3b07c-81ff-8034-ba71-ea59aaab4c9d",
           "27c3b07c-81ff-804e-93af-d9d689860d5e",
           "2b13b07c-81ff-8074-b62a-fbc5ecced566",
+          "2e53b07c-81ff-802a-83ae-cd86d1c47b03",
           "2b13b07c-81ff-809f-a341-ce706854e4e4",
           "27c3b07c-81ff-8007-beb7-f02874c4ef97",
           "27d3b07c-81ff-80e0-820f-d491712187dc",
@@ -34,7 +35,7 @@
           "social_media_image_preview_url": "attachment:74e37753-40bb-4aa8-b1ef-f8751882f1fb:SocialMediaPreviewImage.png"
         },
         "created_time": 1759062790840,
-        "last_edited_time": 1763623756671,
+        "last_edited_time": 1768132531601,
         "parent_id": "1ad3b07c-81ff-809c-8204-e16483640fa5",
         "parent_table": "block",
         "alive": true,
@@ -82,9 +83,14 @@
     "1ad3b07c-81ff-809c-8204-e16483640fa5": {
       "value": {
         "id": "1ad3b07c-81ff-809c-8204-e16483640fa5",
-        "version": 299,
+        "version": 317,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "geography"
+            ]
+          ],
           "title": [
             [
               "地理"
@@ -129,7 +135,7 @@
           "page_cover_position": 0.2338
         },
         "created_time": 1741142028871,
-        "last_edited_time": 1763623874273,
+        "last_edited_time": 1764148101098,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -231,7 +237,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -261,20 +267,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -286,7 +286,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -309,7 +309,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -318,7 +318,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -340,8 +341,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -2152,6 +2191,228 @@
       },
       "role": "reader"
     },
+    "2e53b07c-81ff-802a-83ae-cd86d1c47b03": {
+      "value": {
+        "id": "2e53b07c-81ff-802a-83ae-cd86d1c47b03",
+        "version": 26,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "オグウィン政府は多くの市政サービスを民間企業に委託しており、その民間企業のほとんどが"
+            ],
+            [
+              "スワンホテル",
+              [
+                [
+                  "a",
+                  "/1c03b07c81ff801fb22ce7cadfea1064?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "の支配下にある。"
+            ]
+          ]
+        },
+        "created_time": 1768132531591,
+        "last_edited_time": 1768132546853,
+        "parent_id": "27c3b07c-81ff-8071-b3b5-ff823942edc9",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DDaC4zaS3w9LEG2ZUSo5cw,\"start\",\"end\"",
+            "n": {
+              "DDaC4zaS3w9LEG2ZUSo5cw,\"start\",\"end\"": {
+                "s": {
+                  "x": "DDaC4zaS3w9LEG2ZUSo5cw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "h2CJpQnmgW0O",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 27,
+                      "c": "オグウィン政府は多くの市政サービスを民間企業に委託して"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "h2CJpQnmgW0O",
+                        57
+                      ],
+                      "o": [
+                        "h2CJpQnmgW0O",
+                        27
+                      ],
+                      "l": 1,
+                      "c": "お"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "h2CJpQnmgW0O",
+                        59
+                      ],
+                      "o": [
+                        "h2CJpQnmgW0O",
+                        57
+                      ],
+                      "l": 2,
+                      "c": "り、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "h2CJpQnmgW0O",
+                        58
+                      ],
+                      "o": [
+                        "h2CJpQnmgW0O",
+                        57
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "h2CJpQnmgW0O",
+                        28
+                      ],
+                      "o": [
+                        "h2CJpQnmgW0O",
+                        27
+                      ],
+                      "l": -4
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "h2CJpQnmgW0O",
+                        32
+                      ],
+                      "o": [
+                        "h2CJpQnmgW0O",
+                        31
+                      ],
+                      "l": 12,
+                      "c": "その民間企業のほとんどが"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "h2CJpQnmgW0O",
+                        44
+                      ],
+                      "o": [
+                        "h2CJpQnmgW0O",
+                        43
+                      ],
+                      "l": 6,
+                      "c": "スワンホテル",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "DDaC4zaS3w9LEG2ZUSo5cw",
+                          "l": "",
+                          "i": [
+                            "h2CJpQnmgW0O",
+                            64
+                          ],
+                          "s": {
+                            "i": [
+                              "h2CJpQnmgW0O",
+                              44
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "h2CJpQnmgW0O",
+                              49
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1c03b07c81ff801fb22ce7cadfea1064?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "h2CJpQnmgW0O",
+                        50
+                      ],
+                      "o": [
+                        "h2CJpQnmgW0O",
+                        49
+                      ],
+                      "l": 6,
+                      "c": "の支配下にあ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "h2CJpQnmgW0O",
+                        62
+                      ],
+                      "o": [
+                        "h2CJpQnmgW0O",
+                        55
+                      ],
+                      "l": 2,
+                      "c": "る。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "h2CJpQnmgW0O",
+                        61
+                      ],
+                      "o": [
+                        "h2CJpQnmgW0O",
+                        55
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "h2CJpQnmgW0O",
+                        56
+                      ],
+                      "o": [
+                        "h2CJpQnmgW0O",
+                        55
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "2b13b07c-81ff-809f-a341-ce706854e4e4": {
       "value": {
         "id": "2b13b07c-81ff-809f-a341-ce706854e4e4",
@@ -3539,7 +3800,7 @@
     "1ad3b07c-81ff-80c6-b3cd-e526c6aa90cc": {
       "value": {
         "id": "1ad3b07c-81ff-80c6-b3cd-e526c6aa90cc",
-        "version": 42,
+        "version": 52,
         "type": "page",
         "properties": {
           "title": [
@@ -3549,8 +3810,7 @@
           ]
         },
         "content": [
-          "27b3b07c-81ff-80d1-b826-d2f558cee42d",
-          "1ad3b07c-81ff-8054-b3b7-e721d2067088",
+          "2e53b07c-81ff-80f0-b54c-ea0e107f84f2",
           "1ad3b07c-81ff-8057-8c21-c570e4e14fb9",
           "1c03b07c-81ff-8098-ad3e-cd7a89fcbf31",
           "1c03b07c-81ff-80cd-be40-fe12f49b7bfa",
@@ -3564,7 +3824,7 @@
           }
         },
         "created_time": 1741141968528,
-        "last_edited_time": 1758965288491,
+        "last_edited_time": 1768120462478,
         "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
         "parent_table": "block",
         "alive": true,
@@ -3768,10 +4028,77 @@
       },
       "role": "reader"
     },
+    "1c03b07c-81ff-801f-b22c-e7cadfea1064": {
+      "value": {
+        "id": "1c03b07c-81ff-801f-b22c-e7cadfea1064",
+        "version": 61,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "スワンホテル"
+            ]
+          ]
+        },
+        "content": [
+          "1c03b07c-81ff-80a2-a156-fac98676f9fb",
+          "1c03b07c-81ff-8074-b07d-d66ed186efab",
+          "1c03b07c-81ff-80c6-ad8e-d098fb7746db",
+          "28c3b07c-81ff-80d4-817a-c3a6e33eaf50",
+          "1c03b07c-81ff-803f-a5cb-ea479f9306b2",
+          "1c03b07c-81ff-808b-8547-f1201c7604c6",
+          "28c3b07c-81ff-80cf-92b2-e71ff63a3b59",
+          "28c3b07c-81ff-80ec-8d2d-ccc09d274623",
+          "1c03b07c-81ff-80ef-960d-ccabb3ecdb0c",
+          "1c03b07c-81ff-806a-81b5-d37fefc0db96",
+          "1c03b07c-81ff-8027-9b5f-eafbabb0cb6a"
+        ],
+        "created_time": 1742802550991,
+        "last_edited_time": 1760431390770,
+        "parent_id": "1ad3b07c-81ff-809c-8204-e16483640fa5",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "r-pQfu-SNOqUDUHR1JOkaQ,\"start\",\"end\"",
+            "n": {
+              "r-pQfu-SNOqUDUHR1JOkaQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "r-pQfu-SNOqUDUHR1JOkaQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "D9045b7skEtX",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 6,
+                      "c": "スワンホテル"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "27c3b07c-81ff-8034-9b22-d7dff6ffb76c": {
       "value": {
         "id": "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
-        "version": 29,
+        "version": 37,
         "type": "page",
         "properties": {
           "title": [
@@ -3788,10 +4115,11 @@
           "2b13b07c-81ff-80fb-8b24-fef07366153e",
           "2b13b07c-81ff-8098-b8f7-d614e13d8e53",
           "2b13b07c-81ff-80bf-b2a6-f2c8c2ba9e93",
-          "2b13b07c-81ff-809d-a067-d9116655450a"
+          "2b13b07c-81ff-809d-a067-d9116655450a",
+          "2e53b07c-81ff-802b-865c-f4ac6eb07334"
         ],
         "created_time": 1759055549211,
-        "last_edited_time": 1763609767730,
+        "last_edited_time": 1768121761969,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -4016,9 +4344,14 @@
     "1ad3b07c-81ff-80e4-8271-c7f781e181c3": {
       "value": {
         "id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "version": 407,
+        "version": 428,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "organization"
+            ]
+          ],
           "title": [
             [
               "派閥"
@@ -4064,11 +4397,11 @@
           "1bf3b07c-81ff-8084-9adb-d2af2b8c362d",
           "1bf3b07c-81ff-8063-9043-f20e5753a572",
           "1c03b07c-81ff-8047-be46-cb3e0b0e3f97",
+          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "27c3b07c-81ff-8096-8449-eff920b94b98",
           "27c3b07c-81ff-80c2-9c65-edb134e6ea3f",
           "27d3b07c-81ff-808c-9414-c30fd37c630f",
           "27d3b07c-81ff-8056-bba5-f0f0a21f324a",
-          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "1c03b07c-81ff-80ff-84e2-fcf373444957",
           "1ad3b07c-81ff-8021-b8dc-e3d75b522904",
           "1bf3b07c-81ff-8080-b2e4-eba35337822a",
@@ -4084,7 +4417,7 @@
           "page_cover_position": 0.5
         },
         "created_time": 1741141291977,
-        "last_edited_time": 1763623466932,
+        "last_edited_time": 1764427847589,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -4163,7 +4496,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1717,
+        "version": 1790,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -4206,7 +4539,7 @@
           "1b93b07c-81ff-809c-b40c-e92b30835acc",
           "1b93b07c-81ff-804f-b58b-db4f52c31d02",
           "27c3b07c-81ff-80a1-abe0-fbb8e2e929de",
-          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "2e53b07c-81ff-8030-ae24-db6b6257f2ac",
           "1bf3b07c-81ff-806f-86d6-e5f00eaa57e4",
           "1b93b07c-81ff-80e6-8833-e860f93f4b5d",
           "1b93b07c-81ff-808c-a05e-dbfb07e01d95",
@@ -4214,7 +4547,6 @@
           "1b93b07c-81ff-80e5-903b-d07e81c1d36e",
           "1b93b07c-81ff-8070-9bb8-d324721c2653",
           "2b13b07c-81ff-8098-b3da-f65d174cfa92",
-          "2b13b07c-81ff-80fc-9eee-e80210257c17",
           "27c3b07c-81ff-8076-914e-c98b7a9e323c",
           "27c3b07c-81ff-80c8-b4f0-ea440e24b973",
           "1b93b07c-81ff-8093-b73f-ea9338e09284",
@@ -4238,26 +4570,30 @@
           "1bc3b07c-81ff-80d8-9371-df19fc99263f",
           "1b93b07c-81ff-8058-87c6-cf92f46eeb5e",
           "1bd3b07c-81ff-800c-af8d-f5dc559f3811",
-          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
-          "1bd3b07c-81ff-8087-9377-facf462a212f",
           "1b93b07c-81ff-8076-86cb-cc99e3c28e11",
+          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
           "1bd3b07c-81ff-80c5-acdb-e05953c7d3c2",
           "1bc3b07c-81ff-8024-a546-ea0e68ada392",
-          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
+          "2e53b07c-81ff-80fb-ae9c-d4af89dc3526",
+          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
+          "1bd3b07c-81ff-8087-9377-facf462a212f",
           "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
+          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
+          "27c3b07c-81ff-80b9-af67-da8e328925f6",
           "27c3b07c-81ff-8088-ac2d-f2beba364720",
           "2a53b07c-81ff-8022-978a-ccdb80d1d4fb",
-          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
+          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
           "1be3b07c-81ff-8034-9960-db9b3a238538",
           "1be3b07c-81ff-80f0-9d99-cd8ab44f29d4",
           "1be3b07c-81ff-80aa-a398-fc78d542be90",
-          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
-          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
-          "27c3b07c-81ff-80b9-af67-da8e328925f6",
+          "2e53b07c-81ff-80fd-aebf-deaefc211002",
+          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
           "1be3b07c-81ff-8086-9bbd-d3ec180d3fcd",
           "1bd3b07c-81ff-806c-8111-e4bc80a3013e",
           "1bf3b07c-81ff-8048-b2d0-e2c6da725c6f",
           "1be3b07c-81ff-801e-85a9-f13d576b6447",
+          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
           "1b93b07c-81ff-806f-bf2d-fa3acb1a1a42",
           "1bc3b07c-81ff-80b1-9fac-df6f9b398d57",
           "2b13b07c-81ff-80ff-9fbc-d78483f1bc12",
@@ -4269,6 +4605,7 @@
           "1b93b07c-81ff-809e-90a8-f0e412a0cdac",
           "1b83b07c-81ff-8072-b34c-d84888baf666",
           "1b93b07c-81ff-8043-b610-db8506b0dd80",
+          "2e53b07c-81ff-803d-a29f-e5d209190ebc",
           "1bc3b07c-81ff-801b-bf59-caad9fd0bfd2",
           "1bf3b07c-81ff-80dd-ae4e-f94a70f8a4a5",
           "1b93b07c-81ff-80a2-95ab-d592676f5c99",
@@ -4338,7 +4675,6 @@
           "27c3b07c-81ff-80fd-a9c6-f09fd21b17fd",
           "27c3b07c-81ff-801b-b9c2-df19d63f2027",
           "27c3b07c-81ff-8042-a1f7-ed0bae0397b3",
-          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
           "27c3b07c-81ff-801a-af68-e11c8b5f8e03",
           "27c3b07c-81ff-80f1-a34c-c513f98b6fc6",
           "27c3b07c-81ff-8077-bf43-c523a5d8c3db",
@@ -4346,6 +4682,7 @@
           "27c3b07c-81ff-8096-a62b-eb78a49e3631",
           "2b13b07c-81ff-80e5-92e0-c6d921d34af4",
           "2b13b07c-81ff-8028-a0de-e0eef35f3587",
+          "2e53b07c-81ff-8038-ae49-cc39104850c2",
           "1bf3b07c-81ff-8090-ac79-dfbca3b5853e",
           "1b63b07c-81ff-80de-a3b0-c95920f86655",
           "2083b07c-81ff-802d-bf18-e376d867503c",
@@ -4358,7 +4695,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1763799859805,
+        "last_edited_time": 1768123006610,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -4407,7 +4744,7 @@
     "2a53b07c-81ff-807d-9296-df79a1b4ccc9": {
       "value": {
         "id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
-        "version": 213,
+        "version": 215,
         "type": "page",
         "properties": {
           "title": [
@@ -4601,7 +4938,7 @@
           "social_media_image_preview_url": "attachment:74cff22d-31fa-4482-8de3-8aa977d262f9:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578014330,
-        "last_edited_time": 1763629778990,
+        "last_edited_time": 1764129422296,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -4657,7 +4994,7 @@
     "2833b07c-81ff-802a-b26c-c5fec1d872bf": {
       "value": {
         "id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
-        "version": 585,
+        "version": 611,
         "type": "page",
         "properties": {
           "title": [
@@ -4715,7 +5052,7 @@
           "social_media_image_preview_url": "attachment:a9d0d2e7-a0b7-4a0e-99ab-8f52ff3055a4:SocialMediaPreviewImage.png"
         },
         "created_time": 1759648389245,
-        "last_edited_time": 1763611326980,
+        "last_edited_time": 1764153475903,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
@@ -4853,7 +5190,7 @@
     "1ad3b07c-81ff-8049-a679-dee2753e730d": {
       "value": {
         "id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
-        "version": 70,
+        "version": 71,
         "type": "collection_view",
         "view_ids": [
           "1ad3b07c-81ff-808c-8d68-000c1a966362"
@@ -4868,7 +5205,7 @@
           "social_media_image_preview_url": "attachment:77ee58c3-eb3b-464f-91ec-260bc5a88966:SocialMediaPreviewImage.png"
         },
         "created_time": 1741139703841,
-        "last_edited_time": 1762139217746,
+        "last_edited_time": 1764148211020,
         "parent_id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
         "parent_table": "block",
         "alive": true,
@@ -4905,9 +5242,14 @@
     "1ac3b07c-81ff-8089-98b4-ec9f8c06db35": {
       "value": {
         "id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
-        "version": 106,
+        "version": 122,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "lore"
+            ]
+          ],
           "title": [
             [
               "考察"
@@ -4926,7 +5268,7 @@
           "social_media_image_preview_url": "attachment:8df55a7c-dc11-421a-ad46-8e12905aa7f2:SocialMediaPreviewImage.png"
         },
         "created_time": 1741119050032,
-        "last_edited_time": 1763354128830,
+        "last_edited_time": 1764148160955,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -5150,7 +5492,7 @@
     "1ad3b07c-81ff-80f8-93e5-000baa1c67d4": {
       "value": {
         "id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
-        "version": 30,
+        "version": 32,
         "name": [
           [
             "考察"
@@ -5176,6 +5518,46 @@
             "table": "layout",
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
+          "metadata_copied_from": {
+            "id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "`xvK",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": "F;c`",
+                  "color": "pink",
+                  "value": "中"
+                },
+                {
+                  "id": "\\iK_",
+                  "color": "red",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "締切日",
+              "type": "date"
+            }
+          ],
           "page_section_visibility": {
             "comments": "section_hide",
             "backlinks": "section_collapsed",
@@ -5196,7 +5578,13 @@
         "parent_table": "block",
         "alive": true,
         "migrated": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1741139703841,
+        "last_edited_time": 1764148211020,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
       "role": "reader"
     }
@@ -5405,6 +5793,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2893b07c-81ff-801d-b225-cea22f8d9250": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/6cd6c79c-3e0b-4e28-aa2e-f09ae13954c2/760ca1e5gy1i0d7ls0i3nj21140sg7wh.jpg?table=block&id=2893b07c-81ff-801d-b225-cea22f8d9250&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=aGoVbR9gDDM13Zjuk_3ofD7mWH9qsB7i2ZkJievcyEc"
+    "2893b07c-81ff-801d-b225-cea22f8d9250": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/6cd6c79c-3e0b-4e28-aa2e-f09ae13954c2/760ca1e5gy1i0d7ls0i3nj21140sg7wh.jpg?table=block&id=2893b07c-81ff-801d-b225-cea22f8d9250&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768183200000&signature=Jqqpw3qU8KZVeKoI1nW9N_LxRJ5igtLdhswEXsA4syw"
   }
 }

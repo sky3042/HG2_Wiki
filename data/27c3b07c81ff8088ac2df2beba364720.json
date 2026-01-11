@@ -3,7 +3,7 @@
     "27c3b07c-81ff-8088-ac2d-f2beba364720": {
       "value": {
         "id": "27c3b07c-81ff-8088-ac2d-f2beba364720",
-        "version": 99,
+        "version": 102,
         "type": "page",
         "properties": {
           "title": [
@@ -23,6 +23,8 @@
           "2b13b07c-81ff-80bf-9b7d-cd77e35da049",
           "2b13b07c-81ff-8036-bb65-d5677d557c9a",
           "2b13b07c-81ff-8096-994c-e6d777957941",
+          "2e53b07c-81ff-801f-953e-fed9f005d053",
+          "2e53b07c-81ff-8005-83a2-f16cc9b72b66",
           "2a03b07c-81ff-80da-84a3-f79e0d6aa9af",
           "2a03b07c-81ff-8078-b9c9-fec4e2f0cfe3",
           "2a03b07c-81ff-800b-b221-eae0da7a64b2"
@@ -31,7 +33,7 @@
           "social_media_image_preview_url": "attachment:63ea400d-3f02-4431-8924-e1857e08e48e:SocialMediaPreviewImage.png"
         },
         "created_time": 1759053552063,
-        "last_edited_time": 1767155150030,
+        "last_edited_time": 1768121888466,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -240,7 +242,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1724,
+        "version": 1790,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -283,7 +285,7 @@
           "1b93b07c-81ff-809c-b40c-e92b30835acc",
           "1b93b07c-81ff-804f-b58b-db4f52c31d02",
           "27c3b07c-81ff-80a1-abe0-fbb8e2e929de",
-          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "2e53b07c-81ff-8030-ae24-db6b6257f2ac",
           "1bf3b07c-81ff-806f-86d6-e5f00eaa57e4",
           "1b93b07c-81ff-80e6-8833-e860f93f4b5d",
           "1b93b07c-81ff-808c-a05e-dbfb07e01d95",
@@ -314,26 +316,30 @@
           "1bc3b07c-81ff-80d8-9371-df19fc99263f",
           "1b93b07c-81ff-8058-87c6-cf92f46eeb5e",
           "1bd3b07c-81ff-800c-af8d-f5dc559f3811",
-          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
-          "1bd3b07c-81ff-8087-9377-facf462a212f",
           "1b93b07c-81ff-8076-86cb-cc99e3c28e11",
+          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
           "1bd3b07c-81ff-80c5-acdb-e05953c7d3c2",
           "1bc3b07c-81ff-8024-a546-ea0e68ada392",
-          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
+          "2e53b07c-81ff-80fb-ae9c-d4af89dc3526",
+          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
+          "1bd3b07c-81ff-8087-9377-facf462a212f",
           "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
+          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
+          "27c3b07c-81ff-80b9-af67-da8e328925f6",
           "27c3b07c-81ff-8088-ac2d-f2beba364720",
           "2a53b07c-81ff-8022-978a-ccdb80d1d4fb",
-          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
+          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
           "1be3b07c-81ff-8034-9960-db9b3a238538",
           "1be3b07c-81ff-80f0-9d99-cd8ab44f29d4",
           "1be3b07c-81ff-80aa-a398-fc78d542be90",
-          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
-          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
-          "27c3b07c-81ff-80b9-af67-da8e328925f6",
+          "2e53b07c-81ff-80fd-aebf-deaefc211002",
+          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
           "1be3b07c-81ff-8086-9bbd-d3ec180d3fcd",
           "1bd3b07c-81ff-806c-8111-e4bc80a3013e",
           "1bf3b07c-81ff-8048-b2d0-e2c6da725c6f",
           "1be3b07c-81ff-801e-85a9-f13d576b6447",
+          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
           "1b93b07c-81ff-806f-bf2d-fa3acb1a1a42",
           "1bc3b07c-81ff-80b1-9fac-df6f9b398d57",
           "2b13b07c-81ff-80ff-9fbc-d78483f1bc12",
@@ -345,6 +351,7 @@
           "1b93b07c-81ff-809e-90a8-f0e412a0cdac",
           "1b83b07c-81ff-8072-b34c-d84888baf666",
           "1b93b07c-81ff-8043-b610-db8506b0dd80",
+          "2e53b07c-81ff-803d-a29f-e5d209190ebc",
           "1bc3b07c-81ff-801b-bf59-caad9fd0bfd2",
           "1bf3b07c-81ff-80dd-ae4e-f94a70f8a4a5",
           "1b93b07c-81ff-80a2-95ab-d592676f5c99",
@@ -414,7 +421,6 @@
           "27c3b07c-81ff-80fd-a9c6-f09fd21b17fd",
           "27c3b07c-81ff-801b-b9c2-df19d63f2027",
           "27c3b07c-81ff-8042-a1f7-ed0bae0397b3",
-          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
           "27c3b07c-81ff-801a-af68-e11c8b5f8e03",
           "27c3b07c-81ff-80f1-a34c-c513f98b6fc6",
           "27c3b07c-81ff-8077-bf43-c523a5d8c3db",
@@ -422,6 +428,7 @@
           "27c3b07c-81ff-8096-a62b-eb78a49e3631",
           "2b13b07c-81ff-80e5-92e0-c6d921d34af4",
           "2b13b07c-81ff-8028-a0de-e0eef35f3587",
+          "2e53b07c-81ff-8038-ae49-cc39104850c2",
           "1bf3b07c-81ff-8090-ac79-dfbca3b5853e",
           "1b63b07c-81ff-80de-a3b0-c95920f86655",
           "2083b07c-81ff-802d-bf18-e376d867503c",
@@ -434,7 +441,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1763862654684,
+        "last_edited_time": 1768123006610,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -2069,6 +2076,200 @@
       },
       "role": "reader"
     },
+    "2e53b07c-81ff-801f-953e-fed9f005d053": {
+      "value": {
+        "id": "2e53b07c-81ff-801f-953e-fed9f005d053",
+        "version": 26,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "アヴィニョン士官学校出身。"
+            ]
+          ]
+        },
+        "created_time": 1768121888464,
+        "last_edited_time": 1768121895605,
+        "parent_id": "27c3b07c-81ff-8088-ac2d-f2beba364720",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "XlWhJ1GB7Mvu2UmfDDTvQA,\"start\",\"end\"",
+            "n": {
+              "XlWhJ1GB7Mvu2UmfDDTvQA,\"start\",\"end\"": {
+                "s": {
+                  "x": "XlWhJ1GB7Mvu2UmfDDTvQA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 10,
+                      "c": "アヴィニョン士官学校"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        19
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        10
+                      ],
+                      "l": 3,
+                      "c": "出身。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        13
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        10
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        16
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        14
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        15
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        11
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        10
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e53b07c-81ff-8005-83a2-f16cc9b72b66": {
+      "value": {
+        "id": "2e53b07c-81ff-8005-83a2-f16cc9b72b66",
+        "version": 14,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "戦争を経験したことがない。"
+            ]
+          ]
+        },
+        "created_time": 1768121912248,
+        "last_edited_time": 1768121913772,
+        "parent_id": "27c3b07c-81ff-8088-ac2d-f2beba364720",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "5_kiTW-GxK_pEaFBvY_I-A,\"start\",\"end\"",
+            "n": {
+              "5_kiTW-GxK_pEaFBvY_I-A,\"start\",\"end\"": {
+                "s": {
+                  "x": "5_kiTW-GxK_pEaFBvY_I-A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 10,
+                      "c": "戦争を経験したことが"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        12
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        10
+                      ],
+                      "l": 3,
+                      "c": "ない。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "e76SaE2qFSKe",
+                        11
+                      ],
+                      "o": [
+                        "e76SaE2qFSKe",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "2a03b07c-81ff-80da-84a3-f79e0d6aa9af": {
       "value": {
         "id": "2a03b07c-81ff-80da-84a3-f79e0d6aa9af",
@@ -2500,7 +2701,7 @@
     "27c3b07c-81ff-8034-9b22-d7dff6ffb76c": {
       "value": {
         "id": "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
-        "version": 29,
+        "version": 37,
         "type": "page",
         "properties": {
           "title": [
@@ -2517,10 +2718,11 @@
           "2b13b07c-81ff-80fb-8b24-fef07366153e",
           "2b13b07c-81ff-8098-b8f7-d614e13d8e53",
           "2b13b07c-81ff-80bf-b2a6-f2c8c2ba9e93",
-          "2b13b07c-81ff-809d-a067-d9116655450a"
+          "2b13b07c-81ff-809d-a067-d9116655450a",
+          "2e53b07c-81ff-802b-865c-f4ac6eb07334"
         ],
         "created_time": 1759055549211,
-        "last_edited_time": 1763609767730,
+        "last_edited_time": 1768121761969,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -2564,7 +2766,7 @@
     "27c3b07c-81ff-8094-ac21-c90878468737": {
       "value": {
         "id": "27c3b07c-81ff-8094-ac21-c90878468737",
-        "version": 44,
+        "version": 56,
         "type": "page",
         "properties": {
           "title": [
@@ -2580,16 +2782,16 @@
           "27c3b07c-81ff-8016-a5c2-e59beddcbbd3",
           "2b13b07c-81ff-8080-b026-cdbe64192174",
           "2b13b07c-81ff-80ba-9902-edb95a54451c",
+          "2e53b07c-81ff-801e-9073-d9f4d518b5ef",
           "2b13b07c-81ff-80ae-982b-c8a6eb0b5846",
           "27c3b07c-81ff-80da-a116-eda7c5962f83",
-          "2b13b07c-81ff-8029-a7e4-f45e9b9ea575",
           "2b13b07c-81ff-80f6-8d59-c02ed894aa9b",
           "2b13b07c-81ff-806a-9f4d-f300cba2b041",
           "2b13b07c-81ff-80d1-9955-c509a732de19",
           "27c3b07c-81ff-80cf-b453-fb11b93526cc"
         ],
         "created_time": 1759055549211,
-        "last_edited_time": 1763646158674,
+        "last_edited_time": 1768122662231,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -5356,7 +5558,7 @@
     "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5": {
       "value": {
         "id": "1b63b07c-81ff-80cd-ac5a-c866ffb7c5e5",
-        "version": 170,
+        "version": 172,
         "type": "page",
         "properties": {
           "title": [
@@ -5384,6 +5586,7 @@
           "1bf3b07c-81ff-80bc-b81d-e21153f6f3c8",
           "2b13b07c-81ff-804e-84e5-d7b628c42ebf",
           "2b13b07c-81ff-8071-91e8-f886a7054bd2",
+          "2e53b07c-81ff-808b-b272-e1ed4d58a60e",
           "2b13b07c-81ff-80b6-a232-c05c3f154a4c",
           "1bc3b07c-81ff-805d-a768-c035877ab4bd",
           "1b93b07c-81ff-801c-adc8-ce9b99a5c988",
@@ -5405,7 +5608,7 @@
           }
         },
         "created_time": 1741979389065,
-        "last_edited_time": 1763610059720,
+        "last_edited_time": 1768120154258,
         "parent_id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
         "parent_table": "block",
         "alive": true,
@@ -6017,6 +6220,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "27c3b07c-81ff-8020-ba68-c0f8e656b460": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/bf8a6565-eb4b-4c16-840a-df627abdf253/760ca1e5gy1i0cnow8s4pj20sg114b29.jpg?table=block&id=27c3b07c-81ff-8020-ba68-c0f8e656b460&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1767232800000&signature=RsB-0p80p6ikUSfUJfF4R0cl0ElKldqOtU6bJqJhI58"
+    "27c3b07c-81ff-8020-ba68-c0f8e656b460": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/bf8a6565-eb4b-4c16-840a-df627abdf253/760ca1e5gy1i0cnow8s4pj20sg114b29.jpg?table=block&id=27c3b07c-81ff-8020-ba68-c0f8e656b460&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768183200000&signature=bH18wDo_bDXtbFiuoc2-eo1UjIVuQu5wHwhCiZV-bDU"
   }
 }
