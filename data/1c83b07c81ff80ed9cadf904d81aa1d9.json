@@ -3,7 +3,7 @@
     "1c83b07c-81ff-80ed-9cad-f904d81aa1d9": {
       "value": {
         "id": "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
-        "version": 48,
+        "version": 50,
         "type": "collection_view_page",
         "view_ids": [
           "1c83b07c-81ff-80db-81c3-000c6b7b83b0"
@@ -24,7 +24,7 @@
           ]
         },
         "created_time": 1743512112793,
-        "last_edited_time": 1764146276527,
+        "last_edited_time": 1768226445671,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -347,7 +347,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 349,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -384,7 +384,7 @@
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -396,7 +396,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -419,7 +419,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764030939329,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -428,7 +428,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -450,8 +451,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -3373,6 +3412,437 @@
                         1
                       ],
                       "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e63b07c-81ff-80cb-93d9-efa45e67d66b": {
+      "value": {
+        "id": "2e63b07c-81ff-80cb-93d9-efa45e67d66b",
+        "version": 62,
+        "type": "page",
+        "properties": {
+          "?hQ~": [
+            [
+              "メイン"
+            ]
+          ],
+          "fixk": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "type": "date",
+                    "start_date": "2025-11-07",
+                    "date_format": "relative"
+                  }
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ],
+          "q>W{": [
+            [
+              "story-l-portrait2"
+            ]
+          ],
+          "title": [
+            [
+              "Lの肖像Ⅱ"
+            ]
+          ]
+        },
+        "content": [
+          "2e63b07c-81ff-805a-a8f2-ec4f62d652a5"
+        ],
+        "format": {
+          "page_cover": "https://pbs.twimg.com/media/G4-d5cwbQAAHA7X?format=jpg&name=medium",
+          "page_cover_position": 0.5682,
+          "social_media_image_preview_url": "attachment:f5089128-46b4-4637-8eba-8210c998ceee:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1768226346697,
+        "last_edited_time": 1768226561873,
+        "parent_id": "1c83b07c-81ff-80c8-b9ad-000b936e88a7",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "37e11934-80af-491f-aca2-21d9f371ddc0",
+          "f5089128-46b4-4637-8eba-8210c998ceee"
+        ],
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "jI7CHck95Li8NJ-rkCMYDQ,\"start\",\"end\"",
+            "n": {
+              "jI7CHck95Li8NJ-rkCMYDQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "jI7CHck95Li8NJ-rkCMYDQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -5,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "jI7CHck95Li8NJ-rkCMYDQ",
+                          "l": "",
+                          "i": [
+                            "qGn1r4jKL3j_",
+                            6
+                          ],
+                          "s": {
+                            "i": [
+                              "qGn1r4jKL3j_",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "qGn1r4jKL3j_",
+                              5
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "https://studio.youtube.com/playlist/PLkVIYO-uZg45YINB3A8dMZbri6K7OgcLo/edit"
+                          ]
+                        },
+                        {
+                          "t": "a",
+                          "x": "jI7CHck95Li8NJ-rkCMYDQ",
+                          "l": "",
+                          "i": [
+                            "qGn1r4jKL3j_",
+                            7
+                          ],
+                          "s": {
+                            "i": [
+                              "qGn1r4jKL3j_",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": "end",
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ],
+                      "a": [
+                        {
+                          "t": "a",
+                          "x": "jI7CHck95Li8NJ-rkCMYDQ",
+                          "l": "",
+                          "i": [
+                            "qGn1r4jKL3j_",
+                            7
+                          ],
+                          "s": {
+                            "i": [
+                              "qGn1r4jKL3j_",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": "end",
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        8
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        5
+                      ],
+                      "l": 5,
+                      "c": "Lの肖像Ⅱ",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "jI7CHck95Li8NJ-rkCMYDQ",
+                          "l": "",
+                          "i": [
+                            "qGn1r4jKL3j_",
+                            7
+                          ],
+                          "s": {
+                            "i": [
+                              "qGn1r4jKL3j_",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": "end",
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "jI7CHck95Li8NJ-rkCMYDQ",
+                          "l": "",
+                          "i": [
+                            "qGn1r4jKL3j_",
+                            13
+                          ],
+                          "s": {
+                            "i": [
+                              "qGn1r4jKL3j_",
+                              8
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": "end",
+                            "a": "b"
+                          },
+                          "k": "b"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "e",
+                      "b": []
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e63b07c-81ff-80d1-8c27-e6dd061436ca": {
+      "value": {
+        "id": "2e63b07c-81ff-80d1-8c27-e6dd061436ca",
+        "version": 75,
+        "type": "page",
+        "properties": {
+          "?hQ~": [
+            [
+              "メイン"
+            ]
+          ],
+          "fixk": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "type": "date",
+                    "start_date": "2026-01-09",
+                    "date_format": "relative"
+                  }
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ],
+          "q>W{": [
+            [
+              "story-l-portrait3"
+            ]
+          ],
+          "title": [
+            [
+              "Lの肖像Ⅲ"
+            ]
+          ]
+        },
+        "content": [
+          "2e63b07c-81ff-8055-ad60-c6f99f535031"
+        ],
+        "format": {
+          "page_cover": "https://pbs.twimg.com/media/G-DOy6GacAABbnU?format=jpg&name=medium",
+          "page_cover_position": 0.5479,
+          "social_media_image_preview_url": "attachment:85b6c0f3-297f-4275-b418-a0c71ec36e8d:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1768226445661,
+        "last_edited_time": 1768228222439,
+        "parent_id": "1c83b07c-81ff-80c8-b9ad-000b936e88a7",
+        "parent_table": "collection",
+        "alive": true,
+        "file_ids": [
+          "a40f341a-2a35-4f39-b41a-cee36d2ea596",
+          "ffe6cb42-24e8-4aa7-920c-7fad278f08ab",
+          "1f321eae-cf64-4eb8-b138-48ad70d09ca5",
+          "85b6c0f3-297f-4275-b418-a0c71ec36e8d"
+        ],
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "BvgSm0aGIR06lUCppqmskw,\"start\",\"end\"",
+            "n": {
+              "BvgSm0aGIR06lUCppqmskw,\"start\",\"end\"": {
+                "s": {
+                  "x": "BvgSm0aGIR06lUCppqmskw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        3
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        2
+                      ],
+                      "l": 4,
+                      "c": "Lの肖像"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        14
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        6
+                      ],
+                      "l": 1,
+                      "c": "Ⅲ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        13
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        12
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        11
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        10
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        9
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        7
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        6
+                      ],
+                      "l": -2
                     },
                     {
                       "t": "e"
@@ -6846,13 +7316,221 @@
         }
       },
       "role": "reader"
+    },
+    "2e63b07c-81ff-805a-a8f2-ec4f62d652a5": {
+      "value": {
+        "id": "2e63b07c-81ff-805a-a8f2-ec4f62d652a5",
+        "version": 11,
+        "type": "bookmark",
+        "properties": {
+          "link": [
+            [
+              "https://www.youtube.com/playlist?list=PLkVIYO-uZg45YINB3A8dMZbri6K7OgcLo"
+            ]
+          ],
+          "title": [
+            [
+              "Lの肖像Ⅱ"
+            ]
+          ]
+        },
+        "format": {
+          "bookmark_icon": "https://www.youtube.com/s/desktop/73a518d0/img/favicon_144x144.png",
+          "bookmark_cover": "https://i.ytimg.com/vi/_EJAJaWvxCg/hqdefault.jpg"
+        },
+        "created_time": 1768226356553,
+        "last_edited_time": 1768226356559,
+        "parent_id": "2e63b07c-81ff-80cb-93d9-efa45e67d66b",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "h_KGewQj7Gh5PwuwY1Xmmg,\"start\",\"end\"",
+            "n": {
+              "h_KGewQj7Gh5PwuwY1Xmmg,\"start\",\"end\"": {
+                "s": {
+                  "x": "h_KGewQj7Gh5PwuwY1Xmmg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -39
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        40
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        39
+                      ],
+                      "l": 1,
+                      "c": "L"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jAeTtqJih_BK",
+                        73
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        40
+                      ],
+                      "l": 4,
+                      "c": "の肖像Ⅱ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        41
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        40
+                      ],
+                      "l": -32
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e63b07c-81ff-8055-ad60-c6f99f535031": {
+      "value": {
+        "id": "2e63b07c-81ff-8055-ad60-c6f99f535031",
+        "version": 11,
+        "type": "bookmark",
+        "properties": {
+          "link": [
+            [
+              "https://www.youtube.com/playlist?list=PLkVIYO-uZg4451nwIamfjlOkJzqLzm3JJ"
+            ]
+          ],
+          "title": [
+            [
+              "Lの肖像Ⅲ"
+            ]
+          ]
+        },
+        "format": {
+          "bookmark_icon": "https://www.youtube.com/s/desktop/d05d3b16/img/favicon_144x144.png",
+          "bookmark_cover": "https://i.ytimg.com/vi/pNPDkYLiW6I/hqdefault.jpg"
+        },
+        "created_time": 1768228227450,
+        "last_edited_time": 1768228227456,
+        "parent_id": "2e63b07c-81ff-80d1-8c27-e6dd061436ca",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "lZD1BCfiTOcCtipXbPmmAA,\"start\",\"end\"",
+            "n": {
+              "lZD1BCfiTOcCtipXbPmmAA,\"start\",\"end\"": {
+                "s": {
+                  "x": "lZD1BCfiTOcCtipXbPmmAA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -39
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        40
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        39
+                      ],
+                      "l": 1,
+                      "c": "L"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "l2-esQfAnYyf",
+                        73
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        40
+                      ],
+                      "l": 4,
+                      "c": "の肖像Ⅲ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qGn1r4jKL3j_",
+                        41
+                      ],
+                      "o": [
+                        "qGn1r4jKL3j_",
+                        40
+                      ],
+                      "l": -32
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
     }
   },
   "collection_view": {
     "1c83b07c-81ff-80db-81c3-000c6b7b83b0": {
       "value": {
         "id": "1c83b07c-81ff-80db-81c3-000c6b7b83b0",
-        "version": 197,
+        "version": 201,
         "type": "gallery",
         "format": {
           "table_wrap": true,
@@ -6970,11 +7648,13 @@
           "2483b07c-81ff-80ac-9571-d7848a4ea855",
           "25c3b07c-81ff-808f-9fa7-e39eae90aa4a",
           "26c3b07c-81ff-80e5-ac4a-e7bc2fe7242d",
-          "27f3b07c-81ff-800f-b094-d874991cfc22"
+          "27f3b07c-81ff-800f-b094-d874991cfc22",
+          "2e63b07c-81ff-80cb-93d9-efa45e67d66b",
+          "2e63b07c-81ff-80d1-8c27-e6dd061436ca"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "created_time": 1757668335324,
-        "last_edited_time": 1759296838599,
+        "last_edited_time": 1768226445671,
         "created_by_table": "notion_user",
         "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
@@ -7500,7 +8180,9 @@
             "2483b07c-81ff-80ac-9571-d7848a4ea855",
             "25c3b07c-81ff-808f-9fa7-e39eae90aa4a",
             "26c3b07c-81ff-80e5-ac4a-e7bc2fe7242d",
-            "27f3b07c-81ff-800f-b094-d874991cfc22"
+            "27f3b07c-81ff-800f-b094-d874991cfc22",
+            "2e63b07c-81ff-80cb-93d9-efa45e67d66b",
+            "2e63b07c-81ff-80d1-8c27-e6dd061436ca"
           ],
           "hasMore": false
         }
