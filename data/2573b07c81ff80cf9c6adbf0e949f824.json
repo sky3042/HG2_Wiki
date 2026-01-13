@@ -3,7 +3,7 @@
     "2573b07c-81ff-80cf-9c6a-dbf0e949f824": {
       "value": {
         "id": "2573b07c-81ff-80cf-9c6a-dbf0e949f824",
-        "version": 402,
+        "version": 404,
         "type": "page",
         "properties": {
           "title": [
@@ -62,7 +62,7 @@
           "social_media_image_preview_url": "attachment:44bee766-850b-4cc1-beff-a2e659403c96:SocialMediaPreviewImage.png"
         },
         "created_time": 1755881179664,
-        "last_edited_time": 1763628967616,
+        "last_edited_time": 1768304179508,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -143,9 +143,14 @@
     "2573b07c-81ff-8076-8c97-c512393c2dc8": {
       "value": {
         "id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "version": 130,
+        "version": 194,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "others"
+            ]
+          ],
           "title": [
             [
               "その他"
@@ -161,15 +166,19 @@
           "28f3b07c-81ff-803f-854a-f8f2b00feaaa",
           "2a03b07c-81ff-8094-bd88-e09b0ccede98",
           "2a03b07c-81ff-80fa-b46f-e87f5ec14a65",
-          "27d3b07c-81ff-8021-9242-d4982307fd8f",
+          "2e03b07c-81ff-8072-8667-cee40b433efb",
+          "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
           "2a03b07c-81ff-80f1-b394-c370e9a021a4",
+          "2d33b07c-81ff-8022-98cc-c7096bf94263",
+          "27d3b07c-81ff-8021-9242-d4982307fd8f",
           "2893b07c-81ff-80bd-baba-f4c563d1e680",
           "2863b07c-81ff-805f-9b2e-c297f8891c8f",
           "2913b07c-81ff-803c-92cf-dbd1cc33ae4b",
           "2a03b07c-81ff-8053-bb5f-f9fbc420dda3",
           "25e3b07c-81ff-80fe-8eca-e43fbea99f30",
+          "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
           "28f3b07c-81ff-8037-8280-c4a6bf7a56f2",
-          "2913b07c-81ff-807f-853f-e7c5721d84ec"
+          "2b53b07c-81ff-8091-8f90-e7a710d07690"
         ],
         "format": {
           "page_cover": "/images/page-cover/solid_beige.png",
@@ -177,7 +186,7 @@
           "social_media_image_preview_url": "attachment:0eab7c0e-ed9f-40fb-a5ad-56992f43fc6c:SocialMediaPreviewImage.png"
         },
         "created_time": 1755881175615,
-        "last_edited_time": 1762139498078,
+        "last_edited_time": 1767945180280,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -352,7 +361,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -382,20 +391,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -407,7 +410,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -430,7 +433,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -439,7 +442,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -461,8 +465,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -5583,17 +5625,35 @@
     "2b13b07c-81ff-80ee-90fd-fdf18a965907": {
       "value": {
         "id": "2b13b07c-81ff-80ee-90fd-fdf18a965907",
-        "version": 41,
+        "version": 45,
         "type": "numbered_list",
         "properties": {
           "title": [
             [
-              "ポポ、ラスティ"
+              "ポポ",
+              [
+                [
+                  "a",
+                  "/1b83b07c81ff803aa2c3f0f0d71feee1?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "、"
+            ],
+            [
+              "ラスティ",
+              [
+                [
+                  "a",
+                  "/27c3b07c81ff80a7a54ac53187756c66?pvs=25"
+                ]
+              ]
             ]
           ]
         },
         "created_time": 1763628177930,
-        "last_edited_time": 1763628476523,
+        "last_edited_time": 1768304157122,
         "parent_id": "2833b07c-81ff-807e-8d6e-ef05022eed13",
         "parent_table": "block",
         "alive": true,
@@ -5618,7 +5678,37 @@
                       ],
                       "o": "start",
                       "l": 2,
-                      "c": "ポポ"
+                      "c": "ポポ",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "70xTE0ehgWiH2BMwG-9k1A",
+                          "l": "",
+                          "i": [
+                            "fmv95miuIHhH",
+                            22
+                          ],
+                          "s": {
+                            "i": [
+                              "EXv8WP6Y-cqc",
+                              3
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "EXv8WP6Y-cqc",
+                              4
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b83b07c81ff803aa2c3f0f0d71feee1?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
                     },
                     {
                       "t": "t",
@@ -5698,7 +5788,37 @@
                         5
                       ],
                       "l": 4,
-                      "c": "ラスティ"
+                      "c": "ラスティ",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "70xTE0ehgWiH2BMwG-9k1A",
+                          "l": "",
+                          "i": [
+                            "fmv95miuIHhH",
+                            21
+                          ],
+                          "s": {
+                            "i": [
+                              "EXv8WP6Y-cqc",
+                              14
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "EXv8WP6Y-cqc",
+                              17
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80a7a54ac53187756c66?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
                     },
                     {
                       "t": "t",
@@ -5807,7 +5927,7 @@
     "2833b07c-81ff-8011-86c6-e6cc1dfc221b": {
       "value": {
         "id": "2833b07c-81ff-8011-86c6-e6cc1dfc221b",
-        "version": 51,
+        "version": 53,
         "type": "numbered_list",
         "properties": {
           "title": [
@@ -5821,7 +5941,19 @@
               ]
             ],
             [
-              "、サクリファイス≥元帥親衛隊"
+              "、"
+            ],
+            [
+              "サクリファイス",
+              [
+                [
+                  "a",
+                  "/27c3b07c81ff80349b22d7dff6ffb76c?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "≥元帥親衛隊"
             ]
           ]
         },
@@ -5833,7 +5965,7 @@
           }
         },
         "created_time": 1759648641015,
-        "last_edited_time": 1763628476887,
+        "last_edited_time": 1768304179508,
         "parent_id": "2833b07c-81ff-807e-8d6e-ef05022eed13",
         "parent_table": "block",
         "alive": true,
@@ -5981,7 +6113,37 @@
                         14
                       ],
                       "l": 7,
-                      "c": "サクリファイス"
+                      "c": "サクリファイス",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "YL5AfbtmQvlTprG_QfyG3g",
+                          "l": "",
+                          "i": [
+                            "fmv95miuIHhH",
+                            41
+                          ],
+                          "s": {
+                            "i": [
+                              "EXv8WP6Y-cqc",
+                              21
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "EXv8WP6Y-cqc",
+                              27
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/27c3b07c81ff80349b22d7dff6ffb76c?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
                     },
                     {
                       "t": "t",
@@ -7233,7 +7395,7 @@
     "1bd3b07c-81ff-800c-af8d-f5dc559f3811": {
       "value": {
         "id": "1bd3b07c-81ff-800c-af8d-f5dc559f3811",
-        "version": 58,
+        "version": 81,
         "type": "page",
         "properties": {
           "title": [
@@ -7255,8 +7417,12 @@
           "1be3b07c-81ff-80ad-b7af-ca7c20814c07",
           "1be3b07c-81ff-8005-a0aa-d050164bb5e0",
           "27c3b07c-81ff-80d1-8231-e8d8511b91b9",
+          "2e53b07c-81ff-80a4-944e-ddef47cbb8ba",
           "1be3b07c-81ff-80cb-a87c-f2f16da7e5f7",
-          "1be3b07c-81ff-8081-aa94-cb6e3d9ccc1d"
+          "2e53b07c-81ff-8023-81a5-e6eb20301e9a",
+          "2e53b07c-81ff-80be-9f38-c5ef1c23a611",
+          "2e53b07c-81ff-8064-8df6-fb478702b496",
+          "2e53b07c-81ff-8005-93b0-f5b39d7b2bdd"
         ],
         "format": {
           "copied_from_pointer": {
@@ -7266,7 +7432,7 @@
           }
         },
         "created_time": 1742568140763,
-        "last_edited_time": 1759055400045,
+        "last_edited_time": 1768115670015,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -7311,7 +7477,7 @@
     "1bc3b07c-81ff-80f9-a1bc-e3057aa85bc0": {
       "value": {
         "id": "1bc3b07c-81ff-80f9-a1bc-e3057aa85bc0",
-        "version": 172,
+        "version": 178,
         "type": "page",
         "properties": {
           "title": [
@@ -7337,6 +7503,8 @@
           "1bd3b07c-81ff-808b-b06e-f333ff0911f0",
           "1bd3b07c-81ff-8055-95a8-ce2b26a650b5",
           "1bd3b07c-81ff-8053-8d83-fc718f3e8508",
+          "2e53b07c-81ff-80f4-95ea-ee46852bed9a",
+          "2e53b07c-81ff-80a8-99b9-eee16907f898",
           "1bd3b07c-81ff-8062-8877-c57703bd1d1e",
           "1c13b07c-81ff-80d9-a358-f2a8dcf0bae3",
           "1bd3b07c-81ff-80b0-bf82-fe89f03ee6b8",
@@ -7344,6 +7512,7 @@
           "1bd3b07c-81ff-802b-95a5-f148816d1ac6",
           "1bd3b07c-81ff-80a5-997c-f4bddff18be0",
           "1bd3b07c-81ff-8097-9b1a-fa7461812cc4",
+          "2e53b07c-81ff-80c3-b4ab-f68fcaab2fd1",
           "1bd3b07c-81ff-800e-ba8d-ee6594f6412d",
           "2a03b07c-81ff-8016-a971-dd3faf58cbd5",
           "2a03b07c-81ff-80f4-b09f-e52bf35cfcdc"
@@ -7356,7 +7525,7 @@
           }
         },
         "created_time": 1742510494124,
-        "last_edited_time": 1762138537710,
+        "last_edited_time": 1768114937841,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -7383,6 +7552,219 @@
                       "o": "start",
                       "l": 12,
                       "c": "カリスマ・サンダーランド"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "1b83b07c-81ff-803a-a2c3-f0f0d71feee1": {
+      "value": {
+        "id": "1b83b07c-81ff-803a-a2c3-f0f0d71feee1",
+        "version": 104,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "パリス・パラド"
+            ]
+          ]
+        },
+        "content": [
+          "2b13b07c-81ff-80e5-b240-fcc02bb3a47a",
+          "2d43b07c-81ff-80bd-9d9e-ed788df61ed5",
+          "1ad3b07c-81ff-803e-9328-dfcf2a436da4",
+          "27c3b07c-81ff-80f2-883d-ed3c50f03c74",
+          "27c3b07c-81ff-80bd-821d-f40d0d2e5d8f",
+          "1b93b07c-81ff-80c8-b189-dd09e84e3c0f",
+          "27c3b07c-81ff-8051-8da6-f39f7d17ea1b",
+          "27c3b07c-81ff-8004-9e3d-e9803958047c",
+          "1b93b07c-81ff-805c-8591-e513f656662a",
+          "2b13b07c-81ff-80e3-b4d2-e0a9ecec3b6b",
+          "2b13b07c-81ff-803f-b3a3-e835e58ad1e8",
+          "2b13b07c-81ff-8021-aaaf-dbbc95451e6d",
+          "2b13b07c-81ff-806e-9fd2-c3b8ae262be4",
+          "27c3b07c-81ff-80bc-94e6-e2f7c6881291",
+          "2b13b07c-81ff-8027-a8d0-c13eed224e5a"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "1b73b07c-81ff-80ee-92f3-dcbad8fca36a",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1742144442207,
+        "last_edited_time": 1766655180178,
+        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "1b73b07c-81ff-80ee-92f3-dcbad8fca36a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ueX8cVE45oFKqnOHHcSK2Q,\"start\",\"end\"",
+            "n": {
+              "ueX8cVE45oFKqnOHHcSK2Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "ueX8cVE45oFKqnOHHcSK2Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "8CL4aov6WKyH",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 7,
+                      "c": "パリス・パラド"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "27c3b07c-81ff-80a7-a54a-c53187756c66": {
+      "value": {
+        "id": "27c3b07c-81ff-80a7-a54a-c53187756c66",
+        "version": 43,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "ラスティ"
+            ]
+          ]
+        },
+        "content": [
+          "27c3b07c-81ff-8080-be55-c0ad30f44a4d",
+          "27c3b07c-81ff-8013-af5c-fd9829d86845",
+          "27c3b07c-81ff-8024-8df1-d26bc1abf8b2",
+          "27c3b07c-81ff-8065-a1cc-ce18ae15c2f4",
+          "27c3b07c-81ff-8031-945e-f9c99beed150",
+          "27c3b07c-81ff-8041-ac5b-d102c840eb47"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:1785d093-0f50-4a78-b5bd-f645335e4b66:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1759053557151,
+        "last_edited_time": 1759057260300,
+        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "1785d093-0f50-4a78-b5bd-f645335e4b66"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "sbl5aA756bODOPnFV-ni9w,\"start\",\"end\"",
+            "n": {
+              "sbl5aA756bODOPnFV-ni9w,\"start\",\"end\"": {
+                "s": {
+                  "x": "sbl5aA756bODOPnFV-ni9w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "iZK4SZVMkdSK",
+                        9
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "ラスティ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "iZK4SZVMkdSK",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "iZK4SZVMkdSK",
+                        4
+                      ],
+                      "o": [
+                        "iZK4SZVMkdSK",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "iZK4SZVMkdSK",
+                        7
+                      ],
+                      "o": [
+                        "iZK4SZVMkdSK",
+                        4
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "iZK4SZVMkdSK",
+                        5
+                      ],
+                      "o": [
+                        "iZK4SZVMkdSK",
+                        4
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "iZK4SZVMkdSK",
+                        3
+                      ],
+                      "o": [
+                        "iZK4SZVMkdSK",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "iZK4SZVMkdSK",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -7495,6 +7877,71 @@
       },
       "role": "reader"
     },
+    "27c3b07c-81ff-8034-9b22-d7dff6ffb76c": {
+      "value": {
+        "id": "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
+        "version": 37,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "サクリフィス・ロア"
+            ]
+          ]
+        },
+        "content": [
+          "2b13b07c-81ff-8045-b5b8-c89509a44a85",
+          "27c3b07c-81ff-80d4-85d5-d1766b49c75a",
+          "27c3b07c-81ff-801e-977e-c36fa2722dd0",
+          "2b13b07c-81ff-802d-b1a2-e7671a976b84",
+          "2b13b07c-81ff-80fb-8b24-fef07366153e",
+          "2b13b07c-81ff-8098-b8f7-d614e13d8e53",
+          "2b13b07c-81ff-80bf-b2a6-f2c8c2ba9e93",
+          "2b13b07c-81ff-809d-a067-d9116655450a",
+          "2e53b07c-81ff-802b-865c-f4ac6eb07334"
+        ],
+        "created_time": 1759055549211,
+        "last_edited_time": 1768121761969,
+        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DNU73GGkGFVtso3W5N2PUw,\"start\",\"end\"",
+            "n": {
+              "DNU73GGkGFVtso3W5N2PUw,\"start\",\"end\"": {
+                "s": {
+                  "x": "DNU73GGkGFVtso3W5N2PUw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ssB7QFk2O9Dr",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 9,
+                      "c": "サクリフィス・ロア"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "1b93b07c-81ff-80e9-826d-d2c0621206df": {
       "value": {
         "id": "1b93b07c-81ff-80e9-826d-d2c0621206df",
@@ -7581,7 +8028,7 @@
     "1bd3b07c-81ff-80c5-acdb-e05953c7d3c2": {
       "value": {
         "id": "1bd3b07c-81ff-80c5-acdb-e05953c7d3c2",
-        "version": 80,
+        "version": 83,
         "type": "page",
         "properties": {
           "title": [
@@ -7612,7 +8059,7 @@
           }
         },
         "created_time": 1742568140568,
-        "last_edited_time": 1763609812944,
+        "last_edited_time": 1768122710178,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -7902,7 +8349,7 @@
     "1b93b07c-81ff-8076-86cb-cc99e3c28e11": {
       "value": {
         "id": "1b93b07c-81ff-8076-86cb-cc99e3c28e11",
-        "version": 71,
+        "version": 74,
         "type": "page",
         "properties": {
           "title": [
@@ -7938,7 +8385,7 @@
           }
         },
         "created_time": 1742246264157,
-        "last_edited_time": 1763609771581,
+        "last_edited_time": 1768122710178,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -8055,7 +8502,7 @@
     "1b93b07c-81ff-80ba-8b01-efdeb13d4b62": {
       "value": {
         "id": "1b93b07c-81ff-80ba-8b01-efdeb13d4b62",
-        "version": 70,
+        "version": 71,
         "type": "page",
         "properties": {
           "title": [
@@ -8085,7 +8532,7 @@
           }
         },
         "created_time": 1742227948325,
-        "last_edited_time": 1763603128645,
+        "last_edited_time": 1767155063547,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -8130,7 +8577,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1717,
+        "version": 1790,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -8173,7 +8620,7 @@
           "1b93b07c-81ff-809c-b40c-e92b30835acc",
           "1b93b07c-81ff-804f-b58b-db4f52c31d02",
           "27c3b07c-81ff-80a1-abe0-fbb8e2e929de",
-          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "2e53b07c-81ff-8030-ae24-db6b6257f2ac",
           "1bf3b07c-81ff-806f-86d6-e5f00eaa57e4",
           "1b93b07c-81ff-80e6-8833-e860f93f4b5d",
           "1b93b07c-81ff-808c-a05e-dbfb07e01d95",
@@ -8181,7 +8628,6 @@
           "1b93b07c-81ff-80e5-903b-d07e81c1d36e",
           "1b93b07c-81ff-8070-9bb8-d324721c2653",
           "2b13b07c-81ff-8098-b3da-f65d174cfa92",
-          "2b13b07c-81ff-80fc-9eee-e80210257c17",
           "27c3b07c-81ff-8076-914e-c98b7a9e323c",
           "27c3b07c-81ff-80c8-b4f0-ea440e24b973",
           "1b93b07c-81ff-8093-b73f-ea9338e09284",
@@ -8205,26 +8651,30 @@
           "1bc3b07c-81ff-80d8-9371-df19fc99263f",
           "1b93b07c-81ff-8058-87c6-cf92f46eeb5e",
           "1bd3b07c-81ff-800c-af8d-f5dc559f3811",
-          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
-          "1bd3b07c-81ff-8087-9377-facf462a212f",
           "1b93b07c-81ff-8076-86cb-cc99e3c28e11",
+          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
           "1bd3b07c-81ff-80c5-acdb-e05953c7d3c2",
           "1bc3b07c-81ff-8024-a546-ea0e68ada392",
-          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
+          "2e53b07c-81ff-80fb-ae9c-d4af89dc3526",
+          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
+          "1bd3b07c-81ff-8087-9377-facf462a212f",
           "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
+          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
+          "27c3b07c-81ff-80b9-af67-da8e328925f6",
           "27c3b07c-81ff-8088-ac2d-f2beba364720",
           "2a53b07c-81ff-8022-978a-ccdb80d1d4fb",
-          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
+          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
           "1be3b07c-81ff-8034-9960-db9b3a238538",
           "1be3b07c-81ff-80f0-9d99-cd8ab44f29d4",
           "1be3b07c-81ff-80aa-a398-fc78d542be90",
-          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
-          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
-          "27c3b07c-81ff-80b9-af67-da8e328925f6",
+          "2e53b07c-81ff-80fd-aebf-deaefc211002",
+          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
           "1be3b07c-81ff-8086-9bbd-d3ec180d3fcd",
           "1bd3b07c-81ff-806c-8111-e4bc80a3013e",
           "1bf3b07c-81ff-8048-b2d0-e2c6da725c6f",
           "1be3b07c-81ff-801e-85a9-f13d576b6447",
+          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
           "1b93b07c-81ff-806f-bf2d-fa3acb1a1a42",
           "1bc3b07c-81ff-80b1-9fac-df6f9b398d57",
           "2b13b07c-81ff-80ff-9fbc-d78483f1bc12",
@@ -8236,6 +8686,7 @@
           "1b93b07c-81ff-809e-90a8-f0e412a0cdac",
           "1b83b07c-81ff-8072-b34c-d84888baf666",
           "1b93b07c-81ff-8043-b610-db8506b0dd80",
+          "2e53b07c-81ff-803d-a29f-e5d209190ebc",
           "1bc3b07c-81ff-801b-bf59-caad9fd0bfd2",
           "1bf3b07c-81ff-80dd-ae4e-f94a70f8a4a5",
           "1b93b07c-81ff-80a2-95ab-d592676f5c99",
@@ -8305,7 +8756,6 @@
           "27c3b07c-81ff-80fd-a9c6-f09fd21b17fd",
           "27c3b07c-81ff-801b-b9c2-df19d63f2027",
           "27c3b07c-81ff-8042-a1f7-ed0bae0397b3",
-          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
           "27c3b07c-81ff-801a-af68-e11c8b5f8e03",
           "27c3b07c-81ff-80f1-a34c-c513f98b6fc6",
           "27c3b07c-81ff-8077-bf43-c523a5d8c3db",
@@ -8313,6 +8763,7 @@
           "27c3b07c-81ff-8096-a62b-eb78a49e3631",
           "2b13b07c-81ff-80e5-92e0-c6d921d34af4",
           "2b13b07c-81ff-8028-a0de-e0eef35f3587",
+          "2e53b07c-81ff-8038-ae49-cc39104850c2",
           "1bf3b07c-81ff-8090-ac79-dfbca3b5853e",
           "1b63b07c-81ff-80de-a3b0-c95920f86655",
           "2083b07c-81ff-802d-bf18-e376d867503c",
@@ -8325,7 +8776,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1763799859805,
+        "last_edited_time": 1768123006610,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -8374,9 +8825,14 @@
     "1ad3b07c-81ff-80e4-8271-c7f781e181c3": {
       "value": {
         "id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "version": 407,
+        "version": 428,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "organization"
+            ]
+          ],
           "title": [
             [
               "派閥"
@@ -8422,11 +8878,11 @@
           "1bf3b07c-81ff-8084-9adb-d2af2b8c362d",
           "1bf3b07c-81ff-8063-9043-f20e5753a572",
           "1c03b07c-81ff-8047-be46-cb3e0b0e3f97",
+          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "27c3b07c-81ff-8096-8449-eff920b94b98",
           "27c3b07c-81ff-80c2-9c65-edb134e6ea3f",
           "27d3b07c-81ff-808c-9414-c30fd37c630f",
           "27d3b07c-81ff-8056-bba5-f0f0a21f324a",
-          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "1c03b07c-81ff-80ff-84e2-fcf373444957",
           "1ad3b07c-81ff-8021-b8dc-e3d75b522904",
           "1bf3b07c-81ff-8080-b2e4-eba35337822a",
@@ -8442,7 +8898,7 @@
           "page_cover_position": 0.5
         },
         "created_time": 1741141291977,
-        "last_edited_time": 1763623466932,
+        "last_edited_time": 1764427847589,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,

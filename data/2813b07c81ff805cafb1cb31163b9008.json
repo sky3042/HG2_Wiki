@@ -3,7 +3,7 @@
     "2813b07c-81ff-805c-afb1-cb31163b9008": {
       "value": {
         "id": "2813b07c-81ff-805c-afb1-cb31163b9008",
-        "version": 38,
+        "version": 82,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -25,8 +25,7 @@
           ]
         },
         "content": [
-          "2813b07c-81ff-8145-b448-e586844f90be",
-          "2813b07c-81ff-8109-a79a-f2b9a5413453",
+          "2e73b07c-81ff-805e-a951-cc65eea29f1e",
           "2813b07c-81ff-8135-bed1-e0d6700a1ac2",
           "2813b07c-81ff-81a3-807f-db717e933abc",
           "2813b07c-81ff-8170-b3c6-d08991e2c53e",
@@ -37,7 +36,18 @@
           "2813b07c-81ff-81a0-9ea1-dbb87780d1b6",
           "2813b07c-81ff-8175-a702-c85626a2f066",
           "2813b07c-81ff-81df-868b-c58be40b6faa",
-          "2813b07c-81ff-81f0-a140-f2330e44d58e"
+          "2813b07c-81ff-81f0-a140-f2330e44d58e",
+          "2e73b07c-81ff-8038-b39d-c529d44378c3",
+          "2e73b07c-81ff-80e9-b738-e894616374a2",
+          "2e73b07c-81ff-80f3-826c-e3fd6378936a",
+          "2e73b07c-81ff-804f-b25e-f2501ebba21e",
+          "2e73b07c-81ff-809a-9b1e-cf197f025c10",
+          "2e73b07c-81ff-80be-93a3-eee734dc24c0",
+          "2e73b07c-81ff-808e-b6dc-c9196ca6d871",
+          "2e73b07c-81ff-805b-ae56-d255eb4d2602",
+          "2e73b07c-81ff-8092-812b-fd896bdf92ff",
+          "2e73b07c-81ff-8083-8668-ca28d63902b5",
+          "2e73b07c-81ff-8057-9060-c2f8ef25ec73"
         ],
         "format": {
           "block_locked": false,
@@ -51,7 +61,7 @@
           "social_media_image_preview_url": "attachment:50b71594-827f-43ca-b57f-ab3640c9ba0b:SocialMediaPreviewImage.png"
         },
         "created_time": 1759488314374,
-        "last_edited_time": 1764153464584,
+        "last_edited_time": 1768292527243,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -111,7 +121,7 @@
     "2573b07c-81ff-8076-8c97-c512393c2dc8": {
       "value": {
         "id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "version": 167,
+        "version": 194,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -134,15 +144,18 @@
           "28f3b07c-81ff-803f-854a-f8f2b00feaaa",
           "2a03b07c-81ff-8094-bd88-e09b0ccede98",
           "2a03b07c-81ff-80fa-b46f-e87f5ec14a65",
-          "27d3b07c-81ff-8021-9242-d4982307fd8f",
+          "2e03b07c-81ff-8072-8667-cee40b433efb",
+          "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
           "2a03b07c-81ff-80f1-b394-c370e9a021a4",
+          "2d33b07c-81ff-8022-98cc-c7096bf94263",
+          "27d3b07c-81ff-8021-9242-d4982307fd8f",
           "2893b07c-81ff-80bd-baba-f4c563d1e680",
           "2863b07c-81ff-805f-9b2e-c297f8891c8f",
           "2913b07c-81ff-803c-92cf-dbd1cc33ae4b",
           "2a03b07c-81ff-8053-bb5f-f9fbc420dda3",
           "25e3b07c-81ff-80fe-8eca-e43fbea99f30",
-          "28f3b07c-81ff-8037-8280-c4a6bf7a56f2",
           "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
+          "28f3b07c-81ff-8037-8280-c4a6bf7a56f2",
           "2b53b07c-81ff-8091-8f90-e7a710d07690"
         ],
         "format": {
@@ -151,7 +164,7 @@
           "social_media_image_preview_url": "attachment:0eab7c0e-ed9f-40fb-a5ad-56992f43fc6c:SocialMediaPreviewImage.png"
         },
         "created_time": 1755881175615,
-        "last_edited_time": 1764148019339,
+        "last_edited_time": 1767945180280,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -326,7 +339,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 349,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -363,7 +376,7 @@
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -375,7 +388,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -398,7 +411,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764030939329,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -407,7 +420,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -429,8 +443,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -452,473 +504,37 @@
     "1ad3b07c-81ff-80e6-b0a3-c1e8c0daf575": {
       "role": "none"
     },
-    "2813b07c-81ff-8145-b448-e586844f90be": {
+    "2e73b07c-81ff-805e-a951-cc65eea29f1e": {
       "value": {
-        "id": "2813b07c-81ff-8145-b448-e586844f90be",
-        "version": 12,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "ここにあるのは全て、中国での「Lの肖像 part2」以前の情報なので、その意味ではネタバレ情報はありませんが、ゲーム内で語られているよりもかなり多くの情報が含まれているので、その点はご注意ください（つまり公式だけど結構ネタバレ感あるよ、ということ）。"
-            ]
-          ]
-        },
+        "id": "2e73b07c-81ff-805e-a951-cc65eea29f1e",
+        "version": 8,
+        "type": "callout",
+        "content": [
+          "2e73b07c-81ff-8095-85e9-ef2ff1437a61",
+          "2813b07c-81ff-8145-b448-e586844f90be",
+          "2813b07c-81ff-8109-a79a-f2b9a5413453"
+        ],
         "format": {
-          "copied_from_pointer": {
-            "id": "27b3b07c-81ff-809d-9c6f-e8c9e8dcf357",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
+          "block_color": "gray_background",
+          "callout_version": 2
         },
-        "created_time": 1759488308259,
-        "last_edited_time": 1764153461908,
+        "created_time": 1768292562730,
+        "last_edited_time": 1768292570540,
         "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
         "parent_table": "block",
         "alive": true,
-        "copied_from": "27b3b07c-81ff-809d-9c6f-e8c9e8dcf357",
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "SWHsWYtitoNIjf7JhPZxnA,\"start\",\"end\"",
+            "r": "GgPrkwcwNHZtidINCRtrqA,\"start\",\"end\"",
             "n": {
-              "SWHsWYtitoNIjf7JhPZxnA,\"start\",\"end\"": {
+              "GgPrkwcwNHZtidINCRtrqA,\"start\",\"end\"": {
                 "s": {
-                  "x": "SWHsWYtitoNIjf7JhPZxnA",
+                  "x": "GgPrkwcwNHZtidINCRtrqA",
                   "i": [
                     {
                       "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "m5Of9gn5E8Yn",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 26,
-                      "c": "ここにあるのは全て、中国での「Lの肖像 part2」"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "m5Of9gn5E8Yn",
-                        27
-                      ],
-                      "o": [
-                        "m5Of9gn5E8Yn",
-                        26
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "m5Of9gn5E8Yn",
-                        29
-                      ],
-                      "o": [
-                        "m5Of9gn5E8Yn",
-                        28
-                      ],
-                      "l": 99,
-                      "c": "以前の情報なので、その意味ではネタバレ情報はありませんが、ゲーム内で語られているよりもかなり多くの情報が含まれているので、その点はご注意ください（つまり公式だけど結構ネタバレ感あるよ、ということ）。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2813b07c-81ff-8109-a79a-f2b9a5413453": {
-      "value": {
-        "id": "2813b07c-81ff-8109-a79a-f2b9a5413453",
-        "version": 75,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "また翻訳は基本機械翻訳で、誤訳や固有名詞など一部はこちらで修正しています。"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "27d3b07c-81ff-8071-8c57-e9a81ef834d6",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1759488308261,
-        "last_edited_time": 1764153461908,
-        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "27d3b07c-81ff-8071-8c57-e9a81ef834d6",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "xePPB0IFaDsR8KzCDYlorQ,\"start\",\"end\"",
-            "n": {
-              "xePPB0IFaDsR8KzCDYlorQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "xePPB0IFaDsR8KzCDYlorQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "4w13rm2LshmU",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 7,
-                      "c": "また翻訳は基本"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        60
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        7
-                      ],
-                      "l": 4,
-                      "c": "機械翻訳"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "4w13rm2LshmU",
-                        8
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        7
-                      ],
-                      "l": -4
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "4w13rm2LshmU",
-                        12
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        11
-                      ],
-                      "l": 2,
-                      "c": "で、"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        46
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        13
-                      ],
-                      "l": 2,
-                      "c": "誤訳"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        49
-                      ],
-                      "o": [
-                        "lu0mvXSz7yJr",
-                        47
-                      ],
-                      "l": 1,
-                      "c": "や"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        48
-                      ],
-                      "o": [
-                        "lu0mvXSz7yJr",
-                        47
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        41
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        13
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        43
-                      ],
-                      "o": [
-                        "lu0mvXSz7yJr",
-                        41
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        45
-                      ],
-                      "o": [
-                        "lu0mvXSz7yJr",
-                        43
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        44
-                      ],
-                      "o": [
-                        "lu0mvXSz7yJr",
-                        43
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        42
-                      ],
-                      "o": [
-                        "lu0mvXSz7yJr",
-                        41
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        40
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        13
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "4w13rm2LshmU",
-                        14
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        13
-                      ],
-                      "l": 6,
-                      "c": "固有名詞など"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        38
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        19
-                      ],
-                      "l": 2,
-                      "c": "一部"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        33
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        19
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        35
-                      ],
-                      "o": [
-                        "lu0mvXSz7yJr",
-                        33
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        37
-                      ],
-                      "o": [
-                        "lu0mvXSz7yJr",
-                        35
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        36
-                      ],
-                      "o": [
-                        "lu0mvXSz7yJr",
-                        35
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        34
-                      ],
-                      "o": [
-                        "lu0mvXSz7yJr",
-                        33
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "4w13rm2LshmU",
-                        20
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        19
-                      ],
-                      "l": 5,
-                      "c": "はこちらで"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        58
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        24
-                      ],
-                      "l": 2,
-                      "c": "修正"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        52
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        24
-                      ],
-                      "l": -3
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        56
-                      ],
-                      "o": [
-                        "lu0mvXSz7yJr",
-                        54
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        55
-                      ],
-                      "o": [
-                        "lu0mvXSz7yJr",
-                        54
-                      ],
-                      "l": -1
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lu0mvXSz7yJr",
-                        50
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        24
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "4w13rm2LshmU",
-                        25
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        24
-                      ],
-                      "l": -2
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "4w13rm2LshmU",
-                        27
-                      ],
-                      "o": [
-                        "4w13rm2LshmU",
-                        26
-                      ],
-                      "l": 6,
-                      "c": "しています。"
                     },
                     {
                       "t": "e"
@@ -937,8 +553,15 @@
     "2813b07c-81ff-8135-bed1-e0d6700a1ac2": {
       "value": {
         "id": "2813b07c-81ff-8135-bed1-e0d6700a1ac2",
-        "version": 9,
-        "type": "text",
+        "version": 29,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "Lの肖像Ⅰ"
+            ]
+          ]
+        },
         "format": {
           "copied_from_pointer": {
             "id": "27b3b07c-81ff-8053-bbeb-d891c4291688",
@@ -947,7 +570,7 @@
           }
         },
         "created_time": 1759488308255,
-        "last_edited_time": 1764153461908,
+        "last_edited_time": 1768292517056,
         "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
         "parent_table": "block",
         "alive": true,
@@ -964,6 +587,89 @@
                   "i": [
                     {
                       "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "Lの肖像"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        11
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": 1,
+                      "c": "Ⅰ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        10
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        9
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        8
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        5
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        7
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        6
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -1699,6 +1405,3156 @@
                     }
                   ],
                   "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e73b07c-81ff-8038-b39d-c529d44378c3": {
+      "value": {
+        "id": "2e73b07c-81ff-8038-b39d-c529d44378c3",
+        "version": 18,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "Lの肖像Ⅱ"
+            ]
+          ]
+        },
+        "created_time": 1768291513021,
+        "last_edited_time": 1768292515947,
+        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "j21WMPZ4y_Aueuzyzdc_nA,\"start\",\"end\"",
+            "n": {
+              "j21WMPZ4y_Aueuzyzdc_nA,\"start\",\"end\"": {
+                "s": {
+                  "x": "j21WMPZ4y_Aueuzyzdc_nA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "Lの肖像"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        9
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": 1,
+                      "c": "Ⅱ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        8
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        5
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        7
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        6
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "S-VRyu6HGt0Xdz8VLPGjuA,[\"c1fEllH2gO7y\",21],\"end\""
+                ]
+              },
+              "S-VRyu6HGt0Xdz8VLPGjuA,[\"c1fEllH2gO7y\",21],\"end\"": {
+                "s": {
+                  "x": "S-VRyu6HGt0Xdz8VLPGjuA",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        21
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e73b07c-81ff-80e9-b738-e894616374a2": {
+      "value": {
+        "id": "2e73b07c-81ff-80e9-b738-e894616374a2",
+        "version": 40,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "セルカ"
+            ]
+          ]
+        },
+        "content": [
+          "2e73b07c-81ff-80d3-9224-e66448e433ac",
+          "2e73b07c-81ff-80dc-9df7-d44f7e8eefc5",
+          "2e73b07c-81ff-800e-9efa-e6ef645cc52a"
+        ],
+        "created_time": 1768292134031,
+        "last_edited_time": 1768292194304,
+        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "UC4R-doIj3xT6sk9EBvBFQ,\"start\",\"end\"",
+            "n": {
+              "UC4R-doIj3xT6sk9EBvBFQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "UC4R-doIj3xT6sk9EBvBFQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "セルカ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        12
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        6
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        14
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        8
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        10
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        8
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        9
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        5
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e73b07c-81ff-80f3-826c-e3fd6378936a": {
+      "value": {
+        "id": "2e73b07c-81ff-80f3-826c-e3fd6378936a",
+        "version": 30,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "コーデリア"
+            ]
+          ]
+        },
+        "content": [
+          "2e73b07c-81ff-80bb-b7cd-eb01d741989a",
+          "2e73b07c-81ff-80e9-9ae6-d18876a55575",
+          "2e73b07c-81ff-8058-a70a-ea49e74db4da"
+        ],
+        "created_time": 1768291513219,
+        "last_edited_time": 1768292164481,
+        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "VEmX1Z5B8iXVmurnEcZ7ew,\"start\",\"end\"",
+            "n": {
+              "VEmX1Z5B8iXVmurnEcZ7ew,\"start\",\"end\"": {
+                "s": {
+                  "x": "VEmX1Z5B8iXVmurnEcZ7ew",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        5
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "コ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        3
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        2
+                      ],
+                      "l": 1,
+                      "c": "ー"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        7
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        3
+                      ],
+                      "l": 3,
+                      "c": "デリア"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        6
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        3
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e73b07c-81ff-804f-b25e-f2501ebba21e": {
+      "value": {
+        "id": "2e73b07c-81ff-804f-b25e-f2501ebba21e",
+        "version": 59,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "暗光"
+            ]
+          ]
+        },
+        "content": [
+          "2e73b07c-81ff-80c8-b9f7-e01d27c55711",
+          "2e73b07c-81ff-80ae-ace7-fbd1c7749625",
+          "2e73b07c-81ff-80b2-8d26-df0baebc8a3a"
+        ],
+        "created_time": 1768292142716,
+        "last_edited_time": 1768292222039,
+        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "ckkwBVeT9s3uH8uTWBfiPw,\"start\",\"end\"",
+            "n": {
+              "ckkwBVeT9s3uH8uTWBfiPw,\"start\",\"end\"": {
+                "s": {
+                  "x": "ckkwBVeT9s3uH8uTWBfiPw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        12
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "暗"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        19
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        12
+                      ],
+                      "l": 1,
+                      "c": "光"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        14
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        16
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        18
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        16
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        17
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        16
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        15
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        13
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        12
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        9
+                      ],
+                      "o": "start",
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        8
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        6
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        5
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        3
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0_L8OjphmNkB",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e73b07c-81ff-809a-9b1e-cf197f025c10": {
+      "value": {
+        "id": "2e73b07c-81ff-809a-9b1e-cf197f025c10",
+        "version": 19,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "巫静妃"
+            ]
+          ]
+        },
+        "content": [
+          "2e73b07c-81ff-805a-a343-ddcc6c3ba6e4",
+          "2e73b07c-81ff-808a-882c-d1b0d0fb93a6",
+          "2e73b07c-81ff-8045-8a9d-e1f00fcb9069"
+        ],
+        "created_time": 1768292142718,
+        "last_edited_time": 1768292351158,
+        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "gZHiqXXoWIJjFzDBDwI0RQ,\"start\",\"end\"",
+            "n": {
+              "gZHiqXXoWIJjFzDBDwI0RQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "gZHiqXXoWIJjFzDBDwI0RQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "fV187UVmScQR",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "巫静妃"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e73b07c-81ff-80be-93a3-eee734dc24c0": {
+      "value": {
+        "id": "2e73b07c-81ff-80be-93a3-eee734dc24c0",
+        "version": 15,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "モーリオ"
+            ]
+          ]
+        },
+        "content": [
+          "2e73b07c-81ff-80e5-86b0-eb1f4ec99da4",
+          "2e73b07c-81ff-80d4-8668-c39e8c865823",
+          "2e73b07c-81ff-80c1-af6a-c3f5325ad938"
+        ],
+        "created_time": 1768292152836,
+        "last_edited_time": 1768292467394,
+        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "0kfVVcO0jblnPORI41ABUA,\"start\",\"end\"",
+            "n": {
+              "0kfVVcO0jblnPORI41ABUA,\"start\",\"end\"": {
+                "s": {
+                  "x": "0kfVVcO0jblnPORI41ABUA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VkCPdBUC41_R",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "モーリオ"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e73b07c-81ff-808e-b6dc-c9196ca6d871": {
+      "value": {
+        "id": "2e73b07c-81ff-808e-b6dc-c9196ca6d871",
+        "version": 17,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "ジュード"
+            ]
+          ]
+        },
+        "content": [
+          "2e73b07c-81ff-80b2-b062-df91c1b675dd",
+          "2e73b07c-81ff-8043-8413-c59256d51b5b",
+          "2e73b07c-81ff-8009-a1f0-c42387468503"
+        ],
+        "created_time": 1768292152838,
+        "last_edited_time": 1768292483718,
+        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "HyVw-xlTSkmN-KVZebajGA,\"start\",\"end\"",
+            "n": {
+              "HyVw-xlTSkmN-KVZebajGA,\"start\",\"end\"": {
+                "s": {
+                  "x": "HyVw-xlTSkmN-KVZebajGA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LAf3FSPoOCro",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "ジュード"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e73b07c-81ff-805b-ae56-d255eb4d2602": {
+      "value": {
+        "id": "2e73b07c-81ff-805b-ae56-d255eb4d2602",
+        "version": 66,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "Lの肖像Ⅲ"
+            ]
+          ]
+        },
+        "created_time": 1768289436938,
+        "last_edited_time": 1768292515509,
+        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "1wwN-5NyXb13XEWywXvtIw,\"start\",\"end\"",
+            "n": {
+              "1wwN-5NyXb13XEWywXvtIw,\"start\",\"end\"": {
+                "s": {
+                  "x": "1wwN-5NyXb13XEWywXvtIw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 1,
+                      "c": "L"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        3
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        6
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        3
+                      ],
+                      "l": 2,
+                      "c": "肖像"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        23
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        7
+                      ],
+                      "l": 1,
+                      "c": "Ⅲ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        22
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        7
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        21
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        7
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        20
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        7
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        19
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        7
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        18
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        7
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        17
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        7
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        8
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        7
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        16
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        14
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        8
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        10
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        12
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        10
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        11
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        10
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        9
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        3
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        2
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        1
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e73b07c-81ff-8092-812b-fd896bdf92ff": {
+      "value": {
+        "id": "2e73b07c-81ff-8092-812b-fd896bdf92ff",
+        "version": 31,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "魔弾"
+            ]
+          ]
+        },
+        "content": [
+          "2e73b07c-81ff-80d9-be20-d4694d86cfcb",
+          "2e73b07c-81ff-80f6-abec-ec4f10ee255d",
+          "2e73b07c-81ff-80a9-b1d5-cdcf7d8272b3"
+        ],
+        "created_time": 1768289432286,
+        "last_edited_time": 1768289520749,
+        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DOjVn9oLRC4suT1fKL76kw,\"start\",\"end\"",
+            "n": {
+              "DOjVn9oLRC4suT1fKL76kw,\"start\",\"end\"": {
+                "s": {
+                  "x": "DOjVn9oLRC4suT1fKL76kw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        6
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "魔弾"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        2
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        3
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e73b07c-81ff-8083-8668-ca28d63902b5": {
+      "value": {
+        "id": "2e73b07c-81ff-8083-8668-ca28d63902b5",
+        "version": 42,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "帰還者"
+            ]
+          ]
+        },
+        "content": [
+          "2e73b07c-81ff-805c-bf48-f7afc86c5fd4",
+          "2e73b07c-81ff-8069-841e-fe495ab13820",
+          "2e73b07c-81ff-8024-b8d5-ca8e7930cab9",
+          "2e73b07c-81ff-8063-898f-ffa9c7ffe4ea",
+          "2e73b07c-81ff-8076-996d-d65ea7637484",
+          "2e73b07c-81ff-8070-aa62-f3e643285d6b"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:94e399e0-340b-40f3-a1e6-0f7bebf49686:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1768289863984,
+        "last_edited_time": 1768290240686,
+        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "94e399e0-340b-40f3-a1e6-0f7bebf49686"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "wLe-nS0vDPAQBXLFE-EbJw,\"start\",\"end\"",
+            "n": {
+              "wLe-nS0vDPAQBXLFE-EbJw,\"start\",\"end\"": {
+                "s": {
+                  "x": "wLe-nS0vDPAQBXLFE-EbJw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        3
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "帰還者"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e73b07c-81ff-8057-9060-c2f8ef25ec73": {
+      "value": {
+        "id": "2e73b07c-81ff-8057-9060-c2f8ef25ec73",
+        "version": 44,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "セルカ"
+            ]
+          ]
+        },
+        "content": [
+          "2e73b07c-81ff-8032-a74a-e99269fa934a",
+          "2e73b07c-81ff-8039-bacc-f9a71bc280f6",
+          "2e73b07c-81ff-80ed-90c8-c00af49d2326"
+        ],
+        "format": {
+          "social_media_image_preview_url": "attachment:cabfe36f-512c-4b04-b696-5f1fb30858dc:SocialMediaPreviewImage.png"
+        },
+        "created_time": 1768289654461,
+        "last_edited_time": 1768289827020,
+        "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "743296fa-2a2d-4e3a-a252-67074e7e1f90",
+          "cabfe36f-512c-4b04-b696-5f1fb30858dc"
+        ],
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "R3UO_UtNp59VREfeU5bzig,\"start\",\"end\"",
+            "n": {
+              "R3UO_UtNp59VREfeU5bzig,\"start\",\"end\"": {
+                "s": {
+                  "x": "R3UO_UtNp59VREfeU5bzig",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        7
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "セルカ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        10
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        9
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        2
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        6
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        5
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        3
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        2
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e73b07c-81ff-8095-85e9-ef2ff1437a61": {
+      "value": {
+        "id": "2e73b07c-81ff-8095-85e9-ef2ff1437a61",
+        "version": 54,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "注意事項"
+            ]
+          ]
+        },
+        "created_time": 1768292562730,
+        "last_edited_time": 1768292571545,
+        "parent_id": "2e73b07c-81ff-805e-a951-cc65eea29f1e",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "d-EMad6e0M2HiTpczW8dSw,\"start\",\"end\"",
+            "n": {
+              "d-EMad6e0M2HiTpczW8dSw,\"start\",\"end\"": {
+                "s": {
+                  "x": "d-EMad6e0M2HiTpczW8dSw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        13
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "注意"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        21
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        14
+                      ],
+                      "l": 2,
+                      "c": "事項"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        17
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        19
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        17
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        18
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        17
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        16
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        15
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        14
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        6
+                      ],
+                      "o": "start",
+                      "l": -4
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        11
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        9
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        10
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        9
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        4
+                      ],
+                      "o": "start",
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -3
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2813b07c-81ff-8145-b448-e586844f90be": {
+      "value": {
+        "id": "2813b07c-81ff-8145-b448-e586844f90be",
+        "version": 281,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "ここにあるのは全て日本版で実装されている範囲内の情報なので、その意味ではネタバレ情報はありませんが、ゲーム内で語られているよりもかなり多くの情報が含まれているので、その点はご注意ください（つまり公式だし先行情報でもないけど結構ネタバレ感あるよ、ということ）。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "27b3b07c-81ff-809d-9c6f-e8c9e8dcf357",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1759488308259,
+        "last_edited_time": 1768292570540,
+        "parent_id": "2e73b07c-81ff-805e-a951-cc65eea29f1e",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "27b3b07c-81ff-809d-9c6f-e8c9e8dcf357",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "SWHsWYtitoNIjf7JhPZxnA,\"start\",\"end\"",
+            "n": {
+              "SWHsWYtitoNIjf7JhPZxnA,\"start\",\"end\"": {
+                "s": {
+                  "x": "SWHsWYtitoNIjf7JhPZxnA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "m5Of9gn5E8Yn",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 9,
+                      "c": "ここにあるのは全て"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        134
+                      ],
+                      "o": [
+                        "m5Of9gn5E8Yn",
+                        9
+                      ],
+                      "l": 2,
+                      "c": "日本"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        135
+                      ],
+                      "l": 1,
+                      "c": "版"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        208
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": 1,
+                      "c": "で"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        207
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        205
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        159
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        166
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        159
+                      ],
+                      "l": 2,
+                      "c": "実装"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        169
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        167
+                      ],
+                      "l": 1,
+                      "c": "さ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        171
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        169
+                      ],
+                      "l": 1,
+                      "c": "れ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        173
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        171
+                      ],
+                      "l": 2,
+                      "c": "てい"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        176
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        174
+                      ],
+                      "l": 1,
+                      "c": "る"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        185
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        176
+                      ],
+                      "l": 3,
+                      "c": "範囲内"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        189
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        187
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        197
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        189
+                      ],
+                      "l": 2,
+                      "c": "情報"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        200
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        198
+                      ],
+                      "l": 1,
+                      "c": "な"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        202
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        200
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        204
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        202
+                      ],
+                      "l": 1,
+                      "c": "で"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        203
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        202
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        201
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        200
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        199
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        198
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        191
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        189
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        195
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        193
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        194
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        193
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        190
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        189
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        188
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        187
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        178
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        176
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        180
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        178
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        183
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        181
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        182
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        181
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        179
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        178
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        177
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        176
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        175
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        174
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        172
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        171
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        170
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        169
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        168
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        167
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        161
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        159
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        163
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        161
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        162
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        161
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        160
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        159
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        158
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        156
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        151
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": -5
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        148
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        150
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        148
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        149
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        148
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        147
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        146
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        145
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        141
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        143
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        141
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        142
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        141
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        140
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        139
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        137
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        135
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        136
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        135
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        129
+                      ],
+                      "o": [
+                        "m5Of9gn5E8Yn",
+                        9
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        131
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        129
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        133
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        131
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        132
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        131
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        130
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        129
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        128
+                      ],
+                      "o": [
+                        "m5Of9gn5E8Yn",
+                        9
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "m5Of9gn5E8Yn",
+                        10
+                      ],
+                      "o": [
+                        "m5Of9gn5E8Yn",
+                        9
+                      ],
+                      "l": -27
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "m5Of9gn5E8Yn",
+                        37
+                      ],
+                      "o": [
+                        "m5Of9gn5E8Yn",
+                        36
+                      ],
+                      "l": 71,
+                      "c": "、その意味ではネタバレ情報はありませんが、ゲーム内で語られているよりもかなり多くの情報が含まれているので、その点はご注意ください（つまり公式だ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        210
+                      ],
+                      "o": [
+                        "m5Of9gn5E8Yn",
+                        107
+                      ],
+                      "l": 1,
+                      "c": "し"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        229
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        210
+                      ],
+                      "l": 2,
+                      "c": "先行"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        225
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        210
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        227
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        226
+                      ],
+                      "l": 2,
+                      "c": "情報"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        232
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        228
+                      ],
+                      "l": 1,
+                      "c": "で"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        234
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        232
+                      ],
+                      "l": 1,
+                      "c": "も"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        236
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        234
+                      ],
+                      "l": 2,
+                      "c": "ない"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        239
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        237
+                      ],
+                      "l": 1,
+                      "c": "け"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        241
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        239
+                      ],
+                      "l": 1,
+                      "c": "ど"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        242
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        241
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        240
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        239
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        238
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        237
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        235
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        234
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        233
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        232
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        231
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        228
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        212
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        210
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        214
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        212
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        216
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        214
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        219
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        217
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        223
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        221
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        222
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        221
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        218
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        217
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        215
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        214
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        213
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        212
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        211
+                      ],
+                      "o": [
+                        "c1fEllH2gO7y",
+                        210
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        209
+                      ],
+                      "o": [
+                        "m5Of9gn5E8Yn",
+                        107
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "m5Of9gn5E8Yn",
+                        108
+                      ],
+                      "o": [
+                        "m5Of9gn5E8Yn",
+                        107
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "m5Of9gn5E8Yn",
+                        110
+                      ],
+                      "o": [
+                        "m5Of9gn5E8Yn",
+                        109
+                      ],
+                      "l": 18,
+                      "c": "結構ネタバレ感あるよ、ということ）。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2813b07c-81ff-8109-a79a-f2b9a5413453": {
+      "value": {
+        "id": "2813b07c-81ff-8109-a79a-f2b9a5413453",
+        "version": 79,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "また翻訳は基本機械翻訳で、誤訳や固有名詞など一部はこちらで修正しています。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "27d3b07c-81ff-8071-8c57-e9a81ef834d6",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1759488308261,
+        "last_edited_time": 1768292570540,
+        "parent_id": "2e73b07c-81ff-805e-a951-cc65eea29f1e",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "27d3b07c-81ff-8071-8c57-e9a81ef834d6",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "xePPB0IFaDsR8KzCDYlorQ,\"start\",\"end\"",
+            "n": {
+              "xePPB0IFaDsR8KzCDYlorQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "xePPB0IFaDsR8KzCDYlorQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "4w13rm2LshmU",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 7,
+                      "c": "また翻訳は基本"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        60
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        7
+                      ],
+                      "l": 4,
+                      "c": "機械翻訳"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "4w13rm2LshmU",
+                        8
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        7
+                      ],
+                      "l": -4
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "4w13rm2LshmU",
+                        12
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        11
+                      ],
+                      "l": 2,
+                      "c": "で、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        46
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        13
+                      ],
+                      "l": 2,
+                      "c": "誤訳"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        49
+                      ],
+                      "o": [
+                        "lu0mvXSz7yJr",
+                        47
+                      ],
+                      "l": 1,
+                      "c": "や"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        48
+                      ],
+                      "o": [
+                        "lu0mvXSz7yJr",
+                        47
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        41
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        43
+                      ],
+                      "o": [
+                        "lu0mvXSz7yJr",
+                        41
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        45
+                      ],
+                      "o": [
+                        "lu0mvXSz7yJr",
+                        43
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        44
+                      ],
+                      "o": [
+                        "lu0mvXSz7yJr",
+                        43
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        42
+                      ],
+                      "o": [
+                        "lu0mvXSz7yJr",
+                        41
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        40
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        13
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "4w13rm2LshmU",
+                        14
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        13
+                      ],
+                      "l": 6,
+                      "c": "固有名詞など"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        38
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        19
+                      ],
+                      "l": 2,
+                      "c": "一部"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        33
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        19
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        35
+                      ],
+                      "o": [
+                        "lu0mvXSz7yJr",
+                        33
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        37
+                      ],
+                      "o": [
+                        "lu0mvXSz7yJr",
+                        35
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        36
+                      ],
+                      "o": [
+                        "lu0mvXSz7yJr",
+                        35
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        34
+                      ],
+                      "o": [
+                        "lu0mvXSz7yJr",
+                        33
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "4w13rm2LshmU",
+                        20
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        19
+                      ],
+                      "l": 5,
+                      "c": "はこちらで"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        58
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        24
+                      ],
+                      "l": 2,
+                      "c": "修正"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        52
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        24
+                      ],
+                      "l": -3
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        56
+                      ],
+                      "o": [
+                        "lu0mvXSz7yJr",
+                        54
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        55
+                      ],
+                      "o": [
+                        "lu0mvXSz7yJr",
+                        54
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lu0mvXSz7yJr",
+                        50
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        24
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "4w13rm2LshmU",
+                        25
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        24
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "4w13rm2LshmU",
+                        27
+                      ],
+                      "o": [
+                        "4w13rm2LshmU",
+                        26
+                      ],
+                      "l": 6,
+                      "c": "しています。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "YbmWtRDudyknd_i1CaEfMA,[\"c1fEllH2gO7y\",21],\"end\""
+                ]
+              },
+              "YbmWtRDudyknd_i1CaEfMA,[\"c1fEllH2gO7y\",21],\"end\"": {
+                "s": {
+                  "x": "YbmWtRDudyknd_i1CaEfMA",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "c1fEllH2gO7y",
+                        21
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
                 },
                 "c": []
               }
