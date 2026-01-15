@@ -3,7 +3,7 @@
     "2a53b07c-81ff-803b-9031-c35b360999ae": {
       "value": {
         "id": "2a53b07c-81ff-803b-9031-c35b360999ae",
-        "version": 274,
+        "version": 281,
         "type": "page",
         "properties": {
           "title": [
@@ -47,6 +47,7 @@
           "2b13b07c-81ff-807f-8707-ddf05bcba59d",
           "2b13b07c-81ff-807c-ade9-ebbe51045820",
           "2b13b07c-81ff-809f-8f32-cc562611fc5c",
+          "2e93b07c-81ff-8045-89db-fd496d6d504a",
           "2b13b07c-81ff-8044-b143-de94e39ab85d",
           "2b13b07c-81ff-8006-971d-e5ba70c85753",
           "2b13b07c-81ff-80a1-b076-cc0695fddf72",
@@ -235,7 +236,7 @@
           "social_media_image_preview_url": "attachment:ed1a5e96-debd-4deb-bf67-fbded38bb906:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578025932,
-        "last_edited_time": 1768304521427,
+        "last_edited_time": 1768495835725,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -4476,7 +4477,7 @@
     "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d": {
       "value": {
         "id": "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d",
-        "version": 1868,
+        "version": 1870,
         "type": "page",
         "properties": {
           "title": [
@@ -4676,6 +4677,7 @@
           "2053b07c-81ff-8046-a584-cda60c013f6e",
           "2053b07c-81ff-802d-9ccd-dd8af12a797d",
           "29e3b07c-81ff-808f-afab-d20ed4180356",
+          "2e93b07c-81ff-805d-9c45-ffdf0de5bbab",
           "2053b07c-81ff-80f8-9d20-e1c4b180b755",
           "2053b07c-81ff-8085-8b97-d4e7c6bc2eb9",
           "2053b07c-81ff-8015-a157-d4efa15f11ad",
@@ -4734,7 +4736,7 @@
           "social_media_image_preview_url": "attachment:4542613b-c3c0-418b-b88f-d2f782a9dbfd:SocialMediaPreviewImage.png"
         },
         "created_time": 1741139722430,
-        "last_edited_time": 1768034608839,
+        "last_edited_time": 1768491274967,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
@@ -5890,6 +5892,222 @@
       },
       "role": "reader"
     },
+    "2e93b07c-81ff-8045-89db-fd496d6d504a": {
+      "value": {
+        "id": "2e93b07c-81ff-8045-89db-fd496d6d504a",
+        "version": 16,
+        "type": "quote",
+        "properties": {
+          "title": [
+            [
+              "身なりの整った客：はは。オグウィンに来たのは、古くて壮大なものを見たかったからだよ。"
+            ],
+            [
+              "お客様のため、そして何より自分自身のため",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "に。"
+            ]
+          ]
+        },
+        "format": {
+          "block_color": "gray_background",
+          "copied_from_pointer": {
+            "id": "2a63b07c-81ff-8070-b93a-cd034db68797",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1768490611203,
+        "last_edited_time": 1768490617786,
+        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "5TlX61Pl3Lm5UWL4dACB_A,\"start\",\"end\"",
+            "n": {
+              "5TlX61Pl3Lm5UWL4dACB_A,\"start\",\"end\"": {
+                "s": {
+                  "x": "5TlX61Pl3Lm5UWL4dACB_A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        2
+                      ],
+                      "o": "start",
+                      "l": 23,
+                      "c": "身なりの整った客：はは。オグウィンに来たのは、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        25
+                      ],
+                      "o": [
+                        "LkDNl89hJCVo",
+                        24
+                      ],
+                      "l": 8,
+                      "c": "古くて壮大なもの",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "5TlX61Pl3Lm5UWL4dACB_A",
+                          "l": "",
+                          "i": [
+                            "LkDNl89hJCVo",
+                            66
+                          ],
+                          "s": {
+                            "i": [
+                              "LkDNl89hJCVo",
+                              25
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "LkDNl89hJCVo",
+                              33
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "5TlX61Pl3Lm5UWL4dACB_A",
+                          "l": "",
+                          "i": [
+                            "LkDNl89hJCVo",
+                            68
+                          ],
+                          "s": {
+                            "i": [
+                              "LkDNl89hJCVo",
+                              25
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "LkDNl89hJCVo",
+                              33
+                            ],
+                            "a": "b"
+                          },
+                          "k": "b"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        33
+                      ],
+                      "o": [
+                        "LkDNl89hJCVo",
+                        32
+                      ],
+                      "l": 11,
+                      "c": "を見たかったからだよ。",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        44
+                      ],
+                      "o": [
+                        "LkDNl89hJCVo",
+                        43
+                      ],
+                      "l": 20,
+                      "c": "お客様のため、そして何より自分自身のため",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "5TlX61Pl3Lm5UWL4dACB_A",
+                          "l": "",
+                          "i": [
+                            "LkDNl89hJCVo",
+                            67
+                          ],
+                          "s": {
+                            "i": [
+                              "LkDNl89hJCVo",
+                              44
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "LkDNl89hJCVo",
+                              64
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        64
+                      ],
+                      "o": [
+                        "LkDNl89hJCVo",
+                        63
+                      ],
+                      "l": 2,
+                      "c": "に。",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "2b13b07c-81ff-8044-b143-de94e39ab85d": {
       "value": {
         "id": "2b13b07c-81ff-8044-b143-de94e39ab85d",
@@ -6023,12 +6241,12 @@
     "2b13b07c-81ff-8006-971d-e5ba70c85753": {
       "value": {
         "id": "2b13b07c-81ff-8006-971d-e5ba70c85753",
-        "version": 7,
+        "version": 16,
         "type": "quote",
         "properties": {
           "title": [
             [
-              "品のある身なりの客：私は見学に来たんだ。\n\n身なりの整った客：はは。オグウィンに来たのは、"
+              "身なりの整った客：はは。オグウィンに来たのは、"
             ],
             [
               "古くて壮大なもの",
@@ -6039,18 +6257,7 @@
               ]
             ],
             [
-              "を見たかったからだよ。"
-            ],
-            [
-              "お客様のため、そして何より自分自身のため",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "に。\nカウボーイスタイルの中年男性：そいつは見ることが出来たのか？\n身なりの整った客：ああ。まるで時が何も変えていないように、相変わらず畏怖の念を抱かせてくれたよ。"
+              "を見たかったからだよ。お客様のため、そして何より自分自身のために。\nカウボーイスタイルの中年男性：そいつは見ることが出来たのか？\n身なりの整った客：ああ。まるで時が何も変えていないように、相変わらず畏怖の念を抱かせてくれたよ。"
             ]
           ]
         },
@@ -6063,7 +6270,7 @@
           }
         },
         "created_time": 1763629637076,
-        "last_edited_time": 1768288025552,
+        "last_edited_time": 1768490648029,
         "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
         "parent_table": "block",
         "alive": true,
@@ -6088,8 +6295,20 @@
                         1
                       ],
                       "o": "start",
-                      "l": 45,
-                      "c": "品のある身なりの客：私は見学に来たんだ。\n\n身なりの整った客：はは。オグウィンに来たのは、"
+                      "l": -22
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ZNeCA1_wVUlZ",
+                        23
+                      ],
+                      "o": [
+                        "ZNeCA1_wVUlZ",
+                        22
+                      ],
+                      "l": 23,
+                      "c": "身なりの整った客：はは。オグウィンに来たのは、"
                     },
                     {
                       "t": "t",
@@ -6184,6 +6403,56 @@
                           "a": [
                             "b"
                           ]
+                        },
+                        {
+                          "t": "a",
+                          "x": "3Cg0LkELCEZicdV609kB1w",
+                          "l": "",
+                          "i": [
+                            "LkDNl89hJCVo",
+                            169
+                          ],
+                          "s": {
+                            "i": [
+                              "ZNeCA1_wVUlZ",
+                              65
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "ZNeCA1_wVUlZ",
+                              87
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "3Cg0LkELCEZicdV609kB1w",
+                          "l": "",
+                          "i": [
+                            "LkDNl89hJCVo",
+                            170
+                          ],
+                          "s": {
+                            "i": [
+                              "ZNeCA1_wVUlZ",
+                              65
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "ZNeCA1_wVUlZ",
+                              87
+                            ],
+                            "a": "b"
+                          },
+                          "k": "b"
                         }
                       ]
                     },
@@ -6197,8 +6466,73 @@
                         "ZNeCA1_wVUlZ",
                         84
                       ],
-                      "l": 82,
-                      "c": "に。\nカウボーイスタイルの中年男性：そいつは見ることが出来たのか？\n身なりの整った客：ああ。まるで時が何も変えていないように、相変わらず畏怖の念を抱かせてくれたよ。",
+                      "l": 2,
+                      "c": "に。",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "3Cg0LkELCEZicdV609kB1w",
+                          "l": "",
+                          "i": [
+                            "LkDNl89hJCVo",
+                            169
+                          ],
+                          "s": {
+                            "i": [
+                              "ZNeCA1_wVUlZ",
+                              65
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "ZNeCA1_wVUlZ",
+                              87
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        },
+                        {
+                          "t": "r",
+                          "x": "3Cg0LkELCEZicdV609kB1w",
+                          "l": "",
+                          "i": [
+                            "LkDNl89hJCVo",
+                            170
+                          ],
+                          "s": {
+                            "i": [
+                              "ZNeCA1_wVUlZ",
+                              65
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "ZNeCA1_wVUlZ",
+                              87
+                            ],
+                            "a": "b"
+                          },
+                          "k": "b"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ZNeCA1_wVUlZ",
+                        87
+                      ],
+                      "o": [
+                        "ZNeCA1_wVUlZ",
+                        86
+                      ],
+                      "l": 80,
+                      "c": "\nカウボーイスタイルの中年男性：そいつは見ることが出来たのか？\n身なりの整った客：ああ。まるで時が何も変えていないように、相変わらず畏怖の念を抱かせてくれたよ。",
                       "b": []
                     },
                     {
@@ -7873,205 +8207,10 @@
       },
       "role": "reader"
     },
-    "2b13b07c-81ff-802c-a6da-e793206582bb": {
-      "value": {
-        "id": "2b13b07c-81ff-802c-a6da-e793206582bb",
-        "version": 6,
-        "type": "quote",
-        "properties": {
-          "title": [
-            [
-              "本当にそうなのだろうか？深淵の底で"
-            ],
-            [
-              "破滅",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "を歌う者が？\nそれがシャラハなのか？もしそうなら、この途方もない憎悪と"
-            ],
-            [
-              "虚無",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "に……どう立ち向かえばいい？"
-            ]
-          ]
-        },
-        "format": {
-          "block_color": "gray_background",
-          "copied_from_pointer": {
-            "id": "2ae3b07c-81ff-80d4-9f19-da4a2c570fde",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1763629637096,
-        "last_edited_time": 1763629637554,
-        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2ae3b07c-81ff-80d4-9f19-da4a2c570fde",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "v2gjuPFuEQ0ldAWZGkeWGQ,\"start\",\"end\"",
-            "n": {
-              "v2gjuPFuEQ0ldAWZGkeWGQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "v2gjuPFuEQ0ldAWZGkeWGQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "ua_D86UnwoKy",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 17,
-                      "c": "本当にそうなのだろうか？深淵の底で"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "ua_D86UnwoKy",
-                        18
-                      ],
-                      "o": [
-                        "ua_D86UnwoKy",
-                        17
-                      ],
-                      "l": 2,
-                      "c": "破滅",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "v2gjuPFuEQ0ldAWZGkeWGQ",
-                          "l": "",
-                          "i": [
-                            "ua_D86UnwoKy",
-                            71
-                          ],
-                          "s": {
-                            "i": [
-                              "ua_D86UnwoKy",
-                              18
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "ua_D86UnwoKy",
-                              20
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "ua_D86UnwoKy",
-                        20
-                      ],
-                      "o": [
-                        "ua_D86UnwoKy",
-                        19
-                      ],
-                      "l": 35,
-                      "c": "を歌う者が？\nそれがシャラハなのか？もしそうなら、この途方もない憎悪と",
-                      "b": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "ua_D86UnwoKy",
-                        55
-                      ],
-                      "o": [
-                        "ua_D86UnwoKy",
-                        54
-                      ],
-                      "l": 2,
-                      "c": "虚無",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "v2gjuPFuEQ0ldAWZGkeWGQ",
-                          "l": "",
-                          "i": [
-                            "ua_D86UnwoKy",
-                            72
-                          ],
-                          "s": {
-                            "i": [
-                              "ua_D86UnwoKy",
-                              55
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "ua_D86UnwoKy",
-                              57
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "ua_D86UnwoKy",
-                        57
-                      ],
-                      "o": [
-                        "ua_D86UnwoKy",
-                        56
-                      ],
-                      "l": 14,
-                      "c": "に……どう立ち向かえばいい？",
-                      "b": []
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
     "2a53b07c-81ff-807d-9296-df79a1b4ccc9": {
       "value": {
         "id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
-        "version": 215,
+        "version": 216,
         "type": "page",
         "properties": {
           "title": [
@@ -8265,7 +8404,7 @@
           "social_media_image_preview_url": "attachment:74cff22d-31fa-4482-8de3-8aa977d262f9:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578014330,
-        "last_edited_time": 1764129422296,
+        "last_edited_time": 1768470001305,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -9153,6 +9292,201 @@
                       "o": "start",
                       "l": 20,
                       "c": "私は英雄になるのだ。あの救世主のように。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2b13b07c-81ff-802c-a6da-e793206582bb": {
+      "value": {
+        "id": "2b13b07c-81ff-802c-a6da-e793206582bb",
+        "version": 6,
+        "type": "quote",
+        "properties": {
+          "title": [
+            [
+              "本当にそうなのだろうか？深淵の底で"
+            ],
+            [
+              "破滅",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "を歌う者が？\nそれがシャラハなのか？もしそうなら、この途方もない憎悪と"
+            ],
+            [
+              "虚無",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "に……どう立ち向かえばいい？"
+            ]
+          ]
+        },
+        "format": {
+          "block_color": "gray_background",
+          "copied_from_pointer": {
+            "id": "2ae3b07c-81ff-80d4-9f19-da4a2c570fde",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1763629637096,
+        "last_edited_time": 1763629637554,
+        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2ae3b07c-81ff-80d4-9f19-da4a2c570fde",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "v2gjuPFuEQ0ldAWZGkeWGQ,\"start\",\"end\"",
+            "n": {
+              "v2gjuPFuEQ0ldAWZGkeWGQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "v2gjuPFuEQ0ldAWZGkeWGQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ua_D86UnwoKy",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 17,
+                      "c": "本当にそうなのだろうか？深淵の底で"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ua_D86UnwoKy",
+                        18
+                      ],
+                      "o": [
+                        "ua_D86UnwoKy",
+                        17
+                      ],
+                      "l": 2,
+                      "c": "破滅",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "v2gjuPFuEQ0ldAWZGkeWGQ",
+                          "l": "",
+                          "i": [
+                            "ua_D86UnwoKy",
+                            71
+                          ],
+                          "s": {
+                            "i": [
+                              "ua_D86UnwoKy",
+                              18
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "ua_D86UnwoKy",
+                              20
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ua_D86UnwoKy",
+                        20
+                      ],
+                      "o": [
+                        "ua_D86UnwoKy",
+                        19
+                      ],
+                      "l": 35,
+                      "c": "を歌う者が？\nそれがシャラハなのか？もしそうなら、この途方もない憎悪と",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ua_D86UnwoKy",
+                        55
+                      ],
+                      "o": [
+                        "ua_D86UnwoKy",
+                        54
+                      ],
+                      "l": 2,
+                      "c": "虚無",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "v2gjuPFuEQ0ldAWZGkeWGQ",
+                          "l": "",
+                          "i": [
+                            "ua_D86UnwoKy",
+                            72
+                          ],
+                          "s": {
+                            "i": [
+                              "ua_D86UnwoKy",
+                              55
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "ua_D86UnwoKy",
+                              57
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ua_D86UnwoKy",
+                        57
+                      ],
+                      "o": [
+                        "ua_D86UnwoKy",
+                        56
+                      ],
+                      "l": 14,
+                      "c": "に……どう立ち向かえばいい？",
+                      "b": []
                     },
                     {
                       "t": "e"
@@ -12655,68 +12989,6 @@
       },
       "role": "reader"
     },
-    "2b13b07c-81ff-80d2-89ff-dce3ca8ac784": {
-      "value": {
-        "id": "2b13b07c-81ff-80d2-89ff-dce3ca8ac784",
-        "version": 4,
-        "type": "sub_sub_header",
-        "properties": {
-          "title": [
-            [
-              "パラド"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2af3b07c-81ff-805d-b54b-f560b9792df4",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1763629637141,
-        "last_edited_time": 1763629637554,
-        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2af3b07c-81ff-805d-b54b-f560b9792df4",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "9FDQhesY9iZss2Fr1sxrdQ,\"start\",\"end\"",
-            "n": {
-              "9FDQhesY9iZss2Fr1sxrdQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "9FDQhesY9iZss2Fr1sxrdQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "IM4f7M7sDreh",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 3,
-                      "c": "パラド"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
     "1b63b07c-81ff-809a-86e7-c628716ebd94": {
       "value": {
         "id": "1b63b07c-81ff-809a-86e7-c628716ebd94",
@@ -13256,6 +13528,68 @@
                   "i": [
                     {
                       "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2b13b07c-81ff-80d2-89ff-dce3ca8ac784": {
+      "value": {
+        "id": "2b13b07c-81ff-80d2-89ff-dce3ca8ac784",
+        "version": 4,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "パラド"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2af3b07c-81ff-805d-b54b-f560b9792df4",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1763629637141,
+        "last_edited_time": 1763629637554,
+        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2af3b07c-81ff-805d-b54b-f560b9792df4",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "9FDQhesY9iZss2Fr1sxrdQ,\"start\",\"end\"",
+            "n": {
+              "9FDQhesY9iZss2Fr1sxrdQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "9FDQhesY9iZss2Fr1sxrdQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "IM4f7M7sDreh",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "パラド"
                     },
                     {
                       "t": "e"
@@ -17466,135 +17800,6 @@
       },
       "role": "reader"
     },
-    "2b13b07c-81ff-80aa-8049-ed20f3851dc9": {
-      "value": {
-        "id": "2b13b07c-81ff-80aa-8049-ed20f3851dc9",
-        "version": 5,
-        "type": "quote",
-        "properties": {
-          "title": [
-            [
-              "ラニアット：（さっき、一瞬……）（あの人は……"
-            ],
-            [
-              "私のことを気にかけていた",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "ような。どうして？）"
-            ]
-          ]
-        },
-        "format": {
-          "block_color": "gray_background",
-          "copied_from_pointer": {
-            "id": "2ae3b07c-81ff-804f-a703-e948e84bfcb2",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1763629637177,
-        "last_edited_time": 1763629637554,
-        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2ae3b07c-81ff-804f-a703-e948e84bfcb2",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "UuS2c_qGFFweZJc4YTwv2w,\"start\",\"end\"",
-            "n": {
-              "UuS2c_qGFFweZJc4YTwv2w,\"start\",\"end\"": {
-                "s": {
-                  "x": "UuS2c_qGFFweZJc4YTwv2w",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "olXxvN8qmQkO",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 23,
-                      "c": "ラニアット：（さっき、一瞬……）（あの人は……"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "olXxvN8qmQkO",
-                        24
-                      ],
-                      "o": [
-                        "olXxvN8qmQkO",
-                        23
-                      ],
-                      "l": 12,
-                      "c": "私のことを気にかけていた",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "UuS2c_qGFFweZJc4YTwv2w",
-                          "l": "",
-                          "i": [
-                            "olXxvN8qmQkO",
-                            46
-                          ],
-                          "s": {
-                            "i": [
-                              "olXxvN8qmQkO",
-                              24
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "olXxvN8qmQkO",
-                              36
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "olXxvN8qmQkO",
-                        36
-                      ],
-                      "o": [
-                        "olXxvN8qmQkO",
-                        35
-                      ],
-                      "l": 10,
-                      "c": "ような。どうして？）",
-                      "b": []
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
     "27c3b07c-81ff-80a1-abe0-fbb8e2e929de": {
       "value": {
         "id": "27c3b07c-81ff-80a1-abe0-fbb8e2e929de",
@@ -17768,6 +17973,135 @@
                     }
                   ],
                   "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2b13b07c-81ff-80aa-8049-ed20f3851dc9": {
+      "value": {
+        "id": "2b13b07c-81ff-80aa-8049-ed20f3851dc9",
+        "version": 5,
+        "type": "quote",
+        "properties": {
+          "title": [
+            [
+              "ラニアット：（さっき、一瞬……）（あの人は……"
+            ],
+            [
+              "私のことを気にかけていた",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "ような。どうして？）"
+            ]
+          ]
+        },
+        "format": {
+          "block_color": "gray_background",
+          "copied_from_pointer": {
+            "id": "2ae3b07c-81ff-804f-a703-e948e84bfcb2",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1763629637177,
+        "last_edited_time": 1763629637554,
+        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2ae3b07c-81ff-804f-a703-e948e84bfcb2",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "UuS2c_qGFFweZJc4YTwv2w,\"start\",\"end\"",
+            "n": {
+              "UuS2c_qGFFweZJc4YTwv2w,\"start\",\"end\"": {
+                "s": {
+                  "x": "UuS2c_qGFFweZJc4YTwv2w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "olXxvN8qmQkO",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 23,
+                      "c": "ラニアット：（さっき、一瞬……）（あの人は……"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "olXxvN8qmQkO",
+                        24
+                      ],
+                      "o": [
+                        "olXxvN8qmQkO",
+                        23
+                      ],
+                      "l": 12,
+                      "c": "私のことを気にかけていた",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "UuS2c_qGFFweZJc4YTwv2w",
+                          "l": "",
+                          "i": [
+                            "olXxvN8qmQkO",
+                            46
+                          ],
+                          "s": {
+                            "i": [
+                              "olXxvN8qmQkO",
+                              24
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "olXxvN8qmQkO",
+                              36
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "olXxvN8qmQkO",
+                        36
+                      ],
+                      "o": [
+                        "olXxvN8qmQkO",
+                        35
+                      ],
+                      "l": 10,
+                      "c": "ような。どうして？）",
+                      "b": []
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
                 },
                 "c": []
               }
@@ -25922,12 +26256,12 @@
     "2b13b07c-81ff-80c5-8620-c8bba8a8a8ac": {
       "value": {
         "id": "2b13b07c-81ff-80c5-8620-c8bba8a8a8ac",
-        "version": 4,
+        "version": 39,
         "type": "text",
         "properties": {
           "title": [
             [
-              "あるいは、死ぬサクリファイスをメミニが復活させる計画？だからメミニは不要？"
+              "あるいは、死ぬサクリフィスをメミニが復活させる計画？だからメミニは不要？"
             ]
           ]
         },
@@ -25939,7 +26273,7 @@
           }
         },
         "created_time": 1763629637328,
-        "last_edited_time": 1763629637554,
+        "last_edited_time": 1768469980133,
         "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
         "parent_table": "block",
         "alive": true,
@@ -25964,8 +26298,190 @@
                         1
                       ],
                       "o": "start",
-                      "l": 37,
-                      "c": "あるいは、死ぬサクリファイスをメミニが復活させる計画？だからメミニは不要？"
+                      "l": 7,
+                      "c": "あるいは、死ぬ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        59
+                      ],
+                      "o": [
+                        "Co77miBKyyeW",
+                        7
+                      ],
+                      "l": 6,
+                      "c": "サクリフィス"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        50
+                      ],
+                      "o": [
+                        "Co77miBKyyeW",
+                        7
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        53
+                      ],
+                      "o": [
+                        "LkDNl89hJCVo",
+                        51
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        55
+                      ],
+                      "o": [
+                        "LkDNl89hJCVo",
+                        53
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        58
+                      ],
+                      "o": [
+                        "LkDNl89hJCVo",
+                        56
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        57
+                      ],
+                      "o": [
+                        "LkDNl89hJCVo",
+                        56
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        54
+                      ],
+                      "o": [
+                        "LkDNl89hJCVo",
+                        53
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        52
+                      ],
+                      "o": [
+                        "LkDNl89hJCVo",
+                        51
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        43
+                      ],
+                      "o": [
+                        "Co77miBKyyeW",
+                        7
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        39
+                      ],
+                      "o": [
+                        "Co77miBKyyeW",
+                        7
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        41
+                      ],
+                      "o": [
+                        "LkDNl89hJCVo",
+                        39
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        40
+                      ],
+                      "o": [
+                        "LkDNl89hJCVo",
+                        39
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        38
+                      ],
+                      "o": [
+                        "Co77miBKyyeW",
+                        7
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Co77miBKyyeW",
+                        8
+                      ],
+                      "o": [
+                        "Co77miBKyyeW",
+                        7
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Co77miBKyyeW",
+                        15
+                      ],
+                      "o": [
+                        "Co77miBKyyeW",
+                        14
+                      ],
+                      "l": 23,
+                      "c": "をメミニが復活させる計画？だからメミニは不要？"
                     },
                     {
                       "t": "e"
@@ -41957,7 +42473,7 @@
     "2b13b07c-81ff-8059-993e-e22112e962dd": {
       "value": {
         "id": "2b13b07c-81ff-8059-993e-e22112e962dd",
-        "version": 5,
+        "version": 11,
         "type": "text",
         "properties": {
           "title": [
@@ -41970,7 +42486,7 @@
               ]
             ],
             [
-              "：「……それはアスファルトの上にオレンジ色を投げかけ、夜の序章に"
+              "：「……それはアスファルトの上にオレンジ色を投げかけ、夜の序章を"
             ],
             [
               "燃え上がらせる",
@@ -41993,7 +42509,7 @@
           }
         },
         "created_time": 1763629637438,
-        "last_edited_time": 1763629637554,
+        "last_edited_time": 1768495835769,
         "parent_id": "2b13b07c-81ff-8059-97f3-f41b2ed03868",
         "parent_table": "block",
         "alive": true,
@@ -42059,9 +42575,46 @@
                         "HXk6UK8fxFFE",
                         3
                       ],
-                      "l": 32,
-                      "c": "：「……それはアスファルトの上にオレンジ色を投げかけ、夜の序章に",
+                      "l": 31,
+                      "c": "：「……それはアスファルトの上にオレンジ色を投げかけ、夜の序章",
                       "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LSoc4CE2n63d",
+                        48
+                      ],
+                      "o": [
+                        "HXk6UK8fxFFE",
+                        34
+                      ],
+                      "l": 1,
+                      "c": "を"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LSoc4CE2n63d",
+                        47
+                      ],
+                      "o": [
+                        "HXk6UK8fxFFE",
+                        34
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HXk6UK8fxFFE",
+                        35
+                      ],
+                      "o": [
+                        "HXk6UK8fxFFE",
+                        34
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -42608,10 +43161,10 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2b13b07c-81ff-803f-8ae7-f6d2c16e75d4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1c936670-5d2c-4970-acef-a9fc46fd9ba1/image.png?table=block&id=2b13b07c-81ff-803f-8ae7-f6d2c16e75d4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768356000000&signature=r0s6SbCIewdtthxWNjkmzM-LDX1foKbiFAdVge_DJFI",
-    "2b13b07c-81ff-807e-91fe-fc87d3e64140": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/a39c8a1a-3456-4709-9a06-24a4ad11cd56/760ca1e5gy1hobi70di1cj20sg114b29.jpg?table=block&id=2b13b07c-81ff-807e-91fe-fc87d3e64140&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768356000000&signature=_JbiS0y8y-JsdKKUNmfGgMogvPLeX6BRR1tJVgQRL7I",
-    "2b13b07c-81ff-8040-af5c-d312947bbfda": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/65b356cf-629b-456c-ad30-f89db6e2fd44/image.png?table=block&id=2b13b07c-81ff-8040-af5c-d312947bbfda&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768356000000&signature=78n5CkG9AYiNtyrnEGIO-cXM9y2UqaVjK5VNa1eCB1Y",
-    "2b13b07c-81ff-8035-96f5-eca7fdcdd218": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1ac304ea-7d7e-411c-b1b2-4548393455cc/Lの肖像.jpg?table=block&id=2b13b07c-81ff-8035-96f5-eca7fdcdd218&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768356000000&signature=lPpcrGohxImYdo1dsYKcd_1ZMy23N02DDX3dZZnTx8I",
-    "2b13b07c-81ff-804c-94ef-ecba1d4b2c28": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/9a1a5beb-bcaa-483d-b742-3ce1b1dcd22d/image.png?table=block&id=2b13b07c-81ff-804c-94ef-ecba1d4b2c28&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768356000000&signature=4a_EqWIgCL-GDeDDmyLG7s4OuIkI69iGpzM5C2gPg9s"
+    "2b13b07c-81ff-803f-8ae7-f6d2c16e75d4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1c936670-5d2c-4970-acef-a9fc46fd9ba1/image.png?table=block&id=2b13b07c-81ff-803f-8ae7-f6d2c16e75d4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=LQ5KvacvoGM4cdL1LwaDH3ren6JL-yyV6jevtXgeDtM",
+    "2b13b07c-81ff-807e-91fe-fc87d3e64140": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/a39c8a1a-3456-4709-9a06-24a4ad11cd56/760ca1e5gy1hobi70di1cj20sg114b29.jpg?table=block&id=2b13b07c-81ff-807e-91fe-fc87d3e64140&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=qUP25W5ZqxwBoXKNJ0QqLjTy9rZSwXDUw86uRfitFa0",
+    "2b13b07c-81ff-8040-af5c-d312947bbfda": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/65b356cf-629b-456c-ad30-f89db6e2fd44/image.png?table=block&id=2b13b07c-81ff-8040-af5c-d312947bbfda&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=nXeSBobkpxyUkulhO76dLyDGFcidL8C7l48NF-oDHgE",
+    "2b13b07c-81ff-8035-96f5-eca7fdcdd218": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1ac304ea-7d7e-411c-b1b2-4548393455cc/Lの肖像.jpg?table=block&id=2b13b07c-81ff-8035-96f5-eca7fdcdd218&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=4XWigGQQmyNn7Cg7S7JfeHeHMepbPB0wFNDk8kXHabo",
+    "2b13b07c-81ff-804c-94ef-ecba1d4b2c28": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/9a1a5beb-bcaa-483d-b742-3ce1b1dcd22d/image.png?table=block&id=2b13b07c-81ff-804c-94ef-ecba1d4b2c28&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=oaQEAv-fI2HlLCb4cFBy_k7ZtP7qW_YHXIdIwFQeEiQ"
   }
 }

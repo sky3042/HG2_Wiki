@@ -3,7 +3,7 @@
     "2a53b07c-81ff-807d-9296-df79a1b4ccc9": {
       "value": {
         "id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
-        "version": 215,
+        "version": 216,
         "type": "page",
         "properties": {
           "title": [
@@ -197,7 +197,7 @@
           "social_media_image_preview_url": "attachment:74cff22d-31fa-4482-8de3-8aa977d262f9:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578014330,
-        "last_edited_time": 1764129422296,
+        "last_edited_time": 1768470001305,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -253,7 +253,7 @@
     "2833b07c-81ff-802a-b26c-c5fec1d872bf": {
       "value": {
         "id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
-        "version": 585,
+        "version": 611,
         "type": "page",
         "properties": {
           "title": [
@@ -311,7 +311,7 @@
           "social_media_image_preview_url": "attachment:a9d0d2e7-a0b7-4a0e-99ab-8f52ff3055a4:SocialMediaPreviewImage.png"
         },
         "created_time": 1759648389245,
-        "last_edited_time": 1763611326980,
+        "last_edited_time": 1764153475903,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
@@ -633,7 +633,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 349,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -670,7 +670,7 @@
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -682,7 +682,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -705,7 +705,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764030939329,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -714,7 +714,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -736,8 +737,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -3170,7 +3209,7 @@
     "1b63b07c-81ff-8023-8adf-d9d3b856b809": {
       "value": {
         "id": "1b63b07c-81ff-8023-8adf-d9d3b856b809",
-        "version": 151,
+        "version": 152,
         "type": "page",
         "properties": {
           "title": [
@@ -3208,7 +3247,7 @@
           "social_media_image_preview_url": "attachment:8a1f30c3-a615-4088-ac3d-4cf96be6299b:SocialMediaPreviewImage.png"
         },
         "created_time": 1741984729695,
-        "last_edited_time": 1763611032141,
+        "last_edited_time": 1768114684949,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -3277,7 +3316,7 @@
     "1bd3b07c-81ff-800c-af8d-f5dc559f3811": {
       "value": {
         "id": "1bd3b07c-81ff-800c-af8d-f5dc559f3811",
-        "version": 58,
+        "version": 81,
         "type": "page",
         "properties": {
           "title": [
@@ -3299,8 +3338,12 @@
           "1be3b07c-81ff-80ad-b7af-ca7c20814c07",
           "1be3b07c-81ff-8005-a0aa-d050164bb5e0",
           "27c3b07c-81ff-80d1-8231-e8d8511b91b9",
+          "2e53b07c-81ff-80a4-944e-ddef47cbb8ba",
           "1be3b07c-81ff-80cb-a87c-f2f16da7e5f7",
-          "1be3b07c-81ff-8081-aa94-cb6e3d9ccc1d"
+          "2e53b07c-81ff-8023-81a5-e6eb20301e9a",
+          "2e53b07c-81ff-80be-9f38-c5ef1c23a611",
+          "2e53b07c-81ff-8064-8df6-fb478702b496",
+          "2e53b07c-81ff-8005-93b0-f5b39d7b2bdd"
         ],
         "format": {
           "copied_from_pointer": {
@@ -3310,7 +3353,7 @@
           }
         },
         "created_time": 1742568140763,
-        "last_edited_time": 1759055400045,
+        "last_edited_time": 1768115670015,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -3609,7 +3652,7 @@
     "1bd3b07c-81ff-8087-9377-facf462a212f": {
       "value": {
         "id": "1bd3b07c-81ff-8087-9377-facf462a212f",
-        "version": 79,
+        "version": 80,
         "type": "page",
         "properties": {
           "title": [
@@ -3647,7 +3690,7 @@
           "social_media_image_preview_url": "attachment:e3434c27-7521-4128-a2ae-0128954588aa:SocialMediaPreviewImage.png"
         },
         "created_time": 1742568141097,
-        "last_edited_time": 1763609833086,
+        "last_edited_time": 1767155130928,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -3845,7 +3888,7 @@
     "1bc3b07c-81ff-8057-99f6-e4ba9dfa0146": {
       "value": {
         "id": "1bc3b07c-81ff-8057-99f6-e4ba9dfa0146",
-        "version": 84,
+        "version": 89,
         "type": "page",
         "properties": {
           "title": [
@@ -3871,6 +3914,7 @@
           "1be3b07c-81ff-801e-b2ad-d781ca3d71bb",
           "27c3b07c-81ff-8026-a6f3-c666c2646d01",
           "27c3b07c-81ff-8005-81ca-e401c1acd428",
+          "2e53b07c-81ff-8044-a1c5-d43d32c0291b",
           "1be3b07c-81ff-80af-9fc2-eed3761b73dd",
           "1be3b07c-81ff-80fa-ad45-d071a5e44eb9",
           "1bd3b07c-81ff-80dc-aaf1-e700f258ea5d",
@@ -3884,7 +3928,7 @@
           }
         },
         "created_time": 1742510494100,
-        "last_edited_time": 1762139058323,
+        "last_edited_time": 1768117144535,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -3929,7 +3973,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1723,
+        "version": 1790,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -3972,7 +4016,7 @@
           "1b93b07c-81ff-809c-b40c-e92b30835acc",
           "1b93b07c-81ff-804f-b58b-db4f52c31d02",
           "27c3b07c-81ff-80a1-abe0-fbb8e2e929de",
-          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "2e53b07c-81ff-8030-ae24-db6b6257f2ac",
           "1bf3b07c-81ff-806f-86d6-e5f00eaa57e4",
           "1b93b07c-81ff-80e6-8833-e860f93f4b5d",
           "1b93b07c-81ff-808c-a05e-dbfb07e01d95",
@@ -4003,26 +4047,30 @@
           "1bc3b07c-81ff-80d8-9371-df19fc99263f",
           "1b93b07c-81ff-8058-87c6-cf92f46eeb5e",
           "1bd3b07c-81ff-800c-af8d-f5dc559f3811",
-          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
-          "1bd3b07c-81ff-8087-9377-facf462a212f",
           "1b93b07c-81ff-8076-86cb-cc99e3c28e11",
+          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
           "1bd3b07c-81ff-80c5-acdb-e05953c7d3c2",
           "1bc3b07c-81ff-8024-a546-ea0e68ada392",
-          "1b93b07c-81ff-80b1-98ff-fdeedf56521c",
+          "2e53b07c-81ff-80fb-ae9c-d4af89dc3526",
+          "27c3b07c-81ff-80c9-a122-c119bfdb1420",
+          "1bd3b07c-81ff-8087-9377-facf462a212f",
           "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
+          "27c3b07c-81ff-8094-ac21-c90878468737",
+          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
+          "27c3b07c-81ff-80b9-af67-da8e328925f6",
           "27c3b07c-81ff-8088-ac2d-f2beba364720",
           "2a53b07c-81ff-8022-978a-ccdb80d1d4fb",
-          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
+          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
           "1be3b07c-81ff-8034-9960-db9b3a238538",
           "1be3b07c-81ff-80f0-9d99-cd8ab44f29d4",
           "1be3b07c-81ff-80aa-a398-fc78d542be90",
-          "27c3b07c-81ff-8040-9552-ea59ca85a6f4",
-          "27c3b07c-81ff-8001-bad6-fea483ac09c3",
-          "27c3b07c-81ff-80b9-af67-da8e328925f6",
+          "2e53b07c-81ff-80fd-aebf-deaefc211002",
+          "2b13b07c-81ff-80fc-a209-d7757ad01c25",
           "1be3b07c-81ff-8086-9bbd-d3ec180d3fcd",
           "1bd3b07c-81ff-806c-8111-e4bc80a3013e",
           "1bf3b07c-81ff-8048-b2d0-e2c6da725c6f",
           "1be3b07c-81ff-801e-85a9-f13d576b6447",
+          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
           "1b93b07c-81ff-806f-bf2d-fa3acb1a1a42",
           "1bc3b07c-81ff-80b1-9fac-df6f9b398d57",
           "2b13b07c-81ff-80ff-9fbc-d78483f1bc12",
@@ -4034,6 +4082,7 @@
           "1b93b07c-81ff-809e-90a8-f0e412a0cdac",
           "1b83b07c-81ff-8072-b34c-d84888baf666",
           "1b93b07c-81ff-8043-b610-db8506b0dd80",
+          "2e53b07c-81ff-803d-a29f-e5d209190ebc",
           "1bc3b07c-81ff-801b-bf59-caad9fd0bfd2",
           "1bf3b07c-81ff-80dd-ae4e-f94a70f8a4a5",
           "1b93b07c-81ff-80a2-95ab-d592676f5c99",
@@ -4103,7 +4152,6 @@
           "27c3b07c-81ff-80fd-a9c6-f09fd21b17fd",
           "27c3b07c-81ff-801b-b9c2-df19d63f2027",
           "27c3b07c-81ff-8042-a1f7-ed0bae0397b3",
-          "27c3b07c-81ff-8076-b758-f6e0d7d88902",
           "27c3b07c-81ff-801a-af68-e11c8b5f8e03",
           "27c3b07c-81ff-80f1-a34c-c513f98b6fc6",
           "27c3b07c-81ff-8077-bf43-c523a5d8c3db",
@@ -4111,6 +4159,7 @@
           "27c3b07c-81ff-8096-a62b-eb78a49e3631",
           "2b13b07c-81ff-80e5-92e0-c6d921d34af4",
           "2b13b07c-81ff-8028-a0de-e0eef35f3587",
+          "2e53b07c-81ff-8038-ae49-cc39104850c2",
           "1bf3b07c-81ff-8090-ac79-dfbca3b5853e",
           "1b63b07c-81ff-80de-a3b0-c95920f86655",
           "2083b07c-81ff-802d-bf18-e376d867503c",
@@ -4123,7 +4172,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1763862654684,
+        "last_edited_time": 1768123006610,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -4172,7 +4221,7 @@
     "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d": {
       "value": {
         "id": "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d",
-        "version": 1843,
+        "version": 1870,
         "type": "page",
         "properties": {
           "title": [
@@ -4201,9 +4250,9 @@
           "1ad3b07c-81ff-8008-b3b8-ed031c310fc3",
           "1ad3b07c-81ff-8093-87a0-e2f56fa8ca80",
           "1ad3b07c-81ff-808b-b69f-e8ca6313ac59",
-          "1ad3b07c-81ff-8082-97a5-d1c40460fec1",
           "1ad3b07c-81ff-8069-a3aa-f663d4540b7f",
           "1ad3b07c-81ff-80e1-906b-f741205d3aa9",
+          "1ad3b07c-81ff-8082-97a5-d1c40460fec1",
           "28c3b07c-81ff-80b7-b23e-d2a9020a0441",
           "28c3b07c-81ff-8062-ad6c-f6e650d53420",
           "2563b07c-81ff-803f-8325-e6e9cd467213",
@@ -4228,7 +4277,6 @@
           "22f3b07c-81ff-8073-81f3-cd028bac7e81",
           "22f3b07c-81ff-80d4-a0e8-c2aa3d0972c9",
           "22f3b07c-81ff-8065-abfc-e4284921f784",
-          "22f3b07c-81ff-80d3-a5bd-f33c620bd487",
           "22f3b07c-81ff-807b-acb0-e543e575d13c",
           "22f3b07c-81ff-804c-af3e-ea7bb4632372",
           "22f3b07c-81ff-80bb-87f3-efa7f6798a28",
@@ -4278,7 +4326,7 @@
           "2b13b07c-81ff-8061-9441-f9626a137929",
           "1ad3b07c-81ff-80d7-834f-dd018563d0a2",
           "2053b07c-81ff-806d-856f-e9bc89932314",
-          "1ad3b07c-81ff-808b-9ac1-f268b6588205",
+          "2c53b07c-81ff-80c8-8eed-f459e1f688cf",
           "2b13b07c-81ff-8067-8b3f-fd0e1c143ec1",
           "2b13b07c-81ff-8019-b101-ed5c19e50306",
           "2b13b07c-81ff-804f-9277-f09199338bfc",
@@ -4373,6 +4421,7 @@
           "2053b07c-81ff-8046-a584-cda60c013f6e",
           "2053b07c-81ff-802d-9ccd-dd8af12a797d",
           "29e3b07c-81ff-808f-afab-d20ed4180356",
+          "2e93b07c-81ff-805d-9c45-ffdf0de5bbab",
           "2053b07c-81ff-80f8-9d20-e1c4b180b755",
           "2053b07c-81ff-8085-8b97-d4e7c6bc2eb9",
           "2053b07c-81ff-8015-a157-d4efa15f11ad",
@@ -4431,7 +4480,7 @@
           "social_media_image_preview_url": "attachment:4542613b-c3c0-418b-b88f-d2f782a9dbfd:SocialMediaPreviewImage.png"
         },
         "created_time": 1741139722430,
-        "last_edited_time": 1764150018529,
+        "last_edited_time": 1768491274967,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
@@ -4481,9 +4530,10 @@
     "25e3b07c-81ff-8012-99ca-ca95556f12b7": {
       "value": {
         "id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
-        "version": 60,
+        "version": 76,
         "type": "collection_view_page",
         "content": [
+          "2b93b07c-81ff-80b1-ad37-c5579ae66e94",
           "25e3b07c-81ff-8016-a529-d055498f8ef2"
         ],
         "view_ids": [
@@ -4505,7 +4555,7 @@
           ]
         },
         "created_time": 1756447751831,
-        "last_edited_time": 1764147807737,
+        "last_edited_time": 1767240584739,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -7893,7 +7943,7 @@
     "1ad3b07c-81ff-80e4-8271-c7f781e181c3": {
       "value": {
         "id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "version": 425,
+        "version": 428,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -7946,11 +7996,11 @@
           "1bf3b07c-81ff-8084-9adb-d2af2b8c362d",
           "1bf3b07c-81ff-8063-9043-f20e5753a572",
           "1c03b07c-81ff-8047-be46-cb3e0b0e3f97",
+          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "27c3b07c-81ff-8096-8449-eff920b94b98",
           "27c3b07c-81ff-80c2-9c65-edb134e6ea3f",
           "27d3b07c-81ff-808c-9414-c30fd37c630f",
           "27d3b07c-81ff-8056-bba5-f0f0a21f324a",
-          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "1c03b07c-81ff-80ff-84e2-fcf373444957",
           "1ad3b07c-81ff-8021-b8dc-e3d75b522904",
           "1bf3b07c-81ff-8080-b2e4-eba35337822a",
@@ -7966,7 +8016,7 @@
           "page_cover_position": 0.5
         },
         "created_time": 1741141291977,
-        "last_edited_time": 1764148123988,
+        "last_edited_time": 1764427847589,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -11856,7 +11906,7 @@
     "1ad3b07c-81ff-803d-b570-dd34e00c1df5": {
       "value": {
         "id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
-        "version": 269,
+        "version": 270,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -16772,12 +16822,12 @@
     "2893b07c-81ff-804c-a70a-f3e34995db4f": {
       "value": {
         "id": "2893b07c-81ff-804c-a70a-f3e34995db4f",
-        "version": 12,
+        "version": 15,
         "type": "text",
         "properties": {
           "title": [
             [
-              "ロア家の第一近衛兵で、サクリファイス側についています。"
+              "ロア家の第一近衛兵で、サクリフィス側についています。"
             ]
           ]
         },
@@ -16789,7 +16839,7 @@
           }
         },
         "created_time": 1760170550963,
-        "last_edited_time": 1762578017477,
+        "last_edited_time": 1768470001305,
         "parent_id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
         "parent_table": "block",
         "alive": true,
@@ -16814,8 +16864,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 27,
-                      "c": "ロア家の第一近衛兵で、サクリファイス側についています。"
+                      "l": 11,
+                      "c": "ロア家の第一近衛兵で、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LkDNl89hJCVo",
+                        28
+                      ],
+                      "o": [
+                        "dSG3NqJ8UQYS",
+                        11
+                      ],
+                      "l": 6,
+                      "c": "サクリフィス"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "dSG3NqJ8UQYS",
+                        12
+                      ],
+                      "o": [
+                        "dSG3NqJ8UQYS",
+                        11
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "dSG3NqJ8UQYS",
+                        19
+                      ],
+                      "o": [
+                        "dSG3NqJ8UQYS",
+                        18
+                      ],
+                      "l": 9,
+                      "c": "側についています。"
                     },
                     {
                       "t": "e"
@@ -26296,7 +26384,7 @@
     "2573b07c-81ff-80cf-9c6a-dbf0e949f824": {
       "value": {
         "id": "2573b07c-81ff-80cf-9c6a-dbf0e949f824",
-        "version": 402,
+        "version": 404,
         "type": "page",
         "properties": {
           "title": [
@@ -26355,7 +26443,7 @@
           "social_media_image_preview_url": "attachment:44bee766-850b-4cc1-beff-a2e659403c96:SocialMediaPreviewImage.png"
         },
         "created_time": 1755881179664,
-        "last_edited_time": 1763628967616,
+        "last_edited_time": 1768304179508,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -37017,7 +37105,7 @@
     "25e3b07c-81ff-80a6-8d5d-000cfd50a16d": {
       "value": {
         "id": "25e3b07c-81ff-80a6-8d5d-000cfd50a16d",
-        "version": 155,
+        "version": 219,
         "type": "gallery",
         "format": {
           "table_wrap": true,
@@ -37056,6 +37144,7 @@
         "alive": true,
         "page_sort": [
           "25e3b07c-81ff-8004-802f-dcb19cde5460",
+          "2b93b07c-81ff-80c0-b7bc-f647578ac653",
           "25e3b07c-81ff-80bc-964c-cd1acb07d711",
           "25e3b07c-81ff-8068-ba2c-f9d4200ff658",
           "25e3b07c-81ff-8077-8378-c2c92e5767ca",
@@ -37068,6 +37157,7 @@
           "25e3b07c-81ff-80df-b6f2-e8db695137be",
           "25e3b07c-81ff-80c6-ba14-f09986022e48",
           "26d3b07c-81ff-80a1-9184-c390d13443be",
+          "2db3b07c-81ff-80a3-bb74-dec5603d3373",
           "25e3b07c-81ff-80c8-a0e9-ede4d91d2f8f",
           "25e3b07c-81ff-806d-b2b5-f53ac812dabc",
           "25e3b07c-81ff-8049-9618-e15920c54158",
@@ -37081,7 +37171,9 @@
           "25e3b07c-81ff-80ed-9afd-e2d9c94f5305",
           "25e3b07c-81ff-8064-ad08-c48480ea28f5",
           "27a3b07c-81ff-80ea-b5ff-dcc0b5054793",
+          "2813b07c-81ff-8082-86d9-c743a65e2d7c",
           "25e3b07c-81ff-8027-991d-edc0465fa0cc",
+          "2b93b07c-81ff-80e2-9ca0-daed526056c2",
           "25e3b07c-81ff-804d-9d15-d5520d5f298e",
           "25e3b07c-81ff-8024-ae0d-d1571749de17",
           "25e3b07c-81ff-806f-b224-eef179887dbb",
@@ -37094,16 +37186,23 @@
           "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
           "25e3b07c-81ff-80ae-b03e-ebb0bec98517",
           "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
-          "25e3b07c-81ff-8054-9f66-cd8456080a69",
-          "25e3b07c-81ff-809a-ad94-c4399f89aad7",
-          "25e3b07c-81ff-8052-8af9-e097e59dc856",
-          "25e3b07c-81ff-80f5-91c9-e6f724b43e19",
-          "2793b07c-81ff-80e8-8f3b-effe8d59027b",
-          "2813b07c-81ff-8082-86d9-c743a65e2d7c",
           "2813b07c-81ff-8043-a0ff-c26be81cb208",
           "29d3b07c-81ff-80f2-9c48-d67e2eae6a3f",
           "2b23b07c-81ff-809c-b2b1-d498e747677e",
+          "2d43b07c-81ff-806a-a8d1-d000ddc130d5",
+          "2d53b07c-81ff-801c-ad0a-dc4da8f59276",
+          "25e3b07c-81ff-8054-9f66-cd8456080a69",
+          "25e3b07c-81ff-809a-ad94-c4399f89aad7",
+          "25e3b07c-81ff-8052-8af9-e097e59dc856",
+          "2b93b07c-81ff-80cc-975c-d860a8bf0174",
+          "2b93b07c-81ff-80fb-8fef-e7d1bf114871",
+          "2b93b07c-81ff-808a-b712-fb67676e0cac",
+          "2b93b07c-81ff-805a-96ce-e83d54e473c7",
+          "25e3b07c-81ff-80f5-91c9-e6f724b43e19",
+          "2c03b07c-81ff-80b9-85e6-f71a180d87e8",
+          "2793b07c-81ff-80e8-8f3b-effe8d59027b",
           "25e3b07c-81ff-8040-a8d4-c61a3c357eb2",
+          "2d43b07c-81ff-8057-bab7-d5cf342dabfd",
           "25e3b07c-81ff-809a-9ff7-c176b1405d43",
           "25e3b07c-81ff-8059-beb3-eb832e0d36ca",
           "25e3b07c-81ff-8055-803b-fc0b0e0513d3",
@@ -37118,7 +37217,7 @@
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "created_time": 1760176855849,
-        "last_edited_time": 1763703688216,
+        "last_edited_time": 1767240597666,
         "created_by_table": "notion_user",
         "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
@@ -37128,16 +37227,16 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2893b07c-81ff-808e-a855-ce9d1cb9500d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/de08efef-da17-412c-8e5f-14ea79423368/image.png?table=block&id=2893b07c-81ff-808e-a855-ce9d1cb9500d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=Dm_lvbvXU79GZ6s0ls29E2HybX-DX_TOq4-XgGb3AcI",
-    "2893b07c-81ff-809a-8897-da36d11f94b9": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/106e8b4b-d9bd-43b4-85e2-1176ed42540f/image.png?table=block&id=2893b07c-81ff-809a-8897-da36d11f94b9&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=8h8oTnkuFTHr682iwOlwGv7x46WJbPt2vWu773JftJs",
-    "2893b07c-81ff-802f-8f5f-f1dc67c2b800": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f40903a1-0c0d-4136-9351-6cbe5a7a21e6/スクリーンショット_(335).png?table=block&id=2893b07c-81ff-802f-8f5f-f1dc67c2b800&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=KKE89pnhg3UKvxvz0Jg3I6m_34x1qU9skheMYSLb56I",
-    "2893b07c-81ff-80af-89dd-e779cf78aed1": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/e83d009c-890f-4a0d-ae01-3d4adad6cfcf/image.png?table=block&id=2893b07c-81ff-80af-89dd-e779cf78aed1&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=isfGLbd5IVXEDMdLmNf3cQ0N_zX25_mFmsT3muO6Gsc",
-    "2893b07c-81ff-8049-a4ec-dafe8b85d386": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/7c35c440-882e-450b-9363-1eac9797a9f2/スクリーンショット_(330).png?table=block&id=2893b07c-81ff-8049-a4ec-dafe8b85d386&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=DmBXjYna3EImXK1kV6x7KtsqX0WjxkPLWlTlFQGIFx4",
-    "2893b07c-81ff-80e7-96b6-dfbb7163b955": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/c198d478-62a1-4382-9d06-0e7419923316/スクリーンショット_(324).png?table=block&id=2893b07c-81ff-80e7-96b6-dfbb7163b955&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=RNM14UNOj_5KXTsbVr8TL1wFqDFp0KHB4HfHqTcn_v8",
-    "2893b07c-81ff-801f-a94b-c4273ee041cf": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/c4d3ba8e-dc30-40c6-be1d-79efefae1d0f/スクリーンショット_2025-09-28_235835.png?table=block&id=2893b07c-81ff-801f-a94b-c4273ee041cf&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=-_qQVPyETN__vY9lAE810COyXmumgSRQMF45qeu9qOo",
-    "2893b07c-81ff-8066-ba47-f0c9a2b8ab10": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/6a47bb17-5c2c-4c96-a77e-df5ccdee7bb0/IMG_0722.jpeg?table=block&id=2893b07c-81ff-8066-ba47-f0c9a2b8ab10&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=mGN62aykT-99rLpFRwFHW5-cU-QzV16kijP0Y-pz7NM",
-    "2893b07c-81ff-80e6-a792-c1023275cc37": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/94c21bbe-3652-4d2c-854f-7b10fc76e504/dbfb0dcf-9a05-4d7c-9be5-c741ac7362d5.png?table=block&id=2893b07c-81ff-80e6-a792-c1023275cc37&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=blMXPUKhVyua-8YwUAxb2gCWxolLh4OCaNIUTDo03SY",
-    "2893b07c-81ff-8024-b9e8-eca12ca5bef3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/388b34ed-8d5d-4e48-9236-166391f4a484/崩壊学園編_文字数-1.png?table=block&id=2893b07c-81ff-8024-b9e8-eca12ca5bef3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=LlVp2XcI3u2nnqqAGGik61yvyAEG8flCKDGMD5mVlXM",
-    "2a03b07c-81ff-8068-9e0f-f373b2494539": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/b873c51a-a061-44ae-8300-468782d3717a/image.png?table=block&id=2a03b07c-81ff-8068-9e0f-f373b2494539&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=5-w9rH5IzxPe239irZu3bMGSLW3-Ssc4E8Vlr0GAwyo"
+    "2893b07c-81ff-808e-a855-ce9d1cb9500d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/de08efef-da17-412c-8e5f-14ea79423368/image.png?table=block&id=2893b07c-81ff-808e-a855-ce9d1cb9500d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=nks-u2k-b3Z-CRo5KxdmibIsdsHP0_MRr-RCta-dqis",
+    "2893b07c-81ff-809a-8897-da36d11f94b9": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/106e8b4b-d9bd-43b4-85e2-1176ed42540f/image.png?table=block&id=2893b07c-81ff-809a-8897-da36d11f94b9&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=djxHiptMJ3vY6oh64hlIujK_B9poEWyhl25Aa6gZ2lA",
+    "2893b07c-81ff-802f-8f5f-f1dc67c2b800": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f40903a1-0c0d-4136-9351-6cbe5a7a21e6/スクリーンショット_(335).png?table=block&id=2893b07c-81ff-802f-8f5f-f1dc67c2b800&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=knIHYh-jcuIrpoxq8Wnuaj_XRF7zvLth5U0XF40qgbA",
+    "2893b07c-81ff-80af-89dd-e779cf78aed1": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/e83d009c-890f-4a0d-ae01-3d4adad6cfcf/image.png?table=block&id=2893b07c-81ff-80af-89dd-e779cf78aed1&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=kWpLZMclfQa6CVqwheRFEcUdBzcPoG4lcSnI5Eb6gHs",
+    "2893b07c-81ff-8049-a4ec-dafe8b85d386": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/7c35c440-882e-450b-9363-1eac9797a9f2/スクリーンショット_(330).png?table=block&id=2893b07c-81ff-8049-a4ec-dafe8b85d386&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=wq-lhTTsUqv8RNqEPB4yv--y8L_XrE3bkQbnQdoIh-0",
+    "2893b07c-81ff-80e7-96b6-dfbb7163b955": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/c198d478-62a1-4382-9d06-0e7419923316/スクリーンショット_(324).png?table=block&id=2893b07c-81ff-80e7-96b6-dfbb7163b955&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=OLN3zxX5ZR7Ywr0h9PfFZY0QZnYjEEL5J-sWfSLqQiQ",
+    "2893b07c-81ff-801f-a94b-c4273ee041cf": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/c4d3ba8e-dc30-40c6-be1d-79efefae1d0f/スクリーンショット_2025-09-28_235835.png?table=block&id=2893b07c-81ff-801f-a94b-c4273ee041cf&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=GqjDS6vMSF9cYkc5BTTR7-a1vIKIG85uJOW0YU-yAFk",
+    "2893b07c-81ff-8066-ba47-f0c9a2b8ab10": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/6a47bb17-5c2c-4c96-a77e-df5ccdee7bb0/IMG_0722.jpeg?table=block&id=2893b07c-81ff-8066-ba47-f0c9a2b8ab10&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=_aEjIQDZNgIwJV90uZrmzODpxKmxdC3PX6nNcKFV2Rs",
+    "2893b07c-81ff-80e6-a792-c1023275cc37": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/94c21bbe-3652-4d2c-854f-7b10fc76e504/dbfb0dcf-9a05-4d7c-9be5-c741ac7362d5.png?table=block&id=2893b07c-81ff-80e6-a792-c1023275cc37&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=yxC9Pes0lsPp68C-DMbudxgWC9B6aqCzzutg7ekrxvs",
+    "2893b07c-81ff-8024-b9e8-eca12ca5bef3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/388b34ed-8d5d-4e48-9236-166391f4a484/崩壊学園編_文字数-1.png?table=block&id=2893b07c-81ff-8024-b9e8-eca12ca5bef3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=fK_86OiEKg2KAnsR6QcwkcmwoUsgKRL7g9bKhAT1xJk",
+    "2a03b07c-81ff-8068-9e0f-f373b2494539": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/b873c51a-a061-44ae-8300-468782d3717a/image.png?table=block&id=2a03b07c-81ff-8068-9e0f-f373b2494539&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=BeuV1y-RLhv3U79iHwKhTH_of6Y3LQJJRshymSSyU9M"
   }
 }
