@@ -3,7 +3,7 @@
     "2a53b07c-81ff-803b-9031-c35b360999ae": {
       "value": {
         "id": "2a53b07c-81ff-803b-9031-c35b360999ae",
-        "version": 281,
+        "version": 290,
         "type": "page",
         "properties": {
           "title": [
@@ -46,6 +46,7 @@
           "2b13b07c-81ff-80f5-aa09-ff050dd80f13",
           "2b13b07c-81ff-807f-8707-ddf05bcba59d",
           "2b13b07c-81ff-807c-ade9-ebbe51045820",
+          "2f23b07c-81ff-807a-a0ea-e356d67f4fc6",
           "2b13b07c-81ff-809f-8f32-cc562611fc5c",
           "2e93b07c-81ff-8045-89db-fd496d6d504a",
           "2b13b07c-81ff-8044-b143-de94e39ab85d",
@@ -236,7 +237,7 @@
           "social_media_image_preview_url": "attachment:ed1a5e96-debd-4deb-bf67-fbded38bb906:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578025932,
-        "last_edited_time": 1768495835725,
+        "last_edited_time": 1769247903728,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -5568,7 +5569,7 @@
     "2b13b07c-81ff-807c-ade9-ebbe51045820": {
       "value": {
         "id": "2b13b07c-81ff-807c-ade9-ebbe51045820",
-        "version": 6,
+        "version": 18,
         "type": "quote",
         "properties": {
           "title": [
@@ -5600,7 +5601,7 @@
           }
         },
         "created_time": 1763629637068,
-        "last_edited_time": 1763963543514,
+        "last_edited_time": 1769247872025,
         "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
         "parent_table": "block",
         "alive": true,
@@ -5688,6 +5689,374 @@
                     }
                   ],
                   "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2f23b07c-81ff-807a-a0ea-e356d67f4fc6": {
+      "value": {
+        "id": "2f23b07c-81ff-807a-a0ea-e356d67f4fc6",
+        "version": 36,
+        "type": "quote",
+        "properties": {
+          "title": [
+            [
+              "オーナー：やれやれ、君が生死や"
+            ],
+            [
+              "信念",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "といった壮大なことを話し始めたから、"
+            ],
+            [
+              "世界を救う",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "だとか、壮大な迷宮に突然足を踏み入れてしまったのかと思ったよ。\nオーナー："
+            ],
+            [
+              "若者",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "はそのように自意識過剰になるものだ。そして大人になると、恥ずかしくなって誰にも話せなくなるものだよ。"
+            ]
+          ]
+        },
+        "format": {
+          "block_color": "gray_background"
+        },
+        "created_time": 1769247866447,
+        "last_edited_time": 1769247903728,
+        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
+        "parent_table": "block",
+        "alive": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "K-F7rekLWWaR2bcA_etizw,\"start\",\"end\"",
+            "n": {
+              "K-F7rekLWWaR2bcA_etizw,\"start\",\"end\"": {
+                "s": {
+                  "x": "K-F7rekLWWaR2bcA_etizw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "gRWunosHZ9BXIpgMEJ76Jg,[\"kRfnf_hzm3f2\",21],\"end\""
+                ]
+              },
+              "gRWunosHZ9BXIpgMEJ76Jg,[\"kRfnf_hzm3f2\",21],\"end\"": {
+                "s": {
+                  "x": "gRWunosHZ9BXIpgMEJ76Jg",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        21
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        23
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        21
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        22
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        21
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "-WPUKplOzfZr8G2brjBYSQ,[\"kRfnf_hzm3f2\",92],\"end\""
+                ]
+              },
+              "-WPUKplOzfZr8G2brjBYSQ,[\"kRfnf_hzm3f2\",92],\"end\"": {
+                "s": {
+                  "x": "-WPUKplOzfZr8G2brjBYSQ",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        92
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "zxDJaMM3u50A",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 15,
+                      "c": "オーナー：やれやれ、君が生死や"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "zxDJaMM3u50A",
+                        16
+                      ],
+                      "o": [
+                        "zxDJaMM3u50A",
+                        15
+                      ],
+                      "l": 2,
+                      "c": "信念",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "-WPUKplOzfZr8G2brjBYSQ",
+                          "l": "",
+                          "i": [
+                            "kRfnf_hzm3f2",
+                            94
+                          ],
+                          "s": {
+                            "i": [
+                              "zxDJaMM3u50A",
+                              16
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "zxDJaMM3u50A",
+                              18
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "zxDJaMM3u50A",
+                        18
+                      ],
+                      "o": [
+                        "zxDJaMM3u50A",
+                        17
+                      ],
+                      "l": 18,
+                      "c": "といった壮大なことを話し始めたから、",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "zxDJaMM3u50A",
+                        36
+                      ],
+                      "o": [
+                        "zxDJaMM3u50A",
+                        35
+                      ],
+                      "l": 5,
+                      "c": "世界を救う",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "-WPUKplOzfZr8G2brjBYSQ",
+                          "l": "",
+                          "i": [
+                            "kRfnf_hzm3f2",
+                            95
+                          ],
+                          "s": {
+                            "i": [
+                              "zxDJaMM3u50A",
+                              36
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "zxDJaMM3u50A",
+                              41
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "zxDJaMM3u50A",
+                        41
+                      ],
+                      "o": [
+                        "zxDJaMM3u50A",
+                        40
+                      ],
+                      "l": 31,
+                      "c": "だとか、壮大な迷宮に突然足を踏み入れてしまったのかと思ったよ。",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        93
+                      ],
+                      "o": [
+                        "zxDJaMM3u50A",
+                        71
+                      ],
+                      "l": 1,
+                      "c": "\n"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "qq3rmuOkiHFh590NJu_zHA,[\"kRfnf_hzm3f2\",78],\"end\""
+                ]
+              },
+              "qq3rmuOkiHFh590NJu_zHA,[\"kRfnf_hzm3f2\",78],\"end\"": {
+                "s": {
+                  "x": "qq3rmuOkiHFh590NJu_zHA",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        78
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "BTI2tyfwwMY9",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "オーナー："
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "BTI2tyfwwMY9",
+                        6
+                      ],
+                      "o": [
+                        "BTI2tyfwwMY9",
+                        5
+                      ],
+                      "l": 2,
+                      "c": "若者",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "qq3rmuOkiHFh590NJu_zHA",
+                          "l": "",
+                          "i": [
+                            "kRfnf_hzm3f2",
+                            79
+                          ],
+                          "s": {
+                            "i": [
+                              "BTI2tyfwwMY9",
+                              6
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "BTI2tyfwwMY9",
+                              8
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "BTI2tyfwwMY9",
+                        8
+                      ],
+                      "o": [
+                        "BTI2tyfwwMY9",
+                        7
+                      ],
+                      "l": 50,
+                      "c": "はそのように自意識過剰になるものだ。そして大人になると、恥ずかしくなって誰にも話せなくなるものだよ。",
+                      "b": []
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
                 },
                 "c": []
               }
@@ -7946,271 +8315,10 @@
       },
       "role": "reader"
     },
-    "2b13b07c-81ff-80e3-a114-ca53431ef2f3": {
-      "value": {
-        "id": "2b13b07c-81ff-80e3-a114-ca53431ef2f3",
-        "version": 7,
-        "type": "quote",
-        "properties": {
-          "title": [
-            [
-              "ごめんなさい。私は炎に"
-            ],
-            [
-              "虚無と破滅*",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "しか見いだせない。\n魔人：構わない。"
-            ],
-            [
-              "破滅*",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "を望むこともある意味では"
-            ],
-            [
-              "希望",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "だ。\n終わりに対する希望？\n魔人：そうだ。"
-            ]
-          ]
-        },
-        "format": {
-          "block_color": "gray_background",
-          "copied_from_pointer": {
-            "id": "2a93b07c-81ff-8057-951e-dd1a79de0107",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1763629637094,
-        "last_edited_time": 1763629637554,
-        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2a93b07c-81ff-8057-951e-dd1a79de0107",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "572JapTN35VdjNx6_-1iYw,\"start\",\"end\"",
-            "n": {
-              "572JapTN35VdjNx6_-1iYw,\"start\",\"end\"": {
-                "s": {
-                  "x": "572JapTN35VdjNx6_-1iYw",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "SqJxmcMkKrdk",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 11,
-                      "c": "ごめんなさい。私は炎に"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "SqJxmcMkKrdk",
-                        12
-                      ],
-                      "o": [
-                        "SqJxmcMkKrdk",
-                        11
-                      ],
-                      "l": 6,
-                      "c": "虚無と破滅*",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "572JapTN35VdjNx6_-1iYw",
-                          "l": "",
-                          "i": [
-                            "SqJxmcMkKrdk",
-                            74
-                          ],
-                          "s": {
-                            "i": [
-                              "SqJxmcMkKrdk",
-                              12
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "SqJxmcMkKrdk",
-                              18
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "SqJxmcMkKrdk",
-                        18
-                      ],
-                      "o": [
-                        "SqJxmcMkKrdk",
-                        17
-                      ],
-                      "l": 18,
-                      "c": "しか見いだせない。\n魔人：構わない。",
-                      "b": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "SqJxmcMkKrdk",
-                        36
-                      ],
-                      "o": [
-                        "SqJxmcMkKrdk",
-                        35
-                      ],
-                      "l": 3,
-                      "c": "破滅*",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "572JapTN35VdjNx6_-1iYw",
-                          "l": "",
-                          "i": [
-                            "SqJxmcMkKrdk",
-                            75
-                          ],
-                          "s": {
-                            "i": [
-                              "SqJxmcMkKrdk",
-                              36
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "SqJxmcMkKrdk",
-                              39
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "SqJxmcMkKrdk",
-                        39
-                      ],
-                      "o": [
-                        "SqJxmcMkKrdk",
-                        38
-                      ],
-                      "l": 12,
-                      "c": "を望むこともある意味では",
-                      "b": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "SqJxmcMkKrdk",
-                        51
-                      ],
-                      "o": [
-                        "SqJxmcMkKrdk",
-                        50
-                      ],
-                      "l": 2,
-                      "c": "希望",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "572JapTN35VdjNx6_-1iYw",
-                          "l": "",
-                          "i": [
-                            "SqJxmcMkKrdk",
-                            76
-                          ],
-                          "s": {
-                            "i": [
-                              "SqJxmcMkKrdk",
-                              51
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "SqJxmcMkKrdk",
-                              53
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "SqJxmcMkKrdk",
-                        53
-                      ],
-                      "o": [
-                        "SqJxmcMkKrdk",
-                        52
-                      ],
-                      "l": 21,
-                      "c": "だ。\n終わりに対する希望？\n魔人：そうだ。",
-                      "b": []
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
     "2a53b07c-81ff-807d-9296-df79a1b4ccc9": {
       "value": {
         "id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
-        "version": 216,
+        "version": 227,
         "type": "page",
         "properties": {
           "title": [
@@ -8404,7 +8512,7 @@
           "social_media_image_preview_url": "attachment:74cff22d-31fa-4482-8de3-8aa977d262f9:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578014330,
-        "last_edited_time": 1768470001305,
+        "last_edited_time": 1769266029446,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -9054,7 +9162,7 @@
     "2b13b07c-81ff-8041-ba90-d511329db605": {
       "value": {
         "id": "2b13b07c-81ff-8041-ba90-d511329db605",
-        "version": 6,
+        "version": 7,
         "type": "text",
         "properties": {
           "title": [
@@ -9237,6 +9345,28 @@
                   ],
                   "l": ""
                 },
+                "c": [
+                  "QsiOCrpUyu1HnuFOSfAIQQ,[\"kRfnf_hzm3f2\",21],\"end\""
+                ]
+              },
+              "QsiOCrpUyu1HnuFOSfAIQQ,[\"kRfnf_hzm3f2\",21],\"end\"": {
+                "s": {
+                  "x": "QsiOCrpUyu1HnuFOSfAIQQ",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        21
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
                 "c": []
               }
             }
@@ -9292,6 +9422,267 @@
                       "o": "start",
                       "l": 20,
                       "c": "私は英雄になるのだ。あの救世主のように。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2b13b07c-81ff-80e3-a114-ca53431ef2f3": {
+      "value": {
+        "id": "2b13b07c-81ff-80e3-a114-ca53431ef2f3",
+        "version": 7,
+        "type": "quote",
+        "properties": {
+          "title": [
+            [
+              "ごめんなさい。私は炎に"
+            ],
+            [
+              "虚無と破滅*",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "しか見いだせない。\n魔人：構わない。"
+            ],
+            [
+              "破滅*",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "を望むこともある意味では"
+            ],
+            [
+              "希望",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "だ。\n終わりに対する希望？\n魔人：そうだ。"
+            ]
+          ]
+        },
+        "format": {
+          "block_color": "gray_background",
+          "copied_from_pointer": {
+            "id": "2a93b07c-81ff-8057-951e-dd1a79de0107",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1763629637094,
+        "last_edited_time": 1763629637554,
+        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2a93b07c-81ff-8057-951e-dd1a79de0107",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "572JapTN35VdjNx6_-1iYw,\"start\",\"end\"",
+            "n": {
+              "572JapTN35VdjNx6_-1iYw,\"start\",\"end\"": {
+                "s": {
+                  "x": "572JapTN35VdjNx6_-1iYw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SqJxmcMkKrdk",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 11,
+                      "c": "ごめんなさい。私は炎に"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SqJxmcMkKrdk",
+                        12
+                      ],
+                      "o": [
+                        "SqJxmcMkKrdk",
+                        11
+                      ],
+                      "l": 6,
+                      "c": "虚無と破滅*",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "572JapTN35VdjNx6_-1iYw",
+                          "l": "",
+                          "i": [
+                            "SqJxmcMkKrdk",
+                            74
+                          ],
+                          "s": {
+                            "i": [
+                              "SqJxmcMkKrdk",
+                              12
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "SqJxmcMkKrdk",
+                              18
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SqJxmcMkKrdk",
+                        18
+                      ],
+                      "o": [
+                        "SqJxmcMkKrdk",
+                        17
+                      ],
+                      "l": 18,
+                      "c": "しか見いだせない。\n魔人：構わない。",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SqJxmcMkKrdk",
+                        36
+                      ],
+                      "o": [
+                        "SqJxmcMkKrdk",
+                        35
+                      ],
+                      "l": 3,
+                      "c": "破滅*",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "572JapTN35VdjNx6_-1iYw",
+                          "l": "",
+                          "i": [
+                            "SqJxmcMkKrdk",
+                            75
+                          ],
+                          "s": {
+                            "i": [
+                              "SqJxmcMkKrdk",
+                              36
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "SqJxmcMkKrdk",
+                              39
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SqJxmcMkKrdk",
+                        39
+                      ],
+                      "o": [
+                        "SqJxmcMkKrdk",
+                        38
+                      ],
+                      "l": 12,
+                      "c": "を望むこともある意味では",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SqJxmcMkKrdk",
+                        51
+                      ],
+                      "o": [
+                        "SqJxmcMkKrdk",
+                        50
+                      ],
+                      "l": 2,
+                      "c": "希望",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "572JapTN35VdjNx6_-1iYw",
+                          "l": "",
+                          "i": [
+                            "SqJxmcMkKrdk",
+                            76
+                          ],
+                          "s": {
+                            "i": [
+                              "SqJxmcMkKrdk",
+                              51
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "SqJxmcMkKrdk",
+                              53
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "SqJxmcMkKrdk",
+                        53
+                      ],
+                      "o": [
+                        "SqJxmcMkKrdk",
+                        52
+                      ],
+                      "l": 21,
+                      "c": "だ。\n終わりに対する希望？\n魔人：そうだ。",
+                      "b": []
                     },
                     {
                       "t": "e"
@@ -12807,188 +13198,6 @@
       },
       "role": "reader"
     },
-    "2b13b07c-81ff-806e-8884-e76b29e4fa5a": {
-      "value": {
-        "id": "2b13b07c-81ff-806e-8884-e76b29e4fa5a",
-        "version": 8,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "寒鉄",
-              [
-                [
-                  "a",
-                  "/1b93b07c81ff80e9826dd2c0621206df?pvs=25"
-                ]
-              ]
-            ],
-            [
-              "の言ったことをちゃんと覚えていた"
-            ],
-            [
-              "ポポ",
-              [
-                [
-                  "a",
-                  "/1b83b07c81ff803aa2c3f0f0d71feee1?pvs=25"
-                ]
-              ]
-            ],
-            [
-              "。"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2a63b07c-81ff-80a0-a51b-fbc492f30155",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1763629641442,
-        "last_edited_time": 1763629641442,
-        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2a63b07c-81ff-80a0-a51b-fbc492f30155",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "7XDxiX0M1a9n4KK8xOkSxA,\"start\",\"end\"",
-            "n": {
-              "7XDxiX0M1a9n4KK8xOkSxA,\"start\",\"end\"": {
-                "s": {
-                  "x": "7XDxiX0M1a9n4KK8xOkSxA",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "n8DGNspdaSeZ",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 2,
-                      "c": "寒鉄",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "7XDxiX0M1a9n4KK8xOkSxA",
-                          "l": "",
-                          "i": [
-                            "n8DGNspdaSeZ",
-                            22
-                          ],
-                          "s": {
-                            "i": [
-                              "n8DGNspdaSeZ",
-                              1
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "n8DGNspdaSeZ",
-                              2
-                            ],
-                            "a": "a"
-                          },
-                          "a": [
-                            "a",
-                            "/1b93b07c81ff80e9826dd2c0621206df?pvs=25"
-                          ]
-                        }
-                      ],
-                      "a": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "n8DGNspdaSeZ",
-                        3
-                      ],
-                      "o": [
-                        "n8DGNspdaSeZ",
-                        2
-                      ],
-                      "l": 16,
-                      "c": "の言ったことをちゃんと覚えていた"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "n8DGNspdaSeZ",
-                        19
-                      ],
-                      "o": [
-                        "n8DGNspdaSeZ",
-                        18
-                      ],
-                      "l": 2,
-                      "c": "ポポ",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "7XDxiX0M1a9n4KK8xOkSxA",
-                          "l": "",
-                          "i": [
-                            "n8DGNspdaSeZ",
-                            23
-                          ],
-                          "s": {
-                            "i": [
-                              "n8DGNspdaSeZ",
-                              19
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "n8DGNspdaSeZ",
-                              20
-                            ],
-                            "a": "a"
-                          },
-                          "a": [
-                            "a",
-                            "/1b83b07c81ff803aa2c3f0f0d71feee1?pvs=25"
-                          ]
-                        }
-                      ],
-                      "a": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "n8DGNspdaSeZ",
-                        21
-                      ],
-                      "o": [
-                        "n8DGNspdaSeZ",
-                        20
-                      ],
-                      "l": 1,
-                      "c": "。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
     "1b63b07c-81ff-809a-86e7-c628716ebd94": {
       "value": {
         "id": "1b63b07c-81ff-809a-86e7-c628716ebd94",
@@ -13134,89 +13343,6 @@
                       "o": "start",
                       "l": 7,
                       "c": "パリス・パラド"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "1b93b07c-81ff-80e9-826d-d2c0621206df": {
-      "value": {
-        "id": "1b93b07c-81ff-80e9-826d-d2c0621206df",
-        "version": 88,
-        "type": "page",
-        "properties": {
-          "title": [
-            [
-              "鉄師一夏"
-            ]
-          ]
-        },
-        "content": [
-          "1ad3b07c-81ff-8096-aa08-f150258db789",
-          "1bc3b07c-81ff-80c1-9af4-fb3453b2c216",
-          "1b93b07c-81ff-8038-be7e-ec1804f80a57",
-          "1b93b07c-81ff-80ea-b9a5-d40456aa9643",
-          "1b93b07c-81ff-806e-a19a-d6d04c48c6dd",
-          "1b93b07c-81ff-809b-8791-dbf772fc20d1",
-          "1b93b07c-81ff-80e0-9754-e88a22f8eded",
-          "1bc3b07c-81ff-80fe-b54b-dff1e5408c4b",
-          "1bc3b07c-81ff-8068-8b23-e7f45f0bb7d2",
-          "1bc3b07c-81ff-805d-b22f-e2e6ef919e0d",
-          "1bc3b07c-81ff-8034-82f1-c57d18520833",
-          "1bc3b07c-81ff-8047-ba08-d657e81edae5",
-          "1bc3b07c-81ff-800b-9a9a-d009ddbf7aa1",
-          "1bc3b07c-81ff-80c0-aabd-dc7340426b83",
-          "1bc3b07c-81ff-80da-8113-e0f58846f5c0",
-          "1bc3b07c-81ff-8072-add5-f711182d790d",
-          "1bc3b07c-81ff-80f0-bbfd-c39759901e29",
-          "1bc3b07c-81ff-800a-a204-f596cf162cbb",
-          "1c53b07c-81ff-802f-b96f-e9961f9a71a2"
-        ],
-        "format": {
-          "copied_from_pointer": {
-            "id": "1b93b07c-81ff-8070-9bb8-d324721c2653",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1742246264012,
-        "last_edited_time": 1753631270016,
-        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "1b93b07c-81ff-8070-9bb8-d324721c2653",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "bHMLWNxI54tK66HPti9sbg,\"start\",\"end\"",
-            "n": {
-              "bHMLWNxI54tK66HPti9sbg,\"start\",\"end\"": {
-                "s": {
-                  "x": "bHMLWNxI54tK66HPti9sbg",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "4efjYiYSUxuE",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 4,
-                      "c": "鉄師一夏"
                     },
                     {
                       "t": "e"
@@ -13528,6 +13654,188 @@
                   "i": [
                     {
                       "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2b13b07c-81ff-806e-8884-e76b29e4fa5a": {
+      "value": {
+        "id": "2b13b07c-81ff-806e-8884-e76b29e4fa5a",
+        "version": 8,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "寒鉄",
+              [
+                [
+                  "a",
+                  "/1b93b07c81ff80e9826dd2c0621206df?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "の言ったことをちゃんと覚えていた"
+            ],
+            [
+              "ポポ",
+              [
+                [
+                  "a",
+                  "/1b83b07c81ff803aa2c3f0f0d71feee1?pvs=25"
+                ]
+              ]
+            ],
+            [
+              "。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2a63b07c-81ff-80a0-a51b-fbc492f30155",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1763629641442,
+        "last_edited_time": 1763629641442,
+        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2a63b07c-81ff-80a0-a51b-fbc492f30155",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "7XDxiX0M1a9n4KK8xOkSxA,\"start\",\"end\"",
+            "n": {
+              "7XDxiX0M1a9n4KK8xOkSxA,\"start\",\"end\"": {
+                "s": {
+                  "x": "7XDxiX0M1a9n4KK8xOkSxA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "n8DGNspdaSeZ",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "寒鉄",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "7XDxiX0M1a9n4KK8xOkSxA",
+                          "l": "",
+                          "i": [
+                            "n8DGNspdaSeZ",
+                            22
+                          ],
+                          "s": {
+                            "i": [
+                              "n8DGNspdaSeZ",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "n8DGNspdaSeZ",
+                              2
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b93b07c81ff80e9826dd2c0621206df?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "n8DGNspdaSeZ",
+                        3
+                      ],
+                      "o": [
+                        "n8DGNspdaSeZ",
+                        2
+                      ],
+                      "l": 16,
+                      "c": "の言ったことをちゃんと覚えていた"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "n8DGNspdaSeZ",
+                        19
+                      ],
+                      "o": [
+                        "n8DGNspdaSeZ",
+                        18
+                      ],
+                      "l": 2,
+                      "c": "ポポ",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "7XDxiX0M1a9n4KK8xOkSxA",
+                          "l": "",
+                          "i": [
+                            "n8DGNspdaSeZ",
+                            23
+                          ],
+                          "s": {
+                            "i": [
+                              "n8DGNspdaSeZ",
+                              19
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "n8DGNspdaSeZ",
+                              20
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1b83b07c81ff803aa2c3f0f0d71feee1?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "n8DGNspdaSeZ",
+                        21
+                      ],
+                      "o": [
+                        "n8DGNspdaSeZ",
+                        20
+                      ],
+                      "l": 1,
+                      "c": "。"
                     },
                     {
                       "t": "e"
@@ -17605,63 +17913,61 @@
       },
       "role": "reader"
     },
-    "2b13b07c-81ff-80e1-bd1a-cd31ee303e3c": {
+    "1b93b07c-81ff-80e9-826d-d2c0621206df": {
       "value": {
-        "id": "2b13b07c-81ff-80e1-bd1a-cd31ee303e3c",
-        "version": 6,
-        "type": "quote",
+        "id": "1b93b07c-81ff-80e9-826d-d2c0621206df",
+        "version": 88,
+        "type": "page",
         "properties": {
           "title": [
             [
-              "カリン：わぁ、ラニアットの銃のパーツを見つけたの？\nブローニャ：事件現場の近くで見つかったんです。一丁だけでしたが、おそらく"
-            ],
-            [
-              "「影」が使いこなせなかった",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "のでしょう。\nラニアット：この一丁だけは、私が"
-            ],
-            [
-              "ゴルディアス家から持ってきた武器",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "なんです……"
+              "鉄師一夏"
             ]
           ]
         },
+        "content": [
+          "1ad3b07c-81ff-8096-aa08-f150258db789",
+          "1bc3b07c-81ff-80c1-9af4-fb3453b2c216",
+          "1b93b07c-81ff-8038-be7e-ec1804f80a57",
+          "1b93b07c-81ff-80ea-b9a5-d40456aa9643",
+          "1b93b07c-81ff-806e-a19a-d6d04c48c6dd",
+          "1b93b07c-81ff-809b-8791-dbf772fc20d1",
+          "1b93b07c-81ff-80e0-9754-e88a22f8eded",
+          "1bc3b07c-81ff-80fe-b54b-dff1e5408c4b",
+          "1bc3b07c-81ff-8068-8b23-e7f45f0bb7d2",
+          "1bc3b07c-81ff-805d-b22f-e2e6ef919e0d",
+          "1bc3b07c-81ff-8034-82f1-c57d18520833",
+          "1bc3b07c-81ff-8047-ba08-d657e81edae5",
+          "1bc3b07c-81ff-800b-9a9a-d009ddbf7aa1",
+          "1bc3b07c-81ff-80c0-aabd-dc7340426b83",
+          "1bc3b07c-81ff-80da-8113-e0f58846f5c0",
+          "1bc3b07c-81ff-8072-add5-f711182d790d",
+          "1bc3b07c-81ff-80f0-bbfd-c39759901e29",
+          "1bc3b07c-81ff-800a-a204-f596cf162cbb",
+          "1c53b07c-81ff-802f-b96f-e9961f9a71a2"
+        ],
         "format": {
-          "block_color": "gray_background",
           "copied_from_pointer": {
-            "id": "2ae3b07c-81ff-805f-82f3-ceb89049f00e",
+            "id": "1b93b07c-81ff-8070-9bb8-d324721c2653",
             "table": "block",
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           }
         },
-        "created_time": 1763629637175,
-        "last_edited_time": 1763629637554,
-        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
+        "created_time": 1742246264012,
+        "last_edited_time": 1753631270016,
+        "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
-        "copied_from": "2ae3b07c-81ff-805f-82f3-ceb89049f00e",
+        "copied_from": "1b93b07c-81ff-8070-9bb8-d324721c2653",
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "Cpo5t7lQQUuJRHQ5Vxhy6A,\"start\",\"end\"",
+            "r": "bHMLWNxI54tK66HPti9sbg,\"start\",\"end\"",
             "n": {
-              "Cpo5t7lQQUuJRHQ5Vxhy6A,\"start\",\"end\"": {
+              "bHMLWNxI54tK66HPti9sbg,\"start\",\"end\"": {
                 "s": {
-                  "x": "Cpo5t7lQQUuJRHQ5Vxhy6A",
+                  "x": "bHMLWNxI54tK66HPti9sbg",
                   "i": [
                     {
                       "t": "s"
@@ -17669,122 +17975,12 @@
                     {
                       "t": "t",
                       "i": [
-                        "adPpLAO4QsSY",
+                        "4efjYiYSUxuE",
                         1
                       ],
                       "o": "start",
-                      "l": 62,
-                      "c": "カリン：わぁ、ラニアットの銃のパーツを見つけたの？\nブローニャ：事件現場の近くで見つかったんです。一丁だけでしたが、おそらく"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "adPpLAO4QsSY",
-                        63
-                      ],
-                      "o": [
-                        "adPpLAO4QsSY",
-                        62
-                      ],
-                      "l": 13,
-                      "c": "「影」が使いこなせなかった",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "Cpo5t7lQQUuJRHQ5Vxhy6A",
-                          "l": "",
-                          "i": [
-                            "adPpLAO4QsSY",
-                            121
-                          ],
-                          "s": {
-                            "i": [
-                              "adPpLAO4QsSY",
-                              63
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "adPpLAO4QsSY",
-                              76
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "adPpLAO4QsSY",
-                        76
-                      ],
-                      "o": [
-                        "adPpLAO4QsSY",
-                        75
-                      ],
-                      "l": 23,
-                      "c": "のでしょう。\nラニアット：この一丁だけは、私が",
-                      "b": []
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "adPpLAO4QsSY",
-                        99
-                      ],
-                      "o": [
-                        "adPpLAO4QsSY",
-                        98
-                      ],
-                      "l": 16,
-                      "c": "ゴルディアス家から持ってきた武器",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "Cpo5t7lQQUuJRHQ5Vxhy6A",
-                          "l": "",
-                          "i": [
-                            "adPpLAO4QsSY",
-                            122
-                          ],
-                          "s": {
-                            "i": [
-                              "adPpLAO4QsSY",
-                              99
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "adPpLAO4QsSY",
-                              115
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "adPpLAO4QsSY",
-                        115
-                      ],
-                      "o": [
-                        "adPpLAO4QsSY",
-                        114
-                      ],
-                      "l": 6,
-                      "c": "なんです……",
-                      "b": []
+                      "l": 4,
+                      "c": "鉄師一夏"
                     },
                     {
                       "t": "e"
@@ -17973,6 +18169,201 @@
                     }
                   ],
                   "l": "l"
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2b13b07c-81ff-80e1-bd1a-cd31ee303e3c": {
+      "value": {
+        "id": "2b13b07c-81ff-80e1-bd1a-cd31ee303e3c",
+        "version": 6,
+        "type": "quote",
+        "properties": {
+          "title": [
+            [
+              "カリン：わぁ、ラニアットの銃のパーツを見つけたの？\nブローニャ：事件現場の近くで見つかったんです。一丁だけでしたが、おそらく"
+            ],
+            [
+              "「影」が使いこなせなかった",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "のでしょう。\nラニアット：この一丁だけは、私が"
+            ],
+            [
+              "ゴルディアス家から持ってきた武器",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "なんです……"
+            ]
+          ]
+        },
+        "format": {
+          "block_color": "gray_background",
+          "copied_from_pointer": {
+            "id": "2ae3b07c-81ff-805f-82f3-ceb89049f00e",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1763629637175,
+        "last_edited_time": 1763629637554,
+        "parent_id": "2a53b07c-81ff-803b-9031-c35b360999ae",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2ae3b07c-81ff-805f-82f3-ceb89049f00e",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Cpo5t7lQQUuJRHQ5Vxhy6A,\"start\",\"end\"",
+            "n": {
+              "Cpo5t7lQQUuJRHQ5Vxhy6A,\"start\",\"end\"": {
+                "s": {
+                  "x": "Cpo5t7lQQUuJRHQ5Vxhy6A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "adPpLAO4QsSY",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 62,
+                      "c": "カリン：わぁ、ラニアットの銃のパーツを見つけたの？\nブローニャ：事件現場の近くで見つかったんです。一丁だけでしたが、おそらく"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "adPpLAO4QsSY",
+                        63
+                      ],
+                      "o": [
+                        "adPpLAO4QsSY",
+                        62
+                      ],
+                      "l": 13,
+                      "c": "「影」が使いこなせなかった",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "Cpo5t7lQQUuJRHQ5Vxhy6A",
+                          "l": "",
+                          "i": [
+                            "adPpLAO4QsSY",
+                            121
+                          ],
+                          "s": {
+                            "i": [
+                              "adPpLAO4QsSY",
+                              63
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "adPpLAO4QsSY",
+                              76
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "adPpLAO4QsSY",
+                        76
+                      ],
+                      "o": [
+                        "adPpLAO4QsSY",
+                        75
+                      ],
+                      "l": 23,
+                      "c": "のでしょう。\nラニアット：この一丁だけは、私が",
+                      "b": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "adPpLAO4QsSY",
+                        99
+                      ],
+                      "o": [
+                        "adPpLAO4QsSY",
+                        98
+                      ],
+                      "l": 16,
+                      "c": "ゴルディアス家から持ってきた武器",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "Cpo5t7lQQUuJRHQ5Vxhy6A",
+                          "l": "",
+                          "i": [
+                            "adPpLAO4QsSY",
+                            122
+                          ],
+                          "s": {
+                            "i": [
+                              "adPpLAO4QsSY",
+                              99
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "adPpLAO4QsSY",
+                              115
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "adPpLAO4QsSY",
+                        115
+                      ],
+                      "o": [
+                        "adPpLAO4QsSY",
+                        114
+                      ],
+                      "l": 6,
+                      "c": "なんです……",
+                      "b": []
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
                 },
                 "c": []
               }
@@ -43161,10 +43552,10 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2b13b07c-81ff-803f-8ae7-f6d2c16e75d4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1c936670-5d2c-4970-acef-a9fc46fd9ba1/image.png?table=block&id=2b13b07c-81ff-803f-8ae7-f6d2c16e75d4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=LQ5KvacvoGM4cdL1LwaDH3ren6JL-yyV6jevtXgeDtM",
-    "2b13b07c-81ff-807e-91fe-fc87d3e64140": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/a39c8a1a-3456-4709-9a06-24a4ad11cd56/760ca1e5gy1hobi70di1cj20sg114b29.jpg?table=block&id=2b13b07c-81ff-807e-91fe-fc87d3e64140&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=qUP25W5ZqxwBoXKNJ0QqLjTy9rZSwXDUw86uRfitFa0",
-    "2b13b07c-81ff-8040-af5c-d312947bbfda": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/65b356cf-629b-456c-ad30-f89db6e2fd44/image.png?table=block&id=2b13b07c-81ff-8040-af5c-d312947bbfda&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=nXeSBobkpxyUkulhO76dLyDGFcidL8C7l48NF-oDHgE",
-    "2b13b07c-81ff-8035-96f5-eca7fdcdd218": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1ac304ea-7d7e-411c-b1b2-4548393455cc/Lの肖像.jpg?table=block&id=2b13b07c-81ff-8035-96f5-eca7fdcdd218&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=4XWigGQQmyNn7Cg7S7JfeHeHMepbPB0wFNDk8kXHabo",
-    "2b13b07c-81ff-804c-94ef-ecba1d4b2c28": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/9a1a5beb-bcaa-483d-b742-3ce1b1dcd22d/image.png?table=block&id=2b13b07c-81ff-804c-94ef-ecba1d4b2c28&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=oaQEAv-fI2HlLCb4cFBy_k7ZtP7qW_YHXIdIwFQeEiQ"
+    "2b13b07c-81ff-803f-8ae7-f6d2c16e75d4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1c936670-5d2c-4970-acef-a9fc46fd9ba1/image.png?table=block&id=2b13b07c-81ff-803f-8ae7-f6d2c16e75d4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=fM3C4aNVKg3JDaYKo0ItY88PHj1gV3pVseZ0VbwzDvM",
+    "2b13b07c-81ff-807e-91fe-fc87d3e64140": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/a39c8a1a-3456-4709-9a06-24a4ad11cd56/760ca1e5gy1hobi70di1cj20sg114b29.jpg?table=block&id=2b13b07c-81ff-807e-91fe-fc87d3e64140&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=GcYGakHX7batq-ETRxF38elbtr34HAuXz6VE2zd-Uho",
+    "2b13b07c-81ff-8040-af5c-d312947bbfda": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/65b356cf-629b-456c-ad30-f89db6e2fd44/image.png?table=block&id=2b13b07c-81ff-8040-af5c-d312947bbfda&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=QKQeuMUIGDMSkYZ_znD3N02oUPH29vCVG3GSWN2B8ec",
+    "2b13b07c-81ff-8035-96f5-eca7fdcdd218": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/1ac304ea-7d7e-411c-b1b2-4548393455cc/Lの肖像.jpg?table=block&id=2b13b07c-81ff-8035-96f5-eca7fdcdd218&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=IBaJfDZLk63lhDj7uyAV9P7uM6z1LgCkwQSZLqPlX4o",
+    "2b13b07c-81ff-804c-94ef-ecba1d4b2c28": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/9a1a5beb-bcaa-483d-b742-3ce1b1dcd22d/image.png?table=block&id=2b13b07c-81ff-804c-94ef-ecba1d4b2c28&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=v0pBzCyQFCjgAjY9S37QPEbJhTKv8uuJzbgAShP3tik"
   }
 }

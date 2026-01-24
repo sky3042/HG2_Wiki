@@ -3,7 +3,7 @@
     "2a53b07c-81ff-807d-9296-df79a1b4ccc9": {
       "value": {
         "id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
-        "version": 216,
+        "version": 227,
         "type": "page",
         "properties": {
           "title": [
@@ -197,7 +197,7 @@
           "social_media_image_preview_url": "attachment:74cff22d-31fa-4482-8de3-8aa977d262f9:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578014330,
-        "last_edited_time": 1768470001305,
+        "last_edited_time": 1769266029446,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -17179,23 +17179,15 @@
     "2893b07c-81ff-80f6-9b5f-ff0b267d029d": {
       "value": {
         "id": "2893b07c-81ff-80f6-9b5f-ff0b267d029d",
-        "version": 12,
+        "version": 31,
         "type": "quote",
         "properties": {
           "title": [
             [
-              "ラニアット：これでどうでしょう！"
+              "ラニアット：これでどうでしょう！\n巫静妃：こんなに早く！？\n\n巫静妃：ラニアットさん、さすがですね。「私たちが崩壊学園の関係者である」ことと「実際の行動過程」をうまく曖昧にできています。"
             ]
           ]
         },
-        "content": [
-          "2893b07c-81ff-80f5-917d-e877fb182bc3",
-          "2893b07c-81ff-806a-9711-f0ccaf6559b2",
-          "2893b07c-81ff-80ae-844a-e58cbe19c65c",
-          "2893b07c-81ff-8056-bf67-d89507735532",
-          "2893b07c-81ff-80f0-9f78-edfff859e7d9",
-          "2893b07c-81ff-80b4-b5eb-ce3d5930ad85"
-        ],
         "format": {
           "block_color": "gray_background",
           "copied_from_pointer": {
@@ -17205,7 +17197,7 @@
           }
         },
         "created_time": 1760170550971,
-        "last_edited_time": 1762578017477,
+        "last_edited_time": 1769265985112,
         "parent_id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
         "parent_table": "block",
         "alive": true,
@@ -17234,10 +17226,224 @@
                       "c": "ラニアット：これでどうでしょう！"
                     },
                     {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        17
+                      ],
+                      "o": [
+                        "4NfBKuMpq4Dn",
+                        16
+                      ],
+                      "l": 1,
+                      "c": "\n"
+                    },
+                    {
                       "t": "e"
                     }
                   ],
                   "l": ""
+                },
+                "c": [
+                  "1nZCxc2-0G6BhEyLvNo7FQ,[\"kRfnf_hzm3f2\",33],\"end\""
+                ]
+              },
+              "1nZCxc2-0G6BhEyLvNo7FQ,[\"kRfnf_hzm3f2\",33],\"end\"": {
+                "s": {
+                  "x": "1nZCxc2-0G6BhEyLvNo7FQ",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        33
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "LD2P-XhXxMOh",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 12,
+                      "c": "巫静妃：こんなに早く！？"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        34
+                      ],
+                      "o": [
+                        "LD2P-XhXxMOh",
+                        12
+                      ],
+                      "l": 2,
+                      "c": "\n\n"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "4rdMyvKE8r3M9KLfWwhjFw,[\"kRfnf_hzm3f2\",34],\"end\""
+                ]
+              },
+              "4rdMyvKE8r3M9KLfWwhjFw,[\"kRfnf_hzm3f2\",34],\"end\"": {
+                "s": {
+                  "x": "4rdMyvKE8r3M9KLfWwhjFw",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        34
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "7RFJTpcR3gxu",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -13
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "BBbpwPaIAiQk7V5pWXUpyw,[\"kRfnf_hzm3f2\",96],\"end\""
+                ]
+              },
+              "BBbpwPaIAiQk7V5pWXUpyw,[\"kRfnf_hzm3f2\",96],\"end\"": {
+                "s": {
+                  "x": "BBbpwPaIAiQk7V5pWXUpyw",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        96
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3Du7H6k3-pXH",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -75
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "MXJK7PWCOKWlf9IRWTLKEQ,[\"kRfnf_hzm3f2\",71],\"end\""
+                ]
+              },
+              "MXJK7PWCOKWlf9IRWTLKEQ,[\"kRfnf_hzm3f2\",71],\"end\"": {
+                "s": {
+                  "x": "MXJK7PWCOKWlf9IRWTLKEQ",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        71
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "wnGDMgkCoOa2",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -50
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "2VTAGN1XQmCPn6cBAdud4g,[\"kRfnf_hzm3f2\",43],\"end\""
+                ]
+              },
+              "2VTAGN1XQmCPn6cBAdud4g,[\"kRfnf_hzm3f2\",43],\"end\"": {
+                "s": {
+                  "x": "2VTAGN1XQmCPn6cBAdud4g",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        43
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "NFrJwU_RDeu2",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -22
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "UBu4p9wWVQfJ_V0WYi6cpw,[\"kRfnf_hzm3f2\",83],\"end\""
+                ]
+              },
+              "UBu4p9wWVQfJ_V0WYi6cpw,[\"kRfnf_hzm3f2\",83],\"end\"": {
+                "s": {
+                  "x": "UBu4p9wWVQfJ_V0WYi6cpw",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        83
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "CqSnvpApY4-I",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 62,
+                      "c": "巫静妃：ラニアットさん、さすがですね。「私たちが崩壊学園の関係者である」ことと「実際の行動過程」をうまく曖昧にできています。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
                 },
                 "c": []
               }
@@ -17250,19 +17456,15 @@
     "2893b07c-81ff-80f0-8c76-ee8ca5a95a16": {
       "value": {
         "id": "2893b07c-81ff-80f0-8c76-ee8ca5a95a16",
-        "version": 12,
+        "version": 22,
         "type": "quote",
         "properties": {
           "title": [
             [
-              "ラニアット：私はさっき課題が出された時に、もう終わらせましたの。"
+              "ラニアット：私はさっき課題が出された時に、もう終わらせましたの。\nカリン＆ティアラ：えっ！？\nアクリア：確かに全部終わってるし、正答率も高いわ。"
             ]
           ]
         },
-        "content": [
-          "2893b07c-81ff-8025-ab36-df57cc36ce92",
-          "2893b07c-81ff-8040-951f-ca2ca5edfd1f"
-        ],
         "format": {
           "block_color": "gray_background",
           "copied_from_pointer": {
@@ -17272,7 +17474,7 @@
           }
         },
         "created_time": 1760170550976,
-        "last_edited_time": 1762578017477,
+        "last_edited_time": 1769265995925,
         "parent_id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
         "parent_table": "block",
         "alive": true,
@@ -17301,10 +17503,100 @@
                       "c": "ラニアット：私はさっき課題が出された時に、もう終わらせましたの。"
                     },
                     {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        33
+                      ],
+                      "o": [
+                        "ASy4iR4zbLeF",
+                        32
+                      ],
+                      "l": 1,
+                      "c": "\n"
+                    },
+                    {
                       "t": "e"
                     }
                   ],
                   "l": ""
+                },
+                "c": [
+                  "HZdpQYDYYRafPcHF-XaU2w,[\"kRfnf_hzm3f2\",34],\"end\""
+                ]
+              },
+              "HZdpQYDYYRafPcHF-XaU2w,[\"kRfnf_hzm3f2\",34],\"end\"": {
+                "s": {
+                  "x": "HZdpQYDYYRafPcHF-XaU2w",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        34
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "OQmkQJoBuPIM",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 13,
+                      "c": "カリン＆ティアラ：えっ！？"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        35
+                      ],
+                      "o": [
+                        "OQmkQJoBuPIM",
+                        13
+                      ],
+                      "l": 1,
+                      "c": "\n"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "BCR3068xVYpsl1paVRZCEQ,[\"kRfnf_hzm3f2\",46],\"end\""
+                ]
+              },
+              "BCR3068xVYpsl1paVRZCEQ,[\"kRfnf_hzm3f2\",46],\"end\"": {
+                "s": {
+                  "x": "BCR3068xVYpsl1paVRZCEQ",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        46
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "iuSlKLvgMTEX",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 25,
+                      "c": "アクリア：確かに全部終わってるし、正答率も高いわ。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
                 },
                 "c": []
               }
@@ -17383,19 +17675,15 @@
     "2893b07c-81ff-80fb-933b-ea5fad46bee8": {
       "value": {
         "id": "2893b07c-81ff-80fb-933b-ea5fad46bee8",
-        "version": 12,
+        "version": 19,
         "type": "quote",
         "properties": {
           "title": [
             [
-              "九霄：Site-19X、オグウィンは南方軍の戦略的配置においては、軍事レベルが低いエリアだ。あまりに強い人物がここに現れると、南方軍の注目を集めることになる。"
+              "九霄：Site-19X、オグウィンは南方軍の戦略的配置においては、軍事レベルが低いエリアだ。あまりに強い人物がここに現れると、南方軍の注目を集めることになる。\nラニアット：なるほど、オグウィンの地方政府は崩壊学園がなぜ要人をここに派遣したのか疑問に思い……エリートを調査に派遣してくるでしょう。それが私たちの妨げあるいは敵となる可能性が高いと。\n九霄：ああ、その通りだ。さすがはゴルディアス家のお嬢様だな。"
             ]
           ]
         },
-        "content": [
-          "2893b07c-81ff-80f3-b81c-fbc33ebf166f",
-          "2893b07c-81ff-8009-ba51-f318dbed3a00"
-        ],
         "format": {
           "block_color": "gray_background",
           "copied_from_pointer": {
@@ -17405,7 +17693,7 @@
           }
         },
         "created_time": 1760170550979,
-        "last_edited_time": 1762578017477,
+        "last_edited_time": 1769266006077,
         "parent_id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
         "parent_table": "block",
         "alive": true,
@@ -17434,10 +17722,100 @@
                       "c": "九霄：Site-19X、オグウィンは南方軍の戦略的配置においては、軍事レベルが低いエリアだ。あまりに強い人物がここに現れると、南方軍の注目を集めることになる。"
                     },
                     {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        80
+                      ],
+                      "o": [
+                        "A93j2G5SO2b3",
+                        79
+                      ],
+                      "l": 1,
+                      "c": "\n"
+                    },
+                    {
                       "t": "e"
                     }
                   ],
                   "l": ""
+                },
+                "c": [
+                  "gJXnKH7QJ3yllJDM2gReZg,[\"kRfnf_hzm3f2\",114],\"end\""
+                ]
+              },
+              "gJXnKH7QJ3yllJDM2gReZg,[\"kRfnf_hzm3f2\",114],\"end\"": {
+                "s": {
+                  "x": "gJXnKH7QJ3yllJDM2gReZg",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        114
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "1PiBWgoaPyJr",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 92,
+                      "c": "ラニアット：なるほど、オグウィンの地方政府は崩壊学園がなぜ要人をここに派遣したのか疑問に思い……エリートを調査に派遣してくるでしょう。それが私たちの妨げあるいは敵となる可能性が高いと。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        93
+                      ],
+                      "o": [
+                        "1PiBWgoaPyJr",
+                        92
+                      ],
+                      "l": 1,
+                      "c": "\n"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
+                },
+                "c": [
+                  "ALp624fc0x5W9NvQxqyEXQ,[\"kRfnf_hzm3f2\",51],\"end\""
+                ]
+              },
+              "ALp624fc0x5W9NvQxqyEXQ,[\"kRfnf_hzm3f2\",51],\"end\"": {
+                "s": {
+                  "x": "ALp624fc0x5W9NvQxqyEXQ",
+                  "i": [
+                    {
+                      "t": "p",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        51
+                      ],
+                      "o": "start"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "sIQjcH1e9wt2",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 30,
+                      "c": "九霄：ああ、その通りだ。さすがはゴルディアス家のお嬢様だな。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": "l"
                 },
                 "c": []
               }
@@ -17513,12 +17891,12 @@
     "2893b07c-81ff-8058-bda4-fb27ffc540c1": {
       "value": {
         "id": "2893b07c-81ff-8058-bda4-fb27ffc540c1",
-        "version": 12,
+        "version": 230,
         "type": "text",
         "properties": {
           "title": [
             [
-              "今回は彼女がバカじゃないことを強調する描写が多いですね。"
+              "今回は彼女がバカじゃないことを強調する描写が多いですね。やはりゴルディアスの血を引くだけあって、賢い面もあるのでしょう。"
             ]
           ]
         },
@@ -17530,7 +17908,7 @@
           }
         },
         "created_time": 1760170550982,
-        "last_edited_time": 1762578017477,
+        "last_edited_time": 1769265949541,
         "parent_id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
         "parent_table": "block",
         "alive": true,
@@ -17557,6 +17935,867 @@
                       "o": "start",
                       "l": 28,
                       "c": "今回は彼女がバカじゃないことを強調する描写が多いですね。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        33
+                      ],
+                      "o": [
+                        "ebCBgY_9AT_8",
+                        28
+                      ],
+                      "l": 1,
+                      "c": "や"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        35
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        33
+                      ],
+                      "l": 1,
+                      "c": "は"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        37
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        35
+                      ],
+                      "l": 1,
+                      "c": "り"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        40
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        37
+                      ],
+                      "l": 6,
+                      "c": "ゴルディアス"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        47
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        45
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        57
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        47
+                      ],
+                      "l": 1,
+                      "c": "血"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        59
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        57
+                      ],
+                      "l": 1,
+                      "c": "を"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        68
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        59
+                      ],
+                      "l": 1,
+                      "c": "引"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        61
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        59
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        63
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        61
+                      ],
+                      "l": 1,
+                      "c": "く"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        65
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        63
+                      ],
+                      "l": 1,
+                      "c": "だ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        67
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        65
+                      ],
+                      "l": 1,
+                      "c": "け"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        69
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        67
+                      ],
+                      "l": 1,
+                      "c": "あ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        71
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        69
+                      ],
+                      "l": 3,
+                      "c": "って、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        96
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        73
+                      ],
+                      "l": 1,
+                      "c": "賢"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        90
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        73
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        92
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        90
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        94
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        92
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        95
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        94
+                      ],
+                      "l": 1,
+                      "c": "い"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        100
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        95
+                      ],
+                      "l": 1,
+                      "c": "面"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        102
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        100
+                      ],
+                      "l": 2,
+                      "c": "もあ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        105
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        103
+                      ],
+                      "l": 1,
+                      "c": "る"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        107
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        105
+                      ],
+                      "l": 1,
+                      "c": "の"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        109
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        107
+                      ],
+                      "l": 1,
+                      "c": "で"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        112
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        109
+                      ],
+                      "l": 4,
+                      "c": "しょう。"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        110
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        109
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        108
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        107
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        106
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        105
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        104
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        103
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        101
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        100
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        98
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        95
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        97
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        95
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        93
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        92
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        91
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        90
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        89
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        73
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        81
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        73
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        84
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        82
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        86
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        84
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        88
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        86
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        87
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        86
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        85
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        84
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        83
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        82
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        75
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        73
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        77
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        75
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        79
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        77
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        78
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        77
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        76
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        75
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        74
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        73
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        70
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        69
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        66
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        65
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        64
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        63
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        62
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        61
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        60
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        59
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        58
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        57
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        56
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        47
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        55
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        47
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        54
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        47
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        53
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        47
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        49
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        47
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        51
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        49
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        50
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        49
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        48
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        47
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        46
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        45
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        39
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        37
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        38
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        37
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        36
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        35
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        34
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        33
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        32
+                      ],
+                      "o": [
+                        "ebCBgY_9AT_8",
+                        28
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        30
+                      ],
+                      "o": [
+                        "ebCBgY_9AT_8",
+                        28
+                      ],
+                      "l": -2
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        29
+                      ],
+                      "o": [
+                        "ebCBgY_9AT_8",
+                        28
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "e"
@@ -18195,12 +19434,12 @@
     "2893b07c-81ff-804d-8e44-dadd0d5da73b": {
       "value": {
         "id": "2893b07c-81ff-804d-8e44-dadd0d5da73b",
-        "version": 12,
+        "version": 32,
         "type": "text",
         "properties": {
           "title": [
             [
-              "崩壊：スターレイルの花火人形に似ているような…"
+              "崩壊：スターレイルの花火人形に少し似ているような…？"
             ]
           ]
         },
@@ -18212,7 +19451,7 @@
           }
         },
         "created_time": 1760170550999,
-        "last_edited_time": 1762578017477,
+        "last_edited_time": 1769266037702,
         "parent_id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
         "parent_table": "block",
         "alive": true,
@@ -18237,8 +19476,120 @@
                         1
                       ],
                       "o": "start",
-                      "l": 23,
-                      "c": "崩壊：スターレイルの花火人形に似ているような…"
+                      "l": 15,
+                      "c": "崩壊：スターレイルの花火人形に"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        31
+                      ],
+                      "o": [
+                        "CuQvPpcS5Xvn",
+                        15
+                      ],
+                      "l": 1,
+                      "c": "少"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        26
+                      ],
+                      "o": [
+                        "CuQvPpcS5Xvn",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        28
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        30
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        28
+                      ],
+                      "l": 1,
+                      "c": "し"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        29
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        28
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        27
+                      ],
+                      "o": [
+                        "kRfnf_hzm3f2",
+                        26
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        25
+                      ],
+                      "o": [
+                        "CuQvPpcS5Xvn",
+                        15
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "CuQvPpcS5Xvn",
+                        16
+                      ],
+                      "o": [
+                        "CuQvPpcS5Xvn",
+                        15
+                      ],
+                      "l": 8,
+                      "c": "似ているような…"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "kRfnf_hzm3f2",
+                        24
+                      ],
+                      "o": [
+                        "CuQvPpcS5Xvn",
+                        23
+                      ],
+                      "l": 1,
+                      "c": "？"
                     },
                     {
                       "t": "e"
@@ -24915,502 +26266,6 @@
       },
       "role": "reader"
     },
-    "2893b07c-81ff-80f5-917d-e877fb182bc3": {
-      "value": {
-        "id": "2893b07c-81ff-80f5-917d-e877fb182bc3",
-        "version": 3,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "巫静妃：こんなに早く！？"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "27c3b07c-81ff-806a-a01a-dcc9952ae8e0",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1760170550971,
-        "last_edited_time": 1760170551086,
-        "parent_id": "2893b07c-81ff-80f6-9b5f-ff0b267d029d",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "27c3b07c-81ff-806a-a01a-dcc9952ae8e0",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "1nZCxc2-0G6BhEyLvNo7FQ,\"start\",\"end\"",
-            "n": {
-              "1nZCxc2-0G6BhEyLvNo7FQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "1nZCxc2-0G6BhEyLvNo7FQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "LD2P-XhXxMOh",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 12,
-                      "c": "巫静妃：こんなに早く！？"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2893b07c-81ff-806a-9711-f0ccaf6559b2": {
-      "value": {
-        "id": "2893b07c-81ff-806a-9711-f0ccaf6559b2",
-        "version": 3,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "巫静妃：見せてください……"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "27c3b07c-81ff-801e-a74e-f88854b9ee30",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1760170550971,
-        "last_edited_time": 1760170551086,
-        "parent_id": "2893b07c-81ff-80f6-9b5f-ff0b267d029d",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "27c3b07c-81ff-801e-a74e-f88854b9ee30",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "4rdMyvKE8r3M9KLfWwhjFw,\"start\",\"end\"",
-            "n": {
-              "4rdMyvKE8r3M9KLfWwhjFw,\"start\",\"end\"": {
-                "s": {
-                  "x": "4rdMyvKE8r3M9KLfWwhjFw",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "7RFJTpcR3gxu",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 13,
-                      "c": "巫静妃：見せてください……"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2893b07c-81ff-80ae-844a-e58cbe19c65c": {
-      "value": {
-        "id": "2893b07c-81ff-80ae-844a-e58cbe19c65c",
-        "version": 3,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "巫静妃：「我々は東方軍団管轄の詐欺対策室です。最近、市民からの通報が相次ぎ、Site-06エリアにおいて詐欺を行う悪質な結社が存在するとの情報が……」"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "27c3b07c-81ff-8078-943e-c30c75467e7f",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1760170550971,
-        "last_edited_time": 1760170551086,
-        "parent_id": "2893b07c-81ff-80f6-9b5f-ff0b267d029d",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "27c3b07c-81ff-8078-943e-c30c75467e7f",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "BBbpwPaIAiQk7V5pWXUpyw,\"start\",\"end\"",
-            "n": {
-              "BBbpwPaIAiQk7V5pWXUpyw,\"start\",\"end\"": {
-                "s": {
-                  "x": "BBbpwPaIAiQk7V5pWXUpyw",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "3Du7H6k3-pXH",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 75,
-                      "c": "巫静妃：「我々は東方軍団管轄の詐欺対策室です。最近、市民からの通報が相次ぎ、Site-06エリアにおいて詐欺を行う悪質な結社が存在するとの情報が……」"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2893b07c-81ff-8056-bf67-d89507735532": {
-      "value": {
-        "id": "2893b07c-81ff-8056-bf67-d89507735532",
-        "version": 3,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "巫静妃：「直ちに当事務所から調査員を派遣し、悪質な結社を壊滅させ、今回の依頼を無事完遂いたしました」"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "27c3b07c-81ff-806d-8e41-fb2eda3da747",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1760170550971,
-        "last_edited_time": 1760170551086,
-        "parent_id": "2893b07c-81ff-80f6-9b5f-ff0b267d029d",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "27c3b07c-81ff-806d-8e41-fb2eda3da747",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "MXJK7PWCOKWlf9IRWTLKEQ,\"start\",\"end\"",
-            "n": {
-              "MXJK7PWCOKWlf9IRWTLKEQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "MXJK7PWCOKWlf9IRWTLKEQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "wnGDMgkCoOa2",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 50,
-                      "c": "巫静妃：「直ちに当事務所から調査員を派遣し、悪質な結社を壊滅させ、今回の依頼を無事完遂いたしました」"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2893b07c-81ff-80f0-9f78-edfff859e7d9": {
-      "value": {
-        "id": "2893b07c-81ff-80f0-9f78-edfff859e7d9",
-        "version": 3,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "ラニアット：巫先生、何か問題でもありますか？"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "27c3b07c-81ff-80cd-8577-f6582d182dc3",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1760170550971,
-        "last_edited_time": 1760170551086,
-        "parent_id": "2893b07c-81ff-80f6-9b5f-ff0b267d029d",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "27c3b07c-81ff-80cd-8577-f6582d182dc3",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "2VTAGN1XQmCPn6cBAdud4g,\"start\",\"end\"",
-            "n": {
-              "2VTAGN1XQmCPn6cBAdud4g,\"start\",\"end\"": {
-                "s": {
-                  "x": "2VTAGN1XQmCPn6cBAdud4g",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "NFrJwU_RDeu2",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 22,
-                      "c": "ラニアット：巫先生、何か問題でもありますか？"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2893b07c-81ff-80b4-b5eb-ce3d5930ad85": {
-      "value": {
-        "id": "2893b07c-81ff-80b4-b5eb-ce3d5930ad85",
-        "version": 3,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "巫静妃：ラニアットさん、さすがですね。「私たちが崩壊学園の関係者である」ことと「実際の行動過程」をうまく曖昧にできています。"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "27c3b07c-81ff-80c2-bec8-f6dc0658ad60",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1760170550971,
-        "last_edited_time": 1760170551086,
-        "parent_id": "2893b07c-81ff-80f6-9b5f-ff0b267d029d",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "27c3b07c-81ff-80c2-bec8-f6dc0658ad60",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "UBu4p9wWVQfJ_V0WYi6cpw,\"start\",\"end\"",
-            "n": {
-              "UBu4p9wWVQfJ_V0WYi6cpw,\"start\",\"end\"": {
-                "s": {
-                  "x": "UBu4p9wWVQfJ_V0WYi6cpw",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "CqSnvpApY4-I",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 62,
-                      "c": "巫静妃：ラニアットさん、さすがですね。「私たちが崩壊学園の関係者である」ことと「実際の行動過程」をうまく曖昧にできています。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2893b07c-81ff-8025-ab36-df57cc36ce92": {
-      "value": {
-        "id": "2893b07c-81ff-8025-ab36-df57cc36ce92",
-        "version": 3,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "カリン＆ティアラ：えっ！？"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "27c3b07c-81ff-8078-a983-ed38cc5eff20",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1760170550976,
-        "last_edited_time": 1760170551086,
-        "parent_id": "2893b07c-81ff-80f0-8c76-ee8ca5a95a16",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "27c3b07c-81ff-8078-a983-ed38cc5eff20",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "HZdpQYDYYRafPcHF-XaU2w,\"start\",\"end\"",
-            "n": {
-              "HZdpQYDYYRafPcHF-XaU2w,\"start\",\"end\"": {
-                "s": {
-                  "x": "HZdpQYDYYRafPcHF-XaU2w",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "OQmkQJoBuPIM",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 13,
-                      "c": "カリン＆ティアラ：えっ！？"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2893b07c-81ff-8040-951f-ca2ca5edfd1f": {
-      "value": {
-        "id": "2893b07c-81ff-8040-951f-ca2ca5edfd1f",
-        "version": 3,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "アクリア：確かに全部終わってるし、正答率も高いわ。"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "27c3b07c-81ff-80d2-b6f3-fb33adb20f9f",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1760170550976,
-        "last_edited_time": 1760170551086,
-        "parent_id": "2893b07c-81ff-80f0-8c76-ee8ca5a95a16",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "27c3b07c-81ff-80d2-b6f3-fb33adb20f9f",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "BCR3068xVYpsl1paVRZCEQ,\"start\",\"end\"",
-            "n": {
-              "BCR3068xVYpsl1paVRZCEQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "BCR3068xVYpsl1paVRZCEQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "iuSlKLvgMTEX",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 25,
-                      "c": "アクリア：確かに全部終わってるし、正答率も高いわ。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
     "2893b07c-81ff-806c-be55-cb0fe29e3c29": {
       "value": {
         "id": "2893b07c-81ff-806c-be55-cb0fe29e3c29",
@@ -25458,130 +26313,6 @@
                       "o": "start",
                       "l": 31,
                       "c": "ティアラ：ふふん、バカラニアットもそんなにバカじゃないんだな。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2893b07c-81ff-80f3-b81c-fbc33ebf166f": {
-      "value": {
-        "id": "2893b07c-81ff-80f3-b81c-fbc33ebf166f",
-        "version": 3,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "ラニアット：なるほど、オグウィンの地方政府は崩壊学園がなぜ要人をここに派遣したのか疑問に思い……エリートを調査に派遣してくるでしょう。それが私たちの妨げあるいは敵となる可能性が高いと。"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "27c3b07c-81ff-8076-b44a-cc7254b61009",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1760170550979,
-        "last_edited_time": 1760170551086,
-        "parent_id": "2893b07c-81ff-80fb-933b-ea5fad46bee8",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "27c3b07c-81ff-8076-b44a-cc7254b61009",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "gJXnKH7QJ3yllJDM2gReZg,\"start\",\"end\"",
-            "n": {
-              "gJXnKH7QJ3yllJDM2gReZg,\"start\",\"end\"": {
-                "s": {
-                  "x": "gJXnKH7QJ3yllJDM2gReZg",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "1PiBWgoaPyJr",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 92,
-                      "c": "ラニアット：なるほど、オグウィンの地方政府は崩壊学園がなぜ要人をここに派遣したのか疑問に思い……エリートを調査に派遣してくるでしょう。それが私たちの妨げあるいは敵となる可能性が高いと。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2893b07c-81ff-8009-ba51-f318dbed3a00": {
-      "value": {
-        "id": "2893b07c-81ff-8009-ba51-f318dbed3a00",
-        "version": 3,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "九霄：ああ、その通りだ。さすがはゴルディアス家のお嬢様だな。"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "27c3b07c-81ff-807e-bb83-ea94dda7c13f",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1760170550979,
-        "last_edited_time": 1760170551086,
-        "parent_id": "2893b07c-81ff-80fb-933b-ea5fad46bee8",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "27c3b07c-81ff-807e-bb83-ea94dda7c13f",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "ALp624fc0x5W9NvQxqyEXQ,\"start\",\"end\"",
-            "n": {
-              "ALp624fc0x5W9NvQxqyEXQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "ALp624fc0x5W9NvQxqyEXQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "sIQjcH1e9wt2",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 30,
-                      "c": "九霄：ああ、その通りだ。さすがはゴルディアス家のお嬢様だな。"
                     },
                     {
                       "t": "e"
@@ -37227,16 +37958,16 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2893b07c-81ff-808e-a855-ce9d1cb9500d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/de08efef-da17-412c-8e5f-14ea79423368/image.png?table=block&id=2893b07c-81ff-808e-a855-ce9d1cb9500d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=nks-u2k-b3Z-CRo5KxdmibIsdsHP0_MRr-RCta-dqis",
-    "2893b07c-81ff-809a-8897-da36d11f94b9": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/106e8b4b-d9bd-43b4-85e2-1176ed42540f/image.png?table=block&id=2893b07c-81ff-809a-8897-da36d11f94b9&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=djxHiptMJ3vY6oh64hlIujK_B9poEWyhl25Aa6gZ2lA",
-    "2893b07c-81ff-802f-8f5f-f1dc67c2b800": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f40903a1-0c0d-4136-9351-6cbe5a7a21e6/スクリーンショット_(335).png?table=block&id=2893b07c-81ff-802f-8f5f-f1dc67c2b800&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=knIHYh-jcuIrpoxq8Wnuaj_XRF7zvLth5U0XF40qgbA",
-    "2893b07c-81ff-80af-89dd-e779cf78aed1": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/e83d009c-890f-4a0d-ae01-3d4adad6cfcf/image.png?table=block&id=2893b07c-81ff-80af-89dd-e779cf78aed1&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=kWpLZMclfQa6CVqwheRFEcUdBzcPoG4lcSnI5Eb6gHs",
-    "2893b07c-81ff-8049-a4ec-dafe8b85d386": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/7c35c440-882e-450b-9363-1eac9797a9f2/スクリーンショット_(330).png?table=block&id=2893b07c-81ff-8049-a4ec-dafe8b85d386&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=wq-lhTTsUqv8RNqEPB4yv--y8L_XrE3bkQbnQdoIh-0",
-    "2893b07c-81ff-80e7-96b6-dfbb7163b955": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/c198d478-62a1-4382-9d06-0e7419923316/スクリーンショット_(324).png?table=block&id=2893b07c-81ff-80e7-96b6-dfbb7163b955&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=OLN3zxX5ZR7Ywr0h9PfFZY0QZnYjEEL5J-sWfSLqQiQ",
-    "2893b07c-81ff-801f-a94b-c4273ee041cf": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/c4d3ba8e-dc30-40c6-be1d-79efefae1d0f/スクリーンショット_2025-09-28_235835.png?table=block&id=2893b07c-81ff-801f-a94b-c4273ee041cf&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=GqjDS6vMSF9cYkc5BTTR7-a1vIKIG85uJOW0YU-yAFk",
-    "2893b07c-81ff-8066-ba47-f0c9a2b8ab10": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/6a47bb17-5c2c-4c96-a77e-df5ccdee7bb0/IMG_0722.jpeg?table=block&id=2893b07c-81ff-8066-ba47-f0c9a2b8ab10&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=_aEjIQDZNgIwJV90uZrmzODpxKmxdC3PX6nNcKFV2Rs",
-    "2893b07c-81ff-80e6-a792-c1023275cc37": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/94c21bbe-3652-4d2c-854f-7b10fc76e504/dbfb0dcf-9a05-4d7c-9be5-c741ac7362d5.png?table=block&id=2893b07c-81ff-80e6-a792-c1023275cc37&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=yxC9Pes0lsPp68C-DMbudxgWC9B6aqCzzutg7ekrxvs",
-    "2893b07c-81ff-8024-b9e8-eca12ca5bef3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/388b34ed-8d5d-4e48-9236-166391f4a484/崩壊学園編_文字数-1.png?table=block&id=2893b07c-81ff-8024-b9e8-eca12ca5bef3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=fK_86OiEKg2KAnsR6QcwkcmwoUsgKRL7g9bKhAT1xJk",
-    "2a03b07c-81ff-8068-9e0f-f373b2494539": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/b873c51a-a061-44ae-8300-468782d3717a/image.png?table=block&id=2a03b07c-81ff-8068-9e0f-f373b2494539&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768528800000&signature=BeuV1y-RLhv3U79iHwKhTH_of6Y3LQJJRshymSSyU9M"
+    "2893b07c-81ff-808e-a855-ce9d1cb9500d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/de08efef-da17-412c-8e5f-14ea79423368/image.png?table=block&id=2893b07c-81ff-808e-a855-ce9d1cb9500d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=u5EgtlgWLRNSXnpmr9LpznzKBAy1oBzUwVEcJ85BDSs",
+    "2893b07c-81ff-809a-8897-da36d11f94b9": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/106e8b4b-d9bd-43b4-85e2-1176ed42540f/image.png?table=block&id=2893b07c-81ff-809a-8897-da36d11f94b9&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=PU7S0jMRcBfVZPybEbhyvOidbiVrIUloxAuf21-Q0cY",
+    "2893b07c-81ff-802f-8f5f-f1dc67c2b800": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f40903a1-0c0d-4136-9351-6cbe5a7a21e6/スクリーンショット_(335).png?table=block&id=2893b07c-81ff-802f-8f5f-f1dc67c2b800&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=Uwm8AXHsaYa63lztKvtRxhFRf_ZXz1rBhNMjhQN6rks",
+    "2893b07c-81ff-80af-89dd-e779cf78aed1": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/e83d009c-890f-4a0d-ae01-3d4adad6cfcf/image.png?table=block&id=2893b07c-81ff-80af-89dd-e779cf78aed1&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=wWJEdf9VdxmCF1kSUkftOIZ9l_JWsbZPbKlBYDMRZbI",
+    "2893b07c-81ff-8049-a4ec-dafe8b85d386": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/7c35c440-882e-450b-9363-1eac9797a9f2/スクリーンショット_(330).png?table=block&id=2893b07c-81ff-8049-a4ec-dafe8b85d386&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=xMZU8iiSejTQ3ZqBeK8I_yKWPqbAgk5GX2Uh9O8z5a4",
+    "2893b07c-81ff-80e7-96b6-dfbb7163b955": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/c198d478-62a1-4382-9d06-0e7419923316/スクリーンショット_(324).png?table=block&id=2893b07c-81ff-80e7-96b6-dfbb7163b955&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=-1uDayt3-57FhClKZtsI8L2GQX_F3yO_l2Htg2pdejQ",
+    "2893b07c-81ff-801f-a94b-c4273ee041cf": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/c4d3ba8e-dc30-40c6-be1d-79efefae1d0f/スクリーンショット_2025-09-28_235835.png?table=block&id=2893b07c-81ff-801f-a94b-c4273ee041cf&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=uni8lpQib4OPun8CsH8QaeLy_RRAr3VZ_lR31-E7abM",
+    "2893b07c-81ff-8066-ba47-f0c9a2b8ab10": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/6a47bb17-5c2c-4c96-a77e-df5ccdee7bb0/IMG_0722.jpeg?table=block&id=2893b07c-81ff-8066-ba47-f0c9a2b8ab10&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=OP856-NRXTbBh_p6KQ8tKaviv47UR3I6vLlyGKTxgeo",
+    "2893b07c-81ff-80e6-a792-c1023275cc37": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/94c21bbe-3652-4d2c-854f-7b10fc76e504/dbfb0dcf-9a05-4d7c-9be5-c741ac7362d5.png?table=block&id=2893b07c-81ff-80e6-a792-c1023275cc37&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=0YdSLZ-GV0KFZcnGyz93KYvlKmnQBwuVl8uiJ4lJdCE",
+    "2893b07c-81ff-8024-b9e8-eca12ca5bef3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/388b34ed-8d5d-4e48-9236-166391f4a484/崩壊学園編_文字数-1.png?table=block&id=2893b07c-81ff-8024-b9e8-eca12ca5bef3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=Qlt5OEXeJS1rqxdfIBNoo5nhTVxsV6u9k7MbIE7qSqc",
+    "2a03b07c-81ff-8068-9e0f-f373b2494539": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/b873c51a-a061-44ae-8300-468782d3717a/image.png?table=block&id=2a03b07c-81ff-8068-9e0f-f373b2494539&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769306400000&signature=l56jTBzBp2m_MiKC2xg4VR1fLu50e2rRL63WTdpTvFw"
   }
 }
