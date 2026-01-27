@@ -3,18 +3,18 @@
     "27c3b07c-81ff-8071-b3b5-ff823942edc9": {
       "value": {
         "id": "27c3b07c-81ff-8071-b3b5-ff823942edc9",
-        "version": 81,
+        "version": 93,
         "type": "page",
         "properties": {
           "title": [
             [
-              "Site-19X"
+              "オグウィン"
             ]
           ]
         },
         "content": [
           "2893b07c-81ff-801d-b225-cea22f8d9250",
-          "27c3b07c-81ff-8036-843e-fff813d08d84",
+          "2f53b07c-81ff-8067-9083-da3c8d6a4ac7",
           "27d3b07c-81ff-8007-8f8d-f7898e76cd65",
           "27c3b07c-81ff-8034-ba71-ea59aaab4c9d",
           "27c3b07c-81ff-804e-93af-d9d689860d5e",
@@ -32,16 +32,17 @@
           "2a03b07c-81ff-80bf-9fec-ec67974d3400"
         ],
         "format": {
-          "social_media_image_preview_url": "attachment:74e37753-40bb-4aa8-b1ef-f8751882f1fb:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:8dd0e6cd-bb1f-426e-8d36-4b13b44900a6:SocialMediaPreviewImage.png"
         },
         "created_time": 1759062790840,
-        "last_edited_time": 1768132531601,
+        "last_edited_time": 1769502571448,
         "parent_id": "1ad3b07c-81ff-809c-8204-e16483640fa5",
         "parent_table": "block",
         "alive": true,
         "file_ids": [
           "d2c5a381-97b9-4ab1-bd03-28f2861c8944",
-          "74e37753-40bb-4aa8-b1ef-f8751882f1fb"
+          "74e37753-40bb-4aa8-b1ef-f8751882f1fb",
+          "8dd0e6cd-bb1f-426e-8d36-4b13b44900a6"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -59,12 +60,21 @@
                     {
                       "t": "t",
                       "i": [
+                        "JKBQZpxIBjgS",
+                        9
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "オグウィン"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "Qkj3dQJ_PO_d",
                         1
                       ],
                       "o": "start",
-                      "l": 8,
-                      "c": "Site-19X"
+                      "l": -8
                     },
                     {
                       "t": "e"
@@ -83,7 +93,7 @@
     "1ad3b07c-81ff-809c-8204-e16483640fa5": {
       "value": {
         "id": "1ad3b07c-81ff-809c-8204-e16483640fa5",
-        "version": 317,
+        "version": 320,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -108,6 +118,7 @@
           "1bc3b07c-81ff-80e0-862e-e6074a7650de",
           "1c03b07c-81ff-80c9-8a53-c308076fac2a",
           "1be3b07c-81ff-80b0-93ad-ca5008aef456",
+          "27c3b07c-81ff-8071-b3b5-ff823942edc9",
           "1c03b07c-81ff-80c8-91f3-cb3a047ee56b",
           "1c03b07c-81ff-807a-8a5e-c32346ae8444",
           "1c13b07c-81ff-80a7-a6f6-e93a2d42f709",
@@ -119,7 +130,6 @@
           "1c03b07c-81ff-80cc-9d28-db75f6142155",
           "1c03b07c-81ff-801c-81c2-c6e020c3d4ab",
           "1c03b07c-81ff-80a7-b53f-cd2c07636eb0",
-          "27c3b07c-81ff-8071-b3b5-ff823942edc9",
           "2b13b07c-81ff-80e9-bd7f-f3dd0855309a",
           "1c03b07c-81ff-8061-a8cf-d1d7adaff2d2",
           "1bc3b07c-81ff-8035-9544-cfc5cdbd9e53",
@@ -135,7 +145,7 @@
           "page_cover_position": 0.2338
         },
         "created_time": 1741142028871,
-        "last_edited_time": 1764148101098,
+        "last_edited_time": 1769502571448,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -477,20 +487,20 @@
       },
       "role": "reader"
     },
-    "27c3b07c-81ff-8036-843e-fff813d08d84": {
+    "2f53b07c-81ff-8067-9083-da3c8d6a4ac7": {
       "value": {
-        "id": "27c3b07c-81ff-8036-843e-fff813d08d84",
-        "version": 61,
+        "id": "2f53b07c-81ff-8067-9083-da3c8d6a4ac7",
+        "version": 10,
         "type": "text",
         "properties": {
           "title": [
             [
-              "オグウィンとも呼ばれる。金属と火を意味する。"
+              "Site-19X"
             ]
           ]
         },
-        "created_time": 1759062806973,
-        "last_edited_time": 1759139352403,
+        "created_time": 1769502544135,
+        "last_edited_time": 1769502561088,
         "parent_id": "27c3b07c-81ff-8071-b3b5-ff823942edc9",
         "parent_table": "block",
         "alive": true,
@@ -498,14 +508,58 @@
         "crdt_format_version": 1,
         "crdt_data": {
           "title": {
-            "r": "FlBn2NS9-7fPizL3tQQALg,\"start\",\"end\"",
+            "r": "CBqZE6YlzDHhqAX1LBwIxw,\"start\",\"end\"",
             "n": {
-              "FlBn2NS9-7fPizL3tQQALg,\"start\",\"end\"": {
+              "CBqZE6YlzDHhqAX1LBwIxw,\"start\",\"end\"": {
+                "s": {
+                  "x": "CBqZE6YlzDHhqAX1LBwIxw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "JKBQZpxIBjgS",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 8,
+                      "c": "Site-19X"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "JKBQZpxIBjgS",
+                        9
+                      ],
+                      "o": [
+                        "JKBQZpxIBjgS",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": [
+                  "FlBn2NS9-7fPizL3tQQALg,[\"JKBQZpxIBjgS\",59],\"end\""
+                ]
+              },
+              "FlBn2NS9-7fPizL3tQQALg,[\"JKBQZpxIBjgS\",59],\"end\"": {
                 "s": {
                   "x": "FlBn2NS9-7fPizL3tQQALg",
                   "i": [
                     {
-                      "t": "s"
+                      "t": "p",
+                      "i": [
+                        "JKBQZpxIBjgS",
+                        59
+                      ],
+                      "o": "start"
                     },
                     {
                       "t": "t",
@@ -514,8 +568,31 @@
                         4
                       ],
                       "o": "start",
-                      "l": 5,
-                      "c": "オグウィン"
+                      "l": -5
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "JKBQZpxIBjgS",
+                        38
+                      ],
+                      "o": [
+                        "Qkj3dQJ_PO_d",
+                        8
+                      ],
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "JKBQZpxIBjgS",
+                        37
+                      ],
+                      "o": [
+                        "Qkj3dQJ_PO_d",
+                        8
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -527,8 +604,7 @@
                         "Qkj3dQJ_PO_d",
                         8
                       ],
-                      "l": 1,
-                      "c": "と"
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -540,8 +616,7 @@
                         "lH_muk5m17_G",
                         10
                       ],
-                      "l": 1,
-                      "c": "も"
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -553,8 +628,7 @@
                         "lH_muk5m17_G",
                         12
                       ],
-                      "l": 1,
-                      "c": "呼"
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -578,8 +652,7 @@
                         "lH_muk5m17_G",
                         14
                       ],
-                      "l": 1,
-                      "c": "ば"
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -591,8 +664,7 @@
                         "lH_muk5m17_G",
                         16
                       ],
-                      "l": 1,
-                      "c": "れ"
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -604,8 +676,7 @@
                         "lH_muk5m17_G",
                         18
                       ],
-                      "l": 1,
-                      "c": "る"
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -617,8 +688,7 @@
                         "lH_muk5m17_G",
                         20
                       ],
-                      "l": 10,
-                      "c": "。金属と火を意味する"
+                      "l": -10
                     },
                     {
                       "t": "t",
@@ -630,8 +700,7 @@
                         "lH_muk5m17_G",
                         31
                       ],
-                      "l": 1,
-                      "c": "。"
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -754,7 +823,7 @@
                       "t": "e"
                     }
                   ],
-                  "l": ""
+                  "l": "l"
                 },
                 "c": [
                   "nDFvn7MLr6sSbCPhtbiM3Q,[\"lH_muk5m17_G\",77],[\"lH_muk5m17_G\",39]"
@@ -4744,7 +4813,7 @@
     "2a53b07c-81ff-807d-9296-df79a1b4ccc9": {
       "value": {
         "id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
-        "version": 215,
+        "version": 227,
         "type": "page",
         "properties": {
           "title": [
@@ -4938,7 +5007,7 @@
           "social_media_image_preview_url": "attachment:74cff22d-31fa-4482-8de3-8aa977d262f9:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578014330,
-        "last_edited_time": 1764129422296,
+        "last_edited_time": 1769266029446,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -5793,6 +5862,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2893b07c-81ff-801d-b225-cea22f8d9250": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/6cd6c79c-3e0b-4e28-aa2e-f09ae13954c2/760ca1e5gy1i0d7ls0i3nj21140sg7wh.jpg?table=block&id=2893b07c-81ff-801d-b225-cea22f8d9250&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768183200000&signature=Jqqpw3qU8KZVeKoI1nW9N_LxRJ5igtLdhswEXsA4syw"
+    "2893b07c-81ff-801d-b225-cea22f8d9250": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/6cd6c79c-3e0b-4e28-aa2e-f09ae13954c2/760ca1e5gy1i0d7ls0i3nj21140sg7wh.jpg?table=block&id=2893b07c-81ff-801d-b225-cea22f8d9250&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769565600000&signature=dyBFyouORrOpuj3kt0vy_RncMpi-nAsMkP7c4wMKJCw"
   }
 }
