@@ -222,7 +222,7 @@ export function NotionPage({
   const isBlogPost =
     block?.type === 'page' && block?.parent_table === 'collection'
 
-  const showTableOfContents = !!isBlogPost
+  const showTableOfContents = true
   const minTableOfContentsItems = 3
 
   const pageAside = React.useMemo(
