@@ -3,7 +3,7 @@
     "27f3b07c-81ff-800f-b094-d874991cfc22": {
       "value": {
         "id": "27f3b07c-81ff-800f-b094-d874991cfc22",
-        "version": 105,
+        "version": 113,
         "type": "page",
         "properties": {
           "?hQ~": [
@@ -36,7 +36,7 @@
           ],
           "title": [
             [
-              "Lの肖像"
+              "Lの肖像Ⅰ"
             ]
           ]
         },
@@ -47,17 +47,18 @@
         "format": {
           "page_cover": "attachment:2c11cfec-3f48-4558-a987-9804bd216e8d:Lの肖像.jpg",
           "page_cover_position": 0.5555,
-          "social_media_image_preview_url": "attachment:ac3f91a2-766b-4977-b272-ec7896369ebb:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:7f76f689-22ae-4e73-94d4-c6596dc4d58e:SocialMediaPreviewImage.png"
         },
         "created_time": 1759296838581,
-        "last_edited_time": 1764147620658,
+        "last_edited_time": 1769678484481,
         "parent_id": "1c83b07c-81ff-80c8-b9ad-000b936e88a7",
         "parent_table": "collection",
         "alive": true,
         "file_ids": [
           "7863c03c-788a-4226-b796-906b68cc4bac",
           "2c11cfec-3f48-4558-a987-9804bd216e8d",
-          "ac3f91a2-766b-4977-b272-ec7896369ebb"
+          "ac3f91a2-766b-4977-b272-ec7896369ebb",
+          "7f76f689-22ae-4e73-94d4-c6596dc4d58e"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -107,6 +108,31 @@
                       ],
                       "l": 2,
                       "c": "肖像"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3DJOabqaQShJ",
+                        15
+                      ],
+                      "o": [
+                        "GeIVroJN8afD",
+                        13
+                      ],
+                      "l": 1,
+                      "c": "Ⅰ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "3DJOabqaQShJ",
+                        14
+                      ],
+                      "o": [
+                        "GeIVroJN8afD",
+                        13
+                      ],
+                      "l": -1
                     },
                     {
                       "t": "t",
@@ -185,7 +211,7 @@
     "1c83b07c-81ff-80ed-9cad-f904d81aa1d9": {
       "value": {
         "id": "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
-        "version": 48,
+        "version": 50,
         "type": "collection_view_page",
         "view_ids": [
           "1c83b07c-81ff-80db-81c3-000c6b7b83b0"
@@ -206,7 +232,7 @@
           ]
         },
         "created_time": 1743512112793,
-        "last_edited_time": 1764146276527,
+        "last_edited_time": 1768226445671,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -529,7 +555,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 349,
+        "version": 356,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -566,7 +592,7 @@
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -578,7 +604,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -601,7 +627,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764030939329,
+        "last_edited_time": 1764247209474,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -610,7 +636,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -632,8 +659,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -1216,7 +1281,7 @@
     "1c83b07c-81ff-80db-81c3-000c6b7b83b0": {
       "value": {
         "id": "1c83b07c-81ff-80db-81c3-000c6b7b83b0",
-        "version": 197,
+        "version": 201,
         "type": "gallery",
         "format": {
           "table_wrap": true,
@@ -1334,11 +1399,13 @@
           "2483b07c-81ff-80ac-9571-d7848a4ea855",
           "25c3b07c-81ff-808f-9fa7-e39eae90aa4a",
           "26c3b07c-81ff-80e5-ac4a-e7bc2fe7242d",
-          "27f3b07c-81ff-800f-b094-d874991cfc22"
+          "27f3b07c-81ff-800f-b094-d874991cfc22",
+          "2e63b07c-81ff-80cb-93d9-efa45e67d66b",
+          "2e63b07c-81ff-80d1-8c27-e6dd061436ca"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "created_time": 1757668335324,
-        "last_edited_time": 1759296838599,
+        "last_edited_time": 1768226445671,
         "created_by_table": "notion_user",
         "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
@@ -1413,6 +1480,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "27f3b07c-81ff-800f-b094-d874991cfc22": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/2c11cfec-3f48-4558-a987-9804bd216e8d/Lの肖像.jpg?table=block&id=27f3b07c-81ff-800f-b094-d874991cfc22&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764172800000&signature=_wMK7CUSCh7X2sIOBh2dQ8EyIL0cRb5mhFK758DJZVU"
+    "27f3b07c-81ff-800f-b094-d874991cfc22": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/2c11cfec-3f48-4558-a987-9804bd216e8d/Lの肖像.jpg?table=block&id=27f3b07c-81ff-800f-b094-d874991cfc22&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769702400000&signature=3UgpJgx3V-SI--uNaLto4CM1loQePaQ5Z2X-1RAB-GU"
   }
 }
