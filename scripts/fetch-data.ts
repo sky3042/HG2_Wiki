@@ -88,6 +88,20 @@ async function main() {
 
         // 変更あり -> 保存
         console.log(`🔄 Updated: "${title}"`);
+
+        // ▼▼▼ 修正版コード（ここを書き換えてください） ▼▼▼
+        if (recordMap.block) {
+          for (const key in recordMap.block) {
+            const block = recordMap.block[key];
+            // block が存在することを確認してから中身にアクセスする
+            if (block && block.value && (block.value as any).value) {
+              // 余計な value ラッパーを剥がして、中身を直接代入する
+              block.value = (block.value as any).value;
+            }
+          }
+        }
+        // ▲▲▲ 修正版コード ▲▲▲
+
         fs.writeFileSync(filePath, JSON.stringify(recordMap, null, 2));
         updatedPages.push(title);
         
