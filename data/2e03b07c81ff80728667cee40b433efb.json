@@ -3,7 +3,7 @@
     "2e03b07c-81ff-8072-8667-cee40b433efb": {
       "value": {
         "id": "2e03b07c-81ff-8072-8667-cee40b433efb",
-        "version": 240,
+        "version": 251,
         "type": "page",
         "properties": {
           "title": [
@@ -96,7 +96,7 @@
           "social_media_image_preview_url": "attachment:fdb0dedc-8ce1-446e-b87c-a8ed51596738:SocialMediaPreviewImage.png"
         },
         "created_time": 1767713627681,
-        "last_edited_time": 1767850823479,
+        "last_edited_time": 1770991794487,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,
@@ -247,7 +247,7 @@
     "2573b07c-81ff-8076-8c97-c512393c2dc8": {
       "value": {
         "id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "version": 191,
+        "version": 194,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -280,8 +280,8 @@
           "2913b07c-81ff-803c-92cf-dbd1cc33ae4b",
           "2a03b07c-81ff-8053-bb5f-f9fbc420dda3",
           "25e3b07c-81ff-80fe-8eca-e43fbea99f30",
-          "28f3b07c-81ff-8037-8280-c4a6bf7a56f2",
           "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
+          "28f3b07c-81ff-8037-8280-c4a6bf7a56f2",
           "2b53b07c-81ff-8091-8f90-e7a710d07690"
         ],
         "format": {
@@ -290,7 +290,7 @@
           "social_media_image_preview_url": "attachment:0eab7c0e-ed9f-40fb-a5ad-56992f43fc6c:SocialMediaPreviewImage.png"
         },
         "created_time": 1755881175615,
-        "last_edited_time": 1767861085506,
+        "last_edited_time": 1767945180280,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -465,7 +465,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 356,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -537,7 +537,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764247209474,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -914,7 +914,7 @@
     "2e03b07c-81ff-8081-bbf6-d684badb5382": {
       "value": {
         "id": "2e03b07c-81ff-8081-bbf6-d684badb5382",
-        "version": 8,
+        "version": 15,
         "type": "callout",
         "content": [
           "2e03b07c-81ff-80d0-aac9-e5cfefc9edf1",
@@ -931,7 +931,7 @@
           }
         },
         "created_time": 1767713633341,
-        "last_edited_time": 1767717326012,
+        "last_edited_time": 1770991794487,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -2107,7 +2107,7 @@
     "2e03b07c-81ff-800a-b4a6-dd41d251c388": {
       "value": {
         "id": "2e03b07c-81ff-800a-b4a6-dd41d251c388",
-        "version": 5,
+        "version": 9,
         "type": "text",
         "properties": {
           "title": [
@@ -2116,7 +2116,7 @@
               [
                 [
                   "e",
-                  "\\textstyle\n\\mathrm{Crit_{rate}}"
+                  "\\textstyle\n\\mathrm{CR}"
                 ]
               ]
             ],
@@ -2133,7 +2133,7 @@
           }
         },
         "created_time": 1767713633359,
-        "last_edited_time": 1767713633417,
+        "last_edited_time": 1770732801288,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -2158,8 +2158,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -2186,6 +2185,49 @@
                           "a": [
                             "e",
                             "\\textstyle\n\\mathrm{Crit_{rate}}"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        42
+                      ],
+                      "o": [
+                        "8nABW22hEEwo",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "1RxMcklL1oFEEstcWX68Ew",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            43
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              42
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              42
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{CR}"
                           ]
                         }
                       ],
@@ -2221,7 +2263,7 @@
     "2e03b07c-81ff-805e-9242-c6d83fdbdcd8": {
       "value": {
         "id": "2e03b07c-81ff-805e-9242-c6d83fdbdcd8",
-        "version": 5,
+        "version": 9,
         "type": "text",
         "properties": {
           "title": [
@@ -2230,7 +2272,7 @@
               [
                 [
                   "e",
-                  "\\textstyle\n\\mathrm{Crit_{dmg}}"
+                  "\\textstyle\n\\mathrm{CD}"
                 ]
               ]
             ],
@@ -2247,7 +2289,7 @@
           }
         },
         "created_time": 1767713633360,
-        "last_edited_time": 1767713633417,
+        "last_edited_time": 1770732808696,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -2272,8 +2314,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -2300,6 +2341,49 @@
                           "a": [
                             "e",
                             "\\textstyle\n\\mathrm{Crit_{dmg}}"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        30
+                      ],
+                      "o": [
+                        "vQ8u9BrxUYdt",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "LnXNRmFM15aogrd8rJy68A",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            31
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              30
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              30
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{CD}"
                           ]
                         }
                       ],
@@ -2492,7 +2576,7 @@
     "2e03b07c-81ff-8033-a48c-fdf0a6e13239": {
       "value": {
         "id": "2e03b07c-81ff-8033-a48c-fdf0a6e13239",
-        "version": 5,
+        "version": 9,
         "type": "text",
         "properties": {
           "title": [
@@ -2501,7 +2585,7 @@
               [
                 [
                   "e",
-                  "\\textstyle\n\\mathrm{Hp_{max}}"
+                  "\\textstyle\n\\mathrm{HP_{max}}"
                 ]
               ]
             ],
@@ -2518,7 +2602,7 @@
           }
         },
         "created_time": 1767713633363,
-        "last_edited_time": 1767713633417,
+        "last_edited_time": 1770732914064,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -2543,8 +2627,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -2571,6 +2654,49 @@
                           "a": [
                             "e",
                             "\\textstyle\n\\mathrm{Hp_{max}}"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        10
+                      ],
+                      "o": [
+                        "0LBpnTiWKhKV",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "wM8qN5eVfFtaMWUSI1CnDQ",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            11
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              10
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{HP_{max}}"
                           ]
                         }
                       ],
@@ -2606,7 +2732,7 @@
     "2e03b07c-81ff-8077-8a75-d860a50d93b1": {
       "value": {
         "id": "2e03b07c-81ff-8077-8a75-d860a50d93b1",
-        "version": 5,
+        "version": 9,
         "type": "text",
         "properties": {
           "title": [
@@ -2615,7 +2741,7 @@
               [
                 [
                   "e",
-                  "\\textstyle\n\\mathrm{Hp_{base}}"
+                  "\\textstyle\n\\mathrm{HP_{base}}"
                 ]
               ]
             ],
@@ -2632,7 +2758,7 @@
           }
         },
         "created_time": 1767713633365,
-        "last_edited_time": 1767713633417,
+        "last_edited_time": 1770732910863,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -2657,8 +2783,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -2685,6 +2810,49 @@
                           "a": [
                             "e",
                             "\\textstyle\n\\mathrm{Hp_{base}}"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        23
+                      ],
+                      "o": [
+                        "asToC7FEe_QR",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "4bn_r7aDhmAhUV4d-3Ttfg",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            24
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              23
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              23
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{HP_{base}}"
                           ]
                         }
                       ],
@@ -2720,7 +2888,7 @@
     "2e03b07c-81ff-80e7-987f-f6e2c6d4d713": {
       "value": {
         "id": "2e03b07c-81ff-80e7-987f-f6e2c6d4d713",
-        "version": 5,
+        "version": 9,
         "type": "text",
         "properties": {
           "title": [
@@ -2729,7 +2897,7 @@
               [
                 [
                   "e",
-                  "\\textstyle\n\\mathrm{Hp_{base\\%}}"
+                  "\\textstyle\n\\mathrm{HP_{base\\%}}"
                 ]
               ]
             ],
@@ -2746,7 +2914,7 @@
           }
         },
         "created_time": 1767713633366,
-        "last_edited_time": 1767713633417,
+        "last_edited_time": 1770732906783,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -2771,8 +2939,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -2799,6 +2966,49 @@
                           "a": [
                             "e",
                             "\\textstyle\n\\mathrm{Hp_{base\\%}}"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        30
+                      ],
+                      "o": [
+                        "D_1Gb3DSjBNu",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "B5Ao5YGZ7P9GnTbwwrLFWg",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            31
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              30
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              30
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{HP_{base\\%}}"
                           ]
                         }
                       ],
@@ -2834,7 +3044,7 @@
     "2e13b07c-81ff-808f-8597-c412c174c31f": {
       "value": {
         "id": "2e13b07c-81ff-808f-8597-c412c174c31f",
-        "version": 47,
+        "version": 51,
         "type": "text",
         "properties": {
           "title": [
@@ -2843,7 +3053,7 @@
               [
                 [
                   "e",
-                  "\\textstyle\n\\mathrm{Plv}"
+                  "\\textstyle\n\\mathrm{PLv}"
                 ]
               ]
             ],
@@ -2853,7 +3063,7 @@
           ]
         },
         "created_time": 1767773352496,
-        "last_edited_time": 1767773372138,
+        "last_edited_time": 1770732848534,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -2919,8 +3129,7 @@
                         "gNo0jtKcOXW8",
                         1
                       ],
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -2947,6 +3156,49 @@
                           "a": [
                             "e",
                             "\\textstyle\n\\mathrm{Plv}"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        26
+                      ],
+                      "o": [
+                        "gNo0jtKcOXW8",
+                        3
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "Yen64ZleCM6ZzsFyiwboPA",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            27
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              26
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{PLv}"
                           ]
                         }
                       ],
@@ -3128,7 +3380,7 @@
     "2e03b07c-81ff-8031-8f09-e7bbfe75225a": {
       "value": {
         "id": "2e03b07c-81ff-8031-8f09-e7bbfe75225a",
-        "version": 5,
+        "version": 9,
         "type": "text",
         "properties": {
           "title": [
@@ -3137,7 +3389,7 @@
               [
                 [
                   "e",
-                  "\\textstyle\n\\mathrm{Hp_{add}}"
+                  "\\textstyle\n\\mathrm{HP_{add}}"
                 ]
               ]
             ],
@@ -3154,7 +3406,7 @@
           }
         },
         "created_time": 1767713633367,
-        "last_edited_time": 1767713633417,
+        "last_edited_time": 1770732917223,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -3179,8 +3431,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -3207,6 +3458,49 @@
                           "a": [
                             "e",
                             "\\textstyle\n\\mathrm{Hp_{add}}"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        10
+                      ],
+                      "o": [
+                        "2AjqTv_5W1AE",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "RoEZJPJvYGN_qUisF4d6Kw",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            11
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              10
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{HP_{add}}"
                           ]
                         }
                       ],
@@ -3242,7 +3536,7 @@
     "2e03b07c-81ff-80d0-9b57-d9bdf1a5ebe2": {
       "value": {
         "id": "2e03b07c-81ff-80d0-9b57-d9bdf1a5ebe2",
-        "version": 5,
+        "version": 9,
         "type": "text",
         "properties": {
           "title": [
@@ -3251,7 +3545,7 @@
               [
                 [
                   "e",
-                  "\\textstyle\n\\mathrm{Hp_{\\%}}"
+                  "\\textstyle\n\\mathrm{HP_{\\%}}"
                 ]
               ]
             ],
@@ -3268,7 +3562,7 @@
           }
         },
         "created_time": 1767713633368,
-        "last_edited_time": 1767713633417,
+        "last_edited_time": 1770732920479,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -3293,8 +3587,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -3321,6 +3614,49 @@
                           "a": [
                             "e",
                             "\\textstyle\n\\mathrm{Hp_{\\%}}"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        10
+                      ],
+                      "o": [
+                        "K9L2JDsgTAwu",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "CfEgO5fu1kyRBWwkKp6ovQ",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            11
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              10
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{HP_{\\%}}"
                           ]
                         }
                       ],
@@ -3732,12 +4068,12 @@
     "2e03b07c-81ff-802a-aa08-c748e0c1af23": {
       "value": {
         "id": "2e03b07c-81ff-802a-aa08-c748e0c1af23",
-        "version": 3,
+        "version": 9,
         "type": "equation",
         "properties": {
           "title": [
             [
-              "\\textstyle \n\\mathrm{\nDMG_{crit} = DMG_{non\\_crit} \\times \\sum Crit_{dmg}\n}"
+              "\\textstyle \n\\mathrm{\nDMG_{crit} = DMG_{non\\_crit} \\times \\sum CD\n}"
             ]
           ]
         },
@@ -3749,7 +4085,7 @@
           }
         },
         "created_time": 1767713633341,
-        "last_edited_time": 1767713633417,
+        "last_edited_time": 1770732815495,
         "parent_id": "2e03b07c-81ff-8081-bbf6-d684badb5382",
         "parent_table": "block",
         "alive": true,
@@ -3770,12 +4106,30 @@
                     {
                       "t": "t",
                       "i": [
+                        "VpgHDqAdz_G5",
+                        140
+                      ],
+                      "o": "start",
+                      "l": 66,
+                      "c": "\\textstyle \n\\mathrm{\nDMG_{crit} = DMG_{non\\_crit} \\times \\sum CD\n}"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        75
+                      ],
+                      "o": "start",
+                      "l": -65
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "a1WXEWXUOYKf",
                         1
                       ],
                       "o": "start",
-                      "l": 74,
-                      "c": "\\textstyle \n\\mathrm{\nDMG_{crit} = DMG_{non\\_crit} \\times \\sum Crit_{dmg}\n}"
+                      "l": -74
                     },
                     {
                       "t": "e"
@@ -3918,7 +4272,7 @@
     "2e03b07c-81ff-80a8-b9f8-c729dd4a0642": {
       "value": {
         "id": "2e03b07c-81ff-80a8-b9f8-c729dd4a0642",
-        "version": 3,
+        "version": 21,
         "type": "equation",
         "properties": {
           "title": [
@@ -3935,7 +4289,7 @@
           }
         },
         "created_time": 1767713633362,
-        "last_edited_time": 1767713633417,
+        "last_edited_time": 1770732879869,
         "parent_id": "2e03b07c-81ff-8056-b8e6-fe5feadbd435",
         "parent_table": "block",
         "alive": true,
@@ -3956,12 +4310,66 @@
                     {
                       "t": "t",
                       "i": [
-                        "ckbkWmNX8fdm",
-                        1
+                        "VpgHDqAdz_G5",
+                        636
                       ],
                       "o": "start",
                       "l": 105,
                       "c": "\\textstyle\n\\mathrm{\nHP_{max}=( HP_{base} \\times HP_{base\\%} + 5\\times Plv+590 + HP_{add})\\times HP_{\\%}\n}"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        530
+                      ],
+                      "o": "start",
+                      "l": -106
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        423
+                      ],
+                      "o": "start",
+                      "l": -107
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        317
+                      ],
+                      "o": "start",
+                      "l": -106
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        212
+                      ],
+                      "o": "start",
+                      "l": -105
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        106
+                      ],
+                      "o": "start",
+                      "l": -106
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "ckbkWmNX8fdm",
+                        1
+                      ],
+                      "o": "start",
+                      "l": -105
                     },
                     {
                       "t": "e"
@@ -6017,7 +6425,7 @@
     "2e23b07c-81ff-8078-bbe5-c8e05130cdc3": {
       "value": {
         "id": "2e23b07c-81ff-8078-bbe5-c8e05130cdc3",
-        "version": 8,
+        "version": 12,
         "type": "text",
         "properties": {
           "title": [
@@ -6026,7 +6434,7 @@
               [
                 [
                   "e",
-                  "n"
+                  "\\textstyle\n\\mathrm{\nn\n}"
                 ]
               ]
             ],
@@ -6043,7 +6451,7 @@
           }
         },
         "created_time": 1767848234293,
-        "last_edited_time": 1767848244114,
+        "last_edited_time": 1770732999987,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -6068,8 +6476,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -6096,6 +6503,49 @@
                           "a": [
                             "e",
                             "n"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        10
+                      ],
+                      "o": [
+                        "kxN8iWVTNovq",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "sz3SBMw_NrQq7BzXjuDvhg",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            11
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              10
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{\nn\n}"
                           ]
                         }
                       ],
@@ -6131,7 +6581,7 @@
     "2e23b07c-81ff-80aa-be2a-c57c34b3a7a4": {
       "value": {
         "id": "2e23b07c-81ff-80aa-be2a-c57c34b3a7a4",
-        "version": 9,
+        "version": 17,
         "type": "text",
         "properties": {
           "title": [
@@ -6140,7 +6590,7 @@
               [
                 [
                   "e",
-                  "R_n"
+                  "\\textstyle\n\\mathrm{\n{CR}_n\n}"
                 ]
               ]
             ],
@@ -6169,7 +6619,7 @@
           }
         },
         "created_time": 1767848234296,
-        "last_edited_time": 1767848244114,
+        "last_edited_time": 1770732961871,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -6194,8 +6644,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -6222,6 +6671,91 @@
                           "a": [
                             "e",
                             "R_n"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        15
+                      ],
+                      "o": [
+                        "3Pwl169xDidi",
+                        1
+                      ],
+                      "l": -1,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "CMXrIqOR0nB2t1jWM8GyWg",
+                          "l": "",
+                          "i": [
+                            "pWbThv0z2dUE",
+                            16
+                          ],
+                          "s": {
+                            "i": [
+                              "pWbThv0z2dUE",
+                              15
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "pWbThv0z2dUE",
+                              15
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "{CR}_n"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        17
+                      ],
+                      "o": [
+                        "pWbThv0z2dUE",
+                        15
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "CMXrIqOR0nB2t1jWM8GyWg",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            18
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              17
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              17
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{\n{CR}_n\n}"
                           ]
                         }
                       ],
@@ -6313,7 +6847,7 @@
     "2e23b07c-81ff-804d-a0e3-f7003a5d4556": {
       "value": {
         "id": "2e23b07c-81ff-804d-a0e3-f7003a5d4556",
-        "version": 9,
+        "version": 17,
         "type": "text",
         "properties": {
           "title": [
@@ -6322,7 +6856,7 @@
               [
                 [
                   "e",
-                  "M_n"
+                  "\\textstyle\n\\mathrm{\n{CD}_n\n}"
                 ]
               ]
             ],
@@ -6351,7 +6885,7 @@
           }
         },
         "created_time": 1767848234299,
-        "last_edited_time": 1767848244114,
+        "last_edited_time": 1770732969300,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -6376,8 +6910,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -6404,6 +6937,91 @@
                           "a": [
                             "e",
                             "M_n"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        18
+                      ],
+                      "o": [
+                        "_zlpMP2Lzx22",
+                        1
+                      ],
+                      "l": -1,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "6WiJanO4lyK-mqQ-i7dvfg",
+                          "l": "",
+                          "i": [
+                            "pWbThv0z2dUE",
+                            19
+                          ],
+                          "s": {
+                            "i": [
+                              "pWbThv0z2dUE",
+                              18
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "pWbThv0z2dUE",
+                              18
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "{CD}_n"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        20
+                      ],
+                      "o": [
+                        "pWbThv0z2dUE",
+                        18
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "6WiJanO4lyK-mqQ-i7dvfg",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            21
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              20
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              20
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{\n{CD}_n\n}"
                           ]
                         }
                       ],
@@ -6495,7 +7113,7 @@
     "2e23b07c-81ff-80b8-96d1-d7ce3c85761b": {
       "value": {
         "id": "2e23b07c-81ff-80b8-96d1-d7ce3c85761b",
-        "version": 12,
+        "version": 16,
         "type": "text",
         "properties": {
           "title": [
@@ -6504,7 +7122,7 @@
               [
                 [
                   "e",
-                  "D_n"
+                  "\\textstyle\n\\mathrm{\n{D}_n\n}"
                 ]
               ]
             ],
@@ -6533,7 +7151,7 @@
           }
         },
         "created_time": 1767848234301,
-        "last_edited_time": 1767848315075,
+        "last_edited_time": 1770732975264,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -6558,8 +7176,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -6586,6 +7203,49 @@
                           "a": [
                             "e",
                             "D_n"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        19
+                      ],
+                      "o": [
+                        "3TBlcnNBj837",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "es0FATUqqdwkiWqouAhDHw",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            20
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              19
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              19
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{\n{D}_n\n}"
                           ]
                         }
                       ],
@@ -6784,7 +7444,7 @@
     "2e23b07c-81ff-805c-886b-f7c50ff83494": {
       "value": {
         "id": "2e23b07c-81ff-805c-886b-f7c50ff83494",
-        "version": 8,
+        "version": 16,
         "type": "text",
         "properties": {
           "title": [
@@ -6793,7 +7453,7 @@
               [
                 [
                   "e",
-                  "R_1"
+                  "\\textstyle\n\\mathrm{\n{CR}_1\n}"
                 ]
               ]
             ],
@@ -6810,7 +7470,7 @@
           }
         },
         "created_time": 1767848234305,
-        "last_edited_time": 1767848244114,
+        "last_edited_time": 1770732982364,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -6835,8 +7495,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -6863,6 +7522,91 @@
                           "a": [
                             "e",
                             "R_1"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        10
+                      ],
+                      "o": [
+                        "UcdDLxPdKuWg",
+                        1
+                      ],
+                      "l": -1,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "lFBxwjSOw2TimzLFcpwtwA",
+                          "l": "",
+                          "i": [
+                            "pWbThv0z2dUE",
+                            11
+                          ],
+                          "s": {
+                            "i": [
+                              "pWbThv0z2dUE",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "pWbThv0z2dUE",
+                              10
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "{CR}_1"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        12
+                      ],
+                      "o": [
+                        "pWbThv0z2dUE",
+                        10
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "lFBxwjSOw2TimzLFcpwtwA",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            13
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              12
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              12
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{\n{CR}_1\n}"
                           ]
                         }
                       ],
@@ -6898,7 +7642,7 @@
     "2e23b07c-81ff-80d0-843d-df3633acbdae": {
       "value": {
         "id": "2e23b07c-81ff-80d0-843d-df3633acbdae",
-        "version": 8,
+        "version": 16,
         "type": "text",
         "properties": {
           "title": [
@@ -6907,7 +7651,7 @@
               [
                 [
                   "e",
-                  "M_1"
+                  "\\textstyle\n\\mathrm{\n{CD}_1\n}"
                 ]
               ]
             ],
@@ -6924,7 +7668,7 @@
           }
         },
         "created_time": 1767848234307,
-        "last_edited_time": 1767848244114,
+        "last_edited_time": 1770732987069,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -6949,8 +7693,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -6977,6 +7720,91 @@
                           "a": [
                             "e",
                             "M_1"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        13
+                      ],
+                      "o": [
+                        "KR5oIWGXTCPu",
+                        1
+                      ],
+                      "l": -1,
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "ub2M9IhaTBpoMbrJs9sNwQ",
+                          "l": "",
+                          "i": [
+                            "pWbThv0z2dUE",
+                            14
+                          ],
+                          "s": {
+                            "i": [
+                              "pWbThv0z2dUE",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "pWbThv0z2dUE",
+                              13
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "{CD}_1"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        15
+                      ],
+                      "o": [
+                        "pWbThv0z2dUE",
+                        13
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "ub2M9IhaTBpoMbrJs9sNwQ",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            16
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              15
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              15
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{\n{CD}_1\n}"
                           ]
                         }
                       ],
@@ -7012,7 +7840,7 @@
     "2e23b07c-81ff-80c5-869c-df208395f000": {
       "value": {
         "id": "2e23b07c-81ff-80c5-869c-df208395f000",
-        "version": 8,
+        "version": 12,
         "type": "text",
         "properties": {
           "title": [
@@ -7021,7 +7849,7 @@
               [
                 [
                   "e",
-                  "D_0"
+                  "\\textstyle\n\\mathrm{\n{D}_0\n}"
                 ]
               ]
             ],
@@ -7038,7 +7866,7 @@
           }
         },
         "created_time": 1767848234309,
-        "last_edited_time": 1767848244114,
+        "last_edited_time": 1770732991870,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -7063,8 +7891,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -7091,6 +7918,49 @@
                           "a": [
                             "e",
                             "D_0"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        14
+                      ],
+                      "o": [
+                        "Amdzc3lktIxh",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "3VeCyQc2ZNRuFmcfzp1XAA",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            15
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              14
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              14
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{\n{D}_0\n}"
                           ]
                         }
                       ],
@@ -7126,7 +7996,7 @@
     "2e23b07c-81ff-80f4-9723-c26c847174c6": {
       "value": {
         "id": "2e23b07c-81ff-80f4-9723-c26c847174c6",
-        "version": 11,
+        "version": 15,
         "type": "text",
         "properties": {
           "title": [
@@ -7135,7 +8005,7 @@
               [
                 [
                   "e",
-                  "a"
+                  "\\textstyle\n\\mathrm{\na\n}"
                 ]
               ]
             ],
@@ -7152,7 +8022,7 @@
           }
         },
         "created_time": 1767848234311,
-        "last_edited_time": 1767848322092,
+        "last_edited_time": 1770733005390,
         "parent_id": "2e03b07c-81ff-8072-8667-cee40b433efb",
         "parent_table": "block",
         "alive": true,
@@ -7177,8 +8047,7 @@
                         1
                       ],
                       "o": "start",
-                      "l": 1,
-                      "c": "⁍",
+                      "l": -1,
                       "b": [
                         {
                           "t": "a",
@@ -7205,6 +8074,49 @@
                           "a": [
                             "e",
                             "a"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        8
+                      ],
+                      "o": [
+                        "L0ynFcqVNhCQ",
+                        1
+                      ],
+                      "l": 1,
+                      "c": "⁍",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "nHif22iW_GwabV-mdkNrgw",
+                          "l": "",
+                          "i": [
+                            "VpgHDqAdz_G5",
+                            9
+                          ],
+                          "s": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              8
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "VpgHDqAdz_G5",
+                              8
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "e",
+                            "\\textstyle\n\\mathrm{\na\n}"
                           ]
                         }
                       ],
@@ -7709,12 +8621,12 @@
     "2e23b07c-81ff-8048-ba70-d2dbd2ca274e": {
       "value": {
         "id": "2e23b07c-81ff-8048-ba70-d2dbd2ca274e",
-        "version": 3,
+        "version": 33,
         "type": "equation",
         "properties": {
           "title": [
             [
-              "R_n = \\max(R_1 - (n - 1), 0)"
+              "\\textstyle\n\\mathrm{\n{CR}_n = \\max({CR}_1 - (n - 1), 0)\n}"
             ]
           ]
         },
@@ -7726,7 +8638,7 @@
           }
         },
         "created_time": 1767848234284,
-        "last_edited_time": 1767848234347,
+        "last_edited_time": 1770732940583,
         "parent_id": "2e23b07c-81ff-80eb-9dce-c752b5059d3a",
         "parent_table": "block",
         "alive": true,
@@ -7747,12 +8659,102 @@
                     {
                       "t": "t",
                       "i": [
+                        "VpgHDqAdz_G5",
+                        362
+                      ],
+                      "o": "start",
+                      "l": 56,
+                      "c": "\\textstyle\n\\mathrm{\n{CR}_n = \\max({CR}_1 - (n - 1), 0)\n}"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        307
+                      ],
+                      "o": "start",
+                      "l": -55
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        253
+                      ],
+                      "o": "start",
+                      "l": -54
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        218
+                      ],
+                      "o": "start",
+                      "l": -35
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        184
+                      ],
+                      "o": "start",
+                      "l": -34
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        151
+                      ],
+                      "o": "start",
+                      "l": -33
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        119
+                      ],
+                      "o": "start",
+                      "l": -32
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        88
+                      ],
+                      "o": "start",
+                      "l": -31
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        58
+                      ],
+                      "o": "start",
+                      "l": -30
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        29
+                      ],
+                      "o": "start",
+                      "l": -29
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "-_jJcNz-3d19",
                         1
                       ],
                       "o": "start",
-                      "l": 28,
-                      "c": "R_n = \\max(R_1 - (n - 1), 0)"
+                      "l": -28
                     },
                     {
                       "t": "e"
@@ -7771,12 +8773,12 @@
     "2e23b07c-81ff-804c-a67d-d450f39a7524": {
       "value": {
         "id": "2e23b07c-81ff-804c-a67d-d450f39a7524",
-        "version": 3,
+        "version": 45,
         "type": "equation",
         "properties": {
           "title": [
             [
-              "M_n = \\max\\left( M_1 \\times (1 - a(n-1)), 2 \\right)"
+              "\\textstyle\n\\mathrm{\nCD_n = \\max\\left( CD_1 \\times (1 - a(n-1)), 2 \\right)\n}"
             ]
           ]
         },
@@ -7788,7 +8790,7 @@
           }
         },
         "created_time": 1767848234284,
-        "last_edited_time": 1767848234347,
+        "last_edited_time": 1770732945691,
         "parent_id": "2e23b07c-81ff-80eb-9dce-c752b5059d3a",
         "parent_table": "block",
         "alive": true,
@@ -7809,12 +8811,138 @@
                     {
                       "t": "t",
                       "i": [
+                        "VpgHDqAdz_G5",
+                        814
+                      ],
+                      "o": "start",
+                      "l": 75,
+                      "c": "\\textstyle\n\\mathrm{\nCD_n = \\max\\left( CD_1 \\times (1 - a(n-1)), 2 \\right)\n}"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        740
+                      ],
+                      "o": "start",
+                      "l": -74
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        667
+                      ],
+                      "o": "start",
+                      "l": -73
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        613
+                      ],
+                      "o": "start",
+                      "l": -54
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        560
+                      ],
+                      "o": "start",
+                      "l": -53
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        506
+                      ],
+                      "o": "start",
+                      "l": -54
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        451
+                      ],
+                      "o": "start",
+                      "l": -55
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        395
+                      ],
+                      "o": "start",
+                      "l": -56
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        338
+                      ],
+                      "o": "start",
+                      "l": -57
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        280
+                      ],
+                      "o": "start",
+                      "l": -58
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        221
+                      ],
+                      "o": "start",
+                      "l": -59
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        163
+                      ],
+                      "o": "start",
+                      "l": -58
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        106
+                      ],
+                      "o": "start",
+                      "l": -57
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        52
+                      ],
+                      "o": "start",
+                      "l": -54
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "tubXrJvzJzqu",
                         1
                       ],
                       "o": "start",
-                      "l": 51,
-                      "c": "M_n = \\max\\left( M_1 \\times (1 - a(n-1)), 2 \\right)"
+                      "l": -51
                     },
                     {
                       "t": "e"
@@ -7833,12 +8961,12 @@
     "2e23b07c-81ff-803f-913d-f61895f908eb": {
       "value": {
         "id": "2e23b07c-81ff-803f-913d-f61895f908eb",
-        "version": 3,
+        "version": 21,
         "type": "equation",
         "properties": {
           "title": [
             [
-              "\\textstyle\nD_n = D_0 \\times \\prod_{i=1}^{n} M_i"
+              "\\textstyle\n\\mathrm{\nD_n = D_0 \\times \\prod_{i=1}^{n} {CD}_i\n}"
             ]
           ]
         },
@@ -7850,7 +8978,7 @@
           }
         },
         "created_time": 1767848234284,
-        "last_edited_time": 1767848234347,
+        "last_edited_time": 1770732953415,
         "parent_id": "2e23b07c-81ff-80eb-9dce-c752b5059d3a",
         "parent_table": "block",
         "alive": true,
@@ -7871,12 +8999,66 @@
                     {
                       "t": "t",
                       "i": [
+                        "VpgHDqAdz_G5",
+                        328
+                      ],
+                      "o": "start",
+                      "l": 61,
+                      "c": "\\textstyle\n\\mathrm{\nD_n = D_0 \\times \\prod_{i=1}^{n} {CD}_i\n}"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        268
+                      ],
+                      "o": "start",
+                      "l": -60
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        209
+                      ],
+                      "o": "start",
+                      "l": -59
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        149
+                      ],
+                      "o": "start",
+                      "l": -60
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VpgHDqAdz_G5",
+                        98
+                      ],
+                      "o": "start",
+                      "l": -51
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "pWbThv0z2dUE",
+                        48
+                      ],
+                      "o": "start",
+                      "l": -50
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "Ui_qlVZZWNDK",
                         1
                       ],
                       "o": "start",
-                      "l": 47,
-                      "c": "\\textstyle\nD_n = D_0 \\times \\prod_{i=1}^{n} M_i"
+                      "l": -47
                     },
                     {
                       "t": "e"

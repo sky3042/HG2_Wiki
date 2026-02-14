@@ -71,6 +71,19 @@ export async function getSiteMap(): Promise<types.SiteMap> {
       }
 
       const slug = getPageProperty<string>('Slug', block, recordMap)
+
+      // ▼▼▼ デバッグ用コード開始 ▼▼▼
+      // "lore" のページIDが含まれていたら詳細をログに出す
+      if (pageId.includes('1ac3b07c81ff808998b4ec9f8c06db35')) {
+        console.log('========================================');
+        console.log('DEBUG: Target Page (lore) Found');
+        console.log('Page ID:', pageId);
+        console.log('Detected Slug:', slug); // ここが undefined ヌルになっているはず
+        console.log('Raw Properties:', JSON.stringify(block.properties, null, 2));
+        console.log('========================================');
+      }
+      // ▲▲▲ デバッグ用コード終了 ▲▲▲
+
       if (slug) {
         pageIdToSlug[pageId] = slug
       } else {

@@ -3,7 +3,7 @@
     "2b13b07c-81ff-802c-8aba-cc1c16880db9": {
       "value": {
         "id": "2b13b07c-81ff-802c-8aba-cc1c16880db9",
-        "version": 447,
+        "version": 450,
         "type": "page",
         "properties": {
           "title": [
@@ -319,7 +319,7 @@
           "social_media_image_preview_url": "attachment:3b555d0d-6aa1-44df-adbe-f6673e83cdd5:SocialMediaPreviewImage.png"
         },
         "created_time": 1763609696435,
-        "last_edited_time": 1769685028582,
+        "last_edited_time": 1770040412837,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -420,7 +420,7 @@
     "2833b07c-81ff-802a-b26c-c5fec1d872bf": {
       "value": {
         "id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
-        "version": 613,
+        "version": 629,
         "type": "page",
         "properties": {
           "title": [
@@ -430,18 +430,13 @@
           ]
         },
         "content": [
-          "2893b07c-81ff-8002-9ce8-d825e5220a24",
-          "2893b07c-81ff-8082-9220-d943745e089d",
           "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
           "2a53b07c-81ff-803b-9031-c35b360999ae",
           "2b13b07c-81ff-802c-8aba-cc1c16880db9",
+          "2fb3b07c-81ff-8007-b7c4-fa2c0fc86691",
+          "2893b07c-81ff-8002-9ce8-d825e5220a24",
+          "2893b07c-81ff-8082-9220-d943745e089d",
           "2b13b07c-81ff-801a-9201-d0fed7e57dbc",
-          "2b13b07c-81ff-80e1-b8c8-f5042334c52e",
-          "2b13b07c-81ff-8009-a1e9-ec65677e2293",
-          "2b13b07c-81ff-8093-bee5-d6a3e1b8e9ef",
-          "2b13b07c-81ff-8052-a315-ed00855f4951",
-          "2b13b07c-81ff-80cf-aae9-cc73bf593f42",
-          "2b13b07c-81ff-8006-a6c4-c337e0000701",
           "2b13b07c-81ff-807e-9ab7-d43782264f46",
           "2b13b07c-81ff-802d-b7e9-cf757e0579bb",
           "2b13b07c-81ff-805c-a063-f906015964e4",
@@ -478,7 +473,7 @@
           "social_media_image_preview_url": "attachment:a9d0d2e7-a0b7-4a0e-99ab-8f52ff3055a4:SocialMediaPreviewImage.png"
         },
         "created_time": 1759648389245,
-        "last_edited_time": 1769685060864,
+        "last_edited_time": 1770040412837,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
@@ -800,7 +795,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 356,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -872,7 +867,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764247209474,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -4689,7 +4684,7 @@
     "27c3b07c-81ff-80a7-a54a-c53187756c66": {
       "value": {
         "id": "27c3b07c-81ff-80a7-a54a-c53187756c66",
-        "version": 43,
+        "version": 58,
         "type": "page",
         "properties": {
           "title": [
@@ -4699,18 +4694,23 @@
           ]
         },
         "content": [
+          "3043b07c-81ff-80f9-bcdd-e0af90053499",
           "27c3b07c-81ff-8080-be55-c0ad30f44a4d",
           "27c3b07c-81ff-8013-af5c-fd9829d86845",
           "27c3b07c-81ff-8024-8df1-d26bc1abf8b2",
           "27c3b07c-81ff-8065-a1cc-ce18ae15c2f4",
           "27c3b07c-81ff-8031-945e-f9c99beed150",
-          "27c3b07c-81ff-8041-ac5b-d102c840eb47"
+          "27c3b07c-81ff-8041-ac5b-d102c840eb47",
+          "3043b07c-81ff-80fb-a348-db47d1460c17",
+          "3043b07c-81ff-805e-bc16-fa5914f14599",
+          "3043b07c-81ff-801a-9d43-d0f68a446a04",
+          "3043b07c-81ff-8099-8200-ea86db818467"
         ],
         "format": {
           "social_media_image_preview_url": "attachment:1785d093-0f50-4a78-b5bd-f645335e4b66:SocialMediaPreviewImage.png"
         },
         "created_time": 1759053557151,
-        "last_edited_time": 1759057260300,
+        "last_edited_time": 1770877441500,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -4917,7 +4917,7 @@
     "27c3b07c-81ff-8059-bd22-d8cc2599ca76": {
       "value": {
         "id": "27c3b07c-81ff-8059-bd22-d8cc2599ca76",
-        "version": 27,
+        "version": 30,
         "type": "page",
         "properties": {
           "title": [
@@ -4934,7 +4934,7 @@
           "social_media_image_preview_url": "attachment:c48b6b16-d001-40a2-982d-ea5a391060bc:SocialMediaPreviewImage.png"
         },
         "created_time": 1759055549204,
-        "last_edited_time": 1768289383585,
+        "last_edited_time": 1770782299520,
         "parent_id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
         "parent_table": "block",
         "alive": true,
@@ -5292,7 +5292,7 @@
     "2a53b07c-81ff-807d-9296-df79a1b4ccc9": {
       "value": {
         "id": "2a53b07c-81ff-807d-9296-df79a1b4ccc9",
-        "version": 227,
+        "version": 230,
         "type": "page",
         "properties": {
           "title": [
@@ -5486,7 +5486,7 @@
           "social_media_image_preview_url": "attachment:74cff22d-31fa-4482-8de3-8aa977d262f9:SocialMediaPreviewImage.png"
         },
         "created_time": 1762578014330,
-        "last_edited_time": 1769266029446,
+        "last_edited_time": 1770040412837,
         "parent_id": "2833b07c-81ff-802a-b26c-c5fec1d872bf",
         "parent_table": "block",
         "alive": true,
@@ -5624,7 +5624,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1790,
+        "version": 1796,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -5704,6 +5704,8 @@
           "1bc3b07c-81ff-8024-a546-ea0e68ada392",
           "2e53b07c-81ff-80fb-ae9c-d4af89dc3526",
           "27c3b07c-81ff-80c9-a122-c119bfdb1420",
+          "27c3b07c-81ff-80a7-a54a-c53187756c66",
+          "27c3b07c-81ff-8059-bd22-d8cc2599ca76",
           "1bd3b07c-81ff-8087-9377-facf462a212f",
           "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
           "27c3b07c-81ff-8094-ac21-c90878468737",
@@ -5798,8 +5800,6 @@
           "1bf3b07c-81ff-80b8-a77c-e758620accbc",
           "1bf3b07c-81ff-80f9-a6c8-c33a80623855",
           "27c3b07c-81ff-8018-b7ee-ff527105ae45",
-          "27c3b07c-81ff-80a7-a54a-c53187756c66",
-          "27c3b07c-81ff-8059-bd22-d8cc2599ca76",
           "27c3b07c-81ff-80fd-a9c6-f09fd21b17fd",
           "27c3b07c-81ff-801b-b9c2-df19d63f2027",
           "27c3b07c-81ff-8042-a1f7-ed0bae0397b3",
@@ -5823,7 +5823,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1768123006610,
+        "last_edited_time": 1770782299520,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -20554,7 +20554,7 @@
     "1c83b07c-81ff-80ed-9cad-f904d81aa1d9": {
       "value": {
         "id": "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
-        "version": 50,
+        "version": 52,
         "type": "collection_view_page",
         "view_ids": [
           "1c83b07c-81ff-80db-81c3-000c6b7b83b0"
@@ -20575,7 +20575,7 @@
           ]
         },
         "created_time": 1743512112793,
-        "last_edited_time": 1768226445671,
+        "last_edited_time": 1769955367574,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -20609,7 +20609,7 @@
     "1c83b07c-81ff-800b-a0c3-f295d7423d6d": {
       "value": {
         "id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
-        "version": 151,
+        "version": 154,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -20637,7 +20637,7 @@
           "social_media_image_preview_url": "attachment:13186f52-3bbe-470d-99a7-65a6b386b0e8:SocialMediaPreviewImage.png"
         },
         "created_time": 1743511811402,
-        "last_edited_time": 1764148075454,
+        "last_edited_time": 1770716142076,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -52843,7 +52843,7 @@
     "1c83b07c-81ff-80db-81c3-000c6b7b83b0": {
       "value": {
         "id": "1c83b07c-81ff-80db-81c3-000c6b7b83b0",
-        "version": 201,
+        "version": 205,
         "type": "gallery",
         "format": {
           "table_wrap": true,
@@ -52963,11 +52963,12 @@
           "26c3b07c-81ff-80e5-ac4a-e7bc2fe7242d",
           "27f3b07c-81ff-800f-b094-d874991cfc22",
           "2e63b07c-81ff-80cb-93d9-efa45e67d66b",
+          "2fa3b07c-81ff-8077-b878-c360818ce272",
           "2e63b07c-81ff-80d1-8c27-e6dd061436ca"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "created_time": 1757668335324,
-        "last_edited_time": 1768226445671,
+        "last_edited_time": 1769955367574,
         "created_by_table": "notion_user",
         "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
@@ -52977,14 +52978,14 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2f73b07c-81ff-815e-946c-dab3eccfe904": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/3081bc5c-657d-4665-ae18-1dd6f061a33c/image.png?table=block&id=2f73b07c-81ff-815e-946c-dab3eccfe904&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769709600000&signature=l6y__t-6BTU8qitnLcOvyPVDqY3oIK_q8tClEVY5CYo",
-    "2f73b07c-81ff-814b-abe8-ffed37ea8aa5": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/cfd40e6f-4049-47ce-a15a-c569ac6a423a/image.png?table=block&id=2f73b07c-81ff-814b-abe8-ffed37ea8aa5&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769709600000&signature=kYORvWuWCr-7pdxSjE7JxLOBG32wpMxBzVpzK_Fl7zE",
-    "2f73b07c-81ff-817b-84a9-dcd9f7428de3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/7200fc74-821e-44b7-9576-12d06f3e6c2b/image.png?table=block&id=2f73b07c-81ff-817b-84a9-dcd9f7428de3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769709600000&signature=bY26H1Y-456mT3vC7E6FmVPmW7XZXFS0-_dwElk3YGM",
-    "2f73b07c-81ff-80fb-82b5-f5e6b56eb980": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/622cd2eb-de0c-4313-b1c4-497cc7e3867f/2026-01-09_15-43-05.mp4_snapshot_12.09_2026-01-10_15.16.20.jpg?table=block&id=2f73b07c-81ff-80fb-82b5-f5e6b56eb980&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769709600000&signature=bnrlNRUAHZgq913eyKoLscf6KK5YxWNDPqWop4ovm8s",
-    "2f73b07c-81ff-8063-9d00-ebc04dc9e57e": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/62cb1aa6-2e7e-422a-a66d-462da78ef6e5/スクリーンショット_(549).png?table=block&id=2f73b07c-81ff-8063-9d00-ebc04dc9e57e&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769709600000&signature=bZlnHytEuQ6KHmam38J0fogJ8FieIdg5S3f_hLmJ0D8",
-    "2f73b07c-81ff-8024-88ea-dab13d24865c": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/7b95fcca-e431-4e23-8c0b-36b292b9ebd5/2026-01-09_14-41-02.mp4_snapshot_17.55_2026-01-10_00.21.58.jpg?table=block&id=2f73b07c-81ff-8024-88ea-dab13d24865c&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769709600000&signature=I-9wCQqKZKB995I9L7XIcOo73Fy0WrwVP23xVqg5JPA",
-    "2f73b07c-81ff-80c1-94c4-d5bca450b217": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/132b8600-5ee4-4e7b-8cc0-bbcb80526d37/image.png?table=block&id=2f73b07c-81ff-80c1-94c4-d5bca450b217&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769709600000&signature=1uD3G62bHW17_Z3WX6bETAMAuXMVAYi-x9ix_9ipyXo",
-    "2f73b07c-81ff-8086-b9d0-eed1f8ee9939": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/515b2ddf-21ef-4598-ba16-bb72fcf1162d/image.png?table=block&id=2f73b07c-81ff-8086-b9d0-eed1f8ee9939&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769709600000&signature=kJd0H0P4WX367VU-EuHsCJ23-H8HDai_6QdXN3WKpq8",
-    "2f73b07c-81ff-8030-b1f6-e67cf0fe1cc1": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/4834fc45-5ba5-418b-abf1-f1cf2fd6c3d7/2026-01-09_14-15-45.mp4_snapshot_02.52_2026-01-29_17.59.35.jpg?table=block&id=2f73b07c-81ff-8030-b1f6-e67cf0fe1cc1&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769709600000&signature=Gwsk1Cq_VyqJt5tFdzqzwzmuxYnrMG1Ao3-meJYn9E8"
+    "2f73b07c-81ff-815e-946c-dab3eccfe904": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/3081bc5c-657d-4665-ae18-1dd6f061a33c/image.png?table=block&id=2f73b07c-81ff-815e-946c-dab3eccfe904&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=2EitO67HruGEY8jAgwezgODdmS9luP8a3-mnh3O9zUo",
+    "2f73b07c-81ff-814b-abe8-ffed37ea8aa5": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/cfd40e6f-4049-47ce-a15a-c569ac6a423a/image.png?table=block&id=2f73b07c-81ff-814b-abe8-ffed37ea8aa5&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=PrjSzZ9uQV8PdKeuT-XdWkVmxNM3okcHmB-bOWgQoCE",
+    "2f73b07c-81ff-817b-84a9-dcd9f7428de3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/7200fc74-821e-44b7-9576-12d06f3e6c2b/image.png?table=block&id=2f73b07c-81ff-817b-84a9-dcd9f7428de3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=3smsGDaTXpgEpEAtNXasRatlUbvmoYCUZOCretuqOBY",
+    "2f73b07c-81ff-80fb-82b5-f5e6b56eb980": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/622cd2eb-de0c-4313-b1c4-497cc7e3867f/2026-01-09_15-43-05.mp4_snapshot_12.09_2026-01-10_15.16.20.jpg?table=block&id=2f73b07c-81ff-80fb-82b5-f5e6b56eb980&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=5hvNh5e5DMpFv1VzHzK_9NI3-EEDY8YgGf0IiHnLd5U",
+    "2f73b07c-81ff-8063-9d00-ebc04dc9e57e": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/62cb1aa6-2e7e-422a-a66d-462da78ef6e5/スクリーンショット_(549).png?table=block&id=2f73b07c-81ff-8063-9d00-ebc04dc9e57e&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=1C-tQAn52c-rU8oD1Z-FHtvUiyXDArMEsK0lcfuPOmE",
+    "2f73b07c-81ff-8024-88ea-dab13d24865c": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/7b95fcca-e431-4e23-8c0b-36b292b9ebd5/2026-01-09_14-41-02.mp4_snapshot_17.55_2026-01-10_00.21.58.jpg?table=block&id=2f73b07c-81ff-8024-88ea-dab13d24865c&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=RA1A9zvnQuXssOEUlxh-GAvdZgdqMsd432RfWh5yzSU",
+    "2f73b07c-81ff-80c1-94c4-d5bca450b217": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/132b8600-5ee4-4e7b-8cc0-bbcb80526d37/image.png?table=block&id=2f73b07c-81ff-80c1-94c4-d5bca450b217&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=sF8eFEAbsvRYyoUJmrJYz3P3pL6CmojjmZPQ6lDvD6w",
+    "2f73b07c-81ff-8086-b9d0-eed1f8ee9939": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/515b2ddf-21ef-4598-ba16-bb72fcf1162d/image.png?table=block&id=2f73b07c-81ff-8086-b9d0-eed1f8ee9939&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=hcZrsTAKBUPvIGT0mOvUhpD26RlFiJowbEDrz_gj_lk",
+    "2f73b07c-81ff-8030-b1f6-e67cf0fe1cc1": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/4834fc45-5ba5-418b-abf1-f1cf2fd6c3d7/2026-01-09_14-15-45.mp4_snapshot_02.52_2026-01-29_17.59.35.jpg?table=block&id=2f73b07c-81ff-8030-b1f6-e67cf0fe1cc1&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=33PNWUV6NkZwn9RYQ5uTi9rp3p6NpWZtH5N3_SFq7-Y"
   }
 }
