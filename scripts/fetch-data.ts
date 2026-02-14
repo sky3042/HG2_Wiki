@@ -24,6 +24,23 @@ if (!fs.existsSync(DATA_DIR)) {
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
+// ▼▼▼ 二重ラップ修正用の共通関数 ▼▼▼
+function fixDoubleNesting(obj: any) {
+  if (!obj) return;
+  for (const key in obj) {
+    const item = obj[key];
+    if (!item || !item.value) continue;
+
+    // value.value が存在する場合、それを本来の value に引き上げる
+    const innerValue = (item.value as any).value;
+    if (innerValue) {
+      // console.log(`   🔧 Fixing double nesting for key: ${key}`);
+      item.value = innerValue;
+    }
+  }
+}
+// ▲▲▲ ここまで ▲▲▲
+
 async function main() {
   console.log('🚀 Notionデータの増分更新（タイムスタンプ比較）を開始します...');
   
@@ -31,7 +48,6 @@ async function main() {
   const newPages: string[] = [];
   const skippedPages: string[] = [];
 
-  // 1. ローカルにあるファイルのリストを確認
   const localFiles = new Set<string>();
   if (fs.existsSync(DATA_DIR)) {
     const files = fs.readdirSync(DATA_DIR);
@@ -50,43 +66,20 @@ async function main() {
       const filePath = path.join(DATA_DIR, `${cleanId}.json`);
 
       try {
-        // Notionから最新データを取得
         const recordMap = await notion.getPage(pageId);
 
-        // ▼▼▼ 修正ロジック（ここへ移動しました） ▼▼▼
-        // データを保存する前に、必ず構造をチェックして修正する
-        if (recordMap.block) {
-          for (const key in recordMap.block) {
-            const block = recordMap.block[key];
-
-            // 安全チェック
-            if (!block || !block.value) continue;
-
-            // 二重ラップ（value.value）を検知する
-            const innerValue = (block.value as any).value;
-
-            if (innerValue) {
-              console.log(`⚠️ DETECTED double nesting in block: ${key}`);
-              
-              // 修正を実行
-              block.value = innerValue;
-              
-              // 修正できたか確認
-              if ((block.value as any).id === innerValue.id) {
-                 // console.log(`   -> ✅ Fixed successfully.`); // ログが多すぎる場合はコメントアウト
-              }
-            }
-          }
-        }
-        // ▲▲▲ 修正ロジック終了 ▲▲▲
+        // ▼▼▼ 修正適用：block だけでなく collection 等も直す ▼▼▼
+        fixDoubleNesting(recordMap.block);
+        fixDoubleNesting(recordMap.collection);
+        fixDoubleNesting(recordMap.collection_view);
+        // ▲▲▲ 修正ここまで ▲▲▲
         
-        // ブロック情報の取得（修正後のデータを使う）
         const block = recordMap.block[pageId]?.value;
         const title = block 
           ? (getBlockTitle(block, recordMap) || 'Untitled') 
           : 'Unknown Page';
 
-        // A. 新規ページの場合 -> 保存
+        // A. 新規ページ
         if (!localFiles.has(cleanId)) {
             console.log(`✨ New: "${title}"`);
             fs.writeFileSync(filePath, JSON.stringify(recordMap, null, 2));
@@ -95,9 +88,8 @@ async function main() {
             return recordMap;
         }
 
-        // B. 既存ページの場合 -> タイムスタンプ比較
+        // B. 既存ページ（タイムスタンプ比較）
         if (fs.existsSync(filePath)) {
-            // ローカルのデータを読み込んで最終更新日時を取得
             const oldData = fs.readFileSync(filePath, 'utf-8');
             const oldRecordMap = JSON.parse(oldData) as ExtendedRecordMap;
             const oldBlock = oldRecordMap.block[pageId]?.value;
@@ -105,14 +97,13 @@ async function main() {
             const oldTime = oldBlock?.last_edited_time || 0;
             const newTime = block?.last_edited_time || 0;
 
-            // タイムスタンプが同じなら保存しない（スキップ）
             if (oldTime === newTime) {
                 skippedPages.push(title);
                 return recordMap; 
             }
         }
 
-        // 変更あり -> 保存
+        // C. 更新あり
         console.log(`🔄 Updated: "${title}"`);
         fs.writeFileSync(filePath, JSON.stringify(recordMap, null, 2));
         updatedPages.push(title);
@@ -138,16 +129,6 @@ async function main() {
   console.log('\n' + '='.repeat(40));
   console.log('🎉 処理完了');
   console.log(`新規: ${newPages.length} / 更新: ${updatedPages.length} / 変化なし: ${skippedPages.length}`);
-  
-  if (newPages.length > 0) {
-    console.log('\n[新規ページ]');
-    newPages.forEach(p => console.log(`  + ${p}`));
-  }
-  if (updatedPages.length > 0) {
-    console.log('\n[更新されたページ]');
-    updatedPages.forEach(p => console.log(`  * ${p}`));
-  }
-  console.log('='.repeat(40) + '\n');
 }
 
 main().catch((err) => {

@@ -16623,360 +16623,354 @@
     "1ca3b07c-81ff-8084-90ac-000b2b28ae0f": {
       "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df",
       "value": {
-        "value": {
-          "id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
-          "version": 23,
-          "name": [
-            [
-              "装備"
-            ]
-          ],
-          "schema": {
-            ";yc\\": {
-              "name": "実装日",
-              "type": "text"
-            },
-            "^UL:": {
-              "name": "神格覚醒",
-              "type": "text"
-            },
-            "c:Yb": {
-              "name": "ステータス",
-              "type": "checkbox",
-              "groups": [
-                {
-                  "id": "0f98ba49-e898-4c1e-8621-2564cbbe3da8",
-                  "name": "To-do",
-                  "color": "gray",
-                  "optionIds": [
-                    "9aa46466-b2ec-46d1-9957-dc9ab1ff6d15"
-                  ]
-                },
-                {
-                  "id": "e1f9db76-9d1a-424d-82d2-8951d29c2c0a",
-                  "name": "In progress",
-                  "color": "blue",
-                  "optionIds": [
-                    "bd592928-3564-4501-88b2-7a6d80d37b2a"
-                  ]
-                },
-                {
-                  "id": "b8104d55-fad1-4875-9fd5-91eb58921313",
-                  "name": "Complete",
-                  "color": "green",
-                  "optionIds": [
-                    "7b54b739-8b67-43fe-9b96-05513c368835"
-                  ]
-                }
-              ],
+        "id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
+        "version": 23,
+        "name": [
+          [
+            "装備"
+          ]
+        ],
+        "schema": {
+          ";yc\\": {
+            "name": "実装日",
+            "type": "text"
+          },
+          "^UL:": {
+            "name": "神格覚醒",
+            "type": "text"
+          },
+          "c:Yb": {
+            "name": "ステータス",
+            "type": "checkbox",
+            "groups": [
+              {
+                "id": "0f98ba49-e898-4c1e-8621-2564cbbe3da8",
+                "name": "To-do",
+                "color": "gray",
+                "optionIds": [
+                  "9aa46466-b2ec-46d1-9957-dc9ab1ff6d15"
+                ]
+              },
+              {
+                "id": "e1f9db76-9d1a-424d-82d2-8951d29c2c0a",
+                "name": "In progress",
+                "color": "blue",
+                "optionIds": [
+                  "bd592928-3564-4501-88b2-7a6d80d37b2a"
+                ]
+              },
+              {
+                "id": "b8104d55-fad1-4875-9fd5-91eb58921313",
+                "name": "Complete",
+                "color": "green",
+                "optionIds": [
+                  "7b54b739-8b67-43fe-9b96-05513c368835"
+                ]
+              }
+            ],
+            "options": [
+              {
+                "id": "9aa46466-b2ec-46d1-9957-dc9ab1ff6d15",
+                "value": "未着手",
+                "collectionIds": [
+                  "1ca3b07c-81ff-8084-90ac-000b2b28ae0f"
+                ]
+              },
+              {
+                "id": "bd592928-3564-4501-88b2-7a6d80d37b2a",
+                "color": "blue",
+                "value": "進行中",
+                "collectionIds": [
+                  "1ca3b07c-81ff-8084-90ac-000b2b28ae0f"
+                ]
+              },
+              {
+                "id": "7b54b739-8b67-43fe-9b96-05513c368835",
+                "color": "green",
+                "value": "完了",
+                "collectionIds": [
+                  "1ca3b07c-81ff-8084-90ac-000b2b28ae0f"
+                ]
+              }
+            ],
+            "defaultOption": "未着手"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "metadata_copied_from": {
+            "id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "装備タイプ",
+              "type": "select",
               "options": [
                 {
-                  "id": "9aa46466-b2ec-46d1-9957-dc9ab1ff6d15",
-                  "value": "未着手",
-                  "collectionIds": [
-                    "1ca3b07c-81ff-8084-90ac-000b2b28ae0f"
-                  ]
+                  "id": "S~Cn",
+                  "color": "red",
+                  "value": "武器"
                 },
                 {
-                  "id": "bd592928-3564-4501-88b2-7a6d80d37b2a",
+                  "id": "`cOf",
+                  "color": "gray",
+                  "value": "防具"
+                },
+                {
+                  "id": "fr;b",
                   "color": "blue",
-                  "value": "進行中",
-                  "collectionIds": [
-                    "1ca3b07c-81ff-8084-90ac-000b2b28ae0f"
-                  ]
+                  "value": "アクセサリー"
+                }
+              ]
+            },
+            {
+              "name": "重量",
+              "type": "number"
+            },
+            {
+              "name": "耐久性",
+              "type": "number"
+            },
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "製造日",
+              "type": "date"
+            },
+            {
+              "name": "所有者",
+              "type": "person"
+            },
+            {
+              "name": "状態",
+              "type": "status"
+            },
+            {
+              "name": "画像URL",
+              "type": "url"
+            },
+            {
+              "name": "関連アイテム",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "zEC=",
+                  "color": "brown",
+                  "value": "ポーション"
                 },
                 {
-                  "id": "7b54b739-8b67-43fe-9b96-05513c368835",
-                  "color": "green",
-                  "value": "完了",
-                  "collectionIds": [
-                    "1ca3b07c-81ff-8084-90ac-000b2b28ae0f"
-                  ]
+                  "id": "`uWJ",
+                  "color": "blue",
+                  "value": "スクロール"
+                },
+                {
+                  "id": "iG\\}",
+                  "color": "pink",
+                  "value": "鍛冶道具"
                 }
-              ],
-              "defaultOption": "未着手"
+              ]
             },
-            "title": {
-              "name": "名前",
-              "type": "title"
+            {
+              "name": "製造者メール",
+              "type": "email"
             }
-          },
-          "format": {
-            "metadata_copied_from": {
-              "id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
-              "table": "block",
-              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-            },
-            "ai_suggested_properties": [
-              {
-                "name": "装備タイプ",
-                "type": "select",
-                "options": [
-                  {
-                    "id": "S~Cn",
-                    "color": "red",
-                    "value": "武器"
-                  },
-                  {
-                    "id": "`cOf",
-                    "color": "gray",
-                    "value": "防具"
-                  },
-                  {
-                    "id": "fr;b",
-                    "color": "blue",
-                    "value": "アクセサリー"
-                  }
-                ]
-              },
-              {
-                "name": "重量",
-                "type": "number"
-              },
-              {
-                "name": "耐久性",
-                "type": "number"
-              },
-              {
-                "name": "説明",
-                "type": "text"
-              },
-              {
-                "name": "製造日",
-                "type": "date"
-              },
-              {
-                "name": "所有者",
-                "type": "person"
-              },
-              {
-                "name": "状態",
-                "type": "status"
-              },
-              {
-                "name": "画像URL",
-                "type": "url"
-              },
-              {
-                "name": "関連アイテム",
-                "type": "multi_select",
-                "options": [
-                  {
-                    "id": "zEC=",
-                    "color": "brown",
-                    "value": "ポーション"
-                  },
-                  {
-                    "id": "`uWJ",
-                    "color": "blue",
-                    "value": "スクロール"
-                  },
-                  {
-                    "id": "iG\\}",
-                    "color": "pink",
-                    "value": "鍛冶道具"
-                  }
-                ]
-              },
-              {
-                "name": "製造者メール",
-                "type": "email"
-              }
-            ]
-          },
-          "parent_id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
-          "parent_table": "block",
-          "alive": true,
-          "migrated": true,
-          "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-          "deleted_schema": {
-            "IxYo": {
-              "name": "分類",
-              "type": "text"
-            },
-            "}d?V": {
-              "name": "記録",
-              "type": "text"
-            }
-          },
-          "created_time": 1743690486831,
-          "last_edited_time": 1764306901483,
-          "created_by_table": "notion_user",
-          "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
-          "last_edited_by_table": "notion_user",
-          "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+          ]
         },
-        "role": "reader"
+        "parent_id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
+        "parent_table": "block",
+        "alive": true,
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "deleted_schema": {
+          "IxYo": {
+            "name": "分類",
+            "type": "text"
+          },
+          "}d?V": {
+            "name": "記録",
+            "type": "text"
+          }
+        },
+        "created_time": 1743690486831,
+        "last_edited_time": 1764306901483,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       }
     },
     "1ac3b07c-81ff-8086-a96b-000b78a078f2": {
       "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df",
       "value": {
-        "value": {
-          "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
-          "version": 43,
-          "name": [
-            [
-              "目次"
-            ]
-          ],
-          "schema": {
-            "`q`e": {
-              "name": "タグ",
-              "type": "multi_select"
+        "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "version": 43,
+        "name": [
+          [
+            "目次"
+          ]
+        ],
+        "schema": {
+          "`q`e": {
+            "name": "タグ",
+            "type": "multi_select"
+          },
+          "t~Sf": {
+            "name": "Slug",
+            "type": "text"
+          },
+          "vidt": {
+            "name": "作成日時",
+            "type": "created_time"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "layout_pointer": {
+            "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+            "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "property_visibility": [
+            {
+              "property": "vidt",
+              "visibility": "show"
             },
-            "t~Sf": {
-              "name": "Slug",
+            {
+              "property": "`q`e",
+              "visibility": "show"
+            },
+            {
+              "property": "t~Sf",
+              "visibility": "show"
+            }
+          ],
+          "metadata_copied_from": {
+            "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
               "type": "text"
             },
-            "vidt": {
-              "name": "作成日時",
-              "type": "created_time"
+            {
+              "name": "更新日時",
+              "type": "date"
             },
-            "title": {
-              "name": "名前",
-              "type": "title"
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "Wegk",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": ";HBU",
+                  "color": "purple",
+                  "value": "中"
+                },
+                {
+                  "id": "Zark",
+                  "color": "default",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "ステータス",
+              "type": "status"
+            },
+            {
+              "name": "関連ファイル",
+              "type": "file"
+            },
+            {
+              "name": "連絡先メール",
+              "type": "email"
+            },
+            {
+              "name": "連絡先電話番号",
+              "type": "phone_number"
+            },
+            {
+              "name": "カテゴリー",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "o>B<",
+                  "color": "orange",
+                  "value": "技術"
+                },
+                {
+                  "id": "ksAA",
+                  "color": "pink",
+                  "value": "マーケティング"
+                },
+                {
+                  "id": "}yWP",
+                  "color": "brown",
+                  "value": "デザイン"
+                },
+                {
+                  "id": "lt{K",
+                  "color": "yellow",
+                  "value": "管理"
+                }
+              ]
+            },
+            {
+              "name": "予算",
+              "type": "number"
             }
-          },
-          "format": {
-            "layout_pointer": {
-              "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
-              "table": "layout",
-              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-            },
-            "property_visibility": [
-              {
-                "property": "vidt",
-                "visibility": "show"
-              },
-              {
-                "property": "`q`e",
-                "visibility": "show"
-              },
-              {
-                "property": "t~Sf",
-                "visibility": "show"
-              }
-            ],
-            "metadata_copied_from": {
-              "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
-              "table": "block",
-              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-            },
-            "ai_suggested_properties": [
-              {
-                "name": "説明",
-                "type": "text"
-              },
-              {
-                "name": "更新日時",
-                "type": "date"
-              },
-              {
-                "name": "担当者",
-                "type": "person"
-              },
-              {
-                "name": "優先度",
-                "type": "select",
-                "options": [
-                  {
-                    "id": "Wegk",
-                    "color": "yellow",
-                    "value": "高"
-                  },
-                  {
-                    "id": ";HBU",
-                    "color": "purple",
-                    "value": "中"
-                  },
-                  {
-                    "id": "Zark",
-                    "color": "default",
-                    "value": "低"
-                  }
-                ]
-              },
-              {
-                "name": "ステータス",
-                "type": "status"
-              },
-              {
-                "name": "関連ファイル",
-                "type": "file"
-              },
-              {
-                "name": "連絡先メール",
-                "type": "email"
-              },
-              {
-                "name": "連絡先電話番号",
-                "type": "phone_number"
-              },
-              {
-                "name": "カテゴリー",
-                "type": "multi_select",
-                "options": [
-                  {
-                    "id": "o>B<",
-                    "color": "orange",
-                    "value": "技術"
-                  },
-                  {
-                    "id": "ksAA",
-                    "color": "pink",
-                    "value": "マーケティング"
-                  },
-                  {
-                    "id": "}yWP",
-                    "color": "brown",
-                    "value": "デザイン"
-                  },
-                  {
-                    "id": "lt{K",
-                    "color": "yellow",
-                    "value": "管理"
-                  }
-                ]
-              },
-              {
-                "name": "予算",
-                "type": "number"
-              }
-            ],
-            "page_section_visibility": {
-              "comments": "section_hide",
-              "backlinks": "section_collapsed",
-              "margin_comments": "minimal"
-            },
-            "collection_cover_position": 0.7987,
-            "collection_page_properties": [
-              {
-                "visible": true,
-                "property": "vidt"
-              },
-              {
-                "visible": true,
-                "property": "`q`e"
-              }
-            ]
-          },
-          "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
-          "parent_table": "block",
-          "alive": true,
-          "file_ids": [
-            "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
           ],
-          "migrated": true,
-          "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-          "created_time": 1741119010204,
-          "last_edited_time": 1763794560935,
-          "created_by_table": "notion_user",
-          "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
-          "last_edited_by_table": "notion_user",
-          "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+          "page_section_visibility": {
+            "comments": "section_hide",
+            "backlinks": "section_collapsed",
+            "margin_comments": "minimal"
+          },
+          "collection_cover_position": 0.7987,
+          "collection_page_properties": [
+            {
+              "visible": true,
+              "property": "vidt"
+            },
+            {
+              "visible": true,
+              "property": "`q`e"
+            }
+          ]
         },
-        "role": "reader"
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
+        ],
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1741119010204,
+        "last_edited_time": 1763794560935,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       }
     },
     "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba": {

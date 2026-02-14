@@ -8054,331 +8054,325 @@
     "1c83b07c-81ff-80c8-b9ad-000b936e88a7": {
       "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df",
       "value": {
-        "value": {
-          "id": "1c83b07c-81ff-80c8-b9ad-000b936e88a7",
-          "version": 28,
-          "name": [
-            [
-              "ストーリー"
-            ]
-          ],
-          "schema": {
-            "?hQ~": {
-              "name": "分類",
-              "type": "text"
-            },
-            "fixk": {
-              "name": "実装日",
-              "type": "text"
-            },
-            "q>W{": {
-              "name": "Slug",
-              "type": "text",
-              "description": ""
-            },
-            "title": {
-              "name": "名前",
-              "type": "title"
-            }
+        "id": "1c83b07c-81ff-80c8-b9ad-000b936e88a7",
+        "version": 28,
+        "name": [
+          [
+            "ストーリー"
+          ]
+        ],
+        "schema": {
+          "?hQ~": {
+            "name": "分類",
+            "type": "text"
           },
-          "format": {
-            "layout_pointer": {
-              "id": "1c83b07c-81ff-800c-bcb2-006e2ba6571e",
-              "table": "layout",
-              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          "fixk": {
+            "name": "実装日",
+            "type": "text"
+          },
+          "q>W{": {
+            "name": "Slug",
+            "type": "text",
+            "description": ""
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "layout_pointer": {
+            "id": "1c83b07c-81ff-800c-bcb2-006e2ba6571e",
+            "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "property_visibility": [
+            {
+              "property": "q>W{",
+              "visibility": "show"
             },
-            "property_visibility": [
-              {
-                "property": "q>W{",
-                "visibility": "show"
-              },
-              {
-                "property": "?hQ~",
-                "visibility": "show"
-              },
-              {
-                "property": "fixk",
-                "visibility": "show"
-              }
-            ],
-            "metadata_copied_from": {
-              "id": "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
-              "table": "block",
-              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+            {
+              "property": "?hQ~",
+              "visibility": "show"
             },
-            "ai_suggested_properties": [
+            {
+              "property": "fixk",
+              "visibility": "show"
+            }
+          ],
+          "metadata_copied_from": {
+            "id": "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "作成者",
+              "type": "person"
+            },
+            {
+              "name": "公開日",
+              "type": "date"
+            },
+            {
+              "name": "重要度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "LRho",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": "Q|^@",
+                  "color": "gray",
+                  "value": "中"
+                },
+                {
+                  "id": "VFwE",
+                  "color": "green",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "関連リンク",
+              "type": "url"
+            }
+          ],
+          "page_section_visibility": {
+            "comments": "section_hide",
+            "backlinks": "section_collapsed",
+            "margin_comments": "minimal"
+          }
+        },
+        "parent_id": "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
+        "parent_table": "block",
+        "alive": true,
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "deleted_schema": {
+          ">Zr:": {
+            "name": "Status",
+            "type": "status",
+            "groups": [
               {
-                "name": "作成者",
-                "type": "person"
-              },
-              {
-                "name": "公開日",
-                "type": "date"
-              },
-              {
-                "name": "重要度",
-                "type": "select",
-                "options": [
-                  {
-                    "id": "LRho",
-                    "color": "yellow",
-                    "value": "高"
-                  },
-                  {
-                    "id": "Q|^@",
-                    "color": "gray",
-                    "value": "中"
-                  },
-                  {
-                    "id": "VFwE",
-                    "color": "green",
-                    "value": "低"
-                  }
+                "id": "e1835885-3817-4e15-be36-6cc0c3f65ea9",
+                "name": "To-do",
+                "color": "gray",
+                "optionIds": [
+                  "d487e991-93ad-4f00-979c-d4e6cf76f6bf"
                 ]
               },
               {
-                "name": "関連リンク",
-                "type": "url"
+                "id": "a9526929-67c9-4638-bc3e-3faf936ce05a",
+                "name": "In progress",
+                "color": "blue",
+                "optionIds": [
+                  "0a760d70-91e3-41c6-a40e-6c4a4d0dc8ec"
+                ]
+              },
+              {
+                "id": "c6b96b88-bb40-4e51-93d6-40525b58e267",
+                "name": "Complete",
+                "color": "green",
+                "optionIds": [
+                  "f358d1b5-958f-4323-8981-7852d68a3fae"
+                ]
               }
             ],
-            "page_section_visibility": {
-              "comments": "section_hide",
-              "backlinks": "section_collapsed",
-              "margin_comments": "minimal"
-            }
-          },
-          "parent_id": "1c83b07c-81ff-80ed-9cad-f904d81aa1d9",
-          "parent_table": "block",
-          "alive": true,
-          "migrated": true,
-          "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-          "deleted_schema": {
-            ">Zr:": {
-              "name": "Status",
-              "type": "status",
-              "groups": [
-                {
-                  "id": "e1835885-3817-4e15-be36-6cc0c3f65ea9",
-                  "name": "To-do",
-                  "color": "gray",
-                  "optionIds": [
-                    "d487e991-93ad-4f00-979c-d4e6cf76f6bf"
-                  ]
-                },
-                {
-                  "id": "a9526929-67c9-4638-bc3e-3faf936ce05a",
-                  "name": "In progress",
-                  "color": "blue",
-                  "optionIds": [
-                    "0a760d70-91e3-41c6-a40e-6c4a4d0dc8ec"
-                  ]
-                },
-                {
-                  "id": "c6b96b88-bb40-4e51-93d6-40525b58e267",
-                  "name": "Complete",
-                  "color": "green",
-                  "optionIds": [
-                    "f358d1b5-958f-4323-8981-7852d68a3fae"
-                  ]
-                }
-              ],
-              "options": [
-                {
-                  "id": "d487e991-93ad-4f00-979c-d4e6cf76f6bf",
-                  "value": "未着手"
-                },
-                {
-                  "id": "0a760d70-91e3-41c6-a40e-6c4a4d0dc8ec",
-                  "color": "blue",
-                  "value": "進行中"
-                },
-                {
-                  "id": "f358d1b5-958f-4323-8981-7852d68a3fae",
-                  "color": "green",
-                  "value": "完了"
-                }
-              ],
-              "defaultOption": "未着手"
-            }
-          },
-          "created_time": 1743512112793,
-          "last_edited_time": 1764146276527,
-          "created_by_table": "notion_user",
-          "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
-          "last_edited_by_table": "notion_user",
-          "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+            "options": [
+              {
+                "id": "d487e991-93ad-4f00-979c-d4e6cf76f6bf",
+                "value": "未着手"
+              },
+              {
+                "id": "0a760d70-91e3-41c6-a40e-6c4a4d0dc8ec",
+                "color": "blue",
+                "value": "進行中"
+              },
+              {
+                "id": "f358d1b5-958f-4323-8981-7852d68a3fae",
+                "color": "green",
+                "value": "完了"
+              }
+            ],
+            "defaultOption": "未着手"
+          }
         },
-        "role": "reader"
+        "created_time": 1743512112793,
+        "last_edited_time": 1764146276527,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       }
     },
     "1ac3b07c-81ff-8086-a96b-000b78a078f2": {
       "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df",
       "value": {
-        "value": {
-          "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
-          "version": 43,
-          "name": [
-            [
-              "目次"
-            ]
-          ],
-          "schema": {
-            "`q`e": {
-              "name": "タグ",
-              "type": "multi_select"
+        "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "version": 43,
+        "name": [
+          [
+            "目次"
+          ]
+        ],
+        "schema": {
+          "`q`e": {
+            "name": "タグ",
+            "type": "multi_select"
+          },
+          "t~Sf": {
+            "name": "Slug",
+            "type": "text"
+          },
+          "vidt": {
+            "name": "作成日時",
+            "type": "created_time"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "layout_pointer": {
+            "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+            "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "property_visibility": [
+            {
+              "property": "vidt",
+              "visibility": "show"
             },
-            "t~Sf": {
-              "name": "Slug",
+            {
+              "property": "`q`e",
+              "visibility": "show"
+            },
+            {
+              "property": "t~Sf",
+              "visibility": "show"
+            }
+          ],
+          "metadata_copied_from": {
+            "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
               "type": "text"
             },
-            "vidt": {
-              "name": "作成日時",
-              "type": "created_time"
+            {
+              "name": "更新日時",
+              "type": "date"
             },
-            "title": {
-              "name": "名前",
-              "type": "title"
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "Wegk",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": ";HBU",
+                  "color": "purple",
+                  "value": "中"
+                },
+                {
+                  "id": "Zark",
+                  "color": "default",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "ステータス",
+              "type": "status"
+            },
+            {
+              "name": "関連ファイル",
+              "type": "file"
+            },
+            {
+              "name": "連絡先メール",
+              "type": "email"
+            },
+            {
+              "name": "連絡先電話番号",
+              "type": "phone_number"
+            },
+            {
+              "name": "カテゴリー",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "o>B<",
+                  "color": "orange",
+                  "value": "技術"
+                },
+                {
+                  "id": "ksAA",
+                  "color": "pink",
+                  "value": "マーケティング"
+                },
+                {
+                  "id": "}yWP",
+                  "color": "brown",
+                  "value": "デザイン"
+                },
+                {
+                  "id": "lt{K",
+                  "color": "yellow",
+                  "value": "管理"
+                }
+              ]
+            },
+            {
+              "name": "予算",
+              "type": "number"
             }
-          },
-          "format": {
-            "layout_pointer": {
-              "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
-              "table": "layout",
-              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-            },
-            "property_visibility": [
-              {
-                "property": "vidt",
-                "visibility": "show"
-              },
-              {
-                "property": "`q`e",
-                "visibility": "show"
-              },
-              {
-                "property": "t~Sf",
-                "visibility": "show"
-              }
-            ],
-            "metadata_copied_from": {
-              "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
-              "table": "block",
-              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-            },
-            "ai_suggested_properties": [
-              {
-                "name": "説明",
-                "type": "text"
-              },
-              {
-                "name": "更新日時",
-                "type": "date"
-              },
-              {
-                "name": "担当者",
-                "type": "person"
-              },
-              {
-                "name": "優先度",
-                "type": "select",
-                "options": [
-                  {
-                    "id": "Wegk",
-                    "color": "yellow",
-                    "value": "高"
-                  },
-                  {
-                    "id": ";HBU",
-                    "color": "purple",
-                    "value": "中"
-                  },
-                  {
-                    "id": "Zark",
-                    "color": "default",
-                    "value": "低"
-                  }
-                ]
-              },
-              {
-                "name": "ステータス",
-                "type": "status"
-              },
-              {
-                "name": "関連ファイル",
-                "type": "file"
-              },
-              {
-                "name": "連絡先メール",
-                "type": "email"
-              },
-              {
-                "name": "連絡先電話番号",
-                "type": "phone_number"
-              },
-              {
-                "name": "カテゴリー",
-                "type": "multi_select",
-                "options": [
-                  {
-                    "id": "o>B<",
-                    "color": "orange",
-                    "value": "技術"
-                  },
-                  {
-                    "id": "ksAA",
-                    "color": "pink",
-                    "value": "マーケティング"
-                  },
-                  {
-                    "id": "}yWP",
-                    "color": "brown",
-                    "value": "デザイン"
-                  },
-                  {
-                    "id": "lt{K",
-                    "color": "yellow",
-                    "value": "管理"
-                  }
-                ]
-              },
-              {
-                "name": "予算",
-                "type": "number"
-              }
-            ],
-            "page_section_visibility": {
-              "comments": "section_hide",
-              "backlinks": "section_collapsed",
-              "margin_comments": "minimal"
-            },
-            "collection_cover_position": 0.7987,
-            "collection_page_properties": [
-              {
-                "visible": true,
-                "property": "vidt"
-              },
-              {
-                "visible": true,
-                "property": "`q`e"
-              }
-            ]
-          },
-          "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
-          "parent_table": "block",
-          "alive": true,
-          "file_ids": [
-            "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
           ],
-          "migrated": true,
-          "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-          "created_time": 1741119010204,
-          "last_edited_time": 1763794560935,
-          "created_by_table": "notion_user",
-          "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
-          "last_edited_by_table": "notion_user",
-          "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+          "page_section_visibility": {
+            "comments": "section_hide",
+            "backlinks": "section_collapsed",
+            "margin_comments": "minimal"
+          },
+          "collection_cover_position": 0.7987,
+          "collection_page_properties": [
+            {
+              "visible": true,
+              "property": "vidt"
+            },
+            {
+              "visible": true,
+              "property": "`q`e"
+            }
+          ]
         },
-        "role": "reader"
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
+        ],
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1741119010204,
+        "last_edited_time": 1763794560935,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       }
     },
     "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba": {

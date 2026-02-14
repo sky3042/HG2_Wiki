@@ -13460,171 +13460,168 @@
     "1ac3b07c-81ff-8086-a96b-000b78a078f2": {
       "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df",
       "value": {
-        "value": {
-          "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
-          "version": 43,
-          "name": [
-            [
-              "目次"
-            ]
-          ],
-          "schema": {
-            "`q`e": {
-              "name": "タグ",
-              "type": "multi_select"
+        "id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
+        "version": 43,
+        "name": [
+          [
+            "目次"
+          ]
+        ],
+        "schema": {
+          "`q`e": {
+            "name": "タグ",
+            "type": "multi_select"
+          },
+          "t~Sf": {
+            "name": "Slug",
+            "type": "text"
+          },
+          "vidt": {
+            "name": "作成日時",
+            "type": "created_time"
+          },
+          "title": {
+            "name": "名前",
+            "type": "title"
+          }
+        },
+        "format": {
+          "layout_pointer": {
+            "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
+            "table": "layout",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "property_visibility": [
+            {
+              "property": "vidt",
+              "visibility": "show"
             },
-            "t~Sf": {
-              "name": "Slug",
+            {
+              "property": "`q`e",
+              "visibility": "show"
+            },
+            {
+              "property": "t~Sf",
+              "visibility": "show"
+            }
+          ],
+          "metadata_copied_from": {
+            "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
               "type": "text"
             },
-            "vidt": {
-              "name": "作成日時",
-              "type": "created_time"
+            {
+              "name": "更新日時",
+              "type": "date"
             },
-            "title": {
-              "name": "名前",
-              "type": "title"
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "Wegk",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": ";HBU",
+                  "color": "purple",
+                  "value": "中"
+                },
+                {
+                  "id": "Zark",
+                  "color": "default",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "ステータス",
+              "type": "status"
+            },
+            {
+              "name": "関連ファイル",
+              "type": "file"
+            },
+            {
+              "name": "連絡先メール",
+              "type": "email"
+            },
+            {
+              "name": "連絡先電話番号",
+              "type": "phone_number"
+            },
+            {
+              "name": "カテゴリー",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "o>B<",
+                  "color": "orange",
+                  "value": "技術"
+                },
+                {
+                  "id": "ksAA",
+                  "color": "pink",
+                  "value": "マーケティング"
+                },
+                {
+                  "id": "}yWP",
+                  "color": "brown",
+                  "value": "デザイン"
+                },
+                {
+                  "id": "lt{K",
+                  "color": "yellow",
+                  "value": "管理"
+                }
+              ]
+            },
+            {
+              "name": "予算",
+              "type": "number"
             }
-          },
-          "format": {
-            "layout_pointer": {
-              "id": "1ac3b07c-81ff-80e0-9466-006e60a7ae40",
-              "table": "layout",
-              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-            },
-            "property_visibility": [
-              {
-                "property": "vidt",
-                "visibility": "show"
-              },
-              {
-                "property": "`q`e",
-                "visibility": "show"
-              },
-              {
-                "property": "t~Sf",
-                "visibility": "show"
-              }
-            ],
-            "metadata_copied_from": {
-              "id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
-              "table": "block",
-              "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-            },
-            "ai_suggested_properties": [
-              {
-                "name": "説明",
-                "type": "text"
-              },
-              {
-                "name": "更新日時",
-                "type": "date"
-              },
-              {
-                "name": "担当者",
-                "type": "person"
-              },
-              {
-                "name": "優先度",
-                "type": "select",
-                "options": [
-                  {
-                    "id": "Wegk",
-                    "color": "yellow",
-                    "value": "高"
-                  },
-                  {
-                    "id": ";HBU",
-                    "color": "purple",
-                    "value": "中"
-                  },
-                  {
-                    "id": "Zark",
-                    "color": "default",
-                    "value": "低"
-                  }
-                ]
-              },
-              {
-                "name": "ステータス",
-                "type": "status"
-              },
-              {
-                "name": "関連ファイル",
-                "type": "file"
-              },
-              {
-                "name": "連絡先メール",
-                "type": "email"
-              },
-              {
-                "name": "連絡先電話番号",
-                "type": "phone_number"
-              },
-              {
-                "name": "カテゴリー",
-                "type": "multi_select",
-                "options": [
-                  {
-                    "id": "o>B<",
-                    "color": "orange",
-                    "value": "技術"
-                  },
-                  {
-                    "id": "ksAA",
-                    "color": "pink",
-                    "value": "マーケティング"
-                  },
-                  {
-                    "id": "}yWP",
-                    "color": "brown",
-                    "value": "デザイン"
-                  },
-                  {
-                    "id": "lt{K",
-                    "color": "yellow",
-                    "value": "管理"
-                  }
-                ]
-              },
-              {
-                "name": "予算",
-                "type": "number"
-              }
-            ],
-            "page_section_visibility": {
-              "comments": "section_hide",
-              "backlinks": "section_collapsed",
-              "margin_comments": "minimal"
-            },
-            "collection_cover_position": 0.7987,
-            "collection_page_properties": [
-              {
-                "visible": true,
-                "property": "vidt"
-              },
-              {
-                "visible": true,
-                "property": "`q`e"
-              }
-            ]
-          },
-          "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
-          "parent_table": "block",
-          "alive": true,
-          "file_ids": [
-            "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
           ],
-          "migrated": true,
-          "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-          "created_time": 1741119010204,
-          "last_edited_time": 1763794560935,
-          "created_by_table": "notion_user",
-          "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
-          "last_edited_by_table": "notion_user",
-          "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
+          "page_section_visibility": {
+            "comments": "section_hide",
+            "backlinks": "section_collapsed",
+            "margin_comments": "minimal"
+          },
+          "collection_cover_position": 0.7987,
+          "collection_page_properties": [
+            {
+              "visible": true,
+              "property": "vidt"
+            },
+            {
+              "visible": true,
+              "property": "`q`e"
+            }
+          ]
         },
-        "role": "reader"
+        "parent_id": "1ac3b07c-81ff-8068-828b-fec9cdc96765",
+        "parent_table": "block",
+        "alive": true,
+        "file_ids": [
+          "4f9fcbb9-8c79-49e0-98bf-457ceee7859a"
+        ],
+        "migrated": true,
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1741119010204,
+        "last_edited_time": 1763794560935,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       }
     },
     "1ad3b07c-81ff-80f8-93e5-000baa1c67d4": {
@@ -13950,6 +13947,6 @@
     }
   },
   "signed_urls": {
-    "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d0232478-c39e-4987-8861-2c97e4a8c8a2/Screenshot_2025.03.17_06.05.21.850.png?table=block&id=1ad3b07c-81ff-80af-8fa1-dba5dde1db0d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=glFSbi1nm57pifVzpc6Vupl9sHfMr8FORr2CYbMC0iQ"
+    "1ad3b07c-81ff-80af-8fa1-dba5dde1db0d": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/d0232478-c39e-4987-8861-2c97e4a8c8a2/Screenshot_2025.03.17_06.05.21.850.png?table=block&id=1ad3b07c-81ff-80af-8fa1-dba5dde1db0d&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771084800000&signature=qG4XrWbYWTs2YhvoS-mH87cu7fl7AFpdG-KvNl5xF5Q"
   }
 }
