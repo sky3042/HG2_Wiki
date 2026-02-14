@@ -61,9 +61,14 @@
     "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8": {
       "value": {
         "id": "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
-        "version": 358,
+        "version": 379,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "history"
+            ]
+          ],
           "title": [
             [
               "歴史"
@@ -121,8 +126,6 @@
           "1c13b07c-81ff-8013-ab16-d888c5f8aba6",
           "1c13b07c-81ff-8012-addc-ca479bc84bab",
           "1c13b07c-81ff-80cb-abe3-f5dac7fd54e3",
-          "1c13b07c-81ff-8097-a876-c0e6f42ae1a6",
-          "1c13b07c-81ff-800b-b9f2-d747b25dd5ec",
           "1c13b07c-81ff-80ba-b5da-cb31d44a7382",
           "27c3b07c-81ff-80d1-ae43-d3d56dbc264e",
           "1c13b07c-81ff-80f6-805a-fc812b9f823e",
@@ -160,7 +163,7 @@
           "social_media_image_preview_url": "attachment:1de8f8ae-78ec-4b04-bad0-0359fa08275f:SocialMediaPreviewImage.png"
         },
         "created_time": 1741140217937,
-        "last_edited_time": 1763610633330,
+        "last_edited_time": 1768306536010,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -263,7 +266,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -293,20 +296,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -318,7 +315,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -341,7 +338,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -350,7 +347,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -372,8 +370,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -857,7 +893,7 @@
     "1c13b07c-81ff-8079-8db7-c8b54c4c8e6b": {
       "value": {
         "id": "1c13b07c-81ff-8079-8db7-c8b54c4c8e6b",
-        "version": 20,
+        "version": 27,
         "type": "page",
         "properties": {
           "title": [
@@ -869,10 +905,12 @@
         "content": [
           "1c13b07c-81ff-80da-b805-c351bc2ac019",
           "1c13b07c-81ff-80b5-a73a-e23762dca5a2",
-          "1c13b07c-81ff-8079-a173-c53dee4c0c22"
+          "2e33b07c-81ff-8032-b5c4-d56bb8b09f8f",
+          "2e33b07c-81ff-809a-a5dd-c22eaf5c32c7",
+          "2e33b07c-81ff-8097-8f30-cdcd968cb2ac"
         ],
         "created_time": 1742883878774,
-        "last_edited_time": 1763610717452,
+        "last_edited_time": 1767973151757,
         "parent_id": "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
         "parent_table": "block",
         "alive": true,

@@ -285,7 +285,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 356,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -357,7 +357,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764247209474,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -643,7 +643,7 @@
     "1c03b07c-81ff-80a4-829a-f25fa0e3c7c4": {
       "value": {
         "id": "1c03b07c-81ff-80a4-829a-f25fa0e3c7c4",
-        "version": 31,
+        "version": 32,
         "type": "text",
         "properties": {
           "title": [
@@ -657,14 +657,47 @@
         "parent_id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "wSbBE32quhCWEz75UnGQfA,\"start\",\"end\"",
+            "n": {
+              "wSbBE32quhCWEz75UnGQfA,\"start\",\"end\"": {
+                "s": {
+                  "x": "wSbBE32quhCWEz75UnGQfA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VYgC-waVhofo",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 40,
+                      "c": "内部では非常に複雑な派閥闘争が絶えず、中央遠征軍と地方軍閥の間に不調和があった。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1c03b07c-81ff-8051-933d-c0fd5ef959d0": {
       "value": {
         "id": "1c03b07c-81ff-8051-933d-c0fd5ef959d0",
-        "version": 13,
+        "version": 14,
         "type": "text",
         "properties": {
           "title": [
@@ -687,14 +720,90 @@
         "parent_id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "hB-RAvwOEvSETbFErV6_iQ,\"start\",\"end\"",
+            "n": {
+              "hB-RAvwOEvSETbFErV6_iQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "hB-RAvwOEvSETbFErV6_iQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "dI-uJFUtSn03",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "元帥",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "hB-RAvwOEvSETbFErV6_iQ",
+                          "l": "",
+                          "i": [
+                            "dI-uJFUtSn03",
+                            31
+                          ],
+                          "s": {
+                            "i": [
+                              "dI-uJFUtSn03",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "dI-uJFUtSn03",
+                              2
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bd3b07c81ff800caf8df5dc559f3811?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "dI-uJFUtSn03",
+                        3
+                      ],
+                      "o": [
+                        "dI-uJFUtSn03",
+                        2
+                      ],
+                      "l": 28,
+                      "c": "に対する敬愛だけが、軍団内で唯一共通している感情だった。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1c03b07c-81ff-80f2-8cc0-f5b3455d8990": {
       "value": {
         "id": "1c03b07c-81ff-80f2-8cc0-f5b3455d8990",
-        "version": 12,
+        "version": 13,
         "type": "text",
         "properties": {
           "title": [
@@ -708,7 +817,40 @@
         "parent_id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "aEwgmnm_vqZ5xsLcDoVw8w,\"start\",\"end\"",
+            "n": {
+              "aEwgmnm_vqZ5xsLcDoVw8w,\"start\",\"end\"": {
+                "s": {
+                  "x": "aEwgmnm_vqZ5xsLcDoVw8w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "PsCu_6RIt1BR",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 19,
+                      "c": "時代遅れの概念や習慣も一部残っている。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
@@ -1663,7 +1805,7 @@
     "1c03b07c-81ff-80f0-8a19-d8ec1a55a74c": {
       "value": {
         "id": "1c03b07c-81ff-80f0-8a19-d8ec1a55a74c",
-        "version": 101,
+        "version": 102,
         "type": "text",
         "properties": {
           "title": [
@@ -1698,14 +1840,146 @@
         "parent_id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "UWVk5y_kca20wi-6ygt-Hw,\"start\",\"end\"",
+            "n": {
+              "UWVk5y_kca20wi-6ygt-Hw,\"start\",\"end\"": {
+                "s": {
+                  "x": "UWVk5y_kca20wi-6ygt-Hw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "XRs3k2huDlsM",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "軍の内戦",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "UWVk5y_kca20wi-6ygt-Hw",
+                          "l": "",
+                          "i": [
+                            "XRs3k2huDlsM",
+                            34
+                          ],
+                          "s": {
+                            "i": [
+                              "XRs3k2huDlsM",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "XRs3k2huDlsM",
+                              4
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1c03b07c81ff8072afc0e06b7948e69d?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "XRs3k2huDlsM",
+                        5
+                      ],
+                      "o": [
+                        "XRs3k2huDlsM",
+                        4
+                      ],
+                      "l": 21,
+                      "c": "にて、どういうわけか短期間で一気に逆転し、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "XRs3k2huDlsM",
+                        26
+                      ],
+                      "o": [
+                        "XRs3k2huDlsM",
+                        25
+                      ],
+                      "l": 4,
+                      "c": "第一軍団",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "UWVk5y_kca20wi-6ygt-Hw",
+                          "l": "",
+                          "i": [
+                            "XRs3k2huDlsM",
+                            35
+                          ],
+                          "s": {
+                            "i": [
+                              "XRs3k2huDlsM",
+                              26
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "XRs3k2huDlsM",
+                              29
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1ad3b07c81ff80c4bfdfe82a7b46b62e?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "XRs3k2huDlsM",
+                        30
+                      ],
+                      "o": [
+                        "XRs3k2huDlsM",
+                        29
+                      ],
+                      "l": 4,
+                      "c": "に勝利。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1c03b07c-81ff-80d0-9b6b-f10b40a2bc9b": {
       "value": {
         "id": "1c03b07c-81ff-80d0-9b6b-f10b40a2bc9b",
-        "version": 79,
+        "version": 80,
         "type": "text",
         "properties": {
           "title": [
@@ -1740,14 +2014,146 @@
         "parent_id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "DsFvSKCv42g1ydgCWKjPuA,\"start\",\"end\"",
+            "n": {
+              "DsFvSKCv42g1ydgCWKjPuA,\"start\",\"end\"": {
+                "s": {
+                  "x": "DsFvSKCv42g1ydgCWKjPuA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qyi9SC_h6HWT",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "元帥",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "DsFvSKCv42g1ydgCWKjPuA",
+                          "l": "",
+                          "i": [
+                            "qyi9SC_h6HWT",
+                            27
+                          ],
+                          "s": {
+                            "i": [
+                              "qyi9SC_h6HWT",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "qyi9SC_h6HWT",
+                              2
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bd3b07c81ff800caf8df5dc559f3811?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qyi9SC_h6HWT",
+                        3
+                      ],
+                      "o": [
+                        "qyi9SC_h6HWT",
+                        2
+                      ],
+                      "l": 18,
+                      "c": "の死亡後、中央遠征軍と地方軍閥の間で"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qyi9SC_h6HWT",
+                        21
+                      ],
+                      "o": [
+                        "qyi9SC_h6HWT",
+                        20
+                      ],
+                      "l": 2,
+                      "c": "内戦",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "DsFvSKCv42g1ydgCWKjPuA",
+                          "l": "",
+                          "i": [
+                            "qyi9SC_h6HWT",
+                            28
+                          ],
+                          "s": {
+                            "i": [
+                              "qyi9SC_h6HWT",
+                              21
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "qyi9SC_h6HWT",
+                              22
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1c03b07c81ff807a8055ce1c02e15895?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "qyi9SC_h6HWT",
+                        23
+                      ],
+                      "o": [
+                        "qyi9SC_h6HWT",
+                        22
+                      ],
+                      "l": 4,
+                      "c": "が発生。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1c03b07c-81ff-8017-be4d-fbcf986e452f": {
       "value": {
         "id": "1c03b07c-81ff-8017-be4d-fbcf986e452f",
-        "version": 30,
+        "version": 31,
         "type": "text",
         "properties": {
           "title": [
@@ -1794,7 +2200,195 @@
         "parent_id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "mm7YecNeLiy-xUSM9qIMCQ,\"start\",\"end\"",
+            "n": {
+              "mm7YecNeLiy-xUSM9qIMCQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "mm7YecNeLiy-xUSM9qIMCQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "PoxlqAcdz7jl",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "内戦",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "mm7YecNeLiy-xUSM9qIMCQ",
+                          "l": "",
+                          "i": [
+                            "PoxlqAcdz7jl",
+                            51
+                          ],
+                          "s": {
+                            "i": [
+                              "PoxlqAcdz7jl",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "PoxlqAcdz7jl",
+                              2
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1c03b07c81ff807a8055ce1c02e15895?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "PoxlqAcdz7jl",
+                        3
+                      ],
+                      "o": [
+                        "PoxlqAcdz7jl",
+                        2
+                      ],
+                      "l": 7,
+                      "c": "の後、それぞれ"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "PoxlqAcdz7jl",
+                        10
+                      ],
+                      "o": [
+                        "PoxlqAcdz7jl",
+                        9
+                      ],
+                      "l": 4,
+                      "c": "三頭同盟",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "mm7YecNeLiy-xUSM9qIMCQ",
+                          "l": "",
+                          "i": [
+                            "PoxlqAcdz7jl",
+                            52
+                          ],
+                          "s": {
+                            "i": [
+                              "PoxlqAcdz7jl",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "PoxlqAcdz7jl",
+                              13
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1ad3b07c81ff80c6b3cde526c6aa90cc?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "PoxlqAcdz7jl",
+                        14
+                      ],
+                      "o": [
+                        "PoxlqAcdz7jl",
+                        13
+                      ],
+                      "l": 1,
+                      "c": "と"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "PoxlqAcdz7jl",
+                        15
+                      ],
+                      "o": [
+                        "PoxlqAcdz7jl",
+                        14
+                      ],
+                      "l": 5,
+                      "c": "南大陸連合",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "mm7YecNeLiy-xUSM9qIMCQ",
+                          "l": "",
+                          "i": [
+                            "PoxlqAcdz7jl",
+                            53
+                          ],
+                          "s": {
+                            "i": [
+                              "PoxlqAcdz7jl",
+                              15
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "PoxlqAcdz7jl",
+                              19
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1ad3b07c81ff80d39e1ce62f1b0c8602?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "PoxlqAcdz7jl",
+                        20
+                      ],
+                      "o": [
+                        "PoxlqAcdz7jl",
+                        19
+                      ],
+                      "l": 31,
+                      "c": "になって、両方とも自分が南方軍の正式な後継者だと主張している。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
@@ -2671,7 +3265,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1790,
+        "version": 1796,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -2751,6 +3345,8 @@
           "1bc3b07c-81ff-8024-a546-ea0e68ada392",
           "2e53b07c-81ff-80fb-ae9c-d4af89dc3526",
           "27c3b07c-81ff-80c9-a122-c119bfdb1420",
+          "27c3b07c-81ff-80a7-a54a-c53187756c66",
+          "27c3b07c-81ff-8059-bd22-d8cc2599ca76",
           "1bd3b07c-81ff-8087-9377-facf462a212f",
           "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
           "27c3b07c-81ff-8094-ac21-c90878468737",
@@ -2845,8 +3441,6 @@
           "1bf3b07c-81ff-80b8-a77c-e758620accbc",
           "1bf3b07c-81ff-80f9-a6c8-c33a80623855",
           "27c3b07c-81ff-8018-b7ee-ff527105ae45",
-          "27c3b07c-81ff-80a7-a54a-c53187756c66",
-          "27c3b07c-81ff-8059-bd22-d8cc2599ca76",
           "27c3b07c-81ff-80fd-a9c6-f09fd21b17fd",
           "27c3b07c-81ff-801b-b9c2-df19d63f2027",
           "27c3b07c-81ff-8042-a1f7-ed0bae0397b3",
@@ -2870,7 +3464,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1768123006610,
+        "last_edited_time": 1770782299520,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -3206,6 +3800,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "28c3b07c-81ff-800a-864a-effefc8c3ea7": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/3c7c932b-2a21-4f91-aaec-7b245a9f455f/image.png?table=block&id=28c3b07c-81ff-800a-864a-effefc8c3ea7&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1769565600000&signature=Thv5BhElJH5VRyodEa4Y_PQXLrbcqq_wH_srGBStsR0"
+    "28c3b07c-81ff-800a-864a-effefc8c3ea7": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/3c7c932b-2a21-4f91-aaec-7b245a9f455f/image.png?table=block&id=28c3b07c-81ff-800a-864a-effefc8c3ea7&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=Dv2FI2OpkJxCkBrxKEUCac_645pG6pqnte8stYZ5xhM"
   }
 }

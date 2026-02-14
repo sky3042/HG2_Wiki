@@ -69,9 +69,14 @@
     "1ad3b07c-81ff-803d-b570-dd34e00c1df5": {
       "value": {
         "id": "1ad3b07c-81ff-803d-b570-dd34e00c1df5",
-        "version": 261,
+        "version": 272,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "term"
+            ]
+          ],
           "title": [
             [
               "用語"
@@ -99,7 +104,8 @@
           "1be3b07c-81ff-801e-9bc1-cb69c4262cba",
           "1b93b07c-81ff-8090-88e4-e5ec255d4e02",
           "1bf3b07c-81ff-80bb-bd76-efdad8e1ea76",
-          "27c3b07c-81ff-80a9-8cfc-d1c79da175d5"
+          "27c3b07c-81ff-80a9-8cfc-d1c79da175d5",
+          "2f73b07c-81ff-8098-bdd9-d3b61ddfdeb0"
         ],
         "format": {
           "slug": "glossary",
@@ -109,7 +115,7 @@
           "social_media_image_preview_url": "attachment:0c2d3364-aa4c-4140-93ae-100086c0fa1e:SocialMediaPreviewImage.png"
         },
         "created_time": 1741140188770,
-        "last_edited_time": 1763622970353,
+        "last_edited_time": 1769680172906,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -213,7 +219,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -243,20 +249,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -268,7 +268,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -291,7 +291,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -300,7 +300,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -322,8 +323,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -348,7 +387,7 @@
     "1bf3b07c-81ff-8042-8d4f-cc0fc0c776b3": {
       "value": {
         "id": "1bf3b07c-81ff-8042-8d4f-cc0fc0c776b3",
-        "version": 280,
+        "version": 281,
         "type": "text",
         "properties": {
           "title": [
@@ -362,14 +401,47 @@
         "parent_id": "1bf3b07c-81ff-80b4-b959-e3e6c2bcd9c6",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "3FwviEi8mp1rFcFPj5c_jQ,\"start\",\"end\"",
+            "n": {
+              "3FwviEi8mp1rFcFPj5c_jQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "3FwviEi8mp1rFcFPj5c_jQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "4MT2XuZhdKli",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 35,
+                      "c": "物質を崩壊宇宙へ送り崩壊エネルギーへ変換し、それを再び物質に変換する。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1bf3b07c-81ff-801a-adae-c55805af1ea7": {
       "value": {
         "id": "1bf3b07c-81ff-801a-adae-c55805af1ea7",
-        "version": 12,
+        "version": 13,
         "type": "text",
         "properties": {
           "title": [
@@ -392,21 +464,120 @@
         "parent_id": "1bf3b07c-81ff-80b4-b959-e3e6c2bcd9c6",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "latFZR5bKLkx0sNz79EqOA,\"start\",\"end\"",
+            "n": {
+              "latFZR5bKLkx0sNz79EqOA,\"start\",\"end\"": {
+                "s": {
+                  "x": "latFZR5bKLkx0sNz79EqOA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "zHibmZ4DnEMl",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 7,
+                      "c": "虚空プリンター",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "latFZR5bKLkx0sNz79EqOA",
+                          "l": "",
+                          "i": [
+                            "zHibmZ4DnEMl",
+                            60
+                          ],
+                          "s": {
+                            "i": [
+                              "zHibmZ4DnEMl",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "zHibmZ4DnEMl",
+                              7
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bf3b07c81ff805ca52bfe86fc0f55e0?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "zHibmZ4DnEMl",
+                        8
+                      ],
+                      "o": [
+                        "zHibmZ4DnEMl",
+                        7
+                      ],
+                      "l": 52,
+                      "c": "の動作の原理でもあり、大崩壊戦争の終結後、すべての聖痕使いやレシピエントが使うことのできる基本的な能力。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1bf3b07c-81ff-807d-9ee2-ec1237d960f1": {
       "value": {
         "id": "1bf3b07c-81ff-807d-9ee2-ec1237d960f1",
-        "version": 3,
+        "version": 4,
         "type": "text",
         "created_time": 1742707714684,
         "last_edited_time": 1742707714686,
         "parent_id": "1bf3b07c-81ff-80b4-b959-e3e6c2bcd9c6",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "uC1MisWPr4vxZov-aA9V4Q,\"start\",\"end\"",
+            "n": {
+              "uC1MisWPr4vxZov-aA9V4Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "uC1MisWPr4vxZov-aA9V4Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },

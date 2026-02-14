@@ -71,9 +71,14 @@
     "1ad3b07c-81ff-809c-8204-e16483640fa5": {
       "value": {
         "id": "1ad3b07c-81ff-809c-8204-e16483640fa5",
-        "version": 299,
+        "version": 320,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "geography"
+            ]
+          ],
           "title": [
             [
               "地理"
@@ -91,6 +96,7 @@
           "1bc3b07c-81ff-80e0-862e-e6074a7650de",
           "1c03b07c-81ff-80c9-8a53-c308076fac2a",
           "1be3b07c-81ff-80b0-93ad-ca5008aef456",
+          "27c3b07c-81ff-8071-b3b5-ff823942edc9",
           "1c03b07c-81ff-80c8-91f3-cb3a047ee56b",
           "1c03b07c-81ff-807a-8a5e-c32346ae8444",
           "1c13b07c-81ff-80a7-a6f6-e93a2d42f709",
@@ -102,7 +108,6 @@
           "1c03b07c-81ff-80cc-9d28-db75f6142155",
           "1c03b07c-81ff-801c-81c2-c6e020c3d4ab",
           "1c03b07c-81ff-80a7-b53f-cd2c07636eb0",
-          "27c3b07c-81ff-8071-b3b5-ff823942edc9",
           "2b13b07c-81ff-80e9-bd7f-f3dd0855309a",
           "1c03b07c-81ff-8061-a8cf-d1d7adaff2d2",
           "1bc3b07c-81ff-8035-9544-cfc5cdbd9e53",
@@ -118,7 +123,7 @@
           "page_cover_position": 0.2338
         },
         "created_time": 1741142028871,
-        "last_edited_time": 1763623874273,
+        "last_edited_time": 1769502571448,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -220,7 +225,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -250,20 +255,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -275,7 +274,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -298,7 +297,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -307,7 +306,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -329,8 +329,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -355,7 +393,7 @@
     "1c03b07c-81ff-8067-a831-dc8e14c6a064": {
       "value": {
         "id": "1c03b07c-81ff-8067-a831-dc8e14c6a064",
-        "version": 45,
+        "version": 46,
         "type": "text",
         "properties": {
           "title": [
@@ -369,14 +407,47 @@
         "parent_id": "1ad3b07c-81ff-80f0-91aa-df078b71ba38",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "sFyL4XFsjwyNi_O7-54K9w,\"start\",\"end\"",
+            "n": {
+              "sFyL4XFsjwyNi_O7-54K9w,\"start\",\"end\"": {
+                "s": {
+                  "x": "sFyL4XFsjwyNi_O7-54K9w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "UjJp994Cz2ea",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 12,
+                      "c": "ヘルマニアとも言われる。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1c03b07c-81ff-8086-8ab1-cf727abf9bcd": {
       "value": {
         "id": "1c03b07c-81ff-8086-8ab1-cf727abf9bcd",
-        "version": 13,
+        "version": 14,
         "type": "text",
         "properties": {
           "title": [
@@ -390,14 +461,47 @@
         "parent_id": "1ad3b07c-81ff-80f0-91aa-df078b71ba38",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "bKR-HJRnsoWnMCWA53CHGQ,\"start\",\"end\"",
+            "n": {
+              "bKR-HJRnsoWnMCWA53CHGQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "bKR-HJRnsoWnMCWA53CHGQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "X2C3F3MqrEYW",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 19,
+                      "c": "軍団歴の初めにゼロから建設された都市。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1ad3b07c-81ff-8096-a136-c88836262d98": {
       "value": {
         "id": "1ad3b07c-81ff-8096-a136-c88836262d98",
-        "version": 15,
+        "version": 16,
         "type": "text",
         "properties": {
           "title": [
@@ -428,14 +532,90 @@
         "parent_table": "block",
         "alive": true,
         "copied_from": "1413b07c-81ff-809d-a74f-df392aa2f864",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "8aWq1y2WWsmCalKbFjwx7g,\"start\",\"end\"",
+            "n": {
+              "8aWq1y2WWsmCalKbFjwx7g,\"start\",\"end\"": {
+                "s": {
+                  "x": "8aWq1y2WWsmCalKbFjwx7g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "dCNhNrb2cJEH",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "第一軍団",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "8aWq1y2WWsmCalKbFjwx7g",
+                          "l": "",
+                          "i": [
+                            "dCNhNrb2cJEH",
+                            17
+                          ],
+                          "s": {
+                            "i": [
+                              "dCNhNrb2cJEH",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "dCNhNrb2cJEH",
+                              4
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1ad3b07c81ff80c4bfdfe82a7b46b62e?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "dCNhNrb2cJEH",
+                        5
+                      ],
+                      "o": [
+                        "dCNhNrb2cJEH",
+                        4
+                      ],
+                      "l": 12,
+                      "c": "の本部で、世界の元首都。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1c03b07c-81ff-8051-93d1-f97f9cf2a38a": {
       "value": {
         "id": "1c03b07c-81ff-8051-93d1-f97f9cf2a38a",
-        "version": 191,
+        "version": 192,
         "type": "text",
         "properties": {
           "title": [
@@ -461,7 +641,96 @@
         "parent_id": "1ad3b07c-81ff-80f0-91aa-df078b71ba38",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "g776bV_obko6czbyRa_8XA,\"start\",\"end\"",
+            "n": {
+              "g776bV_obko6czbyRa_8XA,\"start\",\"end\"": {
+                "s": {
+                  "x": "g776bV_obko6czbyRa_8XA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "DFmZ5mJUEG1n",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 9,
+                      "c": "ヘルマンの周辺では"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "DFmZ5mJUEG1n",
+                        10
+                      ],
+                      "o": [
+                        "DFmZ5mJUEG1n",
+                        9
+                      ],
+                      "l": 4,
+                      "c": "不屈師団",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "g776bV_obko6czbyRa_8XA",
+                          "l": "",
+                          "i": [
+                            "DFmZ5mJUEG1n",
+                            24
+                          ],
+                          "s": {
+                            "i": [
+                              "DFmZ5mJUEG1n",
+                              10
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "DFmZ5mJUEG1n",
+                              13
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bd3b07c81ff80d584dbee7ecfcf9c74?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "DFmZ5mJUEG1n",
+                        14
+                      ],
+                      "o": [
+                        "DFmZ5mJUEG1n",
+                        13
+                      ],
+                      "l": 10,
+                      "c": "が抵抗を続けている。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
@@ -598,9 +867,14 @@
     "1ad3b07c-81ff-80e4-8271-c7f781e181c3": {
       "value": {
         "id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "version": 407,
+        "version": 428,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "organization"
+            ]
+          ],
           "title": [
             [
               "派閥"
@@ -646,11 +920,11 @@
           "1bf3b07c-81ff-8084-9adb-d2af2b8c362d",
           "1bf3b07c-81ff-8063-9043-f20e5753a572",
           "1c03b07c-81ff-8047-be46-cb3e0b0e3f97",
+          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "27c3b07c-81ff-8096-8449-eff920b94b98",
           "27c3b07c-81ff-80c2-9c65-edb134e6ea3f",
           "27d3b07c-81ff-808c-9414-c30fd37c630f",
           "27d3b07c-81ff-8056-bba5-f0f0a21f324a",
-          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "1c03b07c-81ff-80ff-84e2-fcf373444957",
           "1ad3b07c-81ff-8021-b8dc-e3d75b522904",
           "1bf3b07c-81ff-8080-b2e4-eba35337822a",
@@ -666,7 +940,7 @@
           "page_cover_position": 0.5
         },
         "created_time": 1741141291977,
-        "last_edited_time": 1763623466932,
+        "last_edited_time": 1764427847589,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,

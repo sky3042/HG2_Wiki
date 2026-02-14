@@ -153,9 +153,14 @@
     "1ad3b07c-81ff-809c-8204-e16483640fa5": {
       "value": {
         "id": "1ad3b07c-81ff-809c-8204-e16483640fa5",
-        "version": 299,
+        "version": 320,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "geography"
+            ]
+          ],
           "title": [
             [
               "地理"
@@ -173,6 +178,7 @@
           "1bc3b07c-81ff-80e0-862e-e6074a7650de",
           "1c03b07c-81ff-80c9-8a53-c308076fac2a",
           "1be3b07c-81ff-80b0-93ad-ca5008aef456",
+          "27c3b07c-81ff-8071-b3b5-ff823942edc9",
           "1c03b07c-81ff-80c8-91f3-cb3a047ee56b",
           "1c03b07c-81ff-807a-8a5e-c32346ae8444",
           "1c13b07c-81ff-80a7-a6f6-e93a2d42f709",
@@ -184,7 +190,6 @@
           "1c03b07c-81ff-80cc-9d28-db75f6142155",
           "1c03b07c-81ff-801c-81c2-c6e020c3d4ab",
           "1c03b07c-81ff-80a7-b53f-cd2c07636eb0",
-          "27c3b07c-81ff-8071-b3b5-ff823942edc9",
           "2b13b07c-81ff-80e9-bd7f-f3dd0855309a",
           "1c03b07c-81ff-8061-a8cf-d1d7adaff2d2",
           "1bc3b07c-81ff-8035-9544-cfc5cdbd9e53",
@@ -200,7 +205,7 @@
           "page_cover_position": 0.2338
         },
         "created_time": 1741142028871,
-        "last_edited_time": 1763623874273,
+        "last_edited_time": 1769502571448,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -302,7 +307,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -332,20 +337,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -357,7 +356,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -380,7 +379,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -389,7 +388,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -411,8 +411,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -437,7 +475,7 @@
     "1c13b07c-81ff-801b-bbdb-f76db87c7289": {
       "value": {
         "id": "1c13b07c-81ff-801b-bbdb-f76db87c7289",
-        "version": 7,
+        "version": 8,
         "type": "text",
         "properties": {
           "title": [
@@ -451,14 +489,47 @@
         "parent_id": "1c13b07c-81ff-8071-98e6-cfaba0870091",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "fnrz-OTgI1-xTmCjqvosTA,\"start\",\"end\"",
+            "n": {
+              "fnrz-OTgI1-xTmCjqvosTA,\"start\",\"end\"": {
+                "s": {
+                  "x": "fnrz-OTgI1-xTmCjqvosTA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Zy_3k8Z31sWp",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 7,
+                      "c": "普通の女子校。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1c13b07c-81ff-80bd-80fa-ed594cfb7335": {
       "value": {
         "id": "1c13b07c-81ff-80bd-80fa-ed594cfb7335",
-        "version": 7,
+        "version": 8,
         "type": "text",
         "properties": {
           "title": [
@@ -472,14 +543,47 @@
         "parent_id": "1c13b07c-81ff-8071-98e6-cfaba0870091",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "8hjFHeEK4LmhBhX2LhjbRQ,\"start\",\"end\"",
+            "n": {
+              "8hjFHeEK4LmhBhX2LhjbRQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "8hjFHeEK4LmhBhX2LhjbRQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HUP4KqA17V5v",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 26,
+                      "c": "現在も生徒を募集しており、長空市で最も有名な中学校。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1c13b07c-81ff-800b-926c-f1ae50295a42": {
       "value": {
         "id": "1c13b07c-81ff-800b-926c-f1ae50295a42",
-        "version": 66,
+        "version": 67,
         "type": "toggle",
         "properties": {
           "title": [
@@ -499,14 +603,47 @@
         "parent_id": "1c13b07c-81ff-8071-98e6-cfaba0870091",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "qItkiKpwWboZXRJfQbnkYw,\"start\",\"end\"",
+            "n": {
+              "qItkiKpwWboZXRJfQbnkYw,\"start\",\"end\"": {
+                "s": {
+                  "x": "qItkiKpwWboZXRJfQbnkYw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "VdH2N3Ih1Msu",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 7,
+                      "c": "追想編・新生編"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1c13b07c-81ff-8027-9604-f741cf05b826": {
       "value": {
         "id": "1c13b07c-81ff-8027-9604-f741cf05b826",
-        "version": 10,
+        "version": 11,
         "type": "text",
         "properties": {
           "title": [
@@ -520,14 +657,47 @@
         "parent_id": "1c13b07c-81ff-800b-926c-f1ae50295a42",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Ky1O-dUfd5vX8ffTHoqzdA,\"start\",\"end\"",
+            "n": {
+              "Ky1O-dUfd5vX8ffTHoqzdA,\"start\",\"end\"": {
+                "s": {
+                  "x": "Ky1O-dUfd5vX8ffTHoqzdA",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "GmmXoQ09dLy-",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 18,
+                      "c": "ME社の出資で建てられたお嬢様学校。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1c13b07c-81ff-804c-9036-c3081a5d19aa": {
       "value": {
         "id": "1c13b07c-81ff-804c-9036-c3081a5d19aa",
-        "version": 7,
+        "version": 8,
         "type": "text",
         "properties": {
           "title": [
@@ -541,7 +711,40 @@
         "parent_id": "1c13b07c-81ff-800b-926c-f1ae50295a42",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "GjDFA361zNhb_roYlocHlQ,\"start\",\"end\"",
+            "n": {
+              "GjDFA361zNhb_roYlocHlQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "GjDFA361zNhb_roYlocHlQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "mBSBcgzAtHXm",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 13,
+                      "c": "世界的にも有名な学園都市。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
@@ -569,7 +772,7 @@
     "1c13b07c-81ff-80d8-a980-c07f588f9f19": {
       "value": {
         "id": "1c13b07c-81ff-80d8-a980-c07f588f9f19",
-        "version": 81,
+        "version": 82,
         "type": "text",
         "properties": {
           "title": [
@@ -583,7 +786,40 @@
         "parent_id": "1c13b07c-81ff-800b-926c-f1ae50295a42",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "lJkH-VfVZumZ3XDa2gi1lg,\"start\",\"end\"",
+            "n": {
+              "lJkH-VfVZumZ3XDa2gi1lg,\"start\",\"end\"": {
+                "s": {
+                  "x": "lJkH-VfVZumZ3XDa2gi1lg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "sNTJNcJWjyOP",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 14,
+                      "c": "違法なことに手を染めていた。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     }

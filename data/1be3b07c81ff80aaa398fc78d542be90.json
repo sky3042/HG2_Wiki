@@ -75,7 +75,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1790,
+        "version": 1796,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -155,6 +155,8 @@
           "1bc3b07c-81ff-8024-a546-ea0e68ada392",
           "2e53b07c-81ff-80fb-ae9c-d4af89dc3526",
           "27c3b07c-81ff-80c9-a122-c119bfdb1420",
+          "27c3b07c-81ff-80a7-a54a-c53187756c66",
+          "27c3b07c-81ff-8059-bd22-d8cc2599ca76",
           "1bd3b07c-81ff-8087-9377-facf462a212f",
           "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
           "27c3b07c-81ff-8094-ac21-c90878468737",
@@ -249,8 +251,6 @@
           "1bf3b07c-81ff-80b8-a77c-e758620accbc",
           "1bf3b07c-81ff-80f9-a6c8-c33a80623855",
           "27c3b07c-81ff-8018-b7ee-ff527105ae45",
-          "27c3b07c-81ff-80a7-a54a-c53187756c66",
-          "27c3b07c-81ff-8059-bd22-d8cc2599ca76",
           "27c3b07c-81ff-80fd-a9c6-f09fd21b17fd",
           "27c3b07c-81ff-801b-b9c2-df19d63f2027",
           "27c3b07c-81ff-8042-a1f7-ed0bae0397b3",
@@ -274,7 +274,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1768123006610,
+        "last_edited_time": 1770782299520,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -377,7 +377,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 356,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -449,7 +449,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764247209474,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -779,7 +779,7 @@
     "1be3b07c-81ff-802d-aa03-c401a8bd04dc": {
       "value": {
         "id": "1be3b07c-81ff-802d-aa03-c401a8bd04dc",
-        "version": 2,
+        "version": 3,
         "type": "divider",
         "format": {
           "copied_from_pointer": {
@@ -794,7 +794,30 @@
         "parent_table": "block",
         "alive": true,
         "copied_from": "1be3b07c-81ff-80fa-8628-f004e775142d",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "qL9wie7z5A68um3mapC39Q,\"start\",\"end\"",
+            "n": {
+              "qL9wie7z5A68um3mapC39Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "qL9wie7z5A68um3mapC39Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
@@ -834,7 +857,7 @@
     "1bf3b07c-81ff-80bb-a6d3-e0253ad8429e": {
       "value": {
         "id": "1bf3b07c-81ff-80bb-a6d3-e0253ad8429e",
-        "version": 32,
+        "version": 33,
         "type": "text",
         "properties": {
           "title": [
@@ -889,7 +912,195 @@
         "parent_table": "block",
         "alive": true,
         "copied_from": "1be3b07c-81ff-80c9-a40e-f79e8c6f7395",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "pJGwCOw3N7sxMeNZYuGRMQ,\"start\",\"end\"",
+            "n": {
+              "pJGwCOw3N7sxMeNZYuGRMQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "pJGwCOw3N7sxMeNZYuGRMQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Zi3-d3OOZOwM",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "バーンズ",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "pJGwCOw3N7sxMeNZYuGRMQ",
+                          "l": "",
+                          "i": [
+                            "Zi3-d3OOZOwM",
+                            28
+                          ],
+                          "s": {
+                            "i": [
+                              "Zi3-d3OOZOwM",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "Zi3-d3OOZOwM",
+                              4
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bc3b07c81ff8024a546ea0e68ada392?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Zi3-d3OOZOwM",
+                        5
+                      ],
+                      "o": [
+                        "Zi3-d3OOZOwM",
+                        4
+                      ],
+                      "l": 8,
+                      "c": "の暗殺に関与し、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Zi3-d3OOZOwM",
+                        13
+                      ],
+                      "o": [
+                        "Zi3-d3OOZOwM",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "シャラハ",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "pJGwCOw3N7sxMeNZYuGRMQ",
+                          "l": "",
+                          "i": [
+                            "Zi3-d3OOZOwM",
+                            29
+                          ],
+                          "s": {
+                            "i": [
+                              "Zi3-d3OOZOwM",
+                              13
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "Zi3-d3OOZOwM",
+                              16
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bd3b07c81ff80c5acdbe05953c7d3c2?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Zi3-d3OOZOwM",
+                        17
+                      ],
+                      "o": [
+                        "Zi3-d3OOZOwM",
+                        16
+                      ],
+                      "l": 1,
+                      "c": "と"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Zi3-d3OOZOwM",
+                        18
+                      ],
+                      "o": [
+                        "Zi3-d3OOZOwM",
+                        17
+                      ],
+                      "l": 2,
+                      "c": "魔人",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "pJGwCOw3N7sxMeNZYuGRMQ",
+                          "l": "",
+                          "i": [
+                            "Zi3-d3OOZOwM",
+                            30
+                          ],
+                          "s": {
+                            "i": [
+                              "Zi3-d3OOZOwM",
+                              18
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "Zi3-d3OOZOwM",
+                              19
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bc3b07c81ff80b19facdf6f9b398d57?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "Zi3-d3OOZOwM",
+                        20
+                      ],
+                      "o": [
+                        "Zi3-d3OOZOwM",
+                        19
+                      ],
+                      "l": 8,
+                      "c": "の手により死亡。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
@@ -1409,7 +1620,7 @@
     "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8": {
       "value": {
         "id": "1ad3b07c-81ff-80ba-be4c-ef2bb448c0e8",
-        "version": 376,
+        "version": 379,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -1474,8 +1685,6 @@
           "1c13b07c-81ff-8013-ab16-d888c5f8aba6",
           "1c13b07c-81ff-8012-addc-ca479bc84bab",
           "1c13b07c-81ff-80cb-abe3-f5dac7fd54e3",
-          "1c13b07c-81ff-8097-a876-c0e6f42ae1a6",
-          "1c13b07c-81ff-800b-b9f2-d747b25dd5ec",
           "1c13b07c-81ff-80ba-b5da-cb31d44a7382",
           "27c3b07c-81ff-80d1-ae43-d3d56dbc264e",
           "1c13b07c-81ff-80f6-805a-fc812b9f823e",
@@ -1513,7 +1722,7 @@
           "social_media_image_preview_url": "attachment:1de8f8ae-78ec-4b04-bad0-0359fa08275f:SocialMediaPreviewImage.png"
         },
         "created_time": 1741140217937,
-        "last_edited_time": 1764148172432,
+        "last_edited_time": 1768306536010,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -1849,6 +2058,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "1bf3b07c-81ff-804f-a9c0-da550170aa22": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/3a4dd876-65b7-4779-9c29-ae3cd5c2984a/image.png?table=block&id=1bf3b07c-81ff-804f-a9c0-da550170aa22&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768183200000&signature=MRgQZryYvR-8n83U9Q9IBlwrGrX1ryT1wX0h7lnc1BQ"
+    "1bf3b07c-81ff-804f-a9c0-da550170aa22": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/3a4dd876-65b7-4779-9c29-ae3cd5c2984a/image.png?table=block&id=1bf3b07c-81ff-804f-a9c0-da550170aa22&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=SJSoRYPGW6pchx1XQlz8eFnkF0BAsJot6GoLrYkILC4"
   }
 }

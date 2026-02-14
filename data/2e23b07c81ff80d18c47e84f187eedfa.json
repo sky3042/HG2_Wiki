@@ -250,7 +250,7 @@
     "2573b07c-81ff-8076-8c97-c512393c2dc8": {
       "value": {
         "id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
-        "version": 191,
+        "version": 194,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -283,8 +283,8 @@
           "2913b07c-81ff-803c-92cf-dbd1cc33ae4b",
           "2a03b07c-81ff-8053-bb5f-f9fbc420dda3",
           "25e3b07c-81ff-80fe-8eca-e43fbea99f30",
-          "28f3b07c-81ff-8037-8280-c4a6bf7a56f2",
           "2b53b07c-81ff-80a8-8d84-fd01e0a45e0f",
+          "28f3b07c-81ff-8037-8280-c4a6bf7a56f2",
           "2b53b07c-81ff-8091-8f90-e7a710d07690"
         ],
         "format": {
@@ -293,7 +293,7 @@
           "social_media_image_preview_url": "attachment:0eab7c0e-ed9f-40fb-a5ad-56992f43fc6c:SocialMediaPreviewImage.png"
         },
         "created_time": 1755881175615,
-        "last_edited_time": 1767861085506,
+        "last_edited_time": 1767945180280,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -468,7 +468,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 356,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -540,7 +540,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764247209474,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -1765,931 +1765,6 @@
                       ],
                       "l": 26,
                       "c": "を開き、左上の「ファイル」から「コピーを作成」する。"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-80cd-b411-c083826d7e21": {
-      "value": {
-        "id": "2e23b07c-81ff-80cd-b411-c083826d7e21",
-        "version": 5,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "設定",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "：装備などの数値設定を行うシート。"
-            ]
-          ]
-        },
-        "content": [
-          "2e23b07c-81ff-804d-b5b5-dbb8085be6f0",
-          "2e23b07c-81ff-8065-addc-c0779acde90d",
-          "2e23b07c-81ff-8019-8f12-ed3c9e844c7e"
-        ],
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e03b07c-81ff-8046-8637-d4ce1f11851e",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096201,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e03b07c-81ff-8046-8637-d4ce1f11851e",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "-c5p4pFQTWMuPnrstbnAsw,\"start\",\"end\"",
-            "n": {
-              "-c5p4pFQTWMuPnrstbnAsw,\"start\",\"end\"": {
-                "s": {
-                  "x": "-c5p4pFQTWMuPnrstbnAsw",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "cI3IXWbaSSur",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 2,
-                      "c": "設定",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "-c5p4pFQTWMuPnrstbnAsw",
-                          "l": "",
-                          "i": [
-                            "cI3IXWbaSSur",
-                            20
-                          ],
-                          "s": {
-                            "i": [
-                              "cI3IXWbaSSur",
-                              1
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "cI3IXWbaSSur",
-                              3
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "cI3IXWbaSSur",
-                        3
-                      ],
-                      "o": [
-                        "cI3IXWbaSSur",
-                        2
-                      ],
-                      "l": 17,
-                      "c": "：装備などの数値設定を行うシート。",
-                      "b": []
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-80ef-a35d-ec2c26d316a8": {
-      "value": {
-        "id": "2e23b07c-81ff-80ef-a35d-ec2c26d316a8",
-        "version": 5,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "計算",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "：編成を入力し計算を行うシート。"
-            ]
-          ]
-        },
-        "content": [
-          "2e23b07c-81ff-8053-8572-f37c5ad24722",
-          "2e23b07c-81ff-80c5-8cb5-cafc072c127d",
-          "2e23b07c-81ff-8015-b933-f40ab1f32c08",
-          "2e23b07c-81ff-80d8-9eb3-e5b10090302a",
-          "2e23b07c-81ff-8001-ad69-cc983c5e0add"
-        ],
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e03b07c-81ff-8040-baf6-e440e715c342",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096213,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e03b07c-81ff-8040-baf6-e440e715c342",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "YrlkQcjzEOpth9kU9Q4yvQ,\"start\",\"end\"",
-            "n": {
-              "YrlkQcjzEOpth9kU9Q4yvQ,\"start\",\"end\"": {
-                "s": {
-                  "x": "YrlkQcjzEOpth9kU9Q4yvQ",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "jwaq-6spsNeM",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 2,
-                      "c": "計算",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "YrlkQcjzEOpth9kU9Q4yvQ",
-                          "l": "",
-                          "i": [
-                            "jwaq-6spsNeM",
-                            19
-                          ],
-                          "s": {
-                            "i": [
-                              "jwaq-6spsNeM",
-                              1
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "jwaq-6spsNeM",
-                              3
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "jwaq-6spsNeM",
-                        3
-                      ],
-                      "o": [
-                        "jwaq-6spsNeM",
-                        2
-                      ],
-                      "l": 16,
-                      "c": "：編成を入力し計算を行うシート。",
-                      "b": []
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-80c7-80b7-fa81adbf4398": {
-      "value": {
-        "id": "2e23b07c-81ff-80c7-80b7-fa81adbf4398",
-        "version": 5,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "結果",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "：計算結果を表示するシート。実際の列に値を入れると、計算誤差の計算が可能。"
-            ]
-          ]
-        },
-        "content": [
-          "2e23b07c-81ff-8017-af43-f756d5a63396"
-        ],
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e03b07c-81ff-801b-9673-f7533625610d",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096218,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e03b07c-81ff-801b-9673-f7533625610d",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "LwEjSyf1VpmDFLu5Gz4FCg,\"start\",\"end\"",
-            "n": {
-              "LwEjSyf1VpmDFLu5Gz4FCg,\"start\",\"end\"": {
-                "s": {
-                  "x": "LwEjSyf1VpmDFLu5Gz4FCg",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "z7Xkt7zyf7VD",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 2,
-                      "c": "結果",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "LwEjSyf1VpmDFLu5Gz4FCg",
-                          "l": "",
-                          "i": [
-                            "z7Xkt7zyf7VD",
-                            40
-                          ],
-                          "s": {
-                            "i": [
-                              "z7Xkt7zyf7VD",
-                              1
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "z7Xkt7zyf7VD",
-                              3
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "z7Xkt7zyf7VD",
-                        3
-                      ],
-                      "o": [
-                        "z7Xkt7zyf7VD",
-                        2
-                      ],
-                      "l": 37,
-                      "c": "：計算結果を表示するシート。実際の列に値を入れると、計算誤差の計算が可能。",
-                      "b": []
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-8015-95b8-fadae189ba20": {
-      "value": {
-        "id": "2e23b07c-81ff-8015-95b8-fadae189ba20",
-        "version": 5,
-        "type": "text",
-        "properties": {
-          "title": [
-            [
-              "編成保存",
-              [
-                [
-                  "b"
-                ]
-              ]
-            ],
-            [
-              "：編成の設定を保存するシート。4列を丸ごとコピペして、編成を読み取り/保存できる。"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e03b07c-81ff-807b-8b83-e4433bbc78b7",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096220,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e03b07c-81ff-807b-8b83-e4433bbc78b7",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "rvt6fcC8dgFu4wEq-2jB3A,\"start\",\"end\"",
-            "n": {
-              "rvt6fcC8dgFu4wEq-2jB3A,\"start\",\"end\"": {
-                "s": {
-                  "x": "rvt6fcC8dgFu4wEq-2jB3A",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "a8Z3CS7436as",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 4,
-                      "c": "編成保存",
-                      "b": [
-                        {
-                          "t": "a",
-                          "x": "rvt6fcC8dgFu4wEq-2jB3A",
-                          "l": "",
-                          "i": [
-                            "a8Z3CS7436as",
-                            46
-                          ],
-                          "s": {
-                            "i": [
-                              "a8Z3CS7436as",
-                              1
-                            ],
-                            "a": "b"
-                          },
-                          "e": {
-                            "i": [
-                              "a8Z3CS7436as",
-                              5
-                            ],
-                            "a": "b"
-                          },
-                          "a": [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "a8Z3CS7436as",
-                        5
-                      ],
-                      "o": [
-                        "a8Z3CS7436as",
-                        4
-                      ],
-                      "l": 41,
-                      "c": "：編成の設定を保存するシート。4列を丸ごとコピペして、編成を読み取り/保存できる。",
-                      "b": []
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-80b8-a821-c0c76803a62f": {
-      "value": {
-        "id": "2e23b07c-81ff-80b8-a821-c0c76803a62f",
-        "version": 4,
-        "type": "sub_sub_header",
-        "properties": {
-          "title": [
-            [
-              "何ができるのか？"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e03b07c-81ff-80a6-9d6b-e4ea92aee655",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096222,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e03b07c-81ff-80a6-9d6b-e4ea92aee655",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "VfU832KlzwdCuizGT0lzEg,\"start\",\"end\"",
-            "n": {
-              "VfU832KlzwdCuizGT0lzEg,\"start\",\"end\"": {
-                "s": {
-                  "x": "VfU832KlzwdCuizGT0lzEg",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "TylMwvHSkGLT",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 8,
-                      "c": "何ができるのか？"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-80ef-b4e7-ceedd8596e41": {
-      "value": {
-        "id": "2e23b07c-81ff-80ef-b4e7-ceedd8596e41",
-        "version": 3,
-        "type": "divider",
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e03b07c-81ff-8076-9e78-d0c02c15015a",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096223,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e03b07c-81ff-8076-9e78-d0c02c15015a",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "oJLgha4NLPqlFJI67-l9tg,\"start\",\"end\"",
-            "n": {
-              "oJLgha4NLPqlFJI67-l9tg,\"start\",\"end\"": {
-                "s": {
-                  "x": "oJLgha4NLPqlFJI67-l9tg",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-80b6-8165-e8e4c2b23be1": {
-      "value": {
-        "id": "2e23b07c-81ff-80b6-8165-e8e4c2b23be1",
-        "version": 4,
-        "type": "bulleted_list",
-        "properties": {
-          "title": [
-            [
-              "装備の強さを（ある程度）数値化"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e03b07c-81ff-80fd-897d-f5f8c609cca3",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096223,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e03b07c-81ff-80fd-897d-f5f8c609cca3",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "5Dj_hjBCI47e4ct7ufpN-Q,\"start\",\"end\"",
-            "n": {
-              "5Dj_hjBCI47e4ct7ufpN-Q,\"start\",\"end\"": {
-                "s": {
-                  "x": "5Dj_hjBCI47e4ct7ufpN-Q",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "WFK3TIRaYxcX",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 15,
-                      "c": "装備の強さを（ある程度）数値化"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-80c5-b46f-fa2c0793d9c8": {
-      "value": {
-        "id": "2e23b07c-81ff-80c5-b46f-fa2c0793d9c8",
-        "version": 4,
-        "type": "bulleted_list",
-        "properties": {
-          "title": [
-            [
-              "装備の計算ロジックやバグの解明"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e03b07c-81ff-8008-9a2b-d23791c05a8e",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096224,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e03b07c-81ff-8008-9a2b-d23791c05a8e",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "MvJ-LvoWHXI6e_6VHc50Zw,\"start\",\"end\"",
-            "n": {
-              "MvJ-LvoWHXI6e_6VHc50Zw,\"start\",\"end\"": {
-                "s": {
-                  "x": "MvJ-LvoWHXI6e_6VHc50Zw",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "lQeUpQpK3mzw",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 15,
-                      "c": "装備の計算ロジックやバグの解明"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-808c-9ed1-d05bf15a068d": {
-      "value": {
-        "id": "2e23b07c-81ff-808c-9ed1-d05bf15a068d",
-        "version": 4,
-        "type": "bulleted_list",
-        "properties": {
-          "title": [
-            [
-              "持ってない装備の強さを推測"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e03b07c-81ff-8079-bb9f-c605230174cb",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096225,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e03b07c-81ff-8079-bb9f-c605230174cb",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "miv9fIbaNIL1ox4W039Cdg,\"start\",\"end\"",
-            "n": {
-              "miv9fIbaNIL1ox4W039Cdg,\"start\",\"end\"": {
-                "s": {
-                  "x": "miv9fIbaNIL1ox4W039Cdg",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "HGkHXM_D3_9N",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 13,
-                      "c": "持ってない装備の強さを推測"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-8068-ba2f-dae315a4a109": {
-      "value": {
-        "id": "2e23b07c-81ff-8068-ba2f-dae315a4a109",
-        "version": 4,
-        "type": "bulleted_list",
-        "properties": {
-          "title": [
-            [
-              "編成の最適化"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e03b07c-81ff-8000-9571-d3f03b897f35",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096225,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e03b07c-81ff-8000-9571-d3f03b897f35",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "xXmTUARwvb6dfRwv7dypIg,\"start\",\"end\"",
-            "n": {
-              "xXmTUARwvb6dfRwv7dypIg,\"start\",\"end\"": {
-                "s": {
-                  "x": "xXmTUARwvb6dfRwv7dypIg",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "9SBPjamf-R9N",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 6,
-                      "c": "編成の最適化"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-805e-a75f-cad4624a168e": {
-      "value": {
-        "id": "2e23b07c-81ff-805e-a75f-cad4624a168e",
-        "version": 4,
-        "type": "sub_sub_header",
-        "properties": {
-          "title": [
-            [
-              "その他"
-            ]
-          ]
-        },
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e23b07c-81ff-8039-9231-e0287d7560b6",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096226,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e23b07c-81ff-8039-9231-e0287d7560b6",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "-8L6JwlhdnRbmGWssw7r4g,\"start\",\"end\"",
-            "n": {
-              "-8L6JwlhdnRbmGWssw7r4g,\"start\",\"end\"": {
-                "s": {
-                  "x": "-8L6JwlhdnRbmGWssw7r4g",
-                  "i": [
-                    {
-                      "t": "s"
-                    },
-                    {
-                      "t": "t",
-                      "i": [
-                        "jVxbbjKHlbKb",
-                        1
-                      ],
-                      "o": "start",
-                      "l": 3,
-                      "c": "その他"
-                    },
-                    {
-                      "t": "e"
-                    }
-                  ],
-                  "l": ""
-                },
-                "c": []
-              }
-            }
-          }
-        }
-      },
-      "role": "reader"
-    },
-    "2e23b07c-81ff-806c-8e4e-d1afa61803f7": {
-      "value": {
-        "id": "2e23b07c-81ff-806c-8e4e-d1afa61803f7",
-        "version": 3,
-        "type": "divider",
-        "format": {
-          "copied_from_pointer": {
-            "id": "2e23b07c-81ff-80a9-9178-f5fe42ab2a30",
-            "table": "block",
-            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
-          }
-        },
-        "created_time": 1767861096227,
-        "last_edited_time": 1767861096242,
-        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
-        "parent_table": "block",
-        "alive": true,
-        "copied_from": "2e23b07c-81ff-80a9-9178-f5fe42ab2a30",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
-        "crdt_format_version": 1,
-        "crdt_data": {
-          "title": {
-            "r": "dGvsiznlkc3ZOEwe3JOXLg,\"start\",\"end\"",
-            "n": {
-              "dGvsiznlkc3ZOEwe3JOXLg,\"start\",\"end\"": {
-                "s": {
-                  "x": "dGvsiznlkc3ZOEwe3JOXLg",
-                  "i": [
-                    {
-                      "t": "s"
                     },
                     {
                       "t": "e"
@@ -4703,6 +3778,931 @@
       },
       "role": "reader"
     },
+    "2e23b07c-81ff-80cd-b411-c083826d7e21": {
+      "value": {
+        "id": "2e23b07c-81ff-80cd-b411-c083826d7e21",
+        "version": 5,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "設定",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "：装備などの数値設定を行うシート。"
+            ]
+          ]
+        },
+        "content": [
+          "2e23b07c-81ff-804d-b5b5-dbb8085be6f0",
+          "2e23b07c-81ff-8065-addc-c0779acde90d",
+          "2e23b07c-81ff-8019-8f12-ed3c9e844c7e"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e03b07c-81ff-8046-8637-d4ce1f11851e",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096201,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e03b07c-81ff-8046-8637-d4ce1f11851e",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "-c5p4pFQTWMuPnrstbnAsw,\"start\",\"end\"",
+            "n": {
+              "-c5p4pFQTWMuPnrstbnAsw,\"start\",\"end\"": {
+                "s": {
+                  "x": "-c5p4pFQTWMuPnrstbnAsw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "cI3IXWbaSSur",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "設定",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "-c5p4pFQTWMuPnrstbnAsw",
+                          "l": "",
+                          "i": [
+                            "cI3IXWbaSSur",
+                            20
+                          ],
+                          "s": {
+                            "i": [
+                              "cI3IXWbaSSur",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "cI3IXWbaSSur",
+                              3
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "cI3IXWbaSSur",
+                        3
+                      ],
+                      "o": [
+                        "cI3IXWbaSSur",
+                        2
+                      ],
+                      "l": 17,
+                      "c": "：装備などの数値設定を行うシート。",
+                      "b": []
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-80ef-a35d-ec2c26d316a8": {
+      "value": {
+        "id": "2e23b07c-81ff-80ef-a35d-ec2c26d316a8",
+        "version": 5,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "計算",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "：編成を入力し計算を行うシート。"
+            ]
+          ]
+        },
+        "content": [
+          "2e23b07c-81ff-8053-8572-f37c5ad24722",
+          "2e23b07c-81ff-80c5-8cb5-cafc072c127d",
+          "2e23b07c-81ff-8015-b933-f40ab1f32c08",
+          "2e23b07c-81ff-80d8-9eb3-e5b10090302a",
+          "2e23b07c-81ff-8001-ad69-cc983c5e0add"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e03b07c-81ff-8040-baf6-e440e715c342",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096213,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e03b07c-81ff-8040-baf6-e440e715c342",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "YrlkQcjzEOpth9kU9Q4yvQ,\"start\",\"end\"",
+            "n": {
+              "YrlkQcjzEOpth9kU9Q4yvQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "YrlkQcjzEOpth9kU9Q4yvQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jwaq-6spsNeM",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "計算",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "YrlkQcjzEOpth9kU9Q4yvQ",
+                          "l": "",
+                          "i": [
+                            "jwaq-6spsNeM",
+                            19
+                          ],
+                          "s": {
+                            "i": [
+                              "jwaq-6spsNeM",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "jwaq-6spsNeM",
+                              3
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jwaq-6spsNeM",
+                        3
+                      ],
+                      "o": [
+                        "jwaq-6spsNeM",
+                        2
+                      ],
+                      "l": 16,
+                      "c": "：編成を入力し計算を行うシート。",
+                      "b": []
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-80c7-80b7-fa81adbf4398": {
+      "value": {
+        "id": "2e23b07c-81ff-80c7-80b7-fa81adbf4398",
+        "version": 5,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "結果",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "：計算結果を表示するシート。実際の列に値を入れると、計算誤差の計算が可能。"
+            ]
+          ]
+        },
+        "content": [
+          "2e23b07c-81ff-8017-af43-f756d5a63396"
+        ],
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e03b07c-81ff-801b-9673-f7533625610d",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096218,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e03b07c-81ff-801b-9673-f7533625610d",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "LwEjSyf1VpmDFLu5Gz4FCg,\"start\",\"end\"",
+            "n": {
+              "LwEjSyf1VpmDFLu5Gz4FCg,\"start\",\"end\"": {
+                "s": {
+                  "x": "LwEjSyf1VpmDFLu5Gz4FCg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "z7Xkt7zyf7VD",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 2,
+                      "c": "結果",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "LwEjSyf1VpmDFLu5Gz4FCg",
+                          "l": "",
+                          "i": [
+                            "z7Xkt7zyf7VD",
+                            40
+                          ],
+                          "s": {
+                            "i": [
+                              "z7Xkt7zyf7VD",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "z7Xkt7zyf7VD",
+                              3
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "z7Xkt7zyf7VD",
+                        3
+                      ],
+                      "o": [
+                        "z7Xkt7zyf7VD",
+                        2
+                      ],
+                      "l": 37,
+                      "c": "：計算結果を表示するシート。実際の列に値を入れると、計算誤差の計算が可能。",
+                      "b": []
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-8015-95b8-fadae189ba20": {
+      "value": {
+        "id": "2e23b07c-81ff-8015-95b8-fadae189ba20",
+        "version": 5,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "編成保存",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ],
+            [
+              "：編成の設定を保存するシート。4列を丸ごとコピペして、編成を読み取り/保存できる。"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e03b07c-81ff-807b-8b83-e4433bbc78b7",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096220,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e03b07c-81ff-807b-8b83-e4433bbc78b7",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "rvt6fcC8dgFu4wEq-2jB3A,\"start\",\"end\"",
+            "n": {
+              "rvt6fcC8dgFu4wEq-2jB3A,\"start\",\"end\"": {
+                "s": {
+                  "x": "rvt6fcC8dgFu4wEq-2jB3A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "a8Z3CS7436as",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "編成保存",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "rvt6fcC8dgFu4wEq-2jB3A",
+                          "l": "",
+                          "i": [
+                            "a8Z3CS7436as",
+                            46
+                          ],
+                          "s": {
+                            "i": [
+                              "a8Z3CS7436as",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "a8Z3CS7436as",
+                              5
+                            ],
+                            "a": "b"
+                          },
+                          "a": [
+                            "b"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "a8Z3CS7436as",
+                        5
+                      ],
+                      "o": [
+                        "a8Z3CS7436as",
+                        4
+                      ],
+                      "l": 41,
+                      "c": "：編成の設定を保存するシート。4列を丸ごとコピペして、編成を読み取り/保存できる。",
+                      "b": []
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-80b8-a821-c0c76803a62f": {
+      "value": {
+        "id": "2e23b07c-81ff-80b8-a821-c0c76803a62f",
+        "version": 4,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "何ができるのか？"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e03b07c-81ff-80a6-9d6b-e4ea92aee655",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096222,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e03b07c-81ff-80a6-9d6b-e4ea92aee655",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "VfU832KlzwdCuizGT0lzEg,\"start\",\"end\"",
+            "n": {
+              "VfU832KlzwdCuizGT0lzEg,\"start\",\"end\"": {
+                "s": {
+                  "x": "VfU832KlzwdCuizGT0lzEg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "TylMwvHSkGLT",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 8,
+                      "c": "何ができるのか？"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-80ef-b4e7-ceedd8596e41": {
+      "value": {
+        "id": "2e23b07c-81ff-80ef-b4e7-ceedd8596e41",
+        "version": 3,
+        "type": "divider",
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e03b07c-81ff-8076-9e78-d0c02c15015a",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096223,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e03b07c-81ff-8076-9e78-d0c02c15015a",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "oJLgha4NLPqlFJI67-l9tg,\"start\",\"end\"",
+            "n": {
+              "oJLgha4NLPqlFJI67-l9tg,\"start\",\"end\"": {
+                "s": {
+                  "x": "oJLgha4NLPqlFJI67-l9tg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-80b6-8165-e8e4c2b23be1": {
+      "value": {
+        "id": "2e23b07c-81ff-80b6-8165-e8e4c2b23be1",
+        "version": 4,
+        "type": "bulleted_list",
+        "properties": {
+          "title": [
+            [
+              "装備の強さを（ある程度）数値化"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e03b07c-81ff-80fd-897d-f5f8c609cca3",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096223,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e03b07c-81ff-80fd-897d-f5f8c609cca3",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "5Dj_hjBCI47e4ct7ufpN-Q,\"start\",\"end\"",
+            "n": {
+              "5Dj_hjBCI47e4ct7ufpN-Q,\"start\",\"end\"": {
+                "s": {
+                  "x": "5Dj_hjBCI47e4ct7ufpN-Q",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "WFK3TIRaYxcX",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 15,
+                      "c": "装備の強さを（ある程度）数値化"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-80c5-b46f-fa2c0793d9c8": {
+      "value": {
+        "id": "2e23b07c-81ff-80c5-b46f-fa2c0793d9c8",
+        "version": 4,
+        "type": "bulleted_list",
+        "properties": {
+          "title": [
+            [
+              "装備の計算ロジックやバグの解明"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e03b07c-81ff-8008-9a2b-d23791c05a8e",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096224,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e03b07c-81ff-8008-9a2b-d23791c05a8e",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "MvJ-LvoWHXI6e_6VHc50Zw,\"start\",\"end\"",
+            "n": {
+              "MvJ-LvoWHXI6e_6VHc50Zw,\"start\",\"end\"": {
+                "s": {
+                  "x": "MvJ-LvoWHXI6e_6VHc50Zw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "lQeUpQpK3mzw",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 15,
+                      "c": "装備の計算ロジックやバグの解明"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-808c-9ed1-d05bf15a068d": {
+      "value": {
+        "id": "2e23b07c-81ff-808c-9ed1-d05bf15a068d",
+        "version": 4,
+        "type": "bulleted_list",
+        "properties": {
+          "title": [
+            [
+              "持ってない装備の強さを推測"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e03b07c-81ff-8079-bb9f-c605230174cb",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096225,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e03b07c-81ff-8079-bb9f-c605230174cb",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "miv9fIbaNIL1ox4W039Cdg,\"start\",\"end\"",
+            "n": {
+              "miv9fIbaNIL1ox4W039Cdg,\"start\",\"end\"": {
+                "s": {
+                  "x": "miv9fIbaNIL1ox4W039Cdg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "HGkHXM_D3_9N",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 13,
+                      "c": "持ってない装備の強さを推測"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-8068-ba2f-dae315a4a109": {
+      "value": {
+        "id": "2e23b07c-81ff-8068-ba2f-dae315a4a109",
+        "version": 4,
+        "type": "bulleted_list",
+        "properties": {
+          "title": [
+            [
+              "編成の最適化"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e03b07c-81ff-8000-9571-d3f03b897f35",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096225,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e03b07c-81ff-8000-9571-d3f03b897f35",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "xXmTUARwvb6dfRwv7dypIg,\"start\",\"end\"",
+            "n": {
+              "xXmTUARwvb6dfRwv7dypIg,\"start\",\"end\"": {
+                "s": {
+                  "x": "xXmTUARwvb6dfRwv7dypIg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "9SBPjamf-R9N",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 6,
+                      "c": "編成の最適化"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-805e-a75f-cad4624a168e": {
+      "value": {
+        "id": "2e23b07c-81ff-805e-a75f-cad4624a168e",
+        "version": 4,
+        "type": "sub_sub_header",
+        "properties": {
+          "title": [
+            [
+              "その他"
+            ]
+          ]
+        },
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e23b07c-81ff-8039-9231-e0287d7560b6",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096226,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e23b07c-81ff-8039-9231-e0287d7560b6",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "-8L6JwlhdnRbmGWssw7r4g,\"start\",\"end\"",
+            "n": {
+              "-8L6JwlhdnRbmGWssw7r4g,\"start\",\"end\"": {
+                "s": {
+                  "x": "-8L6JwlhdnRbmGWssw7r4g",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "jVxbbjKHlbKb",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 3,
+                      "c": "その他"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
+    "2e23b07c-81ff-806c-8e4e-d1afa61803f7": {
+      "value": {
+        "id": "2e23b07c-81ff-806c-8e4e-d1afa61803f7",
+        "version": 3,
+        "type": "divider",
+        "format": {
+          "copied_from_pointer": {
+            "id": "2e23b07c-81ff-80a9-9178-f5fe42ab2a30",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          }
+        },
+        "created_time": 1767861096227,
+        "last_edited_time": 1767861096242,
+        "parent_id": "2e23b07c-81ff-80d1-8c47-e84f187eedfa",
+        "parent_table": "block",
+        "alive": true,
+        "copied_from": "2e23b07c-81ff-80a9-9178-f5fe42ab2a30",
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "dGvsiznlkc3ZOEwe3JOXLg,\"start\",\"end\"",
+            "n": {
+              "dGvsiznlkc3ZOEwe3JOXLg,\"start\",\"end\"": {
+                "s": {
+                  "x": "dGvsiznlkc3ZOEwe3JOXLg",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
+      },
+      "role": "reader"
+    },
     "2e23b07c-81ff-804d-b5b5-dbb8085be6f0": {
       "value": {
         "id": "2e23b07c-81ff-804d-b5b5-dbb8085be6f0",
@@ -4965,7 +4965,7 @@
     "2e03b07c-81ff-8072-8667-cee40b433efb": {
       "value": {
         "id": "2e03b07c-81ff-8072-8667-cee40b433efb",
-        "version": 240,
+        "version": 251,
         "type": "page",
         "properties": {
           "title": [
@@ -5058,7 +5058,7 @@
           "social_media_image_preview_url": "attachment:fdb0dedc-8ce1-446e-b87c-a8ed51596738:SocialMediaPreviewImage.png"
         },
         "created_time": 1767713627681,
-        "last_edited_time": 1767850823479,
+        "last_edited_time": 1770991794487,
         "parent_id": "2573b07c-81ff-8076-8c97-c512393c2dc8",
         "parent_table": "block",
         "alive": true,

@@ -234,7 +234,7 @@
     "1ca3b07c-81ff-805b-ac89-cfc3f70c9828": {
       "value": {
         "id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
-        "version": 52,
+        "version": 56,
         "type": "collection_view_page",
         "view_ids": [
           "1ca3b07c-81ff-8093-aca5-000c02c824d8"
@@ -255,7 +255,7 @@
           ]
         },
         "created_time": 1743690486831,
-        "last_edited_time": 1763704471949,
+        "last_edited_time": 1766741606688,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -289,9 +289,14 @@
     "1c83b07c-81ff-800b-a0c3-f295d7423d6d": {
       "value": {
         "id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
-        "version": 133,
+        "version": 154,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "materials"
+            ]
+          ],
           "title": [
             [
               "資料"
@@ -312,7 +317,7 @@
           "social_media_image_preview_url": "attachment:13186f52-3bbe-470d-99a7-65a6b386b0e8:SocialMediaPreviewImage.png"
         },
         "created_time": 1743511811402,
-        "last_edited_time": 1760180220662,
+        "last_edited_time": 1770716142076,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -573,7 +578,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -603,20 +608,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -628,7 +627,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -651,7 +650,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -660,7 +659,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -682,8 +682,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -1542,9 +1580,14 @@
     "25e3b07c-81ff-8012-99ca-ca95556f12b7": {
       "value": {
         "id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
-        "version": 55,
+        "version": 86,
         "type": "collection_view_page",
         "content": [
+          "3003b07c-81ff-8034-b567-ee2eb9cdcfdc",
+          "3003b07c-81ff-8052-b50a-d5ca6c3331d8",
+          "3003b07c-81ff-801b-9898-ee322d99fb5c",
+          "3003b07c-81ff-80bc-bac0-daca3d8d7aed",
+          "2b93b07c-81ff-80b1-ad37-c5579ae66e94",
           "25e3b07c-81ff-8016-a529-d055498f8ef2"
         ],
         "view_ids": [
@@ -1566,7 +1609,7 @@
           ]
         },
         "created_time": 1756447751831,
-        "last_edited_time": 1763703684275,
+        "last_edited_time": 1770468908214,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -1602,7 +1645,7 @@
     "1ca3b07c-81ff-8084-90ac-000b2b28ae0f": {
       "value": {
         "id": "1ca3b07c-81ff-8084-90ac-000b2b28ae0f",
-        "version": 20,
+        "version": 23,
         "name": [
           [
             "装備"
@@ -1611,10 +1654,6 @@
         "schema": {
           ";yc\\": {
             "name": "実装日",
-            "type": "text"
-          },
-          "IxYo": {
-            "name": "分類",
             "type": "text"
           },
           "^UL:": {
@@ -1683,6 +1722,11 @@
           }
         },
         "format": {
+          "metadata_copied_from": {
+            "id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
           "ai_suggested_properties": [
             {
               "name": "装備タイプ",
@@ -1766,11 +1810,21 @@
         "migrated": true,
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "deleted_schema": {
+          "IxYo": {
+            "name": "分類",
+            "type": "text"
+          },
           "}d?V": {
             "name": "記録",
             "type": "text"
           }
-        }
+        },
+        "created_time": 1743690486831,
+        "last_edited_time": 1764306901483,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
       "role": "reader"
     },
@@ -1947,17 +2001,92 @@
     "25e3b07c-81ff-8056-a91b-000b47c2690f": {
       "value": {
         "id": "25e3b07c-81ff-8056-a91b-000b47c2690f",
-        "version": 37,
+        "version": 47,
         "name": [
           [
             "看板娘"
           ]
         ],
         "schema": {
+          "^;~U": {
+            "name": "Slug",
+            "type": "text",
+            "description": ""
+          },
           "title": {
             "name": "名前",
             "type": "title"
           }
+        },
+        "format": {
+          "property_visibility": [
+            {
+              "property": "^;~U",
+              "visibility": "show"
+            }
+          ],
+          "metadata_copied_from": {
+            "id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "年齢",
+              "type": "number"
+            },
+            {
+              "name": "性別",
+              "type": "select",
+              "options": [
+                {
+                  "id": "=Yyp",
+                  "color": "gray",
+                  "value": "男性"
+                },
+                {
+                  "id": "JosT",
+                  "color": "red",
+                  "value": "女性"
+                },
+                {
+                  "id": "OUmN",
+                  "color": "purple",
+                  "value": "その他"
+                }
+              ]
+            },
+            {
+              "name": "趣味",
+              "type": "multi_select",
+              "options": [
+                {
+                  "id": "dPcC",
+                  "color": "pink",
+                  "value": "アニメ"
+                },
+                {
+                  "id": "J^o[",
+                  "color": "purple",
+                  "value": "ゲーム"
+                },
+                {
+                  "id": "ULQO",
+                  "color": "yellow",
+                  "value": "音楽"
+                },
+                {
+                  "id": "_iU>",
+                  "color": "blue",
+                  "value": "読書"
+                }
+              ]
+            },
+            {
+              "name": "プロフィール画像",
+              "type": "file"
+            }
+          ]
         },
         "parent_id": "25e3b07c-81ff-8012-99ca-ca95556f12b7",
         "parent_table": "block",
@@ -2012,7 +2141,13 @@
             ],
             "defaultOption": "未着手"
           }
-        }
+        },
+        "created_time": 1756447751831,
+        "last_edited_time": 1764147807737,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
       "role": "reader"
     }
@@ -2021,7 +2156,7 @@
     "1ca3b07c-81ff-8093-aca5-000c02c824d8": {
       "value": {
         "id": "1ca3b07c-81ff-8093-aca5-000c02c824d8",
-        "version": 148,
+        "version": 156,
         "type": "gallery",
         "format": {
           "table_wrap": true,
@@ -2099,11 +2234,15 @@
           "2813b07c-81ff-80e1-ad5f-e36ce54041dd",
           "29d3b07c-81ff-804c-9bfb-f48293efe2e4",
           "2b23b07c-81ff-80c9-a4ee-d0ef44a6c7b1",
-          "2b23b07c-81ff-8091-81d2-c9358abc522b"
+          "2b23b07c-81ff-8091-81d2-c9358abc522b",
+          "2b93b07c-81ff-8040-82eb-c1a4675b7b06",
+          "2b93b07c-81ff-8063-8e60-f0dae3bafd05",
+          "2c03b07c-81ff-8000-bd60-de0f418d432e",
+          "2d53b07c-81ff-801b-8d45-ccd8fc6bd217"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "created_time": 1756373099431,
-        "last_edited_time": 1763704471949,
+        "last_edited_time": 1766741606688,
         "created_by_table": "notion_user",
         "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
@@ -2177,7 +2316,7 @@
     "25e3b07c-81ff-80a6-8d5d-000cfd50a16d": {
       "value": {
         "id": "25e3b07c-81ff-80a6-8d5d-000cfd50a16d",
-        "version": 155,
+        "version": 251,
         "type": "gallery",
         "format": {
           "table_wrap": true,
@@ -2216,18 +2355,23 @@
         "alive": true,
         "page_sort": [
           "25e3b07c-81ff-8004-802f-dcb19cde5460",
+          "2b93b07c-81ff-80c0-b7bc-f647578ac653",
           "25e3b07c-81ff-80bc-964c-cd1acb07d711",
           "25e3b07c-81ff-8068-ba2c-f9d4200ff658",
           "25e3b07c-81ff-8077-8378-c2c92e5767ca",
+          "3003b07c-81ff-80e1-9797-e156a00d1a93",
           "25e3b07c-81ff-8070-b26d-e5b33bab7774",
           "25e3b07c-81ff-8095-9f21-d3919d02ba60",
           "25e3b07c-81ff-8091-90ef-d11d0922c7be",
           "25e3b07c-81ff-8086-8167-f6bf023339a8",
           "25e3b07c-81ff-8061-8bca-de0796eda832",
+          "3003b07c-81ff-8037-b75b-d8b47b2c74c4",
           "2893b07c-81ff-80f1-b93f-c3be8cb14280",
           "25e3b07c-81ff-80df-b6f2-e8db695137be",
           "25e3b07c-81ff-80c6-ba14-f09986022e48",
           "26d3b07c-81ff-80a1-9184-c390d13443be",
+          "2db3b07c-81ff-80a3-bb74-dec5603d3373",
+          "3003b07c-81ff-808a-91ff-f64cef38d526",
           "25e3b07c-81ff-80c8-a0e9-ede4d91d2f8f",
           "25e3b07c-81ff-806d-b2b5-f53ac812dabc",
           "25e3b07c-81ff-8049-9618-e15920c54158",
@@ -2241,29 +2385,39 @@
           "25e3b07c-81ff-80ed-9afd-e2d9c94f5305",
           "25e3b07c-81ff-8064-ad08-c48480ea28f5",
           "27a3b07c-81ff-80ea-b5ff-dcc0b5054793",
+          "2813b07c-81ff-8082-86d9-c743a65e2d7c",
           "25e3b07c-81ff-8027-991d-edc0465fa0cc",
+          "2b93b07c-81ff-80e2-9ca0-daed526056c2",
+          "2d53b07c-81ff-801c-ad0a-dc4da8f59276",
           "25e3b07c-81ff-804d-9d15-d5520d5f298e",
           "25e3b07c-81ff-8024-ae0d-d1571749de17",
           "25e3b07c-81ff-806f-b224-eef179887dbb",
+          "3003b07c-81ff-80e7-bc18-f45e659f85c4",
           "25e3b07c-81ff-8043-8fac-d178348244b8",
           "25e3b07c-81ff-8079-ba37-cc5a98626baf",
           "25e3b07c-81ff-80e8-aca9-f053c4584a0a",
           "25e3b07c-81ff-80d1-be99-c38cbd2b9600",
           "25e3b07c-81ff-80cc-a4bd-c87bc27c3e1c",
           "25e3b07c-81ff-8033-b2cd-ecfcdf12900e",
+          "2b23b07c-81ff-809c-b2b1-d498e747677e",
+          "2d43b07c-81ff-806a-a8d1-d000ddc130d5",
+          "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
+          "29d3b07c-81ff-80f2-9c48-d67e2eae6a3f",
+          "2813b07c-81ff-8043-a0ff-c26be81cb208",
           "25e3b07c-81ff-803e-ad37-fbc6a9f7688f",
           "25e3b07c-81ff-80ae-b03e-ebb0bec98517",
-          "27a3b07c-81ff-80ba-b060-db7af8e5eb2f",
           "25e3b07c-81ff-8054-9f66-cd8456080a69",
           "25e3b07c-81ff-809a-ad94-c4399f89aad7",
           "25e3b07c-81ff-8052-8af9-e097e59dc856",
+          "2b93b07c-81ff-80cc-975c-d860a8bf0174",
+          "2b93b07c-81ff-80fb-8fef-e7d1bf114871",
+          "2b93b07c-81ff-808a-b712-fb67676e0cac",
+          "2b93b07c-81ff-805a-96ce-e83d54e473c7",
           "25e3b07c-81ff-80f5-91c9-e6f724b43e19",
+          "2c03b07c-81ff-80b9-85e6-f71a180d87e8",
           "2793b07c-81ff-80e8-8f3b-effe8d59027b",
-          "2813b07c-81ff-8082-86d9-c743a65e2d7c",
-          "2813b07c-81ff-8043-a0ff-c26be81cb208",
-          "29d3b07c-81ff-80f2-9c48-d67e2eae6a3f",
-          "2b23b07c-81ff-809c-b2b1-d498e747677e",
           "25e3b07c-81ff-8040-a8d4-c61a3c357eb2",
+          "2d43b07c-81ff-8057-bab7-d5cf342dabfd",
           "25e3b07c-81ff-809a-9ff7-c176b1405d43",
           "25e3b07c-81ff-8059-beb3-eb832e0d36ca",
           "25e3b07c-81ff-8055-803b-fc0b0e0513d3",
@@ -2278,7 +2432,7 @@
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "created_time": 1760176855849,
-        "last_edited_time": 1763703688216,
+        "last_edited_time": 1770468937638,
         "created_by_table": "notion_user",
         "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
@@ -2335,6 +2489,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2583b07c-81ff-80c5-b063-cd23b19baee7": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/61170f1e-71f9-4ea0-b020-a111dc464657/2025-08-29_18-35-44.png?table=block&id=2583b07c-81ff-80c5-b063-cd23b19baee7&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=Yp4RBBi1HjG81IjFKQDjFXGyS9Y__BXkesamzYmLlP8"
+    "2583b07c-81ff-80c5-b063-cd23b19baee7": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/61170f1e-71f9-4ea0-b020-a111dc464657/2025-08-29_18-35-44.png?table=block&id=2583b07c-81ff-80c5-b063-cd23b19baee7&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=n28w__81yMLVpYTRNCM3hBqLDG6vNSj8odqOmcqC3RA"
   }
 }

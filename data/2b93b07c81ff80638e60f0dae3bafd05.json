@@ -46,7 +46,7 @@
     "1ca3b07c-81ff-805b-ac89-cfc3f70c9828": {
       "value": {
         "id": "1ca3b07c-81ff-805b-ac89-cfc3f70c9828",
-        "version": 54,
+        "version": 56,
         "type": "collection_view_page",
         "view_ids": [
           "1ca3b07c-81ff-8093-aca5-000c02c824d8"
@@ -67,7 +67,7 @@
           ]
         },
         "created_time": 1743690486831,
-        "last_edited_time": 1764306901483,
+        "last_edited_time": 1766741606688,
         "parent_id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
         "parent_table": "block",
         "alive": true,
@@ -101,7 +101,7 @@
     "1c83b07c-81ff-800b-a0c3-f295d7423d6d": {
       "value": {
         "id": "1c83b07c-81ff-800b-a0c3-f295d7423d6d",
-        "version": 151,
+        "version": 154,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -129,7 +129,7 @@
           "social_media_image_preview_url": "attachment:13186f52-3bbe-470d-99a7-65a6b386b0e8:SocialMediaPreviewImage.png"
         },
         "created_time": 1743511811402,
-        "last_edited_time": 1764148075454,
+        "last_edited_time": 1770716142076,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -390,7 +390,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 356,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -462,7 +462,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764247209474,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -1147,7 +1147,7 @@
     "1ca3b07c-81ff-8093-aca5-000c02c824d8": {
       "value": {
         "id": "1ca3b07c-81ff-8093-aca5-000c02c824d8",
-        "version": 152,
+        "version": 156,
         "type": "gallery",
         "format": {
           "table_wrap": true,
@@ -1227,11 +1227,13 @@
           "2b23b07c-81ff-80c9-a4ee-d0ef44a6c7b1",
           "2b23b07c-81ff-8091-81d2-c9358abc522b",
           "2b93b07c-81ff-8040-82eb-c1a4675b7b06",
-          "2b93b07c-81ff-8063-8e60-f0dae3bafd05"
+          "2b93b07c-81ff-8063-8e60-f0dae3bafd05",
+          "2c03b07c-81ff-8000-bd60-de0f418d432e",
+          "2d53b07c-81ff-801b-8d45-ccd8fc6bd217"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "created_time": 1756373099431,
-        "last_edited_time": 1764306945987,
+        "last_edited_time": 1766741606688,
         "created_by_table": "notion_user",
         "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
@@ -1353,6 +1355,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "2b93b07c-81ff-8093-b1f3-e7d02cea7eb4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/92b5b56f-3a22-4011-b782-98454a73ae17/2025-11-28_14-13-09.png?table=block&id=2b93b07c-81ff-8093-b1f3-e7d02cea7eb4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764338400000&signature=ruV1BuYng_OLlRDL-WqxpmCbEsEoWOhUh6580X1rFvM"
+    "2b93b07c-81ff-8093-b1f3-e7d02cea7eb4": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/92b5b56f-3a22-4011-b782-98454a73ae17/2025-11-28_14-13-09.png?table=block&id=2b93b07c-81ff-8093-b1f3-e7d02cea7eb4&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=4KSbAcoRHh2bd3o899KYK2bkUtG6pq6ZMVAihs71Anw"
   }
 }

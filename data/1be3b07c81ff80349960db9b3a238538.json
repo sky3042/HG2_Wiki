@@ -78,7 +78,7 @@
     "1ac3b07c-81ff-80ad-9d61-ef632d261b8f": {
       "value": {
         "id": "1ac3b07c-81ff-80ad-9d61-ef632d261b8f",
-        "version": 1790,
+        "version": 1796,
         "type": "page",
         "properties": {
           "t~Sf": [
@@ -158,6 +158,8 @@
           "1bc3b07c-81ff-8024-a546-ea0e68ada392",
           "2e53b07c-81ff-80fb-ae9c-d4af89dc3526",
           "27c3b07c-81ff-80c9-a122-c119bfdb1420",
+          "27c3b07c-81ff-80a7-a54a-c53187756c66",
+          "27c3b07c-81ff-8059-bd22-d8cc2599ca76",
           "1bd3b07c-81ff-8087-9377-facf462a212f",
           "27c3b07c-81ff-8034-9b22-d7dff6ffb76c",
           "27c3b07c-81ff-8094-ac21-c90878468737",
@@ -252,8 +254,6 @@
           "1bf3b07c-81ff-80b8-a77c-e758620accbc",
           "1bf3b07c-81ff-80f9-a6c8-c33a80623855",
           "27c3b07c-81ff-8018-b7ee-ff527105ae45",
-          "27c3b07c-81ff-80a7-a54a-c53187756c66",
-          "27c3b07c-81ff-8059-bd22-d8cc2599ca76",
           "27c3b07c-81ff-80fd-a9c6-f09fd21b17fd",
           "27c3b07c-81ff-801b-b9c2-df19d63f2027",
           "27c3b07c-81ff-8042-a1f7-ed0bae0397b3",
@@ -277,7 +277,7 @@
           "page_cover_position": 0.3398
         },
         "created_time": 1741119040148,
-        "last_edited_time": 1768123006610,
+        "last_edited_time": 1770782299520,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -380,7 +380,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 356,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -452,7 +452,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764247209474,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -782,7 +782,7 @@
     "1be3b07c-81ff-806c-a4b3-efa228ddf4a0": {
       "value": {
         "id": "1be3b07c-81ff-806c-a4b3-efa228ddf4a0",
-        "version": 6,
+        "version": 7,
         "type": "text",
         "properties": {
           "title": [
@@ -804,7 +804,40 @@
         "parent_table": "block",
         "alive": true,
         "copied_from": "1be3b07c-81ff-805f-8fc9-d9a068bb1f74",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "k2qMSTaoa_7F4vJGnHzonw,\"start\",\"end\"",
+            "n": {
+              "k2qMSTaoa_7F4vJGnHzonw,\"start\",\"end\"": {
+                "s": {
+                  "x": "k2qMSTaoa_7F4vJGnHzonw",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "RmviUTVDGmYy",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 17,
+                      "c": "彼女の兄は議会で重要な立場にいる。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
@@ -856,7 +889,7 @@
     "1c03b07c-81ff-80e2-80ad-ede0f5ba4480": {
       "value": {
         "id": "1c03b07c-81ff-80e2-80ad-ede0f5ba4480",
-        "version": 13,
+        "version": 14,
         "type": "text",
         "properties": {
           "title": [
@@ -891,14 +924,146 @@
         "parent_id": "1be3b07c-81ff-8034-9960-db9b3a238538",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "XNpdye0Al0X24_t0w6_uBQ,\"start\",\"end\"",
+            "n": {
+              "XNpdye0Al0X24_t0w6_uBQ,\"start\",\"end\"": {
+                "s": {
+                  "x": "XNpdye0Al0X24_t0w6_uBQ",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "l9aJ44sgE8fK",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 5,
+                      "c": "ラヴィニア",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "XNpdye0Al0X24_t0w6_uBQ",
+                          "l": "",
+                          "i": [
+                            "l9aJ44sgE8fK",
+                            49
+                          ],
+                          "s": {
+                            "i": [
+                              "l9aJ44sgE8fK",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "l9aJ44sgE8fK",
+                              5
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bd3b07c81ff800caf8df5dc559f3811?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "l9aJ44sgE8fK",
+                        6
+                      ],
+                      "o": [
+                        "l9aJ44sgE8fK",
+                        5
+                      ],
+                      "l": 23,
+                      "c": "を非常に崇拝している。彼女の死後、戦意を失い、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "l9aJ44sgE8fK",
+                        29
+                      ],
+                      "o": [
+                        "l9aJ44sgE8fK",
+                        28
+                      ],
+                      "l": 10,
+                      "c": "スキタイエクスプレス",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "XNpdye0Al0X24_t0w6_uBQ",
+                          "l": "",
+                          "i": [
+                            "l9aJ44sgE8fK",
+                            50
+                          ],
+                          "s": {
+                            "i": [
+                              "l9aJ44sgE8fK",
+                              29
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "l9aJ44sgE8fK",
+                              38
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bf3b07c81ff80639043f20e5753a572?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "l9aJ44sgE8fK",
+                        39
+                      ],
+                      "o": [
+                        "l9aJ44sgE8fK",
+                        38
+                      ],
+                      "l": 10,
+                      "c": "のリーダーとなった。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1c03b07c-81ff-80c3-be2e-d67798c6130a": {
       "value": {
         "id": "1c03b07c-81ff-80c3-be2e-d67798c6130a",
-        "version": 8,
+        "version": 9,
         "type": "text",
         "properties": {
           "title": [
@@ -912,14 +1077,47 @@
         "parent_id": "1be3b07c-81ff-8034-9960-db9b3a238538",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "GkvWxMAJ6b-WfNhbpXOx-A,\"start\",\"end\"",
+            "n": {
+              "GkvWxMAJ6b-WfNhbpXOx-A,\"start\",\"end\"": {
+                "s": {
+                  "x": "GkvWxMAJ6b-WfNhbpXOx-A",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "RBTub1dzya_i",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 68,
+                      "c": "戦場を離れてからは、より虚無感を感じるようになったが、職務を放棄して南方軍人の名誉を汚すことは望まず、盛大な陰謀の中で死ぬことを望んだ。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1c03b07c-81ff-8043-a2b5-dab1f1e8a69b": {
       "value": {
         "id": "1c03b07c-81ff-8043-a2b5-dab1f1e8a69b",
-        "version": 33,
+        "version": 34,
         "type": "text",
         "properties": {
           "title": [
@@ -954,14 +1152,146 @@
         "parent_id": "1be3b07c-81ff-8034-9960-db9b3a238538",
         "parent_table": "block",
         "alive": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "NICpKikunAkRJ1PaZbbt3w,\"start\",\"end\"",
+            "n": {
+              "NICpKikunAkRJ1PaZbbt3w,\"start\",\"end\"": {
+                "s": {
+                  "x": "NICpKikunAkRJ1PaZbbt3w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "vDAlycAuETXr",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 4,
+                      "c": "シャラハ",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "NICpKikunAkRJ1PaZbbt3w",
+                          "l": "",
+                          "i": [
+                            "vDAlycAuETXr",
+                            79
+                          ],
+                          "s": {
+                            "i": [
+                              "vDAlycAuETXr",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "vDAlycAuETXr",
+                              4
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bd3b07c81ff80c5acdbe05953c7d3c2?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "vDAlycAuETXr",
+                        5
+                      ],
+                      "o": [
+                        "vDAlycAuETXr",
+                        4
+                      ],
+                      "l": 37,
+                      "c": "の行動の中に、自身を奮い立たせる執念を感じ、背後関係の存在に気づいたため、"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "vDAlycAuETXr",
+                        42
+                      ],
+                      "o": [
+                        "vDAlycAuETXr",
+                        41
+                      ],
+                      "l": 4,
+                      "c": "シャラハ",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "NICpKikunAkRJ1PaZbbt3w",
+                          "l": "",
+                          "i": [
+                            "vDAlycAuETXr",
+                            80
+                          ],
+                          "s": {
+                            "i": [
+                              "vDAlycAuETXr",
+                              42
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "vDAlycAuETXr",
+                              45
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bd3b07c81ff80c5acdbe05953c7d3c2?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "vDAlycAuETXr",
+                        46
+                      ],
+                      "o": [
+                        "vDAlycAuETXr",
+                        45
+                      ],
+                      "l": 33,
+                      "c": "に敗れた後、暗黙のうちに彼女の最終計画に協力し、最終的に死亡した。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
     "1ad3b07c-81ff-8053-93aa-dd1cafe60284": {
       "value": {
         "id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
-        "version": 70,
+        "version": 72,
         "type": "page",
         "properties": {
           "title": [
@@ -981,7 +1311,8 @@
           "1c03b07c-81ff-80f0-8a19-d8ec1a55a74c",
           "1c03b07c-81ff-80d0-9b6b-f10b40a2bc9b",
           "1c03b07c-81ff-8017-be4d-fbcf986e452f",
-          "1c03b07c-81ff-8007-82c5-e2804e0f9449"
+          "1c03b07c-81ff-8007-82c5-e2804e0f9449",
+          "2f53b07c-81ff-80f6-8832-ef760433bd84"
         ],
         "format": {
           "copied_from_pointer": {
@@ -991,7 +1322,7 @@
           }
         },
         "created_time": 1741141968528,
-        "last_edited_time": 1760431440298,
+        "last_edited_time": 1769502598689,
         "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
         "parent_table": "block",
         "alive": true,
@@ -1696,6 +2027,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "1bf3b07c-81ff-8002-805b-d8ff7c4b7e9f": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/40c00df4-7625-4d54-891c-40316342b8b2/760ca1e5gy1hpsbc9mckvj20m80m8kcu.jpg?table=block&id=1bf3b07c-81ff-8002-805b-d8ff7c4b7e9f&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1768183200000&signature=i8FdSszcQTED08A3Bbha1gEdNuUgA7fbzjr-hgQ5j30"
+    "1bf3b07c-81ff-8002-805b-d8ff7c4b7e9f": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/40c00df4-7625-4d54-891c-40316342b8b2/760ca1e5gy1hpsbc9mckvj20m80m8kcu.jpg?table=block&id=1bf3b07c-81ff-8002-805b-d8ff7c4b7e9f&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=_ZW1tpd4GUfmXbvHhPDaWpZ3d4Ldv8wxOaPGJ9oUvEE"
   }
 }

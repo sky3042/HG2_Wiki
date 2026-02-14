@@ -52,8 +52,35 @@ async function main() {
       try {
         // Notionから最新データを取得
         const recordMap = await notion.getPage(pageId);
+
+        // ▼▼▼ 修正ロジック（ここへ移動しました） ▼▼▼
+        // データを保存する前に、必ず構造をチェックして修正する
+        if (recordMap.block) {
+          for (const key in recordMap.block) {
+            const block = recordMap.block[key];
+
+            // 安全チェック
+            if (!block || !block.value) continue;
+
+            // 二重ラップ（value.value）を検知する
+            const innerValue = (block.value as any).value;
+
+            if (innerValue) {
+              console.log(`⚠️ DETECTED double nesting in block: ${key}`);
+              
+              // 修正を実行
+              block.value = innerValue;
+              
+              // 修正できたか確認
+              if ((block.value as any).id === innerValue.id) {
+                 // console.log(`   -> ✅ Fixed successfully.`); // ログが多すぎる場合はコメントアウト
+              }
+            }
+          }
+        }
+        // ▲▲▲ 修正ロジック終了 ▲▲▲
         
-        // ブロック情報の取得
+        // ブロック情報の取得（修正後のデータを使う）
         const block = recordMap.block[pageId]?.value;
         const title = block 
           ? (getBlockTitle(block, recordMap) || 'Untitled') 
@@ -80,28 +107,13 @@ async function main() {
 
             // タイムスタンプが同じなら保存しない（スキップ）
             if (oldTime === newTime) {
-                // process.stdout.write('.'); // 進捗表示（省略可）
                 skippedPages.push(title);
-                return recordMap; // 保存せずにメモリ上のデータだけ返す
+                return recordMap; 
             }
         }
 
         // 変更あり -> 保存
         console.log(`🔄 Updated: "${title}"`);
-
-        // ▼▼▼ 修正版コード（ここを書き換えてください） ▼▼▼
-        if (recordMap.block) {
-          for (const key in recordMap.block) {
-            const block = recordMap.block[key];
-            // block が存在することを確認してから中身にアクセスする
-            if (block && block.value && (block.value as any).value) {
-              // 余計な value ラッパーを剥がして、中身を直接代入する
-              block.value = (block.value as any).value;
-            }
-          }
-        }
-        // ▲▲▲ 修正版コード ▲▲▲
-
         fs.writeFileSync(filePath, JSON.stringify(recordMap, null, 2));
         updatedPages.push(title);
         

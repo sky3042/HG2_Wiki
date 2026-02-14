@@ -209,7 +209,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 356,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -281,7 +281,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764247209474,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -2230,7 +2230,7 @@
     "1ad3b07c-81ff-8053-93aa-dd1cafe60284": {
       "value": {
         "id": "1ad3b07c-81ff-8053-93aa-dd1cafe60284",
-        "version": 70,
+        "version": 72,
         "type": "page",
         "properties": {
           "title": [
@@ -2250,7 +2250,8 @@
           "1c03b07c-81ff-80f0-8a19-d8ec1a55a74c",
           "1c03b07c-81ff-80d0-9b6b-f10b40a2bc9b",
           "1c03b07c-81ff-8017-be4d-fbcf986e452f",
-          "1c03b07c-81ff-8007-82c5-e2804e0f9449"
+          "1c03b07c-81ff-8007-82c5-e2804e0f9449",
+          "2f53b07c-81ff-80f6-8832-ef760433bd84"
         ],
         "format": {
           "copied_from_pointer": {
@@ -2260,7 +2261,7 @@
           }
         },
         "created_time": 1741141968528,
-        "last_edited_time": 1760431440298,
+        "last_edited_time": 1769502598689,
         "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
         "parent_table": "block",
         "alive": true,
@@ -2388,7 +2389,7 @@
     "1ad3b07c-81ff-80c6-b3cd-e526c6aa90cc": {
       "value": {
         "id": "1ad3b07c-81ff-80c6-b3cd-e526c6aa90cc",
-        "version": 42,
+        "version": 52,
         "type": "page",
         "properties": {
           "title": [
@@ -2398,8 +2399,7 @@
           ]
         },
         "content": [
-          "27b3b07c-81ff-80d1-b826-d2f558cee42d",
-          "1ad3b07c-81ff-8054-b3b7-e721d2067088",
+          "2e53b07c-81ff-80f0-b54c-ea0e107f84f2",
           "1ad3b07c-81ff-8057-8c21-c570e4e14fb9",
           "1c03b07c-81ff-8098-ad3e-cd7a89fcbf31",
           "1c03b07c-81ff-80cd-be40-fe12f49b7bfa",
@@ -2413,7 +2413,7 @@
           }
         },
         "created_time": 1741141968528,
-        "last_edited_time": 1758965288491,
+        "last_edited_time": 1768120462478,
         "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
         "parent_table": "block",
         "alive": true,
@@ -2518,7 +2518,7 @@
     "1b83b07c-81ff-80ef-a764-f911e40e98b1": {
       "value": {
         "id": "1b83b07c-81ff-80ef-a764-f911e40e98b1",
-        "version": 39,
+        "version": 40,
         "type": "page",
         "properties": {
           "title": [
@@ -2535,7 +2535,7 @@
           "1c03b07c-81ff-80f2-8bca-fac115601dba"
         ],
         "created_time": 1742158366217,
-        "last_edited_time": 1742901183373,
+        "last_edited_time": 1765073331518,
         "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
         "parent_table": "block",
         "alive": true,
@@ -3289,12 +3289,12 @@
     "27c3b07c-81ff-80c2-9c65-edb134e6ea3f": {
       "value": {
         "id": "27c3b07c-81ff-80c2-9c65-edb134e6ea3f",
-        "version": 46,
+        "version": 54,
         "type": "page",
         "properties": {
           "title": [
             [
-              "ホトトギス傭兵団"
+              "ツツジ（ホトトギス）傭兵団"
             ]
           ]
         },
@@ -3309,15 +3309,16 @@
           "2b13b07c-81ff-808a-981c-c83c4524216e"
         ],
         "format": {
-          "social_media_image_preview_url": "attachment:8d1264f9-fb1f-47ec-bb6e-c1a54ce2a91b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:58361395-e26b-439f-8b72-550401bf1be7:SocialMediaPreviewImage.png"
         },
         "created_time": 1759057770393,
-        "last_edited_time": 1763623383020,
+        "last_edited_time": 1768122207014,
         "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
         "parent_table": "block",
         "alive": true,
         "file_ids": [
-          "8d1264f9-fb1f-47ec-bb6e-c1a54ce2a91b"
+          "8d1264f9-fb1f-47ec-bb6e-c1a54ce2a91b",
+          "58361395-e26b-439f-8b72-550401bf1be7"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -3335,12 +3336,21 @@
                     {
                       "t": "t",
                       "i": [
+                        "e76SaE2qFSKe",
+                        9
+                      ],
+                      "o": "start",
+                      "l": 13,
+                      "c": "ツツジ（ホトトギス）傭兵団"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
                         "HW4n_RbwyQ76",
                         1
                       ],
                       "o": "start",
-                      "l": 8,
-                      "c": "ホトトギス傭兵団"
+                      "l": -8
                     },
                     {
                       "t": "e"
@@ -3672,7 +3682,7 @@
     "1ad3b07c-81ff-8021-b8dc-e3d75b522904": {
       "value": {
         "id": "1ad3b07c-81ff-8021-b8dc-e3d75b522904",
-        "version": 59,
+        "version": 66,
         "type": "page",
         "properties": {
           "title": [
@@ -3690,7 +3700,8 @@
           "1c03b07c-81ff-808d-b880-de99d2b7eec5",
           "1c03b07c-81ff-8038-9f48-df9de0ddb7d3",
           "1c03b07c-81ff-80d2-9af0-e770483aa843",
-          "27d3b07c-81ff-8030-83eb-dd2a0a9fa53f"
+          "2e53b07c-81ff-808b-a240-ce1f6326d12e",
+          "2e53b07c-81ff-803f-a551-cef5b20ec4f9"
         ],
         "format": {
           "copied_from_pointer": {
@@ -3700,7 +3711,7 @@
           }
         },
         "created_time": 1741141968529,
-        "last_edited_time": 1759138910271,
+        "last_edited_time": 1768117620011,
         "parent_id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
         "parent_table": "block",
         "alive": true,
@@ -4299,7 +4310,7 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "1ad3b07c-81ff-80e4-8271-c7f781e181c3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/58b38835-b3fa-40ec-aed7-324cfb602cc4/スクリーンショット_2025-04-25_043543.png?table=block&id=1ad3b07c-81ff-80e4-8271-c7f781e181c3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764468000000&signature=fRDlEcMpljgmAju5lTTNXL36SZGHHFY-Tj85Th56Urg",
-    "28f3b07c-81ff-8088-86f4-f50d66e82b31": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f851a34a-942a-451e-be0f-95bf47dfc590/スクリーンショット_(413).png?table=block&id=28f3b07c-81ff-8088-86f4-f50d66e82b31&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1764468000000&signature=6j_xSghrwRAEktn1E5kI_g0Lu3z7dHYnmrY25l3bBj4"
+    "1ad3b07c-81ff-80e4-8271-c7f781e181c3": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/58b38835-b3fa-40ec-aed7-324cfb602cc4/スクリーンショット_2025-04-25_043543.png?table=block&id=1ad3b07c-81ff-80e4-8271-c7f781e181c3&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=C1o76vSQt5o1jUlQfiY15oQsFWpW2RNpY-vO-FDvePM",
+    "28f3b07c-81ff-8088-86f4-f50d66e82b31": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/f851a34a-942a-451e-be0f-95bf47dfc590/スクリーンショット_(413).png?table=block&id=28f3b07c-81ff-8088-86f4-f50d66e82b31&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=QX_wxXlJgg6PIXOw12UIlA9jWVoLC7TvAyuzXLynsxU"
   }
 }

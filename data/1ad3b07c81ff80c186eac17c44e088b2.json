@@ -73,9 +73,14 @@
     "1ad3b07c-81ff-80e4-8271-c7f781e181c3": {
       "value": {
         "id": "1ad3b07c-81ff-80e4-8271-c7f781e181c3",
-        "version": 407,
+        "version": 428,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "organization"
+            ]
+          ],
           "title": [
             [
               "派閥"
@@ -121,11 +126,11 @@
           "1bf3b07c-81ff-8084-9adb-d2af2b8c362d",
           "1bf3b07c-81ff-8063-9043-f20e5753a572",
           "1c03b07c-81ff-8047-be46-cb3e0b0e3f97",
+          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "27c3b07c-81ff-8096-8449-eff920b94b98",
           "27c3b07c-81ff-80c2-9c65-edb134e6ea3f",
           "27d3b07c-81ff-808c-9414-c30fd37c630f",
           "27d3b07c-81ff-8056-bba5-f0f0a21f324a",
-          "2b13b07c-81ff-80b0-a6d2-c5de5faf859c",
           "1c03b07c-81ff-80ff-84e2-fcf373444957",
           "1ad3b07c-81ff-8021-b8dc-e3d75b522904",
           "1bf3b07c-81ff-8080-b2e4-eba35337822a",
@@ -141,7 +146,7 @@
           "page_cover_position": 0.5
         },
         "created_time": 1741141291977,
-        "last_edited_time": 1763623466932,
+        "last_edited_time": 1764427847589,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -274,7 +279,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 341,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -304,20 +309,14 @@
           "1ac3b07c-81ff-806b-954d-e374dd80aaa6",
           "25e3b07c-81ff-8029-8c34-f5c8da01f230",
           "1b83b07c-81ff-80c4-b3ef-e093616890e5",
-          "1cd3b07c-81ff-8072-99ac-e4e1627d15d6",
-          "25e3b07c-81ff-80c5-a401-e8ccc3abe5ca",
-          "1c83b07c-81ff-80db-b21c-f216fe984cda",
           "1dc3b07c-81ff-8073-b8f4-ee5a0a18b2e1",
           "25e3b07c-81ff-807e-9816-e841c1e019fe",
           "1cd3b07c-81ff-80c4-956d-c5234f085fe0",
-          "1c83b07c-81ff-8067-b6e2-e73c87f7d3eb",
-          "1b63b07c-81ff-805b-8034-dd98cda27b8e",
-          "1c83b07c-81ff-80ba-9b0e-d88248245398",
           "2b33b07c-81ff-80f5-bf74-ffa6ce95b6c2"
         ],
         "format": {
           "site_id": "2573b07c-81ff-80ed-96cb-007912ddb61b",
-          "seo_title": "崩壊学園編 Wiki | Notion",
+          "seo_title": "崩壊学園編　ストーリー　Wiki | Notion",
           "page_cover": "attachment:d4c78f4a-1872-4d8a-836f-48abb3027e69:760ca1e5gy1hi33odeetvj21z4140u03.jpg",
           "block_locked": false,
           "block_locked_by": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
@@ -329,7 +328,7 @@
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
           "page_cover_position": 0.8137,
-          "social_media_image_preview_url": "attachment:d1263e4a-1f40-45da-8f32-ff552281384b:SocialMediaPreviewImage.png"
+          "social_media_image_preview_url": "attachment:48a41782-79c9-4c05-ba30-d07b9906cec8:SocialMediaPreviewImage.png"
         },
         "permissions": [
           {
@@ -352,7 +351,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1763788327954,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -361,7 +360,8 @@
           "5e7f42b0-a8d4-4c51-b59b-c95f4cf5420b",
           "d4c78f4a-1872-4d8a-836f-48abb3027e69",
           "8478f939-1500-4129-9378-6a582186c3c5",
-          "d1263e4a-1f40-45da-8f32-ff552281384b"
+          "d1263e4a-1f40-45da-8f32-ff552281384b",
+          "48a41782-79c9-4c05-ba30-d07b9906cec8"
         ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
@@ -383,8 +383,46 @@
                         1
                       ],
                       "o": "start",
-                      "l": 16,
-                      "c": "崩壊学園編 Wiki"
+                      "l": 5,
+                      "c": "崩壊学園編"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "0vvIQMdE1822",
+                        17
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": 1,
+                      "c": " "
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        6
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        5
+                      ],
+                      "l": -7
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "tRsnF-Odcc1s",
+                        13
+                      ],
+                      "o": [
+                        "tRsnF-Odcc1s",
+                        12
+                      ],
+                      "l": 4,
+                      "c": "Wiki"
                     },
                     {
                       "t": "e"
@@ -485,7 +523,7 @@
     "1ad3b07c-81ff-804f-a0b6-ea886a8845d6": {
       "value": {
         "id": "1ad3b07c-81ff-804f-a0b6-ea886a8845d6",
-        "version": 11,
+        "version": 12,
         "type": "text",
         "properties": {
           "title": [
@@ -516,7 +554,83 @@
         "parent_table": "block",
         "alive": true,
         "copied_from": "1413b07c-81ff-80a3-a5fe-dd66ee4859bd",
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "crdt_format_version": 1,
+        "crdt_data": {
+          "title": {
+            "r": "Y9HJloB2XdwUATvRW7ne_w,\"start\",\"end\"",
+            "n": {
+              "Y9HJloB2XdwUATvRW7ne_w,\"start\",\"end\"": {
+                "s": {
+                  "x": "Y9HJloB2XdwUATvRW7ne_w",
+                  "i": [
+                    {
+                      "t": "s"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "35nj8xWvoDKs",
+                        1
+                      ],
+                      "o": "start",
+                      "l": 7,
+                      "c": "ユカタン大死域",
+                      "b": [
+                        {
+                          "t": "a",
+                          "x": "Y9HJloB2XdwUATvRW7ne_w",
+                          "l": "",
+                          "i": [
+                            "35nj8xWvoDKs",
+                            22
+                          ],
+                          "s": {
+                            "i": [
+                              "35nj8xWvoDKs",
+                              1
+                            ],
+                            "a": "b"
+                          },
+                          "e": {
+                            "i": [
+                              "35nj8xWvoDKs",
+                              7
+                            ],
+                            "a": "a"
+                          },
+                          "a": [
+                            "a",
+                            "/1bc3b07c81ff80359544cfc5cdbd9e53?pvs=25"
+                          ]
+                        }
+                      ],
+                      "a": []
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "35nj8xWvoDKs",
+                        8
+                      ],
+                      "o": [
+                        "35nj8xWvoDKs",
+                        7
+                      ],
+                      "l": 14,
+                      "c": "により壊滅したとされている。"
+                    },
+                    {
+                      "t": "e"
+                    }
+                  ],
+                  "l": ""
+                },
+                "c": []
+              }
+            }
+          }
+        }
       },
       "role": "reader"
     },
@@ -1068,9 +1182,14 @@
     "1ad3b07c-81ff-809c-8204-e16483640fa5": {
       "value": {
         "id": "1ad3b07c-81ff-809c-8204-e16483640fa5",
-        "version": 299,
+        "version": 320,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "geography"
+            ]
+          ],
           "title": [
             [
               "地理"
@@ -1088,6 +1207,7 @@
           "1bc3b07c-81ff-80e0-862e-e6074a7650de",
           "1c03b07c-81ff-80c9-8a53-c308076fac2a",
           "1be3b07c-81ff-80b0-93ad-ca5008aef456",
+          "27c3b07c-81ff-8071-b3b5-ff823942edc9",
           "1c03b07c-81ff-80c8-91f3-cb3a047ee56b",
           "1c03b07c-81ff-807a-8a5e-c32346ae8444",
           "1c13b07c-81ff-80a7-a6f6-e93a2d42f709",
@@ -1099,7 +1219,6 @@
           "1c03b07c-81ff-80cc-9d28-db75f6142155",
           "1c03b07c-81ff-801c-81c2-c6e020c3d4ab",
           "1c03b07c-81ff-80a7-b53f-cd2c07636eb0",
-          "27c3b07c-81ff-8071-b3b5-ff823942edc9",
           "2b13b07c-81ff-80e9-bd7f-f3dd0855309a",
           "1c03b07c-81ff-8061-a8cf-d1d7adaff2d2",
           "1bc3b07c-81ff-8035-9544-cfc5cdbd9e53",
@@ -1115,7 +1234,7 @@
           "page_cover_position": 0.2338
         },
         "created_time": 1741142028871,
-        "last_edited_time": 1763623874273,
+        "last_edited_time": 1769502571448,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -1163,25 +1282,30 @@
     "2a03b07c-81ff-809f-842f-e5b1bd2b5351": {
       "value": {
         "id": "2a03b07c-81ff-809f-842f-e5b1bd2b5351",
-        "version": 32,
+        "version": 71,
         "type": "page",
         "properties": {
           "title": [
             [
-              "その他"
+              "その他考察"
             ]
           ]
         },
         "content": [
           "2a03b07c-81ff-80b7-bad5-ce92fb63f854",
           "2a03b07c-81ff-8065-9b96-dcc1f78480fe",
-          "2a03b07c-81ff-80a6-9bcd-f1aa3b45ec7d"
+          "2a03b07c-81ff-80a6-9bcd-f1aa3b45ec7d",
+          "1b63b07c-81ff-80a0-a0ff-f9031b89e7c7",
+          "2923b07c-81ff-809c-8087-d92611f42803",
+          "1b83b07c-81ff-8055-840c-c6c2fc35ca5a",
+          "1b63b07c-81ff-80a4-a47a-c01325dd88ba",
+          "2ba3b07c-81ff-8021-a59e-e48ae9916ca4"
         ],
         "format": {
           "social_media_image_preview_url": "attachment:d8525e73-44e3-4726-b57e-0ace33bc21f2:SocialMediaPreviewImage.png"
         },
         "created_time": 1762139217735,
-        "last_edited_time": 1762139287963,
+        "last_edited_time": 1764427685230,
         "parent_id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
         "parent_table": "collection",
         "alive": true,
@@ -1236,6 +1360,31 @@
                       ],
                       "l": 1,
                       "c": "他"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "uU0Su_GB9f_H",
+                        13
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        8
+                      ],
+                      "l": 2,
+                      "c": "考察"
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "uU0Su_GB9f_H",
+                        9
+                      ],
+                      "o": [
+                        "IwFjAigi3rGd",
+                        8
+                      ],
+                      "l": -4
                     },
                     {
                       "t": "t",
@@ -1308,7 +1457,7 @@
     "1ad3b07c-81ff-8049-a679-dee2753e730d": {
       "value": {
         "id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
-        "version": 70,
+        "version": 71,
         "type": "collection_view",
         "view_ids": [
           "1ad3b07c-81ff-808c-8d68-000c1a966362"
@@ -1323,7 +1472,7 @@
           "social_media_image_preview_url": "attachment:77ee58c3-eb3b-464f-91ec-260bc5a88966:SocialMediaPreviewImage.png"
         },
         "created_time": 1741139703841,
-        "last_edited_time": 1762139217746,
+        "last_edited_time": 1764148211020,
         "parent_id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
         "parent_table": "block",
         "alive": true,
@@ -1360,9 +1509,14 @@
     "1ac3b07c-81ff-8089-98b4-ec9f8c06db35": {
       "value": {
         "id": "1ac3b07c-81ff-8089-98b4-ec9f8c06db35",
-        "version": 106,
+        "version": 122,
         "type": "page",
         "properties": {
+          "t~Sf": [
+            [
+              "lore"
+            ]
+          ],
           "title": [
             [
               "考察"
@@ -1381,7 +1535,7 @@
           "social_media_image_preview_url": "attachment:8df55a7c-dc11-421a-ad46-8e12905aa7f2:SocialMediaPreviewImage.png"
         },
         "created_time": 1741119050032,
-        "last_edited_time": 1763354128830,
+        "last_edited_time": 1764148160955,
         "parent_id": "1ac3b07c-81ff-8086-a96b-000b78a078f2",
         "parent_table": "collection",
         "alive": true,
@@ -1605,7 +1759,7 @@
     "1ad3b07c-81ff-80f8-93e5-000baa1c67d4": {
       "value": {
         "id": "1ad3b07c-81ff-80f8-93e5-000baa1c67d4",
-        "version": 30,
+        "version": 32,
         "name": [
           [
             "考察"
@@ -1631,6 +1785,46 @@
             "table": "layout",
             "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
           },
+          "metadata_copied_from": {
+            "id": "1ad3b07c-81ff-8049-a679-dee2753e730d",
+            "table": "block",
+            "spaceId": "f25e8375-dff8-499a-b7bf-74566e1055df"
+          },
+          "ai_suggested_properties": [
+            {
+              "name": "説明",
+              "type": "text"
+            },
+            {
+              "name": "優先度",
+              "type": "select",
+              "options": [
+                {
+                  "id": "`xvK",
+                  "color": "yellow",
+                  "value": "高"
+                },
+                {
+                  "id": "F;c`",
+                  "color": "pink",
+                  "value": "中"
+                },
+                {
+                  "id": "\\iK_",
+                  "color": "red",
+                  "value": "低"
+                }
+              ]
+            },
+            {
+              "name": "担当者",
+              "type": "person"
+            },
+            {
+              "name": "締切日",
+              "type": "date"
+            }
+          ],
           "page_section_visibility": {
             "comments": "section_hide",
             "backlinks": "section_collapsed",
@@ -1651,7 +1845,13 @@
         "parent_table": "block",
         "alive": true,
         "migrated": true,
-        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df"
+        "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
+        "created_time": 1741139703841,
+        "last_edited_time": 1764148211020,
+        "created_by_table": "notion_user",
+        "created_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "4e3acacc-a0e3-4eec-9056-a8f06db6234a"
       },
       "role": "reader"
     }
@@ -1860,6 +2060,6 @@
   "notion_user": {},
   "collection_query": {},
   "signed_urls": {
-    "28c3b07c-81ff-805c-8472-d0cb3a16b203": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/584ab945-9afb-4086-a1af-0d61e175e702/image.png?table=block&id=28c3b07c-81ff-805c-8472-d0cb3a16b203&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1763827200000&signature=zftTbzL1OhEhFZn8ZGxytJ8CTmGsKZ0AM1draN6Yfzo"
+    "28c3b07c-81ff-805c-8472-d0cb3a16b203": "https://file.notion.so/f/f/f25e8375-dff8-499a-b7bf-74566e1055df/584ab945-9afb-4086-a1af-0d61e175e702/image.png?table=block&id=28c3b07c-81ff-805c-8472-d0cb3a16b203&spaceId=f25e8375-dff8-499a-b7bf-74566e1055df&expirationTimestamp=1771077600000&signature=PblO12r63cOdZjBbIc-0Sqz-DmmUUxUWx5KxXNVmLnk"
   }
 }

@@ -339,7 +339,7 @@
     "1ac3b07c-81ff-80d1-84a1-f564abe7fef3": {
       "value": {
         "id": "1ac3b07c-81ff-80d1-84a1-f564abe7fef3",
-        "version": 356,
+        "version": 361,
         "type": "page",
         "properties": {
           "mgJK": [
@@ -411,7 +411,7 @@
           }
         ],
         "created_time": 1741118997345,
-        "last_edited_time": 1764247209474,
+        "last_edited_time": 1770991794487,
         "parent_id": "a0dd7c4e-7ec8-4586-95da-f282fd0f7cba",
         "parent_table": "collection",
         "alive": true,
@@ -2025,12 +2025,12 @@
     "2e73b07c-81ff-809a-9b1e-cf197f025c10": {
       "value": {
         "id": "2e73b07c-81ff-809a-9b1e-cf197f025c10",
-        "version": 19,
+        "version": 24,
         "type": "page",
         "properties": {
           "title": [
             [
-              "巫静妃"
+              "静妃"
             ]
           ]
         },
@@ -2039,11 +2039,17 @@
           "2e73b07c-81ff-808a-882c-d1b0d0fb93a6",
           "2e73b07c-81ff-8045-8a9d-e1f00fcb9069"
         ],
+        "format": {
+          "social_media_image_preview_url": "attachment:6d71dd2b-b152-4c18-91c8-b7756ba98df1:SocialMediaPreviewImage.png"
+        },
         "created_time": 1768292142718,
-        "last_edited_time": 1768292351158,
+        "last_edited_time": 1769953756168,
         "parent_id": "2813b07c-81ff-805c-afb1-cb31163b9008",
         "parent_table": "block",
         "alive": true,
+        "file_ids": [
+          "6d71dd2b-b152-4c18-91c8-b7756ba98df1"
+        ],
         "space_id": "f25e8375-dff8-499a-b7bf-74566e1055df",
         "crdt_format_version": 1,
         "crdt_data": {
@@ -2064,8 +2070,20 @@
                         1
                       ],
                       "o": "start",
-                      "l": 3,
-                      "c": "巫静妃"
+                      "l": -1
+                    },
+                    {
+                      "t": "t",
+                      "i": [
+                        "fV187UVmScQR",
+                        2
+                      ],
+                      "o": [
+                        "fV187UVmScQR",
+                        1
+                      ],
+                      "l": 2,
+                      "c": "静妃"
                     },
                     {
                       "t": "e"
